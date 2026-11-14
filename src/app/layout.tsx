@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   description: "Sherins persönliches Türkisch-Notizbuch",
   robots: { index: false, follow: false, nocache: true, googleBot: { index: false, follow: false } },
   appleWebApp: { capable: true, title: "Türkçe", statusBarStyle: "default" },
+  icons: { apple: "/icons/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = {
