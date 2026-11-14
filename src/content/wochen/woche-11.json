@@ -1,0 +1,440 @@
+{
+  "woche": 11,
+  "lektionen": [
+    {
+      "woche": 11,
+      "tag": 1,
+      "titel": "Rechts, links, geradeaus",
+      "kannZiel": "einen einfachen Weg beschreiben",
+      "vokabeln": [
+        { "id": "w11-saga-don", "tr": "sağa dön", "de": "bieg rechts ab", "typ": "chunk", "beispiel": { "tr": "İkinci sokaktan sağa dön.", "de": "Bieg an der zweiten Straße rechts ab." } },
+        { "id": "w11-sola-don", "tr": "sola dön", "de": "bieg links ab", "typ": "chunk", "beispiel": { "tr": "Köşede sola dön.", "de": "Bieg an der Ecke links ab." } },
+        { "id": "w11-dumduz-git", "tr": "dümdüz git", "de": "geh geradeaus", "typ": "chunk", "beispiel": { "tr": "Dümdüz git, market solda.", "de": "Geh geradeaus, der Supermarkt ist links." } },
+        { "id": "w11-kose", "tr": "köşe", "de": "Ecke", "typ": "wort", "beispiel": { "tr": "Eczane köşede.", "de": "Die Apotheke ist an der Ecke." } },
+        { "id": "w11-karsi", "tr": "karşı", "de": "gegenüber", "typ": "wort", "beispiel": { "tr": "Fırın bankanın karşısında.", "de": "Die Bäckerei ist gegenüber der Bank." } },
+        { "id": "w11-trafik-isiklari", "tr": "trafik ışıkları", "de": "Ampel", "typ": "chunk", "beispiel": { "tr": "Trafik ışıklarından sonra sağa dön.", "de": "Nach der Ampel rechts abbiegen." } },
+        { "id": "w11-sokak", "tr": "sokak", "de": "(kleine) Straße", "typ": "wort", "beispiel": { "tr": "Bizim sokak çok sessiz.", "de": "Unsere Straße ist sehr ruhig." } },
+        { "id": "w11-cadde", "tr": "cadde", "de": "Hauptstraße", "typ": "wort", "beispiel": { "tr": "Ana caddede çok trafik var.", "de": "Auf der Hauptstraße ist viel Verkehr." } },
+        { "id": "w11-kavsak", "tr": "kavşak", "de": "Kreuzung", "typ": "wort", "beispiel": { "tr": "Kavşakta dikkat et!", "de": "Pass an der Kreuzung auf!" } }
+      ],
+      "grammatik": {
+        "titel": "Befehle: einfach der Stamm",
+        "erklaerung": [
+          "Die Befehlsform für „du“ ist der Verbstamm: dönmek → dön!, gitmek → git!, bakmak → bak!",
+          "Richtung = Dativ: sağa (nach rechts), sola (nach links). Lage = Lokativ: sağda (rechts), solda (links).",
+          "dümdüz = schnurgerade (verstärktes düz)."
+        ],
+        "tabelle": {
+          "kopf": ["wohin?", "wo?"],
+          "zeilen": [
+            ["sağa", "sağda"],
+            ["sola", "solda"],
+            ["köşeye", "köşede"],
+            ["karşıya", "karşıda"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Köşede sola dön.", "de": "Bieg an der Ecke links ab." },
+          { "tr": "Market solda.", "de": "Der Supermarkt ist links." },
+          { "tr": "Dümdüz git.", "de": "Geh geradeaus." }
+        ]
+      },
+      "dialog": {
+        "titel": "Wo ist die neue Bäckerei?",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Elif, yeni fırın nerede?", "de": "Elif, wo ist die neue Bäckerei?" },
+          { "sprecher": "Elif", "tr": "Çok yakın. Ana caddeye kadar dümdüz git.", "de": "Ganz nah. Geh geradeaus bis zur Hauptstraße." },
+          { "sprecher": "Sherin", "tr": "Sonra?", "de": "Und dann?" },
+          { "sprecher": "Elif", "tr": "Trafik ışıklarından sonra sağa dön.", "de": "Nach der Ampel rechts abbiegen." },
+          { "sprecher": "Elif", "tr": "Fırın köşede, eczanenin karşısında.", "de": "Die Bäckerei ist an der Ecke, gegenüber der Apotheke." },
+          { "sprecher": "Sherin", "tr": "Dümdüz, sonra sağa. Tamam, teşekkürler!", "de": "Geradeaus, dann rechts. Okay, danke!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w11-saga-don", "w11-sola-don", "w11-dumduz-git", "w11-kose"] },
+        { "art": "luecke", "satz": "Köşede sol___ dön.", "loesung": "a", "optionen": ["a", "da", "dan"], "de": "Bieg an der Ecke links ab." },
+        { "art": "luecke", "satz": "Market sol___.", "loesung": "da", "optionen": ["da", "a", "dan"], "de": "Der Supermarkt ist links." },
+        { "art": "hoeren", "vokabel": "w11-trafik-isiklari" },
+        { "art": "auswahl_de_tr", "vokabel": "w11-karsi" },
+        { "art": "satzbau", "tr": "Trafik ışıklarından sonra sağa dön.", "de": "Nach der Ampel rechts abbiegen." },
+        { "art": "auswahl_tr_de", "vokabel": "w11-kavsak" },
+        { "art": "hoeren", "vokabel": "w11-cadde" },
+        { "art": "tippen", "vokabel": "w11-sokak" },
+        { "art": "satzbau", "tr": "Eczane köşede.", "de": "Die Apotheke ist an der Ecke." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Beschreib Pasha auf Türkisch den Weg von eurer Haustür zum nächsten Supermarkt oder Spielplatz. Er geht ihn im Kopf mit – oder in echt.",
+        "mustersaetze": [
+          { "tr": "Evden çık, sola dön.", "de": "Geh aus dem Haus, bieg links ab." },
+          { "tr": "Dümdüz git, trafik ışıklarına kadar.", "de": "Geh geradeaus bis zur Ampel." },
+          { "tr": "Market sağda.", "de": "Der Supermarkt ist rechts." }
+        ]
+      },
+      "alltagssatz": { "tr": "Sağa dön!", "de": "Bieg rechts ab!", "wann": "Beim nächsten Autofahren – du lotst Pasha auf Türkisch." },
+      "merktipp": { "titel": "sağ = rechts, sol = links", "text": "Eselsbrücke: „sol“ und „links“ haben beide ein l. Und sağ ist der „Sägen-Arm“ – die meisten sägen rechts." }
+    },
+    {
+      "woche": 11,
+      "tag": 2,
+      "titel": "Höflich nach dem Weg fragen",
+      "kannZiel": "Fremde nach dem Weg fragen und die Antwort verstehen",
+      "vokabeln": [
+        { "id": "w11-affedersiniz", "tr": "Affedersiniz!", "de": "Entschuldigen Sie!", "typ": "chunk", "beispiel": { "tr": "Affedersiniz, bir şey sorabilir miyim?", "de": "Entschuldigen Sie, darf ich etwas fragen?" } },
+        { "id": "w11-nasil-gidebilirim", "tr": "… nasıl gidebilirim?", "de": "Wie komme ich zu …?", "typ": "chunk", "beispiel": { "tr": "İstasyona nasıl gidebilirim?", "de": "Wie komme ich zum Bahnhof?" } },
+        { "id": "w11-devam-edin", "tr": "devam edin", "de": "gehen Sie weiter", "typ": "chunk", "beispiel": { "tr": "Biraz daha devam edin.", "de": "Gehen Sie noch ein Stück weiter." } },
+        { "id": "w11-karsiya-gecin", "tr": "karşıya geçin", "de": "gehen Sie auf die andere Seite", "typ": "chunk", "beispiel": { "tr": "Işıklarda karşıya geçin.", "de": "Gehen Sie an der Ampel rüber." } },
+        { "id": "w11-durak", "tr": "durak", "de": "Haltestelle", "typ": "wort", "beispiel": { "tr": "Durak hemen orada.", "de": "Die Haltestelle ist gleich da." } },
+        { "id": "w11-kac-dakika-surer", "tr": "Kaç dakika sürer?", "de": "Wie lange dauert das?", "typ": "chunk", "beispiel": { "tr": "Yürüyerek kaç dakika sürer?", "de": "Wie lange dauert es zu Fuß?" } },
+        { "id": "w11-kaybolmak", "tr": "kaybolmak", "de": "sich verlaufen / verloren gehen", "typ": "wort", "beispiel": { "tr": "Galiba kaybolduk.", "de": "Ich glaube, wir haben uns verlaufen." } },
+        { "id": "w11-harita", "tr": "harita", "de": "Karte (Stadtplan)", "typ": "wort", "beispiel": { "tr": "Telefonda haritaya bak.", "de": "Schau auf dem Handy in die Karte." } }
+      ],
+      "grammatik": {
+        "titel": "Höfliche Befehle: -(y)ın / -(y)in",
+        "erklaerung": [
+          "Für siz (Sie / ihr) hängt man -ın/-in/-un/-ün an den Stamm: dönün, gidin, bakın.",
+          "Nach Vokal mit y: bekle → bekleyin, devam et → devam edin (t wird d).",
+          "Mit „lütfen“ wird es noch höflicher: Lütfen bekleyin."
+        ],
+        "tabelle": {
+          "kopf": ["du", "Sie / ihr"],
+          "zeilen": [
+            ["dön!", "dönün!"],
+            ["git!", "gidin!"],
+            ["bak!", "bakın!"],
+            ["bekle!", "bekleyin!"],
+            ["gel!", "gelin!"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Sağa dönün, sonra dümdüz gidin.", "de": "Biegen Sie rechts ab, dann geradeaus." },
+          { "tr": "Lütfen bekleyin.", "de": "Bitte warten Sie." },
+          { "tr": "İstasyona nasıl gidebilirim?", "de": "Wie komme ich zum Bahnhof?" }
+        ]
+      },
+      "dialog": {
+        "titel": "In Hannover verlaufen",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Affedersiniz! İstasyona nasıl gidebilirim?", "de": "Entschuldigen Sie! Wie komme ich zum Bahnhof?" },
+          { "sprecher": "Passant", "tr": "Dümdüz gidin, ikinci sokaktan sola dönün.", "de": "Gehen Sie geradeaus und biegen Sie an der zweiten Straße links ab." },
+          { "sprecher": "Sherin", "tr": "Yürüyerek kaç dakika sürer?", "de": "Wie lange dauert es zu Fuß?" },
+          { "sprecher": "Passant", "tr": "On dakika kadar. Ya da otobüse binin, durak hemen orada.", "de": "Etwa zehn Minuten. Oder nehmen Sie den Bus, die Haltestelle ist gleich da." },
+          { "sprecher": "Sherin", "tr": "Çok teşekkür ederim!", "de": "Vielen Dank!" },
+          { "sprecher": "Passant", "tr": "Rica ederim, iyi günler!", "de": "Gern geschehen, schönen Tag!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w11-affedersiniz", "w11-durak", "w11-harita", "w11-kaybolmak"] },
+        { "art": "luecke", "satz": "Sağa dön___.", "loesung": "ün", "optionen": ["ün", "in", "ın"], "de": "Biegen Sie rechts ab." },
+        { "art": "luecke", "satz": "Lütfen bekle___.", "loesung": "yin", "optionen": ["yin", "in", "yün"], "de": "Bitte warten Sie." },
+        { "art": "auswahl_de_tr", "vokabel": "w11-nasil-gidebilirim" },
+        { "art": "hoeren", "vokabel": "w11-kac-dakika-surer" },
+        { "art": "satzbau", "tr": "Affedersiniz, istasyona nasıl gidebilirim?", "de": "Entschuldigen Sie, wie komme ich zum Bahnhof?" },
+        { "art": "auswahl_tr_de", "vokabel": "w11-devam-edin" },
+        { "art": "hoeren", "vokabel": "w11-karsiya-gecin" },
+        { "art": "tippen", "vokabel": "w11-durak" },
+        { "art": "satzbau", "tr": "Galiba kaybolduk.", "de": "Ich glaube, wir haben uns verlaufen." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Rollenspiel: Pasha ist ein Passant in Hannover (er siezt dich). Frag nach drei Orten (Bahnhof, Apotheke, Bushaltestelle). Er erklärt höflich, du wiederholst den Weg zur Kontrolle.",
+        "mustersaetze": [
+          { "tr": "Affedersiniz, eczane nerede?", "de": "Entschuldigen Sie, wo ist die Apotheke?" },
+          { "tr": "Dümdüz, sonra sola. Doğru mu?", "de": "Geradeaus, dann links. Richtig?" },
+          { "tr": "Çok teşekkür ederim!", "de": "Vielen Dank!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Affedersiniz!", "de": "Entschuldigen Sie!", "wann": "Beim nächsten Mal, wenn du einen Fremden ansprichst – zum Üben auch auf Deutsch im Kopf mitdenken." },
+      "merktipp": { "titel": "Wiederholen hilft", "text": "Wiederhol eine Wegbeschreibung immer laut: „Dümdüz, sonra sola …“. So merkst du sie dir – und der andere korrigiert dich, falls nötig." }
+    },
+    {
+      "woche": 11,
+      "tag": 3,
+      "titel": "Mit Bus und Bahn: -la / -le",
+      "kannZiel": "sagen, womit du fährst",
+      "vokabeln": [
+        { "id": "w11-tren", "tr": "tren", "de": "Zug", "typ": "wort", "beispiel": { "tr": "Hannover'e trenle gidiyorum.", "de": "Ich fahre mit dem Zug nach Hannover." } },
+        { "id": "w11-tramvay", "tr": "tramvay", "de": "Straßenbahn / Stadtbahn", "typ": "wort", "beispiel": { "tr": "Tramvay her on dakikada bir geliyor.", "de": "Die Straßenbahn kommt alle zehn Minuten." } },
+        { "id": "w11-bisiklet", "tr": "bisiklet", "de": "Fahrrad", "typ": "wort", "beispiel": { "tr": "Pasha işe bisikletle gidiyor.", "de": "Pasha fährt mit dem Fahrrad zur Arbeit." } },
+        { "id": "w11-taksi", "tr": "taksi", "de": "Taxi", "typ": "wort", "beispiel": { "tr": "Taksi çağırır mısın?", "de": "Rufst du ein Taxi?" } },
+        { "id": "w11-ucak", "tr": "uçak", "de": "Flugzeug", "typ": "wort", "beispiel": { "tr": "Uçak hızlı ama pahalı.", "de": "Das Flugzeug ist schnell, aber teuer." } },
+        { "id": "w11-bilet", "tr": "bilet", "de": "Fahrkarte / Ticket", "typ": "wort", "beispiel": { "tr": "Biletini aldın mı?", "de": "Hast du deine Fahrkarte gekauft?" } },
+        { "id": "w11-istasyon", "tr": "istasyon", "de": "Bahnhof / Station", "typ": "wort", "beispiel": { "tr": "İstasyonda buluşalım.", "de": "Treffen wir uns am Bahnhof." } },
+        { "id": "w11-havalimani", "tr": "havalimanı", "de": "Flughafen", "typ": "wort", "beispiel": { "tr": "Havalimanı şehrin dışında.", "de": "Der Flughafen liegt außerhalb der Stadt." } },
+        { "id": "w11-binmek", "tr": "binmek", "de": "einsteigen / fahren mit", "typ": "wort", "beispiel": { "tr": "Hangi otobüse biniyoruz?", "de": "In welchen Bus steigen wir?" } }
+      ],
+      "grammatik": {
+        "titel": "mit = -la / -le",
+        "erklaerung": [
+          "„mit“ ist eine Endung: -la/-le (2-fach). otobüs → otobüsle, tren → trenle.",
+          "Nach Vokal mit y: araba → arabayla, Inaya → Inaya'yla.",
+          "Man kann auch ile als eigenes Wort sagen: otobüs ile = otobüsle.",
+          "einsteigen: binmek + -a/-e: otobüse binmek (in den Bus steigen)."
+        ],
+        "tabelle": {
+          "kopf": ["Wort", "mit …"],
+          "zeilen": [
+            ["otobüs", "otobüsle"],
+            ["tren", "trenle"],
+            ["uçak", "uçakla"],
+            ["araba", "arabayla"],
+            ["taksi", "taksiyle"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Hannover'e trenle gidiyorum.", "de": "Ich fahre mit dem Zug nach Hannover." },
+          { "tr": "Arabayla mı gidiyoruz?", "de": "Fahren wir mit dem Auto?" },
+          { "tr": "Hangi otobüse biniyoruz?", "de": "In welchen Bus steigen wir?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Wie fahren wir zu Elif?",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Elif'lere arabayla mı gidiyoruz?", "de": "Fahren wir mit dem Auto zu Elif?" },
+          { "sprecher": "Sherin", "tr": "Hayır, araba serviste.", "de": "Nein, das Auto ist in der Werkstatt." },
+          { "sprecher": "Pasha", "tr": "Doğru. O zaman otobüsle.", "de": "Stimmt. Dann mit dem Bus." },
+          { "sprecher": "Sherin", "tr": "Hangi otobüse biniyoruz?", "de": "In welchen Bus steigen wir?" },
+          { "sprecher": "Pasha", "tr": "Kırk ikiye. Durak köşede.", "de": "In die 42. Die Haltestelle ist an der Ecke." },
+          { "sprecher": "Sherin", "tr": "Tamam. Inaya'yla bebek arabası … kolay değil ama olur.", "de": "Okay. Mit Inaya und Kinderwagen … nicht leicht, aber geht." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w11-tren", "w11-tramvay", "w11-bisiklet", "w11-taksi", "w11-ucak"] },
+        { "art": "luecke", "satz": "Hannover'e tren___ gidiyorum.", "loesung": "le", "optionen": ["le", "la", "e"], "de": "Ich fahre mit dem Zug nach Hannover." },
+        { "art": "luecke", "satz": "Araba___ mı gidiyoruz?", "loesung": "yla", "optionen": ["yla", "la", "yle"], "de": "Fahren wir mit dem Auto?" },
+        { "art": "hoeren", "vokabel": "w11-binmek" },
+        { "art": "auswahl_de_tr", "vokabel": "w11-bilet" },
+        { "art": "satzbau", "tr": "Hangi otobüse biniyoruz?", "de": "In welchen Bus steigen wir?" },
+        { "art": "auswahl_tr_de", "vokabel": "w11-havalimani" },
+        { "art": "hoeren", "vokabel": "w11-istasyon" },
+        { "art": "tippen", "vokabel": "w11-taksi" },
+        { "art": "satzbau", "tr": "Pasha işe bisikletle gidiyor.", "de": "Pasha fährt mit dem Fahrrad zur Arbeit." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Plant drei Wege auf Türkisch: zu Elif, nach Hannover in die Stadt, und zum Flughafen für eine Türkeireise. Womit fahrt ihr jeweils, wie lange dauert es?",
+        "mustersaetze": [
+          { "tr": "Hannover'e trenle gidiyoruz.", "de": "Nach Hannover fahren wir mit dem Zug." },
+          { "tr": "Havalimanına taksiyle gidelim.", "de": "Lass uns mit dem Taxi zum Flughafen fahren." },
+          { "tr": "Yarım saat sürer.", "de": "Das dauert eine halbe Stunde." }
+        ]
+      },
+      "alltagssatz": { "tr": "Arabayla mı, otobüsle mi?", "de": "Mit dem Auto oder mit dem Bus?", "wann": "Bei der nächsten Planung, wie ihr irgendwohin kommt." },
+      "merktipp": { "titel": "Lego-Stein „mit“", "text": "Für „mit“ braucht Türkisch kein eigenes Wort – -la/-le klickt einfach ans Ende: trenle, Pasha'yla, Amani'yle. Wie praktisch!" }
+    },
+    {
+      "woche": 11,
+      "tag": 4,
+      "titel": "Unterwegs mit Kind & Kinderwagen",
+      "kannZiel": "unterwegs um Hilfe bitten und mit wem du unterwegs bist",
+      "vokabeln": [
+        { "id": "w11-ile", "tr": "ile", "de": "mit / und", "typ": "wort", "beispiel": { "tr": "Pasha ile Inaya parkta.", "de": "Pasha und Inaya sind im Park." } },
+        { "id": "w11-yalniz", "tr": "yalnız", "de": "allein", "typ": "wort", "beispiel": { "tr": "Bugün yalnızım, Pasha işte.", "de": "Heute bin ich allein, Pasha ist bei der Arbeit." } },
+        { "id": "w11-beraber", "tr": "beraber", "de": "zusammen", "typ": "wort", "beispiel": { "tr": "Beraber gidelim!", "de": "Lass uns zusammen gehen!" } },
+        { "id": "w11-bebek-arabasi", "tr": "bebek arabası", "de": "Kinderwagen", "typ": "chunk", "beispiel": { "tr": "Bebek arabası otobüse sığıyor mu?", "de": "Passt der Kinderwagen in den Bus?" } },
+        { "id": "w11-asansor", "tr": "asansör", "de": "Aufzug", "typ": "wort", "beispiel": { "tr": "Asansör yine bozuk!", "de": "Der Aufzug ist schon wieder kaputt!" }, "merktipp": "asansör kommt vom französischen ascenseur – ein „Aufsteiger“." },
+        { "id": "w11-kucak", "tr": "kucak", "de": "Schoß / Arm (tragen)", "typ": "wort", "beispiel": { "tr": "Inaya kucağıma gelmek istiyor.", "de": "Inaya will auf meinen Arm." } },
+        { "id": "w11-yardim-edebilir-misiniz", "tr": "Yardım edebilir misiniz?", "de": "Können Sie mir helfen?", "typ": "chunk", "beispiel": { "tr": "Affedersiniz, yardım edebilir misiniz?", "de": "Entschuldigung, können Sie mir helfen?" } },
+        { "id": "w11-bozuk", "tr": "bozuk", "de": "kaputt", "typ": "wort", "beispiel": { "tr": "Bilet makinesi bozuk.", "de": "Der Fahrkartenautomat ist kaputt." } }
+      ],
+      "grammatik": {
+        "titel": "mit Personen: Pasha'yla, Inaya'yla",
+        "erklaerung": [
+          "Auch Personen bekommen -la/-le: Pasha'yla (mit Pasha), Elif'le (mit Elif), annemle (mit meiner Mama).",
+          "„A und B“ kann man auch mit ile sagen: Pasha ile Inaya.",
+          "Fürwörter: benimle (mit mir), seninle (mit dir), onunla (mit ihm/ihr)."
+        ],
+        "tabelle": {
+          "kopf": ["wer?", "mit …"],
+          "zeilen": [
+            ["ben", "benimle"],
+            ["sen", "seninle"],
+            ["o", "onunla"],
+            ["Pasha", "Pasha'yla"],
+            ["Elif", "Elif'le"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Benimle gelir misin?", "de": "Kommst du mit mir?" },
+          { "tr": "Inaya'yla parka gidiyorum.", "de": "Ich gehe mit Inaya in den Park." },
+          { "tr": "Bugün yalnızım.", "de": "Heute bin ich allein." }
+        ]
+      },
+      "dialog": {
+        "titel": "Treppe statt Aufzug",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Ay, asansör yine bozuk!", "de": "Oh nein, der Aufzug ist schon wieder kaputt!" },
+          { "sprecher": "Sherin", "tr": "Affedersiniz, yardım edebilir misiniz? Bebek arabası çok ağır.", "de": "Entschuldigung, können Sie mir helfen? Der Kinderwagen ist sehr schwer." },
+          { "sprecher": "Mann", "tr": "Tabii, ben aşağıdan tutuyorum.", "de": "Natürlich, ich nehme ihn unten." },
+          { "sprecher": "Sherin", "tr": "Inaya, gel kucağıma.", "de": "Inaya, komm auf meinen Arm." },
+          { "sprecher": "Mann", "tr": "Tamam, oldu! Yalnız mısınız?", "de": "So, geschafft! Sind Sie allein unterwegs?" },
+          { "sprecher": "Sherin", "tr": "Evet, eşim işte. Çok teşekkür ederim!", "de": "Ja, mein Mann ist bei der Arbeit. Vielen Dank!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w11-yalniz", "w11-beraber", "w11-bozuk", "w11-kucak"] },
+        { "art": "luecke", "satz": "Inaya'___ parka gidiyorum.", "loesung": "yla", "optionen": ["yla", "ya", "yle"], "de": "Ich gehe mit Inaya in den Park." },
+        { "art": "luecke", "satz": "Ben___ gelir misin?", "loesung": "imle", "optionen": ["imle", "le", "e"], "de": "Kommst du mit mir?" },
+        { "art": "hoeren", "vokabel": "w11-bebek-arabasi" },
+        { "art": "auswahl_de_tr", "vokabel": "w11-yardim-edebilir-misiniz" },
+        { "art": "satzbau", "tr": "Asansör yine bozuk!", "de": "Der Aufzug ist schon wieder kaputt!" },
+        { "art": "auswahl_tr_de", "vokabel": "w11-ile" },
+        { "art": "hoeren", "vokabel": "w11-asansor" },
+        { "art": "tippen", "vokabel": "w11-yalniz" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha auf Türkisch, mit wem du diese Woche wo warst – mindestens fünf Mal mit -la/-le. Und übt den Satz, mit dem du Fremde um Hilfe bittest.",
+        "mustersaetze": [
+          { "tr": "Pazartesi Elif'le parktaydım.", "de": "Montag war ich mit Elif im Park." },
+          { "tr": "Inaya'yla doktora gittik.", "de": "Mit Inaya war ich beim Arzt." },
+          { "tr": "Affedersiniz, yardım edebilir misiniz?", "de": "Entschuldigung, können Sie mir helfen?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Benimle gelir misin?", "de": "Kommst du mit mir?", "wann": "Wenn du heute rausgehst – frag Pasha oder Amani." },
+      "merktipp": { "titel": "Freundliches Türkei-Gefühl", "text": "In der Türkei hilft man Müttern mit Kinderwagen fast immer spontan. Ein „Çok teşekkür ederim!“ macht auch in Garbsen jedem Helfer Freude." }
+    },
+    {
+      "woche": 11,
+      "tag": 5,
+      "titel": "Stopp! Nicht anfassen!",
+      "kannZiel": "Anweisungen geben und verstehen – auch verneint",
+      "vokabeln": [
+        { "id": "w11-dur", "tr": "Dur!", "de": "Stopp! / Bleib stehen!", "typ": "chunk", "beispiel": { "tr": "Dur, araba geliyor!", "de": "Stopp, ein Auto kommt!" } },
+        { "id": "w11-dokunma", "tr": "Dokunma!", "de": "Nicht anfassen!", "typ": "chunk", "beispiel": { "tr": "Inaya, ocağa dokunma!", "de": "Inaya, fass den Herd nicht an!" } },
+        { "id": "w11-kosma", "tr": "Koşma!", "de": "Renn nicht!", "typ": "chunk", "beispiel": { "tr": "Koşma, düşersin!", "de": "Renn nicht, du fällst hin!" } },
+        { "id": "w11-dikkat-et", "tr": "Dikkat et!", "de": "Pass auf!", "typ": "chunk", "beispiel": { "tr": "Merdivende dikkat et!", "de": "Pass auf der Treppe auf!" } },
+        { "id": "w11-kemerini-bagla", "tr": "Kemerini bağla!", "de": "Schnall dich an!", "typ": "chunk", "beispiel": { "tr": "Kemerini bağladın mı?", "de": "Hast du dich angeschnallt?" } },
+        { "id": "w11-in", "tr": "İn!", "de": "Steig aus!", "typ": "chunk", "beispiel": { "tr": "Bir sonraki durakta in.", "de": "Steig an der nächsten Haltestelle aus." } },
+        { "id": "w11-bin", "tr": "Bin!", "de": "Steig ein!", "typ": "chunk", "beispiel": { "tr": "Hadi, arabaya bin!", "de": "Los, steig ins Auto!" } },
+        { "id": "w11-sessiz-ol", "tr": "Sessiz ol!", "de": "Sei leise!", "typ": "chunk", "beispiel": { "tr": "Sessiz ol, Inaya uyuyor.", "de": "Sei leise, Inaya schläft." } }
+      ],
+      "grammatik": {
+        "titel": "Verbotene Befehle: -ma / -me",
+        "erklaerung": [
+          "„Nicht …!“: Stamm + -ma/-me: dokun → dokunma! (fass nicht an!), koş → koşma!",
+          "Höflich / an mehrere: -mayın/-meyin: Dokunmayın! Koşmayın!",
+          "Befehle mit sein: … ol! – Sessiz ol! (Sei leise!), Dikkatli ol! (Sei vorsichtig!)"
+        ],
+        "tabelle": {
+          "kopf": ["mach!", "mach nicht!", "Sie: nicht!"],
+          "zeilen": [
+            ["dokun!", "dokunma!", "dokunmayın!"],
+            ["koş!", "koşma!", "koşmayın!"],
+            ["git!", "gitme!", "gitmeyin!"],
+            ["bekle!", "bekleme!", "beklemeyin!"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Inaya, ocağa dokunma!", "de": "Inaya, fass den Herd nicht an!" },
+          { "tr": "Koşma, düşersin!", "de": "Renn nicht, du fällst hin!" },
+          { "tr": "Lütfen kapıyı açmayın.", "de": "Bitte öffnen Sie die Tür nicht." }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein ganz normaler Nachmittag",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Inaya, dur! Ocağa dokunma!", "de": "Inaya, stopp! Fass den Herd nicht an!" },
+          { "sprecher": "Pasha", "tr": "Gel kızım, buraya gel.", "de": "Komm her, meine Tochter." },
+          { "sprecher": "Sherin", "tr": "Amani, sen de koşma! Inaya düşüyor!", "de": "Amani, renn du auch nicht! Inaya fällt sonst um!" },
+          { "sprecher": "Pasha", "tr": "Hadi, parka gidelim. Herkes arabaya binsin!", "de": "Komm, lass uns in den Park gehen. Alle ins Auto!" },
+          { "sprecher": "Sherin", "tr": "Kemerini bağla, Pasha!", "de": "Schnall dich an, Pasha!" },
+          { "sprecher": "Pasha", "tr": "Bağladım, bağladım. Sen de sessiz ol, Inaya uyuyor.", "de": "Mach ich, mach ich. Und du sei leise, Inaya schläft." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w11-dur", "w11-dokunma", "w11-kosma", "w11-dikkat-et"] },
+        { "art": "luecke", "satz": "Inaya, ocağa dokun___!", "loesung": "ma", "optionen": ["ma", "me", "mayın"], "de": "Inaya, fass den Herd nicht an!" },
+        { "art": "luecke", "satz": "Lütfen kapıyı aç___.", "loesung": "mayın", "optionen": ["mayın", "ma", "ın"], "de": "Bitte öffnen Sie die Tür nicht." },
+        { "art": "hoeren", "vokabel": "w11-kemerini-bagla" },
+        { "art": "auswahl_de_tr", "vokabel": "w11-sessiz-ol" },
+        { "art": "satzbau", "tr": "Koşma, düşersin!", "de": "Renn nicht, du fällst hin!" },
+        { "art": "zuordnen", "vokabeln": ["w11-in", "w11-bin", "w11-sessiz-ol", "w11-kemerini-bagla"] },
+        { "art": "hoeren", "vokabel": "w11-dur" },
+        { "art": "tippen", "vokabel": "w11-dur" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Heute ist „Befehls-Tag“: Alle Anweisungen an Inaya und Amani gibst du auf Türkisch – Dur!, Gel!, Dokunma!, Otur! (Sitz!). Pasha zählt mit, wie viele es am Abend waren.",
+        "mustersaetze": [
+          { "tr": "Amani, otur!", "de": "Amani, Sitz!" },
+          { "tr": "Inaya, dokunma!", "de": "Inaya, nicht anfassen!" },
+          { "tr": "Gel buraya!", "de": "Komm her!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Dokunma!", "de": "Nicht anfassen!", "wann": "Spätestens, wenn Inaya heute an Amanis Napf oder an Steckdosen will." },
+      "merktipp": { "titel": "Hundekommandos auf Türkisch", "text": "Otur! (Sitz!), Yat! (Platz!), Gel! (Hier!), Bekle! (Bleib!). Amani lernt gleich mit – und du übst die Befehlsform ganz nebenbei." }
+    },
+    {
+      "woche": 11,
+      "tag": 6,
+      "titel": "Festigungstag: Ausflug nach Hannover",
+      "kannZiel": "eine Fahrt planen und sich unterwegs zurechtfinden",
+      "vokabeln": [
+        { "id": "w11-kayboldum", "tr": "Kayboldum.", "de": "Ich habe mich verlaufen.", "typ": "chunk", "beispiel": { "tr": "Pasha, kayboldum! Neredesin?", "de": "Pasha, ich hab mich verlaufen! Wo bist du?" } },
+        { "id": "w11-hangi-durak", "tr": "Hangi durak?", "de": "Welche Haltestelle?", "typ": "chunk", "beispiel": { "tr": "Hangi durakta iniyoruz?", "de": "An welcher Haltestelle steigen wir aus?" } },
+        { "id": "w11-aktarma", "tr": "aktarma", "de": "Umsteigen", "typ": "wort", "beispiel": { "tr": "İstasyonda aktarma yapıyoruz.", "de": "Am Bahnhof steigen wir um." } },
+        { "id": "w11-iyi-yolculuklar", "tr": "İyi yolculuklar!", "de": "Gute Fahrt / Gute Reise!", "typ": "chunk", "beispiel": { "tr": "Görüşürüz, iyi yolculuklar!", "de": "Bis bald, gute Reise!" } },
+        { "id": "w11-varinca-haber-ver", "tr": "Varınca haber ver!", "de": "Melde dich, wenn du da bist!", "typ": "chunk", "beispiel": { "tr": "Dikkatli git, varınca haber ver!", "de": "Fahr vorsichtig, melde dich, wenn du da bist!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Befehle: Stamm (du), -(y)ın (Sie), -ma (nicht). Richtung: sağa/sola, Lage: sağda/solda.",
+          "mit: -la/-le – otobüsle, Pasha'yla, benimle."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["du", "Sola dön!"],
+            ["Sie", "Sola dönün!"],
+            ["nicht", "Koşma!"],
+            ["mit", "Trenle gidiyoruz."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Hangi durakta iniyoruz?", "de": "An welcher Haltestelle steigen wir aus?" },
+          { "tr": "İstasyonda aktarma yapıyoruz.", "de": "Am Bahnhof steigen wir um." },
+          { "tr": "Varınca haber ver!", "de": "Melde dich, wenn du da bist!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Samstag in der Stadt",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bugün şehre tramvayla gidelim mi?", "de": "Fahren wir heute mit der Stadtbahn in die Stadt?" },
+          { "sprecher": "Sherin", "tr": "Olur! Hangi durakta iniyoruz?", "de": "Gern! An welcher Haltestelle steigen wir aus?" },
+          { "sprecher": "Pasha", "tr": "Kröpcke'de. Aktarma yok.", "de": "Am Kröpcke. Ohne Umsteigen." },
+          { "sprecher": "Sherin", "tr": "Süper. Inaya'nın bebek arabasını alıyorum.", "de": "Super. Ich nehme Inayas Kinderwagen." },
+          { "sprecher": "Pasha", "tr": "Ben önce markete gidiyorum, sonra sizinle buluşuyorum.", "de": "Ich geh erst noch zum Supermarkt, dann treffe ich euch." },
+          { "sprecher": "Sherin", "tr": "Tamam. Kaybolma ama!", "de": "Okay. Aber verlauf dich nicht!" },
+          { "sprecher": "Pasha", "tr": "Asıl sen kaybolma! Varınca haber ver.", "de": "Verlauf DU dich lieber nicht! Melde dich, wenn du da bist." },
+          { "sprecher": "Sherin", "tr": "Tamam, görüşürüz!", "de": "Okay, bis dann!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w11-kayboldum", "w11-hangi-durak", "w11-aktarma", "w11-iyi-yolculuklar"] },
+        { "art": "hoeren", "vokabel": "w11-varinca-haber-ver" },
+        { "art": "satzbau", "tr": "Hangi durakta iniyoruz?", "de": "An welcher Haltestelle steigen wir aus?" },
+        { "art": "luecke", "satz": "Siz___ buluşuyorum.", "loesung": "inle", "optionen": ["inle", "le", "e"], "de": "Ich treffe mich mit euch." },
+        { "art": "auswahl_de_tr", "vokabel": "w11-saga-don" },
+        { "art": "luecke", "satz": "Kaybol___ ama!", "loesung": "ma", "optionen": ["ma", "un", "dum"], "de": "Aber verlauf dich nicht!" },
+        { "art": "hoeren", "vokabel": "w11-tramvay" },
+        { "art": "auswahl_tr_de", "vokabel": "w11-iyi-yolculuklar" },
+        { "art": "tippen", "vokabel": "w11-aktarma" },
+        { "art": "satzbau", "tr": "Bugün şehre tramvayla gidelim mi?", "de": "Fahren wir heute mit der Stadtbahn in die Stadt?" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Plant einen echten Ausflug nach Hannover komplett auf Türkisch: womit, wo einsteigen, wo aussteigen, wo treffen, wer nimmt was mit. Wenn ihr fahrt: Gib unterwegs alle Anweisungen auf Türkisch.",
+        "mustersaetze": [
+          { "tr": "Tramvayla gidiyoruz.", "de": "Wir fahren mit der Stadtbahn." },
+          { "tr": "Kröpcke'de iniyoruz.", "de": "Am Kröpcke steigen wir aus." },
+          { "tr": "Saat üçte istasyonda buluşalım.", "de": "Treffen wir uns um drei am Bahnhof." }
+        ]
+      },
+      "alltagssatz": { "tr": "Varınca haber ver!", "de": "Melde dich, wenn du da bist!", "wann": "Wenn Pasha heute irgendwohin fährt." },
+      "merktipp": { "titel": "Wochenrückblick", "text": "Du kannst jetzt nach dem Weg fragen, Wege erklären, Verkehrsmittel wählen und Kommandos geben. Damit bist du in jeder türkischen Stadt unterwegs-fit." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Erklär Pasha den Weg von eurer Wohnung zur nächsten Bushaltestelle.", "hilfe": { "tr": "Evden çık, sağa dön, dümdüz git. Durak köşede.", "de": "Raus aus dem Haus, rechts, geradeaus. Die Haltestelle ist an der Ecke." } },
+      { "situation": "Frag einen (gespielten) Fremden höflich nach dem Bahnhof.", "hilfe": { "tr": "Affedersiniz, istasyona nasıl gidebilirim?", "de": "Entschuldigen Sie, wie komme ich zum Bahnhof?" } },
+      { "situation": "Gib Inaya und Amani drei Anweisungen – eine davon verneint.", "hilfe": { "tr": "Gel! Otur! Dokunma!", "de": "Komm! Sitz! Nicht anfassen!" } }
+    ]
+  }
+}
