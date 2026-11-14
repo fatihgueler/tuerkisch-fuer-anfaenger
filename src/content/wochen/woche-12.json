@@ -1,0 +1,424 @@
+{
+  "woche": 12,
+  "lektionen": [
+    {
+      "woche": 12,
+      "tag": 1,
+      "titel": "Morgen: -acak / -ecek",
+      "kannZiel": "sagen, was du morgen machen wirst",
+      "vokabeln": [
+        { "id": "w12-yarin-sabah", "tr": "yarın sabah", "de": "morgen früh", "typ": "chunk", "beispiel": { "tr": "Yarın sabah erken kalkacağım.", "de": "Morgen früh stehe ich früh auf." } },
+        { "id": "w12-obur-gun", "tr": "öbür gün", "de": "übermorgen", "typ": "chunk", "beispiel": { "tr": "Öbür gün Elif gelecek.", "de": "Übermorgen kommt Elif." } },
+        { "id": "w12-gelecek-hafta", "tr": "gelecek hafta", "de": "nächste Woche", "typ": "chunk", "beispiel": { "tr": "Gelecek hafta doktora gideceğiz.", "de": "Nächste Woche gehen wir zum Arzt." } },
+        { "id": "w12-plan", "tr": "plan", "de": "Plan", "typ": "wort", "beispiel": { "tr": "Yarın için planın var mı?", "de": "Hast du einen Plan für morgen?" } },
+        { "id": "w12-belki", "tr": "belki", "de": "vielleicht", "typ": "wort", "beispiel": { "tr": "Belki parka gideriz.", "de": "Vielleicht gehen wir in den Park." } },
+        { "id": "w12-kesin", "tr": "kesin", "de": "sicher / bestimmt", "typ": "wort", "beispiel": { "tr": "Kesin geleceğim!", "de": "Ich komme ganz bestimmt!" } },
+        { "id": "w12-herhalde", "tr": "herhalde", "de": "wahrscheinlich", "typ": "wort", "beispiel": { "tr": "Herhalde yağmur yağacak.", "de": "Wahrscheinlich wird es regnen." } },
+        { "id": "w12-ne-yapacaksin", "tr": "Ne yapacaksın?", "de": "Was wirst du machen?", "typ": "chunk", "beispiel": { "tr": "Yarın ne yapacaksın?", "de": "Was machst du morgen?" } },
+        { "id": "w12-program", "tr": "program", "de": "Programm / Zeitplan", "typ": "wort", "beispiel": { "tr": "Yarınki program ne?", "de": "Was steht morgen an?" } }
+      ],
+      "grammatik": {
+        "titel": "Zukunft: -acak / -ecek",
+        "erklaerung": [
+          "Zukunft = Stamm + -acak/-ecek (2-fach) + Person: gel + eceğ + im = geleceğim (ich werde kommen).",
+          "Vor einem Vokal wird k zu ğ: yapacağım, geleceğiz – aber yapacaksın, gelecek.",
+          "Nach Vokal mit y: uyu → uyuyacağım, bekle → bekleyeceğim.",
+          "gitmek und etmek werden weich: gideceğim, edeceğim."
+        ],
+        "tabelle": {
+          "kopf": ["", "gelmek", "yapmak", "uyumak"],
+          "zeilen": [
+            ["ich", "geleceğim", "yapacağım", "uyuyacağım"],
+            ["du", "geleceksin", "yapacaksın", "uyuyacaksın"],
+            ["er/sie", "gelecek", "yapacak", "uyuyacak"],
+            ["wir", "geleceğiz", "yapacağız", "uyuyacağız"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Yarın ne yapacaksın?", "de": "Was machst du morgen?" },
+          { "tr": "Öbür gün Elif gelecek.", "de": "Übermorgen kommt Elif." },
+          { "tr": "Gelecek hafta doktora gideceğiz.", "de": "Nächste Woche gehen wir zum Arzt." }
+        ]
+      },
+      "dialog": {
+        "titel": "Pläne für morgen",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Yarın ne yapacaksın?", "de": "Was machst du morgen?" },
+          { "sprecher": "Sherin", "tr": "Sabah markete gideceğim. Sonra Elif gelecek.", "de": "Morgens gehe ich zum Supermarkt. Dann kommt Elif." },
+          { "sprecher": "Pasha", "tr": "Parka gidecek misiniz?", "de": "Geht ihr in den Park?" },
+          { "sprecher": "Sherin", "tr": "Belki. Ama herhalde yağmur yağacak.", "de": "Vielleicht. Aber wahrscheinlich regnet es." },
+          { "sprecher": "Pasha", "tr": "Ben akşam erken geleceğim. Yemek yapacağım.", "de": "Ich komme abends früh. Ich koche." },
+          { "sprecher": "Sherin", "tr": "Kesin mi? Söz mü?", "de": "Sicher? Versprochen?" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w12-yarin-sabah", "w12-obur-gun", "w12-gelecek-hafta", "w12-belki"] },
+        { "art": "luecke", "satz": "Yarın markete gide___.", "loesung": "ceğim", "optionen": ["ceğim", "cağım", "yorum"], "de": "Morgen gehe ich zum Supermarkt." },
+        { "art": "luecke", "satz": "Akşam yemek yap___.", "loesung": "acağım", "optionen": ["acağım", "eceğim", "tım"], "de": "Abends werde ich kochen." },
+        { "art": "hoeren", "vokabel": "w12-ne-yapacaksin" },
+        { "art": "auswahl_de_tr", "vokabel": "w12-herhalde" },
+        { "art": "satzbau", "tr": "Öbür gün Elif gelecek.", "de": "Übermorgen kommt Elif." },
+        { "art": "auswahl_tr_de", "vokabel": "w12-kesin" },
+        { "art": "luecke", "satz": "Inaya erken uyu___.", "loesung": "yacak", "optionen": ["yacak", "acak", "yecek"], "de": "Inaya wird früh schlafen." },
+        { "art": "tippen", "vokabel": "w12-plan" },
+        { "art": "hoeren", "vokabel": "w12-program" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Geht den morgigen Tag auf Türkisch durch – diesmal in der Zukunft. Jeder sagt fünf Dinge, die er morgen machen wird. Einmal mit belki, einmal mit kesin.",
+        "mustersaetze": [
+          { "tr": "Yarın sabah erken kalkacağım.", "de": "Morgen früh stehe ich früh auf." },
+          { "tr": "Belki Elif'le buluşacağım.", "de": "Vielleicht treffe ich Elif." },
+          { "tr": "Kesin Türkçe çalışacağım!", "de": "Ich lerne ganz bestimmt Türkisch!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Yarın ne yapacaksın?", "de": "Was machst du morgen?", "wann": "Heute Abend zu Pasha – und dann der Plan auf Türkisch." },
+      "merktipp": { "titel": "-acak klingt nach „Zukunft“", "text": "geleceğim, yapacağım, gideceğiz – das „cak/cek“ ist dein Zukunfts-Signal. Übrigens heißt gelecek allein „Zukunft“ – und auch „nächste“: gelecek hafta = nächste Woche." }
+    },
+    {
+      "woche": 12,
+      "tag": 2,
+      "titel": "Eine Feier planen",
+      "kannZiel": "gemeinsam ein Fest planen",
+      "vokabeln": [
+        { "id": "w12-davet-etmek", "tr": "davet etmek", "de": "einladen", "typ": "chunk", "beispiel": { "tr": "Elif bizi davet etti.", "de": "Elif hat uns eingeladen." } },
+        { "id": "w12-kutlamak", "tr": "kutlamak", "de": "feiern / gratulieren", "typ": "wort", "beispiel": { "tr": "Doğum gününü kutlayacağız.", "de": "Wir werden den Geburtstag feiern." } },
+        { "id": "w12-hediye", "tr": "hediye", "de": "Geschenk", "typ": "wort", "beispiel": { "tr": "Ona ne hediye alacağız?", "de": "Was schenken wir ihm?" } },
+        { "id": "w12-surpriz", "tr": "sürpriz", "de": "Überraschung", "typ": "wort", "beispiel": { "tr": "Bu bir sürpriz, söyleme!", "de": "Das ist eine Überraschung, nichts verraten!" } },
+        { "id": "w12-pasta", "tr": "pasta", "de": "Torte", "typ": "wort", "beispiel": { "tr": "Çikolatalı pasta yapacağım.", "de": "Ich mache eine Schokotorte." }, "merktipp": "Achtung: pasta ist im Türkischen die Torte – Nudeln heißen makarna." },
+        { "id": "w12-mum", "tr": "mum", "de": "Kerze", "typ": "wort", "beispiel": { "tr": "Pastada beş mum var.", "de": "Auf der Torte sind fünf Kerzen." } },
+        { "id": "w12-parti", "tr": "parti", "de": "Party", "typ": "wort", "beispiel": { "tr": "Parti saat kaçta başlayacak?", "de": "Um wie viel Uhr fängt die Party an?" } },
+        { "id": "w12-hazirlik", "tr": "hazırlık", "de": "Vorbereitung", "typ": "wort", "beispiel": { "tr": "Hazırlıklar bitti mi?", "de": "Sind die Vorbereitungen fertig?" } }
+      ],
+      "grammatik": {
+        "titel": "Wer macht was? Zukunft mit „wir“",
+        "erklaerung": [
+          "Für „wir“: -acağız / -eceğiz: yapacağız, kutlayacağız.",
+          "Aufgaben verteilen: Ben pastayı yapacağım, sen hediyeyi alacaksın.",
+          "Mit Akkusativ, weil es um bestimmte Dinge geht: pastayı, hediyeyi."
+        ],
+        "beispiele": [
+          { "tr": "Doğum gününü kutlayacağız.", "de": "Wir feiern den Geburtstag." },
+          { "tr": "Ben pastayı yapacağım, sen hediyeyi alacaksın.", "de": "Ich mache die Torte, du besorgst das Geschenk." },
+          { "tr": "Parti saat kaçta başlayacak?", "de": "Um wie viel Uhr fängt die Party an?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Elifs Sohn hat Geburtstag",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Elif bizi davet etti. Oğlu beş yaşında olacak!", "de": "Elif hat uns eingeladen. Ihr Sohn wird fünf!" },
+          { "sprecher": "Pasha", "tr": "Ne zaman?", "de": "Wann?" },
+          { "sprecher": "Sherin", "tr": "Cumartesi. Parti saat üçte başlayacak.", "de": "Samstag. Die Party fängt um drei an." },
+          { "sprecher": "Pasha", "tr": "Ne hediye alacağız?", "de": "Was schenken wir?" },
+          { "sprecher": "Sherin", "tr": "Bir kitap. Sen kitabı alacaksın, ben pasta yapacağım.", "de": "Ein Buch. Du besorgst das Buch, ich backe eine Torte." },
+          { "sprecher": "Pasha", "tr": "Tamam. Ama pastadan ben de yiyeceğim!", "de": "Okay. Aber ich esse auch von der Torte!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w12-hediye", "w12-surpriz", "w12-pasta", "w12-mum"] },
+        { "art": "luecke", "satz": "Doğum gününü kutla___.", "loesung": "yacağız", "optionen": ["yacağız", "acağız", "yacağım"], "de": "Wir feiern den Geburtstag." },
+        { "art": "hoeren", "vokabel": "w12-davet-etmek" },
+        { "art": "auswahl_de_tr", "vokabel": "w12-kutlamak" },
+        { "art": "satzbau", "tr": "Parti saat kaçta başlayacak?", "de": "Um wie viel Uhr fängt die Party an?" },
+        { "art": "luecke", "satz": "Sen kitabı ala___.", "loesung": "caksın", "optionen": ["caksın", "cağım", "cak"], "de": "Du besorgst das Buch." },
+        { "art": "auswahl_tr_de", "vokabel": "w12-hazirlik" },
+        { "art": "hoeren", "vokabel": "w12-parti" },
+        { "art": "tippen", "vokabel": "w12-hediye" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Plant zusammen eine kleine Feier (z. B. ein Abendessen mit Freunden) auf Türkisch: Wen ladet ihr ein, wer macht was, was gibt es zu essen? Jeder übernimmt drei Aufgaben – in der Zukunft gesagt.",
+        "mustersaetze": [
+          { "tr": "Elif'i davet edeceğiz.", "de": "Wir laden Elif ein." },
+          { "tr": "Ben çorba yapacağım.", "de": "Ich mache Suppe." },
+          { "tr": "Sen tatlıyı alacaksın.", "de": "Du besorgst den Nachtisch." }
+        ]
+      },
+      "alltagssatz": { "tr": "Ben … yapacağım, sen … yapacaksın.", "de": "Ich mache …, du machst …", "wann": "Beim nächsten Aufgabenverteilen im Haushalt." },
+      "merktipp": { "titel": "Falsche Freunde", "text": "pasta = Torte (nicht Nudeln!), makarna = Nudeln. Und bei einer Einladung bringt man in der Türkei fast immer etwas Süßes mit." }
+    },
+    {
+      "woche": 12,
+      "tag": 3,
+      "titel": "Versprochen! – Zukunft verneint & gefragt",
+      "kannZiel": "Versprechen geben und nach Plänen fragen",
+      "vokabeln": [
+        { "id": "w12-soz-vermek", "tr": "söz vermek", "de": "versprechen", "typ": "chunk", "beispiel": { "tr": "Söz veriyorum, geç kalmayacağım.", "de": "Ich verspreche, ich komme nicht zu spät." } },
+        { "id": "w12-soz", "tr": "Söz!", "de": "Versprochen!", "typ": "chunk", "beispiel": { "tr": "Yarın erken geleceğim. Söz!", "de": "Morgen komme ich früh. Versprochen!" } },
+        { "id": "w12-gec-kalmak", "tr": "geç kalmak", "de": "zu spät kommen", "typ": "chunk", "beispiel": { "tr": "Yine geç kaldın!", "de": "Du bist schon wieder zu spät!" } },
+        { "id": "w12-zamaninda", "tr": "zamanında", "de": "pünktlich", "typ": "wort", "beispiel": { "tr": "Bu sefer zamanında geleceğim.", "de": "Diesmal komme ich pünktlich." } },
+        { "id": "w12-merak-etme", "tr": "Merak etme!", "de": "Keine Sorge!", "typ": "chunk", "beispiel": { "tr": "Merak etme, her şey yolunda.", "de": "Keine Sorge, alles in Ordnung." } },
+        { "id": "w12-emin-misin", "tr": "Emin misin?", "de": "Bist du sicher?", "typ": "chunk", "beispiel": { "tr": "Emin misin? Gerçekten gelecek misin?", "de": "Bist du sicher? Kommst du wirklich?" } },
+        { "id": "w12-gorecegiz", "tr": "Göreceğiz.", "de": "Mal sehen.", "typ": "chunk", "beispiel": { "tr": "Belki. Göreceğiz.", "de": "Vielleicht. Mal sehen." } },
+        { "id": "w12-asla", "tr": "asla", "de": "niemals", "typ": "wort", "beispiel": { "tr": "Seni asla unutmayacağım.", "de": "Ich werde dich niemals vergessen." } }
+      ],
+      "grammatik": {
+        "titel": "nicht & Frage in der Zukunft",
+        "erklaerung": [
+          "Nicht: -ma/-me + y + acak/ecek: gelmeyeceğim (ich werde nicht kommen), yapmayacağım.",
+          "Frage: -acak + mı + Person: Gelecek misin? (Wirst du kommen?) Yapacak mıyız?",
+          "Göreceğiz (wir werden sehen) = „Mal sehen“ – sehr häufig im Alltag."
+        ],
+        "tabelle": {
+          "kopf": ["ja", "nein", "Frage"],
+          "zeilen": [
+            ["geleceğim", "gelmeyeceğim", "gelecek miyim?"],
+            ["geleceksin", "gelmeyeceksin", "gelecek misin?"],
+            ["gelecek", "gelmeyecek", "gelecek mi?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Geç kalmayacağım, söz!", "de": "Ich komme nicht zu spät, versprochen!" },
+          { "tr": "Yarın gelecek misin?", "de": "Kommst du morgen?" },
+          { "tr": "Bilmiyorum, göreceğiz.", "de": "Weiß nicht, mal sehen." }
+        ]
+      },
+      "dialog": {
+        "titel": "Pasha und die Pünktlichkeit",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Yarın Elif'lere zamanında gidecek miyiz?", "de": "Kommen wir morgen pünktlich zu Elif?" },
+          { "sprecher": "Pasha", "tr": "Tabii! Bu sefer geç kalmayacağım.", "de": "Klar! Diesmal komme ich nicht zu spät." },
+          { "sprecher": "Sherin", "tr": "Emin misin?", "de": "Bist du sicher?" },
+          { "sprecher": "Pasha", "tr": "Söz veriyorum. Saat ikide evde olacağım.", "de": "Ich verspreche es. Um zwei bin ich zu Hause." },
+          { "sprecher": "Sherin", "tr": "Hmm … göreceğiz.", "de": "Hmm … mal sehen." },
+          { "sprecher": "Pasha", "tr": "Merak etme, canım. Söz!", "de": "Keine Sorge, Schatz. Versprochen!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w12-soz", "w12-merak-etme", "w12-emin-misin", "w12-gorecegiz"] },
+        { "art": "luecke", "satz": "Geç kal___!", "loesung": "mayacağım", "optionen": ["mayacağım", "acağım", "madım"], "de": "Ich werde nicht zu spät kommen!" },
+        { "art": "luecke", "satz": "Yarın gelecek ___?", "loesung": "misin", "optionen": ["misin", "musun", "sin"], "de": "Kommst du morgen?" },
+        { "art": "hoeren", "vokabel": "w12-zamaninda" },
+        { "art": "auswahl_de_tr", "vokabel": "w12-gec-kalmak" },
+        { "art": "satzbau", "tr": "Söz veriyorum, geç kalmayacağım.", "de": "Ich verspreche, ich komme nicht zu spät." },
+        { "art": "auswahl_tr_de", "vokabel": "w12-asla" },
+        { "art": "hoeren", "vokabel": "w12-soz-vermek" },
+        { "art": "tippen", "vokabel": "w12-soz" },
+        { "art": "satzbau", "tr": "Bilmiyorum, göreceğiz.", "de": "Weiß nicht, mal sehen." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Gebt euch gegenseitig drei Versprechen für die nächste Woche auf Türkisch – ernst oder lustig. Und eine Sache, die ihr sicher NICHT machen werdet.",
+        "mustersaetze": [
+          { "tr": "Her gün Türkçe konuşacağım. Söz!", "de": "Ich spreche jeden Tag Türkisch. Versprochen!" },
+          { "tr": "Bulaşıkları sen yıkayacaksın!", "de": "Du wirst abwaschen!" },
+          { "tr": "Asla geç kalmayacağım.", "de": "Ich werde nie zu spät kommen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Merak etme!", "de": "Keine Sorge!", "wann": "Wenn Pasha sich heute über irgendetwas Sorgen macht." },
+      "merktipp": { "titel": "Mal sehen = Göreceğiz", "text": "Göreceğiz ist die eleganteste Art, sich nicht festzulegen. Perfekt für Fragen wie „Kommt ihr am Wochenende zu uns?“." }
+    },
+    {
+      "woche": 12,
+      "tag": 4,
+      "titel": "Urlaubspläne",
+      "kannZiel": "über Urlaubspläne sprechen",
+      "vokabeln": [
+        { "id": "w12-deniz", "tr": "deniz", "de": "Meer", "typ": "wort", "beispiel": { "tr": "Inaya ilk defa denizi görecek!", "de": "Inaya wird zum ersten Mal das Meer sehen!" } },
+        { "id": "w12-plaj", "tr": "plaj", "de": "Strand", "typ": "wort", "beispiel": { "tr": "Her gün plaja gideceğiz.", "de": "Wir gehen jeden Tag an den Strand." } },
+        { "id": "w12-otel", "tr": "otel", "de": "Hotel", "typ": "wort", "beispiel": { "tr": "Otelde mi kalacağız?", "de": "Bleiben wir im Hotel?" } },
+        { "id": "w12-bavul", "tr": "bavul", "de": "Koffer", "typ": "wort", "beispiel": { "tr": "Bavulu ne zaman hazırlayacağız?", "de": "Wann packen wir den Koffer?" } },
+        { "id": "w12-pasaport", "tr": "pasaport", "de": "Reisepass", "typ": "wort", "beispiel": { "tr": "Inaya'nın pasaportu hazır mı?", "de": "Ist Inayas Reisepass fertig?" } },
+        { "id": "w12-yaz-tatili", "tr": "yaz tatili", "de": "Sommerurlaub", "typ": "chunk", "beispiel": { "tr": "Yaz tatilinde nereye gideceğiz?", "de": "Wohin fahren wir im Sommerurlaub?" } },
+        { "id": "w12-gunes-lenmek", "tr": "güneşlenmek", "de": "sich sonnen", "typ": "wort", "beispiel": { "tr": "Ben güneşleneceğim, sen Inaya'ya bakacaksın.", "de": "Ich sonne mich, du passt auf Inaya auf." } },
+        { "id": "w12-manzara", "tr": "manzara", "de": "Aussicht", "typ": "wort", "beispiel": { "tr": "Odanın manzarası harika!", "de": "Die Aussicht aus dem Zimmer ist toll!" } },
+        { "id": "w12-seneye", "tr": "seneye", "de": "nächstes Jahr", "typ": "wort", "beispiel": { "tr": "Seneye belki Türkiye'ye gideriz.", "de": "Nächstes Jahr fahren wir vielleicht in die Türkei." } }
+      ],
+      "grammatik": {
+        "titel": "Zeitangaben für die Zukunft",
+        "erklaerung": [
+          "Zeitangabe steht vorne: Seneye, yazın, gelecek ay (nächsten Monat), iki hafta sonra (in zwei Wochen).",
+          "„in … (Zeit)“: Zeitraum + sonra: üç ay sonra = in drei Monaten.",
+          "Vage Pläne gern mit belki + -r (kommt in Woche 16): Belki gideriz. Für feste Pläne -acak."
+        ],
+        "tabelle": {
+          "kopf": ["Deutsch", "Türkisch"],
+          "zeilen": [
+            ["nächsten Monat", "gelecek ay"],
+            ["nächstes Jahr", "seneye / gelecek yıl"],
+            ["im Sommer", "yazın"],
+            ["in zwei Wochen", "iki hafta sonra"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Yazın denize gideceğiz.", "de": "Im Sommer fahren wir ans Meer." },
+          { "tr": "Üç ay sonra tatil!", "de": "In drei Monaten ist Urlaub!" },
+          { "tr": "Otelde mi kalacağız?", "de": "Bleiben wir im Hotel?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Tagträume im Winter",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Yaz tatilinde nereye gideceğiz?", "de": "Wohin fahren wir im Sommerurlaub?" },
+          { "sprecher": "Pasha", "tr": "Denize! Inaya ilk defa denizi görecek.", "de": "Ans Meer! Inaya sieht zum ersten Mal das Meer." },
+          { "sprecher": "Sherin", "tr": "Harika! Otelde mi kalacağız?", "de": "Toll! Bleiben wir im Hotel?" },
+          { "sprecher": "Pasha", "tr": "Evet, manzaralı bir otel bulacağım.", "de": "Ja, ich suche ein Hotel mit Aussicht." },
+          { "sprecher": "Sherin", "tr": "Ben her gün güneşleneceğim.", "de": "Ich werde mich jeden Tag sonnen." },
+          { "sprecher": "Pasha", "tr": "Ben de Inaya'yla kumdan kale yapacağım!", "de": "Und ich baue mit Inaya Sandburgen!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w12-deniz", "w12-plaj", "w12-otel", "w12-bavul"] },
+        { "art": "auswahl_de_tr", "vokabel": "w12-yaz-tatili" },
+        { "art": "hoeren", "vokabel": "w12-pasaport" },
+        { "art": "luecke", "satz": "Otelde mi kal___?", "loesung": "acağız", "optionen": ["acağız", "eceğiz", "ıyoruz"], "de": "Bleiben wir im Hotel?" },
+        { "art": "satzbau", "tr": "Yazın denize gideceğiz.", "de": "Im Sommer fahren wir ans Meer." },
+        { "art": "auswahl_tr_de", "vokabel": "w12-manzara" },
+        { "art": "hoeren", "vokabel": "w12-seneye" },
+        { "art": "luecke", "satz": "Üç ay ___ tatil!", "loesung": "sonra", "optionen": ["sonra", "önce", "beri"], "de": "In drei Monaten ist Urlaub!" },
+        { "art": "tippen", "vokabel": "w12-deniz" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Träumt gemeinsam auf Türkisch von eurem nächsten Urlaub: wohin, wie lange, wo ihr schlaft, was jeder dort machen wird. Mindestens sechs Sätze mit -acak.",
+        "mustersaetze": [
+          { "tr": "Yazın denize gideceğiz.", "de": "Im Sommer fahren wir ans Meer." },
+          { "tr": "İki hafta kalacağız.", "de": "Wir bleiben zwei Wochen." },
+          { "tr": "Inaya kumda oynayacak.", "de": "Inaya wird im Sand spielen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Yazın denize gideceğiz!", "de": "Im Sommer fahren wir ans Meer!", "wann": "An einem grauen Novembertag – als Stimmungsaufheller." },
+      "merktipp": { "titel": "Deniz – ein beliebter Name", "text": "deniz (Meer) ist auch ein häufiger Vorname in der Türkei – für Mädchen und Jungen. Viele Namen sind normale Wörter: Ay (Mond), Güneş (Sonne), Elif (der Buchstabe A)." }
+    },
+    {
+      "woche": 12,
+      "tag": 5,
+      "titel": "Besuch bei der Familie",
+      "kannZiel": "einen Familienbesuch planen und Sehnsucht ausdrücken",
+      "vokabeln": [
+        { "id": "w12-memleket", "tr": "memleket", "de": "Heimat(ort)", "typ": "wort", "beispiel": { "tr": "Pasha'nın memleketi neresi?", "de": "Woher stammt Pashas Familie?" } },
+        { "id": "w12-koy", "tr": "köy", "de": "Dorf", "typ": "wort", "beispiel": { "tr": "Köyde hayat çok sakin.", "de": "Im Dorf ist das Leben sehr ruhig." } },
+        { "id": "w12-sehir", "tr": "şehir", "de": "Stadt", "typ": "wort", "beispiel": { "tr": "Büyük bir şehirde mi yaşıyorlar?", "de": "Leben sie in einer großen Stadt?" } },
+        { "id": "w12-akraba", "tr": "akraba", "de": "Verwandte(r)", "typ": "wort", "beispiel": { "tr": "Bütün akrabalar gelecek!", "de": "Alle Verwandten werden kommen!" } },
+        { "id": "w12-ozlemek", "tr": "özlemek", "de": "vermissen", "typ": "wort", "beispiel": { "tr": "Annem Inaya'yı çok özledi.", "de": "Meine Mama vermisst Inaya sehr." } },
+        { "id": "w12-kalmak", "tr": "kalmak", "de": "bleiben / übernachten", "typ": "wort", "beispiel": { "tr": "Bir hafta annemlerde kalacağız.", "de": "Wir bleiben eine Woche bei meinen Eltern." } },
+        { "id": "w12-ucak-bileti", "tr": "uçak bileti", "de": "Flugticket", "typ": "chunk", "beispiel": { "tr": "Uçak biletlerini aldın mı?", "de": "Hast du die Flugtickets gekauft?" } },
+        { "id": "w12-bayram", "tr": "bayram", "de": "(religiöses) Fest / Feiertag", "typ": "wort", "beispiel": { "tr": "Bayramda herkes bir araya gelir.", "de": "An Bayram kommen alle zusammen." } }
+      ],
+      "grammatik": {
+        "titel": "Zukunft + „bei / zu jemandem“",
+        "erklaerung": [
+          "zu jemandem: -lere/-lara: annemlere gideceğiz (wir fahren zu meinen Eltern).",
+          "bei jemandem: -lerde: annemlerde kalacağız (wir bleiben bei meinen Eltern).",
+          "Vermissen = özlemek + Akkusativ: Seni özledim. (Ich habe dich vermisst / vermisse dich.)"
+        ],
+        "tabelle": {
+          "kopf": ["wohin?", "wo?"],
+          "zeilen": [
+            ["annemlere", "annemlerde"],
+            ["Elif'lere", "Elif'lerde"],
+            ["memlekete", "memlekette"],
+            ["köye", "köyde"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bayramda annemlere gideceğiz.", "de": "Zu Bayram fahren wir zu meinen Eltern." },
+          { "tr": "Bir hafta annemlerde kalacağız.", "de": "Wir bleiben eine Woche bei meinen Eltern." },
+          { "tr": "Seni çok özledim.", "de": "Ich habe dich sehr vermisst." }
+        ]
+      },
+      "dialog": {
+        "titel": "Pashas Mama am Telefon",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Ne zaman geleceksiniz? Torunumu çok özledim!", "de": "Wann kommt ihr? Ich vermisse meine Enkelin so sehr!" },
+          { "sprecher": "Sherin", "tr": "Biz de sizi çok özledik! Bayramda geleceğiz.", "de": "Wir vermissen euch auch sehr! Zu Bayram kommen wir." },
+          { "sprecher": "Pashas Mama", "tr": "Kaç gün kalacaksınız?", "de": "Wie viele Tage bleibt ihr?" },
+          { "sprecher": "Sherin", "tr": "Bir hafta. Pasha uçak biletlerini alacak.", "de": "Eine Woche. Pasha kauft die Flugtickets." },
+          { "sprecher": "Pashas Mama", "tr": "Bütün akrabalar Inaya'yı görmek istiyor.", "de": "Alle Verwandten wollen Inaya sehen." },
+          { "sprecher": "Sherin", "tr": "İnşallah! Ben de çok heyecanlıyım.", "de": "Hoffentlich! Ich bin auch schon ganz aufgeregt." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w12-memleket", "w12-koy", "w12-sehir", "w12-akraba"] },
+        { "art": "luecke", "satz": "Bir hafta annemler___ kalacağız.", "loesung": "de", "optionen": ["de", "e", "den"], "de": "Wir bleiben eine Woche bei meinen Eltern." },
+        { "art": "luecke", "satz": "Bayramda annemler___ gideceğiz.", "loesung": "e", "optionen": ["e", "de", "den"], "de": "Zu Bayram fahren wir zu meinen Eltern." },
+        { "art": "hoeren", "vokabel": "w12-ozlemek" },
+        { "art": "auswahl_de_tr", "vokabel": "w12-ucak-bileti" },
+        { "art": "satzbau", "tr": "Torunumu çok özledim!", "de": "Ich vermisse meine Enkelin so sehr!" },
+        { "art": "auswahl_tr_de", "vokabel": "w12-bayram" },
+        { "art": "hoeren", "vokabel": "w12-kalmak" },
+        { "art": "tippen", "vokabel": "w12-koy" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Frag Pasha auf Türkisch nach seiner Familie und ihrem Heimatort: Woher kommt die Familie, Stadt oder Dorf, wer lebt dort? Dann plant (echt oder erträumt) den nächsten Besuch.",
+        "mustersaetze": [
+          { "tr": "Senin memleketin neresi?", "de": "Woher kommt deine Familie?" },
+          { "tr": "Orası köy mü, şehir mi?", "de": "Ist das ein Dorf oder eine Stadt?" },
+          { "tr": "Ne zaman gideceğiz?", "de": "Wann fahren wir hin?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Seni çok özledim!", "de": "Ich hab dich so vermisst!", "wann": "Wenn Pasha heute nach Hause kommt – oder am Telefon mit seiner Mama." },
+      "merktipp": { "titel": "Memleket – mehr als ein Ort", "text": "„Memleketin neresi?“ ist eine der ersten Fragen, die Türken einander stellen. Gemeint ist die Herkunftsregion der Familie – auch bei Menschen, die in Deutschland geboren sind." }
+    },
+    {
+      "woche": 12,
+      "tag": 6,
+      "titel": "Festigungstag: Unsere Zukunft",
+      "kannZiel": "über Pläne und Hoffnungen sprechen",
+      "vokabeln": [
+        { "id": "w12-insallah", "tr": "İnşallah!", "de": "Hoffentlich! / So Gott will!", "typ": "chunk", "beispiel": { "tr": "Yarın hava güzel olacak, inşallah!", "de": "Morgen wird das Wetter schön, hoffentlich!" } },
+        { "id": "w12-kismet", "tr": "Kısmet.", "de": "Schicksal / mal sehen, was kommt.", "typ": "chunk", "beispiel": { "tr": "Belki gideriz, belki gitmeyiz. Kısmet.", "de": "Vielleicht fahren wir, vielleicht nicht. Schicksal." } },
+        { "id": "w12-sabirsizlaniyorum", "tr": "Sabırsızlanıyorum!", "de": "Ich kann's kaum erwarten!", "typ": "chunk", "beispiel": { "tr": "Tatil için sabırsızlanıyorum!", "de": "Ich kann den Urlaub kaum erwarten!" } },
+        { "id": "w12-heyecanliyim", "tr": "Heyecanlıyım.", "de": "Ich bin aufgeregt.", "typ": "chunk", "beispiel": { "tr": "Çok heyecanlıyım!", "de": "Ich bin so aufgeregt!" } },
+        { "id": "w12-haberlesmek", "tr": "haberleşmek", "de": "in Kontakt bleiben", "typ": "wort", "beispiel": { "tr": "Haberleşelim!", "de": "Lass uns in Kontakt bleiben!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Zukunft: -acak/-ecek + Person. Nicht: -mayacak. Frage: -acak mı?",
+          "Jetzt hast du alle drei Zeiten: Gestern -dı, heute -yor, morgen -acak."
+        ],
+        "tabelle": {
+          "kopf": ["gestern", "heute", "morgen"],
+          "zeilen": [
+            ["geldim", "geliyorum", "geleceğim"],
+            ["yaptık", "yapıyoruz", "yapacağız"],
+            ["gitmedi", "gitmiyor", "gitmeyecek"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Dün parka gittik, bugün evdeyiz, yarın Elif'lere gideceğiz.", "de": "Gestern waren wir im Park, heute sind wir zu Hause, morgen gehen wir zu Elif." },
+          { "tr": "İnşallah yarın güneşli olacak.", "de": "Hoffentlich wird es morgen sonnig." },
+          { "tr": "Tatil için sabırsızlanıyorum!", "de": "Ich kann den Urlaub kaum erwarten!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Wenn Inaya groß ist …",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Inaya büyüyünce ne olacak sence?", "de": "Was meinst du, was Inaya wird, wenn sie groß ist?" },
+          { "sprecher": "Sherin", "tr": "Bilmiyorum. Kısmet! Ama iki dil konuşacak.", "de": "Keine Ahnung. Schicksal! Aber sie wird zwei Sprachen sprechen." },
+          { "sprecher": "Pasha", "tr": "Sen de! Mayısta Türkçe konuşacaksın.", "de": "Du auch! Im Mai wirst du Türkisch sprechen." },
+          { "sprecher": "Sherin", "tr": "İnşallah! Her gün çalışıyorum.", "de": "Hoffentlich! Ich übe jeden Tag." },
+          { "sprecher": "Pasha", "tr": "Yazın memlekete gidince herkes şaşıracak.", "de": "Wenn wir im Sommer in die Heimat fahren, werden alle staunen." },
+          { "sprecher": "Sherin", "tr": "Sabırsızlanıyorum! Ama biraz da heyecanlıyım.", "de": "Ich kann's kaum erwarten! Aber ich bin auch ein bisschen aufgeregt." },
+          { "sprecher": "Pasha", "tr": "Merak etme, çok iyi olacak.", "de": "Keine Sorge, das wird super." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w12-insallah", "w12-kismet", "w12-sabirsizlaniyorum", "w12-heyecanliyim"] },
+        { "art": "hoeren", "vokabel": "w12-haberlesmek" },
+        { "art": "luecke", "satz": "Dün geldim, bugün geliyorum, yarın gel___.", "loesung": "eceğim", "optionen": ["eceğim", "acağım", "dim"], "de": "Gestern kam ich, heute komme ich, morgen werde ich kommen." },
+        { "art": "satzbau", "tr": "İnşallah yarın güneşli olacak.", "de": "Hoffentlich wird es morgen sonnig." },
+        { "art": "auswahl_de_tr", "vokabel": "w12-insallah" },
+        { "art": "luecke", "satz": "Mayısta Türkçe konuşa___!", "loesung": "caksın", "optionen": ["caksın", "cağım", "cak"], "de": "Im Mai wirst du Türkisch sprechen!" },
+        { "art": "hoeren", "vokabel": "w12-gelecek-hafta" },
+        { "art": "auswahl_tr_de", "vokabel": "w12-sabirsizlaniyorum" },
+        { "art": "tippen", "vokabel": "w12-belki" },
+        { "art": "satzbau", "tr": "Tatil için sabırsızlanıyorum!", "de": "Ich kann den Urlaub kaum erwarten!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Erzähl Pasha auf Türkisch, was ihr letzte Woche gemacht habt, was ihr jetzt macht und was ihr nächste Woche vorhabt – alle drei Zeiten in einem Stück.",
+        "mustersaetze": [
+          { "tr": "Geçen hafta … yaptık.", "de": "Letzte Woche haben wir … gemacht." },
+          { "tr": "Şimdi … yapıyoruz.", "de": "Jetzt machen wir …" },
+          { "tr": "Gelecek hafta … yapacağız, inşallah.", "de": "Nächste Woche machen wir …, hoffentlich." }
+        ]
+      },
+      "alltagssatz": { "tr": "İnşallah!", "de": "Hoffentlich!", "wann": "Bei jedem Plan heute – so reden fast alle Türkinnen und Türken." },
+      "merktipp": { "titel": "İnşallah & Maşallah", "text": "İnşallah = hoffentlich (für die Zukunft). Maşallah = wie schön (für etwas, das schon gut ist). Beide hörst du in Pashas Familie ständig – jetzt kannst du sie selbst benutzen." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Erzähl Pasha drei Pläne für nächste Woche.", "hilfe": { "tr": "Gelecek hafta doktora gideceğiz, Elif gelecek, ben pasta yapacağım.", "de": "Nächste Woche gehen wir zum Arzt, Elif kommt, ich backe eine Torte." } },
+      { "situation": "Versprich Pasha etwas – und sag, was du sicher nicht machen wirst.", "hilfe": { "tr": "Söz, her gün Türkçe konuşacağım. Asla vazgeçmeyeceğim!", "de": "Versprochen, ich spreche jeden Tag Türkisch. Ich gebe niemals auf!" } },
+      { "situation": "Telefonier (gespielt) mit Pashas Mama über euren nächsten Besuch.", "hilfe": { "tr": "Bayramda geleceğiz, inşallah. Bir hafta kalacağız.", "de": "Zu Bayram kommen wir, hoffentlich. Wir bleiben eine Woche." } }
+    ]
+  }
+}
