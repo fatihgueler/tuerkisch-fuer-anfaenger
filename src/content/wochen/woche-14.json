@@ -1,0 +1,432 @@
+{
+  "woche": 14,
+  "lektionen": [
+    {
+      "woche": 14,
+      "tag": 1,
+      "titel": "Ich will … : -mak istiyorum",
+      "kannZiel": "sagen, was du gern tun möchtest",
+      "vokabeln": [
+        { "id": "w14-dans-etmek", "tr": "dans etmek", "de": "tanzen", "typ": "chunk", "beispiel": { "tr": "Inaya müzik duyunca dans etmek istiyor.", "de": "Wenn Inaya Musik hört, will sie tanzen." } },
+        { "id": "w14-sarki-soylemek", "tr": "şarkı söylemek", "de": "singen", "typ": "chunk", "beispiel": { "tr": "Inaya'ya Türkçe şarkı söylemek istiyorum.", "de": "Ich möchte Inaya türkische Lieder vorsingen." } },
+        { "id": "w14-resim-yapmak", "tr": "resim yapmak", "de": "malen", "typ": "chunk", "beispiel": { "tr": "Bugün resim yapmak istiyor musun?", "de": "Willst du heute malen?" } },
+        { "id": "w14-okumak", "tr": "okumak", "de": "lesen", "typ": "wort", "beispiel": { "tr": "Akşam kitap okumak istiyorum.", "de": "Abends möchte ich ein Buch lesen." } },
+        { "id": "w14-yazmak", "tr": "yazmak", "de": "schreiben", "typ": "wort", "beispiel": { "tr": "Annene mesaj yazmak istiyorum.", "de": "Ich möchte deiner Mama eine Nachricht schreiben." } },
+        { "id": "w14-ogrenmek", "tr": "öğrenmek", "de": "lernen", "typ": "wort", "beispiel": { "tr": "Türk yemekleri yapmayı öğrenmek istiyorum.", "de": "Ich möchte lernen, türkisch zu kochen." } },
+        { "id": "w14-denemek", "tr": "denemek", "de": "ausprobieren", "typ": "wort", "beispiel": { "tr": "Bu tarifi denemek istiyorum.", "de": "Ich möchte dieses Rezept ausprobieren." } },
+        { "id": "w14-canim-istiyor", "tr": "Canım … istiyor.", "de": "Ich hab Lust auf …", "typ": "chunk", "beispiel": { "tr": "Canım çikolata istiyor!", "de": "Ich hab Lust auf Schokolade!" } },
+        { "id": "w14-hayal", "tr": "hayal", "de": "Traum (Wunsch)", "typ": "wort", "beispiel": { "tr": "Hayalim İstanbul'u görmek.", "de": "Mein Traum ist, Istanbul zu sehen." } }
+      ],
+      "grammatik": {
+        "titel": "Infinitiv + istemek",
+        "erklaerung": [
+          "„Ich will (etwas tun)“: Grundform auf -mak/-mek + istiyorum: Uyumak istiyorum. = Ich will schlafen.",
+          "Die Grundform ändert sich nicht – nur istemek bekommt Zeit und Person.",
+          "Frage: Ne yapmak istiyorsun? Verneint: Gitmek istemiyorum."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["ich will", "okumak istiyorum"],
+            ["du willst?", "okumak istiyor musun?"],
+            ["ich will nicht", "okumak istemiyorum"],
+            ["ich wollte", "okumak istedim"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bugün ne yapmak istiyorsun?", "de": "Was willst du heute machen?" },
+          { "tr": "Biraz uyumak istiyorum.", "de": "Ich will ein bisschen schlafen." },
+          { "tr": "Dışarı çıkmak istemiyorum, hava çok soğuk.", "de": "Ich will nicht raus, es ist zu kalt." }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein freier Sonntag",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bugün ne yapmak istiyorsun?", "de": "Was willst du heute machen?" },
+          { "sprecher": "Sherin", "tr": "Hiçbir şey! Sadece kanepede kitap okumak istiyorum.", "de": "Gar nichts! Ich will nur auf dem Sofa ein Buch lesen." },
+          { "sprecher": "Pasha", "tr": "Inaya dışarı çıkmak istiyor ama.", "de": "Aber Inaya will raus." },
+          { "sprecher": "Sherin", "tr": "O zaman sen onunla parka git!", "de": "Dann geh du mit ihr in den Park!" },
+          { "sprecher": "Pasha", "tr": "Tamam. Akşam ne yemek istiyorsun?", "de": "Okay. Was willst du heute Abend essen?" },
+          { "sprecher": "Sherin", "tr": "Canım mantı istiyor!", "de": "Ich hab Lust auf Mantı!" },
+          { "sprecher": "Pasha", "tr": "Mantı mı? O zaman annemi arayalım!", "de": "Mantı? Dann rufen wir meine Mama an!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w14-dans-etmek", "w14-sarki-soylemek", "w14-resim-yapmak", "w14-okumak"] },
+        { "art": "luecke", "satz": "Biraz uyu___ istiyorum.", "loesung": "mak", "optionen": ["mak", "mek", "yorum"], "de": "Ich will ein bisschen schlafen." },
+        { "art": "luecke", "satz": "Dışarı çıkmak iste___.", "loesung": "miyorum", "optionen": ["miyorum", "iyorum", "medim"], "de": "Ich will nicht raus." },
+        { "art": "hoeren", "vokabel": "w14-canim-istiyor" },
+        { "art": "auswahl_de_tr", "vokabel": "w14-denemek" },
+        { "art": "satzbau", "tr": "Bugün ne yapmak istiyorsun?", "de": "Was willst du heute machen?" },
+        { "art": "auswahl_tr_de", "vokabel": "w14-hayal" },
+        { "art": "hoeren", "vokabel": "w14-ogrenmek" },
+        { "art": "tippen", "vokabel": "w14-yazmak" },
+        { "art": "satzbau", "tr": "Canım çikolata istiyor!", "de": "Ich hab Lust auf Schokolade!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Wunschrunde: Jeder sagt fünf Dinge, die er diese Woche tun möchte – und zwei, die er auf keinen Fall will. Benutze -mak istiyorum / istemiyorum und einmal „Canım … istiyor“.",
+        "mustersaetze": [
+          { "tr": "Bu hafta yeni bir tarif denemek istiyorum.", "de": "Diese Woche möchte ich ein neues Rezept ausprobieren." },
+          { "tr": "Ütü yapmak istemiyorum!", "de": "Ich will nicht bügeln!" },
+          { "tr": "Canım dondurma istiyor.", "de": "Ich hab Lust auf Eis." }
+        ]
+      },
+      "alltagssatz": { "tr": "Canım … istiyor!", "de": "Ich hab Lust auf …!", "wann": "Beim nächsten Heißhunger – Pasha weiß dann sofort Bescheid." },
+      "merktipp": { "titel": "Canım istiyor – die Seele will", "text": "„Canım çikolata istiyor“ heißt wörtlich „Meine Seele will Schokolade“. Kein Wunder, dass das Wort can auch für Liebste benutzt wird: canım!" }
+    },
+    {
+      "woche": 14,
+      "tag": 2,
+      "titel": "Ich kann … : -ebilmek",
+      "kannZiel": "sagen, was du kannst",
+      "vokabeln": [
+        { "id": "w14-araba-surmek", "tr": "araba sürmek", "de": "Auto fahren", "typ": "chunk", "beispiel": { "tr": "Araba sürebiliyor musun?", "de": "Kannst du Auto fahren?" } },
+        { "id": "w14-gitar-calmak", "tr": "gitar çalmak", "de": "Gitarre spielen", "typ": "chunk", "beispiel": { "tr": "Pasha biraz gitar çalabiliyor.", "de": "Pasha kann ein bisschen Gitarre spielen." } },
+        { "id": "w14-orgu-ormek", "tr": "örgü örmek", "de": "stricken", "typ": "chunk", "beispiel": { "tr": "Babaanne çok güzel örgü örebiliyor.", "de": "Oma kann wunderschön stricken." } },
+        { "id": "w14-cizmek", "tr": "çizmek", "de": "zeichnen", "typ": "wort", "beispiel": { "tr": "Inaya bir daire çizebiliyor!", "de": "Inaya kann einen Kreis zeichnen!" } },
+        { "id": "w14-kayak-yapmak", "tr": "kayak yapmak", "de": "Ski fahren", "typ": "chunk", "beispiel": { "tr": "Kayak yapabiliyor musun?", "de": "Kannst du Ski fahren?" } },
+        { "id": "w14-yetenek", "tr": "yetenek", "de": "Talent", "typ": "wort", "beispiel": { "tr": "Saç kesmek senin yeteneğin.", "de": "Haare schneiden ist dein Talent." } },
+        { "id": "w14-kolay", "tr": "kolay", "de": "leicht / einfach", "typ": "wort", "beispiel": { "tr": "Türkçe o kadar zor değil, bazı şeyler kolay.", "de": "Türkisch ist nicht so schwer, manches ist einfach." } },
+        { "id": "w14-zor", "tr": "zor", "de": "schwer / schwierig", "typ": "wort", "beispiel": { "tr": "Vokal uyumu bazen zor.", "de": "Vokalharmonie ist manchmal schwer." } },
+        { "id": "w14-elimden-gelir", "tr": "Elimden gelir.", "de": "Das kann ich (gut).", "typ": "chunk", "beispiel": { "tr": "Saç kesmek mi? Elimden gelir!", "de": "Haare schneiden? Das kann ich!" } }
+      ],
+      "grammatik": {
+        "titel": "können = -(y)ebil / -(y)abil",
+        "erklaerung": [
+          "„können“ ist ein Lego-Stein direkt am Verbstamm: -abil/-ebil (nach Vokal: -yabil/-yebil).",
+          "Danach kommt die Zeit: yüz-ebil-iyor-um = ich kann schwimmen.",
+          "Frage: Yüzebiliyor musun? = Kannst du schwimmen?",
+          "Du kennst den Stein schon aus „alabilir miyim?“ (kann ich haben?)."
+        ],
+        "tabelle": {
+          "kopf": ["Grundform", "ich kann …"],
+          "zeilen": [
+            ["yüzmek", "yüzebiliyorum"],
+            ["konuşmak", "konuşabiliyorum"],
+            ["sürmek", "sürebiliyorum"],
+            ["okumak", "okuyabiliyorum"],
+            ["söylemek", "söyleyebiliyorum"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Biraz Türkçe konuşabiliyorum.", "de": "Ich kann ein bisschen Türkisch sprechen." },
+          { "tr": "Araba sürebiliyor musun?", "de": "Kannst du Auto fahren?" },
+          { "tr": "Inaya bir daire çizebiliyor!", "de": "Inaya kann einen Kreis zeichnen!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Wer kann was?",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Sherin, saç kesebiliyor musun? Oğlumun saçı çok uzun.", "de": "Sherin, kannst du Haare schneiden? Die Haare meines Sohnes sind so lang." },
+          { "sprecher": "Sherin", "tr": "Tabii! Ben kuaförüm. Elimden gelir.", "de": "Klar! Ich bin Friseurin. Das kann ich." },
+          { "sprecher": "Elif", "tr": "Harika! Ben de sana börek yapabilirim.", "de": "Super! Und ich kann dir dafür Börek machen." },
+          { "sprecher": "Sherin", "tr": "Börek mi? Bunu ben yapamıyorum, çok zor.", "de": "Börek? Das kann ich nicht, das ist so schwer." },
+          { "sprecher": "Elif", "tr": "Aslında kolay! Sana öğretebilirim.", "de": "Eigentlich ist es leicht! Ich kann's dir beibringen." },
+          { "sprecher": "Sherin", "tr": "Anlaştık! Sen bana börek, ben sana saç.", "de": "Abgemacht! Du mir Börek, ich dir Haare." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w14-araba-surmek", "w14-gitar-calmak", "w14-orgu-ormek", "w14-kayak-yapmak"] },
+        { "art": "luecke", "satz": "Biraz Türkçe konuş___rum.", "loesung": "abiliyo", "optionen": ["abiliyo", "ebiliyo", "uyo"], "de": "Ich kann ein bisschen Türkisch sprechen." },
+        { "art": "luecke", "satz": "Araba sür___ musun?", "loesung": "ebiliyor", "optionen": ["ebiliyor", "abiliyor", "üyor"], "de": "Kannst du Auto fahren?" },
+        { "art": "hoeren", "vokabel": "w14-elimden-gelir" },
+        { "art": "zuordnen", "vokabeln": ["w14-kolay", "w14-zor", "w14-yetenek", "w14-cizmek"] },
+        { "art": "satzbau", "tr": "Inaya bir daire çizebiliyor!", "de": "Inaya kann einen Kreis zeichnen!" },
+        { "art": "auswahl_de_tr", "vokabel": "w14-yetenek" },
+        { "art": "hoeren", "vokabel": "w14-araba-surmek" },
+        { "art": "tippen", "vokabel": "w14-zor" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Talent-Interview: Fragt euch gegenseitig zehn „Kannst du …?“-Fragen auf Türkisch (schwimmen, kochen, stricken, Ski fahren, Gitarre …). Wer mehr „Evet“ hat, gewinnt.",
+        "mustersaetze": [
+          { "tr": "Yüzebiliyor musun?", "de": "Kannst du schwimmen?" },
+          { "tr": "Evet, çok iyi yüzebiliyorum.", "de": "Ja, ich kann sehr gut schwimmen." },
+          { "tr": "Saç kesmek mi? Elimden gelir!", "de": "Haare schneiden? Kann ich!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Biraz Türkçe konuşabiliyorum.", "de": "Ich kann ein bisschen Türkisch.", "wann": "Beim nächsten Gespräch mit Pashas Familie – mit Stolz!" },
+      "merktipp": { "titel": "-ebil kennst du schon", "text": "alabilir miyim?, ödeyebilir miyim?, nasıl gidebilirim? – überall steckte schon -ebil drin. Jetzt weißt du, warum: Es heißt „können“." }
+    },
+    {
+      "woche": 14,
+      "tag": 3,
+      "titel": "Ich kann nicht … : -eme",
+      "kannZiel": "sagen, was du nicht kannst oder nicht geschafft hast",
+      "vokabeln": [
+        { "id": "w14-uyuyamiyorum", "tr": "Uyuyamıyorum.", "de": "Ich kann nicht schlafen.", "typ": "chunk", "beispiel": { "tr": "Inaya ağlıyor, uyuyamıyorum.", "de": "Inaya weint, ich kann nicht schlafen." } },
+        { "id": "w14-gelemem", "tr": "Gelemem.", "de": "Ich kann nicht kommen.", "typ": "chunk", "beispiel": { "tr": "Maalesef bugün gelemem.", "de": "Leider kann ich heute nicht kommen." } },
+        { "id": "w14-yapamiyorum", "tr": "Yapamıyorum.", "de": "Ich kann das nicht.", "typ": "chunk", "beispiel": { "tr": "Bu bulmacayı yapamıyorum!", "de": "Ich krieg das Rätsel nicht hin!" } },
+        { "id": "w14-dayanamiyorum", "tr": "Dayanamıyorum!", "de": "Ich halt's nicht aus!", "typ": "chunk", "beispiel": { "tr": "Bu sıcağa dayanamıyorum!", "de": "Diese Hitze halt ich nicht aus!" } },
+        { "id": "w14-beceremiyorum", "tr": "Beceremiyorum.", "de": "Ich krieg's nicht hin.", "typ": "chunk", "beispiel": { "tr": "Börek yapmayı beceremiyorum.", "de": "Ich krieg Börek einfach nicht hin." } },
+        { "id": "w14-imkansiz", "tr": "imkânsız", "de": "unmöglich", "typ": "wort", "beispiel": { "tr": "Inaya'yla sessiz bir akşam? İmkânsız!", "de": "Ein ruhiger Abend mit Inaya? Unmöglich!" } },
+        { "id": "w14-mumkun", "tr": "mümkün", "de": "möglich", "typ": "wort", "beispiel": { "tr": "Yarın gelmek mümkün mü?", "de": "Ist es möglich, morgen zu kommen?" } },
+        { "id": "w14-yetistirememek", "tr": "yetiştirememek", "de": "nicht rechtzeitig schaffen", "typ": "chunk", "beispiel": { "tr": "Otobüsü yetiştiremedim.", "de": "Ich habe den Bus nicht mehr erwischt." } }
+      ],
+      "grammatik": {
+        "titel": "nicht können = -(y)ama / -(y)eme",
+        "erklaerung": [
+          "„nicht können“ hat einen eigenen Stein: -ama/-eme (nach Vokal -yama/-yeme).",
+          "Danach die Zeit: uyu-yama-ıyor-um → uyuyamıyorum (ich kann nicht schlafen).",
+          "Vergangenheit: gel-eme-di-m → gelemedim (ich konnte nicht kommen).",
+          "Gelemem / yapamam (ohne -yor) heißt „ich kann (grundsätzlich/diesmal) nicht“."
+        ],
+        "tabelle": {
+          "kopf": ["kann", "kann nicht", "konnte nicht"],
+          "zeilen": [
+            ["gelebiliyorum", "gelemiyorum", "gelemedim"],
+            ["uyuyabiliyorum", "uyuyamıyorum", "uyuyamadım"],
+            ["yapabiliyorum", "yapamıyorum", "yapamadım"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Dün gece hiç uyuyamadım.", "de": "Letzte Nacht konnte ich gar nicht schlafen." },
+          { "tr": "Maalesef bugün gelemem.", "de": "Leider kann ich heute nicht kommen." },
+          { "tr": "Otobüsü yetiştiremedim.", "de": "Ich habe den Bus nicht mehr erwischt." }
+        ]
+      },
+      "dialog": {
+        "titel": "Eine lange Nacht",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Günaydın. Çok yorgun görünüyorsun.", "de": "Guten Morgen. Du siehst sehr müde aus." },
+          { "sprecher": "Sherin", "tr": "Dün gece hiç uyuyamadım. Inaya'nın dişi çıkıyor.", "de": "Ich konnte letzte Nacht gar nicht schlafen. Inaya bekommt einen Zahn." },
+          { "sprecher": "Pasha", "tr": "Ben hiç duymadım!", "de": "Ich hab gar nichts gehört!" },
+          { "sprecher": "Sherin", "tr": "Biliyorum! Sen her yerde uyuyabiliyorsun.", "de": "Ich weiß! Du kannst überall schlafen." },
+          { "sprecher": "Pasha", "tr": "Özür dilerim. Bugün Elif'le buluşamazsın o zaman?", "de": "Tut mir leid. Dann kannst du dich heute nicht mit Elif treffen?" },
+          { "sprecher": "Sherin", "tr": "Hayır, gelemem dedim. Bugün tek planım: uyumak!", "de": "Nein, ich hab abgesagt. Heute habe ich nur einen Plan: schlafen!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w14-uyuyamiyorum", "w14-gelemem", "w14-dayanamiyorum", "w14-beceremiyorum"] },
+        { "art": "luecke", "satz": "Dün gece hiç uyuya___.", "loesung": "madım", "optionen": ["madım", "bildim", "mıyorum"], "de": "Letzte Nacht konnte ich gar nicht schlafen." },
+        { "art": "luecke", "satz": "Maalesef bugün gel___.", "loesung": "emem", "optionen": ["emem", "ebilirim", "eceğim"], "de": "Leider kann ich heute nicht kommen." },
+        { "art": "hoeren", "vokabel": "w14-imkansiz" },
+        { "art": "auswahl_de_tr", "vokabel": "w14-mumkun" },
+        { "art": "satzbau", "tr": "Otobüsü yetiştiremedim.", "de": "Ich habe den Bus nicht mehr erwischt." },
+        { "art": "auswahl_tr_de", "vokabel": "w14-yapamiyorum" },
+        { "art": "hoeren", "vokabel": "w14-yetistirememek" },
+        { "art": "tippen", "vokabel": "w14-imkansiz" },
+        { "art": "satzbau", "tr": "Bu sıcağa dayanamıyorum!", "de": "Diese Hitze halt ich nicht aus!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Ehrlichkeits-Runde: Sag Pasha drei Dinge, die du (noch) nicht kannst, und eine Sache, die du letzte Woche nicht geschafft hast. Pasha sagt dir dann, was er nicht kann.",
+        "mustersaetze": [
+          { "tr": "Börek yapmayı beceremiyorum.", "de": "Börek krieg ich nicht hin." },
+          { "tr": "Geçen hafta spor yapamadım.", "de": "Letzte Woche habe ich keinen Sport geschafft." },
+          { "tr": "Sen ne yapamıyorsun?", "de": "Was kannst du nicht?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Dün gece uyuyamadım.", "de": "Ich konnte letzte Nacht nicht schlafen.", "wann": "Nach der nächsten unruhigen Nacht – leider garantiert." },
+      "merktipp": { "titel": "Zwei Steine für Können", "text": "Können: -ebil (gelebilirim). Nicht können: -eme (gelemem). Es gibt kein „gelmebil“ – das Nicht-Können hat seinen eigenen, kürzeren Stein." }
+    },
+    {
+      "woche": 14,
+      "tag": 4,
+      "titel": "Hobbys",
+      "kannZiel": "über Hobbys und Freizeit sprechen",
+      "vokabeln": [
+        { "id": "w14-hobi", "tr": "hobi", "de": "Hobby", "typ": "wort", "beispiel": { "tr": "Hobilerin neler?", "de": "Was sind deine Hobbys?" } },
+        { "id": "w14-spor-yapmak", "tr": "spor yapmak", "de": "Sport machen", "typ": "chunk", "beispiel": { "tr": "Haftada iki kere spor yapmak istiyorum.", "de": "Ich möchte zweimal pro Woche Sport machen." } },
+        { "id": "w14-yoga", "tr": "yoga", "de": "Yoga", "typ": "wort", "beispiel": { "tr": "Akşamları yoga yapıyorum.", "de": "Abends mache ich Yoga." } },
+        { "id": "w14-futbol", "tr": "futbol", "de": "Fußball", "typ": "wort", "beispiel": { "tr": "Türkiye'de herkes futbol konuşur.", "de": "In der Türkei redet jeder über Fußball." } },
+        { "id": "w14-mac", "tr": "maç", "de": "Spiel (Sport)", "typ": "wort", "beispiel": { "tr": "Bu akşam maç var!", "de": "Heute Abend ist Spiel!" } },
+        { "id": "w14-fotograf-cekmek", "tr": "fotoğraf çekmek", "de": "fotografieren", "typ": "chunk", "beispiel": { "tr": "Inaya'nın fotoğrafını çekiyorum.", "de": "Ich mache ein Foto von Inaya." } },
+        { "id": "w14-bos-zamanlarimda", "tr": "boş zamanlarımda", "de": "in meiner Freizeit", "typ": "chunk", "beispiel": { "tr": "Boş zamanlarımda kitap okuyorum.", "de": "In meiner Freizeit lese ich." } },
+        { "id": "w14-dizi", "tr": "dizi", "de": "Serie", "typ": "wort", "beispiel": { "tr": "Türk dizisi izlemek istiyorum.", "de": "Ich möchte eine türkische Serie schauen." } },
+        { "id": "w14-kurs", "tr": "kurs", "de": "Kurs", "typ": "wort", "beispiel": { "tr": "Bebek yüzme kursuna gitmek istiyoruz.", "de": "Wir möchten zum Babyschwimmen gehen." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: können & wollen zusammen",
+        "erklaerung": [
+          "Wollen: -mak istiyorum. Können: -ebiliyorum. Nicht können: -emiyorum.",
+          "Freizeit-Sätze beginnen oft mit boş zamanlarımda (in meiner Freizeit).",
+          "Häufigkeit: haftada iki kere (zweimal pro Woche), her akşam (jeden Abend)."
+        ],
+        "beispiele": [
+          { "tr": "Boş zamanlarımda kitap okuyorum.", "de": "In meiner Freizeit lese ich." },
+          { "tr": "Yoga yapmak istiyorum ama zamanım yok.", "de": "Ich möchte Yoga machen, aber ich habe keine Zeit." },
+          { "tr": "Inaya şarkı dinlemeden uyuyamıyor.", "de": "Inaya kann ohne Lied nicht einschlafen." }
+        ]
+      },
+      "dialog": {
+        "titel": "Freizeit? Welche Freizeit?",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Boş zamanlarında ne yapıyorsun?", "de": "Was machst du in deiner Freizeit?" },
+          { "sprecher": "Sherin", "tr": "Boş zaman mı? Bebeğim var!", "de": "Freizeit? Ich hab ein Baby!" },
+          { "sprecher": "Elif", "tr": "Haklısın. Ama önceden?", "de": "Stimmt. Aber früher?" },
+          { "sprecher": "Sherin", "tr": "Önceden zamanım vardı. Şimdi bazen dizi izliyorum.", "de": "Früher hatte ich Zeit. Jetzt schaue ich manchmal Serien." },
+          { "sprecher": "Elif", "tr": "Hangi diziyi?", "de": "Welche Serie?" },
+          { "sprecher": "Sherin", "tr": "Bir Türk dizisi! Türkçe altyazıyla. Çok şey öğreniyorum.", "de": "Eine türkische! Mit türkischen Untertiteln. Ich lerne viel dabei." },
+          { "sprecher": "Elif", "tr": "Süper fikir! Pasha da izliyor mu?", "de": "Super Idee! Schaut Pasha mit?" },
+          { "sprecher": "Sherin", "tr": "Hayır, o sadece futbol izliyor.", "de": "Nein, der schaut nur Fußball." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w14-hobi", "w14-yoga", "w14-futbol", "w14-dizi"] },
+        { "art": "auswahl_de_tr", "vokabel": "w14-bos-zamanlarimda" },
+        { "art": "hoeren", "vokabel": "w14-spor-yapmak" },
+        { "art": "luecke", "satz": "Yoga yap___ istiyorum ama zamanım yok.", "loesung": "mak", "optionen": ["mak", "abiliyorum", "tım"], "de": "Ich möchte Yoga machen, aber ich habe keine Zeit." },
+        { "art": "satzbau", "tr": "Boş zamanlarımda kitap okuyorum.", "de": "In meiner Freizeit lese ich." },
+        { "art": "auswahl_tr_de", "vokabel": "w14-mac" },
+        { "art": "hoeren", "vokabel": "w14-fotograf-cekmek" },
+        { "art": "auswahl_de_tr", "vokabel": "w14-kurs" },
+        { "art": "tippen", "vokabel": "w14-hobi" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha auf Türkisch, was deine Hobbys früher waren, was du jetzt machst und was du gern wieder machen möchtest, wenn Inaya größer ist.",
+        "mustersaetze": [
+          { "tr": "Önceden dans ediyordum.", "de": "Früher habe ich getanzt." },
+          { "tr": "Şimdi boş zamanlarımda dizi izliyorum.", "de": "Jetzt schaue ich in meiner Freizeit Serien." },
+          { "tr": "Inaya büyüyünce yine yoga yapmak istiyorum.", "de": "Wenn Inaya größer ist, möchte ich wieder Yoga machen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Bu akşam maç var mı?", "de": "Ist heute Abend ein Spiel?", "wann": "Zu Pasha – und dann verhandeln, wer die Fernbedienung bekommt." },
+      "merktipp": { "titel": "Serien-Trick", "text": "Türkische Serien mit türkischen Untertiteln sind ein Geheimtipp: Du hörst echtes Alltags-Türkisch und liest gleichzeitig mit. 10 Minuten am Abend reichen." }
+    },
+    {
+      "woche": 14,
+      "tag": 5,
+      "titel": "Darf ich …?",
+      "kannZiel": "um Erlaubnis bitten und erlauben",
+      "vokabeln": [
+        { "id": "w14-izin", "tr": "izin", "de": "Erlaubnis / Urlaub (Arbeit)", "typ": "wort", "beispiel": { "tr": "Pasha izin aldı, bir hafta evde.", "de": "Pasha hat Urlaub genommen, er ist eine Woche zu Hause." } },
+        { "id": "w14-izin-verir-misin", "tr": "İzin verir misin?", "de": "Erlaubst du (das)?", "typ": "chunk", "beispiel": { "tr": "Bir dakika izin verir misin?", "de": "Entschuldigst du mich kurz?" } },
+        { "id": "w14-olur-mu", "tr": "Olur mu?", "de": "Geht das? / Ist das okay?", "typ": "chunk", "beispiel": { "tr": "Yarın gelsem olur mu?", "de": "Ist es okay, wenn ich morgen komme?" } },
+        { "id": "w14-tabii-olur", "tr": "Tabii, olur.", "de": "Klar, geht.", "typ": "chunk", "beispiel": { "tr": "Pencereyi açabilir miyim? – Tabii, olur.", "de": "Darf ich das Fenster öffnen? – Klar." } },
+        { "id": "w14-yasak", "tr": "yasak", "de": "verboten", "typ": "wort", "beispiel": { "tr": "Burada köpek yasak.", "de": "Hunde sind hier verboten." } },
+        { "id": "w14-oturabilir-miyim", "tr": "Oturabilir miyim?", "de": "Darf ich mich setzen?", "typ": "chunk", "beispiel": { "tr": "Pardon, buraya oturabilir miyim?", "de": "Entschuldigung, darf ich mich hierhin setzen?" } },
+        { "id": "w14-kullanabilir-miyim", "tr": "Kullanabilir miyim?", "de": "Darf ich das benutzen?", "typ": "chunk", "beispiel": { "tr": "Tuvaleti kullanabilir miyim?", "de": "Darf ich die Toilette benutzen?" } },
+        { "id": "w14-rahatsiz-etmek", "tr": "rahatsız etmek", "de": "stören", "typ": "chunk", "beispiel": { "tr": "Rahatsız ediyorum ama bir sorum var.", "de": "Entschuldigen Sie die Störung, ich habe eine Frage." } }
+      ],
+      "grammatik": {
+        "titel": "-ebilir miyim? = Darf ich?",
+        "erklaerung": [
+          "Höfliche Bitte um Erlaubnis: -ebilir miyim? / -abilir miyim? (Darf/Kann ich …?)",
+          "Erlaubnis geben: -ebilirsin (du darfst), -ebilirsiniz (Sie dürfen).",
+          "Verbot: yasak – Sigara içmek yasak. (Rauchen verboten.)"
+        ],
+        "tabelle": {
+          "kopf": ["Bitte", "Erlaubnis"],
+          "zeilen": [
+            ["Oturabilir miyim?", "Tabii, oturabilirsin."],
+            ["Girebilir miyim?", "Buyurun, girebilirsiniz."],
+            ["Kullanabilir miyim?", "Tabii, olur."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Pardon, buraya oturabilir miyim?", "de": "Entschuldigung, darf ich mich hierhin setzen?" },
+          { "tr": "Tabii, oturabilirsiniz.", "de": "Natürlich, setzen Sie sich." },
+          { "tr": "Burada köpek yasak.", "de": "Hunde sind hier verboten." }
+        ]
+      },
+      "dialog": {
+        "titel": "Im Wartezimmer",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pardon, buraya oturabilir miyim?", "de": "Entschuldigung, darf ich mich hierhin setzen?" },
+          { "sprecher": "Frau", "tr": "Tabii, buyurun.", "de": "Natürlich, bitte." },
+          { "sprecher": "Sherin", "tr": "Bebek arabasını buraya koyabilir miyim? Olur mu?", "de": "Darf ich den Kinderwagen hier abstellen? Ist das okay?" },
+          { "sprecher": "Frau", "tr": "Olur olur. Ne tatlı bir bebek! Kaç aylık?", "de": "Klar doch. Was für ein süßes Baby! Wie viele Monate?" },
+          { "sprecher": "Sherin", "tr": "Bir yaşında. Rahatsız ediyorum ama tuvalet nerede?", "de": "Ein Jahr. Entschuldigen Sie die Störung, aber wo ist die Toilette?" },
+          { "sprecher": "Frau", "tr": "Koridorun sonunda, sağda. Bebeğe ben bakabilirim.", "de": "Am Ende des Flurs, rechts. Ich kann auf das Baby aufpassen." },
+          { "sprecher": "Sherin", "tr": "Çok naziksiniz, ama onu yanıma alıyorum. Teşekkürler!", "de": "Sehr nett, aber ich nehme sie mit. Danke!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w14-izin", "w14-yasak", "w14-olur-mu", "w14-tabii-olur"] },
+        { "art": "auswahl_de_tr", "vokabel": "w14-oturabilir-miyim" },
+        { "art": "hoeren", "vokabel": "w14-kullanabilir-miyim" },
+        { "art": "luecke", "satz": "Tabii, oturabilir___.", "loesung": "siniz", "optionen": ["siniz", "im", "miyim"], "de": "Natürlich, setzen Sie sich." },
+        { "art": "satzbau", "tr": "Pardon, buraya oturabilir miyim?", "de": "Entschuldigung, darf ich mich hierhin setzen?" },
+        { "art": "auswahl_tr_de", "vokabel": "w14-rahatsiz-etmek" },
+        { "art": "hoeren", "vokabel": "w14-izin-verir-misin" },
+        { "art": "satzbau", "tr": "Burada köpek yasak.", "de": "Hunde sind hier verboten." },
+        { "art": "tippen", "vokabel": "w14-yasak" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Höflichkeits-Training: Bitte Pasha heute um fünf Dinge mit „… -ebilir miyim?“ (Fernbedienung, letztes Stück Kuchen, sein Handy …). Er antwortet mit Erlaubnis – oder „yasak!“.",
+        "mustersaetze": [
+          { "tr": "Kumandayı kullanabilir miyim?", "de": "Darf ich die Fernbedienung haben?" },
+          { "tr": "Son parçayı yiyebilir miyim?", "de": "Darf ich das letzte Stück essen?" },
+          { "tr": "Tabii, olur. / Hayır, yasak!", "de": "Klar. / Nein, verboten!" }
+        ]
+      },
+      "alltagssatz": { "tr": "… -ebilir miyim?", "de": "Darf ich …?", "wann": "Heute bei jeder Bitte – an Pasha, Elif oder im Laden." },
+      "merktipp": { "titel": "Olur – das Ja-Wort", "text": "„Olur“ (wird gehen) ist eins der freundlichsten Ja-Wörter. „Olur mu?“ – „Olur!“ – damit klärst du fast jede kleine Frage." }
+    },
+    {
+      "woche": 14,
+      "tag": 6,
+      "titel": "Festigungstag: Träume & Talente",
+      "kannZiel": "über Wünsche, Fähigkeiten und Grenzen sprechen",
+      "vokabeln": [
+        { "id": "w14-neden-olmasin", "tr": "Neden olmasın?", "de": "Warum nicht?", "typ": "chunk", "beispiel": { "tr": "Yoga kursu mu? Neden olmasın!", "de": "Ein Yogakurs? Warum nicht!" } },
+        { "id": "w14-hadi-deneyelim", "tr": "Hadi deneyelim!", "de": "Komm, lass es uns versuchen!", "typ": "chunk", "beispiel": { "tr": "Zor görünüyor ama hadi deneyelim!", "de": "Sieht schwer aus, aber lass es uns versuchen!" } },
+        { "id": "w14-yapabilirsin", "tr": "Yapabilirsin!", "de": "Du schaffst das!", "typ": "chunk", "beispiel": { "tr": "Merak etme, yapabilirsin!", "de": "Keine Sorge, du schaffst das!" } },
+        { "id": "w14-denemeye-deger", "tr": "Denemeye değer.", "de": "Einen Versuch wert.", "typ": "chunk", "beispiel": { "tr": "Belki olmaz ama denemeye değer.", "de": "Vielleicht klappt's nicht, aber einen Versuch ist es wert." } },
+        { "id": "w14-merak-ediyorum", "tr": "Merak ediyorum.", "de": "Ich bin gespannt / neugierig.", "typ": "chunk", "beispiel": { "tr": "Sonucu çok merak ediyorum!", "de": "Ich bin so gespannt aufs Ergebnis!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Wollen: -mak istemek. Können: -ebil. Nicht können: -eme. Dürfen: -ebilir miyim?",
+          "Alle Steine lassen sich mit den Zeiten kombinieren: gelemedim, gelebileceğim, gelmek istedim."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["wollen", "Yüzmek istiyorum."],
+            ["können", "Yüzebiliyorum."],
+            ["nicht können", "Yüzemiyorum."],
+            ["dürfen?", "Yüzebilir miyim?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Börek yapmak istiyorum ama yapamıyorum.", "de": "Ich will Börek machen, aber ich kann's nicht." },
+          { "tr": "Elif bana öğretebilir.", "de": "Elif kann es mir beibringen." },
+          { "tr": "Hadi deneyelim!", "de": "Lass es uns versuchen!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Börek-Abenteuer",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Hazır mısın? Bugün börek yapmayı öğreneceksin!", "de": "Bereit? Heute lernst du Börek machen!" },
+          { "sprecher": "Sherin", "tr": "Bilmiyorum … Ben yemek yapmayı pek beceremiyorum.", "de": "Ich weiß nicht … Ich krieg Kochen nicht so hin." },
+          { "sprecher": "Elif", "tr": "Saçmalama! Saç kesebiliyorsun, börek de yapabilirsin.", "de": "Quatsch! Du kannst Haare schneiden, dann kannst du auch Börek." },
+          { "sprecher": "Sherin", "tr": "Peki, hadi deneyelim!", "de": "Na gut, lass es uns versuchen!" },
+          { "sprecher": "Elif", "tr": "Önce yufkayı açıyoruz … Yavaş yavaş.", "de": "Zuerst rollen wir den Teig aus … Ganz langsam." },
+          { "sprecher": "Sherin", "tr": "Ay, yırtıldı! Yapamıyorum!", "de": "Oh, er ist gerissen! Ich kann das nicht!" },
+          { "sprecher": "Elif", "tr": "Sorun yok, yapabilirsin! Bir daha dene.", "de": "Kein Problem, du schaffst das! Versuch's noch mal." },
+          { "sprecher": "Sherin", "tr": "Oldu! Şimdi Pasha'nın yüzünü merak ediyorum!", "de": "Geschafft! Jetzt bin ich gespannt auf Pashas Gesicht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w14-neden-olmasin", "w14-hadi-deneyelim", "w14-yapabilirsin", "w14-merak-ediyorum"] },
+        { "art": "hoeren", "vokabel": "w14-denemeye-deger" },
+        { "art": "luecke", "satz": "Börek yapmak istiyorum ama yapa___.", "loesung": "mıyorum", "optionen": ["mıyorum", "biliyorum", "cağım"], "de": "Ich will Börek machen, aber ich kann's nicht." },
+        { "art": "satzbau", "tr": "Elif bana öğretebilir.", "de": "Elif kann es mir beibringen." },
+        { "art": "auswahl_de_tr", "vokabel": "w14-yapabilirsin" },
+        { "art": "luecke", "satz": "Saç kes___, börek de yapabilirsin.", "loesung": "ebiliyorsun", "optionen": ["ebiliyorsun", "emiyorsun", "mek"], "de": "Du kannst Haare schneiden, dann kannst du auch Börek." },
+        { "art": "hoeren", "vokabel": "w14-gelemem" },
+        { "art": "auswahl_tr_de", "vokabel": "w14-neden-olmasin" },
+        { "art": "tippen", "vokabel": "w14-kolay" },
+        { "art": "satzbau", "tr": "Belki olmaz ama denemeye değer.", "de": "Vielleicht klappt's nicht, aber einen Versuch ist es wert." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Erzähl Pasha von einem Traum (etwas, das du unbedingt mal machen willst), was du dafür schon kannst, was du noch nicht kannst – und wie er dir helfen kann.",
+        "mustersaetze": [
+          { "tr": "Hayalim … yapmak.", "de": "Mein Traum ist, … zu machen." },
+          { "tr": "… yapabiliyorum ama … yapamıyorum.", "de": "Ich kann …, aber … kann ich nicht." },
+          { "tr": "Bana yardım edebilir misin?", "de": "Kannst du mir helfen?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Yapabilirsin!", "de": "Du schaffst das!", "wann": "Zu Inaya, wenn sie etwas Neues versucht – und zu dir selbst." },
+      "merktipp": { "titel": "Neden olmasın?", "text": "„Warum nicht?“ – die perfekte Antwort auf jede Einladung, die dir Spaß machen könnte. Kurz, freundlich und typisch türkisch-optimistisch." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Sag drei Dinge, die du kannst, und drei, die du (noch) nicht kannst.", "hilfe": { "tr": "Saç kesebiliyorum. Börek yapamıyorum.", "de": "Ich kann Haare schneiden. Ich kann keinen Börek machen." } },
+      { "situation": "Erzähl von deinen Hobbys – früher, jetzt und in Zukunft.", "hilfe": { "tr": "Önceden … Şimdi … Gelecekte … yapmak istiyorum.", "de": "Früher … Jetzt … In Zukunft möchte ich …" } },
+      { "situation": "Bitte (gespielt) im Wartezimmer höflich um Erlaubnis für zwei Dinge.", "hilfe": { "tr": "Buraya oturabilir miyim? Bebek arabasını koyabilir miyim?", "de": "Darf ich mich hierhin setzen? Darf ich den Kinderwagen abstellen?" } }
+    ]
+  }
+}
