@@ -1,0 +1,436 @@
+{
+  "woche": 22,
+  "lektionen": [
+    {
+      "woche": 22,
+      "tag": 1,
+      "titel": "Wenn du Zeit hast …: -sa / -se",
+      "kannZiel": "einfache Bedingungen ausdrücken",
+      "vokabeln": [
+        { "id": "w22-eger", "tr": "eğer", "de": "wenn / falls", "typ": "wort", "beispiel": { "tr": "Eğer zamanın varsa, gel!", "de": "Wenn du Zeit hast, komm!" } },
+        { "id": "w22-istersen", "tr": "istersen", "de": "wenn du willst", "typ": "chunk", "beispiel": { "tr": "İstersen yarın beraber gidelim.", "de": "Wenn du willst, gehen wir morgen zusammen." } },
+        { "id": "w22-mumkunse", "tr": "mümkünse", "de": "wenn möglich", "typ": "chunk", "beispiel": { "tr": "Mümkünse sabah gelin.", "de": "Kommen Sie wenn möglich morgens." } },
+        { "id": "w22-gerekirse", "tr": "gerekirse", "de": "falls nötig", "typ": "chunk", "beispiel": { "tr": "Gerekirse beni ara.", "de": "Ruf mich an, falls nötig." } },
+        { "id": "w22-zamanin-varsa", "tr": "zamanın varsa", "de": "wenn du Zeit hast", "typ": "chunk", "beispiel": { "tr": "Zamanın varsa bir çay içelim.", "de": "Wenn du Zeit hast, lass uns einen Tee trinken." } },
+        { "id": "w22-yoksa", "tr": "yoksa", "de": "sonst / oder etwa", "typ": "wort", "beispiel": { "tr": "Montunu giy, yoksa üşürsün!", "de": "Zieh deine Jacke an, sonst frierst du!" } },
+        { "id": "w22-o-zaman", "tr": "o zaman", "de": "dann", "typ": "chunk", "beispiel": { "tr": "Yorgunsan o zaman dinlen.", "de": "Wenn du müde bist, dann ruh dich aus." } },
+        { "id": "w22-bir-sorun-olursa", "tr": "Bir sorun olursa …", "de": "Falls es ein Problem gibt …", "typ": "chunk", "beispiel": { "tr": "Bir sorun olursa hemen haber ver.", "de": "Falls es ein Problem gibt, sag sofort Bescheid." } }
+      ],
+      "grammatik": {
+        "titel": "wenn = -sa / -se",
+        "erklaerung": [
+          "„wenn“ ist ein Stein: -sa/-se. An var/yok und Nomen mit y: varsa (wenn es gibt), yoksa, hastaysan (wenn du krank bist).",
+          "Mit Person: -sam (wenn ich), -san (wenn du), -sa (wenn er), -sak (wenn wir).",
+          "eğer davor ist möglich, aber nicht nötig – die Endung reicht: (Eğer) zamanın varsa …"
+        ],
+        "tabelle": {
+          "kopf": ["", "wenn …"],
+          "zeilen": [
+            ["var", "varsa"],
+            ["yok", "yoksa"],
+            ["hasta (du)", "hastaysan"],
+            ["evde (du)", "evdeysen"],
+            ["yorgun (ich)", "yorgunsam"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Zamanın varsa bir çay içelim.", "de": "Wenn du Zeit hast, lass uns einen Tee trinken." },
+          { "tr": "Yorgunsan o zaman dinlen.", "de": "Wenn du müde bist, dann ruh dich aus." },
+          { "tr": "Sorun yoksa yarın gelirim.", "de": "Wenn es kein Problem ist, komme ich morgen." }
+        ]
+      },
+      "dialog": {
+        "titel": "Spontaner Besuch",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Alo Sherin, evde misin? Zamanın varsa uğrayayım.", "de": "Hallo Sherin, bist du zu Hause? Wenn du Zeit hast, komme ich vorbei." },
+          { "sprecher": "Sherin", "tr": "Evdeyim! Ama Inaya uyuyor. Sessiz olursan gel!", "de": "Ich bin zu Hause! Aber Inaya schläft. Wenn du leise bist, komm!" },
+          { "sprecher": "Elif", "tr": "Tamam. Bir şey lazımsa getireyim mi?", "de": "Okay. Wenn du etwas brauchst, soll ich's mitbringen?" },
+          { "sprecher": "Sherin", "tr": "Mümkünse ekmek al. Yoksa sorun değil.", "de": "Wenn möglich, bring Brot mit. Sonst ist es kein Problem." },
+          { "sprecher": "Elif", "tr": "Tamam. On dakikaya oradayım.", "de": "Okay. In zehn Minuten bin ich da." },
+          { "sprecher": "Sherin", "tr": "Süper! Kapıyı çalma, mesaj at!", "de": "Super! Klingel nicht, schreib eine Nachricht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w22-eger", "w22-istersen", "w22-mumkunse", "w22-gerekirse"] },
+        { "art": "luecke", "satz": "Zamanın var___ bir çay içelim.", "loesung": "sa", "optionen": ["sa", "se", "dı"], "de": "Wenn du Zeit hast, lass uns einen Tee trinken." },
+        { "art": "luecke", "satz": "Yorgun___ dinlen.", "loesung": "san", "optionen": ["san", "sun", "sen"], "de": "Wenn du müde bist, ruh dich aus." },
+        { "art": "hoeren", "vokabel": "w22-bir-sorun-olursa" },
+        { "art": "auswahl_de_tr", "vokabel": "w22-yoksa" },
+        { "art": "satzbau", "tr": "Montunu giy, yoksa üşürsün!", "de": "Zieh deine Jacke an, sonst frierst du!" },
+        { "art": "auswahl_tr_de", "vokabel": "w22-zamanin-varsa" },
+        { "art": "hoeren", "vokabel": "w22-o-zaman" },
+        { "art": "tippen", "vokabel": "w22-eger" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Bedingungs-Ping-Pong: Pasha sagt einen Zustand (Yorgunum. Açım. Hastayım. Zamanım var.), du antwortest mit einem Rat in -sa-Form. Dann tauscht ihr.",
+        "mustersaetze": [
+          { "tr": "Açsan bir şey ye!", "de": "Wenn du Hunger hast, iss was!" },
+          { "tr": "Zamanın varsa yardım et.", "de": "Wenn du Zeit hast, hilf mit." },
+          { "tr": "Hastaysan doktora git.", "de": "Wenn du krank bist, geh zum Arzt." }
+        ]
+      },
+      "alltagssatz": { "tr": "Zamanın varsa …", "de": "Wenn du Zeit hast …", "wann": "Bei der nächsten Bitte an Pasha – sehr höflich und weich." },
+      "merktipp": { "titel": "yoksa = sonst", "text": "yoksa ist eigentlich „wenn es nicht gibt“ – darum heißt es „sonst“: Montunu giy, yoksa üşürsün. Und als Frage „oder etwa?“: Yoksa hasta mısın? (Bist du etwa krank?)" }
+    },
+    {
+      "woche": 22,
+      "tag": 2,
+      "titel": "Wenn das Wetter schön ist …: -ırsa",
+      "kannZiel": "Pläne mit Bedingungen machen",
+      "vokabeln": [
+        { "id": "w22-hava-guzel-olursa", "tr": "hava güzel olursa", "de": "wenn das Wetter schön ist", "typ": "chunk", "beispiel": { "tr": "Hava güzel olursa parka gideriz.", "de": "Wenn das Wetter schön ist, gehen wir in den Park." } },
+        { "id": "w22-yagmur-yagarsa", "tr": "yağmur yağarsa", "de": "wenn es regnet", "typ": "chunk", "beispiel": { "tr": "Yağmur yağarsa evde kalırız.", "de": "Wenn es regnet, bleiben wir zu Hause." } },
+        { "id": "w22-vaktim-olursa", "tr": "vaktim olursa", "de": "wenn ich Zeit habe", "typ": "chunk", "beispiel": { "tr": "Vaktim olursa sana uğrarım.", "de": "Wenn ich Zeit habe, schau ich bei dir vorbei." } },
+        { "id": "w22-inaya-uyursa", "tr": "Inaya uyursa", "de": "wenn Inaya schläft", "typ": "chunk", "beispiel": { "tr": "Inaya uyursa bir film izleriz.", "de": "Wenn Inaya schläft, schauen wir einen Film." } },
+        { "id": "w22-mutlaka", "tr": "mutlaka", "de": "unbedingt", "typ": "wort", "beispiel": { "tr": "İstanbul'a gidersen mutlaka Boğaz'ı gör.", "de": "Wenn du nach Istanbul fährst, sieh dir unbedingt den Bosporus an." } },
+        { "id": "w22-kesinlikle", "tr": "kesinlikle", "de": "auf jeden Fall / absolut", "typ": "wort", "beispiel": { "tr": "Kesinlikle katılıyorum!", "de": "Da stimme ich absolut zu!" } },
+        { "id": "w22-plan-b", "tr": "B planı", "de": "Plan B", "typ": "chunk", "beispiel": { "tr": "Yağmur yağarsa B planımız var.", "de": "Falls es regnet, haben wir einen Plan B." } },
+        { "id": "w22-ihtimal", "tr": "ihtimal", "de": "Wahrscheinlichkeit / Möglichkeit", "typ": "wort", "beispiel": { "tr": "Yarın kar yağma ihtimali var.", "de": "Morgen könnte es schneien." } }
+      ],
+      "grammatik": {
+        "titel": "reale Bedingung: Aorist + -sa",
+        "erklaerung": [
+          "Bei Verben nimmt man meist den Aorist + -sa: yağ-ar-sa (wenn es regnet), gel-ir-se-n (wenn du kommst).",
+          "Der Hauptsatz steht oft im Aorist oder in der Zukunft: Yağmur yağarsa evde kalırız.",
+          "Verneint: -mazsa/-mezse: gelmezse (wenn er nicht kommt).",
+          "olmak → olursa (wenn es … ist/wird): Hava güzel olursa …"
+        ],
+        "tabelle": {
+          "kopf": ["", "gelmek", "olmak"],
+          "zeilen": [
+            ["wenn ich", "gelirsem", "olursam"],
+            ["wenn du", "gelirsen", "olursan"],
+            ["wenn er/sie/es", "gelirse", "olursa"],
+            ["wenn wir", "gelirsek", "olursak"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Hava güzel olursa parka gideriz.", "de": "Wenn das Wetter schön ist, gehen wir in den Park." },
+          { "tr": "Inaya uyursa bir film izleriz.", "de": "Wenn Inaya schläft, schauen wir einen Film." },
+          { "tr": "Pasha gelmezse ben giderim.", "de": "Wenn Pasha nicht kommt, gehe ich." }
+        ]
+      },
+      "dialog": {
+        "titel": "Sonntagsplan mit Plan B",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Yarın ne yapalım?", "de": "Was machen wir morgen?" },
+          { "sprecher": "Sherin", "tr": "Hava güzel olursa göl kenarına gidelim.", "de": "Wenn das Wetter schön ist, lass uns zum See fahren." },
+          { "sprecher": "Pasha", "tr": "Ya yağmur yağarsa?", "de": "Und wenn es regnet?" },
+          { "sprecher": "Sherin", "tr": "O zaman B planı: Elif'lere gideriz.", "de": "Dann Plan B: Wir gehen zu Elif." },
+          { "sprecher": "Pasha", "tr": "Elif evde olmazsa?", "de": "Und wenn Elif nicht zu Hause ist?" },
+          { "sprecher": "Sherin", "tr": "O zaman evde kalırız, Inaya uyursa bir film izleriz. Kesinlikle güzel bir pazar olacak!", "de": "Dann bleiben wir zu Hause, und wenn Inaya schläft, schauen wir einen Film. Es wird auf jeden Fall ein schöner Sonntag!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w22-hava-guzel-olursa", "w22-yagmur-yagarsa", "w22-vaktim-olursa", "w22-inaya-uyursa"] },
+        { "art": "luecke", "satz": "Yağmur yağar___ evde kalırız.", "loesung": "sa", "optionen": ["sa", "se", "ken"], "de": "Wenn es regnet, bleiben wir zu Hause." },
+        { "art": "luecke", "satz": "Pasha gel___ ben giderim.", "loesung": "mezse", "optionen": ["mezse", "irse", "medi"], "de": "Wenn Pasha nicht kommt, gehe ich." },
+        { "art": "hoeren", "vokabel": "w22-mutlaka" },
+        { "art": "auswahl_de_tr", "vokabel": "w22-kesinlikle" },
+        { "art": "satzbau", "tr": "Hava güzel olursa parka gideriz.", "de": "Wenn das Wetter schön ist, gehen wir in den Park." },
+        { "art": "auswahl_tr_de", "vokabel": "w22-ihtimal" },
+        { "art": "hoeren", "vokabel": "w22-plan-b" },
+        { "art": "luecke", "satz": "Vaktim olur___ sana uğrarım.", "loesung": "sa", "optionen": ["sa", "sam", "san"], "de": "Wenn ich Zeit habe, schau ich bei dir vorbei." },
+        { "art": "tippen", "vokabel": "w22-mutlaka" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Plant das nächste Wochenende mit mindestens drei Bedingungen auf Türkisch (Wetter, Inayas Schlaf, Besuch). Für jede Bedingung braucht ihr einen Plan B.",
+        "mustersaetze": [
+          { "tr": "Hava güzel olursa …", "de": "Wenn das Wetter schön ist …" },
+          { "tr": "Yağmur yağarsa …", "de": "Wenn es regnet …" },
+          { "tr": "Inaya uyursa …", "de": "Wenn Inaya schläft …" }
+        ]
+      },
+      "alltagssatz": { "tr": "Hava güzel olursa parka gideriz.", "de": "Wenn das Wetter schön ist, gehen wir in den Park.", "wann": "Beim nächsten Planen – ab jetzt immer mit Bedingung." },
+      "merktipp": { "titel": "Aorist trifft -sa", "text": "Jetzt lohnt sich der Aorist doppelt: gel-ir → gel-ir-se. Wer den Aorist kann, kann auch „wenn“." }
+    },
+    {
+      "woche": 22,
+      "tag": 3,
+      "titel": "Wenn doch nur …: keşke",
+      "kannZiel": "Wünsche und Bedauern ausdrücken",
+      "vokabeln": [
+        { "id": "w22-keske", "tr": "keşke", "de": "wenn doch nur / hätte ich doch", "typ": "wort", "beispiel": { "tr": "Keşke daha çok zamanım olsa!", "de": "Wenn ich doch nur mehr Zeit hätte!" } },
+        { "id": "w22-keske-olsa", "tr": "Keşke … olsa.", "de": "Wenn es doch … wäre.", "typ": "chunk", "beispiel": { "tr": "Keşke hava biraz sıcak olsa.", "de": "Wenn es doch nur etwas wärmer wäre." } },
+        { "id": "w22-keske-bilseydim", "tr": "Keşke bilseydim!", "de": "Hätte ich das doch gewusst!", "typ": "chunk", "beispiel": { "tr": "Market kapalıymış. Keşke bilseydim!", "de": "Der Supermarkt war zu. Hätte ich das doch gewusst!" } },
+        { "id": "w22-hayal-etmek", "tr": "hayal etmek", "de": "sich vorstellen / träumen", "typ": "chunk", "beispiel": { "tr": "Deniz kenarında bir ev hayal ediyorum.", "de": "Ich träume von einem Haus am Meer." } },
+        { "id": "w22-piyango", "tr": "piyango", "de": "Lotterie", "typ": "wort", "beispiel": { "tr": "Keşke piyango çıksa!", "de": "Wenn ich doch nur im Lotto gewinnen würde!" } },
+        { "id": "w22-zengin", "tr": "zengin", "de": "reich", "typ": "wort", "beispiel": { "tr": "Zengin olmak istemem, mutlu olmak isterim.", "de": "Ich will nicht reich sein, ich will glücklich sein." } },
+        { "id": "w22-ne-guzel-olurdu", "tr": "Ne güzel olurdu!", "de": "Wie schön wäre das!", "typ": "chunk", "beispiel": { "tr": "Bütün aile bir arada … Ne güzel olurdu!", "de": "Die ganze Familie zusammen … Wie schön wäre das!" } },
+        { "id": "w22-sans", "tr": "şans", "de": "Glück (Zufall)", "typ": "wort", "beispiel": { "tr": "Bol şans!", "de": "Viel Glück!" } },
+        { "id": "w22-deniz-kenari", "tr": "deniz kenarı", "de": "am Meer / Meeresufer", "typ": "chunk", "beispiel": { "tr": "Keşke deniz kenarında yaşasak.", "de": "Wenn wir doch nur am Meer wohnen würden." } }
+      ],
+      "grammatik": {
+        "titel": "keşke + -sa (Wunsch)",
+        "erklaerung": [
+          "Wunsch: keşke + Verbstamm + -sa/-se + Person: keşke gitsem (wenn ich doch gehen könnte).",
+          "Ohne Aorist! Direkt an den Stamm: bil → bilsem, ol → olsa, yaşa → yaşasak.",
+          "Bedauern über Vergangenes: -saydım/-seydim: Keşke bilseydim! (Hätte ich es doch gewusst!)"
+        ],
+        "tabelle": {
+          "kopf": ["Wunsch (jetzt)", "Bedauern (früher)"],
+          "zeilen": [
+            ["keşke bilsem", "keşke bilseydim"],
+            ["keşke gitsek", "keşke gitseydik"],
+            ["keşke olsa", "keşke olsaydı"],
+            ["keşke gelsen", "keşke gelseydin"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Keşke daha çok zamanım olsa!", "de": "Wenn ich doch nur mehr Zeit hätte!" },
+          { "tr": "Keşke Türkçeyi çocukken öğrenseydim.", "de": "Hätte ich doch als Kind Türkisch gelernt." },
+          { "tr": "Keşke sen de gelseydin!", "de": "Wärst du doch auch gekommen!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Tagträumen auf dem Sofa",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Keşke şimdi deniz kenarında olsak.", "de": "Wenn wir jetzt doch nur am Meer wären." },
+          { "sprecher": "Pasha", "tr": "Keşke! Güneş, deniz, çay … Ne güzel olurdu!", "de": "Ach ja! Sonne, Meer, Tee … Wie schön wäre das!" },
+          { "sprecher": "Sherin", "tr": "Keşke piyango çıksa, hemen giderdik.", "de": "Wenn wir doch im Lotto gewinnen würden, würden wir sofort fahren." },
+          { "sprecher": "Pasha", "tr": "Ama piyango oynamıyoruz ki!", "de": "Aber wir spielen doch gar kein Lotto!" },
+          { "sprecher": "Sherin", "tr": "Hmm, haklısın. Keşke oynasaydık!", "de": "Hmm, stimmt. Hätten wir doch gespielt!" },
+          { "sprecher": "Pasha", "tr": "Boş ver, yazın gideceğiz zaten. Şimdilik hayal edelim.", "de": "Egal, im Sommer fahren wir sowieso. Bis dahin träumen wir." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w22-keske", "w22-piyango", "w22-zengin", "w22-sans"] },
+        { "art": "luecke", "satz": "Keşke daha çok zamanım ol___!", "loesung": "sa", "optionen": ["sa", "ursa", "du"], "de": "Wenn ich doch nur mehr Zeit hätte!" },
+        { "art": "luecke", "satz": "Keşke bil___!", "loesung": "seydim", "optionen": ["seydim", "irsem", "dim"], "de": "Hätte ich das doch gewusst!" },
+        { "art": "hoeren", "vokabel": "w22-ne-guzel-olurdu" },
+        { "art": "auswahl_de_tr", "vokabel": "w22-keske-olsa" },
+        { "art": "satzbau", "tr": "Keşke sen de gelseydin!", "de": "Wärst du doch auch gekommen!" },
+        { "art": "auswahl_tr_de", "vokabel": "w22-hayal-etmek" },
+        { "art": "hoeren", "vokabel": "w22-deniz-kenari" },
+        { "art": "tippen", "vokabel": "w22-keske" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Wunsch-Runde: Jeder sagt fünf Wünsche mit keşke – drei für jetzt (keşke … -sa), zwei Bedauern über die Vergangenheit (keşke … -saydım). Lustig oder ernst.",
+        "mustersaetze": [
+          { "tr": "Keşke Inaya bütün gece uyusa!", "de": "Wenn Inaya doch nur die ganze Nacht schliefe!" },
+          { "tr": "Keşke Türkçeyi daha önce öğrenseydim.", "de": "Hätte ich Türkisch doch früher gelernt." },
+          { "tr": "Ne güzel olurdu!", "de": "Wie schön wäre das!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Keşke!", "de": "Schön wär's!", "wann": "Als Antwort auf jeden schönen Tagtraum von Pasha." },
+      "merktipp": { "titel": "Keşke allein", "text": "„Keşke!“ allein ist eine komplette Antwort: „Schön wär's!“. Wenn Pasha sagt „Yarın tatil olsa“ – antworte einfach „Keşke!“." }
+    },
+    {
+      "woche": 22,
+      "tag": 4,
+      "titel": "Ratschläge geben",
+      "kannZiel": "jemandem freundlich einen Rat geben",
+      "vokabeln": [
+        { "id": "w22-yapsan-iyi-olur", "tr": "… -san iyi olur.", "de": "Es wäre gut, wenn du …", "typ": "chunk", "beispiel": { "tr": "Biraz dinlensen iyi olur.", "de": "Es wäre gut, wenn du dich etwas ausruhst." } },
+        { "id": "w22-neden-yapmiyorsun", "tr": "Neden … -mıyorsun?", "de": "Warum … du nicht?", "typ": "chunk", "beispiel": { "tr": "Neden doktora gitmiyorsun?", "de": "Warum gehst du nicht zum Arzt?" } },
+        { "id": "w22-benim-yerimde-olsan", "tr": "Benim yerimde olsan …", "de": "Wenn du an meiner Stelle wärst …", "typ": "chunk", "beispiel": { "tr": "Benim yerimde olsan ne yapardın?", "de": "Was würdest du an meiner Stelle tun?" } },
+        { "id": "w22-tavsiye", "tr": "tavsiye", "de": "Rat / Empfehlung", "typ": "wort", "beispiel": { "tr": "Bana bir tavsiye verir misin?", "de": "Gibst du mir einen Rat?" } },
+        { "id": "w22-oneri", "tr": "öneri", "de": "Vorschlag", "typ": "wort", "beispiel": { "tr": "Bir önerim var!", "de": "Ich hab einen Vorschlag!" } },
+        { "id": "w22-sen-bilirsin", "tr": "Sen bilirsin.", "de": "Du musst es wissen. / Wie du meinst.", "typ": "chunk", "beispiel": { "tr": "Ben olsam giderdim, ama sen bilirsin.", "de": "Ich würde gehen, aber du musst es wissen." } },
+        { "id": "w22-bir-dene", "tr": "Bir dene!", "de": "Probier's mal!", "typ": "chunk", "beispiel": { "tr": "Zor değil, bir dene!", "de": "Es ist nicht schwer, probier's mal!" } },
+        { "id": "w22-fena-fikir-degil", "tr": "Fena fikir değil.", "de": "Keine schlechte Idee.", "typ": "chunk", "beispiel": { "tr": "Hmm, fena fikir değil!", "de": "Hmm, keine schlechte Idee!" } }
+      ],
+      "grammatik": {
+        "titel": "Weiche Ratschläge mit -sa",
+        "erklaerung": [
+          "Sanfter Rat: Stamm + -san + iyi olur: dinlensen iyi olur (es wäre gut, wenn du dich ausruhst).",
+          "Höflich zu Fremden: -seniz iyi olur: doktora gitseniz iyi olur.",
+          "Locker unter Vertrauten: -sana! = mach doch!: Dinlensene! Gelsene!",
+          "Stärker: -malısın (du musst/solltest)."
+        ],
+        "tabelle": {
+          "kopf": ["Stärke", "Beispiel"],
+          "zeilen": [
+            ["sanft", "Dinlensen iyi olur."],
+            ["locker", "Dinlensene!"],
+            ["Frage", "Neden dinlenmiyorsun?"],
+            ["deutlich", "Dinlenmelisin."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Biraz dinlensen iyi olur.", "de": "Es wäre gut, wenn du dich etwas ausruhst." },
+          { "tr": "Neden doktora gitmiyorsun?", "de": "Warum gehst du nicht zum Arzt?" },
+          { "tr": "Benim yerimde olsan ne yapardın?", "de": "Was würdest du an meiner Stelle tun?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Elif braucht Rat",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Oğlum gece hiç uyumuyor. Ne yapayım?", "de": "Mein Sohn schläft nachts gar nicht. Was soll ich tun?" },
+          { "sprecher": "Sherin", "tr": "Akşam ekran vermesen iyi olur. Telefon, tablet yok.", "de": "Es wäre gut, ihm abends keinen Bildschirm zu geben. Kein Handy, kein Tablet." },
+          { "sprecher": "Elif", "tr": "Hmm. Başka?", "de": "Hmm. Und sonst?" },
+          { "sprecher": "Sherin", "tr": "Neden her akşam aynı saatte yatırmıyorsun? Bizde işe yarıyor.", "de": "Warum bringst du ihn nicht jeden Abend zur gleichen Zeit ins Bett? Bei uns klappt das." },
+          { "sprecher": "Elif", "tr": "Fena fikir değil. Benim yerimde olsan ninni de söyler miydin?", "de": "Keine schlechte Idee. Würdest du an meiner Stelle auch ein Schlaflied singen?" },
+          { "sprecher": "Sherin", "tr": "Kesinlikle! Bir dene. Ama sen bilirsin, sen annesisin.", "de": "Absolut! Probier's mal. Aber du musst es wissen, du bist seine Mama." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w22-tavsiye", "w22-oneri", "w22-sen-bilirsin", "w22-bir-dene"] },
+        { "art": "luecke", "satz": "Biraz dinlen___ iyi olur.", "loesung": "sen", "optionen": ["sen", "san", "irsen"], "de": "Es wäre gut, wenn du dich etwas ausruhst." },
+        { "art": "luecke", "satz": "Doktora git___ iyi olur.", "loesung": "seniz", "optionen": ["seniz", "sen", "meli"], "de": "Es wäre gut, wenn Sie zum Arzt gehen." },
+        { "art": "hoeren", "vokabel": "w22-benim-yerimde-olsan" },
+        { "art": "auswahl_de_tr", "vokabel": "w22-fena-fikir-degil" },
+        { "art": "satzbau", "tr": "Neden doktora gitmiyorsun?", "de": "Warum gehst du nicht zum Arzt?" },
+        { "art": "auswahl_tr_de", "vokabel": "w22-yapsan-iyi-olur" },
+        { "art": "hoeren", "vokabel": "w22-neden-yapmiyorsun" },
+        { "art": "tippen", "vokabel": "w22-oneri" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Ratgeber-Show: Pasha erzählt drei (echte oder erfundene) kleine Probleme. Du gibst zu jedem zwei Ratschläge – einmal sanft (-san iyi olur), einmal locker (-sana!).",
+        "mustersaetze": [
+          { "tr": "Erken yatsan iyi olur.", "de": "Es wäre gut, wenn du früher ins Bett gehst." },
+          { "tr": "Bir dene, bence işe yarar.", "de": "Probier's, ich glaube, das hilft." },
+          { "tr": "Ama sen bilirsin.", "de": "Aber du musst es wissen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Biraz dinlensen iyi olur.", "de": "Es wäre gut, wenn du dich etwas ausruhst.", "wann": "Zu Pasha nach einem langen Tag – oder er zu dir." },
+      "merktipp": { "titel": "Weich statt streng", "text": "Türkische Ratschläge sind gern weich verpackt: „dinlensen iyi olur“ klingt viel freundlicher als „dinlenmelisin“. Mit Familie: lieber weich." }
+    },
+    {
+      "woche": 22,
+      "tag": 5,
+      "titel": "Wenn ich … wäre, würde ich …",
+      "kannZiel": "über Unwirkliches und Träume sprechen",
+      "vokabeln": [
+        { "id": "w22-isterdim", "tr": "… isterdim.", "de": "Ich würde gern …", "typ": "chunk", "beispiel": { "tr": "Bir gün İstanbul'u görmek isterdim.", "de": "Eines Tages würde ich gern Istanbul sehen." } },
+        { "id": "w22-yerinde-olsam", "tr": "Yerinde olsam …", "de": "An deiner Stelle …", "typ": "chunk", "beispiel": { "tr": "Yerinde olsam bu fırsatı kaçırmazdım.", "de": "An deiner Stelle würde ich die Chance nicht verpassen." } },
+        { "id": "w22-seve-seve", "tr": "seve seve", "de": "sehr gern / mit Freuden", "typ": "chunk", "beispiel": { "tr": "Yardım mı? Seve seve!", "de": "Hilfe? Sehr gern!" } },
+        { "id": "w22-giderdim", "tr": "… giderdim.", "de": "Ich würde (hin)fahren.", "typ": "chunk", "beispiel": { "tr": "Zamanım olsa hemen giderdim.", "de": "Wenn ich Zeit hätte, würde ich sofort fahren." } },
+        { "id": "w22-sihirli-degnek", "tr": "sihirli değnek", "de": "Zauberstab", "typ": "chunk", "beispiel": { "tr": "Sihirli değneğim olsa ne yapardım?", "de": "Was würde ich tun, wenn ich einen Zauberstab hätte?" } },
+        { "id": "w22-dunya-turu", "tr": "dünya turu", "de": "Weltreise", "typ": "chunk", "beispiel": { "tr": "Zengin olsak dünya turuna çıkardık.", "de": "Wenn wir reich wären, würden wir eine Weltreise machen." } },
+        { "id": "w22-mumkun-olsa", "tr": "mümkün olsa", "de": "wenn es möglich wäre", "typ": "chunk", "beispiel": { "tr": "Mümkün olsa her gün denize girerdim.", "de": "Wenn es möglich wäre, würde ich jeden Tag im Meer schwimmen." } },
+        { "id": "w22-ruya", "tr": "rüya", "de": "Traum (im Schlaf / Traum-)", "typ": "wort", "beispiel": { "tr": "Rüya gibi bir tatil!", "de": "Ein Urlaub wie im Traum!" } }
+      ],
+      "grammatik": {
+        "titel": "irreal: -sa …, -ırdı",
+        "erklaerung": [
+          "Unwirkliche Bedingung: Stamm + -sa (wenn … wäre) …, Aorist + -dı (würde …).",
+          "Zamanım olsa giderdim. = Wenn ich Zeit hätte, würde ich fahren.",
+          "„Ich würde gern“: isterdim. „An deiner Stelle“: yerinde olsam."
+        ],
+        "tabelle": {
+          "kopf": ["wenn …", "dann würde …"],
+          "zeilen": [
+            ["zengin olsam", "dünya turuna çıkardım"],
+            ["zamanım olsa", "her gün yürüyüş yapardım"],
+            ["yerinde olsam", "giderdim"],
+            ["sihirli değneğim olsa", "Inaya'yı her gece uyuturdum"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Zamanım olsa hemen giderdim.", "de": "Wenn ich Zeit hätte, würde ich sofort fahren." },
+          { "tr": "Yerinde olsam bu fırsatı kaçırmazdım.", "de": "An deiner Stelle würde ich die Chance nicht verpassen." },
+          { "tr": "Bir gün İstanbul'u görmek isterdim.", "de": "Eines Tages würde ich gern Istanbul sehen." }
+        ]
+      },
+      "dialog": {
+        "titel": "Der Zauberstab",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Sihirli değneğin olsa ne yapardın?", "de": "Was würdest du tun, wenn du einen Zauberstab hättest?" },
+          { "sprecher": "Sherin", "tr": "Önce Inaya'yı her gece sekiz saat uyuturdum!", "de": "Zuerst würde ich Inaya jede Nacht acht Stunden schlafen lassen!" },
+          { "sprecher": "Pasha", "tr": "Ha ha! Sonra?", "de": "Haha! Und dann?" },
+          { "sprecher": "Sherin", "tr": "Sonra bir anda akıcı Türkçe konuşurdum.", "de": "Dann würde ich plötzlich fließend Türkisch sprechen." },
+          { "sprecher": "Pasha", "tr": "Ama sihre gerek yok, zaten çok iyi konuşuyorsun!", "de": "Aber dafür brauchst du keine Magie, du sprichst doch schon sehr gut!" },
+          { "sprecher": "Sherin", "tr": "Ah, ne tatlısın. Peki sen ne yapardın?", "de": "Ach, wie süß von dir. Und was würdest du tun?" },
+          { "sprecher": "Pasha", "tr": "Ben mi? Ben bütün ailemizi bir araya getirirdim. Seve seve!", "de": "Ich? Ich würde unsere ganze Familie zusammenbringen. Mit Freuden!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w22-isterdim", "w22-yerinde-olsam", "w22-seve-seve", "w22-sihirli-degnek"] },
+        { "art": "luecke", "satz": "Zamanım olsa hemen gider___.", "loesung": "dim", "optionen": ["dim", "im", "sem"], "de": "Wenn ich Zeit hätte, würde ich sofort fahren." },
+        { "art": "luecke", "satz": "Zengin ol___ dünya turuna çıkardık.", "loesung": "sak", "optionen": ["sak", "ursak", "duk"], "de": "Wenn wir reich wären, würden wir eine Weltreise machen." },
+        { "art": "hoeren", "vokabel": "w22-dunya-turu" },
+        { "art": "auswahl_de_tr", "vokabel": "w22-mumkun-olsa" },
+        { "art": "satzbau", "tr": "Bir gün İstanbul'u görmek isterdim.", "de": "Eines Tages würde ich gern Istanbul sehen." },
+        { "art": "auswahl_tr_de", "vokabel": "w22-ruya" },
+        { "art": "hoeren", "vokabel": "w22-giderdim" },
+        { "art": "tippen", "vokabel": "w22-ruya" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Zauberstab-Spiel: Fragt euch abwechselnd „… olsa ne yapardın?“ (Wenn du reich wärst / einen Tag frei hättest / fliegen könntest …). Jeder antwortet mit mindestens zwei -ırdım-Sätzen.",
+        "mustersaetze": [
+          { "tr": "Bir gün boş olsa ne yapardın?", "de": "Was würdest du mit einem freien Tag machen?" },
+          { "tr": "Bütün gün uyurdum!", "de": "Ich würde den ganzen Tag schlafen!" },
+          { "tr": "… görmek isterdim.", "de": "Ich würde gern … sehen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Seve seve!", "de": "Sehr gern!", "wann": "Wenn Pasha dich um etwas bittet, das du gern machst." },
+      "merktipp": { "titel": "-dı macht's unwirklich", "text": "gider-im = ich gehe (gewöhnlich). gider-di-m = ich würde gehen. Das kleine -di verschiebt den Aorist in die Traumwelt – wie das deutsche „würde“." }
+    },
+    {
+      "woche": 22,
+      "tag": 6,
+      "titel": "Festigungstag: Hätte, wäre, könnte",
+      "kannZiel": "Bedingungen, Wünsche und Ratschläge im Gespräch mischen",
+      "vokabeln": [
+        { "id": "w22-olursa-olur", "tr": "Olursa olur.", "de": "Wenn's klappt, klappt's.", "typ": "chunk", "beispiel": { "tr": "Bilet bulamazsak? Olursa olur!", "de": "Und wenn wir keine Tickets finden? Wenn's klappt, klappt's!" } },
+        { "id": "w22-iyi-ki", "tr": "İyi ki …", "de": "Wie gut, dass …", "typ": "chunk", "beispiel": { "tr": "İyi ki seninle tanıştım.", "de": "Wie gut, dass ich dich kennengelernt habe." } },
+        { "id": "w22-neyse-ki", "tr": "neyse ki", "de": "zum Glück", "typ": "chunk", "beispiel": { "tr": "Yağmur yağdı ama neyse ki şemsiyem vardı.", "de": "Es hat geregnet, aber zum Glück hatte ich einen Schirm." } },
+        { "id": "w22-simdiden", "tr": "şimdiden", "de": "schon jetzt / im Voraus", "typ": "wort", "beispiel": { "tr": "Şimdiden teşekkürler!", "de": "Schon mal vielen Dank!" } },
+        { "id": "w22-allahtan", "tr": "Allah'tan", "de": "zum Glück / Gott sei Dank", "typ": "chunk", "beispiel": { "tr": "Allah'tan Inaya'nın ateşi düştü.", "de": "Gott sei Dank ist Inayas Fieber gesunken." } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "wenn (real): -sa an var/Nomen, Aorist + -sa an Verben. Wunsch: keşke + -sa. Bedauern: -saydı.",
+          "Rat: -san iyi olur. Irreal: -sa …, -ırdı."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["real", "Yağmur yağarsa evde kalırız."],
+            ["Wunsch", "Keşke yaz olsa."],
+            ["Bedauern", "Keşke bilseydim."],
+            ["Rat", "Dinlensen iyi olur."],
+            ["irreal", "Zengin olsam dünya turuna çıkardım."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "İyi ki seninle tanıştım.", "de": "Wie gut, dass ich dich kennengelernt habe." },
+          { "tr": "Neyse ki şemsiyem vardı.", "de": "Zum Glück hatte ich einen Schirm." },
+          { "tr": "Şimdiden teşekkürler!", "de": "Schon mal vielen Dank!" }
+        ]
+      },
+      "dialog": {
+        "titel": "İyi ki …",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bazen düşünüyorum: o gün seninle tanışmasaydım ne olurdu?", "de": "Manchmal denke ich: Was wäre, wenn ich dich an dem Tag nicht kennengelernt hätte?" },
+          { "sprecher": "Sherin", "tr": "Hâlâ bekâr olurdun ve her gün sadece makarna yerdin!", "de": "Dann wärst du noch Single und würdest jeden Tag nur Nudeln essen!" },
+          { "sprecher": "Pasha", "tr": "Ha ha, haklısın! İyi ki tanışmışız.", "de": "Haha, stimmt! Wie gut, dass wir uns kennengelernt haben." },
+          { "sprecher": "Sherin", "tr": "İyi ki! Ve iyi ki Inaya var.", "de": "Wie gut! Und wie gut, dass es Inaya gibt." },
+          { "sprecher": "Pasha", "tr": "Bir de Amani … bazen keşke biraz daha sakin olsa!", "de": "Und Amani … manchmal wünschte ich, sie wäre etwas ruhiger!" },
+          { "sprecher": "Sherin", "tr": "Olursa olur! Neyse ki çok tatlı.", "de": "Wenn's klappt, klappt's! Zum Glück ist sie so süß." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w22-olursa-olur", "w22-iyi-ki", "w22-neyse-ki", "w22-allahtan"] },
+        { "art": "hoeren", "vokabel": "w22-simdiden" },
+        { "art": "satzbau", "tr": "İyi ki seninle tanıştım.", "de": "Wie gut, dass ich dich kennengelernt habe." },
+        { "art": "luecke", "satz": "Keşke yaz ol___.", "loesung": "sa", "optionen": ["sa", "ursa", "sun"], "de": "Wenn doch nur Sommer wäre." },
+        { "art": "luecke", "satz": "Yağmur yağar___ evde kalırız.", "loesung": "sa", "optionen": ["sa", "dı", "ken"], "de": "Wenn es regnet, bleiben wir zu Hause." },
+        { "art": "auswahl_de_tr", "vokabel": "w22-keske" },
+        { "art": "hoeren", "vokabel": "w22-yapsan-iyi-olur" },
+        { "art": "auswahl_tr_de", "vokabel": "w22-iyi-ki" },
+        { "art": "tippen", "vokabel": "w22-simdiden" },
+        { "art": "satzbau", "tr": "Neyse ki şemsiyem vardı.", "de": "Zum Glück hatte ich einen Schirm." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Sagt euch gegenseitig je drei „İyi ki …“-Sätze (Wofür seid ihr dankbar?), zwei „Keşke …“-Wünsche und einen Rat für die kommende Woche.",
+        "mustersaetze": [
+          { "tr": "İyi ki varsın.", "de": "Wie gut, dass es dich gibt." },
+          { "tr": "Keşke daha çok uyusak!", "de": "Wenn wir doch mehr schlafen könnten!" },
+          { "tr": "Gelecek hafta biraz dinlensen iyi olur.", "de": "Nächste Woche solltest du dich etwas ausruhen." }
+        ]
+      },
+      "alltagssatz": { "tr": "İyi ki varsın.", "de": "Wie gut, dass es dich gibt.", "wann": "Heute Abend zu Pasha. Einfach so." },
+      "merktipp": { "titel": "İyi ki doğdun!", "text": "„İyi ki doğdun“ (Wie gut, dass du geboren bist) ist der türkische Geburtstagsgruß – genau der, der an deinem Geburtstag in der App erscheint. Jetzt verstehst du ihn ganz!" }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Plant den nächsten Tag mit drei Bedingungen.", "hilfe": { "tr": "Hava güzel olursa … Inaya uyursa … Vaktimiz olursa …", "de": "Wenn das Wetter schön ist … Wenn Inaya schläft … Wenn wir Zeit haben …" } },
+      { "situation": "Gib Pasha zwei Ratschläge – einen sanft, einen locker.", "hilfe": { "tr": "Biraz dinlensen iyi olur. Erken yatsana!", "de": "Ruh dich doch etwas aus. Geh doch früher ins Bett!" } },
+      { "situation": "Sag zwei keşke-Wünsche und zwei iyi ki-Sätze.", "hilfe": { "tr": "Keşke yaz olsa. İyi ki Inaya var.", "de": "Wenn doch Sommer wäre. Wie gut, dass es Inaya gibt." } }
+    ]
+  }
+}
