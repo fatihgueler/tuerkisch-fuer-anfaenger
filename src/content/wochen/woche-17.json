@@ -1,0 +1,447 @@
+{
+  "woche": 17,
+  "lektionen": [
+    {
+      "woche": 17,
+      "tag": 1,
+      "titel": "Wie spät ist es? – halb, Viertel",
+      "kannZiel": "jede Uhrzeit sagen und verstehen",
+      "vokabeln": [
+        { "id": "w17-bucuk", "tr": "buçuk", "de": "halb (nach der Stunde)", "typ": "wort", "beispiel": { "tr": "Saat üç buçuk.", "de": "Es ist halb vier (3:30)." }, "merktipp": "Achtung: üç buçuk = 3:30 – im Deutschen sagst du „halb vier“. Türkisch zählt die volle Stunde + halb." },
+        { "id": "w17-ceyrek", "tr": "çeyrek", "de": "Viertel", "typ": "wort", "beispiel": { "tr": "Çeyrek saat sonra geliyorum.", "de": "In einer Viertelstunde komme ich." } },
+        { "id": "w17-ceyrek-geciyor", "tr": "Saat üçü çeyrek geçiyor.", "de": "Es ist Viertel nach drei.", "typ": "chunk", "beispiel": { "tr": "Saat kaç? – Saat üçü çeyrek geçiyor.", "de": "Wie spät ist es? – Viertel nach drei." } },
+        { "id": "w17-ceyrek-var", "tr": "Saat dörde çeyrek var.", "de": "Es ist Viertel vor vier.", "typ": "chunk", "beispiel": { "tr": "Acele et, saat dörde çeyrek var!", "de": "Beeil dich, es ist Viertel vor vier!" } },
+        { "id": "w17-tam", "tr": "tam", "de": "genau / Punkt", "typ": "wort", "beispiel": { "tr": "Saat tam yedi.", "de": "Es ist Punkt sieben." } },
+        { "id": "w17-ogleden-sonra", "tr": "öğleden sonra", "de": "nachmittags", "typ": "chunk", "beispiel": { "tr": "Öğleden sonra parka gidelim.", "de": "Lass uns nachmittags in den Park gehen." } },
+        { "id": "w17-ogleden-once", "tr": "öğleden önce", "de": "vormittags", "typ": "chunk", "beispiel": { "tr": "Öğleden önce evdeyim.", "de": "Vormittags bin ich zu Hause." } },
+        { "id": "w17-gece-yarisi", "tr": "gece yarısı", "de": "Mitternacht", "typ": "chunk", "beispiel": { "tr": "Inaya gece yarısı uyandı.", "de": "Inaya ist um Mitternacht aufgewacht." } },
+        { "id": "w17-yarim-saat", "tr": "yarım saat", "de": "eine halbe Stunde", "typ": "chunk", "beispiel": { "tr": "Yarım saat bekledik.", "de": "Wir haben eine halbe Stunde gewartet." } }
+      ],
+      "grammatik": {
+        "titel": "Saat kaç? – nach & vor",
+        "erklaerung": [
+          "Halb: Stunde + buçuk: üç buçuk = 3:30 (nicht „halb drei“!).",
+          "Nach: Stunde im Akkusativ + Minuten + geçiyor: üçü çeyrek geçiyor (3:15), üçü on geçiyor (3:10).",
+          "Vor: nächste Stunde im Dativ + Minuten + var: dörde çeyrek var (3:45), dörde on var (3:50).",
+          "Ausnahme: 12:30 sagt man oft „saat yarım“."
+        ],
+        "tabelle": {
+          "kopf": ["Uhrzeit", "Saat kaç?"],
+          "zeilen": [
+            ["3:00", "Saat üç."],
+            ["3:10", "Saat üçü on geçiyor."],
+            ["3:15", "Saat üçü çeyrek geçiyor."],
+            ["3:30", "Saat üç buçuk."],
+            ["3:45", "Saat dörde çeyrek var."],
+            ["3:50", "Saat dörde on var."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Saat iki buçuk.", "de": "Es ist halb drei (2:30)." },
+          { "tr": "Saat beşi yirmi geçiyor.", "de": "Es ist zwanzig nach fünf." },
+          { "tr": "Saat sekize beş var.", "de": "Es ist fünf vor acht." }
+        ]
+      },
+      "dialog": {
+        "titel": "Wie spät?",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Saat kaç?", "de": "Wie spät ist es?" },
+          { "sprecher": "Sherin", "tr": "Saat dörde çeyrek var.", "de": "Viertel vor vier." },
+          { "sprecher": "Pasha", "tr": "Ne? Doktor saat dörtte!", "de": "Was? Der Arzt ist um vier!" },
+          { "sprecher": "Sherin", "tr": "Biliyorum. Ama doktor her zaman yarım saat geç kalır.", "de": "Ich weiß. Aber der Arzt ist immer eine halbe Stunde zu spät." },
+          { "sprecher": "Pasha", "tr": "Olsun, biz zamanında gidelim.", "de": "Egal, wir gehen pünktlich hin." },
+          { "sprecher": "Sherin", "tr": "Tamam. Inaya'nın montu nerede? … Şimdi saat dördü beş geçiyor!", "de": "Okay. Wo ist Inayas Jacke? … Jetzt ist es fünf nach vier!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w17-bucuk", "w17-ceyrek", "w17-tam", "w17-gece-yarisi"] },
+        { "art": "luecke", "satz": "3:30 = Saat üç ___.", "loesung": "buçuk", "optionen": ["buçuk", "çeyrek", "yarım"], "de": "Es ist halb vier." },
+        { "art": "luecke", "satz": "3:15 = Saat üçü çeyrek ___.", "loesung": "geçiyor", "optionen": ["geçiyor", "var", "buçuk"], "de": "Es ist Viertel nach drei." },
+        { "art": "luecke", "satz": "3:45 = Saat dörde çeyrek ___.", "loesung": "var", "optionen": ["var", "geçiyor", "yok"], "de": "Es ist Viertel vor vier." },
+        { "art": "hoeren", "vokabel": "w17-ceyrek-geciyor" },
+        { "art": "auswahl_de_tr", "vokabel": "w17-ceyrek-var" },
+        { "art": "luecke", "satz": "5:20 = Saat beş___ yirmi geçiyor.", "loesung": "i", "optionen": ["i", "e", "te"], "de": "Es ist zwanzig nach fünf.", "hinweis": "nach → Akkusativ" },
+        { "art": "auswahl_tr_de", "vokabel": "w17-ogleden-sonra" },
+        { "art": "hoeren", "vokabel": "w17-yarim-saat" },
+        { "art": "tippen", "vokabel": "w17-bucuk" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Uhrzeit-Quiz: Pasha stellt am Handy zehn zufällige Uhrzeiten ein und zeigt sie dir. Du sagst sie auf Türkisch. Danach tauscht ihr – du stellst ein, er sagt sie.",
+        "mustersaetze": [
+          { "tr": "Saat yedi buçuk.", "de": "Es ist halb acht." },
+          { "tr": "Saat dokuzu çeyrek geçiyor.", "de": "Viertel nach neun." },
+          { "tr": "Saat on ikiye on var.", "de": "Zehn vor zwölf." }
+        ]
+      },
+      "alltagssatz": { "tr": "Saat kaç?", "de": "Wie spät ist es?", "wann": "Heute mehrmals – und antworte ganz genau mit geçiyor oder var." },
+      "merktipp": { "titel": "Die Halb-Falle", "text": "Deutsch: halb vier = 3:30. Türkisch: üç buçuk = 3:30 („drei und halb“). Türkisch ist hier logischer – aber pass auf bei Terminen!" }
+    },
+    {
+      "woche": 17,
+      "tag": 2,
+      "titel": "Um wie viel Uhr? – geçe & kala",
+      "kannZiel": "Termine mit genauer Uhrzeit ausmachen",
+      "vokabeln": [
+        { "id": "w17-gece", "tr": "… geçe", "de": "… nach (bei „um“)", "typ": "chunk", "beispiel": { "tr": "Saat üçü çeyrek geçe buluşalım.", "de": "Treffen wir uns um Viertel nach drei." } },
+        { "id": "w17-kala", "tr": "… kala", "de": "… vor (bei „um“)", "typ": "chunk", "beispiel": { "tr": "Otobüs sekize on kala geliyor.", "de": "Der Bus kommt um zehn vor acht." } },
+        { "id": "w17-randevu-almak", "tr": "randevu almak", "de": "einen Termin machen", "typ": "chunk", "beispiel": { "tr": "Kuaföre randevu aldım.", "de": "Ich habe beim Friseur einen Termin gemacht." } },
+        { "id": "w17-uygun", "tr": "uygun", "de": "passend / geeignet", "typ": "wort", "beispiel": { "tr": "Salı sana uygun mu?", "de": "Passt dir Dienstag?" } },
+        { "id": "w17-ne-zaman-uygun", "tr": "Ne zaman uygun?", "de": "Wann passt es?", "typ": "chunk", "beispiel": { "tr": "Size ne zaman uygun?", "de": "Wann passt es Ihnen?" } },
+        { "id": "w17-ertelemek", "tr": "ertelemek", "de": "verschieben", "typ": "wort", "beispiel": { "tr": "Randevuyu yarına erteleyebilir miyiz?", "de": "Können wir den Termin auf morgen verschieben?" } },
+        { "id": "w17-iptal-etmek", "tr": "iptal etmek", "de": "absagen / stornieren", "typ": "chunk", "beispiel": { "tr": "Maalesef randevuyu iptal etmem lazım.", "de": "Leider muss ich den Termin absagen." } },
+        { "id": "w17-degistirmek", "tr": "değiştirmek", "de": "ändern / wechseln", "typ": "wort", "beispiel": { "tr": "Saati değiştirebilir miyiz?", "de": "Können wir die Uhrzeit ändern?" } },
+        { "id": "w17-gecikmek", "tr": "gecikmek", "de": "sich verspäten", "typ": "wort", "beispiel": { "tr": "Tren on dakika gecikti.", "de": "Der Zug hatte zehn Minuten Verspätung." } }
+      ],
+      "grammatik": {
+        "titel": "Saat kaçta? – um wie viel Uhr",
+        "erklaerung": [
+          "„um“ halb: buçukta: saat üç buçukta (um 3:30).",
+          "„um“ nach: geçiyor wird zu geçe: üçü çeyrek geçe (um 3:15).",
+          "„um“ vor: var wird zu kala: dörde çeyrek kala (um 3:45).",
+          "Volle Stunde wie gelernt: saat üçte, saat dörtte."
+        ],
+        "tabelle": {
+          "kopf": ["Uhrzeit", "jetzt (Saat kaç?)", "um (Saat kaçta?)"],
+          "zeilen": [
+            ["3:00", "üç", "üçte"],
+            ["3:15", "üçü çeyrek geçiyor", "üçü çeyrek geçe"],
+            ["3:30", "üç buçuk", "üç buçukta"],
+            ["3:45", "dörde çeyrek var", "dörde çeyrek kala"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Saat on buçukta görüşelim.", "de": "Sehen wir uns um halb elf (10:30)." },
+          { "tr": "Otobüs sekize on kala geliyor.", "de": "Der Bus kommt um zehn vor acht." },
+          { "tr": "Randevun saat kaçta?", "de": "Um wie viel Uhr ist dein Termin?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Termin verschieben",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Yarın saat ikide buluşuyor muyuz?", "de": "Treffen wir uns morgen um zwei?" },
+          { "sprecher": "Sherin", "tr": "Ay, saat ikide Inaya uyuyor. Erteleyebilir miyiz?", "de": "Oh, um zwei schläft Inaya. Können wir verschieben?" },
+          { "sprecher": "Elif", "tr": "Tabii. Sana ne zaman uygun?", "de": "Klar. Wann passt es dir?" },
+          { "sprecher": "Sherin", "tr": "Dörde çeyrek kala olur mu?", "de": "Geht um Viertel vor vier?" },
+          { "sprecher": "Elif", "tr": "Olur. Ama ben biraz gecikebilirim, oğlumun kursu var.", "de": "Geht. Aber ich verspäte mich vielleicht etwas, mein Sohn hat Kurs." },
+          { "sprecher": "Sherin", "tr": "Sorun değil. Dördü çeyrek geçe de olur.", "de": "Kein Problem. Viertel nach vier geht auch." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w17-ertelemek", "w17-iptal-etmek", "w17-degistirmek", "w17-gecikmek"] },
+        { "art": "luecke", "satz": "Saat üç buçuk___ buluşalım.", "loesung": "ta", "optionen": ["ta", "da", "te"], "de": "Treffen wir uns um halb vier (3:30).", "hinweis": "buçuk endet auf k" },
+        { "art": "luecke", "satz": "Otobüs sekize on ___ geliyor.", "loesung": "kala", "optionen": ["kala", "var", "geçe"], "de": "Der Bus kommt um zehn vor acht." },
+        { "art": "luecke", "satz": "Üçü çeyrek ___ görüşelim.", "loesung": "geçe", "optionen": ["geçe", "geçiyor", "kala"], "de": "Sehen wir uns um Viertel nach drei." },
+        { "art": "hoeren", "vokabel": "w17-ne-zaman-uygun" },
+        { "art": "auswahl_de_tr", "vokabel": "w17-randevu-almak" },
+        { "art": "satzbau", "tr": "Randevuyu yarına erteleyebilir miyiz?", "de": "Können wir den Termin auf morgen verschieben?" },
+        { "art": "auswahl_tr_de", "vokabel": "w17-uygun" },
+        { "art": "hoeren", "vokabel": "w17-kala" },
+        { "art": "tippen", "vokabel": "w17-uygun" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Macht drei Termine für nächste Woche miteinander aus – mit genauen Uhrzeiten (geçe/kala/buçukta). Einen davon verschiebt einer von euch.",
+        "mustersaetze": [
+          { "tr": "Salı saat on buçukta uygun mu?", "de": "Passt Dienstag um halb elf?" },
+          { "tr": "Erteleyebilir miyiz?", "de": "Können wir verschieben?" },
+          { "tr": "Dördü çeyrek geçe olur.", "de": "Um Viertel nach vier geht." }
+        ]
+      },
+      "alltagssatz": { "tr": "Sana ne zaman uygun?", "de": "Wann passt es dir?", "wann": "Beim nächsten Planen mit Elif oder Pasha." },
+      "merktipp": { "titel": "geçiyor/var → geçe/kala", "text": "Jetzt-Uhrzeit endet auf geçiyor/var. Termin-Uhrzeit endet auf geçe/kala. Eselsbrücke: Termine sind kürzer – geçe und kala sind kürzere Wörter." }
+    },
+    {
+      "woche": 17,
+      "tag": 3,
+      "titel": "Monate Januar bis Juni",
+      "kannZiel": "Monate und Daten nennen",
+      "vokabeln": [
+        { "id": "w17-ocak", "tr": "ocak", "de": "Januar", "typ": "wort", "beispiel": { "tr": "Ocakta çok kar yağar.", "de": "Im Januar schneit es viel." }, "merktipp": "ocak heißt auch „Herd“ – im kalten Januar braucht man ihn am meisten." },
+        { "id": "w17-subat", "tr": "şubat", "de": "Februar", "typ": "wort", "beispiel": { "tr": "Şubat en kısa ay.", "de": "Der Februar ist der kürzeste Monat." } },
+        { "id": "w17-mart", "tr": "mart", "de": "März", "typ": "wort", "beispiel": { "tr": "Martta bahar başlar.", "de": "Im März beginnt der Frühling." } },
+        { "id": "w17-nisan", "tr": "nisan", "de": "April", "typ": "wort", "beispiel": { "tr": "Nisanda hava değişkendir.", "de": "Im April ist das Wetter wechselhaft." } },
+        { "id": "w17-mayis", "tr": "mayıs", "de": "Mai", "typ": "wort", "beispiel": { "tr": "Mayısta Türkçe konuşacağım!", "de": "Im Mai werde ich Türkisch sprechen!" } },
+        { "id": "w17-haziran", "tr": "haziran", "de": "Juni", "typ": "wort", "beispiel": { "tr": "Hazirandan sonra tatil var.", "de": "Nach dem Juni ist Urlaub." } },
+        { "id": "w17-bugun-ayin-kaci", "tr": "Bugün ayın kaçı?", "de": "Der Wievielte ist heute?", "typ": "chunk", "beispiel": { "tr": "Bugün ayın kaçı? – On beşi.", "de": "Der Wievielte ist heute? – Der Fünfzehnte." } },
+        { "id": "w17-tarih", "tr": "tarih", "de": "Datum / Geschichte", "typ": "wort", "beispiel": { "tr": "Randevunun tarihi ne?", "de": "An welchem Datum ist der Termin?" } },
+        { "id": "w17-dogum-gunun-ne-zaman", "tr": "Doğum günün ne zaman?", "de": "Wann hast du Geburtstag?", "typ": "chunk", "beispiel": { "tr": "Benim doğum günüm 13 Kasım'da. Seninki ne zaman?", "de": "Mein Geburtstag ist am 13. November. Wann ist deiner?" } }
+      ],
+      "grammatik": {
+        "titel": "Datum: Zahl + Monat",
+        "erklaerung": [
+          "Datum = Zahl + Monat: 13 Kasım (13. November), 1 Mayıs.",
+          "„im Monat“: -da/-de: ocakta, mayısta. „am 13. November“: 13 Kasım'da.",
+          "Monatsnamen schreibt man klein – außer in einem genauen Datum: mayısta, aber 1 Mayıs.",
+          "Bugün ayın kaçı? (Der Wievielte?) – Antwort: Ayın on beşi. (Der Fünfzehnte.)"
+        ],
+        "tabelle": {
+          "kopf": ["Monat", "im …"],
+          "zeilen": [
+            ["ocak", "ocakta"],
+            ["şubat", "şubatta"],
+            ["mart", "martta"],
+            ["nisan", "nisanda"],
+            ["mayıs", "mayısta"],
+            ["haziran", "haziranda"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Benim doğum günüm 13 Kasım'da.", "de": "Mein Geburtstag ist am 13. November." },
+          { "tr": "Mayısta Türkçe konuşacağım!", "de": "Im Mai werde ich Türkisch sprechen!" },
+          { "tr": "Bugün ayın kaçı?", "de": "Der Wievielte ist heute?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Geburtstage",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Sherin, doğum günün ne zaman?", "de": "Sherin, wann hast du Geburtstag?" },
+          { "sprecher": "Sherin", "tr": "13 Kasım'da. Bu sene Türkçe öğrenmeye başlamadan bir gün önceydi!", "de": "Am 13. November. Dieses Jahr war es einen Tag bevor ich mit Türkisch angefangen habe!" },
+          { "sprecher": "Elif", "tr": "Ne güzel! Inaya'nınki ne zaman?", "de": "Wie schön! Und wann hat Inaya?" },
+          { "sprecher": "Sherin", "tr": "Pasha'ya sor! Hayır, şaka şaka. Takvime yazdım.", "de": "Frag Pasha! Nein, Spaß. Ich hab's im Kalender stehen." },
+          { "sprecher": "Elif", "tr": "Benimki mayısta. Mayısta parti yapalım!", "de": "Meiner ist im Mai. Lass uns im Mai feiern!" },
+          { "sprecher": "Sherin", "tr": "Harika! Mayısta ben de akıcı Türkçe konuşacağım, inşallah.", "de": "Super! Im Mai spreche ich dann auch fließend Türkisch, hoffentlich." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w17-ocak", "w17-subat", "w17-mart", "w17-nisan", "w17-mayis"] },
+        { "art": "hoeren", "vokabel": "w17-haziran" },
+        { "art": "luecke", "satz": "Mayıs___ Türkçe konuşacağım!", "loesung": "ta", "optionen": ["ta", "da", "te"], "de": "Im Mai werde ich Türkisch sprechen!", "hinweis": "mayıs endet auf s" },
+        { "art": "auswahl_de_tr", "vokabel": "w17-bugun-ayin-kaci" },
+        { "art": "satzbau", "tr": "Benim doğum günüm 13 Kasım'da.", "de": "Mein Geburtstag ist am 13. November." },
+        { "art": "auswahl_tr_de", "vokabel": "w17-tarih" },
+        { "art": "luecke", "satz": "Nisan___ hava değişkendir.", "loesung": "da", "optionen": ["da", "ta", "de"], "de": "Im April ist das Wetter wechselhaft." },
+        { "art": "hoeren", "vokabel": "w17-dogum-gunun-ne-zaman" },
+        { "art": "tippen", "vokabel": "w17-mayis" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Geburtstagskalender: Sag Pasha auf Türkisch die Geburtstage, die du kennst (deinen, Inayas, Pashas, seiner Mama …). Er korrigiert – und ergänzt die, die du noch nicht weißt.",
+        "mustersaetze": [
+          { "tr": "Benim doğum günüm 13 Kasım'da.", "de": "Mein Geburtstag ist am 13. November." },
+          { "tr": "Annenin doğum günü ne zaman?", "de": "Wann hat deine Mama Geburtstag?" },
+          { "tr": "Bugün ayın kaçı?", "de": "Der Wievielte ist heute?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Bugün ayın kaçı?", "de": "Der Wievielte ist heute?", "wann": "Morgens beim Kalenderblick." },
+      "merktipp": { "titel": "Dein Geburtstag auf Türkisch", "text": "„Doğum günüm on üç kasımda“ – diesen Satz brauchst du jedes Jahr. Pashas Familie wird sich freuen, wenn du ihn ohne Zögern sagst." }
+    },
+    {
+      "woche": 17,
+      "tag": 4,
+      "titel": "Juli bis Dezember & von … bis",
+      "kannZiel": "Zeiträume angeben",
+      "vokabeln": [
+        { "id": "w17-temmuz", "tr": "temmuz", "de": "Juli", "typ": "wort", "beispiel": { "tr": "Temmuzda çok sıcak olur.", "de": "Im Juli wird es sehr heiß." } },
+        { "id": "w17-agustos", "tr": "ağustos", "de": "August", "typ": "wort", "beispiel": { "tr": "Ağustosta tatile gideceğiz.", "de": "Im August fahren wir in den Urlaub." } },
+        { "id": "w17-eylul", "tr": "eylül", "de": "September", "typ": "wort", "beispiel": { "tr": "Eylülde okullar açılır.", "de": "Im September beginnt die Schule." } },
+        { "id": "w17-ekim", "tr": "ekim", "de": "Oktober", "typ": "wort", "beispiel": { "tr": "Ekimde yapraklar düşer.", "de": "Im Oktober fallen die Blätter." } },
+        { "id": "w17-kasim", "tr": "kasım", "de": "November", "typ": "wort", "beispiel": { "tr": "Türkçe öğrenmeye kasımda başladım.", "de": "Mit Türkisch habe ich im November angefangen." } },
+        { "id": "w17-aralik", "tr": "aralık", "de": "Dezember", "typ": "wort", "beispiel": { "tr": "Aralıkta hava çok soğuk.", "de": "Im Dezember ist es sehr kalt." } },
+        { "id": "w17-takvim", "tr": "takvim", "de": "Kalender", "typ": "wort", "beispiel": { "tr": "Takvime yazdın mı?", "de": "Hast du es in den Kalender eingetragen?" } },
+        { "id": "w17-den-e-kadar", "tr": "… -den … -e kadar", "de": "von … bis …", "typ": "chunk", "beispiel": { "tr": "Pazartesiden cumaya kadar çalışıyor.", "de": "Er arbeitet von Montag bis Freitag." } },
+        { "id": "w17-ay-sonunda", "tr": "ay sonunda", "de": "Ende des Monats", "typ": "chunk", "beispiel": { "tr": "Ay sonunda kira ödenir.", "de": "Ende des Monats wird die Miete bezahlt." } }
+      ],
+      "grammatik": {
+        "titel": "von … bis: -dan … -a kadar",
+        "erklaerung": [
+          "von … bis = Anfang + -dan/-den, Ende + -a/-e + kadar.",
+          "Zeit: saat dokuzdan beşe kadar (von 9 bis 5). Tage: pazartesiden cumaya kadar.",
+          "Ort: evden parka kadar (vom Haus bis zum Park).",
+          "kadar allein heißt „bis“: Akşama kadar bekliyorum. (Ich warte bis abends.)"
+        ],
+        "tabelle": {
+          "kopf": ["von …", "bis …"],
+          "zeilen": [
+            ["saat dokuzdan", "beşe kadar"],
+            ["pazartesiden", "cumaya kadar"],
+            ["ocaktan", "hazirana kadar"],
+            ["evden", "parka kadar"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Pazartesiden cumaya kadar çalışıyor.", "de": "Er arbeitet von Montag bis Freitag." },
+          { "tr": "Doktor saat dokuzdan on ikiye kadar açık.", "de": "Die Praxis ist von neun bis zwölf geöffnet." },
+          { "tr": "Kasımdan mayısa kadar Türkçe öğreniyorum.", "de": "Von November bis Mai lerne ich Türkisch." }
+        ]
+      },
+      "dialog": {
+        "titel": "Urlaubsplanung mit Kalender",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Takvimi getirir misin? Tatili planlayalım.", "de": "Bringst du mal den Kalender? Lass uns den Urlaub planen." },
+          { "sprecher": "Sherin", "tr": "Buyur. Ne zaman izin alabiliyorsun?", "de": "Bitte. Wann kannst du Urlaub nehmen?" },
+          { "sprecher": "Pasha", "tr": "Ağustosun başından ortasına kadar.", "de": "Von Anfang bis Mitte August." },
+          { "sprecher": "Sherin", "tr": "Yani 1 Ağustos'tan 15 Ağustos'a kadar mı?", "de": "Also vom ersten bis zum fünfzehnten August?" },
+          { "sprecher": "Pasha", "tr": "Aynen. İki hafta.", "de": "Genau. Zwei Wochen." },
+          { "sprecher": "Sherin", "tr": "Süper! Takvime yazıyorum. Temmuzdan sonra hep tatil hayali!", "de": "Super! Ich trag's ein. Ab Juli träume ich nur noch vom Urlaub!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w17-temmuz", "w17-agustos", "w17-eylul", "w17-ekim", "w17-kasim"] },
+        { "art": "hoeren", "vokabel": "w17-aralik" },
+        { "art": "luecke", "satz": "Pazartesi___ cumaya kadar çalışıyor.", "loesung": "den", "optionen": ["den", "de", "ye"], "de": "Er arbeitet von Montag bis Freitag." },
+        { "art": "luecke", "satz": "Saat dokuzdan beş___ kadar açık.", "loesung": "e", "optionen": ["e", "ten", "te"], "de": "Von neun bis fünf geöffnet." },
+        { "art": "auswahl_de_tr", "vokabel": "w17-den-e-kadar" },
+        { "art": "satzbau", "tr": "Kasımdan mayısa kadar Türkçe öğreniyorum.", "de": "Von November bis Mai lerne ich Türkisch." },
+        { "art": "auswahl_tr_de", "vokabel": "w17-takvim" },
+        { "art": "hoeren", "vokabel": "w17-ay-sonunda" },
+        { "art": "tippen", "vokabel": "w17-ekim" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Plant euer Jahr: Geht die zwölf Monate auf Türkisch durch und sagt zu jedem einen Satz (Geburtstag, Urlaub, Wetter, Feiertag …). Mindestens zweimal mit -dan … -a kadar.",
+        "mustersaetze": [
+          { "tr": "Ağustosta tatile gideceğiz.", "de": "Im August fahren wir in den Urlaub." },
+          { "tr": "Aralıkta hava çok soğuk.", "de": "Im Dezember ist es sehr kalt." },
+          { "tr": "Kasımdan mayısa kadar Türkçe öğreniyorum.", "de": "Von November bis Mai lerne ich Türkisch." }
+        ]
+      },
+      "alltagssatz": { "tr": "Takvime yazdım.", "de": "Ich hab's in den Kalender eingetragen.", "wann": "Bei jedem neuen Termin heute oder morgen." },
+      "merktipp": { "titel": "Kasım – dein Startmonat", "text": "Du hast im kasım angefangen (am 14. Kasım). Im mayıs ist dein Ziel erreicht. Von kasım bis mayıs – kasımdan mayısa kadar." }
+    },
+    {
+      "woche": 17,
+      "tag": 5,
+      "titel": "Termin am Telefon",
+      "kannZiel": "telefonisch einen Termin vereinbaren",
+      "vokabeln": [
+        { "id": "w17-randevu-almak-istiyorum", "tr": "Randevu almak istiyorum.", "de": "Ich möchte einen Termin vereinbaren.", "typ": "chunk", "beispiel": { "tr": "Merhaba, kızım için randevu almak istiyorum.", "de": "Hallo, ich möchte einen Termin für meine Tochter." } },
+        { "id": "w17-hangi-gun", "tr": "Hangi gün?", "de": "Welcher Tag?", "typ": "chunk", "beispiel": { "tr": "Hangi gün size uygun?", "de": "Welcher Tag passt Ihnen?" } },
+        { "id": "w17-musaitsiniz", "tr": "Ne zaman müsaitsiniz?", "de": "Wann haben Sie Zeit?", "typ": "chunk", "beispiel": { "tr": "Bu hafta ne zaman müsaitsiniz?", "de": "Wann haben Sie diese Woche Zeit?" } },
+        { "id": "w17-not-aliyorum", "tr": "Not alıyorum.", "de": "Ich notiere es.", "typ": "chunk", "beispiel": { "tr": "Bir dakika, not alıyorum.", "de": "Moment, ich schreib's mir auf." } },
+        { "id": "w17-teyit-etmek", "tr": "teyit etmek", "de": "bestätigen", "typ": "chunk", "beispiel": { "tr": "Randevuyu teyit ediyorum: salı, on buçuk.", "de": "Ich bestätige den Termin: Dienstag, halb elf." } },
+        { "id": "w17-adinizi-alabilir-miyim", "tr": "Adınızı alabilir miyim?", "de": "Darf ich Ihren Namen haben?", "typ": "chunk", "beispiel": { "tr": "Adınızı ve telefon numaranızı alabilir miyim?", "de": "Darf ich Ihren Namen und Ihre Telefonnummer haben?" } },
+        { "id": "w17-hatirlatmak", "tr": "hatırlatmak", "de": "erinnern (jemanden)", "typ": "wort", "beispiel": { "tr": "Bana yarın hatırlatır mısın?", "de": "Erinnerst du mich morgen daran?" } },
+        { "id": "w17-telefon-numarasi", "tr": "telefon numarası", "de": "Telefonnummer", "typ": "chunk", "beispiel": { "tr": "Telefon numaranız nedir?", "de": "Wie ist Ihre Telefonnummer?" } }
+      ],
+      "grammatik": {
+        "titel": "Telefon-Bausteine (Wiederholung)",
+        "erklaerung": [
+          "Ein Termin-Telefonat hat immer dieselben Teile: Grund → Tag → Uhrzeit → Name → Bestätigung.",
+          "Du brauchst: -mak istiyorum, siz-Formen, Uhrzeiten mit -ta, Wochentage.",
+          "Telefonnummern sagt man oft in Zweiergruppen: 0511 → sıfır beş yüz on bir oder sıfır beş, on bir."
+        ],
+        "tabelle": {
+          "kopf": ["Schritt", "Satz"],
+          "zeilen": [
+            ["Grund", "Randevu almak istiyorum."],
+            ["Tag", "Salı uygun mu?"],
+            ["Uhrzeit", "Saat on buçukta olur mu?"],
+            ["Name", "Adım Sherin."],
+            ["Bestätigung", "Teşekkürler, salı on buçukta görüşmek üzere."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Merhaba, kızım için randevu almak istiyorum.", "de": "Hallo, ich möchte einen Termin für meine Tochter." },
+          { "tr": "Salı saat on buçukta olur mu?", "de": "Geht Dienstag um halb elf?" },
+          { "tr": "Bir dakika, not alıyorum.", "de": "Moment, ich schreib's mir auf." }
+        ]
+      },
+      "dialog": {
+        "titel": "Anruf beim Friseursalon",
+        "zeilen": [
+          { "sprecher": "Salon", "tr": "Merhaba, Güzellik Salonu, buyurun.", "de": "Hallo, Schönheitssalon, bitte?" },
+          { "sprecher": "Sherin", "tr": "Merhaba, saç boyası için randevu almak istiyorum.", "de": "Hallo, ich möchte einen Termin zum Haarefärben." },
+          { "sprecher": "Salon", "tr": "Tabii. Hangi gün size uygun?", "de": "Gern. Welcher Tag passt Ihnen?" },
+          { "sprecher": "Sherin", "tr": "Perşembe öğleden önce müsait misiniz?", "de": "Haben Sie Donnerstagvormittag Zeit?" },
+          { "sprecher": "Salon", "tr": "Perşembe saat on buçukta olur. Adınızı alabilir miyim?", "de": "Donnerstag um halb elf geht. Darf ich Ihren Namen haben?" },
+          { "sprecher": "Sherin", "tr": "Sherin. Bir dakika, not alıyorum: perşembe, on buçuk.", "de": "Sherin. Moment, ich notiere: Donnerstag, halb elf." },
+          { "sprecher": "Salon", "tr": "Teyit ediyorum. Görüşmek üzere!", "de": "Ist bestätigt. Bis dann!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w17-hangi-gun", "w17-not-aliyorum", "w17-teyit-etmek", "w17-hatirlatmak"] },
+        { "art": "hoeren", "vokabel": "w17-randevu-almak-istiyorum" },
+        { "art": "auswahl_de_tr", "vokabel": "w17-adinizi-alabilir-miyim" },
+        { "art": "satzbau", "tr": "Salı saat on buçukta olur mu?", "de": "Geht Dienstag um halb elf?" },
+        { "art": "luecke", "satz": "Ne zaman müsait___?", "loesung": "siniz", "optionen": ["siniz", "sin", "im"], "de": "Wann haben Sie Zeit?" },
+        { "art": "auswahl_tr_de", "vokabel": "w17-musaitsiniz" },
+        { "art": "hoeren", "vokabel": "w17-telefon-numarasi" },
+        { "art": "satzbau", "tr": "Bir dakika, not alıyorum.", "de": "Moment, ich schreib's mir auf." },
+        { "art": "tippen", "vokabel": "w17-hatirlatmak" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Telefon-Rollenspiel (mit echtem Anruf zwischen euren Handys!): Du vereinbarst einen Termin beim Kinderarzt und einen beim Friseur. Pasha ist die Praxis/der Salon.",
+        "mustersaetze": [
+          { "tr": "Randevu almak istiyorum.", "de": "Ich möchte einen Termin vereinbaren." },
+          { "tr": "Perşembe öğleden önce müsait misiniz?", "de": "Haben Sie Donnerstagvormittag Zeit?" },
+          { "tr": "Not alıyorum: perşembe, on buçuk.", "de": "Ich notiere: Donnerstag, halb elf." }
+        ]
+      },
+      "alltagssatz": { "tr": "Bana hatırlatır mısın?", "de": "Erinnerst du mich daran?", "wann": "Beim nächsten Termin, den du Pasha erzählst." },
+      "merktipp": { "titel": "Erst denken, dann wählen", "text": "Schreib dir vor einem echten Anruf die fünf Sätze auf (Grund, Tag, Uhrzeit, Name, Bestätigung). So kann nichts schiefgehen – und du klingst souverän." }
+    },
+    {
+      "woche": 17,
+      "tag": 6,
+      "titel": "Festigungstag: Zeit ist relativ",
+      "kannZiel": "über Zeit, Pünktlichkeit und Termine plaudern",
+      "vokabeln": [
+        { "id": "w17-tam-zamaninda", "tr": "Tam zamanında!", "de": "Genau rechtzeitig!", "typ": "chunk", "beispiel": { "tr": "Çay hazır, tam zamanında geldin!", "de": "Der Tee ist fertig, du kommst genau rechtzeitig!" } },
+        { "id": "w17-vaktim-yok", "tr": "Vaktim yok.", "de": "Ich hab keine Zeit.", "typ": "chunk", "beispiel": { "tr": "Şu an hiç vaktim yok.", "de": "Gerade hab ich gar keine Zeit." } },
+        { "id": "w17-acele-etme", "tr": "Acele etme.", "de": "Lass dir Zeit.", "typ": "chunk", "beispiel": { "tr": "Acele etme, bekliyorum.", "de": "Lass dir Zeit, ich warte." } },
+        { "id": "w17-gec-olsun", "tr": "Geç olsun, güç olmasın.", "de": "Besser spät als nie.", "typ": "chunk", "beispiel": { "tr": "Yarım saat geç kaldın ama geç olsun, güç olmasın!", "de": "Du bist eine halbe Stunde zu spät, aber besser spät als nie!" } },
+        { "id": "w17-zaman-nasil-gecti", "tr": "Zaman nasıl geçti!", "de": "Wie die Zeit vergeht!", "typ": "chunk", "beispiel": { "tr": "Inaya bir yaşında! Zaman nasıl geçti!", "de": "Inaya ist schon eins! Wie die Zeit vergeht!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Jetzt: üçü çeyrek geçiyor / dörde çeyrek var / üç buçuk.",
+          "Um: üçü çeyrek geçe / dörde çeyrek kala / üç buçukta. Datum: 13 Kasım'da. Zeitraum: -dan … -a kadar."
+        ],
+        "tabelle": {
+          "kopf": ["Frage", "Antwort"],
+          "zeilen": [
+            ["Saat kaç?", "Saat ikiyi on geçiyor."],
+            ["Saat kaçta?", "Saat iki buçukta."],
+            ["Ayın kaçı?", "Ayın yirmisi."],
+            ["Ne zamandan ne zamana kadar?", "Pazartesiden cumaya kadar."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Zaman nasıl geçti!", "de": "Wie die Zeit vergeht!" },
+          { "tr": "Acele etme, bekliyorum.", "de": "Lass dir Zeit, ich warte." },
+          { "tr": "Geç olsun, güç olmasın!", "de": "Besser spät als nie!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Deutsche vs. türkische Pünktlichkeit",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Annemler saat kaçta gelecek?", "de": "Um wie viel Uhr kommen meine Eltern?" },
+          { "sprecher": "Sherin", "tr": "Saat altıda dediler.", "de": "Um sechs, haben sie gesagt." },
+          { "sprecher": "Pasha", "tr": "O zaman yedi buçukta gelirler!", "de": "Dann kommen sie um halb acht!" },
+          { "sprecher": "Sherin", "tr": "Ciddi misin? Ben Almanım, saat altıda hazır olacağım.", "de": "Im Ernst? Ich bin Deutsche, ich bin um sechs fertig." },
+          { "sprecher": "Pasha", "tr": "Acele etme. Türk saati farklıdır!", "de": "Lass dir Zeit. Türkische Zeit ist anders!" },
+          { "sprecher": "Sherin", "tr": "… Saat yediyi çeyrek geçiyor. Hâlâ yoklar.", "de": "… Es ist Viertel nach sieben. Sie sind immer noch nicht da." },
+          { "sprecher": "Pasha", "tr": "Ding dong! Gördün mü? Tam zamanında!", "de": "Ding dong! Siehst du? Genau rechtzeitig!" },
+          { "sprecher": "Sherin", "tr": "Geç olsun, güç olmasın!", "de": "Besser spät als nie!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w17-tam-zamaninda", "w17-vaktim-yok", "w17-acele-etme", "w17-zaman-nasil-gecti"] },
+        { "art": "hoeren", "vokabel": "w17-gec-olsun" },
+        { "art": "luecke", "satz": "Saat yediyi çeyrek ___.", "loesung": "geçiyor", "optionen": ["geçiyor", "geçe", "var"], "de": "Es ist Viertel nach sieben." },
+        { "art": "luecke", "satz": "Saat yedi buçuk___ gelirler.", "loesung": "ta", "optionen": ["ta", "da", "tan"], "de": "Sie kommen um halb acht." },
+        { "art": "satzbau", "tr": "Acele etme, bekliyorum.", "de": "Lass dir Zeit, ich warte." },
+        { "art": "auswahl_de_tr", "vokabel": "w17-kala" },
+        { "art": "hoeren", "vokabel": "w17-ceyrek-var" },
+        { "art": "auswahl_tr_de", "vokabel": "w17-vaktim-yok" },
+        { "art": "tippen", "vokabel": "w17-tam" },
+        { "art": "satzbau", "tr": "Inaya bir yaşında! Zaman nasıl geçti!", "de": "Inaya ist schon eins! Wie die Zeit vergeht!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Geht euren Kalender für die nächsten zwei Wochen auf Türkisch durch – jeder Termin mit Datum und genauer Uhrzeit. Und plaudert dabei: Wer ist pünktlicher, Deutsche oder Türken?",
+        "mustersaetze": [
+          { "tr": "23 Şubat'ta saat onda doktor var.", "de": "Am 23. Februar um zehn ist Arzt." },
+          { "tr": "Cumadan pazara kadar annemler burada.", "de": "Von Freitag bis Sonntag sind meine Eltern hier." },
+          { "tr": "Bence Almanlar daha dakik!", "de": "Ich finde, Deutsche sind pünktlicher!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Acele etme.", "de": "Lass dir Zeit.", "wann": "Wenn Pasha morgens wieder hektisch die Schlüssel sucht." },
+      "merktipp": { "titel": "Sprichwort mit Reim", "text": "„Geç olsun, güç olmasın“ – wörtlich „Lieber spät, als dass es schwer wird“. Türkische Sprichwörter reimen gern. Mehr davon gibt's in Woche 25." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Pasha zeigt dir fünf Uhrzeiten – sag sie auf Türkisch.", "hilfe": { "tr": "Saat üçü çeyrek geçiyor. Saat dörde on var. Saat beş buçuk.", "de": "Viertel nach drei. Zehn vor vier. Halb sechs." } },
+      { "situation": "Vereinbare telefonisch einen Termin beim Friseur – mit Tag, Uhrzeit und Bestätigung.", "hilfe": { "tr": "Randevu almak istiyorum … Perşembe on buçukta olur mu? … Not alıyorum.", "de": "Ich möchte einen Termin … Geht Donnerstag um halb elf? … Ich notiere." } },
+      { "situation": "Sag die Geburtstage deiner Familie und den Zeitraum deines Türkischkurses.", "hilfe": { "tr": "Benim doğum günüm 13 Kasım'da. Kasımdan mayısa kadar Türkçe öğreniyorum.", "de": "Mein Geburtstag ist am 13. November. Von November bis Mai lerne ich Türkisch." } }
+    ]
+  }
+}
