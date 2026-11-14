@@ -1,0 +1,470 @@
+{
+  "woche": 3,
+  "lektionen": [
+    {
+      "woche": 3,
+      "tag": 1,
+      "titel": "Räume – wo bist du?",
+      "kannZiel": "sagen, in welchem Raum jemand ist",
+      "vokabeln": [
+        { "id": "w03-oda", "tr": "oda", "de": "Zimmer", "typ": "wort", "beispiel": { "tr": "Inaya'nın odası çok güzel.", "de": "Inayas Zimmer ist sehr schön." } },
+        { "id": "w03-mutfak", "tr": "mutfak", "de": "Küche", "typ": "wort", "beispiel": { "tr": "Pasha mutfakta.", "de": "Pasha ist in der Küche." } },
+        { "id": "w03-banyo", "tr": "banyo", "de": "Bad", "typ": "wort", "beispiel": { "tr": "Banyo nerede?", "de": "Wo ist das Bad?" } },
+        { "id": "w03-salon", "tr": "salon", "de": "Wohnzimmer", "typ": "wort", "beispiel": { "tr": "Amani salonda uyuyor.", "de": "Amani schläft im Wohnzimmer." }, "merktipp": "salon kennst du aus dem Friseursalon – im Türkischen ist es das Wohnzimmer." },
+        { "id": "w03-yatak-odasi", "tr": "yatak odası", "de": "Schlafzimmer", "typ": "chunk", "beispiel": { "tr": "Yatak odası yukarıda.", "de": "Das Schlafzimmer ist oben." } },
+        { "id": "w03-bahce", "tr": "bahçe", "de": "Garten", "typ": "wort", "beispiel": { "tr": "Amani bahçede.", "de": "Amani ist im Garten." } },
+        { "id": "w03-evde", "tr": "evde", "de": "zu Hause", "typ": "wort", "beispiel": { "tr": "Bugün evdeyim.", "de": "Heute bin ich zu Hause." } },
+        { "id": "w03-burada", "tr": "burada", "de": "hier", "typ": "wort", "beispiel": { "tr": "Anahtar burada!", "de": "Der Schlüssel ist hier!" } },
+        { "id": "w03-orada", "tr": "orada", "de": "dort", "typ": "wort", "beispiel": { "tr": "Telefonun orada, masada.", "de": "Dein Handy liegt dort, auf dem Tisch." } }
+      ],
+      "grammatik": {
+        "titel": "Lokativ -da / -de = wo?",
+        "erklaerung": [
+          "Lokativ heißt einfach: wo? Die Endung -da/-de bedeutet „in, auf, bei“.",
+          "Nach a, ı, o, u → -da (odada), nach e, i, ö, ü → -de (evde).",
+          "Nach harten Konsonanten (ç, f, h, k, p, s, ş, t) wird d zu t: mutfakta, parkta.",
+          "Mit Personen-Endung: evdeyim (ich bin zu Hause), mutfaktayım (ich bin in der Küche)."
+        ],
+        "tabelle": {
+          "kopf": ["Wort", "wo?"],
+          "zeilen": [
+            ["ev", "evde"],
+            ["oda", "odada"],
+            ["salon", "salonda"],
+            ["bahçe", "bahçede"],
+            ["mutfak", "mutfakta"],
+            ["park", "parkta"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Pasha mutfakta.", "de": "Pasha ist in der Küche." },
+          { "tr": "Amani bahçede.", "de": "Amani ist im Garten." },
+          { "tr": "Bugün evdeyim.", "de": "Heute bin ich zu Hause." }
+        ]
+      },
+      "dialog": {
+        "titel": "Wo ist wer?",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Sherin, neredesin?", "de": "Sherin, wo bist du?" },
+          { "sprecher": "Sherin", "tr": "Mutfaktayım!", "de": "In der Küche!" },
+          { "sprecher": "Pasha", "tr": "Inaya nerede?", "de": "Wo ist Inaya?" },
+          { "sprecher": "Sherin", "tr": "Salonda. Amani de orada.", "de": "Im Wohnzimmer. Amani ist auch da." },
+          { "sprecher": "Pasha", "tr": "Peki, telefonum nerede?", "de": "Und wo ist mein Handy?" },
+          { "sprecher": "Sherin", "tr": "Banyoda!", "de": "Im Bad!" },
+          { "sprecher": "Pasha", "tr": "Banyoda mı? Gerçekten mi?", "de": "Im Bad? Echt jetzt?" },
+          { "sprecher": "Sherin", "tr": "Evet! Hep orada!", "de": "Ja! Da liegt es immer!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w03-oda", "w03-mutfak", "w03-banyo", "w03-bahce"] },
+        { "art": "luecke", "satz": "Pasha mutfak___.", "loesung": "ta", "optionen": ["ta", "da", "te", "de"], "de": "Pasha ist in der Küche.", "hinweis": "mutfak endet auf k (hart)" },
+        { "art": "auswahl_tr_de", "vokabel": "w03-salon" },
+        { "art": "luecke", "satz": "Amani bahçe___.", "loesung": "de", "optionen": ["de", "da", "te"], "de": "Amani ist im Garten.", "hinweis": "bahçe – letzter Vokal e" },
+        { "art": "hoeren", "vokabel": "w03-yatak-odasi" },
+        { "art": "auswahl_de_tr", "vokabel": "w03-evde" },
+        { "art": "luecke", "satz": "Inaya oda___.", "loesung": "da", "optionen": ["da", "de", "ta"], "de": "Inaya ist im Zimmer." },
+        { "art": "satzbau", "tr": "Amani salonda uyuyor.", "de": "Amani schläft im Wohnzimmer." },
+        { "art": "tippen", "vokabel": "w03-burada" },
+        { "art": "hoeren", "vokabel": "w03-orada" },
+        { "art": "satzbau", "tr": "Bugün evdeyim.", "de": "Heute bin ich zu Hause." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Versteckspiel per Zuruf: Pasha geht in irgendeinen Raum und ruft „Neredeyim?“ (Wo bin ich?). Du rätst laut auf Türkisch. Dann tauscht ihr.",
+        "mustersaetze": [
+          { "tr": "Mutfakta mısın?", "de": "Bist du in der Küche?" },
+          { "tr": "Banyodayım!", "de": "Ich bin im Bad!" },
+          { "tr": "Inaya salonda.", "de": "Inaya ist im Wohnzimmer." }
+        ]
+      },
+      "alltagssatz": { "tr": "Neredesin?", "de": "Wo bist du?", "wann": "Wenn du Pasha heute in der Wohnung suchst – ruf auf Türkisch." },
+      "merktipp": { "titel": "Fıstıkçı Şahap", "text": "Türkische Kinder merken sich die harten Konsonanten mit „Fıstıkçı Şahap“ (Şahap, der Pistazienhändler): f, s, t, k, ç, ş, h, p. Danach wird -da zu -ta." }
+    },
+    {
+      "woche": 3,
+      "tag": 2,
+      "titel": "Möbel & bu, şu, o",
+      "kannZiel": "auf Dinge zeigen und Möbel benennen",
+      "vokabeln": [
+        { "id": "w03-su", "tr": "şu", "de": "das da (in Reichweite)", "typ": "wort", "beispiel": { "tr": "Şu ne?", "de": "Was ist das da?" } },
+        { "id": "w03-masa", "tr": "masa", "de": "Tisch", "typ": "wort", "beispiel": { "tr": "Çay masada.", "de": "Der Tee steht auf dem Tisch." } },
+        { "id": "w03-sandalye", "tr": "sandalye", "de": "Stuhl", "typ": "wort", "beispiel": { "tr": "Inaya'nın sandalyesi mutfakta.", "de": "Inayas Stuhl ist in der Küche." } },
+        { "id": "w03-kanepe", "tr": "kanepe", "de": "Sofa", "typ": "wort", "beispiel": { "tr": "Amani kanepede! Hayır, Amani!", "de": "Amani ist auf dem Sofa! Nein, Amani!" } },
+        { "id": "w03-yatak", "tr": "yatak", "de": "Bett", "typ": "wort", "beispiel": { "tr": "Inaya yatakta uyuyor.", "de": "Inaya schläft im Bett." } },
+        { "id": "w03-dolap", "tr": "dolap", "de": "Schrank", "typ": "wort", "beispiel": { "tr": "Bardaklar dolapta.", "de": "Die Gläser sind im Schrank." } },
+        { "id": "w03-kapi", "tr": "kapı", "de": "Tür", "typ": "wort", "beispiel": { "tr": "Kapı açık mı?", "de": "Ist die Tür offen?" } },
+        { "id": "w03-pencere", "tr": "pencere", "de": "Fenster", "typ": "wort", "beispiel": { "tr": "Pencere açık. Soğuk!", "de": "Das Fenster ist offen. Kalt!" } },
+        { "id": "w03-buzdolabi", "tr": "buzdolabı", "de": "Kühlschrank", "typ": "wort", "beispiel": { "tr": "Süt buzdolabında.", "de": "Die Milch ist im Kühlschrank." }, "merktipp": "buz = Eis, dolap = Schrank → „Eisschrank“." }
+      ],
+      "grammatik": {
+        "titel": "bu, şu, o – nah, mittel, fern",
+        "erklaerung": [
+          "bu = das hier (ganz nah), şu = das da (du zeigst drauf), o = das dort (weiter weg).",
+          "Mehrzahl: bunlar, şunlar, onlar.",
+          "Die passenden Ortswörter: burada (hier), şurada (da), orada (dort)."
+        ],
+        "tabelle": {
+          "kopf": ["", "Ding", "Ort"],
+          "zeilen": [
+            ["nah", "bu", "burada"],
+            ["mittel", "şu", "şurada"],
+            ["fern", "o", "orada"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bu masa çok büyük.", "de": "Dieser Tisch ist sehr groß." },
+          { "tr": "Şu ne?", "de": "Was ist das da?" },
+          { "tr": "O kapı açık.", "de": "Die Tür dort ist offen." }
+        ]
+      },
+      "dialog": {
+        "titel": "Aufräumen am Abend",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, bu ne?", "de": "Pasha, was ist das?" },
+          { "sprecher": "Pasha", "tr": "Bu Inaya'nın oyuncağı.", "de": "Das ist Inayas Spielzeug." },
+          { "sprecher": "Sherin", "tr": "Ya şu?", "de": "Und das da?" },
+          { "sprecher": "Pasha", "tr": "Şu Amani'nin topu.", "de": "Das da ist Amanis Ball." },
+          { "sprecher": "Sherin", "tr": "Neden kanepede?", "de": "Und warum liegt der auf dem Sofa?" },
+          { "sprecher": "Pasha", "tr": "Amani kanepede uyuyor.", "de": "Amani schläft auf dem Sofa." },
+          { "sprecher": "Sherin", "tr": "Amani! Kanepe senin yatağın değil!", "de": "Amani! Das Sofa ist nicht dein Bett!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w03-masa", "w03-sandalye", "w03-kanepe", "w03-yatak", "w03-dolap"] },
+        { "art": "auswahl_de_tr", "vokabel": "w03-buzdolabi" },
+        { "art": "hoeren", "vokabel": "w03-pencere" },
+        { "art": "luecke", "satz": "Amani kanepe___!", "loesung": "de", "optionen": ["de", "da", "te"], "de": "Amani ist auf dem Sofa!" },
+        { "art": "auswahl_tr_de", "vokabel": "w03-su" },
+        { "art": "luecke", "satz": "Bardaklar dolap___.", "loesung": "ta", "optionen": ["ta", "da", "te"], "de": "Die Gläser sind im Schrank.", "hinweis": "dolap endet auf p (hart)" },
+        { "art": "tippen", "vokabel": "w03-kapi" },
+        { "art": "satzbau", "tr": "Süt buzdolabında.", "de": "Die Milch ist im Kühlschrank." },
+        { "art": "hoeren", "vokabel": "w03-yatak" },
+        { "art": "tippen", "vokabel": "w03-masa" },
+        { "art": "satzbau", "tr": "Kanepe senin yatağın değil!", "de": "Das Sofa ist nicht dein Bett!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Klebezettel-Runde: Schreibt zusammen kapı, pencere, buzdolabı, masa und kanepe auf Zettel und klebt sie dran. Dann zeigt Pasha auf Dinge und fragt „Bu ne?“ oder „Şu ne?“.",
+        "mustersaetze": [
+          { "tr": "Bu ne? – Bu kapı.", "de": "Was ist das? – Das ist die Tür." },
+          { "tr": "Şu ne? – Şu pencere.", "de": "Was ist das da? – Das da ist das Fenster." },
+          { "tr": "Süt buzdolabında.", "de": "Die Milch ist im Kühlschrank." }
+        ]
+      },
+      "alltagssatz": { "tr": "Kapı açık mı?", "de": "Ist die Tür offen?", "wann": "Bevor Amani heute rausflitzt – frag Pasha." },
+      "merktipp": { "titel": "Klebezettel wirken", "text": "Was du jeden Tag siehst, lernst du nebenbei. Ein Zettel „buzdolabı“ am Kühlschrank – und nach einer Woche sitzt das Wort." }
+    },
+    {
+      "woche": 3,
+      "tag": 3,
+      "titel": "Auf, unter, neben",
+      "kannZiel": "genau sagen, wo etwas liegt",
+      "vokabeln": [
+        { "id": "w03-ustunde", "tr": "üstünde", "de": "auf", "typ": "wort", "beispiel": { "tr": "Kitap masanın üstünde.", "de": "Das Buch liegt auf dem Tisch." } },
+        { "id": "w03-altinda", "tr": "altında", "de": "unter", "typ": "wort", "beispiel": { "tr": "Top kanepenin altında.", "de": "Der Ball ist unter dem Sofa." } },
+        { "id": "w03-yaninda", "tr": "yanında", "de": "neben", "typ": "wort", "beispiel": { "tr": "Amani kapının yanında.", "de": "Amani ist neben der Tür." } },
+        { "id": "w03-icinde", "tr": "içinde", "de": "in / drin", "typ": "wort", "beispiel": { "tr": "Anahtar çantanın içinde.", "de": "Der Schlüssel ist in der Tasche." } },
+        { "id": "w03-onunde", "tr": "önünde", "de": "vor", "typ": "wort", "beispiel": { "tr": "Araba evin önünde.", "de": "Das Auto steht vor dem Haus." } },
+        { "id": "w03-arkasinda", "tr": "arkasında", "de": "hinter", "typ": "wort", "beispiel": { "tr": "Bahçe evin arkasında.", "de": "Der Garten ist hinter dem Haus." } },
+        { "id": "w03-anahtar", "tr": "anahtar", "de": "Schlüssel", "typ": "wort", "beispiel": { "tr": "Anahtarım nerede?", "de": "Wo ist mein Schlüssel?" } },
+        { "id": "w03-canta", "tr": "çanta", "de": "Tasche", "typ": "wort", "beispiel": { "tr": "Çantam kapının yanında.", "de": "Meine Tasche steht neben der Tür." } },
+        { "id": "w03-oyuncak", "tr": "oyuncak", "de": "Spielzeug", "typ": "wort", "beispiel": { "tr": "Inaya'nın oyuncakları salonda.", "de": "Inayas Spielsachen sind im Wohnzimmer." } }
+      ],
+      "grammatik": {
+        "titel": "„auf dem Tisch“ = „des Tisches oben“",
+        "erklaerung": [
+          "Ortswörter stehen hinter dem Ding: masanın üstünde = auf dem Tisch (wörtlich: „des Tisches Oberseite-auf“).",
+          "Das Ding bekommt -nın/-nin (nach Vokal) oder -ın/-in (nach Konsonant): masa → masanın, ev → evin.",
+          "Lern die Paare erst einmal als feste Blöcke: kapının yanında, kanepenin altında, çantanın içinde."
+        ],
+        "tabelle": {
+          "kopf": ["Ding", "+ Endung", "Beispiel"],
+          "zeilen": [
+            ["masa", "masanın", "masanın üstünde"],
+            ["kapı", "kapının", "kapının yanında"],
+            ["kanepe", "kanepenin", "kanepenin altında"],
+            ["çanta", "çantanın", "çantanın içinde"],
+            ["ev", "evin", "evin önünde"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kitap masanın üstünde.", "de": "Das Buch liegt auf dem Tisch." },
+          { "tr": "Top kanepenin altında.", "de": "Der Ball ist unter dem Sofa." },
+          { "tr": "Anahtar çantanın içinde.", "de": "Der Schlüssel ist in der Tasche." }
+        ]
+      },
+      "dialog": {
+        "titel": "Schlüsselsuche",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, anahtarım nerede?", "de": "Pasha, wo ist mein Schlüssel?" },
+          { "sprecher": "Pasha", "tr": "Masanın üstünde değil mi?", "de": "Liegt er nicht auf dem Tisch?" },
+          { "sprecher": "Sherin", "tr": "Hayır, masada yok.", "de": "Nein, auf dem Tisch ist er nicht." },
+          { "sprecher": "Pasha", "tr": "Çantanın içinde?", "de": "In der Tasche?" },
+          { "sprecher": "Sherin", "tr": "Yok … Ah! Kapının yanında!", "de": "Nein … Ah! Neben der Tür!" },
+          { "sprecher": "Pasha", "tr": "Süper. Hadi, gidiyoruz!", "de": "Super. Komm, wir gehen!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w03-ustunde", "w03-altinda", "w03-yaninda", "w03-icinde"] },
+        { "art": "auswahl_de_tr", "vokabel": "w03-arkasinda" },
+        { "art": "hoeren", "vokabel": "w03-onunde" },
+        { "art": "luecke", "satz": "Kitap masa___ üstünde.", "loesung": "nın", "optionen": ["nın", "nin", "ın"], "de": "Das Buch liegt auf dem Tisch.", "hinweis": "masa endet auf Vokal a" },
+        { "art": "satzbau", "tr": "Anahtar çantanın içinde.", "de": "Der Schlüssel ist in der Tasche." },
+        { "art": "auswahl_tr_de", "vokabel": "w03-anahtar" },
+        { "art": "luecke", "satz": "Araba ev___ önünde.", "loesung": "in", "optionen": ["in", "nin", "ın"], "de": "Das Auto steht vor dem Haus.", "hinweis": "ev endet auf Konsonant, Vokal e" },
+        { "art": "hoeren", "vokabel": "w03-oyuncak" },
+        { "art": "tippen", "vokabel": "w03-canta" },
+        { "art": "satzbau", "tr": "Top kanepenin altında.", "de": "Der Ball ist unter dem Sofa." },
+        { "art": "auswahl_de_tr", "vokabel": "w03-yaninda" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Pasha versteckt drei Dinge (Schlüssel, Inayas Spielzeug, eine Tasse). Du fragst „… nerede?“ – er antwortet nur mit Ortsangaben auf Türkisch. Du sagst laut, wo du es gefunden hast.",
+        "mustersaetze": [
+          { "tr": "Anahtar nerede?", "de": "Wo ist der Schlüssel?" },
+          { "tr": "Kanepenin altında mı?", "de": "Unter dem Sofa?" },
+          { "tr": "Buldum! Çantanın içinde!", "de": "Gefunden! In der Tasche!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Anahtarım nerede?", "de": "Wo ist mein Schlüssel?", "wann": "Heute beim Rausgehen – ob du ihn suchst oder nicht." },
+      "merktipp": { "titel": "Erst das Ding, dann der Ort", "text": "Deutsch: auf dem Tisch. Türkisch: Tisch – auf. Denk an „Tisch-oben“, „Sofa-unten“, „Tür-daneben“. Die Reihenfolge ist einfach umgedreht." }
+    },
+    {
+      "woche": 3,
+      "tag": 4,
+      "titel": "Sein / ihr & weiche Konsonanten",
+      "kannZiel": "sagen, wem etwas gehört – Inayas Schnuller, Amanis Ball",
+      "vokabeln": [
+        { "id": "w03-kitap", "tr": "kitap", "de": "Buch", "typ": "wort", "beispiel": { "tr": "Inaya'nın kitabı yatakta.", "de": "Inayas Buch liegt im Bett." }, "merktipp": "kitap → kitabı: p wird zu b, sobald ein Vokal dazukommt." },
+        { "id": "w03-ayakkabi", "tr": "ayakkabı", "de": "Schuh", "typ": "wort", "beispiel": { "tr": "Ayakkabıların kapının önünde.", "de": "Deine Schuhe stehen vor der Tür." } },
+        { "id": "w03-tabak", "tr": "tabak", "de": "Teller", "typ": "wort", "beispiel": { "tr": "Tabaklar dolapta.", "de": "Die Teller sind im Schrank." } },
+        { "id": "w03-bardak", "tr": "bardak", "de": "Glas / Becher", "typ": "wort", "beispiel": { "tr": "Çay bardağı nerede?", "de": "Wo ist das Teeglas?" }, "merktipp": "çay bardağı ist das Tulpenglas – genau das, das sich in deiner App füllt." },
+        { "id": "w03-kasik", "tr": "kaşık", "de": "Löffel", "typ": "wort", "beispiel": { "tr": "Inaya'nın kaşığı yerde.", "de": "Inayas Löffel liegt auf dem Boden." } },
+        { "id": "w03-emzik", "tr": "emzik", "de": "Schnuller", "typ": "wort", "beispiel": { "tr": "Emziği nerede?", "de": "Wo ist ihr Schnuller?" } },
+        { "id": "w03-battaniye", "tr": "battaniye", "de": "Decke", "typ": "wort", "beispiel": { "tr": "Battaniye kanepede.", "de": "Die Decke liegt auf dem Sofa." } },
+        { "id": "w03-mama-sandalyesi", "tr": "mama sandalyesi", "de": "Hochstuhl", "typ": "chunk", "beispiel": { "tr": "Inaya mama sandalyesinde.", "de": "Inaya sitzt im Hochstuhl." } },
+        { "id": "w03-cocuk-odasi", "tr": "çocuk odası", "de": "Kinderzimmer", "typ": "chunk", "beispiel": { "tr": "Çocuk odası yukarıda.", "de": "Das Kinderzimmer ist oben." } }
+      ],
+      "grammatik": {
+        "titel": "sein/ihr = -(s)ı, und k wird ğ",
+        "erklaerung": [
+          "„Sein/ihr“ ist eine Endung: -ı/-i/-u/-ü, nach Vokal mit s: oda → odası (ihr Zimmer).",
+          "Mit Besitzer: Inaya'nın odası (Inayas Zimmer), Amani'nin topu (Amanis Ball).",
+          "Konsonantenwechsel: p, ç, t, k am Wortende werden weich, wenn ein Vokal kommt: kitap → kitabı, köpek → köpeği, bardak → bardağı.",
+          "Zusammengesetzte Wörter bekommen nur hinten die Endung: çay bardağı (Teeglas), çocuk odası (Kinderzimmer)."
+        ],
+        "tabelle": {
+          "kopf": ["Wort", "sein / ihr …"],
+          "zeilen": [
+            ["oda", "odası"],
+            ["top", "topu"],
+            ["köpek", "köpeği"],
+            ["kitap", "kitabı"],
+            ["bardak", "bardağı"],
+            ["emzik", "emziği"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Inaya'nın emziği nerede?", "de": "Wo ist Inayas Schnuller?" },
+          { "tr": "Amani'nin topu bahçede.", "de": "Amanis Ball ist im Garten." },
+          { "tr": "Pasha'nın kitabı masada.", "de": "Pashas Buch liegt auf dem Tisch." }
+        ]
+      },
+      "dialog": {
+        "titel": "Gute-Nacht-Chaos",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Inaya uyumuyor. Emziği nerede?", "de": "Inaya schläft nicht. Wo ist ihr Schnuller?" },
+          { "sprecher": "Pasha", "tr": "Yatağında yok mu?", "de": "Ist er nicht in ihrem Bett?" },
+          { "sprecher": "Sherin", "tr": "Yok. Battaniyesi de yok!", "de": "Nein. Ihre Decke ist auch weg!" },
+          { "sprecher": "Pasha", "tr": "Hmm … Amani!", "de": "Hmm … Amani!" },
+          { "sprecher": "Sherin", "tr": "Amani'nin yatağında mı?", "de": "In Amanis Bett?" },
+          { "sprecher": "Pasha", "tr": "Evet! Emzik de battaniye de Amani'de!", "de": "Ja! Schnuller und Decke – beides hat Amani!" },
+          { "sprecher": "Sherin", "tr": "Amani! Bunlar senin değil!", "de": "Amani! Das gehört dir nicht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "luecke", "satz": "Inaya'nın emzi___ nerede?", "loesung": "ği", "optionen": ["ği", "ki", "si"], "de": "Wo ist Inayas Schnuller?", "hinweis": "k wird zu ğ" },
+        { "art": "auswahl_de_tr", "vokabel": "w03-bardak" },
+        { "art": "zuordnen", "vokabeln": ["w03-kitap", "w03-tabak", "w03-kasik", "w03-battaniye"] },
+        { "art": "luecke", "satz": "Inaya'nın kita___ yatakta.", "loesung": "bı", "optionen": ["bı", "pı", "bi"], "de": "Inayas Buch liegt im Bett.", "hinweis": "p wird zu b" },
+        { "art": "hoeren", "vokabel": "w03-mama-sandalyesi" },
+        { "art": "luecke", "satz": "Inaya'nın oda___ yukarıda.", "loesung": "sı", "optionen": ["sı", "ı", "si"], "de": "Inayas Zimmer ist oben.", "hinweis": "oda endet auf Vokal → s" },
+        { "art": "satzbau", "tr": "Amani'nin topu bahçede.", "de": "Amanis Ball ist im Garten." },
+        { "art": "auswahl_tr_de", "vokabel": "w03-ayakkabi" },
+        { "art": "tippen", "vokabel": "w03-emzik" },
+        { "art": "hoeren", "vokabel": "w03-cocuk-odasi" },
+        { "art": "satzbau", "tr": "Inaya'nın kaşığı yerde.", "de": "Inayas Löffel liegt auf dem Boden." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Geht zusammen durchs Kinderzimmer. Du nimmst Dinge in die Hand und sagst, wem sie gehören: „Bu Inaya'nın …“, „Bu Amani'nin …“, „Bu Pasha'nın …“. Pasha korrigiert ğ und b.",
+        "mustersaetze": [
+          { "tr": "Bu Inaya'nın kitabı.", "de": "Das ist Inayas Buch." },
+          { "tr": "Bu Amani'nin topu.", "de": "Das ist Amanis Ball." },
+          { "tr": "Emziği nerede?", "de": "Wo ist ihr Schnuller?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Emziği nerede?", "de": "Wo ist ihr Schnuller?", "wann": "Spätestens beim Zubettbringen heute – garantiert." },
+      "merktipp": { "titel": "Weiche Landung", "text": "Wenn an p, ç, t oder k ein Vokal andockt, wird der Laut weich: p→b, ç→c, t→d, k→ğ. Sprich kitap-ı schnell – kitabı rollt einfach besser." }
+    },
+    {
+      "woche": 3,
+      "tag": 5,
+      "titel": "Unsere Wohnung",
+      "kannZiel": "eure Wohnung beschreiben",
+      "vokabeln": [
+        { "id": "w03-daire", "tr": "daire", "de": "Wohnung", "typ": "wort", "beispiel": { "tr": "Dairemiz küçük ama güzel.", "de": "Unsere Wohnung ist klein, aber schön." } },
+        { "id": "w03-kat", "tr": "kat", "de": "Stockwerk", "typ": "wort", "beispiel": { "tr": "Elif üçüncü katta oturuyor.", "de": "Elif wohnt im dritten Stock." } },
+        { "id": "w03-merdiven", "tr": "merdiven", "de": "Treppe", "typ": "wort", "beispiel": { "tr": "Merdiven çok dik.", "de": "Die Treppe ist sehr steil." } },
+        { "id": "w03-yukarida", "tr": "yukarıda", "de": "oben", "typ": "wort", "beispiel": { "tr": "Pasha yukarıda.", "de": "Pasha ist oben." } },
+        { "id": "w03-asagida", "tr": "aşağıda", "de": "unten", "typ": "wort", "beispiel": { "tr": "Amani aşağıda, kapının önünde.", "de": "Amani ist unten, vor der Tür." } },
+        { "id": "w03-temiz", "tr": "temiz", "de": "sauber", "typ": "wort", "beispiel": { "tr": "Mutfak temiz mi?", "de": "Ist die Küche sauber?" } },
+        { "id": "w03-daginik", "tr": "dağınık", "de": "unordentlich", "typ": "wort", "beispiel": { "tr": "Salon çok dağınık!", "de": "Das Wohnzimmer ist total unordentlich!" } },
+        { "id": "w03-sessiz", "tr": "sessiz", "de": "ruhig / leise", "typ": "wort", "beispiel": { "tr": "Ev çok sessiz. Inaya uyuyor.", "de": "Es ist so ruhig. Inaya schläft." } },
+        { "id": "w03-komsu", "tr": "komşu", "de": "Nachbar / Nachbarin", "typ": "wort", "beispiel": { "tr": "Komşumuz Elif çok iyi.", "de": "Unsere Nachbarin Elif ist sehr nett." } }
+      ],
+      "grammatik": {
+        "titel": "Adjektive & „unser“",
+        "erklaerung": [
+          "Adjektive stehen vor dem Nomen und ändern sich nie: büyük ev, büyük evler.",
+          "„ein großes Haus“: bir steht zwischen Adjektiv und Nomen – büyük bir ev.",
+          "unser = -(ı)mız / -(i)miz: ev → evimiz, daire → dairemiz.",
+          "Hier die Besitz-Endungen komplett für eine Person: mein, dein, sein/ihr, unser."
+        ],
+        "tabelle": {
+          "kopf": ["", "ev", "daire"],
+          "zeilen": [
+            ["mein", "evim", "dairem"],
+            ["dein", "evin", "dairen"],
+            ["sein/ihr", "evi", "dairesi"],
+            ["unser", "evimiz", "dairemiz"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Dairemiz küçük ama güzel.", "de": "Unsere Wohnung ist klein, aber schön." },
+          { "tr": "Büyük bir bahçe.", "de": "Ein großer Garten." },
+          { "tr": "Komşumuz çok sessiz.", "de": "Unser Nachbar ist sehr ruhig." }
+        ]
+      },
+      "dialog": {
+        "titel": "Elif zu Besuch",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Eviniz çok güzel!", "de": "Eure Wohnung ist so schön!" },
+          { "sprecher": "Sherin", "tr": "Teşekkürler! Ama biraz dağınık.", "de": "Danke! Aber etwas unordentlich." },
+          { "sprecher": "Elif", "tr": "Sorun yok! Benim evim de dağınık.", "de": "Kein Problem! Meine ist auch unordentlich." },
+          { "sprecher": "Sherin", "tr": "Salon burada, mutfak orada.", "de": "Hier ist das Wohnzimmer, dort die Küche." },
+          { "sprecher": "Elif", "tr": "Inaya nerede?", "de": "Wo ist Inaya?" },
+          { "sprecher": "Sherin", "tr": "Yukarıda, çocuk odasında. Uyuyor.", "de": "Oben im Kinderzimmer. Sie schläft." },
+          { "sprecher": "Elif", "tr": "Tamam, sessiz konuşalım.", "de": "Okay, dann reden wir leise." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w03-temiz", "w03-daginik", "w03-sessiz", "w03-daire"] },
+        { "art": "auswahl_de_tr", "vokabel": "w03-yukarida" },
+        { "art": "hoeren", "vokabel": "w03-komsu" },
+        { "art": "luecke", "satz": "Daire___ küçük ama güzel.", "loesung": "miz", "optionen": ["miz", "imiz", "mız"], "de": "Unsere Wohnung ist klein, aber schön.", "hinweis": "daire endet auf Vokal e" },
+        { "art": "satzbau", "tr": "Salon çok dağınık!", "de": "Das Wohnzimmer ist total unordentlich!" },
+        { "art": "auswahl_tr_de", "vokabel": "w03-asagida" },
+        { "art": "luecke", "satz": "Büyük ___ bahçe.", "loesung": "bir", "optionen": ["bir", "bu", "çok"], "de": "Ein großer Garten." },
+        { "art": "hoeren", "vokabel": "w03-merdiven" },
+        { "art": "tippen", "vokabel": "w03-temiz" },
+        { "art": "satzbau", "tr": "Yukarıda, çocuk odasında.", "de": "Oben, im Kinderzimmer." },
+        { "art": "auswahl_tr_de", "vokabel": "w03-kat" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Beschreib Pasha eure Wohnung, als würdest du sie Elif am Telefon erklären: Welche Räume gibt es, was ist oben, was unten, was ist groß oder klein? Mindestens fünf Sätze.",
+        "mustersaetze": [
+          { "tr": "Dairemiz küçük ama güzel.", "de": "Unsere Wohnung ist klein, aber schön." },
+          { "tr": "Salon büyük, mutfak küçük.", "de": "Das Wohnzimmer ist groß, die Küche klein." },
+          { "tr": "Çocuk odası yukarıda.", "de": "Das Kinderzimmer ist oben." }
+        ]
+      },
+      "alltagssatz": { "tr": "Salon çok dağınık!", "de": "Das Wohnzimmer ist total unordentlich!", "wann": "Abends, wenn Inayas Spielsachen überall liegen. Dann räumt Pasha mit auf." },
+      "merktipp": { "titel": "Adjektive sind faul", "text": "Türkische Adjektive ändern sich nie – kein „großer, große, großes“. büyük bleibt büyük. Ein Grund zum Feiern!" }
+    },
+    {
+      "woche": 3,
+      "tag": 6,
+      "titel": "Festigungstag: Die große Suche",
+      "kannZiel": "suchen, finden und um Hilfe bitten",
+      "vokabeln": [
+        { "id": "w03-her-yerde", "tr": "her yerde", "de": "überall", "typ": "chunk", "beispiel": { "tr": "Amani'nin tüyleri her yerde!", "de": "Amanis Haare sind überall!" } },
+        { "id": "w03-bulamiyorum", "tr": "Bulamıyorum.", "de": "Ich finde es nicht.", "typ": "chunk", "beispiel": { "tr": "Anahtarımı bulamıyorum.", "de": "Ich finde meinen Schlüssel nicht." } },
+        { "id": "w03-buldum", "tr": "Buldum!", "de": "Gefunden!", "typ": "chunk", "beispiel": { "tr": "Buldum! Kanepenin altında!", "de": "Gefunden! Unter dem Sofa!" } },
+        { "id": "w03-yardim-eder-misin", "tr": "Yardım eder misin?", "de": "Hilfst du mir?", "typ": "chunk", "beispiel": { "tr": "Pasha, yardım eder misin?", "de": "Pasha, hilfst du mir?" } },
+        { "id": "w03-dikkat", "tr": "Dikkat!", "de": "Vorsicht!", "typ": "chunk", "beispiel": { "tr": "Dikkat, merdiven!", "de": "Vorsicht, Treppe!" } }
+      ],
+      "grammatik": {
+        "titel": "Wo? – Die Woche auf einen Blick",
+        "erklaerung": [
+          "Heute keine neue Regel – du kombinierst alles: Räume, Ortswörter und Besitz.",
+          "Frage immer: … nerede? Antwort: Ort + -da/-de oder ein Ortswort."
+        ],
+        "tabelle": {
+          "kopf": ["Frage", "Antwort"],
+          "zeilen": [
+            ["Anahtar nerede?", "Masanın üstünde."],
+            ["Inaya nerede?", "Çocuk odasında."],
+            ["Amani nerede?", "Bahçede."],
+            ["Telefonum nerede?", "Banyoda."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Inaya'nın emziği yatağın altında.", "de": "Inayas Schnuller liegt unter dem Bett." },
+          { "tr": "Bulamıyorum. Yardım eder misin?", "de": "Ich finde es nicht. Hilfst du mir?" },
+          { "tr": "Buldum! Çantanın içinde!", "de": "Gefunden! In der Tasche!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Schnuller-Alarm",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, yardım eder misin?", "de": "Pasha, hilfst du mir?" },
+          { "sprecher": "Pasha", "tr": "Tabii. Ne arıyorsun?", "de": "Klar. Was suchst du?" },
+          { "sprecher": "Sherin", "tr": "Inaya'nın emziğini bulamıyorum.", "de": "Ich finde Inayas Schnuller nicht." },
+          { "sprecher": "Pasha", "tr": "Çantada mı?", "de": "In der Tasche?" },
+          { "sprecher": "Sherin", "tr": "Hayır, çantada yok. Yatakta da yok.", "de": "Nein, nicht in der Tasche. Und auch nicht im Bett." },
+          { "sprecher": "Pasha", "tr": "Kanepenin altında?", "de": "Unter dem Sofa?" },
+          { "sprecher": "Sherin", "tr": "Hmm … Buldum! Ama Amani'nin tüyleri de her yerde!", "de": "Hmm … Gefunden! Aber Amanis Haare sind auch überall!" },
+          { "sprecher": "Pasha", "tr": "Dikkat, Inaya geliyor!", "de": "Vorsicht, Inaya kommt!" },
+          { "sprecher": "Sherin", "tr": "Al canım, emziğin burada!", "de": "Hier, Schatz, dein Schnuller!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_tr_de", "vokabel": "w03-her-yerde" },
+        { "art": "hoeren", "vokabel": "w03-bulamiyorum" },
+        { "art": "zuordnen", "vokabeln": ["w03-buldum", "w03-dikkat", "w03-yardim-eder-misin", "w03-bulamiyorum"] },
+        { "art": "satzbau", "tr": "Buldum! Kanepenin altında!", "de": "Gefunden! Unter dem Sofa!" },
+        { "art": "luecke", "satz": "Inaya çocuk oda___.", "loesung": "sında", "optionen": ["sında", "da", "sı"], "de": "Inaya ist im Kinderzimmer." },
+        { "art": "auswahl_de_tr", "vokabel": "w03-icinde" },
+        { "art": "hoeren", "vokabel": "w03-buzdolabi" },
+        { "art": "luecke", "satz": "Telefonum banyo___.", "loesung": "da", "optionen": ["da", "de", "ta"], "de": "Mein Handy ist im Bad." },
+        { "art": "tippen", "vokabel": "w03-buldum" },
+        { "art": "satzbau", "tr": "Pasha, yardım eder misin?", "de": "Pasha, hilfst du mir?" },
+        { "art": "auswahl_de_tr", "vokabel": "w03-salon" },
+        { "art": "tippen", "vokabel": "w03-oda" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Führ Pasha durch die ganze Wohnung – auf Türkisch. Sag in jedem Raum zwei Sätze: wo ihr seid und was dort ist. Am Ende versteckt er etwas und du suchst laut mit „Bulamıyorum … Buldum!“.",
+        "mustersaetze": [
+          { "tr": "Burası mutfak. Buzdolabı burada.", "de": "Das hier ist die Küche. Hier ist der Kühlschrank." },
+          { "tr": "Inaya'nın oyuncakları her yerde!", "de": "Inayas Spielsachen sind überall!" },
+          { "tr": "Bulamıyorum … Buldum!", "de": "Ich finde es nicht … Gefunden!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Yardım eder misin?", "de": "Hilfst du mir?", "wann": "Heute bei der nächsten Gelegenheit: Wäsche, Einkauf, Inaya wickeln." },
+      "merktipp": { "titel": "Laut suchen", "text": "Kommentiere heute alles Suchen auf Türkisch, auch allein: „Nerede? … Masada yok … Buldum!“ Selbstgespräche sind das beste Sprechtraining." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      {
+        "situation": "Führ Pasha in drei Sätzen durch eure Wohnung.",
+        "hilfe": { "tr": "Salon burada. Mutfak orada. Çocuk odası yukarıda.", "de": "Hier ist das Wohnzimmer. Dort die Küche. Oben das Kinderzimmer." }
+      },
+      {
+        "situation": "Pasha versteckt etwas. Frag, wo es ist, und sag, wo du es gefunden hast.",
+        "hilfe": { "tr": "Nerede? … Buldum! Kanepenin altında!", "de": "Wo ist es? … Gefunden! Unter dem Sofa!" }
+      },
+      {
+        "situation": "Zeig auf fünf Dinge in der Küche und benenne sie.",
+        "hilfe": { "tr": "Bu masa. Şu buzdolabı. O pencere.", "de": "Das ist der Tisch. Das da der Kühlschrank. Das dort das Fenster." }
+      }
+    ]
+  }
+}
