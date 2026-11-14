@@ -1,0 +1,424 @@
+{
+  "woche": 16,
+  "lektionen": [
+    {
+      "woche": 16,
+      "tag": 1,
+      "titel": "Jeden Morgen: der Aorist",
+      "kannZiel": "sagen, was du gewöhnlich machst",
+      "vokabeln": [
+        { "id": "w16-her-sabah", "tr": "her sabah", "de": "jeden Morgen", "typ": "chunk", "beispiel": { "tr": "Her sabah çay içerim.", "de": "Jeden Morgen trinke ich Tee." } },
+        { "id": "w16-her-aksam", "tr": "her akşam", "de": "jeden Abend", "typ": "chunk", "beispiel": { "tr": "Her akşam Inaya'ya masal okurum.", "de": "Jeden Abend lese ich Inaya ein Märchen vor." } },
+        { "id": "w16-her-zaman", "tr": "her zaman", "de": "immer", "typ": "chunk", "beispiel": { "tr": "Pasha her zaman geç kalır.", "de": "Pasha kommt immer zu spät." } },
+        { "id": "w16-bazen", "tr": "bazen", "de": "manchmal", "typ": "wort", "beispiel": { "tr": "Bazen kahve de içerim.", "de": "Manchmal trinke ich auch Kaffee." } },
+        { "id": "w16-sik-sik", "tr": "sık sık", "de": "oft", "typ": "chunk", "beispiel": { "tr": "Annemi sık sık ararım.", "de": "Ich rufe meine Mama oft an." } },
+        { "id": "w16-nadiren", "tr": "nadiren", "de": "selten", "typ": "wort", "beispiel": { "tr": "Nadiren restorana gideriz.", "de": "Wir gehen selten ins Restaurant." } },
+        { "id": "w16-haftada-bir", "tr": "haftada bir", "de": "einmal pro Woche", "typ": "chunk", "beispiel": { "tr": "Haftada bir pazara gideriz.", "de": "Einmal pro Woche gehen wir auf den Markt." } },
+        { "id": "w16-genelde", "tr": "genelde", "de": "meistens", "typ": "wort", "beispiel": { "tr": "Genelde saat onda yatarım.", "de": "Meistens gehe ich um zehn ins Bett." } },
+        { "id": "w16-hic-degil", "tr": "hiç", "de": "nie (mit Verneinung)", "typ": "wort", "beispiel": { "tr": "Amani hiç sebze yemez.", "de": "Amani frisst nie Gemüse." } }
+      ],
+      "grammatik": {
+        "titel": "Aorist: Gewohnheiten -(a/ı)r",
+        "erklaerung": [
+          "Für Gewohnheiten und allgemeine Dinge gibt es den Aorist: iç → içerim (ich trinke [immer]).",
+          "Endet der Stamm auf Vokal: nur -r: uyu → uyurum, oku → okurum.",
+          "Kurze Stämme meist -ar/-er: yaparım, içerim, giderim. Längere -ır/-ir/-ur/-ür: çalışırım.",
+          "Ausnahmen mit -ır/-ir: gelirim, alırım, bilirim, olurum, kalırım, veririm, görürüm, bulurum."
+        ],
+        "tabelle": {
+          "kopf": ["", "içmek", "gelmek", "uyumak"],
+          "zeilen": [
+            ["ich", "içerim", "gelirim", "uyurum"],
+            ["du", "içersin", "gelirsin", "uyursun"],
+            ["er/sie", "içer", "gelir", "uyur"],
+            ["wir", "içeriz", "geliriz", "uyuruz"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Her sabah çay içerim.", "de": "Jeden Morgen trinke ich Tee." },
+          { "tr": "Inaya genelde saat yedide uyur.", "de": "Inaya schläft meistens um sieben." },
+          { "tr": "Haftada bir pazara gideriz.", "de": "Einmal pro Woche gehen wir auf den Markt." }
+        ]
+      },
+      "dialog": {
+        "titel": "Unsere Routinen",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Sabahları ne yaparsın?", "de": "Was machst du so morgens?" },
+          { "sprecher": "Sherin", "tr": "Genelde altıda kalkarım, çünkü Inaya erken uyanır.", "de": "Meistens stehe ich um sechs auf, weil Inaya früh aufwacht." },
+          { "sprecher": "Sherin", "tr": "Her sabah önce çay içerim. Çay olmadan uyanamam!", "de": "Jeden Morgen trinke ich zuerst Tee. Ohne Tee werde ich nicht wach!" },
+          { "sprecher": "Elif", "tr": "Ben de! Kahve içer misin?", "de": "Ich auch! Trinkst du Kaffee?" },
+          { "sprecher": "Sherin", "tr": "Bazen, öğleden sonra. Sen?", "de": "Manchmal, am Nachmittag. Du?" },
+          { "sprecher": "Elif", "tr": "Ben hiç kahve içmem. Sadece çay!", "de": "Ich trinke nie Kaffee. Nur Tee!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w16-her-zaman", "w16-bazen", "w16-sik-sik", "w16-nadiren"] },
+        { "art": "luecke", "satz": "Her sabah çay iç___.", "loesung": "erim", "optionen": ["erim", "iyorum", "tim"], "de": "Jeden Morgen trinke ich Tee." },
+        { "art": "luecke", "satz": "Genelde saat onda yat___.", "loesung": "arım", "optionen": ["arım", "ırım", "erim"], "de": "Meistens gehe ich um zehn ins Bett." },
+        { "art": "luecke", "satz": "Annemi sık sık ara___.", "loesung": "rım", "optionen": ["rım", "arım", "ırım"], "de": "Ich rufe meine Mama oft an.", "hinweis": "ara endet auf Vokal → nur -r" },
+        { "art": "hoeren", "vokabel": "w16-haftada-bir" },
+        { "art": "auswahl_de_tr", "vokabel": "w16-genelde" },
+        { "art": "satzbau", "tr": "Her akşam Inaya'ya masal okurum.", "de": "Jeden Abend lese ich Inaya ein Märchen vor." },
+        { "art": "auswahl_tr_de", "vokabel": "w16-her-sabah" },
+        { "art": "luecke", "satz": "Pasha her zaman geç kal___.", "loesung": "ır", "optionen": ["ır", "ar", "ıyor"], "de": "Pasha kommt immer zu spät.", "hinweis": "kalmak ist eine Ausnahme" },
+        { "art": "tippen", "vokabel": "w16-bazen" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Beschreibt euch gegenseitig eure Routinen im Aorist – Morgen, Mittag, Abend. Benutzt jedes Häufigkeitswort mindestens einmal: her zaman, genelde, bazen, nadiren, hiç.",
+        "mustersaetze": [
+          { "tr": "Genelde altıda kalkarım.", "de": "Meistens stehe ich um sechs auf." },
+          { "tr": "Bazen öğlen uyurum.", "de": "Manchmal schlafe ich mittags." },
+          { "tr": "Hiç erken yatmam!", "de": "Ich gehe nie früh ins Bett!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Her sabah çay içerim.", "de": "Jeden Morgen trinke ich Tee.", "wann": "Morgen früh mit dem ersten Tee in der Hand." },
+      "merktipp": { "titel": "-yor oder Aorist?", "text": "-yor = gerade jetzt (Şu an çay içiyorum). Aorist = immer, gewöhnlich (Her sabah çay içerim). Denk an „Ich trinke gerade“ vs. „Ich bin Teetrinkerin“." }
+    },
+    {
+      "woche": 16,
+      "tag": 2,
+      "titel": "Das mache ich nie: -maz / -mam",
+      "kannZiel": "sagen, was du nie oder nicht gewöhnlich tust",
+      "vokabeln": [
+        { "id": "w16-et", "tr": "et", "de": "Fleisch", "typ": "wort", "beispiel": { "tr": "Elif et yemez.", "de": "Elif isst kein Fleisch." } },
+        { "id": "w16-sebze", "tr": "sebze", "de": "Gemüse", "typ": "wort", "beispiel": { "tr": "Inaya sebze sevmez.", "de": "Inaya mag kein Gemüse." } },
+        { "id": "w16-meyve", "tr": "meyve", "de": "Obst", "typ": "wort", "beispiel": { "tr": "Her gün meyve yerim.", "de": "Ich esse jeden Tag Obst." } },
+        { "id": "w16-balik", "tr": "balık", "de": "Fisch", "typ": "wort", "beispiel": { "tr": "Cuma günleri balık yeriz.", "de": "Freitags essen wir Fisch." } },
+        { "id": "w16-saglikli", "tr": "sağlıklı", "de": "gesund", "typ": "wort", "beispiel": { "tr": "Sağlıklı yemek önemli.", "de": "Gesundes Essen ist wichtig." } },
+        { "id": "w16-sigara-icmek", "tr": "sigara içmek", "de": "rauchen", "typ": "chunk", "beispiel": { "tr": "Elif sigara içmez.", "de": "Elif raucht nicht." } },
+        { "id": "w16-alkol", "tr": "alkol", "de": "Alkohol", "typ": "wort", "beispiel": { "tr": "Elif alkol içmez, sadece çay.", "de": "Elif trinkt keinen Alkohol, nur Tee." } },
+        { "id": "w16-diyet", "tr": "diyet", "de": "Diät", "typ": "wort", "beispiel": { "tr": "Diyetteyim ama baklavaya hayır diyemem!", "de": "Ich mache Diät, aber zu Baklava kann ich nicht Nein sagen!" } }
+      ],
+      "grammatik": {
+        "titel": "Aorist verneint: -maz / -mez",
+        "erklaerung": [
+          "Verneinung im Aorist: -maz/-mez: içmez (trinkt nie/nicht), yemez (isst nicht).",
+          "Für „ich“ und „wir“ ohne z: içmem (ich trinke nicht), içmeyiz (wir trinken nicht).",
+          "Damit sagst du, was du grundsätzlich nicht tust: Et yemem. = Ich esse kein Fleisch."
+        ],
+        "tabelle": {
+          "kopf": ["", "içmek", "yemek"],
+          "zeilen": [
+            ["ich", "içmem", "yemem"],
+            ["du", "içmezsin", "yemezsin"],
+            ["er/sie", "içmez", "yemez"],
+            ["wir", "içmeyiz", "yemeyiz"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Akşamları kahve içmem.", "de": "Abends trinke ich keinen Kaffee." },
+          { "tr": "Inaya sebze sevmez.", "de": "Inaya mag kein Gemüse." },
+          { "tr": "Biz akşamları kahve içmeyiz.", "de": "Abends trinken wir keinen Kaffee." }
+        ]
+      },
+      "dialog": {
+        "titel": "Essen bei Elif",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Bu akşam ne pişireyim? Et yer misiniz?", "de": "Was soll ich heute Abend kochen? Esst ihr Fleisch?" },
+          { "sprecher": "Sherin", "tr": "Evet, yeriz. Ama balık pek sevmeyiz.", "de": "Ja. Aber Fisch mögen wir nicht so." },
+          { "sprecher": "Elif", "tr": "Tamam. Inaya ne yer?", "de": "Okay. Was isst Inaya?" },
+          { "sprecher": "Sherin", "tr": "Her şeyi yer. Ama sebze sevmez!", "de": "Sie isst alles. Aber Gemüse mag sie nicht!" },
+          { "sprecher": "Elif", "tr": "Benim oğlum da. Hiçbir çocuk sebze sevmez!", "de": "Mein Sohn auch nicht. Kein Kind mag Gemüse!" },
+          { "sprecher": "Sherin", "tr": "Ama meyveye bayılır. Elma, muz, çilek …", "de": "Aber Obst liebt sie. Apfel, Banane, Erdbeeren …" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w16-et", "w16-sebze", "w16-meyve", "w16-balik"] },
+        { "art": "luecke", "satz": "Akşamları kahve iç___.", "loesung": "mem", "optionen": ["mem", "mez", "miyorum"], "de": "Abends trinke ich keinen Kaffee." },
+        { "art": "luecke", "satz": "Inaya sebze sev___.", "loesung": "mez", "optionen": ["mez", "mem", "er"], "de": "Inaya mag kein Gemüse." },
+        { "art": "hoeren", "vokabel": "w16-saglikli" },
+        { "art": "auswahl_de_tr", "vokabel": "w16-sigara-icmek" },
+        { "art": "satzbau", "tr": "Her gün meyve yerim.", "de": "Ich esse jeden Tag Obst." },
+        { "art": "auswahl_tr_de", "vokabel": "w16-diyet" },
+        { "art": "luecke", "satz": "Et yer ___?", "loesung": "misiniz", "optionen": ["misiniz", "musunuz", "miyiz"], "de": "Essen Sie Fleisch?" },
+        { "art": "tippen", "vokabel": "w16-meyve" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Ess-Steckbrief: Sag Pasha auf Türkisch, was du immer, manchmal und nie isst und trinkst. Dann sagst du dasselbe über Inaya und Amani.",
+        "mustersaetze": [
+          { "tr": "Her gün meyve yerim.", "de": "Ich esse jeden Tag Obst." },
+          { "tr": "Hiç balık yemem.", "de": "Ich esse nie Fisch." },
+          { "tr": "Amani her şeyi yer!", "de": "Amani frisst alles!" }
+        ]
+      },
+      "alltagssatz": { "tr": "… yemem, teşekkürler.", "de": "… esse ich nicht, danke.", "wann": "Wenn dir bei Familienessen etwas angeboten wird, das du nicht magst – höflich und klar." },
+      "merktipp": { "titel": "-mam: kurz und bestimmt", "text": "„Yemem“ klingt entschieden – „das esse ich nicht (grundsätzlich)“. Mit einem freundlichen „teşekkürler“ dazu ist es trotzdem ganz höflich." }
+    },
+    {
+      "woche": 16,
+      "tag": 3,
+      "titel": "Inayas Abendritual",
+      "kannZiel": "feste Abläufe mit Kind beschreiben",
+      "vokabeln": [
+        { "id": "w16-aliskanlik", "tr": "alışkanlık", "de": "Gewohnheit", "typ": "wort", "beispiel": { "tr": "Bu güzel bir alışkanlık.", "de": "Das ist eine schöne Gewohnheit." } },
+        { "id": "w16-uyku-saati", "tr": "uyku saati", "de": "Schlafenszeit", "typ": "chunk", "beispiel": { "tr": "Uyku saati geldi, Inaya!", "de": "Schlafenszeit, Inaya!" } },
+        { "id": "w16-banyo-yapmak", "tr": "banyo yapmak", "de": "baden", "typ": "chunk", "beispiel": { "tr": "Inaya her akşam banyo yapar.", "de": "Inaya badet jeden Abend." } },
+        { "id": "w16-masal", "tr": "masal", "de": "Märchen", "typ": "wort", "beispiel": { "tr": "Pasha Türkçe masal okur.", "de": "Pasha liest türkische Märchen vor." } },
+        { "id": "w16-ninni", "tr": "ninni", "de": "Schlaflied", "typ": "wort", "beispiel": { "tr": "Babaanne her zaman ninni söyler.", "de": "Oma singt immer ein Schlaflied." } },
+        { "id": "w16-sallamak", "tr": "sallamak", "de": "wiegen / schaukeln", "typ": "wort", "beispiel": { "tr": "Onu biraz sallarım, hemen uyur.", "de": "Ich wiege sie ein bisschen, dann schläft sie sofort." } },
+        { "id": "w16-ogle-uykusu", "tr": "öğle uykusu", "de": "Mittagsschlaf", "typ": "chunk", "beispiel": { "tr": "Öğle uykusu iki saat sürer.", "de": "Der Mittagsschlaf dauert zwei Stunden." } },
+        { "id": "w16-opmek", "tr": "öpmek", "de": "küssen", "typ": "wort", "beispiel": { "tr": "Yatmadan önce babasını öper.", "de": "Vor dem Schlafen gibt sie Papa einen Kuss." } }
+      ],
+      "grammatik": {
+        "titel": "Aorist für feste Abläufe",
+        "erklaerung": [
+          "Rituale beschreibst du im Aorist: Önce banyo yapar, sonra süt içer, sonra uyur.",
+          "Mit önce, sonra, en son (zuletzt) wird daraus ein Ablauf.",
+          "-madan önce = bevor (kommt in Woche 23 ausführlich): yatmadan önce = vor dem Schlafen."
+        ],
+        "beispiele": [
+          { "tr": "Inaya her akşam banyo yapar.", "de": "Inaya badet jeden Abend." },
+          { "tr": "Sonra Pasha masal okur.", "de": "Danach liest Pasha ein Märchen vor." },
+          { "tr": "En son ninni söyleriz.", "de": "Zuletzt singen wir ein Schlaflied." }
+        ]
+      },
+      "dialog": {
+        "titel": "Wie macht ihr das abends?",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Inaya akşamları nasıl uyur?", "de": "Wie schläft Inaya abends ein?" },
+          { "sprecher": "Sherin", "tr": "Önce banyo yapar. Sonra sütünü içer.", "de": "Zuerst badet sie. Dann trinkt sie ihre Milch." },
+          { "sprecher": "Sherin", "tr": "Pasha ona Türkçe masal okur.", "de": "Pasha liest ihr ein türkisches Märchen vor." },
+          { "sprecher": "Pashas Mama", "tr": "Ninni de söylüyor musunuz?", "de": "Singt ihr auch ein Schlaflied?" },
+          { "sprecher": "Sherin", "tr": "Evet! Ben de Türkçe ninni öğrendim: „Dandini dandini dastana …“", "de": "Ja! Ich habe sogar ein türkisches Schlaflied gelernt: „Dandini dandini dastana …“" },
+          { "sprecher": "Pashas Mama", "tr": "Maşallah! Ben de Pasha'ya bu ninniyi söylerdim.", "de": "Maşallah! Dieses Lied habe ich Pasha auch immer vorgesungen." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w16-masal", "w16-ninni", "w16-ogle-uykusu", "w16-uyku-saati"] },
+        { "art": "luecke", "satz": "Inaya her akşam banyo yap___.", "loesung": "ar", "optionen": ["ar", "ıyor", "tı"], "de": "Inaya badet jeden Abend." },
+        { "art": "luecke", "satz": "Onu biraz salla___, hemen uyur.", "loesung": "rım", "optionen": ["rım", "arım", "yorum"], "de": "Ich wiege sie ein bisschen, dann schläft sie sofort." },
+        { "art": "hoeren", "vokabel": "w16-opmek" },
+        { "art": "auswahl_de_tr", "vokabel": "w16-aliskanlik" },
+        { "art": "satzbau", "tr": "Pasha ona Türkçe masal okur.", "de": "Pasha liest ihr ein türkisches Märchen vor." },
+        { "art": "auswahl_tr_de", "vokabel": "w16-sallamak" },
+        { "art": "hoeren", "vokabel": "w16-banyo-yapmak" },
+        { "art": "tippen", "vokabel": "w16-masal" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Beschreib Pasha euer Abendritual mit Inaya auf Türkisch im Aorist – Schritt für Schritt. Und dann: Bitte ihn, dir ein türkisches Schlaflied beizubringen („Dandini“ zum Beispiel).",
+        "mustersaetze": [
+          { "tr": "Önce banyo yapar, sonra süt içer.", "de": "Zuerst badet sie, dann trinkt sie Milch." },
+          { "tr": "Sonra masal okuruz.", "de": "Dann lesen wir ein Märchen." },
+          { "tr": "Bana bir ninni öğretir misin?", "de": "Bringst du mir ein Schlaflied bei?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Uyku saati geldi!", "de": "Schlafenszeit!", "wann": "Heute Abend, wenn es für Inaya ins Bett geht." },
+      "merktipp": { "titel": "Dandini dandini", "text": "„Dandini dandini dastana“ ist das bekannteste türkische Schlaflied – fast jede Mama und Oma kennt es. Bitte Pasha, es dir vorzusingen." }
+    },
+    {
+      "woche": 16,
+      "tag": 4,
+      "titel": "Würden Sie bitte …?",
+      "kannZiel": "sehr höflich um etwas bitten",
+      "vokabeln": [
+        { "id": "w16-verir-misiniz", "tr": "… verir misiniz?", "de": "Würden Sie mir … geben?", "typ": "chunk", "beispiel": { "tr": "Bir bardak su verir misiniz?", "de": "Würden Sie mir ein Glas Wasser geben?" } },
+        { "id": "w16-acar-misiniz", "tr": "… açar mısınız?", "de": "Würden Sie … öffnen?", "typ": "chunk", "beispiel": { "tr": "Kapıyı açar mısınız?", "de": "Würden Sie die Tür öffnen?" } },
+        { "id": "w16-bekler-misiniz", "tr": "Bekler misiniz?", "de": "Würden Sie kurz warten?", "typ": "chunk", "beispiel": { "tr": "Bir dakika bekler misiniz?", "de": "Würden Sie eine Minute warten?" } },
+        { "id": "w16-tekrar-eder-misiniz", "tr": "Tekrar eder misiniz?", "de": "Würden Sie das wiederholen?", "typ": "chunk", "beispiel": { "tr": "Pardon, tekrar eder misiniz?", "de": "Entschuldigung, würden Sie das wiederholen?" } },
+        { "id": "w16-yavas-konusur-musunuz", "tr": "Yavaş konuşur musunuz?", "de": "Würden Sie langsamer sprechen?", "typ": "chunk", "beispiel": { "tr": "Biraz daha yavaş konuşur musunuz?", "de": "Würden Sie etwas langsamer sprechen?" } },
+        { "id": "w16-bakar-misiniz", "tr": "Bakar mısınız?", "de": "Entschuldigung! / Würden Sie mal schauen?", "typ": "chunk", "beispiel": { "tr": "Bakar mısınız? Hesabı alabilir miyiz?", "de": "Entschuldigung! Können wir zahlen?" } },
+        { "id": "w16-kapatir-misiniz", "tr": "… kapatır mısınız?", "de": "Würden Sie … schließen?", "typ": "chunk", "beispiel": { "tr": "Pencereyi kapatır mısınız? Bebek üşüyor.", "de": "Würden Sie das Fenster schließen? Dem Baby ist kalt." } },
+        { "id": "w16-getirir-misiniz", "tr": "… getirir misiniz?", "de": "Würden Sie … bringen?", "typ": "chunk", "beispiel": { "tr": "Bir çocuk sandalyesi getirir misiniz?", "de": "Würden Sie einen Kinderstuhl bringen?" } }
+      ],
+      "grammatik": {
+        "titel": "Höfliche Bitte = Aorist-Frage",
+        "erklaerung": [
+          "Die höflichste Alltagsbitte ist eine Aorist-Frage: Kapıyı açar mısınız? (Würden Sie die Tür öffnen?)",
+          "Mit sen geht's auch, etwas lockerer: Kapıyı açar mısın?",
+          "„Bakar mısınız?“ ruft im Restaurant oder Laden höflich die Bedienung."
+        ],
+        "tabelle": {
+          "kopf": ["Verb", "sen", "siz"],
+          "zeilen": [
+            ["vermek", "verir misin?", "verir misiniz?"],
+            ["açmak", "açar mısın?", "açar mısınız?"],
+            ["beklemek", "bekler misin?", "bekler misiniz?"],
+            ["getirmek", "getirir misin?", "getirir misiniz?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bir bardak su verir misiniz?", "de": "Würden Sie mir ein Glas Wasser geben?" },
+          { "tr": "Bakar mısınız? Hesabı alabilir miyiz?", "de": "Entschuldigung! Können wir zahlen?" },
+          { "tr": "Kapıyı açar mısın, elim dolu.", "de": "Machst du mal die Tür auf, ich hab die Hände voll." }
+        ]
+      },
+      "dialog": {
+        "titel": "Im Café mit Inaya",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Bakar mısınız?", "de": "Entschuldigung!" },
+          { "sprecher": "Kellnerin", "tr": "Buyurun?", "de": "Ja, bitte?" },
+          { "sprecher": "Sherin", "tr": "Bir çocuk sandalyesi getirir misiniz?", "de": "Würden Sie einen Kinderstuhl bringen?" },
+          { "sprecher": "Kellnerin", "tr": "Tabii, hemen. Başka bir şey?", "de": "Natürlich, sofort. Sonst noch etwas?" },
+          { "sprecher": "Sherin", "tr": "Bir çay ve bir bardak ılık su verir misiniz? Bir de pencereyi kapatır mısınız? Bebek üşüyor.", "de": "Würden Sie mir einen Tee und ein Glas lauwarmes Wasser bringen? Und würden Sie das Fenster schließen? Dem Baby ist kalt." },
+          { "sprecher": "Kellnerin", "tr": "Elbette. Ne tatlı bir bebek!", "de": "Selbstverständlich. Was für ein süßes Baby!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w16-verir-misiniz", "w16-acar-misiniz", "w16-bekler-misiniz", "w16-getirir-misiniz"] },
+        { "art": "luecke", "satz": "Kapıyı aç___ mısınız?", "loesung": "ar", "optionen": ["ar", "ır", "ıyor"], "de": "Würden Sie die Tür öffnen?" },
+        { "art": "luecke", "satz": "Bir bardak su ver___ misiniz?", "loesung": "ir", "optionen": ["ir", "er", "iyor"], "de": "Würden Sie mir ein Glas Wasser geben?", "hinweis": "vermek ist eine Ausnahme" },
+        { "art": "hoeren", "vokabel": "w16-bakar-misiniz" },
+        { "art": "auswahl_de_tr", "vokabel": "w16-yavas-konusur-musunuz" },
+        { "art": "satzbau", "tr": "Pardon, tekrar eder misiniz?", "de": "Entschuldigung, würden Sie das wiederholen?" },
+        { "art": "auswahl_tr_de", "vokabel": "w16-kapatir-misiniz" },
+        { "art": "hoeren", "vokabel": "w16-tekrar-eder-misiniz" },
+        { "art": "satzbau", "tr": "Bir çocuk sandalyesi getirir misiniz?", "de": "Würden Sie einen Kinderstuhl bringen?" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Superhöflich-Tag: Formuliere heute jede Bitte an Pasha als Aorist-Frage (… -ir misin?). Und übt zusammen die drei wichtigsten siz-Bitten für Arzt, Café und Amt.",
+        "mustersaetze": [
+          { "tr": "Bulaşıkları yıkar mısın?", "de": "Würdest du abwaschen?" },
+          { "tr": "Yavaş konuşur musunuz?", "de": "Würden Sie langsamer sprechen?" },
+          { "tr": "Bakar mısınız?", "de": "Entschuldigung! (Bedienung rufen)" }
+        ]
+      },
+      "alltagssatz": { "tr": "Bakar mısınız?", "de": "Entschuldigung! (Bedienung rufen)", "wann": "Beim nächsten Café- oder Restaurantbesuch – statt Handzeichen." },
+      "merktipp": { "titel": "Aus Woche 0 wird Profi-Türkisch", "text": "Erinnerst du dich an „Tekrar eder misin?“ aus Woche 0? Das war schon Aorist! Jetzt kannst du die Form mit jedem Verb bauen – und mit -iniz siezen." }
+    },
+    {
+      "woche": 16,
+      "tag": 5,
+      "titel": "Mach ich! – Aorist für Angebote",
+      "kannZiel": "Hilfe anbieten, Vermutungen äußern, Angebote machen",
+      "vokabeln": [
+        { "id": "w16-ben-yaparim", "tr": "Ben yaparım!", "de": "Mach ich!", "typ": "chunk", "beispiel": { "tr": "Bulaşık mı? Ben yaparım!", "de": "Abwasch? Mach ich!" } },
+        { "id": "w16-ben-hallederim", "tr": "Ben hallederim.", "de": "Ich kümmere mich darum.", "typ": "chunk", "beispiel": { "tr": "Merak etme, ben hallederim.", "de": "Keine Sorge, ich kümmere mich drum." } },
+        { "id": "w16-cay-icer-misin", "tr": "Çay içer misin?", "de": "Möchtest du Tee?", "typ": "chunk", "beispiel": { "tr": "Çay içer misin? Yeni demledim.", "de": "Möchtest du Tee? Ich hab gerade frischen gemacht." } },
+        { "id": "w16-sanirim", "tr": "sanırım", "de": "ich glaube / vermutlich", "typ": "wort", "beispiel": { "tr": "Sanırım yağmur yağacak.", "de": "Ich glaube, es wird regnen." } },
+        { "id": "w16-belki-gelirim", "tr": "Belki gelirim.", "de": "Vielleicht komme ich.", "typ": "chunk", "beispiel": { "tr": "Bilmiyorum, belki gelirim.", "de": "Weiß nicht, vielleicht komme ich." } },
+        { "id": "w16-gorursun", "tr": "Görürsün!", "de": "Wirst schon sehen!", "typ": "chunk", "beispiel": { "tr": "Mayısta akıcı konuşacağım, görürsün!", "de": "Im Mai spreche ich fließend, wirst schon sehen!" } },
+        { "id": "w16-kim-bilir", "tr": "Kim bilir?", "de": "Wer weiß?", "typ": "chunk", "beispiel": { "tr": "Belki seneye İstanbul'dayız, kim bilir?", "de": "Vielleicht sind wir nächstes Jahr in Istanbul, wer weiß?" } },
+        { "id": "w16-hep", "tr": "hep", "de": "immer / ständig", "typ": "wort", "beispiel": { "tr": "Amani hep acıkır!", "de": "Amani hat ständig Hunger!" } }
+      ],
+      "grammatik": {
+        "titel": "Aorist = Angebot & Vermutung",
+        "erklaerung": [
+          "Der Aorist bietet an: Ben yaparım! (Mach ich!), Çay içer misin? (Möchtest du Tee?)",
+          "Er drückt auch Unsicheres aus: Belki gelirim. (Vielleicht komme ich.) – weicher als -acak.",
+          "Allgemeine Wahrheiten: Bebekler çok uyur. (Babys schlafen viel.)"
+        ],
+        "tabelle": {
+          "kopf": ["Absicht", "Beispiel"],
+          "zeilen": [
+            ["Angebot", "Ben getiririm."],
+            ["Einladung", "Bize gelir misin?"],
+            ["vielleicht", "Belki yarın ararım."],
+            ["allgemein", "Bebekler çok uyur."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bulaşık mı? Ben yaparım!", "de": "Abwasch? Mach ich!" },
+          { "tr": "Çay içer misin?", "de": "Möchtest du Tee?" },
+          { "tr": "Belki yarın ararım.", "de": "Vielleicht ruf ich morgen an." }
+        ]
+      },
+      "dialog": {
+        "titel": "Hilfe angeboten",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Yarın Pasha'nın annesi mi geliyor? Yardım eder miyim?", "de": "Kommt morgen Pashas Mama? Soll ich helfen?" },
+          { "sprecher": "Sherin", "tr": "Çok naziksin! Börek yapar mısın? Ben beceremiyorum.", "de": "Du bist so lieb! Würdest du Börek machen? Ich krieg's nicht hin." },
+          { "sprecher": "Elif", "tr": "Tabii, ben yaparım! Başka?", "de": "Klar, mach ich! Sonst noch was?" },
+          { "sprecher": "Sherin", "tr": "Sanırım her şey hazır. Çay içer misin?", "de": "Ich glaube, alles ist fertig. Möchtest du Tee?" },
+          { "sprecher": "Elif", "tr": "İçerim! Yarın sen de börek yapmayı öğrenirsin, görürsün.", "de": "Gern! Morgen lernst du auch Börek machen, wirst sehen." },
+          { "sprecher": "Sherin", "tr": "Kim bilir? Belki!", "de": "Wer weiß? Vielleicht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w16-ben-yaparim", "w16-ben-hallederim", "w16-kim-bilir", "w16-gorursun"] },
+        { "art": "hoeren", "vokabel": "w16-cay-icer-misin" },
+        { "art": "auswahl_de_tr", "vokabel": "w16-sanirim" },
+        { "art": "luecke", "satz": "Belki yarın ara___.", "loesung": "rım", "optionen": ["rım", "yacağım", "dım"], "de": "Vielleicht ruf ich morgen an." },
+        { "art": "satzbau", "tr": "Merak etme, ben hallederim.", "de": "Keine Sorge, ich kümmere mich drum." },
+        { "art": "auswahl_tr_de", "vokabel": "w16-hep" },
+        { "art": "hoeren", "vokabel": "w16-belki-gelirim" },
+        { "art": "luecke", "satz": "Bebekler çok uyu___.", "loesung": "r", "optionen": ["r", "ur", "yor"], "de": "Babys schlafen viel." },
+        { "art": "tippen", "vokabel": "w16-hep" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Biete Pasha heute auf Türkisch fünfmal Hilfe oder etwas zu essen/trinken an (Ben yaparım! Çay içer misin?) und mach zwei vorsichtige Vermutungen mit sanırım / belki.",
+        "mustersaetze": [
+          { "tr": "Çay içer misin?", "de": "Möchtest du Tee?" },
+          { "tr": "Ben hallederim.", "de": "Ich kümmere mich drum." },
+          { "tr": "Sanırım Inaya acıktı.", "de": "Ich glaube, Inaya hat Hunger." }
+        ]
+      },
+      "alltagssatz": { "tr": "Çay içer misin?", "de": "Möchtest du Tee?", "wann": "Heute bei jeder Teekanne – und davon gibt's bei euch sicher einige." },
+      "merktipp": { "titel": "Türkische Gastfreundschaft im Verb", "text": "Mit dem Aorist bietet man an: „Çay içer misin?“ – das klingt freundlicher als „Çay istiyor musun?“. Darum hörst du ihn bei Gästen ständig." }
+    },
+    {
+      "woche": 16,
+      "tag": 6,
+      "titel": "Festigungstag: Bei uns ist das so",
+      "kannZiel": "über Gewohnheiten und Bräuche sprechen",
+      "vokabeln": [
+        { "id": "w16-alistim", "tr": "Alıştım.", "de": "Ich hab mich daran gewöhnt.", "typ": "chunk", "beispiel": { "tr": "Erken kalkmaya alıştım.", "de": "Ich hab mich ans frühe Aufstehen gewöhnt." } },
+        { "id": "w16-aliskin-degilim", "tr": "Alışkın değilim.", "de": "Das bin ich nicht gewohnt.", "typ": "chunk", "beispiel": { "tr": "Bu kadar sıcağa alışkın değilim.", "de": "Solche Hitze bin ich nicht gewohnt." } },
+        { "id": "w16-her-zamanki-gibi", "tr": "her zamanki gibi", "de": "wie immer", "typ": "chunk", "beispiel": { "tr": "Pasha her zamanki gibi geç kaldı.", "de": "Pasha kam wie immer zu spät." } },
+        { "id": "w16-adet", "tr": "âdet", "de": "Brauch / Sitte", "typ": "wort", "beispiel": { "tr": "Bizde âdettir, misafire çay ikram edilir.", "de": "Bei uns ist es Brauch, Gästen Tee anzubieten." } },
+        { "id": "w16-gelenek", "tr": "gelenek", "de": "Tradition", "typ": "wort", "beispiel": { "tr": "Bayramda el öpmek bir gelenektir.", "de": "An Bayram die Hand zu küssen, ist Tradition." } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Aorist: iç-er, gel-ir, uyu-r. Verneint: içmem, içmez. Frage: içer misin?",
+          "Benutzt für Gewohnheiten, höfliche Bitten, Angebote und allgemeine Wahrheiten."
+        ],
+        "tabelle": {
+          "kopf": ["Verwendung", "Beispiel"],
+          "zeilen": [
+            ["Gewohnheit", "Her sabah çay içerim."],
+            ["nie", "Hiç kahve içmem."],
+            ["Bitte", "Kapıyı açar mısınız?"],
+            ["Angebot", "Ben yaparım!"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bizde misafire her zaman çay ikram edilir.", "de": "Bei uns bekommen Gäste immer Tee angeboten." },
+          { "tr": "Almanya'da insanlar erken yemek yer.", "de": "In Deutschland isst man früh zu Abend." },
+          { "tr": "Buna alışkın değilim ama alışırım.", "de": "Das bin ich nicht gewohnt, aber ich gewöhne mich dran." }
+        ]
+      },
+      "dialog": {
+        "titel": "Deutsch – Türkisch, was ist anders?",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Almanya'da akşam yemeği saat kaçta yenir?", "de": "Um wie viel Uhr isst man in Deutschland zu Abend?" },
+          { "sprecher": "Sherin", "tr": "Genelde altıda, yedide. Türkiye'de daha geç, değil mi?", "de": "Meistens um sechs, sieben. In der Türkei später, oder?" },
+          { "sprecher": "Pashas Mama", "tr": "Evet, biz sekizde, dokuzda yeriz. Ama misafir gelince her şey değişir!", "de": "Ja, wir essen um acht, neun. Aber wenn Besuch kommt, ändert sich alles!" },
+          { "sprecher": "Sherin", "tr": "Biliyorum, Pasha her zamanki gibi her misafire çay yapar.", "de": "Ich weiß, Pasha macht wie immer jedem Gast Tee." },
+          { "sprecher": "Pashas Mama", "tr": "Tabii! Bizde âdettir. Sen de alıştın mı?", "de": "Natürlich! Das ist bei uns Brauch. Hast du dich auch dran gewöhnt?" },
+          { "sprecher": "Sherin", "tr": "Alıştım! Artık ben de günde beş bardak çay içerim.", "de": "Total! Ich trinke jetzt auch fünf Gläser Tee am Tag." },
+          { "sprecher": "Pashas Mama", "tr": "Maşallah, tam bir Türk gelini oldun!", "de": "Maşallah, du bist eine richtige türkische Schwiegertochter geworden!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w16-alistim", "w16-aliskin-degilim", "w16-adet", "w16-gelenek"] },
+        { "art": "hoeren", "vokabel": "w16-her-zamanki-gibi" },
+        { "art": "luecke", "satz": "Biz sekizde ye___.", "loesung": "riz", "optionen": ["riz", "rim", "iyoruz"], "de": "Wir essen um acht." },
+        { "art": "satzbau", "tr": "Buna alışkın değilim ama alışırım.", "de": "Das bin ich nicht gewohnt, aber ich gewöhne mich dran." },
+        { "art": "auswahl_de_tr", "vokabel": "w16-her-zaman" },
+        { "art": "luecke", "satz": "Hiç kahve iç___.", "loesung": "mem", "optionen": ["mem", "mez", "erim"], "de": "Ich trinke nie Kaffee." },
+        { "art": "hoeren", "vokabel": "w16-verir-misiniz" },
+        { "art": "auswahl_tr_de", "vokabel": "w16-alistim" },
+        { "art": "tippen", "vokabel": "w16-adet" },
+        { "art": "satzbau", "tr": "Pasha her zamanki gibi geç kaldı.", "de": "Pasha kam wie immer zu spät." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Vergleicht deutsche und türkische Gewohnheiten (Essenszeiten, Gäste, Feiertage, Schuhe ausziehen …). Jeder nennt drei Dinge, die „bei uns“ so sind – im Aorist.",
+        "mustersaetze": [
+          { "tr": "Almanya'da insanlar erken yemek yer.", "de": "In Deutschland isst man früh." },
+          { "tr": "Türkiye'de misafire hep çay ikram edilir.", "de": "In der Türkei bekommen Gäste immer Tee." },
+          { "tr": "Buna alıştım.", "de": "Daran habe ich mich gewöhnt." }
+        ]
+      },
+      "alltagssatz": { "tr": "Buna alıştım!", "de": "Daran hab ich mich gewöhnt!", "wann": "Wenn Pasha dich heute fragt, wie es mit dem Türkisch-Alltag läuft." },
+      "merktipp": { "titel": "Gelin – die Schwiegertochter", "text": "gelin heißt Braut und Schwiegertochter. „Türk gelini“ ist ein liebevolles Kompliment von Pashas Familie – es heißt: Du gehörst dazu." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Beschreib deinen typischen Tag im Aorist mit Häufigkeitswörtern.", "hilfe": { "tr": "Genelde altıda kalkarım. Her sabah çay içerim. Bazen öğlen uyurum.", "de": "Meistens stehe ich um sechs auf. Jeden Morgen trinke ich Tee. Manchmal schlafe ich mittags." } },
+      { "situation": "Bitte (gespielt) im Café dreimal sehr höflich um etwas.", "hilfe": { "tr": "Bakar mısınız? Su verir misiniz? Pencereyi kapatır mısınız?", "de": "Entschuldigung! Würden Sie mir Wasser geben? Das Fenster schließen?" } },
+      { "situation": "Biete Pasha Hilfe und etwas zu trinken an.", "hilfe": { "tr": "Ben hallederim! Çay içer misin?", "de": "Ich kümmere mich drum! Möchtest du Tee?" } }
+    ]
+  }
+}
