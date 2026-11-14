@@ -1,0 +1,433 @@
+{
+  "woche": 20,
+  "lektionen": [
+    {
+      "woche": 20,
+      "tag": 1,
+      "titel": "Als ich klein war",
+      "kannZiel": "von deiner Kindheit erzählen",
+      "vokabeln": [
+        { "id": "w20-cocukken", "tr": "çocukken", "de": "als ich Kind war / als Kind", "typ": "wort", "beispiel": { "tr": "Çocukken çok yüzerdim.", "de": "Als Kind bin ich viel geschwommen." } },
+        { "id": "w20-kucukken", "tr": "küçükken", "de": "als ich klein war", "typ": "wort", "beispiel": { "tr": "Küçükken kuaför olmak istiyordum.", "de": "Als ich klein war, wollte ich Friseurin werden." } },
+        { "id": "w20-eskiden", "tr": "eskiden", "de": "früher", "typ": "wort", "beispiel": { "tr": "Eskiden hiç Türkçe bilmiyordum.", "de": "Früher konnte ich gar kein Türkisch." } },
+        { "id": "w20-o-zamanlar", "tr": "o zamanlar", "de": "damals", "typ": "chunk", "beispiel": { "tr": "O zamanlar Inaya yoktu.", "de": "Damals gab es Inaya noch nicht." } },
+        { "id": "w20-dogdum", "tr": "… doğdum.", "de": "Ich wurde in … geboren.", "typ": "chunk", "beispiel": { "tr": "Ben Almanya'da doğdum.", "de": "Ich wurde in Deutschland geboren." } },
+        { "id": "w20-buyudum", "tr": "… büyüdüm.", "de": "Ich bin in … aufgewachsen.", "typ": "chunk", "beispiel": { "tr": "Küçük bir şehirde büyüdüm.", "de": "Ich bin in einer kleinen Stadt aufgewachsen." } },
+        { "id": "w20-ani", "tr": "anı", "de": "Erinnerung", "typ": "wort", "beispiel": { "tr": "Çocukluğumdan güzel anılarım var.", "de": "Ich habe schöne Erinnerungen an meine Kindheit." } },
+        { "id": "w20-hatirlamak", "tr": "hatırlamak", "de": "sich erinnern", "typ": "wort", "beispiel": { "tr": "Bunu hâlâ hatırlıyorum.", "de": "Daran erinnere ich mich noch." } },
+        { "id": "w20-en-guzel-anim", "tr": "en güzel anım", "de": "meine schönste Erinnerung", "typ": "chunk", "beispiel": { "tr": "En güzel anım Inaya'nın doğduğu gün.", "de": "Meine schönste Erinnerung ist der Tag, an dem Inaya geboren wurde." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Vergangenheit erzählen",
+        "erklaerung": [
+          "Für einzelne Ereignisse: -dı (doğdum, büyüdüm, gittim).",
+          "„war“ an Orten/Adjektiven: küçüktüm, Almanya'daydım.",
+          "Neu als Chunk: -(ı)yordum = „ich war gerade / ich pflegte zu“: istiyordum (ich wollte), bilmiyordum (ich wusste nicht).",
+          "çocukken / küçükken (als ich Kind / klein war) öffnen jede Kindheitsgeschichte."
+        ],
+        "tabelle": {
+          "kopf": ["Form", "Beispiel"],
+          "zeilen": [
+            ["Ereignis", "Almanya'da doğdum."],
+            ["Zustand", "Çok utangaçtım."],
+            ["damals öfter", "Her yaz denize gidiyorduk."],
+            ["Wunsch damals", "Kuaför olmak istiyordum."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Ben Almanya'da doğdum ve büyüdüm.", "de": "Ich bin in Deutschland geboren und aufgewachsen." },
+          { "tr": "Küçükken kuaför olmak istiyordum.", "de": "Als ich klein war, wollte ich Friseurin werden." },
+          { "tr": "Eskiden hiç Türkçe bilmiyordum.", "de": "Früher konnte ich gar kein Türkisch." }
+        ]
+      },
+      "dialog": {
+        "titel": "Kindheitsfotos",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bu fotoğrafta kaç yaşındaydın?", "de": "Wie alt warst du auf diesem Foto?" },
+          { "sprecher": "Sherin", "tr": "Galiba beş. Çok utangaçtım o zamanlar.", "de": "Ich glaube fünf. Damals war ich sehr schüchtern." },
+          { "sprecher": "Pasha", "tr": "Çocukken ne olmak istiyordun?", "de": "Was wolltest du als Kind werden?" },
+          { "sprecher": "Sherin", "tr": "Hep bebeklerimin saçlarını kesiyordum!", "de": "Ich habe ständig meinen Puppen die Haare geschnitten!" },
+          { "sprecher": "Pasha", "tr": "Yani küçükken bile kuaförmüşsün!", "de": "Du warst also schon als Kind Friseurin!" },
+          { "sprecher": "Sherin", "tr": "Aynen! En güzel anılarımdan biri.", "de": "Genau! Eine meiner schönsten Erinnerungen." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w20-cocukken", "w20-eskiden", "w20-o-zamanlar", "w20-ani"] },
+        { "art": "hoeren", "vokabel": "w20-dogdum" },
+        { "art": "auswahl_de_tr", "vokabel": "w20-buyudum" },
+        { "art": "luecke", "satz": "Küçükken kuaför olmak isti___.", "loesung": "yordum", "optionen": ["yordum", "yorum", "yeceğim"], "de": "Als ich klein war, wollte ich Friseurin werden." },
+        { "art": "satzbau", "tr": "Ben Almanya'da doğdum ve büyüdüm.", "de": "Ich bin in Deutschland geboren und aufgewachsen." },
+        { "art": "auswahl_tr_de", "vokabel": "w20-hatirlamak" },
+        { "art": "luecke", "satz": "O zamanlar çok utangaç___.", "loesung": "tım", "optionen": ["tım", "dım", "ım"], "de": "Damals war ich sehr schüchtern." },
+        { "art": "hoeren", "vokabel": "w20-en-guzel-anim" },
+        { "art": "auswahl_de_tr", "vokabel": "w08-ilk-defa" },
+        { "art": "tippen", "vokabel": "w20-eskiden" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Schau mit Pasha alte Fotos von dir an und erzähl zu drei Fotos auf Türkisch: wie alt du warst, wo du warst, was du damals gern gemacht hast.",
+        "mustersaetze": [
+          { "tr": "Bu fotoğrafta … yaşındaydım.", "de": "Auf diesem Foto war ich … Jahre alt." },
+          { "tr": "Çocukken … çok seviyordum.", "de": "Als Kind habe ich … sehr geliebt." },
+          { "tr": "Bunu hâlâ hatırlıyorum.", "de": "Daran erinnere ich mich noch." }
+        ]
+      },
+      "alltagssatz": { "tr": "Çocukken ne olmak istiyordun?", "de": "Was wolltest du als Kind werden?", "wann": "Heute Abend zu Pasha – und hör gut zu." },
+      "merktipp": { "titel": "Dein Lebens-Monolog", "text": "Diese Woche baust du Stück für Stück deinen „Mein Leben“-Monolog: Kindheit → Ausbildung → Pasha → heute → Zukunft. Am Samstag erzählst du alles am Stück – 2 Minuten." }
+    },
+    {
+      "woche": 20,
+      "tag": 2,
+      "titel": "Ausbildung & Beruf",
+      "kannZiel": "von deiner Ausbildung und Arbeit erzählen",
+      "vokabeln": [
+        { "id": "w20-egitim", "tr": "eğitim", "de": "Ausbildung / Bildung", "typ": "wort", "beispiel": { "tr": "Kuaförlük eğitimi aldım.", "de": "Ich habe eine Friseurausbildung gemacht." } },
+        { "id": "w20-meslek", "tr": "meslek", "de": "Beruf", "typ": "wort", "beispiel": { "tr": "Mesleğini seviyor musun?", "de": "Liebst du deinen Beruf?" } },
+        { "id": "w20-is-yeri", "tr": "iş yeri", "de": "Arbeitsplatz", "typ": "chunk", "beispiel": { "tr": "Elif'in iş yeri evden uzak.", "de": "Elifs Arbeitsplatz ist weit von zu Hause." } },
+        { "id": "w20-musteri", "tr": "müşteri", "de": "Kunde / Kundin", "typ": "wort", "beispiel": { "tr": "Müşterilerimle çok iyi anlaşıyordum.", "de": "Ich habe mich sehr gut mit meinen Kundinnen verstanden." } },
+        { "id": "w20-deneyim", "tr": "deneyim", "de": "Erfahrung", "typ": "wort", "beispiel": { "tr": "Saç boyamada çok deneyimim var.", "de": "Im Haarefärben habe ich viel Erfahrung." } },
+        { "id": "w20-kuafor-salonu", "tr": "kuaför salonu", "de": "Friseursalon", "typ": "chunk", "beispiel": { "tr": "Bir kuaför salonunda çalıştım.", "de": "Ich habe in einem Friseursalon gearbeitet." } },
+        { "id": "w20-annelik-izni", "tr": "annelik izni", "de": "Elternzeit (Mutter)", "typ": "chunk", "beispiel": { "tr": "Şu an annelik iznindeyim.", "de": "Zurzeit bin ich in Elternzeit." } },
+        { "id": "w20-cirak", "tr": "çırak", "de": "Auszubildende(r)", "typ": "wort", "beispiel": { "tr": "Çırakken çok şey öğrendim.", "de": "Als Azubi habe ich viel gelernt." } },
+        { "id": "w20-usta", "tr": "usta", "de": "Meister(in) / Profi", "typ": "wort", "beispiel": { "tr": "Ustam bana her şeyi öğretti.", "de": "Meine Meisterin hat mir alles beigebracht." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Lebenslauf-Sätze",
+        "erklaerung": [
+          "Erst: -dı (… eğitim aldım, … çalıştım). Jetzt: -yor / -dır (… annelik iznindeyim).",
+          "Dauer: … yıl çalıştım (ich habe … Jahre gearbeitet).",
+          "-ken an Nomen: çırakken (als ich Azubi war), öğrenciyken (als ich Schülerin war)."
+        ],
+        "tabelle": {
+          "kopf": ["Station", "Satz"],
+          "zeilen": [
+            ["Ausbildung", "Kuaförlük eğitimi aldım."],
+            ["Arbeit", "… yıl bir kuaför salonunda çalıştım."],
+            ["jetzt", "Şu an annelik iznindeyim."],
+            ["Gefühl", "Mesleğimi çok seviyorum."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kuaförlük eğitimi aldım.", "de": "Ich habe eine Friseurausbildung gemacht." },
+          { "tr": "Çırakken çok şey öğrendim.", "de": "Als Azubi habe ich viel gelernt." },
+          { "tr": "Şu an annelik iznindeyim.", "de": "Zurzeit bin ich in Elternzeit." }
+        ]
+      },
+      "dialog": {
+        "titel": "Small Talk mit einer Bekannten",
+        "zeilen": [
+          { "sprecher": "Bekannte", "tr": "Mesleğin ne?", "de": "Was machst du beruflich?" },
+          { "sprecher": "Sherin", "tr": "Kuaförüm. Kuaförlük eğitimi aldım.", "de": "Ich bin Friseurin. Ich habe eine Friseurausbildung gemacht." },
+          { "sprecher": "Bekannte", "tr": "Harika! Şu an çalışıyor musun?", "de": "Toll! Arbeitest du gerade?" },
+          { "sprecher": "Sherin", "tr": "Şu an annelik iznindeyim. Kızım bir yaşında.", "de": "Gerade bin ich in Elternzeit. Meine Tochter ist eins." },
+          { "sprecher": "Bekannte", "tr": "Mesleğini özlüyor musun?", "de": "Vermisst du deinen Beruf?" },
+          { "sprecher": "Sherin", "tr": "Bazen. Müşterilerimi özlüyorum. Ama şimdi evde de kuaförlük yapıyorum!", "de": "Manchmal. Ich vermisse meine Kundinnen. Aber jetzt bin ich eben zu Hause Friseurin!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w20-egitim", "w20-meslek", "w20-musteri", "w20-deneyim"] },
+        { "art": "hoeren", "vokabel": "w20-annelik-izni" },
+        { "art": "auswahl_de_tr", "vokabel": "w20-kuafor-salonu" },
+        { "art": "luecke", "satz": "Şu an annelik izni___.", "loesung": "ndeyim", "optionen": ["ndeyim", "deyim", "ndeydim"], "de": "Zurzeit bin ich in Elternzeit." },
+        { "art": "satzbau", "tr": "Kuaförlük eğitimi aldım.", "de": "Ich habe eine Friseurausbildung gemacht." },
+        { "art": "auswahl_tr_de", "vokabel": "w20-usta" },
+        { "art": "hoeren", "vokabel": "w20-cirak" },
+        { "art": "luecke", "satz": "Bir kuaför salonunda çalış___.", "loesung": "tım", "optionen": ["tım", "dım", "ıyorum"], "de": "Ich habe in einem Friseursalon gearbeitet." },
+        { "art": "tippen", "vokabel": "w20-meslek" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha deinen beruflichen Weg auf Türkisch – mit echten Details (wo, wie lange, was dir am meisten Spaß gemacht hat). Er fragt nach, wie in einem Bewerbungsgespräch.",
+        "mustersaetze": [
+          { "tr": "… yılında kuaförlük eğitimine başladım.", "de": "Im Jahr … habe ich die Friseurausbildung angefangen." },
+          { "tr": "… yıl … salonunda çalıştım.", "de": "Ich habe … Jahre im Salon … gearbeitet." },
+          { "tr": "En çok renklendirmeyi seviyorum.", "de": "Am liebsten mache ich Farbe." }
+        ]
+      },
+      "alltagssatz": { "tr": "Kuaförüm, şu an annelik iznindeyim.", "de": "Ich bin Friseurin, zurzeit in Elternzeit.", "wann": "Wenn dich jemand Türkischsprachiges nach deinem Beruf fragt." },
+      "merktipp": { "titel": "-lık = -schaft/-tum", "text": "kuaför (Friseur) → kuaförlük (das Friseurhandwerk), anne (Mutter) → annelik (Mutterschaft). Mit -lık/-lik machst du aus Personen Tätigkeiten." }
+    },
+    {
+      "woche": 20,
+      "tag": 3,
+      "titel": "Pasha & ich",
+      "kannZiel": "erzählen, wie ihr euch kennengelernt habt",
+      "vokabeln": [
+        { "id": "w20-tanismak", "tr": "tanışmak", "de": "sich kennenlernen", "typ": "wort", "beispiel": { "tr": "Nerede tanıştınız?", "de": "Wo habt ihr euch kennengelernt?" } },
+        { "id": "w20-asik-olmak", "tr": "âşık olmak", "de": "sich verlieben", "typ": "chunk", "beispiel": { "tr": "Ona hemen âşık oldum.", "de": "Ich habe mich sofort in ihn verliebt." } },
+        { "id": "w20-evlenmek", "tr": "evlenmek", "de": "heiraten", "typ": "wort", "beispiel": { "tr": "Ne zaman evlendiniz?", "de": "Wann habt ihr geheiratet?" } },
+        { "id": "w20-dugun", "tr": "düğün", "de": "Hochzeit (Feier)", "typ": "wort", "beispiel": { "tr": "Elif'in düğünü çok eğlenceliydi.", "de": "Elifs Hochzeit war sehr lustig." } },
+        { "id": "w20-nisan", "tr": "nişan", "de": "Verlobung", "typ": "wort", "beispiel": { "tr": "Türklerde nişan da büyük bir kutlamadır.", "de": "Bei Türken ist auch die Verlobung ein großes Fest." } },
+        { "id": "w20-ilk-goruste", "tr": "ilk görüşte", "de": "auf den ersten Blick", "typ": "chunk", "beispiel": { "tr": "İlk görüşte aşk mıydı?", "de": "War es Liebe auf den ersten Blick?" } },
+        { "id": "w20-sevgili", "tr": "sevgili", "de": "Freund(in) / Partner(in)", "typ": "wort", "beispiel": { "tr": "Önce sevgiliydik, sonra evlendik.", "de": "Erst waren wir zusammen, dann haben wir geheiratet." } },
+        { "id": "w20-yil-donumu", "tr": "yıl dönümü", "de": "Jahrestag", "typ": "chunk", "beispiel": { "tr": "Yıl dönümümüzü kutlayalım!", "de": "Lass uns unseren Jahrestag feiern!" } },
+        { "id": "w20-hamile", "tr": "hamile", "de": "schwanger", "typ": "wort", "beispiel": { "tr": "Hamileyken çok çikolata yedim!", "de": "In der Schwangerschaft habe ich viel Schokolade gegessen!" } }
+      ],
+      "grammatik": {
+        "titel": "-ken: als / während (Vorgeschmack)",
+        "erklaerung": [
+          "-ken an Nomen/Adjektiven heißt „als … war“: hamileyken (als ich schwanger war), çocukken.",
+          "Nach Vokal mit y: hamile → hamileyken, öğrenci → öğrenciyken.",
+          "Zusammen mit -dı erzählst du ganze Lebensphasen: Hamileyken çok yoruldum."
+        ],
+        "tabelle": {
+          "kopf": ["Wort", "als …"],
+          "zeilen": [
+            ["çocuk", "çocukken"],
+            ["küçük", "küçükken"],
+            ["hamile", "hamileyken"],
+            ["öğrenci", "öğrenciyken"],
+            ["çırak", "çırakken"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Nerede tanıştınız?", "de": "Wo habt ihr euch kennengelernt?" },
+          { "tr": "Önce sevgiliydik, sonra evlendik.", "de": "Erst waren wir zusammen, dann haben wir geheiratet." },
+          { "tr": "Hamileyken çok çikolata yedim!", "de": "In der Schwangerschaft habe ich viel Schokolade gegessen!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Elif ist neugierig",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Pasha'yla nerede tanıştınız?", "de": "Wo hast du Pasha kennengelernt?" },
+          { "sprecher": "Sherin", "tr": "Uzun hikâye! Ama çok romantikti.", "de": "Lange Geschichte! Aber sehr romantisch." },
+          { "sprecher": "Elif", "tr": "İlk görüşte aşk mıydı?", "de": "War es Liebe auf den ersten Blick?" },
+          { "sprecher": "Sherin", "tr": "Bence evet! Pasha'ya sor, o başka anlatıyor.", "de": "Ich finde schon! Frag Pasha, der erzählt es anders." },
+          { "sprecher": "Elif", "tr": "Ne zaman evlendiniz?", "de": "Wann habt ihr geheiratet?" },
+          { "sprecher": "Sherin", "tr": "… yılında. Düğün fotoğraflarımızı göstereyim mi?", "de": "Im Jahr … Soll ich dir unsere Hochzeitsfotos zeigen?" },
+          { "sprecher": "Elif", "tr": "Tabii! Çok merak ediyorum.", "de": "Klar! Ich bin so gespannt." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w20-tanismak", "w20-asik-olmak", "w20-evlenmek", "w20-dugun"] },
+        { "art": "hoeren", "vokabel": "w20-ilk-goruste" },
+        { "art": "auswahl_de_tr", "vokabel": "w20-yil-donumu" },
+        { "art": "luecke", "satz": "Hamile___ çok çikolata yedim!", "loesung": "yken", "optionen": ["yken", "ken", "yde"], "de": "In der Schwangerschaft habe ich viel Schokolade gegessen!" },
+        { "art": "satzbau", "tr": "Önce sevgiliydik, sonra evlendik.", "de": "Erst waren wir zusammen, dann haben wir geheiratet." },
+        { "art": "auswahl_tr_de", "vokabel": "w20-nisan" },
+        { "art": "hoeren", "vokabel": "w20-sevgili" },
+        { "art": "luecke", "satz": "Nerede tanış___?", "loesung": "tınız", "optionen": ["tınız", "tık", "tın"], "de": "Wo habt ihr euch kennengelernt?" },
+        { "art": "tippen", "vokabel": "w20-dugun" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzählt eure Kennenlern-Geschichte gemeinsam auf Türkisch – abwechselnd, jeder einen Satz. Wo, wann, wie, wer hat zuerst …? (Und wer erzählt es „richtig“?)",
+        "mustersaetze": [
+          { "tr": "… yılında … tanıştık.", "de": "Im Jahr … haben wir uns in … kennengelernt." },
+          { "tr": "İlk görüşte … ", "de": "Auf den ersten Blick …" },
+          { "tr": "… yılında evlendik.", "de": "Im Jahr … haben wir geheiratet." }
+        ]
+      },
+      "alltagssatz": { "tr": "Yıl dönümümüzü kutlayalım!", "de": "Lass uns unseren Jahrestag feiern!", "wann": "Am nächsten Jahrestag – oder einfach so, für einen gemütlichen Abend." },
+      "merktipp": { "titel": "Deine Geschichte", "text": "Die Lücken (…) in den Mustersätzen sind Absicht: Das ist eure Geschichte. Füll sie mit Pasha zusammen – so wird der Monolog am Samstag ganz deiner." }
+    },
+    {
+      "woche": 20,
+      "tag": 4,
+      "titel": "Mein Leben heute",
+      "kannZiel": "dein aktuelles Leben beschreiben",
+      "vokabeln": [
+        { "id": "w20-hayat", "tr": "hayat", "de": "Leben", "typ": "wort", "beispiel": { "tr": "Hayatım çok değişti.", "de": "Mein Leben hat sich sehr verändert." } },
+        { "id": "w20-su-siralar", "tr": "şu sıralar", "de": "zurzeit", "typ": "chunk", "beispiel": { "tr": "Şu sıralar çok yoğunum.", "de": "Zurzeit habe ich sehr viel zu tun." } },
+        { "id": "w20-anne-olmak", "tr": "anne olmak", "de": "Mutter sein / werden", "typ": "chunk", "beispiel": { "tr": "Anne olmak her şeyi değiştirdi.", "de": "Mutter zu werden hat alles verändert." } },
+        { "id": "w20-zaman-bulmak", "tr": "zaman bulmak", "de": "Zeit finden", "typ": "chunk", "beispiel": { "tr": "Kendime zaman bulmak zor.", "de": "Zeit für mich zu finden ist schwer." } },
+        { "id": "w20-denge", "tr": "denge", "de": "Gleichgewicht / Balance", "typ": "wort", "beispiel": { "tr": "İş ve aile arasında denge önemli.", "de": "Die Balance zwischen Arbeit und Familie ist wichtig." } },
+        { "id": "w20-yardimlasmak", "tr": "yardımlaşmak", "de": "sich gegenseitig helfen", "typ": "wort", "beispiel": { "tr": "Pasha'yla her şeyde yardımlaşıyoruz.", "de": "Pasha und ich helfen uns bei allem." } },
+        { "id": "w20-huzur", "tr": "huzur", "de": "innere Ruhe / Frieden", "typ": "wort", "beispiel": { "tr": "Akşam çayı bana huzur veriyor.", "de": "Der Abendtee gibt mir innere Ruhe." } },
+        { "id": "w20-zor-ama-guzel", "tr": "zor ama güzel", "de": "schwer, aber schön", "typ": "chunk", "beispiel": { "tr": "Annelik zor ama çok güzel.", "de": "Mutter sein ist schwer, aber wunderschön." } },
+        { "id": "w20-degismek", "tr": "değişmek", "de": "sich verändern", "typ": "wort", "beispiel": { "tr": "Inaya her gün değişiyor.", "de": "Inaya verändert sich jeden Tag." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Gegenwart & Gewohnheit",
+        "erklaerung": [
+          "Was gerade so ist: -yor (Şu sıralar evde çalışıyorum).",
+          "Was immer so ist: Aorist (Her sabah çay içerim).",
+          "Infinitiv als Subjekt: Anne olmak her şeyi değiştirdi. (Mutter werden hat alles verändert.)"
+        ],
+        "beispiele": [
+          { "tr": "Şu sıralar çok yoğunum ama mutluyum.", "de": "Zurzeit habe ich viel zu tun, aber ich bin glücklich." },
+          { "tr": "Anne olmak her şeyi değiştirdi.", "de": "Mutter zu werden hat alles verändert." },
+          { "tr": "Pasha'yla her şeyde yardımlaşıyoruz.", "de": "Pasha und ich helfen uns bei allem." }
+        ]
+      },
+      "dialog": {
+        "titel": "Wie ist das Leben jetzt?",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Anne olunca hayatın nasıl değişti?", "de": "Wie hat sich dein Leben verändert, seit du Mutter bist?" },
+          { "sprecher": "Sherin", "tr": "Her şey değişti! Daha az uyuyorum, daha çok gülüyorum.", "de": "Alles! Ich schlafe weniger und lache mehr." },
+          { "sprecher": "Elif", "tr": "Kendine zaman bulabiliyor musun?", "de": "Findest du Zeit für dich?" },
+          { "sprecher": "Sherin", "tr": "Az. Ama Pasha'yla yardımlaşıyoruz. Akşamları Türkçe çalışıyorum.", "de": "Wenig. Aber Pasha und ich helfen uns. Abends lerne ich Türkisch." },
+          { "sprecher": "Elif", "tr": "Peki mutlu musun?", "de": "Und bist du glücklich?" },
+          { "sprecher": "Sherin", "tr": "Çok! Zor ama güzel. Şu sıralar hayatımın en güzel dönemi.", "de": "Sehr! Schwer, aber schön. Zurzeit ist die schönste Zeit meines Lebens." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w20-hayat", "w20-denge", "w20-huzur", "w20-degismek"] },
+        { "art": "hoeren", "vokabel": "w20-zor-ama-guzel" },
+        { "art": "auswahl_de_tr", "vokabel": "w20-su-siralar" },
+        { "art": "luecke", "satz": "Pasha'yla her şeyde yardımlaş___.", "loesung": "ıyoruz", "optionen": ["ıyoruz", "tık", "acağız"], "de": "Pasha und ich helfen uns bei allem." },
+        { "art": "satzbau", "tr": "Anne olmak her şeyi değiştirdi.", "de": "Mutter zu werden hat alles verändert." },
+        { "art": "auswahl_tr_de", "vokabel": "w20-zaman-bulmak" },
+        { "art": "hoeren", "vokabel": "w20-anne-olmak" },
+        { "art": "satzbau", "tr": "Annelik zor ama çok güzel.", "de": "Mutter sein ist schwer, aber wunderschön." },
+        { "art": "tippen", "vokabel": "w20-hayat" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Beschreib Pasha dein Leben heute auf Türkisch: ein normaler Tag, was dir Kraft gibt, was schwer ist, wofür du dankbar bist. Mindestens sechs Sätze.",
+        "mustersaetze": [
+          { "tr": "Şu sıralar evde Inaya'yla vakit geçiriyorum.", "de": "Zurzeit verbringe ich die Zeit zu Hause mit Inaya." },
+          { "tr": "Zor ama güzel.", "de": "Schwer, aber schön." },
+          { "tr": "Akşam çayı bana huzur veriyor.", "de": "Der Abendtee gibt mir Ruhe." }
+        ]
+      },
+      "alltagssatz": { "tr": "Zor ama güzel.", "de": "Schwer, aber schön.", "wann": "Wenn dich jemand fragt, wie das Mama-Leben ist." },
+      "merktipp": { "titel": "-ınca = seit/als", "text": "„Anne olunca“ (als/seit ich Mutter wurde) – ein kleiner Vorgeschmack auf Woche 23. Lern es hier einfach als Block." }
+    },
+    {
+      "woche": 20,
+      "tag": 5,
+      "titel": "Zukunft & Träume",
+      "kannZiel": "über Ziele und Träume für die Zukunft sprechen",
+      "vokabeln": [
+        { "id": "w20-ileride", "tr": "ileride", "de": "später / in Zukunft", "typ": "wort", "beispiel": { "tr": "İleride tekrar çalışmak istiyorum.", "de": "Später möchte ich wieder arbeiten." } },
+        { "id": "w20-gelecekte", "tr": "gelecekte", "de": "in der Zukunft", "typ": "wort", "beispiel": { "tr": "Gelecekte Inaya üç dil konuşacak, belki!", "de": "In Zukunft spricht Inaya vielleicht drei Sprachen!" } },
+        { "id": "w20-kendi-salonum", "tr": "kendi salonum", "de": "mein eigener Salon", "typ": "chunk", "beispiel": { "tr": "Bir gün kendi salonumu açmak istiyorum.", "de": "Eines Tages möchte ich meinen eigenen Salon eröffnen." } },
+        { "id": "w20-acmak", "tr": "açmak", "de": "öffnen / eröffnen", "typ": "wort", "beispiel": { "tr": "Salonu nerede açacaksın?", "de": "Wo wirst du den Salon eröffnen?" } },
+        { "id": "w20-umarim", "tr": "umarım", "de": "ich hoffe", "typ": "wort", "beispiel": { "tr": "Umarım mayısta akıcı konuşurum.", "de": "Ich hoffe, im Mai spreche ich fließend." } },
+        { "id": "w20-bes-yil-sonra", "tr": "beş yıl sonra", "de": "in fünf Jahren", "typ": "chunk", "beispiel": { "tr": "Beş yıl sonra nerede olacağız?", "de": "Wo werden wir in fünf Jahren sein?" } },
+        { "id": "w20-akici", "tr": "akıcı", "de": "fließend", "typ": "wort", "beispiel": { "tr": "Akıcı Türkçe konuşmak istiyorum.", "de": "Ich möchte fließend Türkisch sprechen." } },
+        { "id": "w20-hedef", "tr": "hedef", "de": "Ziel", "typ": "wort", "beispiel": { "tr": "Hedefim mayısta Pasha'nın ailesiyle rahatça konuşmak.", "de": "Mein Ziel ist, im Mai entspannt mit Pashas Familie zu reden." } },
+        { "id": "w20-basarmak", "tr": "başarmak", "de": "schaffen / erreichen", "typ": "wort", "beispiel": { "tr": "Bunu başaracağım!", "de": "Das werde ich schaffen!" } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Zukunft & Wünsche",
+        "erklaerung": [
+          "Feste Pläne: -acak (açacağım). Wünsche: -mak istiyorum. Hoffnungen: umarım + Satz.",
+          "Unsichere Zukunft gern mit Aorist: Belki bir gün salon açarım.",
+          "Ziel als Satz: Hedefim … -mak. (Mein Ziel ist, … zu …)"
+        ],
+        "tabelle": {
+          "kopf": ["Sicherheit", "Beispiel"],
+          "zeilen": [
+            ["sicher", "Mayısta Türkçe konuşacağım."],
+            ["Wunsch", "Kendi salonumu açmak istiyorum."],
+            ["Hoffnung", "Umarım başarırım."],
+            ["vielleicht", "Belki bir gün İstanbul'da yaşarız."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bir gün kendi salonumu açmak istiyorum.", "de": "Eines Tages möchte ich meinen eigenen Salon eröffnen." },
+          { "tr": "Umarım mayısta akıcı konuşurum.", "de": "Ich hoffe, im Mai spreche ich fließend." },
+          { "tr": "Bunu başaracağım!", "de": "Das werde ich schaffen!" }
+        ]
+      },
+      "dialog": {
+        "titel": "In fünf Jahren …",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Beş yıl sonra nerede olacağız sence?", "de": "Wo werden wir deiner Meinung nach in fünf Jahren sein?" },
+          { "sprecher": "Sherin", "tr": "Inaya okula gidecek! İnanabiliyor musun?", "de": "Inaya geht dann zur Schule! Kannst du dir das vorstellen?" },
+          { "sprecher": "Pasha", "tr": "Ya sen? Tekrar çalışacak mısın?", "de": "Und du? Wirst du wieder arbeiten?" },
+          { "sprecher": "Sherin", "tr": "Umarım! Belki kendi salonumu açarım.", "de": "Hoffentlich! Vielleicht eröffne ich meinen eigenen Salon." },
+          { "sprecher": "Pasha", "tr": "Türkçe müşterilerle de konuşabilirsin.", "de": "Dann kannst du auch mit türkischen Kundinnen sprechen." },
+          { "sprecher": "Sherin", "tr": "Aynen! Hedefim bu. Ve başaracağım!", "de": "Genau! Das ist mein Ziel. Und ich werde es schaffen!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w20-ileride", "w20-gelecekte", "w20-hedef", "w20-akici"] },
+        { "art": "hoeren", "vokabel": "w20-kendi-salonum" },
+        { "art": "auswahl_de_tr", "vokabel": "w20-umarim" },
+        { "art": "luecke", "satz": "Bunu başar___!", "loesung": "acağım", "optionen": ["acağım", "dım", "ıyorum"], "de": "Das werde ich schaffen!" },
+        { "art": "satzbau", "tr": "Bir gün kendi salonumu açmak istiyorum.", "de": "Eines Tages möchte ich meinen eigenen Salon eröffnen." },
+        { "art": "auswahl_tr_de", "vokabel": "w20-bes-yil-sonra" },
+        { "art": "hoeren", "vokabel": "w20-basarmak" },
+        { "art": "satzbau", "tr": "Umarım mayısta akıcı konuşurum.", "de": "Ich hoffe, im Mai spreche ich fließend." },
+        { "art": "tippen", "vokabel": "w20-hedef" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Zukunfts-Runde: Jeder erzählt auf Türkisch, wo er sich in fünf Jahren sieht – beruflich, privat, mit Inaya. Mit -acak, -mak istiyorum und umarım.",
+        "mustersaetze": [
+          { "tr": "Beş yıl sonra … ", "de": "In fünf Jahren …" },
+          { "tr": "… açmak istiyorum.", "de": "Ich möchte … eröffnen." },
+          { "tr": "Umarım başarırım!", "de": "Ich hoffe, ich schaffe es!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Bunu başaracağım!", "de": "Das werde ich schaffen!", "wann": "Jeden Morgen vor der Türkischlektion – ein kleines Mantra." },
+      "merktipp": { "titel": "Dein Mai-Ziel", "text": "Dein Ziel steht im Plan: im Mai Alltagsgespräche mit Pasha und seiner Familie. Du bist bei Woche 20 von 26 – das Ziel ist in Sichtweite." }
+    },
+    {
+      "woche": 20,
+      "tag": 6,
+      "titel": "Festigungstag: Mein Leben in 2 Minuten",
+      "kannZiel": "zwei Minuten zusammenhängend über dein Leben erzählen",
+      "vokabeln": [
+        { "id": "w20-iste-benim-hayatim", "tr": "İşte benim hayatım.", "de": "Das ist mein Leben.", "typ": "chunk", "beispiel": { "tr": "Kısaca, işte benim hayatım!", "de": "Kurz gesagt: Das ist mein Leben!" } },
+        { "id": "w20-kendimden-bahsedeyim", "tr": "Biraz kendimden bahsedeyim.", "de": "Ich erzähle ein bisschen von mir.", "typ": "chunk", "beispiel": { "tr": "Merhaba! Biraz kendimden bahsedeyim.", "de": "Hallo! Ich erzähle ein bisschen von mir." } },
+        { "id": "w20-hayat-cok-guzel", "tr": "Hayat çok güzel.", "de": "Das Leben ist schön.", "typ": "chunk", "beispiel": { "tr": "Bazen zor ama hayat çok güzel.", "de": "Manchmal schwer, aber das Leben ist schön." } },
+        { "id": "w20-sansliyim", "tr": "Şanslıyım.", "de": "Ich habe Glück.", "typ": "chunk", "beispiel": { "tr": "Böyle bir ailem olduğu için çok şanslıyım.", "de": "Ich habe großes Glück, so eine Familie zu haben." } },
+        { "id": "w20-her-sey-icin-tesekkurler", "tr": "Her şey için teşekkürler.", "de": "Danke für alles.", "typ": "chunk", "beispiel": { "tr": "Pasha, her şey için teşekkürler.", "de": "Pasha, danke für alles." } }
+      ],
+      "grammatik": {
+        "titel": "Phase 3: alle Zeiten zusammen",
+        "erklaerung": [
+          "Ein Lebens-Monolog wechselt die Zeiten: -dı (früher) → -yor / Aorist (heute) → -acak / -mak istiyorum (morgen).",
+          "Übergänge: önce, sonra, o zamanlar, şimdi, şu sıralar, ileride, kısacası."
+        ],
+        "tabelle": {
+          "kopf": ["Teil", "Mustersatz"],
+          "zeilen": [
+            ["Start", "Biraz kendimden bahsedeyim."],
+            ["früher", "… doğdum, … büyüdüm. Kuaförlük eğitimi aldım."],
+            ["Liebe", "… Pasha'yla tanıştık, … evlendik."],
+            ["heute", "Şu sıralar annelik iznindeyim. Inaya bir yaşında."],
+            ["Zukunft", "İleride kendi salonumu açmak istiyorum."],
+            ["Ende", "Kısacası, işte benim hayatım!"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Biraz kendimden bahsedeyim.", "de": "Ich erzähle ein bisschen von mir." },
+          { "tr": "Kısacası, işte benim hayatım!", "de": "Kurz gesagt: Das ist mein Leben!" },
+          { "tr": "Çok şanslıyım.", "de": "Ich habe großes Glück." }
+        ]
+      },
+      "dialog": {
+        "titel": "Sherins Monolog (Muster)",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Merhaba! Biraz kendimden bahsedeyim. Benim adım Sherin.", "de": "Hallo! Ich erzähle ein bisschen von mir. Ich heiße Sherin." },
+          { "sprecher": "Sherin", "tr": "Almanya'da doğdum ve büyüdüm. Kuaförlük eğitimi aldım.", "de": "Ich bin in Deutschland geboren und aufgewachsen. Ich habe eine Friseurausbildung gemacht." },
+          { "sprecher": "Sherin", "tr": "Sonra Pasha'yla tanıştım ve evlendik. Bir kızımız var, adı Inaya.", "de": "Dann habe ich Pasha kennengelernt, und wir haben geheiratet. Wir haben eine Tochter, Inaya." },
+          { "sprecher": "Sherin", "tr": "Bir de köpeğimiz Amani var. Garbsen'de oturuyoruz.", "de": "Und unseren Hund Amani. Wir wohnen in Garbsen." },
+          { "sprecher": "Sherin", "tr": "Şu sıralar annelik iznindeyim. Her gün Türkçe öğreniyorum.", "de": "Zurzeit bin ich in Elternzeit. Ich lerne jeden Tag Türkisch." },
+          { "sprecher": "Sherin", "tr": "İleride kendi salonumu açmak istiyorum. Umarım başarırım!", "de": "Später möchte ich meinen eigenen Salon eröffnen. Hoffentlich schaffe ich es!" },
+          { "sprecher": "Sherin", "tr": "Kısacası, işte benim hayatım. Zor ama çok güzel!", "de": "Kurz gesagt: Das ist mein Leben. Schwer, aber wunderschön!" },
+          { "sprecher": "Pasha", "tr": "Bravo! Seninle gurur duyuyorum.", "de": "Bravo! Ich bin stolz auf dich." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w20-iste-benim-hayatim", "w20-hayat-cok-guzel", "w20-sansliyim", "w20-her-sey-icin-tesekkurler"] },
+        { "art": "hoeren", "vokabel": "w20-kendimden-bahsedeyim" },
+        { "art": "satzbau", "tr": "Almanya'da doğdum ve büyüdüm.", "de": "Ich bin in Deutschland geboren und aufgewachsen." },
+        { "art": "luecke", "satz": "Sonra Pasha'yla tanış___ ve evlendik.", "loesung": "tım", "optionen": ["tım", "ıyorum", "acağım"], "de": "Dann habe ich Pasha kennengelernt und wir haben geheiratet." },
+        { "art": "luecke", "satz": "İleride kendi salonumu aç___ istiyorum.", "loesung": "mak", "optionen": ["mak", "acağım", "tım"], "de": "Später möchte ich meinen eigenen Salon eröffnen." },
+        { "art": "auswahl_de_tr", "vokabel": "w20-sansliyim" },
+        { "art": "hoeren", "vokabel": "w20-cocukken" },
+        { "art": "auswahl_tr_de", "vokabel": "w20-iste-benim-hayatim" },
+        { "art": "tippen", "vokabel": "w20-umarim" },
+        { "art": "satzbau", "tr": "Kısacası, işte benim hayatım!", "de": "Kurz gesagt: Das ist mein Leben!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Der große Moment: Erzähl Pasha „Mein Leben“ in 2 Minuten am Stück – ohne Zettel. Kindheit, Ausbildung, Pasha, Inaya & Amani, heute, Zukunft. Pasha filmt dich (für dich selbst!) und hört nur zu. Zum Schluss: Her şey için teşekkürler.",
+        "mustersaetze": [
+          { "tr": "Biraz kendimden bahsedeyim.", "de": "Ich erzähle ein bisschen von mir." },
+          { "tr": "… doğdum … Şu sıralar … İleride …", "de": "Geboren … Zurzeit … Später …" },
+          { "tr": "Kısacası, işte benim hayatım!", "de": "Kurz gesagt: Das ist mein Leben!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Her şey için teşekkürler.", "de": "Danke für alles.", "wann": "Zu Pasha, nach deinem Monolog. Und vielleicht zu dir selbst." },
+      "merktipp": { "titel": "Das Video ist Gold wert", "text": "Heb das Video auf. Im Mai schaust du es dir an – und hörst, wie weit du schon warst. Und wie weit du dann gekommen bist." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Dein Lebens-Monolog: 2 Minuten ohne Unterbrechung.", "hilfe": { "tr": "Biraz kendimden bahsedeyim … Kısacası, işte benim hayatım!", "de": "Ich erzähle ein bisschen von mir … Kurz gesagt: Das ist mein Leben!" } },
+      { "situation": "Erzähl eure Kennenlern-Geschichte zusammen – abwechselnd Satz für Satz.", "hilfe": { "tr": "… tanıştık. İlk görüşte … Sonra … evlendik.", "de": "Wir haben uns … kennengelernt. Auf den ersten Blick … Dann haben wir geheiratet." } },
+      { "situation": "Sag drei Ziele für die Zukunft – eins sicher, eins Wunsch, eins Hoffnung.", "hilfe": { "tr": "Mayısta Türkçe konuşacağım. Salon açmak istiyorum. Umarım …", "de": "Im Mai spreche ich Türkisch. Ich will einen Salon eröffnen. Ich hoffe …" } }
+    ]
+  }
+}
