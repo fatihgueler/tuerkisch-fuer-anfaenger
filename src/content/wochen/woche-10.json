@@ -1,0 +1,446 @@
+{
+  "woche": 10,
+  "lektionen": [
+    {
+      "woche": 10,
+      "tag": 1,
+      "titel": "Kopf & Gesicht – Başım ağrıyor",
+      "kannZiel": "sagen, wo es wehtut",
+      "vokabeln": [
+        { "id": "w10-bas", "tr": "baş", "de": "Kopf", "typ": "wort", "beispiel": { "tr": "Başım ağrıyor.", "de": "Ich habe Kopfschmerzen." } },
+        { "id": "w10-goz", "tr": "göz", "de": "Auge", "typ": "wort", "beispiel": { "tr": "Inaya'nın gözleri mavi mi?", "de": "Hat Inaya blaue Augen?" } },
+        { "id": "w10-kulak", "tr": "kulak", "de": "Ohr", "typ": "wort", "beispiel": { "tr": "Inaya'nın kulağı ağrıyor.", "de": "Inaya hat Ohrenschmerzen." } },
+        { "id": "w10-burun", "tr": "burun", "de": "Nase", "typ": "wort", "beispiel": { "tr": "Burnum akıyor.", "de": "Meine Nase läuft." } },
+        { "id": "w10-agiz", "tr": "ağız", "de": "Mund", "typ": "wort", "beispiel": { "tr": "Ağzını aç, canım.", "de": "Mach den Mund auf, Schatz." } },
+        { "id": "w10-dis", "tr": "diş", "de": "Zahn", "typ": "wort", "beispiel": { "tr": "Dişim ağrıyor.", "de": "Mein Zahn tut weh." } },
+        { "id": "w10-yuz", "tr": "yüz", "de": "Gesicht", "typ": "wort", "beispiel": { "tr": "Yüzünü yıkadın mı?", "de": "Hast du dein Gesicht gewaschen?" }, "merktipp": "yüz heißt auch hundert – den Unterschied macht der Satz: yüz euro (100 €), yüzüm (mein Gesicht)." },
+        { "id": "w10-bogaz", "tr": "boğaz", "de": "Hals (innen) / Kehle", "typ": "wort", "beispiel": { "tr": "Boğazım ağrıyor.", "de": "Ich habe Halsschmerzen." } },
+        { "id": "w10-neren-agriyor", "tr": "Neren ağrıyor?", "de": "Wo tut es dir weh?", "typ": "chunk", "beispiel": { "tr": "Canım, neren ağrıyor?", "de": "Schatz, wo tut's dir weh?" } }
+      ],
+      "grammatik": {
+        "titel": "Mein … tut weh: -(ı)m ağrıyor",
+        "erklaerung": [
+          "Schmerz sagt man mit Besitz-Endung + ağrıyor: Başım ağrıyor. = (Mein) Kopf tut weh.",
+          "Für andere: Inaya'nın kulağı ağrıyor. (Inayas Ohr tut weh.)",
+          "Einige Wörter verlieren einen Vokal: burun → burnum, ağız → ağzım."
+        ],
+        "tabelle": {
+          "kopf": ["", "mein … tut weh"],
+          "zeilen": [
+            ["baş", "başım ağrıyor"],
+            ["diş", "dişim ağrıyor"],
+            ["boğaz", "boğazım ağrıyor"],
+            ["kulak", "kulağım ağrıyor"],
+            ["göz", "gözüm ağrıyor"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Başım ağrıyor.", "de": "Ich habe Kopfschmerzen." },
+          { "tr": "Inaya'nın kulağı ağrıyor.", "de": "Inaya hat Ohrenschmerzen." },
+          { "tr": "Neren ağrıyor?", "de": "Wo tut es dir weh?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Montagmorgen",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Günaydın. İyi misin?", "de": "Guten Morgen. Geht's dir gut?" },
+          { "sprecher": "Sherin", "tr": "Pek değil. Başım ağrıyor.", "de": "Nicht so. Ich habe Kopfschmerzen." },
+          { "sprecher": "Pasha", "tr": "Boğazın da ağrıyor mu?", "de": "Tut dir auch der Hals weh?" },
+          { "sprecher": "Sherin", "tr": "Biraz. Ve burnum akıyor.", "de": "Ein bisschen. Und meine Nase läuft." },
+          { "sprecher": "Pasha", "tr": "Bugün dinlen. Inaya'ya ben bakıyorum.", "de": "Ruh dich heute aus. Ich kümmere mich um Inaya." },
+          { "sprecher": "Sherin", "tr": "Teşekkürler canım.", "de": "Danke, Schatz." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w10-bas", "w10-goz", "w10-kulak", "w10-burun", "w10-agiz"] },
+        { "art": "luecke", "satz": "Baş___ ağrıyor.", "loesung": "ım", "optionen": ["ım", "ı", "ın"], "de": "Ich habe Kopfschmerzen." },
+        { "art": "luecke", "satz": "Inaya'nın kula___ ağrıyor.", "loesung": "ğı", "optionen": ["ğı", "kı", "ğım"], "de": "Inaya hat Ohrenschmerzen.", "hinweis": "k → ğ, und „ihr“ = -ı" },
+        { "art": "hoeren", "vokabel": "w10-bogaz" },
+        { "art": "auswahl_de_tr", "vokabel": "w10-neren-agriyor" },
+        { "art": "satzbau", "tr": "Boğazım ağrıyor.", "de": "Ich habe Halsschmerzen." },
+        { "art": "auswahl_tr_de", "vokabel": "w10-yuz" },
+        { "art": "hoeren", "vokabel": "w10-dis" },
+        { "art": "tippen", "vokabel": "w10-goz" },
+        { "art": "satzbau", "tr": "Burnum akıyor.", "de": "Meine Nase läuft." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Spiel mit Inaya „Wo ist …?“ auf Türkisch: göz, kulak, burun, ağız – zeig bei ihr und bei dir. Danach fragt Pasha dich: „Neren ağrıyor?“ und du zeigst und antwortest.",
+        "mustersaetze": [
+          { "tr": "Inaya, burnun nerede?", "de": "Inaya, wo ist deine Nase?" },
+          { "tr": "İşte gözlerin!", "de": "Da sind deine Augen!" },
+          { "tr": "Başım ağrıyor.", "de": "Ich habe Kopfschmerzen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Burnun nerede?", "de": "Wo ist deine Nase?", "wann": "Beim Wickeln oder Spielen mit Inaya – das lieben Kleinkinder." },
+      "merktipp": { "titel": "Körper-Lieder", "text": "Türkische Kinder lernen Körperteile mit „Baş, omuzlar, dizler, ayaklar“ (Kopf, Schultern, Knie und Fuß). Bitte Pasha, es mit Inaya zu singen!" }
+    },
+    {
+      "woche": 10,
+      "tag": 2,
+      "titel": "Der ganze Körper",
+      "kannZiel": "Körperteile benennen und Schmerzen beschreiben",
+      "vokabeln": [
+        { "id": "w10-kol", "tr": "kol", "de": "Arm", "typ": "wort", "beispiel": { "tr": "Kolum ağrıyor.", "de": "Mein Arm tut weh." } },
+        { "id": "w10-el", "tr": "el", "de": "Hand", "typ": "wort", "beispiel": { "tr": "Ellerini yıka!", "de": "Wasch deine Hände!" } },
+        { "id": "w10-parmak", "tr": "parmak", "de": "Finger", "typ": "wort", "beispiel": { "tr": "Inaya parmağını ağzına sokuyor.", "de": "Inaya steckt den Finger in den Mund." } },
+        { "id": "w10-bacak", "tr": "bacak", "de": "Bein", "typ": "wort", "beispiel": { "tr": "Bacaklarım çok yorgun.", "de": "Meine Beine sind total müde." } },
+        { "id": "w10-ayak", "tr": "ayak", "de": "Fuß", "typ": "wort", "beispiel": { "tr": "Ayakların soğuk!", "de": "Deine Füße sind kalt!" } },
+        { "id": "w10-karin", "tr": "karın", "de": "Bauch", "typ": "wort", "beispiel": { "tr": "Inaya'nın karnı ağrıyor.", "de": "Inaya hat Bauchschmerzen." } },
+        { "id": "w10-sirt", "tr": "sırt", "de": "Rücken", "typ": "wort", "beispiel": { "tr": "Inaya'yı taşımaktan sırtım ağrıyor.", "de": "Vom Inaya-Tragen tut mir der Rücken weh." } },
+        { "id": "w10-mide", "tr": "mide", "de": "Magen", "typ": "wort", "beispiel": { "tr": "Midem bulanıyor.", "de": "Mir ist übel." } },
+        { "id": "w10-diz", "tr": "diz", "de": "Knie", "typ": "wort", "beispiel": { "tr": "Dizim kanıyor!", "de": "Mein Knie blutet!" } }
+      ],
+      "grammatik": {
+        "titel": "Vokal fällt weg: karın → karnı",
+        "erklaerung": [
+          "Manche Wörter verlieren ihren letzten Vokal, wenn eine Endung kommt: karın → karnım, burun → burnum, ağız → ağzım.",
+          "Das passiert vor allem bei Körperteilen – einfach als Block lernen.",
+          "Rücken- und Bauchschmerzen: Sırtım ağrıyor. Karnım ağrıyor."
+        ],
+        "tabelle": {
+          "kopf": ["Wort", "mein …", "sein/ihr …"],
+          "zeilen": [
+            ["karın", "karnım", "karnı"],
+            ["burun", "burnum", "burnu"],
+            ["ağız", "ağzım", "ağzı"],
+            ["parmak", "parmağım", "parmağı"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Inaya'nın karnı ağrıyor.", "de": "Inaya hat Bauchschmerzen." },
+          { "tr": "Sırtım çok ağrıyor.", "de": "Mein Rücken tut sehr weh." },
+          { "tr": "Ellerini yıka!", "de": "Wasch deine Hände!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Hingefallen",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Ne oldu? Neden ağlıyor?", "de": "Was ist passiert? Warum weint sie?" },
+          { "sprecher": "Sherin", "tr": "Düştü. Dizi biraz kanıyor.", "de": "Sie ist hingefallen. Ihr Knie blutet ein bisschen." },
+          { "sprecher": "Pasha", "tr": "Gel kızım. Başka neren ağrıyor?", "de": "Komm her, meine Tochter. Wo tut's noch weh?" },
+          { "sprecher": "Sherin", "tr": "Elini de gösteriyor. Bak, eli kırmızı.", "de": "Sie zeigt auch ihre Hand. Schau, die Hand ist rot." },
+          { "sprecher": "Pasha", "tr": "Geçmiş olsun, bebeğim. Öpüyorum, geçti!", "de": "Gute Besserung, mein Baby. Ich küss es weg – schon vorbei!" },
+          { "sprecher": "Sherin", "tr": "Bak, gülüyor! Sihirli öpücük.", "de": "Schau, sie lacht! Ein Zauberkuss." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w10-kol", "w10-el", "w10-bacak", "w10-ayak"] },
+        { "art": "zuordnen", "vokabeln": ["w10-karin", "w10-sirt", "w10-mide", "w10-diz"] },
+        { "art": "luecke", "satz": "Inaya'nın kar___ ağrıyor.", "loesung": "nı", "optionen": ["nı", "ını", "ın"], "de": "Inaya hat Bauchschmerzen.", "hinweis": "karın verliert das ı" },
+        { "art": "hoeren", "vokabel": "w10-parmak" },
+        { "art": "satzbau", "tr": "Sırtım çok ağrıyor.", "de": "Mein Rücken tut sehr weh." },
+        { "art": "auswahl_de_tr", "vokabel": "w10-mide" },
+        { "art": "luecke", "satz": "El___ yıka!", "loesung": "lerini", "optionen": ["lerini", "leri", "ini"], "de": "Wasch deine Hände!" },
+        { "art": "hoeren", "vokabel": "w10-diz" },
+        { "art": "tippen", "vokabel": "w10-el" },
+        { "art": "satzbau", "tr": "Ayakların soğuk!", "de": "Deine Füße sind kalt!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Arzt spielen mit Pasha: Er ist Patient und zeigt, wo es wehtut. Du fragst nach und wiederholst auf Türkisch, was ihm wehtut. Dann tauscht ihr.",
+        "mustersaetze": [
+          { "tr": "Neren ağrıyor?", "de": "Wo tut es dir weh?" },
+          { "tr": "Sırtın mı ağrıyor?", "de": "Tut dir der Rücken weh?" },
+          { "tr": "Geçmiş olsun!", "de": "Gute Besserung!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Ellerini yıka!", "de": "Wasch deine Hände!", "wann": "Vor dem Essen – zu Inaya und zu Pasha." },
+      "merktipp": { "titel": "Wortverlust", "text": "karın – karnım, burun – burnum, ağız – ağzım: Der zweite Vokal fällt raus, weil sonst zu viele Silben aufeinanderträfen. Sprich „karınım“ schnell – du landest automatisch bei karnım." }
+    },
+    {
+      "woche": 10,
+      "tag": 3,
+      "titel": "Krank sein",
+      "kannZiel": "Krankheiten beschreiben – auch bei Inaya",
+      "vokabeln": [
+        { "id": "w10-hasta", "tr": "hasta", "de": "krank", "typ": "wort", "beispiel": { "tr": "Inaya hasta.", "de": "Inaya ist krank." } },
+        { "id": "w10-ates", "tr": "ateş", "de": "Fieber", "typ": "wort", "beispiel": { "tr": "Kızımın ateşi var.", "de": "Meine Tochter hat Fieber." } },
+        { "id": "w10-oksuruk", "tr": "öksürük", "de": "Husten", "typ": "wort", "beispiel": { "tr": "Gece çok öksürdü.", "de": "Sie hat nachts viel gehustet." } },
+        { "id": "w10-nezle", "tr": "nezle", "de": "Schnupfen", "typ": "wort", "beispiel": { "tr": "Sadece nezle, endişelenme.", "de": "Nur ein Schnupfen, keine Sorge." } },
+        { "id": "w10-grip", "tr": "grip", "de": "Grippe", "typ": "wort", "beispiel": { "tr": "Pasha grip oldu.", "de": "Pasha hat die Grippe." } },
+        { "id": "w10-kusmak", "tr": "kusmak", "de": "sich übergeben", "typ": "wort", "beispiel": { "tr": "Inaya iki kere kustu.", "de": "Inaya hat sich zweimal übergeben." } },
+        { "id": "w10-ilac", "tr": "ilaç", "de": "Medikament", "typ": "wort", "beispiel": { "tr": "İlacını içtin mi?", "de": "Hast du deine Medizin genommen?" } },
+        { "id": "w10-surup", "tr": "şurup", "de": "Sirup / Saft (Medizin)", "typ": "wort", "beispiel": { "tr": "Öksürük şurubu nerede?", "de": "Wo ist der Hustensaft?" } },
+        { "id": "w10-hastalanmak", "tr": "hastalanmak", "de": "krank werden", "typ": "wort", "beispiel": { "tr": "Yine hastalandım.", "de": "Ich bin schon wieder krank geworden." } }
+      ],
+      "grammatik": {
+        "titel": "„Meine Tochter hat Fieber“",
+        "erklaerung": [
+          "Fieber haben = ateşi var: Kızımın ateşi var. (wörtlich: Meiner Tochter ihr Fieber ist da.)",
+          "Besitzer bekommt -ın/-in, die Krankheit -ı/-i + var.",
+          "Für dich selbst: Ateşim var. (Ich habe Fieber.) Öksürüğüm var. (Ich habe Husten.)",
+          "„krank werden“: hastalanmak – hastalandım (ich bin krank geworden)."
+        ],
+        "tabelle": {
+          "kopf": ["wer?", "hat Fieber"],
+          "zeilen": [
+            ["ich", "ateşim var"],
+            ["du", "ateşin var"],
+            ["meine Tochter", "kızımın ateşi var"],
+            ["Inaya", "Inaya'nın ateşi var"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kızımın ateşi var.", "de": "Meine Tochter hat Fieber." },
+          { "tr": "Öksürüğüm var.", "de": "Ich habe Husten." },
+          { "tr": "Pasha grip oldu.", "de": "Pasha hat die Grippe." }
+        ]
+      },
+      "dialog": {
+        "titel": "Eine unruhige Nacht",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Inaya nasıl? Uyudu mu?", "de": "Wie geht's Inaya? Hat sie geschlafen?" },
+          { "sprecher": "Sherin", "tr": "Pek uyumadı. Ateşi var.", "de": "Kaum. Sie hat Fieber." },
+          { "sprecher": "Pasha", "tr": "Kaç derece?", "de": "Wie hoch?" },
+          { "sprecher": "Sherin", "tr": "Otuz sekiz buçuk. Gece de çok öksürdü.", "de": "Achtunddreißigeinhalb. Und nachts hat sie viel gehustet." },
+          { "sprecher": "Pasha", "tr": "Şurubunu verdin mi?", "de": "Hast du ihr den Saft gegeben?" },
+          { "sprecher": "Sherin", "tr": "Evet. Ama bugün doktora gidiyoruz.", "de": "Ja. Aber heute gehen wir zum Arzt." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w10-ates", "w10-oksuruk", "w10-nezle", "w10-grip"] },
+        { "art": "luecke", "satz": "Kızımın ateş___ var.", "loesung": "i", "optionen": ["i", "im", "in"], "de": "Meine Tochter hat Fieber." },
+        { "art": "auswahl_de_tr", "vokabel": "w10-hasta" },
+        { "art": "hoeren", "vokabel": "w10-ilac" },
+        { "art": "satzbau", "tr": "Kızımın ateşi var.", "de": "Meine Tochter hat Fieber." },
+        { "art": "auswahl_tr_de", "vokabel": "w10-kusmak" },
+        { "art": "hoeren", "vokabel": "w10-surup" },
+        { "art": "luecke", "satz": "Yine hastalan___.", "loesung": "dım", "optionen": ["dım", "dim", "ıyorum"], "de": "Ich bin schon wieder krank geworden." },
+        { "art": "tippen", "vokabel": "w10-hasta" },
+        { "art": "satzbau", "tr": "Gece çok öksürdü.", "de": "Sie hat nachts viel gehustet." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Übt den Ernstfall: Du rufst (gespielt) Pashas Mama an und erzählst, dass Inaya krank ist – mit Fieber, Husten und was du schon gemacht hast. Pasha spielt die besorgte Oma.",
+        "mustersaetze": [
+          { "tr": "Inaya hasta. Ateşi var.", "de": "Inaya ist krank. Sie hat Fieber." },
+          { "tr": "Gece çok öksürdü.", "de": "Sie hat nachts viel gehustet." },
+          { "tr": "Şurubunu verdim.", "de": "Ich habe ihr den Saft gegeben." }
+        ]
+      },
+      "alltagssatz": { "tr": "İlacını içtin mi?", "de": "Hast du deine Medizin genommen?", "wann": "Wenn jemand bei euch krank ist – Medizin „trinkt“ man auf Türkisch, auch Tabletten." },
+      "merktipp": { "titel": "Medizin trinkt man", "text": "Auf Türkisch „trinkt“ man Medikamente: ilaç içmek – auch Tabletten. Und Fieber „hat man“ mit var: Ateşim var." }
+    },
+    {
+      "woche": 10,
+      "tag": 4,
+      "titel": "Beim (Kinder-)Arzt",
+      "kannZiel": "beim Arzt Beschwerden schildern und Fragen verstehen",
+      "vokabeln": [
+        { "id": "w10-randevu", "tr": "randevu", "de": "Termin", "typ": "wort", "beispiel": { "tr": "Yarın için randevum var.", "de": "Ich habe morgen einen Termin." } },
+        { "id": "w10-muayene", "tr": "muayene", "de": "Untersuchung", "typ": "wort", "beispiel": { "tr": "Doktor Inaya'yı muayene etti.", "de": "Der Arzt hat Inaya untersucht." } },
+        { "id": "w10-cocuk-doktoru", "tr": "çocuk doktoru", "de": "Kinderarzt / -ärztin", "typ": "chunk", "beispiel": { "tr": "Çocuk doktoru çok iyi.", "de": "Die Kinderärztin ist sehr gut." } },
+        { "id": "w10-sigorta-karti", "tr": "sigorta kartı", "de": "Versichertenkarte", "typ": "chunk", "beispiel": { "tr": "Sigorta kartınızı alabilir miyim?", "de": "Kann ich Ihre Versichertenkarte haben?" } },
+        { "id": "w10-recete", "tr": "reçete", "de": "Rezept", "typ": "wort", "beispiel": { "tr": "Doktor reçete yazdı.", "de": "Der Arzt hat ein Rezept geschrieben." } },
+        { "id": "w10-sikayet", "tr": "şikâyet", "de": "Beschwerde", "typ": "wort", "beispiel": { "tr": "Şikâyetiniz ne?", "de": "Was für Beschwerden haben Sie?" } },
+        { "id": "w10-ne-zamandan-beri", "tr": "Ne zamandan beri?", "de": "Seit wann?", "typ": "chunk", "beispiel": { "tr": "Ateşi ne zamandan beri var?", "de": "Seit wann hat sie Fieber?" } },
+        { "id": "w10-iki-gundur", "tr": "iki gündür", "de": "seit zwei Tagen", "typ": "chunk", "beispiel": { "tr": "İki gündür öksürüyor.", "de": "Sie hustet seit zwei Tagen." } },
+        { "id": "w10-asi", "tr": "aşı", "de": "Impfung", "typ": "wort", "beispiel": { "tr": "Inaya'nın aşısı ne zaman?", "de": "Wann ist Inayas Impfung?" } }
+      ],
+      "grammatik": {
+        "titel": "Seit wann? – -dır / -den beri",
+        "erklaerung": [
+          "„seit + Zeitraum“: Zeit + -dır/-dir/-dur/-dür: iki gündür (seit zwei Tagen), bir haftadır (seit einer Woche).",
+          "„seit + Zeitpunkt“: -den beri: dünden beri (seit gestern), pazartesiden beri.",
+          "Danach steht das Verb im Präsens: İki gündür öksürüyor. = Sie hustet seit zwei Tagen.",
+          "Beim Arzt immer siz – und du hörst Fragen wie Şikâyetiniz ne?"
+        ],
+        "tabelle": {
+          "kopf": ["seit …", "Türkisch"],
+          "zeilen": [
+            ["zwei Tagen", "iki gündür"],
+            ["einer Woche", "bir haftadır"],
+            ["gestern", "dünden beri"],
+            ["Montag", "pazartesiden beri"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "İki gündür öksürüyor.", "de": "Sie hustet seit zwei Tagen." },
+          { "tr": "Dünden beri ateşi var.", "de": "Sie hat seit gestern Fieber." },
+          { "tr": "Şikâyetiniz ne?", "de": "Was für Beschwerden haben Sie?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Beim türkischsprachigen Kinderarzt",
+        "zeilen": [
+          { "sprecher": "Ärztin", "tr": "Merhaba. Şikâyetiniz ne?", "de": "Hallo. Was führt Sie her?" },
+          { "sprecher": "Sherin", "tr": "Kızımın ateşi var ve çok öksürüyor.", "de": "Meine Tochter hat Fieber und hustet viel." },
+          { "sprecher": "Ärztin", "tr": "Ne zamandan beri?", "de": "Seit wann?" },
+          { "sprecher": "Sherin", "tr": "Ateşi dünden beri var. Öksürük iki gündür.", "de": "Fieber seit gestern. Husten seit zwei Tagen." },
+          { "sprecher": "Ärztin", "tr": "Tamam, muayene edelim. Ağzını açar mısın, tatlım?", "de": "Gut, dann untersuchen wir mal. Machst du den Mund auf, Süße?" },
+          { "sprecher": "Ärztin", "tr": "Boğazı biraz kırmızı. Şurup yazıyorum, günde üç kez.", "de": "Der Hals ist etwas rot. Ich schreibe einen Saft auf, dreimal täglich." },
+          { "sprecher": "Sherin", "tr": "Günde üç kez. Teşekkür ederim!", "de": "Dreimal täglich. Vielen Dank!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w10-randevu", "w10-recete", "w10-asi", "w10-muayene"] },
+        { "art": "auswahl_de_tr", "vokabel": "w10-ne-zamandan-beri" },
+        { "art": "luecke", "satz": "İki gün___ öksürüyor.", "loesung": "dür", "optionen": ["dür", "dir", "den"], "de": "Sie hustet seit zwei Tagen." },
+        { "art": "hoeren", "vokabel": "w10-sikayet" },
+        { "art": "luecke", "satz": "Dün___ beri ateşi var.", "loesung": "den", "optionen": ["den", "dür", "de"], "de": "Sie hat seit gestern Fieber." },
+        { "art": "satzbau", "tr": "Kızımın ateşi var ve çok öksürüyor.", "de": "Meine Tochter hat Fieber und hustet viel." },
+        { "art": "auswahl_tr_de", "vokabel": "w10-sigorta-karti" },
+        { "art": "hoeren", "vokabel": "w10-cocuk-doktoru" },
+        { "art": "tippen", "vokabel": "w10-randevu" },
+        { "art": "auswahl_de_tr", "vokabel": "w10-iki-gundur" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Arzt-Rollenspiel mit siz: Pasha ist der Kinderarzt. Du schilderst Inayas (gespielte) Beschwerden: was, seit wann, was du schon gegeben hast. Er stellt Fragen, du antwortest.",
+        "mustersaetze": [
+          { "tr": "Kızımın ateşi var.", "de": "Meine Tochter hat Fieber." },
+          { "tr": "Dünden beri öksürüyor.", "de": "Sie hustet seit gestern." },
+          { "tr": "Şurup verdim.", "de": "Ich habe ihr Saft gegeben." }
+        ]
+      },
+      "alltagssatz": { "tr": "Ne zamandan beri?", "de": "Seit wann?", "wann": "Wenn Pasha über irgendetwas klagt – Rücken, Kopf, Müdigkeit." },
+      "merktipp": { "titel": "Türkischsprachige Praxen", "text": "In Hannover gibt es Ärztinnen und Ärzte, die Türkisch sprechen. Dein Satz „Kızımın ateşi var“ ist dort Gold wert – und fürs Telefonat mit der Familie sowieso." }
+    },
+    {
+      "woche": 10,
+      "tag": 5,
+      "titel": "Apotheke: lazım & gerek",
+      "kannZiel": "sagen, was du brauchst, und Dosierungen verstehen",
+      "vokabeln": [
+        { "id": "w10-lazim", "tr": "lazım", "de": "nötig / man braucht", "typ": "wort", "beispiel": { "tr": "Bana ağrı kesici lazım.", "de": "Ich brauche ein Schmerzmittel." } },
+        { "id": "w10-gerek", "tr": "gerek", "de": "nötig / notwendig", "typ": "wort", "beispiel": { "tr": "Doktora gitmek gerek.", "de": "Man muss zum Arzt gehen." } },
+        { "id": "w10-agri-kesici", "tr": "ağrı kesici", "de": "Schmerzmittel", "typ": "chunk", "beispiel": { "tr": "Ağrı kesici aldın mı?", "de": "Hast du ein Schmerzmittel genommen?" } },
+        { "id": "w10-hap", "tr": "hap", "de": "Tablette", "typ": "wort", "beispiel": { "tr": "Bir hap yeter.", "de": "Eine Tablette reicht." } },
+        { "id": "w10-gunde-uc-kez", "tr": "günde üç kez", "de": "dreimal täglich", "typ": "chunk", "beispiel": { "tr": "Günde üç kez, yemekten sonra.", "de": "Dreimal täglich, nach dem Essen." } },
+        { "id": "w10-yara-bandi", "tr": "yara bandı", "de": "Pflaster", "typ": "chunk", "beispiel": { "tr": "Dizine yara bandı lazım.", "de": "Auf ihr Knie muss ein Pflaster." } },
+        { "id": "w10-ates-olcer", "tr": "ateş ölçer", "de": "Fieberthermometer", "typ": "chunk", "beispiel": { "tr": "Ateş ölçer nerede?", "de": "Wo ist das Fieberthermometer?" } },
+        { "id": "w10-damla", "tr": "damla", "de": "Tropfen", "typ": "wort", "beispiel": { "tr": "Burun damlası var mı?", "de": "Gibt es Nasentropfen?" } }
+      ],
+      "grammatik": {
+        "titel": "Ich brauche … = Bana … lazım",
+        "erklaerung": [
+          "„Ich brauche X“: Bana X lazım. (wörtlich: Mir ist X nötig.)",
+          "Für andere mit -a/-e: Inaya'ya şurup lazım. = Inaya braucht Saft.",
+          "Mit Verb: -mak/-mek + lazım/gerek = man muss: Dinlenmek lazım. = Man muss sich ausruhen.",
+          "lazım und gerek bedeuten fast dasselbe – gerek klingt etwas formeller."
+        ],
+        "tabelle": {
+          "kopf": ["wer?", "braucht …"],
+          "zeilen": [
+            ["ich", "bana … lazım"],
+            ["du", "sana … lazım"],
+            ["Inaya", "Inaya'ya … lazım"],
+            ["wir", "bize … lazım"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bana ağrı kesici lazım.", "de": "Ich brauche ein Schmerzmittel." },
+          { "tr": "Inaya'ya şurup lazım.", "de": "Inaya braucht Saft." },
+          { "tr": "Dinlenmen lazım.", "de": "Du musst dich ausruhen." }
+        ]
+      },
+      "dialog": {
+        "titel": "In der Apotheke",
+        "zeilen": [
+          { "sprecher": "Apothekerin", "tr": "Buyurun, nasıl yardımcı olabilirim?", "de": "Bitte, wie kann ich helfen?" },
+          { "sprecher": "Sherin", "tr": "Bu reçete için geldim. Bir de burun damlası lazım.", "de": "Ich komme wegen dieses Rezepts. Und ich brauche Nasentropfen." },
+          { "sprecher": "Apothekerin", "tr": "Bebek için mi?", "de": "Für ein Baby?" },
+          { "sprecher": "Sherin", "tr": "Evet, kızım bir yaşında.", "de": "Ja, meine Tochter ist ein Jahr alt." },
+          { "sprecher": "Apothekerin", "tr": "Tamam. Şurup günde üç kez, yemekten sonra.", "de": "Gut. Den Saft dreimal täglich, nach dem Essen." },
+          { "sprecher": "Sherin", "tr": "Günde üç kez, yemekten sonra. Anladım, teşekkürler!", "de": "Dreimal täglich nach dem Essen. Verstanden, danke!" },
+          { "sprecher": "Apothekerin", "tr": "Rica ederim. Geçmiş olsun!", "de": "Gern geschehen. Gute Besserung!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w10-hap", "w10-damla", "w10-yara-bandi", "w10-ates-olcer"] },
+        { "art": "luecke", "satz": "Ba___ ağrı kesici lazım.", "loesung": "na", "optionen": ["na", "ne", "nim"], "de": "Ich brauche ein Schmerzmittel." },
+        { "art": "auswahl_de_tr", "vokabel": "w10-gunde-uc-kez" },
+        { "art": "hoeren", "vokabel": "w10-lazim" },
+        { "art": "luecke", "satz": "Inaya'___ şurup lazım.", "loesung": "ya", "optionen": ["ya", "nın", "da"], "de": "Inaya braucht Saft." },
+        { "art": "satzbau", "tr": "Günde üç kez, yemekten sonra.", "de": "Dreimal täglich, nach dem Essen." },
+        { "art": "auswahl_tr_de", "vokabel": "w10-gerek" },
+        { "art": "hoeren", "vokabel": "w10-agri-kesici" },
+        { "art": "tippen", "vokabel": "w10-hap" },
+        { "art": "satzbau", "tr": "Dizine yara bandı lazım.", "de": "Auf ihr Knie muss ein Pflaster." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Geht zusammen eure Hausapotheke durch – auf Türkisch. Was ist da, was fehlt, was braucht ihr? Macht eine kleine Einkaufsliste für die Apotheke.",
+        "mustersaetze": [
+          { "tr": "Yara bandı var. Ateş ölçer de var.", "de": "Pflaster sind da. Das Thermometer auch." },
+          { "tr": "Bize burun damlası lazım.", "de": "Wir brauchen Nasentropfen." },
+          { "tr": "Ağrı kesici bitti.", "de": "Die Schmerzmittel sind alle." }
+        ]
+      },
+      "alltagssatz": { "tr": "Bana … lazım.", "de": "Ich brauche …", "wann": "Heute bei jedem Wunsch: Bana kahve lazım! Bana beş dakika lazım!" },
+      "merktipp": { "titel": "Rica ederim", "text": "Wenn sich jemand bedankt, antwortest du höflich „Rica ederim“ (gern geschehen). Teşekkür ederim – Rica ederim: ein Paar, das immer zusammengehört." }
+    },
+    {
+      "woche": 10,
+      "tag": 6,
+      "titel": "Festigungstag: Gute Besserung",
+      "kannZiel": "Mitgefühl zeigen und Wünsche zur Gesundheit sagen",
+      "vokabeln": [
+        { "id": "w10-gecmis-olsun", "tr": "Geçmiş olsun!", "de": "Gute Besserung!", "typ": "chunk", "beispiel": { "tr": "Hasta mısın? Geçmiş olsun!", "de": "Bist du krank? Gute Besserung!" } },
+        { "id": "w10-cok-yasa", "tr": "Çok yaşa!", "de": "Gesundheit! (beim Niesen)", "typ": "chunk", "beispiel": { "tr": "Hapşu! – Çok yaşa!", "de": "Hatschi! – Gesundheit!" } },
+        { "id": "w10-sen-de-gor", "tr": "Sen de gör!", "de": "Danke! (Antwort auf „Çok yaşa“)", "typ": "chunk", "beispiel": { "tr": "Çok yaşa! – Sen de gör!", "de": "Gesundheit! – Danke!" } },
+        { "id": "w10-kendine-iyi-bak", "tr": "Kendine iyi bak!", "de": "Pass auf dich auf!", "typ": "chunk", "beispiel": { "tr": "Dinlen ve kendine iyi bak!", "de": "Ruh dich aus und pass auf dich auf!" } },
+        { "id": "w10-acil", "tr": "acil", "de": "Notfall / dringend", "typ": "wort", "beispiel": { "tr": "Acil durumda 112'yi ara.", "de": "Im Notfall ruf 112 an." } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Schmerz: Besitz + ağrıyor. Krankheit: Besitz + var. Brauchen: -a/-e + lazım.",
+          "Seit: iki gündür, dünden beri."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["Schmerz", "Başım ağrıyor."],
+            ["Krankheit", "Ateşim var."],
+            ["brauchen", "Bana ilaç lazım."],
+            ["seit", "Dünden beri öksürüyorum."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Geçmiş olsun, kendine iyi bak!", "de": "Gute Besserung, pass auf dich auf!" },
+          { "tr": "Çok yaşa! – Sen de gör!", "de": "Gesundheit! – Danke!" },
+          { "tr": "Bana biraz dinlenmek lazım.", "de": "Ich muss mich ein bisschen ausruhen." }
+        ]
+      },
+      "dialog": {
+        "titel": "Pasha ist krank",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Hapşu!", "de": "Hatschi!" },
+          { "sprecher": "Sherin", "tr": "Çok yaşa!", "de": "Gesundheit!" },
+          { "sprecher": "Pasha", "tr": "Sen de gör … Galiba grip oldum.", "de": "Danke … Ich glaube, ich hab die Grippe." },
+          { "sprecher": "Sherin", "tr": "Ateşin var mı? Ateş ölçer nerede?", "de": "Hast du Fieber? Wo ist das Thermometer?" },
+          { "sprecher": "Pasha", "tr": "Otuz sekiz. Başım da çok ağrıyor.", "de": "Achtunddreißig. Und mein Kopf tut sehr weh." },
+          { "sprecher": "Sherin", "tr": "Geçmiş olsun, canım. Sana çay ve ağrı kesici getiriyorum.", "de": "Gute Besserung, Schatz. Ich bring dir Tee und ein Schmerzmittel." },
+          { "sprecher": "Pasha", "tr": "Sen çok iyi bir hemşiresin.", "de": "Du bist eine sehr gute Krankenschwester." },
+          { "sprecher": "Sherin", "tr": "Biliyorum! Şimdi dinlen ve kendine iyi bak.", "de": "Ich weiß! Jetzt ruh dich aus und pass auf dich auf." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w10-gecmis-olsun", "w10-cok-yasa", "w10-sen-de-gor", "w10-kendine-iyi-bak"] },
+        { "art": "hoeren", "vokabel": "w10-acil" },
+        { "art": "auswahl_de_tr", "vokabel": "w10-gecmis-olsun" },
+        { "art": "satzbau", "tr": "Galiba grip oldum.", "de": "Ich glaube, ich hab die Grippe." },
+        { "art": "luecke", "satz": "Ateş___ var mı?", "loesung": "in", "optionen": ["in", "im", "i"], "de": "Hast du Fieber?" },
+        { "art": "hoeren", "vokabel": "w10-neren-agriyor" },
+        { "art": "auswahl_tr_de", "vokabel": "w10-cok-yasa" },
+        { "art": "luecke", "satz": "Dünden beri öksür___.", "loesung": "üyorum", "optionen": ["üyorum", "düm", "üyor"], "de": "Ich huste seit gestern." },
+        { "art": "tippen", "vokabel": "w10-acil" },
+        { "art": "satzbau", "tr": "Geçmiş olsun, kendine iyi bak!", "de": "Gute Besserung, pass auf dich auf!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Spielt einen kompletten Krankheitstag – Niesen, Fieber messen, Apotheke, Arzt anrufen. Jede Rolle wechselt einmal. Und beim nächsten echten Niesen gilt ab jetzt: Çok yaşa!",
+        "mustersaetze": [
+          { "tr": "Çok yaşa!", "de": "Gesundheit!" },
+          { "tr": "Ne zamandan beri ateşin var?", "de": "Seit wann hast du Fieber?" },
+          { "tr": "Geçmiş olsun!", "de": "Gute Besserung!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Çok yaşa!", "de": "Gesundheit!", "wann": "Beim nächsten Niesen im Haus – und warte auf „Sen de gör!“." },
+      "merktipp": { "titel": "Çok yaşa – Sen de gör", "text": "„Çok yaşa“ heißt „Lebe lange!“, die Antwort „Sen de gör“ heißt „Erleb du es auch!“. Ein kleines Pingpong, das Türken ganz automatisch spielen." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Zeig auf fünf Körperteile und benenne sie – erst bei dir, dann bei Inaya.", "hilfe": { "tr": "Bu benim başım. Bu Inaya'nın burnu.", "de": "Das ist mein Kopf. Das ist Inayas Nase." } },
+      { "situation": "Ruf (gespielt) beim Kinderarzt an: Inaya hat seit gestern Fieber.", "hilfe": { "tr": "Merhaba, kızımın dünden beri ateşi var. Randevu alabilir miyim?", "de": "Hallo, meine Tochter hat seit gestern Fieber. Kann ich einen Termin haben?" } },
+      { "situation": "Pasha niest und ist krank – reagiere passend.", "hilfe": { "tr": "Çok yaşa! Geçmiş olsun. Sana ne lazım?", "de": "Gesundheit! Gute Besserung. Was brauchst du?" } }
+    ]
+  }
+}
