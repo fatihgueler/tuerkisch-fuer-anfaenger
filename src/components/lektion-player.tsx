@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
-import { ChevronLeft, ChevronRight, Eye, EyeOff, Play, Square, X, Check } from "lucide-react";
+import { ChevronLeft, ChevronRight, X, Check } from "lucide-react";
 import type { Lektion, Vokabel } from "@/content/schema";
 import { heuteISO } from "@/lib/datum";
 import { AUFWAERM_LIMIT, faelligeIds } from "@/lib/leitner";
@@ -12,6 +12,7 @@ import { leererStand, useFortschritt, useGeladen } from "@/store/fortschritt";
 import { AudioKnopf, AudioPaar, StimmeHinweis } from "@/components/audio";
 import { Karteikarten } from "@/components/karteikarten";
 import { Nachsprechen } from "@/components/nachsprechen";
+import { DialogTrainer } from "@/components/dialog-trainer";
 import { Teeglas } from "@/components/teeglas";
 import { UebungsRahmen } from "@/components/uebungen";
 import { Feier } from "@/components/feier";
@@ -234,7 +235,10 @@ function SchrittWoerter({ lektion, index, setIndex, onFertig }: { lektion: Lekti
               <AudioPaar text={v.tr} gross />
             </div>
             <p className="mt-3 text-xl">{v.de}</p>
-            <div className="mt-5 flex items-start gap-2 rounded-xl bg-muted/70 p-3">
+            <div className="mt-4">
+              <Nachsprechen ziel={v.tr} ohneBewertung />
+            </div>
+            <div className="mt-4 flex items-start gap-2 rounded-xl bg-muted/70 p-3">
               <div className="flex-1">
                 <p lang="tr" className="font-serif text-lg">
                   {v.beispiel.tr}
@@ -340,81 +344,10 @@ function SchrittGrammatik({ lektion, onFertig }: { lektion: Lektion; onFertig: (
 
 /* ── 4. Dialog ──────────────────────────────────────────── */
 
-const TONHOEHE: Record<string, number> = { Pasha: 0.8, Sherin: 1.1 };
-
 function SchrittDialog({ lektion, onFertig }: { lektion: Lektion; onFertig: () => void }) {
-  const [uebersetzung, setUebersetzung] = useState(true);
-  const [aktiv, setAktiv] = useState<number | null>(null);
-  const [laeuft, setLaeuft] = useState(false);
-  const zeilen = lektion.dialog.zeilen;
-
-  const abbruch = useRef(false);
-  useEffect(() => () => {
-    abbruch.current = true;
-  }, []);
-
-  async function alles() {
-    if (laeuft) {
-      abbruch.current = true;
-      stopp();
-      setLaeuft(false);
-      setAktiv(null);
-      return;
-    }
-    abbruch.current = false;
-    setLaeuft(true);
-    for (let i = 0; i < zeilen.length; i++) {
-      if (abbruch.current) break;
-      setAktiv(i);
-      await sprich(zeilen[i].tr, { tonhoehe: TONHOEHE[zeilen[i].sprecher] ?? 1.25 });
-    }
-    if (!abbruch.current) {
-      setAktiv(null);
-      setLaeuft(false);
-    }
-  }
-
   return (
     <div className="flex flex-col gap-4">
-      <div>
-        <h2 className="text-2xl font-semibold">Dialog</h2>
-        <p className="font-hand text-2xl text-accent">{lektion.dialog.titel}</p>
-      </div>
-      <div className="flex flex-wrap gap-2">
-        <Button variant={laeuft ? "akzent" : "default"} onClick={alles}>
-          {laeuft ? <Square aria-hidden="true" /> : <Play aria-hidden="true" />}
-          {laeuft ? "Stopp" : "Ganzen Dialog abspielen"}
-        </Button>
-        <Button variant="outline" onClick={() => setUebersetzung((u) => !u)} aria-pressed={uebersetzung}>
-          {uebersetzung ? <EyeOff aria-hidden="true" /> : <Eye aria-hidden="true" />}
-          {uebersetzung ? "Deutsch ausblenden" : "Deutsch zeigen"}
-        </Button>
-      </div>
-      <ol className="flex flex-col gap-3">
-        {zeilen.map((z, i) => {
-          const sherin = z.sprecher === "Sherin";
-          return (
-            <li key={i} className={cn("flex", sherin ? "justify-end" : "justify-start")}>
-              <div
-                className={cn(
-                  "max-w-[88%] rounded-2xl p-3 ring-1 transition-shadow duration-200",
-                  sherin ? "rounded-br-sm bg-secondary ring-primary/20" : "rounded-bl-sm bg-card ring-border",
-                  aktiv === i && "shadow-[0_0_0_3px_var(--safran)]"
-                )}
-              >
-                <p className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">{z.sprecher}</p>
-                <div className="flex items-start gap-2">
-                  <p lang="tr" className="flex-1 font-serif text-lg leading-snug">
-                    {z.tr}
-                  </p>
-                  <AudioKnopf text={z.tr} className="-mt-1 -mr-1" />
-                </div>
-                {uebersetzung && <p className="mt-1 text-[0.95rem] text-muted-foreground">{z.de}</p>}
-              </div>
-            </li>
-          );
-        })}
-      </ol>
+      <DialogTrainer titel={lektion.dialog.titel} zeilen={lektion.dialog.zeilen} />
       <Button size="lg" onClick={onFertig}>
         Dialog geschafft <Check aria-hidden="true" />
       </Button>

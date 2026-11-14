@@ -2,7 +2,10 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Mic, Square, Play } from "lucide-react";
-import { pruefe, type Ergebnis } from "@/lib/check";
+import { motion, useReducedMotion } from "motion/react";
+import { type Ergebnis } from "@/lib/check";
+import { vergleicheWoerter, type WortTeil } from "@/lib/wortvergleich";
+import { fuehlen } from "@/lib/haptik";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -30,10 +33,12 @@ const BEWERTUNG: { wert: Ergebnis; label: string }[] = [
 ];
 
 /** Nachsprechen: Spracherkennung (tr-TR), sonst Aufnahme + Selbstbewertung. */
-export function Nachsprechen({ ziel, onBewertet }: { ziel: string; onBewertet?: (e: Ergebnis) => void }) {
+export function Nachsprechen({ ziel, onBewertet, ohneBewertung }: { ziel: string; onBewertet?: (e: Ergebnis) => void; ohneBewertung?: boolean }) {
   const [modus, setModus] = useState<"erkennung" | "aufnahme" | "keins" | null>(null);
   const [aktiv, setAktiv] = useState(false);
   const [erkannt, setErkannt] = useState<string | null>(null);
+  const [teile, setTeile] = useState<WortTeil[] | null>(null);
+  const reduziert = useReducedMotion();
   const [ergebnis, setErgebnis] = useState<Ergebnis | null>(null);
   const [aufnahmeUrl, setAufnahmeUrl] = useState<string | null>(null);
   const recRef = useRef<MediaRecorder | null>(null);
@@ -63,9 +68,15 @@ export function Nachsprechen({ ziel, onBewertet }: { ziel: string; onBewertet?: 
     r.maxAlternatives = 3;
     r.onresult = (e) => {
       const alternativen = Array.from(e.results[0] ?? []).map((a) => a.transcript);
-      const beste = alternativen.find((a) => pruefe(a, [ziel]).ergebnis !== "falsch") ?? alternativen[0] ?? "";
-      setErkannt(beste);
-      bewerten(pruefe(beste, [ziel]).ergebnis);
+      // Die Alternative nehmen, die am besten zum Zielsatz passt
+      const bewertet = alternativen.map((a) => ({ a, v: vergleicheWoerter(ziel, a) }));
+      bewertet.sort((x, y) => y.v.anteil - x.v.anteil);
+      const beste = bewertet[0];
+      setErkannt(beste?.a ?? "");
+      setTeile(beste?.v.teile ?? null);
+      const erg = beste?.v.ergebnis ?? "falsch";
+      fuehlen(erg === "falsch" ? "falsch" : "richtig");
+      bewerten(erg);
     };
     r.onerror = () => {
       setAktiv(false);
@@ -75,8 +86,10 @@ export function Nachsprechen({ ziel, onBewertet }: { ziel: string; onBewertet?: 
     r.onend = () => setAktiv(false);
     erkRef.current = r;
     setErkannt(null);
+    setTeile(null);
     setErgebnis(null);
     setAktiv(true);
+    fuehlen("tipp");
     r.start();
   }
 
@@ -109,7 +122,7 @@ export function Nachsprechen({ ziel, onBewertet }: { ziel: string; onBewertet?: 
         <div className="flex flex-wrap items-center gap-2">
           {modus === "erkennung" ? (
             <Button variant={aktiv ? "akzent" : "outline"} onClick={() => (aktiv ? erkRef.current?.stop() : starteErkennung())}>
-              <Mic aria-hidden="true" /> {aktiv ? "Ich höre zu …" : "Nachsprechen"}
+              <Mic aria-hidden="true" /> {aktiv ? "Fertig" : erkannt !== null ? "Nochmal sprechen" : "Nachsprechen"}
             </Button>
           ) : (
             <Button variant={aktiv ? "akzent" : "outline"} onClick={() => (aktiv ? recRef.current?.stop() : starteAufnahme())}>
@@ -124,15 +137,60 @@ export function Nachsprechen({ ziel, onBewertet }: { ziel: string; onBewertet?: 
           )}
         </div>
       )}
-      {erkannt !== null && (
-        <p className="text-sm">
-          Erkannt: <span className="font-serif text-base">„{erkannt || "…"}“</span>
-        </p>
+      {aktiv && modus === "erkennung" && (
+        <div className="flex items-center gap-2 text-sm text-muted-foreground" aria-live="polite">
+          <span className="flex h-5 items-end gap-0.5" aria-hidden="true">
+            {[0, 1, 2, 3].map((i) => (
+              <motion.span
+                key={i}
+                className="w-1 rounded-full bg-accent"
+                animate={reduziert ? { height: 10 } : { height: [6, 18, 8, 14, 6] }}
+                transition={{ duration: 0.9, repeat: Infinity, delay: i * 0.12 }}
+              />
+            ))}
+          </span>
+          Sprich jetzt – ich höre zu.
+        </div>
       )}
-      {(modus !== "erkennung" || erkannt !== null) && (
+      {erkannt !== null && teile && (
+        <div aria-live="polite">
+          <p className="mb-1 text-sm text-muted-foreground">So kam es an:</p>
+          <p lang="tr" className="font-serif text-xl leading-relaxed">
+            {teile.map((t, i) =>
+              t.status === null ? (
+                <span key={i}>{t.text}</span>
+              ) : (
+                <motion.span
+                  key={i}
+                  initial={reduziert ? false : { opacity: 0, y: 6 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: i * 0.05, duration: 0.2 }}
+                  className={cn(
+                    "inline-block rounded-md px-1 underline decoration-2 underline-offset-4",
+                    t.status === "ok" && "bg-secondary text-secondary-foreground decoration-primary",
+                    t.status === "fast" && "bg-safran-soft text-foreground decoration-safran decoration-wavy",
+                    t.status === "fehlt" && "bg-rose-soft text-foreground decoration-accent decoration-dotted"
+                  )}
+                >
+                  {t.text}
+                </motion.span>
+              )
+            )}
+          </p>
+          <p className="mt-1.5 flex flex-wrap gap-x-3 text-xs text-muted-foreground">
+            <span><span className="text-primary">━</span> gut</span>
+            <span><span className="text-safran">∼</span> fast</span>
+            <span><span className="text-accent">┈</span> nicht gehört</span>
+          </p>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Gehört: <span lang="tr">„{erkannt || "…"}“</span>
+          </p>
+        </div>
+      )}
+      {!ohneBewertung && (modus !== "erkennung" || erkannt !== null) && (
         <div>
           <p className="mb-1.5 text-sm text-muted-foreground">
-            {modus === "erkennung" ? "Stimmt das? Du entscheidest:" : "Vergleiche mit dem Original – wie war's?"}
+            {modus === "erkennung" ? "Mein Vorschlag ist markiert – du entscheidest:" : "Vergleiche mit dem Original – wie war's?"}
           </p>
           <div className="flex gap-2" role="group" aria-label="Selbst bewerten">
             {BEWERTUNG.map((b) => (

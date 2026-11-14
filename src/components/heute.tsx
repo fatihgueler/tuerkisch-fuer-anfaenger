@@ -183,7 +183,7 @@ export function Heute({ wochen, notizen }: { wochen: WocheKurz[]; notizen: Recor
             )}
             <Link href="/wiederholen?kurz=1" className="inline-flex min-h-14 flex-col items-center justify-center rounded-xl border-2 border-border px-3 text-sm leading-tight font-medium hover:bg-muted">
               <Timer className="size-5" aria-hidden="true" />
-              Kurzer Tag
+              Nur 5 Min.
             </Link>
           </div>
         </motion.section>

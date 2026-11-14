@@ -6,13 +6,17 @@ import { Check, Timer } from "lucide-react";
 import type { Vokabel } from "@/content/schema";
 import type { WocheKurz } from "@/content";
 import { heuteISO, positionFuer } from "@/lib/datum";
-import { AUFWAERM_LIMIT, faelligeIds } from "@/lib/leitner";
+import { faelligeIds } from "@/lib/leitner";
+
+/** 5-Minuten-Modus: wenige Karten (Fehler zuerst) + ein Satz zum Nachsprechen. */
+const KURZ_KARTEN = 6;
 import { useFortschritt, useGeladen } from "@/store/fortschritt";
 import { SeitenKopf, Seite } from "@/components/seiten-kopf";
 import { Karteikarten } from "@/components/karteikarten";
 import { AudioPaar, StimmeHinweis } from "@/components/audio";
 import { Nachsprechen } from "@/components/nachsprechen";
 import { Feier } from "@/components/feier";
+import { MinutenRing } from "@/components/minuten-ring";
 import { mischen } from "@/components/uebungen";
 import { Button } from "@/components/ui/button";
 
@@ -27,9 +31,11 @@ export function Wiederholen({ vokabeln, wochen, kurz }: { vokabeln: Record<strin
   useEffect(() => {
     if (!geladen || ids) return;
     const s = useFortschritt.getState();
-    let liste = faelligeIds(s.karten, heuteISO(), s.fehlerkiste, kurz ? AUFWAERM_LIMIT : Infinity, (id) => !!vokabeln[id]);
-    if (kurz && liste.length === 0) liste = mischen(Object.keys(s.karten).filter((id) => vokabeln[id])).slice(0, 8);
+    let liste = faelligeIds(s.karten, heuteISO(), s.fehlerkiste, kurz ? KURZ_KARTEN : Infinity, (id) => !!vokabeln[id]);
+    if (kurz && liste.length === 0) liste = mischen(Object.keys(s.karten).filter((id) => vokabeln[id])).slice(0, KURZ_KARTEN);
     setIds(liste);
+    // Noch gar keine Karten? Dann im 5-Minuten-Modus direkt zum Satz.
+    if (kurz && liste.length === 0) setPhase("satz");
   }, [geladen, ids, kurz, vokabeln]);
 
   const heute = heuteISO();
@@ -39,9 +45,28 @@ export function Wiederholen({ vokabeln, wochen, kurz }: { vokabeln: Record<strin
 
   return (
     <>
-      <SeitenKopf titel={kurz ? "Kurzer Tag" : "Wiederholen"} unter={kurz ? "10 Minuten zählen auch" : "Karteikasten"} />
+      <SeitenKopf titel={kurz ? "5 Minuten" : "Wiederholen"} unter={kurz ? "Kurzer Tag" : "Karteikasten"} />
       <Seite>
         <div className="mt-4 flex flex-col gap-4">
+          {kurz && geladen && ids && (
+            <div className="flex items-center justify-between gap-3 rounded-2xl bg-card p-3 ring-1 ring-border">
+              <MinutenRing />
+              <ol className="flex items-center gap-1.5" aria-label="Ablauf">
+                {(["karten", "satz", "fertig"] as const).map((p, i) => {
+                  const stufe = ["karten", "satz", "fertig"].indexOf(phase);
+                  return (
+                    <li
+                      key={p}
+                      aria-current={stufe === i ? "step" : undefined}
+                      className={`h-2 rounded-full transition-all duration-300 ${stufe === i ? "w-6 bg-safran" : stufe > i ? "w-2 bg-primary" : "w-2 bg-border"}`}
+                    >
+                      <span className="sr-only">{["Karten", "Satz", "Fertig"][i]}</span>
+                    </li>
+                  );
+                })}
+              </ol>
+            </div>
+          )}
           {!geladen || !ids ? (
             <div className="h-60" aria-busy="true" />
           ) : phase === "karten" ? (
@@ -49,7 +74,7 @@ export function Wiederholen({ vokabeln, wochen, kurz }: { vokabeln: Record<strin
               {kurz && (
                 <p className="flex items-center gap-2 rounded-xl bg-secondary p-3 text-secondary-foreground">
                   <Timer className="size-5 shrink-0" aria-hidden="true" />
-                  Fällige Karten + Alltagssatz – dann ist der Tag geschafft und deine Serie läuft weiter.
+                  {ids.length} Karten, dann ein Satz zum Nachsprechen – fertig. Deine Serie läuft weiter.
                 </p>
               )}
               <StimmeHinweis />
@@ -112,7 +137,7 @@ export function Wiederholen({ vokabeln, wochen, kurz }: { vokabeln: Record<strin
           )}
         </div>
       </Seite>
-      <Feier offen={feier} onSchliessen={() => setFeier(false)} titel="Aferin, Sherin!" text="10 Minuten, die zählen. Deine Serie läuft weiter." />
+      <Feier offen={feier} onSchliessen={() => setFeier(false)} titel="Aferin, Sherin!" text="5 Minuten, die zählen. Deine Serie läuft weiter." />
     </>
   );
 }
