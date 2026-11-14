@@ -1,0 +1,429 @@
+{
+  "woche": 6,
+  "lektionen": [
+    {
+      "woche": 6,
+      "tag": 1,
+      "titel": "Lebensmittel & istiyorum",
+      "kannZiel": "Lebensmittel nennen und sagen, was du möchtest",
+      "vokabeln": [
+        { "id": "w06-ekmek", "tr": "ekmek", "de": "Brot", "typ": "wort", "beispiel": { "tr": "Ekmek taze mi?", "de": "Ist das Brot frisch?" } },
+        { "id": "w06-sut", "tr": "süt", "de": "Milch", "typ": "wort", "beispiel": { "tr": "Inaya süt içiyor.", "de": "Inaya trinkt Milch." } },
+        { "id": "w06-peynir", "tr": "peynir", "de": "Käse", "typ": "wort", "beispiel": { "tr": "Kahvaltıda beyaz peynir var.", "de": "Zum Frühstück gibt es Schafskäse." } },
+        { "id": "w06-yumurta", "tr": "yumurta", "de": "Ei", "typ": "wort", "beispiel": { "tr": "İki yumurta, lütfen.", "de": "Zwei Eier, bitte." } },
+        { "id": "w06-zeytin", "tr": "zeytin", "de": "Olive", "typ": "wort", "beispiel": { "tr": "Pasha zeytini çok seviyor.", "de": "Pasha liebt Oliven." } },
+        { "id": "w06-domates", "tr": "domates", "de": "Tomate", "typ": "wort", "beispiel": { "tr": "Domatesler çok güzel.", "de": "Die Tomaten sind sehr schön." }, "merktipp": "domates klingt fast wie „Tomate“ – nur mit d." },
+        { "id": "w06-elma", "tr": "elma", "de": "Apfel", "typ": "wort", "beispiel": { "tr": "Inaya elma yiyor.", "de": "Inaya isst einen Apfel." } },
+        { "id": "w06-su", "tr": "su", "de": "Wasser", "typ": "wort", "beispiel": { "tr": "Bir bardak su, lütfen.", "de": "Ein Glas Wasser, bitte." } },
+        { "id": "w06-tavuk", "tr": "tavuk", "de": "Hähnchen", "typ": "wort", "beispiel": { "tr": "Akşam tavuk yapıyorum.", "de": "Heute Abend mache ich Hähnchen." } }
+      ],
+      "grammatik": {
+        "titel": "Ich möchte … = … istiyorum",
+        "erklaerung": [
+          "„Ich möchte“ ist istiyorum, das Ding steht davor: Su istiyorum. = Ich möchte Wasser.",
+          "Bei „irgendein / etwas“ bekommt das Ding keine Endung: Ekmek istiyorum. = Ich möchte (irgendein) Brot.",
+          "Mengen kommen vor das Ding: iki yumurta, bir bardak su."
+        ],
+        "beispiele": [
+          { "tr": "Su istiyorum.", "de": "Ich möchte Wasser." },
+          { "tr": "Inaya elma istiyor.", "de": "Inaya möchte einen Apfel." },
+          { "tr": "Peynir istiyor musun?", "de": "Möchtest du Käse?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Samstagsfrühstück",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Kahvaltı hazır! Ne istiyorsun?", "de": "Frühstück ist fertig! Was möchtest du?" },
+          { "sprecher": "Sherin", "tr": "Ekmek, peynir ve zeytin.", "de": "Brot, Käse und Oliven." },
+          { "sprecher": "Pasha", "tr": "Yumurta istiyor musun?", "de": "Möchtest du ein Ei?" },
+          { "sprecher": "Sherin", "tr": "Evet, bir yumurta lütfen.", "de": "Ja, ein Ei bitte." },
+          { "sprecher": "Pasha", "tr": "Inaya ne istiyor?", "de": "Was möchte Inaya?" },
+          { "sprecher": "Sherin", "tr": "Inaya elma ve süt istiyor.", "de": "Inaya möchte Apfel und Milch." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w06-ekmek", "w06-sut", "w06-peynir", "w06-yumurta", "w06-su"] },
+        { "art": "auswahl_de_tr", "vokabel": "w06-zeytin" },
+        { "art": "hoeren", "vokabel": "w06-domates" },
+        { "art": "satzbau", "tr": "Bir bardak su, lütfen.", "de": "Ein Glas Wasser, bitte." },
+        { "art": "auswahl_tr_de", "vokabel": "w06-tavuk" },
+        { "art": "luecke", "satz": "Su ___.", "loesung": "istiyorum", "optionen": ["istiyorum", "istemek", "istiyor"], "de": "Ich möchte Wasser." },
+        { "art": "hoeren", "vokabel": "w06-elma" },
+        { "art": "tippen", "vokabel": "w06-sut" },
+        { "art": "satzbau", "tr": "Inaya elma ve süt istiyor.", "de": "Inaya möchte Apfel und Milch." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Deckt zusammen den Frühstückstisch – nur auf Türkisch. Jeder sagt, was er möchte; du sagst auch, was Inaya möchte.",
+        "mustersaetze": [
+          { "tr": "Ben peynir ve zeytin istiyorum.", "de": "Ich möchte Käse und Oliven." },
+          { "tr": "Inaya süt istiyor.", "de": "Inaya möchte Milch." },
+          { "tr": "Sen ne istiyorsun?", "de": "Was möchtest du?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Su istiyorum.", "de": "Ich möchte Wasser.", "wann": "Beim nächsten Durst – sag es Pasha auf Türkisch." },
+      "merktipp": { "titel": "Türkisches Frühstück", "text": "Ein typisches kahvaltı: ekmek, beyaz peynir, zeytin, domates, yumurta und Tee. Wenn du die Wörter kennst, kannst du jedes Frühstück bei Pashas Familie benennen." }
+    },
+    {
+      "woche": 6,
+      "tag": 2,
+      "titel": "DAS Brot: Akkusativ",
+      "kannZiel": "am Tisch um bestimmte Dinge bitten",
+      "vokabeln": [
+        { "id": "w06-almak", "tr": "almak", "de": "nehmen / kaufen / holen", "typ": "wort", "beispiel": { "tr": "Ekmek alıyorum.", "de": "Ich kaufe Brot." } },
+        { "id": "w06-vermek", "tr": "vermek", "de": "geben", "typ": "wort", "beispiel": { "tr": "Kaşığı ver, lütfen.", "de": "Gib mir bitte den Löffel." } },
+        { "id": "w06-uzatir-misin", "tr": "… uzatır mısın?", "de": "Reichst du mir mal …?", "typ": "chunk", "beispiel": { "tr": "Tuzu uzatır mısın?", "de": "Reichst du mir mal das Salz?" } },
+        { "id": "w06-tuz", "tr": "tuz", "de": "Salz", "typ": "wort", "beispiel": { "tr": "Çorbada tuz var mı?", "de": "Ist Salz in der Suppe?" } },
+        { "id": "w06-seker", "tr": "şeker", "de": "Zucker", "typ": "wort", "beispiel": { "tr": "Çaya şeker istiyor musun?", "de": "Möchtest du Zucker in den Tee?" } },
+        { "id": "w06-bicak", "tr": "bıçak", "de": "Messer", "typ": "wort", "beispiel": { "tr": "Bıçak nerede?", "de": "Wo ist das Messer?" } },
+        { "id": "w06-catal", "tr": "çatal", "de": "Gabel", "typ": "wort", "beispiel": { "tr": "Inaya, çatalı bırak!", "de": "Inaya, lass die Gabel los!" } },
+        { "id": "w06-pecete", "tr": "peçete", "de": "Serviette", "typ": "wort", "beispiel": { "tr": "Peçete var mı?", "de": "Gibt es Servietten?" } },
+        { "id": "w06-tereyagi", "tr": "tereyağı", "de": "Butter", "typ": "wort", "beispiel": { "tr": "Tereyağını uzatır mısın?", "de": "Reichst du mir mal die Butter?" } }
+      ],
+      "grammatik": {
+        "titel": "Akkusativ = DAS bestimmte Ding",
+        "erklaerung": [
+          "Wenn du ein bestimmtes Ding meinst (das Brot da), bekommt es -ı/-i/-u/-ü: Ekmeği uzatır mısın?",
+          "Ohne Endung heißt es „irgendein“: Ekmek istiyorum. – mit Endung „genau das“: Ekmeği istiyorum.",
+          "Nach Vokal kommt y: Amani → Amani'yi, çay → çayı (y ist hier Teil des Wortes).",
+          "k wird wieder ğ: ekmek → ekmeği. Ausnahme: su → suyu."
+        ],
+        "tabelle": {
+          "kopf": ["Ding", "das Ding (Akk.)"],
+          "zeilen": [
+            ["ekmek", "ekmeği"],
+            ["peynir", "peyniri"],
+            ["tuz", "tuzu"],
+            ["su", "suyu"],
+            ["çatal", "çatalı"],
+            ["Amani", "Amani'yi"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Tuzu uzatır mısın?", "de": "Reichst du mir mal das Salz?" },
+          { "tr": "Ekmeği sen alıyor musun?", "de": "Holst du das Brot?" },
+          { "tr": "Amani'yi görüyor musun?", "de": "Siehst du Amani?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Am Esstisch",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Tuzu uzatır mısın?", "de": "Reichst du mir mal das Salz?" },
+          { "sprecher": "Sherin", "tr": "Tabii. Ekmeği de istiyor musun?", "de": "Klar. Willst du das Brot auch?" },
+          { "sprecher": "Pasha", "tr": "Evet, lütfen. Peyniri de.", "de": "Ja, bitte. Und den Käse." },
+          { "sprecher": "Sherin", "tr": "Inaya, çatalı bırak!", "de": "Inaya, lass die Gabel los!" },
+          { "sprecher": "Pasha", "tr": "Kaşığı ver ona.", "de": "Gib ihr den Löffel." },
+          { "sprecher": "Sherin", "tr": "Al canım, kaşığın burada.", "de": "Hier, Schatz, dein Löffel." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w06-tuz", "w06-seker", "w06-bicak", "w06-catal"] },
+        { "art": "luecke", "satz": "Tuz___ uzatır mısın?", "loesung": "u", "optionen": ["u", "ı", "yu"], "de": "Reichst du mir mal das Salz?" },
+        { "art": "luecke", "satz": "Ekme___ sen alıyor musun?", "loesung": "ği", "optionen": ["ği", "ki", "kı"], "de": "Holst du das Brot?", "hinweis": "k wird zu ğ" },
+        { "art": "auswahl_de_tr", "vokabel": "w06-uzatir-misin" },
+        { "art": "hoeren", "vokabel": "w06-tereyagi" },
+        { "art": "luecke", "satz": "Su___ ver, lütfen.", "loesung": "yu", "optionen": ["yu", "u", "yi"], "de": "Gib mir bitte das Wasser.", "hinweis": "Ausnahme: su → suyu" },
+        { "art": "satzbau", "tr": "Kaşığı ver ona.", "de": "Gib ihr den Löffel." },
+        { "art": "auswahl_tr_de", "vokabel": "w06-almak" },
+        { "art": "tippen", "vokabel": "w06-tuz" },
+        { "art": "hoeren", "vokabel": "w06-pecete" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Beim Abendessen heute: Bitte um jedes Ding nur auf Türkisch mit „… uzatır mısın?“ – Salz, Brot, Wasser, Butter. Pasha reicht es nur, wenn die Endung stimmt.",
+        "mustersaetze": [
+          { "tr": "Ekmeği uzatır mısın?", "de": "Reichst du mir mal das Brot?" },
+          { "tr": "Suyu uzatır mısın?", "de": "Reichst du mir mal das Wasser?" },
+          { "tr": "Teşekkürler!", "de": "Danke!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Tuzu uzatır mısın?", "de": "Reichst du mir mal das Salz?", "wann": "Heute beim Abendessen – mindestens einmal." },
+      "merktipp": { "titel": "Bestimmt = Endung", "text": "Deutsch: „das“ vor dem Wort. Türkisch: Endung hinten. Ekmek = Brot, ekmeği = DAS Brot. Wenn du auf etwas zeigst, braucht es die Endung." }
+    },
+    {
+      "woche": 6,
+      "tag": 3,
+      "titel": "Im Laden – siz",
+      "kannZiel": "höflich im Laden einkaufen",
+      "vokabeln": [
+        { "id": "w06-alabilir-miyim", "tr": "… alabilir miyim?", "de": "Kann ich … haben?", "typ": "chunk", "beispiel": { "tr": "İki ekmek alabilir miyim?", "de": "Kann ich zwei Brote haben?" } },
+        { "id": "w06-ne-kadar", "tr": "Ne kadar?", "de": "Wie viel (kostet das)?", "typ": "chunk", "beispiel": { "tr": "Bu ne kadar?", "de": "Wie viel kostet das?" } },
+        { "id": "w06-kilo", "tr": "kilo", "de": "Kilo", "typ": "wort", "beispiel": { "tr": "Bir kilo domates, lütfen.", "de": "Ein Kilo Tomaten, bitte." } },
+        { "id": "w06-yarim", "tr": "yarım", "de": "halb", "typ": "wort", "beispiel": { "tr": "Yarım kilo peynir.", "de": "Ein halbes Kilo Käse." } },
+        { "id": "w06-tane", "tr": "tane", "de": "Stück", "typ": "wort", "beispiel": { "tr": "Üç tane elma.", "de": "Drei Äpfel (Stück)." } },
+        { "id": "w06-poset", "tr": "poşet", "de": "Tüte", "typ": "wort", "beispiel": { "tr": "Poşet ister misiniz?", "de": "Möchten Sie eine Tüte?" } },
+        { "id": "w06-kasa", "tr": "kasa", "de": "Kasse", "typ": "wort", "beispiel": { "tr": "Kasa nerede?", "de": "Wo ist die Kasse?" } },
+        { "id": "w06-buyurun", "tr": "Buyurun!", "de": "Bitte schön! / Hier, bitte!", "typ": "chunk", "beispiel": { "tr": "Buyurun, ne istiyorsunuz?", "de": "Bitte schön, was möchten Sie?" } },
+        { "id": "w06-baska-bir-sey", "tr": "Başka bir şey?", "de": "Sonst noch etwas?", "typ": "chunk", "beispiel": { "tr": "Başka bir şey ister misiniz?", "de": "Möchten Sie sonst noch etwas?" } }
+      ],
+      "grammatik": {
+        "titel": "siz – die höfliche Form",
+        "erklaerung": [
+          "Mit Fremden (Laden, Arzt, Amt) sagt man siz statt sen – wie „Sie“.",
+          "Die Endung dafür ist -sınız/-siniz/-sunuz/-sünüz: Nasılsınız? = Wie geht es Ihnen?",
+          "In der Familie bleibt es bei sen – mit Pasha, Inaya und Amani.",
+          "„… alabilir miyim?“ (Kann ich … haben?) ist dein höflicher Allzweck-Satz im Laden."
+        ],
+        "tabelle": {
+          "kopf": ["sen (du)", "siz (Sie)"],
+          "zeilen": [
+            ["Nasılsın?", "Nasılsınız?"],
+            ["Ne istiyorsun?", "Ne istiyorsunuz?"],
+            ["İster misin?", "İster misiniz?"],
+            ["Teşekkür ederim.", "Teşekkür ederim."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "İki ekmek alabilir miyim?", "de": "Kann ich zwei Brote haben?" },
+          { "tr": "Poşet ister misiniz?", "de": "Möchten Sie eine Tüte?" },
+          { "tr": "Bu ne kadar?", "de": "Wie viel kostet das?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Im türkischen Laden",
+        "zeilen": [
+          { "sprecher": "Verkäufer", "tr": "Buyurun!", "de": "Bitte schön!" },
+          { "sprecher": "Sherin", "tr": "Merhaba! İki ekmek alabilir miyim?", "de": "Hallo! Kann ich zwei Brote haben?" },
+          { "sprecher": "Verkäufer", "tr": "Tabii. Başka bir şey?", "de": "Natürlich. Sonst noch etwas?" },
+          { "sprecher": "Sherin", "tr": "Yarım kilo beyaz peynir, lütfen. Ne kadar?", "de": "Ein halbes Kilo Schafskäse, bitte. Wie viel macht das?" },
+          { "sprecher": "Verkäufer", "tr": "Toplam dokuz euro. Poşet ister misiniz?", "de": "Zusammen neun Euro. Möchten Sie eine Tüte?" },
+          { "sprecher": "Sherin", "tr": "Hayır, teşekkür ederim. Buyurun.", "de": "Nein, danke. Bitte schön." },
+          { "sprecher": "Verkäufer", "tr": "Teşekkürler, iyi günler!", "de": "Danke, schönen Tag noch!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_de_tr", "vokabel": "w06-alabilir-miyim" },
+        { "art": "zuordnen", "vokabeln": ["w06-kilo", "w06-yarim", "w06-tane", "w06-poset"] },
+        { "art": "hoeren", "vokabel": "w06-buyurun" },
+        { "art": "luecke", "satz": "Nasıl___?", "loesung": "sınız", "optionen": ["sınız", "sın", "ım"], "de": "Wie geht es Ihnen? (zum Verkäufer)" },
+        { "art": "satzbau", "tr": "İki ekmek alabilir miyim?", "de": "Kann ich zwei Brote haben?" },
+        { "art": "auswahl_tr_de", "vokabel": "w06-baska-bir-sey" },
+        { "art": "luecke", "satz": "Poşet ister ___?", "loesung": "misiniz", "optionen": ["misiniz", "misin", "miyim"], "de": "Möchten Sie eine Tüte?" },
+        { "art": "hoeren", "vokabel": "w06-ne-kadar" },
+        { "art": "tippen", "vokabel": "w06-kasa" },
+        { "art": "satzbau", "tr": "Yarım kilo peynir, lütfen.", "de": "Ein halbes Kilo Käse, bitte." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Rollenspiel: Pasha ist der Verkäufer im türkischen Laden (er siezt dich!). Du kaufst Brot, Käse und Oliven, fragst nach dem Preis und bezahlst.",
+        "mustersaetze": [
+          { "tr": "Bir ekmek alabilir miyim?", "de": "Kann ich ein Brot haben?" },
+          { "tr": "Yarım kilo zeytin, lütfen.", "de": "Ein halbes Kilo Oliven, bitte." },
+          { "tr": "Ne kadar?", "de": "Wie viel kostet das?" }
+        ]
+      },
+      "alltagssatz": { "tr": "… alabilir miyim?", "de": "Kann ich … haben?", "wann": "Beim nächsten Einkauf im türkischen Laden oder Bäcker – trau dich!" },
+      "merktipp": { "titel": "Buyurun – das Zauberwort", "text": "Buyurun hörst du ständig: „Bitte schön“, „Hier, bitte“, „Treten Sie ein“, „Was darf's sein?“. Wenn dir jemand etwas gibt oder anbietet, ist Buyurun nie falsch." }
+    },
+    {
+      "woche": 6,
+      "tag": 4,
+      "titel": "Preise & bezahlen",
+      "kannZiel": "nach Preisen fragen, handeln und bezahlen",
+      "vokabeln": [
+        { "id": "w06-pahali", "tr": "pahalı", "de": "teuer", "typ": "wort", "beispiel": { "tr": "Bu çok pahalı!", "de": "Das ist sehr teuer!" } },
+        { "id": "w06-ucuz", "tr": "ucuz", "de": "billig / günstig", "typ": "wort", "beispiel": { "tr": "Pazarda domates ucuz.", "de": "Auf dem Markt sind Tomaten günstig." } },
+        { "id": "w06-para", "tr": "para", "de": "Geld", "typ": "wort", "beispiel": { "tr": "Yanımda para yok.", "de": "Ich habe kein Geld dabei." } },
+        { "id": "w06-nakit", "tr": "nakit", "de": "bar", "typ": "wort", "beispiel": { "tr": "Sadece nakit mi?", "de": "Nur bar?" } },
+        { "id": "w06-kartla-odeyebilir-miyim", "tr": "Kartla ödeyebilir miyim?", "de": "Kann ich mit Karte zahlen?", "typ": "chunk", "beispiel": { "tr": "Pardon, kartla ödeyebilir miyim?", "de": "Entschuldigung, kann ich mit Karte zahlen?" } },
+        { "id": "w06-fis", "tr": "fiş", "de": "Kassenzettel / Bon", "typ": "wort", "beispiel": { "tr": "Fiş istiyor musunuz?", "de": "Möchten Sie den Bon?" } },
+        { "id": "w06-indirim", "tr": "indirim", "de": "Rabatt", "typ": "wort", "beispiel": { "tr": "İndirim var mı?", "de": "Gibt es einen Rabatt?" } },
+        { "id": "w06-taze", "tr": "taze", "de": "frisch", "typ": "wort", "beispiel": { "tr": "Domatesler taze mi?", "de": "Sind die Tomaten frisch?" } }
+      ],
+      "grammatik": {
+        "titel": "Preise sagen",
+        "erklaerung": [
+          "Preise sagt man wie im Deutschen: Zahl + euro + Zahl: iki euro elli (2,50 €).",
+          "„pro Kilo“ heißt kilosu: Kilosu kaç euro? = Was kostet das Kilo?",
+          "Toplam = insgesamt: Toplam on euro."
+        ],
+        "tabelle": {
+          "kopf": ["Preis", "gesprochen"],
+          "zeilen": [
+            ["2,50 €", "iki euro elli"],
+            ["4,99 €", "dört euro doksan dokuz"],
+            ["12 €", "on iki euro"],
+            ["35 €", "otuz beş euro"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kilosu kaç euro?", "de": "Was kostet das Kilo?" },
+          { "tr": "Toplam on iki euro.", "de": "Zusammen zwölf Euro." },
+          { "tr": "Kartla ödeyebilir miyim?", "de": "Kann ich mit Karte zahlen?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Auf dem Wochenmarkt",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Domatesler taze mi?", "de": "Sind die Tomaten frisch?" },
+          { "sprecher": "Verkäufer", "tr": "Çok taze! Bugün geldi.", "de": "Ganz frisch! Heute gekommen." },
+          { "sprecher": "Sherin", "tr": "Kilosu kaç euro?", "de": "Was kostet das Kilo?" },
+          { "sprecher": "Verkäufer", "tr": "İki euro elli.", "de": "Zwei Euro fünfzig." },
+          { "sprecher": "Sherin", "tr": "Biraz pahalı … İndirim var mı?", "de": "Etwas teuer … Gibt's Rabatt?" },
+          { "sprecher": "Verkäufer", "tr": "Peki, iki kilo dört euro olsun.", "de": "Na gut, zwei Kilo für vier Euro." },
+          { "sprecher": "Sherin", "tr": "Tamam! Kartla ödeyebilir miyim?", "de": "Okay! Kann ich mit Karte zahlen?" },
+          { "sprecher": "Verkäufer", "tr": "Maalesef sadece nakit.", "de": "Leider nur bar." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w06-pahali", "w06-ucuz", "w06-taze", "w06-nakit"] },
+        { "art": "auswahl_de_tr", "vokabel": "w06-kartla-odeyebilir-miyim" },
+        { "art": "hoeren", "vokabel": "w06-indirim" },
+        { "art": "luecke", "satz": "4,50 € = dört euro ___", "loesung": "elli", "optionen": ["elli", "beş", "kırk"], "de": "vier Euro fünfzig" },
+        { "art": "satzbau", "tr": "Kilosu kaç euro?", "de": "Was kostet das Kilo?" },
+        { "art": "auswahl_tr_de", "vokabel": "w06-fis" },
+        { "art": "hoeren", "vokabel": "w06-para" },
+        { "art": "tippen", "vokabel": "w06-ucuz" },
+        { "art": "satzbau", "tr": "Bu çok pahalı!", "de": "Das ist sehr teuer!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Marktspiel: Leg fünf Dinge aus der Küche auf den Tisch. Pasha ist Händler und nennt Preise auf Türkisch. Du fragst nach, findest es teuer und handelst einen Rabatt aus.",
+        "mustersaetze": [
+          { "tr": "Bu ne kadar?", "de": "Was kostet das?" },
+          { "tr": "Çok pahalı! İndirim var mı?", "de": "Zu teuer! Gibt's Rabatt?" },
+          { "tr": "Tamam, alıyorum.", "de": "Okay, ich nehme es." }
+        ]
+      },
+      "alltagssatz": { "tr": "Kartla ödeyebilir miyim?", "de": "Kann ich mit Karte zahlen?", "wann": "Beim nächsten Einkauf – auch an einer deutschen Kasse mal leise üben." },
+      "merktipp": { "titel": "Handeln gehört dazu", "text": "Auf türkischen Märkten ist ein freundliches „İndirim var mı?“ ganz normal. Mit einem Lächeln und ein bisschen Türkisch klappt es oft." }
+    },
+    {
+      "woche": 6,
+      "tag": 5,
+      "titel": "Am Tisch",
+      "kannZiel": "beim Essen sagen, wie es schmeckt, und etwas anbieten",
+      "vokabeln": [
+        { "id": "w06-lezzetli", "tr": "lezzetli", "de": "lecker", "typ": "wort", "beispiel": { "tr": "Çorba çok lezzetli!", "de": "Die Suppe ist sehr lecker!" } },
+        { "id": "w06-doydum", "tr": "Doydum.", "de": "Ich bin satt.", "typ": "chunk", "beispiel": { "tr": "Teşekkürler, doydum.", "de": "Danke, ich bin satt." } },
+        { "id": "w06-biraz-daha", "tr": "biraz daha", "de": "noch etwas", "typ": "chunk", "beispiel": { "tr": "Biraz daha pilav, lütfen.", "de": "Noch etwas Reis, bitte." } },
+        { "id": "w06-ister-misin", "tr": "İster misin?", "de": "Möchtest du?", "typ": "chunk", "beispiel": { "tr": "Çay ister misin?", "de": "Möchtest du Tee?" } },
+        { "id": "w06-tatli", "tr": "tatlı", "de": "süß / Nachtisch", "typ": "wort", "beispiel": { "tr": "Tatlı da var!", "de": "Es gibt auch Nachtisch!" } },
+        { "id": "w06-aci", "tr": "acı", "de": "scharf", "typ": "wort", "beispiel": { "tr": "Bu biraz acı.", "de": "Das ist etwas scharf." } },
+        { "id": "w06-tuzlu", "tr": "tuzlu", "de": "salzig", "typ": "wort", "beispiel": { "tr": "Peynir çok tuzlu.", "de": "Der Käse ist sehr salzig." } },
+        { "id": "w06-corba", "tr": "çorba", "de": "Suppe", "typ": "wort", "beispiel": { "tr": "Akşam mercimek çorbası var.", "de": "Heute Abend gibt es Linsensuppe." } },
+        { "id": "w06-pilav", "tr": "pilav", "de": "Reis (gekocht)", "typ": "wort", "beispiel": { "tr": "Pilav ister misin?", "de": "Möchtest du Reis?" } }
+      ],
+      "grammatik": {
+        "titel": "Anbieten & ablehnen",
+        "erklaerung": [
+          "Etwas anbieten: … ister misin? (zu Fremden: ister misiniz?)",
+          "Annehmen: Evet, lütfen. / Biraz daha, lütfen.",
+          "Ablehnen: Yok, teşekkürler. / Doydum. – Ein „Nein“ wird oft mit „yok“ statt „hayır“ gesagt, das klingt weicher.",
+          "-lı/-li macht aus einem Nomen ein Adjektiv: tuz → tuzlu (salzig), lezzet → lezzetli (lecker)."
+        ],
+        "beispiele": [
+          { "tr": "Çay ister misin?", "de": "Möchtest du Tee?" },
+          { "tr": "Yok, teşekkürler. Doydum.", "de": "Nein, danke. Ich bin satt." },
+          { "tr": "Biraz daha çorba, lütfen.", "de": "Noch etwas Suppe, bitte." }
+        ]
+      },
+      "dialog": {
+        "titel": "Pasha kocht",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Çorba nasıl?", "de": "Wie ist die Suppe?" },
+          { "sprecher": "Sherin", "tr": "Çok lezzetli! Ama biraz acı.", "de": "Sehr lecker! Aber etwas scharf." },
+          { "sprecher": "Pasha", "tr": "Pilav ister misin?", "de": "Möchtest du Reis?" },
+          { "sprecher": "Sherin", "tr": "Evet, biraz daha lütfen.", "de": "Ja, noch etwas, bitte." },
+          { "sprecher": "Pasha", "tr": "Tatlı da var!", "de": "Es gibt auch Nachtisch!" },
+          { "sprecher": "Sherin", "tr": "Yok, teşekkürler. Doydum!", "de": "Nein, danke. Ich bin satt!" },
+          { "sprecher": "Pasha", "tr": "Tatlıya her zaman yer var!", "de": "Für Nachtisch ist immer Platz!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w06-lezzetli", "w06-aci", "w06-tuzlu", "w06-tatli"] },
+        { "art": "auswahl_de_tr", "vokabel": "w06-doydum" },
+        { "art": "hoeren", "vokabel": "w06-ister-misin" },
+        { "art": "satzbau", "tr": "Biraz daha çorba, lütfen.", "de": "Noch etwas Suppe, bitte." },
+        { "art": "luecke", "satz": "Peynir çok tuz___.", "loesung": "lu", "optionen": ["lu", "lı", "li"], "de": "Der Käse ist sehr salzig." },
+        { "art": "auswahl_tr_de", "vokabel": "w06-corba" },
+        { "art": "hoeren", "vokabel": "w06-pilav" },
+        { "art": "satzbau", "tr": "Yok, teşekkürler. Doydum.", "de": "Nein, danke. Ich bin satt." },
+        { "art": "tippen", "vokabel": "w06-biraz-daha" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Heute beim Abendessen: Biete Pasha alles auf Türkisch an („… ister misin?“), sag, wie es schmeckt, und lehne den Nachtisch höflich ab – oder auch nicht.",
+        "mustersaetze": [
+          { "tr": "Çok lezzetli!", "de": "Sehr lecker!" },
+          { "tr": "Su ister misin?", "de": "Möchtest du Wasser?" },
+          { "tr": "Yok, teşekkürler. Doydum.", "de": "Nein, danke. Ich bin satt." }
+        ]
+      },
+      "alltagssatz": { "tr": "Çok lezzetli!", "de": "Sehr lecker!", "wann": "Heute beim Essen – bei Pasha oder seiner Mama ist das das schönste Kompliment." },
+      "merktipp": { "titel": "Doydum statt Hayır", "text": "Bei türkischen Familien wird dir garantiert nachgelegt. „Doydum, teşekkürler“ (ich bin satt, danke) ist die höfliche Bremse – ein bloßes „Hayır“ wirkt eher streng." }
+    },
+    {
+      "woche": 6,
+      "tag": 6,
+      "titel": "Festigungstag: Der Wocheneinkauf",
+      "kannZiel": "einen kompletten Einkauf auf Türkisch erledigen",
+      "vokabeln": [
+        { "id": "w06-afiyet-olsun", "tr": "Afiyet olsun!", "de": "Guten Appetit! / Lass es dir schmecken!", "typ": "chunk", "beispiel": { "tr": "Yemek hazır. Afiyet olsun!", "de": "Das Essen ist fertig. Guten Appetit!" } },
+        { "id": "w06-sira-kimde", "tr": "Sıra kimde?", "de": "Wer ist dran?", "typ": "chunk", "beispiel": { "tr": "Pardon, sıra kimde?", "de": "Entschuldigung, wer ist dran?" } },
+        { "id": "w06-para-ustu", "tr": "para üstü", "de": "Wechselgeld", "typ": "chunk", "beispiel": { "tr": "Buyurun, para üstünüz.", "de": "Bitte, Ihr Wechselgeld." } },
+        { "id": "w06-alisveris-listesi", "tr": "alışveriş listesi", "de": "Einkaufsliste", "typ": "chunk", "beispiel": { "tr": "Alışveriş listesi nerede?", "de": "Wo ist die Einkaufsliste?" } },
+        { "id": "w06-unutma", "tr": "Unutma!", "de": "Vergiss nicht!", "typ": "chunk", "beispiel": { "tr": "Sütü unutma!", "de": "Vergiss die Milch nicht!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "istiyorum + Ding ohne Endung = irgendeins. Mit -ı/-i/-u/-ü = genau das.",
+          "Fremde siezt du mit -sınız: ister misiniz?, nasılsınız?"
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["irgendein", "Ekmek istiyorum."],
+            ["genau das", "Ekmeği uzatır mısın?"],
+            ["höflich", "Poşet ister misiniz?"],
+            ["bitten", "Bir kilo … alabilir miyim?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Sütü unutma!", "de": "Vergiss die Milch nicht!" },
+          { "tr": "Bir kilo elma alabilir miyim?", "de": "Kann ich ein Kilo Äpfel haben?" },
+          { "tr": "Buyurun, para üstünüz.", "de": "Bitte, Ihr Wechselgeld." }
+        ]
+      },
+      "dialog": {
+        "titel": "Großeinkauf mit Liste",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Alışveriş listesi sende mi?", "de": "Hast du die Einkaufsliste?" },
+          { "sprecher": "Sherin", "tr": "Evet. Süt, ekmek, peynir … ve bez. Bezi unutma!", "de": "Ja. Milch, Brot, Käse … und Windeln. Vergiss die Windeln nicht!" },
+          { "sprecher": "Pasha", "tr": "Tamam. Ben tavuğu alıyorum.", "de": "Okay. Ich hole das Hähnchen." },
+          { "sprecher": "Verkäuferin", "tr": "Sıra kimde?", "de": "Wer ist dran?" },
+          { "sprecher": "Sherin", "tr": "Bende. Yarım kilo zeytin alabilir miyim?", "de": "Ich. Kann ich ein halbes Kilo Oliven haben?" },
+          { "sprecher": "Verkäuferin", "tr": "Buyurun. Başka bir şey?", "de": "Bitte schön. Sonst noch etwas?" },
+          { "sprecher": "Sherin", "tr": "Hayır, teşekkürler. Ne kadar?", "de": "Nein, danke. Was macht das?" },
+          { "sprecher": "Verkäuferin", "tr": "Altı euro. Buyurun, para üstünüz.", "de": "Sechs Euro. Bitte, Ihr Wechselgeld." },
+          { "sprecher": "Sherin", "tr": "Teşekkür ederim, iyi günler!", "de": "Danke, schönen Tag noch!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w06-afiyet-olsun", "w06-sira-kimde", "w06-unutma", "w06-para-ustu"] },
+        { "art": "hoeren", "vokabel": "w06-alisveris-listesi" },
+        { "art": "luecke", "satz": "Süt___ unutma!", "loesung": "ü", "optionen": ["ü", "u", "i"], "de": "Vergiss die Milch nicht!" },
+        { "art": "satzbau", "tr": "Bir kilo elma alabilir miyim?", "de": "Kann ich ein Kilo Äpfel haben?" },
+        { "art": "auswahl_de_tr", "vokabel": "w06-afiyet-olsun" },
+        { "art": "luecke", "satz": "Ben tavu___ alıyorum.", "loesung": "ğu", "optionen": ["ğu", "ku", "u"], "de": "Ich hole das Hähnchen.", "hinweis": "k wird zu ğ" },
+        { "art": "hoeren", "vokabel": "w06-kartla-odeyebilir-miyim" },
+        { "art": "auswahl_de_tr", "vokabel": "w06-buyurun" },
+        { "art": "tippen", "vokabel": "w06-unutma" },
+        { "art": "satzbau", "tr": "Sıra kimde?", "de": "Wer ist dran?" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Schreibt die Einkaufsliste für nächste Woche gemeinsam auf Türkisch. Dann spielt den Einkauf von Anfang bis Ende durch – Pasha ist Verkäufer und siezt dich.",
+        "mustersaetze": [
+          { "tr": "Sıra bende. … alabilir miyim?", "de": "Ich bin dran. Kann ich … haben?" },
+          { "tr": "Toplam ne kadar?", "de": "Was macht das zusammen?" },
+          { "tr": "Kartla ödeyebilir miyim?", "de": "Kann ich mit Karte zahlen?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Afiyet olsun!", "de": "Guten Appetit!", "wann": "Heute vor jedem Essen – auch für Inaya und Amani." },
+      "merktipp": { "titel": "Afiyet olsun – hin und zurück", "text": "Wer das Essen serviert, sagt „Afiyet olsun“. Und wenn jemand isst, während du dazukommst, sagst du es auch. Ein Satz, den du ab heute täglich brauchst." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Pasha ist Verkäufer. Kauf drei Dinge, frag nach dem Preis und zahl – mit siz!", "hilfe": { "tr": "İki ekmek alabilir miyim? Ne kadar? Kartla ödeyebilir miyim?", "de": "Kann ich zwei Brote haben? Was kostet das? Kann ich mit Karte zahlen?" } },
+      { "situation": "Bitte am Tisch um drei bestimmte Dinge.", "hilfe": { "tr": "Tuzu uzatır mısın? Ekmeği uzatır mısın?", "de": "Reichst du mir das Salz? Das Brot?" } },
+      { "situation": "Sag, wie das Essen schmeckt, und lehne Nachschlag höflich ab.", "hilfe": { "tr": "Çok lezzetli! Teşekkürler, doydum.", "de": "Sehr lecker! Danke, ich bin satt." } }
+    ]
+  }
+}
