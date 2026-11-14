@@ -45,7 +45,7 @@ export function Einstellungen() {
 
   return (
     <>
-      <SeitenKopf titel="Einstellungen" />
+      <SeitenKopf titel="Einstellungen" ohneZahnrad />
       <Seite>
         {!geladen ? (
           <div className="h-60" aria-busy="true" />

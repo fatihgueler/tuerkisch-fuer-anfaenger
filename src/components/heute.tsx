@@ -105,7 +105,7 @@ export function Heute({ wochen, notizen }: { wochen: WocheKurz[]; notizen: Recor
         </div>
       </header>
 
-      <main className="pb-nav mx-auto flex w-full max-w-xl flex-col gap-4 px-4 pt-4">
+      <main id="inhalt" className="pb-nav mx-auto flex w-full max-w-xl flex-col gap-4 px-4 pt-4">
         {istGeburtstag(heute) && (
           <motion.div {...einblenden(0)} className="flex items-center gap-3 rounded-2xl bg-accent p-4 text-accent-foreground">
             <Cake className="size-8 shrink-0" aria-hidden="true" />

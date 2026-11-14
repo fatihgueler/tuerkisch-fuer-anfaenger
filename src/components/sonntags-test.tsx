@@ -55,7 +55,7 @@ export function SonntagsTest({ woche, vokabeln }: { woche: Woche; vokabeln: Reco
           )}
         </div>
       </header>
-      <main className="flex-1 px-4 pt-5 pb-[calc(2rem+env(safe-area-inset-bottom))]">
+      <main id="inhalt" className="flex-1 px-4 pt-5 pb-[calc(2rem+env(safe-area-inset-bottom))]">
         {entwurf ? (
           <Fragen woche={woche.woche} entwurf={entwurf} vokabeln={vokabeln} />
         ) : zeigeErgebnis ? (

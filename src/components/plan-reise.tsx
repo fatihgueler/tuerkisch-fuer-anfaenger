@@ -82,14 +82,14 @@ export function PlanReise({ vorhanden }: { vorhanden: number[] }) {
                   >
                     {s.woche}
                   </span>
-                  <div className={cn("min-w-0 flex-1 rounded-xl p-3", ist ? "bg-safran-soft ring-2 ring-safran" : "bg-card ring-1 ring-border")}>
+                  <div className={cn("relative min-w-0 flex-1 rounded-xl p-3", verlinkt && "transition-colors hover:bg-muted", ist ? "bg-safran-soft ring-2 ring-safran" : "bg-card ring-1 ring-border")}>
                     <p className="text-xs text-muted-foreground">
                       {datumLesbar(datumFuer(s.woche, s.woche === 0 ? 6 : 1), false)}
                       {ist && <span className="ml-2 font-semibold text-safran-ink">· Du bist hier</span>}
                     </p>
                     <h3 className="text-lg leading-snug font-semibold">
                       {verlinkt ? (
-                        <Link href={`/lektion/${s.woche}/${s.woche === 0 ? 6 : 1}`} className="underline-offset-4 hover:underline">
+                        <Link href={`/lektion/${s.woche}/${s.woche === 0 ? 6 : 1}`} className="after:absolute after:inset-0 after:rounded-xl">
                           {s.thema}
                         </Link>
                       ) : (

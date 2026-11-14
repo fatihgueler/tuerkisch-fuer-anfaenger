@@ -4,7 +4,7 @@ import { IznikBand, Tulpe } from "@/components/iznik";
 export default async function PinSeite({ searchParams }: { searchParams: Promise<{ weiter?: string }> }) {
   const { weiter } = await searchParams;
   return (
-    <main className="flex min-h-dvh flex-col">
+    <main id="inhalt" className="flex min-h-dvh flex-col">
       <IznikBand />
       <div className="mx-auto flex w-full max-w-sm flex-1 flex-col justify-center px-6 py-10">
         <Tulpe className="mb-4 h-12 w-10" />

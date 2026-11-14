@@ -41,6 +41,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <script dangerouslySetInnerHTML={{ __html: themeSkript }} />
       </head>
       <body>
+        <a
+          href="#inhalt"
+          className="sr-only z-[70] rounded-lg bg-primary px-4 py-3 font-medium text-primary-foreground focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+        >
+          Zum Inhalt springen
+        </a>
         <AppStart />
         {children}
         <BottomNav />

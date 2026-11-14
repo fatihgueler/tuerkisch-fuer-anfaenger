@@ -110,7 +110,7 @@ export function LektionPlayer({
         </p>
       </header>
 
-      <main className="flex-1 px-4 pt-5 pb-[calc(2rem+env(safe-area-inset-bottom))]">
+      <main id="inhalt" className="flex-1 px-4 pt-5 pb-[calc(2rem+env(safe-area-inset-bottom))]">
         {schritt === 0 && (
           <div className="mb-5 rounded-2xl bg-secondary p-4">
             <p className="text-sm font-semibold tracking-wide text-secondary-foreground uppercase">Heute lernst du:</p>

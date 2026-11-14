@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Settings } from "lucide-react";
 import { IznikBand } from "@/components/iznik";
 
-export function SeitenKopf({ titel, unter }: { titel: React.ReactNode; unter?: React.ReactNode }) {
+export function SeitenKopf({ titel, unter, ohneZahnrad }: { titel: React.ReactNode; unter?: React.ReactNode; ohneZahnrad?: boolean }) {
   return (
     <header className="relative">
       <IznikBand />
@@ -11,6 +11,7 @@ export function SeitenKopf({ titel, unter }: { titel: React.ReactNode; unter?: R
           {unter && <p className="text-sm font-medium text-muted-foreground">{unter}</p>}
           <h1 className="text-[1.9rem] leading-tight font-semibold text-balance">{titel}</h1>
         </div>
+        {!ohneZahnrad && (
         <Link
           href="/einstellungen"
           aria-label="Einstellungen"
@@ -18,11 +19,12 @@ export function SeitenKopf({ titel, unter }: { titel: React.ReactNode; unter?: R
         >
           <Settings className="size-6" aria-hidden="true" />
         </Link>
+        )}
       </div>
     </header>
   );
 }
 
 export function Seite({ children }: { children: React.ReactNode }) {
-  return <main className="pb-nav mx-auto w-full max-w-xl px-4">{children}</main>;
+  return <main id="inhalt" className="pb-nav mx-auto w-full max-w-xl px-4">{children}</main>;
 }
