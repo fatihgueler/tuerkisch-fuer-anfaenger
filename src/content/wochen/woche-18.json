@@ -1,0 +1,1615 @@
+{
+  "woche": 18,
+  "lektionen": [
+    {
+      "woche": 18,
+      "tag": 1,
+      "titel": "Haare schneiden",
+      "kannZiel": "über Haarschnitte sprechen – wie im Salon",
+      "vokabeln": [
+        {
+          "id": "w18-sac",
+          "tr": "saç",
+          "de": "Haar(e)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Saçın çok güzel olmuş!",
+            "de": "Deine Haare sind richtig schön geworden!"
+          }
+        },
+        {
+          "id": "w18-kesmek",
+          "tr": "kesmek",
+          "de": "schneiden",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Saçımı kısa kestirdim.",
+            "de": "Ich habe mir die Haare kurz schneiden lassen."
+          }
+        },
+        {
+          "id": "w18-boyamak",
+          "tr": "boyamak",
+          "de": "färben / streichen",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Saçımı kızıla boyamak istiyorum.",
+            "de": "Ich möchte meine Haare rot färben."
+          }
+        },
+        {
+          "id": "w18-uzatmak",
+          "tr": "uzatmak",
+          "de": "wachsen lassen / verlängern",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Saçımı uzatıyorum.",
+            "de": "Ich lasse meine Haare wachsen."
+          }
+        },
+        {
+          "id": "w18-uclarini-almak",
+          "tr": "uçlarını almak",
+          "de": "Spitzen schneiden",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Sadece uçlarını alır mısınız?",
+            "de": "Würden Sie nur die Spitzen schneiden?"
+          }
+        },
+        {
+          "id": "w18-kakul",
+          "tr": "kâkül",
+          "de": "Pony",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Kâkül sana çok yakışır.",
+            "de": "Ein Pony würde dir super stehen."
+          }
+        },
+        {
+          "id": "w18-katli-kesim",
+          "tr": "katlı kesim",
+          "de": "Stufenschnitt",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Katlı kesim ister misiniz?",
+            "de": "Möchten Sie einen Stufenschnitt?"
+          }
+        },
+        {
+          "id": "w18-fon-cekmek",
+          "tr": "fön çekmek",
+          "de": "föhnen (stylen)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Fön çekeyim mi?",
+            "de": "Soll ich föhnen?"
+          },
+          "merktipp": "fön kommt vom deutschen „Föhn“ – ein deutsches Wort im Türkischen!"
+        },
+        {
+          "id": "w18-makas",
+          "tr": "makas",
+          "de": "Schere",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Makasım nerede?",
+            "de": "Wo ist meine Schere?"
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "meine Haare: saçımı, saçını",
+        "erklaerung": [
+          "Im Salon kombinierst du Besitz + Akkusativ: saç → saçım (meine Haare) → saçımı (meine Haare, als Objekt).",
+          "Saçımı kestim. = Ich habe mir die Haare geschnitten. Saçını boyadın mı? = Hast du deine Haare gefärbt?",
+          "Höflich: saçınızı (Ihre Haare): Saçınızı nasıl keseyim? (Wie soll ich Ihre Haare schneiden?)",
+          "„schneiden lassen“: kestirmek – Saçımı kestirdim. (Ich habe sie mir schneiden lassen.)"
+        ],
+        "tabelle": {
+          "kopf": [
+            "",
+            "Besitz",
+            "+ Objekt"
+          ],
+          "zeilen": [
+            [
+              "mein",
+              "saçım",
+              "saçımı"
+            ],
+            [
+              "dein",
+              "saçın",
+              "saçını"
+            ],
+            [
+              "ihr/sein",
+              "saçı",
+              "saçını"
+            ],
+            [
+              "Ihr (siz)",
+              "saçınız",
+              "saçınızı"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Saçınızı nasıl keseyim?",
+            "de": "Wie soll ich Ihre Haare schneiden?"
+          },
+          {
+            "tr": "Sadece uçlarını alır mısınız?",
+            "de": "Würden Sie nur die Spitzen schneiden?"
+          },
+          {
+            "tr": "Saçını boyadın mı?",
+            "de": "Hast du deine Haare gefärbt?"
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Sherin schneidet Elif die Haare",
+        "zeilen": [
+          {
+            "sprecher": "Sherin",
+            "tr": "Saçını nasıl keseyim?",
+            "de": "Wie soll ich dir die Haare schneiden?"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Bilmiyorum … Uzatıyorum ama uçları çok kötü.",
+            "de": "Weiß nicht … Ich lasse sie wachsen, aber die Spitzen sind total kaputt."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "O zaman sadece uçlarını alayım. Bir de hafif katlı kesim?",
+            "de": "Dann schneide ich nur die Spitzen. Und einen leichten Stufenschnitt?"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Kâkül de yapar mısın?",
+            "de": "Machst du auch einen Pony?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bence kâkül sana çok yakışır. Ama önce makasımı bulayım!",
+            "de": "Ich finde, ein Pony würde dir super stehen. Aber erst muss ich meine Schere finden!"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Sonra fön de çeker misin?",
+            "de": "Föhnst du danach auch?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Tabii! Salondaki gibi.",
+            "de": "Klar! Wie im Salon."
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w18-kesmek",
+            "w18-boyamak",
+            "w18-uzatmak",
+            "w18-fon-cekmek"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Saç___ nasıl keseyim?",
+          "loesung": "ınızı",
+          "optionen": [
+            "ınızı",
+            "ınız",
+            "ımı"
+          ],
+          "de": "Wie soll ich Ihre Haare schneiden?"
+        },
+        {
+          "art": "luecke",
+          "satz": "Saç___ kısa kestirdim.",
+          "loesung": "ımı",
+          "optionen": [
+            "ımı",
+            "ım",
+            "ını"
+          ],
+          "de": "Ich habe mir die Haare kurz schneiden lassen."
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-uclarini-almak"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w18-kakul"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Sadece uçlarını alır mısınız?",
+          "de": "Würden Sie nur die Spitzen schneiden?"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w18-katli-kesim"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-makas"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w18-sac"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Kâkül sana çok yakışır.",
+          "de": "Ein Pony würde dir super stehen."
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Du bist heute die Friseurin auf Türkisch: Berate Pasha (oder schneide ihm wirklich die Haare!) – frag, was er möchte, und kommentiere jeden Schritt auf Türkisch.",
+        "mustersaetze": [
+          {
+            "tr": "Saçını nasıl keseyim?",
+            "de": "Wie soll ich dir die Haare schneiden?"
+          },
+          {
+            "tr": "Yanlar kısa, üst biraz uzun mu?",
+            "de": "Seiten kurz, oben etwas länger?"
+          },
+          {
+            "tr": "Fön çekeyim mi?",
+            "de": "Soll ich föhnen?"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Saçını nasıl keseyim?",
+        "de": "Wie soll ich dir die Haare schneiden?",
+        "wann": "Beim nächsten Haarschnitt für Pasha oder Inaya."
+      },
+      "merktipp": {
+        "titel": "Dein Fachgebiet",
+        "text": "Diese Woche ist deine: Du kennst die Arbeit, jetzt bekommt sie türkische Wörter. kuaför, fön, makas – mit deinem Fachwissen lernst du doppelt so schnell."
+      }
+    },
+    {
+      "woche": 18,
+      "tag": 2,
+      "titel": "Haartyp & Farbe",
+      "kannZiel": "Haare beschreiben und Farbwünsche besprechen",
+      "vokabeln": [
+        {
+          "id": "w18-duz",
+          "tr": "düz",
+          "de": "glatt",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Saçlarım çok düz.",
+            "de": "Meine Haare sind sehr glatt."
+          }
+        },
+        {
+          "id": "w18-kivircik",
+          "tr": "kıvırcık",
+          "de": "lockig / kraus",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Inaya'nın saçları kıvırcık mı olacak?",
+            "de": "Bekommt Inaya Locken?"
+          }
+        },
+        {
+          "id": "w18-dalgali",
+          "tr": "dalgalı",
+          "de": "wellig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Dalgalı saç çok moda.",
+            "de": "Welliges Haar ist total angesagt."
+          }
+        },
+        {
+          "id": "w18-sacim-dokuluyor",
+          "tr": "Saçım dökülüyor.",
+          "de": "Mir fallen die Haare aus.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Doğumdan sonra birçok annenin saçı dökülür.",
+            "de": "Nach der Geburt fallen vielen Müttern die Haare aus."
+          }
+        },
+        {
+          "id": "w18-rofle",
+          "tr": "röfle",
+          "de": "Strähnchen",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Biraz röfle yaptıralım mı?",
+            "de": "Sollen wir ein paar Strähnchen machen?"
+          }
+        },
+        {
+          "id": "w18-dip-boya",
+          "tr": "dip boya",
+          "de": "Ansatzfarbe",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Sadece dip boya istiyorum.",
+            "de": "Ich möchte nur den Ansatz färben."
+          }
+        },
+        {
+          "id": "w18-sarisin",
+          "tr": "sarışın",
+          "de": "blond (Person)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Sarışın olmak ister misin?",
+            "de": "Möchtest du blond werden?"
+          }
+        },
+        {
+          "id": "w18-kumral",
+          "tr": "kumral",
+          "de": "dunkelblond / hellbraun",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Elif'in doğal rengi kumral.",
+            "de": "Elifs Naturfarbe ist dunkelblond."
+          }
+        },
+        {
+          "id": "w18-esmer",
+          "tr": "esmer",
+          "de": "dunkelhaarig / brünett",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Elif esmer, kız kardeşi sarışın.",
+            "de": "Elif ist dunkelhaarig, ihre Schwester blond."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "-tır-: etwas machen lassen",
+        "erklaerung": [
+          "„machen lassen“ hat einen eigenen Stein: -dır/-tır/-t: kestirmek (schneiden lassen), boyatmak (färben lassen), yaptırmak (machen lassen).",
+          "Saçımı boyattım. = Ich habe mir die Haare färben lassen. (Ich habe sie nicht selbst gefärbt.)",
+          "Im Salon hörst du das ständig: Röfle yaptırmak ister misiniz?"
+        ],
+        "tabelle": {
+          "kopf": [
+            "selbst machen",
+            "machen lassen"
+          ],
+          "zeilen": [
+            [
+              "kesmek",
+              "kestirmek"
+            ],
+            [
+              "boyamak",
+              "boyatmak"
+            ],
+            [
+              "yapmak",
+              "yaptırmak"
+            ],
+            [
+              "yıkamak",
+              "yıkatmak"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Saçımı boyattım.",
+            "de": "Ich habe mir die Haare färben lassen."
+          },
+          {
+            "tr": "Röfle yaptırmak ister misiniz?",
+            "de": "Möchten Sie sich Strähnchen machen lassen?"
+          },
+          {
+            "tr": "Saçlarım çok düz ve ince.",
+            "de": "Meine Haare sind sehr glatt und fein."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Farbberatung für Elifs Mama",
+        "zeilen": [
+          {
+            "sprecher": "Elifs Mama",
+            "tr": "Sherin, beyazlarım çok çıktı. Ne yapayım?",
+            "de": "Sherin, ich habe so viele graue Haare bekommen. Was soll ich machen?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Dip boya yapabiliriz. Doğal renginiz ne?",
+            "de": "Wir können den Ansatz färben. Was ist Ihre Naturfarbe?"
+          },
+          {
+            "sprecher": "Elifs Mama",
+            "tr": "Eskiden esmerdim. Şimdi … bilmiyorum!",
+            "de": "Früher war ich dunkelhaarig. Jetzt … keine Ahnung!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bence koyu kumral çok yakışır. Biraz da röfle?",
+            "de": "Ich finde, Dunkelblond-Braun würde Ihnen toll stehen. Und ein paar Strähnchen?"
+          },
+          {
+            "sprecher": "Elifs Mama",
+            "tr": "Röfle mi? Bu yaşta?",
+            "de": "Strähnchen? In meinem Alter?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Tabii! Çok doğal görünür. Söz veriyorum.",
+            "de": "Klar! Das sieht ganz natürlich aus. Versprochen."
+          },
+          {
+            "sprecher": "Elifs Mama",
+            "tr": "Tamam kızım, sana güveniyorum!",
+            "de": "Gut, Liebes, ich vertraue dir!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w18-duz",
+            "w18-kivircik",
+            "w18-dalgali",
+            "w18-rofle"
+          ]
+        },
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w18-sarisin",
+            "w18-kumral",
+            "w18-esmer",
+            "w18-dip-boya"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Saçımı boya___.",
+          "loesung": "ttım",
+          "optionen": [
+            "ttım",
+            "dım",
+            "yacağım"
+          ],
+          "de": "Ich habe mir die Haare färben lassen."
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-sacim-dokuluyor"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w18-dip-boya"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Röfle yaptırmak ister misiniz?",
+          "de": "Möchten Sie sich Strähnchen machen lassen?"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w18-kumral"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-dalgali"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w18-duz"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Farbberatung: Pasha spielt eine Kundin. Du fragst nach Haartyp und Naturfarbe, schlägst eine Farbe vor und erklärst, warum sie passt – auf Türkisch, mit siz.",
+        "mustersaetze": [
+          {
+            "tr": "Doğal renginiz ne?",
+            "de": "Was ist Ihre Naturfarbe?"
+          },
+          {
+            "tr": "Bence … size çok yakışır, çünkü …",
+            "de": "Ich finde, … steht Ihnen super, weil …"
+          },
+          {
+            "tr": "Röfle yaptırmak ister misiniz?",
+            "de": "Möchten Sie Strähnchen?"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Sana çok yakışır!",
+        "de": "Das würde dir super stehen!",
+        "wann": "Wenn jemand über eine neue Frisur nachdenkt."
+      },
+      "merktipp": {
+        "titel": "Färben lassen = boyatmak",
+        "text": "Der Unterschied ist wichtig für dich als Friseurin: boyadım = ich habe (selbst) gefärbt. boyattım = ich habe färben lassen. Kundinnen sagen immer boyattım."
+      }
+    },
+    {
+      "woche": 18,
+      "tag": 3,
+      "titel": "Hautpflege",
+      "kannZiel": "über Hautpflege und Hauttypen sprechen",
+      "vokabeln": [
+        {
+          "id": "w18-cilt",
+          "tr": "cilt",
+          "de": "Haut",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Cildin çok güzel görünüyor.",
+            "de": "Deine Haut sieht toll aus."
+          }
+        },
+        {
+          "id": "w18-cilt-bakimi",
+          "tr": "cilt bakımı",
+          "de": "Hautpflege",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Her akşam cilt bakımı yaparım.",
+            "de": "Jeden Abend mache ich meine Hautpflege."
+          }
+        },
+        {
+          "id": "w18-krem",
+          "tr": "krem",
+          "de": "Creme",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bu kremi ellerime sürüyorum.",
+            "de": "Diese Creme trage ich auf die Hände auf."
+          }
+        },
+        {
+          "id": "w18-nemlendirici",
+          "tr": "nemlendirici",
+          "de": "Feuchtigkeitscreme",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Kışın nemlendirici şart.",
+            "de": "Im Winter ist Feuchtigkeitscreme ein Muss."
+          }
+        },
+        {
+          "id": "w18-maske",
+          "tr": "maske",
+          "de": "Maske",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Haftada bir yüz maskesi yaparım.",
+            "de": "Einmal pro Woche mache ich eine Gesichtsmaske."
+          }
+        },
+        {
+          "id": "w18-kuru",
+          "tr": "kuru",
+          "de": "trocken",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Cildim kışın çok kuru.",
+            "de": "Meine Haut ist im Winter sehr trocken."
+          }
+        },
+        {
+          "id": "w18-yagli",
+          "tr": "yağlı",
+          "de": "fettig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Yağlı ciltler için hafif krem iyi.",
+            "de": "Für fettige Haut ist leichte Creme gut."
+          }
+        },
+        {
+          "id": "w18-hassas",
+          "tr": "hassas",
+          "de": "empfindlich",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bebek cildi çok hassas.",
+            "de": "Babyhaut ist sehr empfindlich."
+          }
+        },
+        {
+          "id": "w18-sivilce",
+          "tr": "sivilce",
+          "de": "Pickel",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Stresten sivilce çıktı.",
+            "de": "Vom Stress hab ich einen Pickel bekommen."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "auf mein Gesicht: yüzüme",
+        "erklaerung": [
+          "Besitz + Dativ (wohin?): yüz → yüzüm → yüzüme (auf mein Gesicht).",
+          "sürmek = auftragen: Yüzüme krem sürüyorum. Ellerine krem sür! (Creme deine Hände ein!)",
+          "Besitz + Lokativ (wo?): cildimde (auf meiner Haut), yüzünde (in deinem Gesicht)."
+        ],
+        "tabelle": {
+          "kopf": [
+            "",
+            "mein",
+            "dein",
+            "ihr/sein"
+          ],
+          "zeilen": [
+            [
+              "wohin?",
+              "yüzüme",
+              "yüzüne",
+              "yüzüne"
+            ],
+            [
+              "wo?",
+              "yüzümde",
+              "yüzünde",
+              "yüzünde"
+            ],
+            [
+              "Objekt",
+              "yüzümü",
+              "yüzünü",
+              "yüzünü"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Yüzüme nemlendirici sürüyorum.",
+            "de": "Ich trage Feuchtigkeitscreme auf mein Gesicht auf."
+          },
+          {
+            "tr": "Inaya'nın yüzüne güneş kremi sürdün mü?",
+            "de": "Hast du Inaya Sonnencreme ins Gesicht gemacht?"
+          },
+          {
+            "tr": "Cildim kışın çok kuru.",
+            "de": "Meine Haut ist im Winter sehr trocken."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Pflegetipps unter Freundinnen",
+        "zeilen": [
+          {
+            "sprecher": "Elif",
+            "tr": "Cildin çok güzel! Ne kullanıyorsun?",
+            "de": "Deine Haut ist so schön! Was benutzt du?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Teşekkürler! Her akşam yüzümü yıkıyorum ve nemlendirici sürüyorum.",
+            "de": "Danke! Jeden Abend wasche ich mein Gesicht und trage Feuchtigkeitscreme auf."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Benim cildim çok yağlı. Sürekli sivilce çıkıyor.",
+            "de": "Meine Haut ist sehr fettig. Ständig bekomme ich Pickel."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Yağlı cilt için hafif bir krem ve haftada bir kil maskesi öneririm.",
+            "de": "Für fettige Haut empfehle ich eine leichte Creme und einmal pro Woche eine Tonerdemaske."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Kil maskesi mi? Nereden alabilirim?",
+            "de": "Tonerdemaske? Wo kann ich die kaufen?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Eczaneden. Bir de bol su iç!",
+            "de": "In der Apotheke. Und trink viel Wasser!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w18-kuru",
+            "w18-yagli",
+            "w18-hassas",
+            "w18-sivilce"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Yüz___ nemlendirici sürüyorum.",
+          "loesung": "üme",
+          "optionen": [
+            "üme",
+            "ümü",
+            "ümde"
+          ],
+          "de": "Ich trage Feuchtigkeitscreme auf mein Gesicht auf."
+        },
+        {
+          "art": "luecke",
+          "satz": "Ellerin___ krem sür!",
+          "loesung": "e",
+          "optionen": [
+            "e",
+            "i",
+            "de"
+          ],
+          "de": "Creme deine Hände ein!"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-cilt-bakimi"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w18-nemlendirici"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Her akşam cilt bakımı yaparım.",
+          "de": "Jeden Abend mache ich meine Hautpflege."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w18-maske"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-krem"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w18-cilt"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Zeig Pasha deine Pflegeprodukte und erklär auf Türkisch, was jedes ist und wofür. Dann bekommt Pasha eine (gespielte) Hautanalyse von dir.",
+        "mustersaetze": [
+          {
+            "tr": "Bu bir nemlendirici. Kuru cilt için.",
+            "de": "Das ist eine Feuchtigkeitscreme. Für trockene Haut."
+          },
+          {
+            "tr": "Senin cildin biraz kuru. Kışın krem sür!",
+            "de": "Deine Haut ist etwas trocken. Creme dich im Winter ein!"
+          },
+          {
+            "tr": "Haftada bir maske öneririm.",
+            "de": "Ich empfehle einmal pro Woche eine Maske."
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Ellerine krem sür!",
+        "de": "Creme deine Hände ein!",
+        "wann": "Zu Pasha – Männerhände im Winter brauchen das."
+      },
+      "merktipp": {
+        "titel": "öneririm – ich empfehle",
+        "text": "öneririm (Aorist von önermek) ist dein Profi-Wort für Beratung: „Size bu kremi öneririm.“ – Ich empfehle Ihnen diese Creme."
+      }
+    },
+    {
+      "woche": 18,
+      "tag": 4,
+      "titel": "Make-up & Nägel",
+      "kannZiel": "über Make-up und Maniküre sprechen",
+      "vokabeln": [
+        {
+          "id": "w18-makyaj",
+          "tr": "makyaj",
+          "de": "Make-up",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bugün hafif bir makyaj yaptım.",
+            "de": "Heute habe ich mich leicht geschminkt."
+          },
+          "merktipp": "makyaj kommt vom französischen maquillage – genau wie viele Kosmetikwörter."
+        },
+        {
+          "id": "w18-ruj",
+          "tr": "ruj",
+          "de": "Lippenstift",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Kırmızı ruj sana çok yakışıyor.",
+            "de": "Roter Lippenstift steht dir super."
+          }
+        },
+        {
+          "id": "w18-rimel",
+          "tr": "rimel",
+          "de": "Wimperntusche",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Rimelimi unuttum!",
+            "de": "Ich hab meine Wimperntusche vergessen!"
+          }
+        },
+        {
+          "id": "w18-far",
+          "tr": "far",
+          "de": "Lidschatten",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Kahverengi far çok doğal duruyor.",
+            "de": "Brauner Lidschatten wirkt sehr natürlich."
+          }
+        },
+        {
+          "id": "w18-fondoten",
+          "tr": "fondöten",
+          "de": "Foundation / Make-up",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Fondöten cilt rengine uygun olmalı.",
+            "de": "Die Foundation sollte zum Hautton passen."
+          }
+        },
+        {
+          "id": "w18-oje",
+          "tr": "oje",
+          "de": "Nagellack",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Hangi renk oje istiyorsun?",
+            "de": "Welche Farbe Nagellack möchtest du?"
+          }
+        },
+        {
+          "id": "w18-manikur",
+          "tr": "manikür",
+          "de": "Maniküre",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Cumartesi manikür yaptıracağım.",
+            "de": "Am Samstag lasse ich mir die Nägel machen."
+          }
+        },
+        {
+          "id": "w18-kas",
+          "tr": "kaş",
+          "de": "Augenbraue",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Kaşlarımı aldırmam lazım.",
+            "de": "Ich muss mir die Augenbrauen zupfen lassen."
+          }
+        },
+        {
+          "id": "w18-kirpik",
+          "tr": "kirpik",
+          "de": "Wimper",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bebeklerin kirpikleri ne kadar uzun!",
+            "de": "Babys haben so lange Wimpern!"
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Besitz an Körperteilen",
+        "erklaerung": [
+          "Plural + Besitz + Kasus: kaş → kaşlarım (meine Brauen) → kaşlarımı (Objekt).",
+          "Kaşlarımı aldırdım. = Ich habe mir die Brauen zupfen lassen (wörtl. nehmen lassen).",
+          "Kosmetik-Wörter kommen oft aus dem Französischen: makyaj, ruj, fondöten, manikür."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Wort",
+            "meine …",
+            "meine … (Objekt)"
+          ],
+          "zeilen": [
+            [
+              "kaş",
+              "kaşlarım",
+              "kaşlarımı"
+            ],
+            [
+              "kirpik",
+              "kirpiklerim",
+              "kirpiklerimi"
+            ],
+            [
+              "tırnak",
+              "tırnaklarım",
+              "tırnaklarımı"
+            ],
+            [
+              "dudak",
+              "dudaklarım",
+              "dudaklarımı"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Kaşlarımı aldırmam lazım.",
+            "de": "Ich muss mir die Augenbrauen zupfen lassen."
+          },
+          {
+            "tr": "Tırnaklarımı kırmızıya boyadım.",
+            "de": "Ich habe meine Nägel rot lackiert."
+          },
+          {
+            "tr": "Rimelimi unuttum!",
+            "de": "Ich hab meine Wimperntusche vergessen!"
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Fertig machen für die Hochzeit",
+        "zeilen": [
+          {
+            "sprecher": "Pasha",
+            "tr": "Hazır mısın? Düğün saat altıda!",
+            "de": "Bist du fertig? Die Hochzeit ist um sechs!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Az kaldı! Fondöten ve far tamam. Şimdi rimel …",
+            "de": "Gleich! Foundation und Lidschatten sind fertig. Jetzt Wimperntusche …"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Ne kadar sürer?",
+            "de": "Wie lange dauert das noch?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Beş dakika. Kırmızı ruj mu, pembe mi?",
+            "de": "Fünf Minuten. Roter Lippenstift oder rosa?"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Bilmem … Kırmızı?",
+            "de": "Weiß nicht … Rot?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Doğru cevap! Ojem de kırmızı.",
+            "de": "Richtige Antwort! Mein Nagellack ist auch rot."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Çok güzel olmuşsun, maşallah!",
+            "de": "Du siehst wunderschön aus, maşallah!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w18-ruj",
+            "w18-rimel",
+            "w18-far",
+            "w18-fondoten"
+          ]
+        },
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w18-oje",
+            "w18-manikur",
+            "w18-kas",
+            "w18-kirpik"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Kaş___ aldırmam lazım.",
+          "loesung": "larımı",
+          "optionen": [
+            "larımı",
+            "larım",
+            "ımı"
+          ],
+          "de": "Ich muss mir die Augenbrauen zupfen lassen."
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-makyaj"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w18-oje"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Kırmızı ruj sana çok yakışıyor.",
+          "de": "Roter Lippenstift steht dir super."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w18-manikur"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-kirpik"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w18-ruj"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Schmink dich heute (oder tu so) und kommentiere jeden Schritt auf Türkisch für Pasha – wie ein Make-up-Tutorial. Pasha darf eine Frage pro Schritt stellen.",
+        "mustersaetze": [
+          {
+            "tr": "Önce fondöten sürüyorum.",
+            "de": "Zuerst trage ich Foundation auf."
+          },
+          {
+            "tr": "Sonra far ve rimel.",
+            "de": "Dann Lidschatten und Wimperntusche."
+          },
+          {
+            "tr": "En son ruj. Hangi renk?",
+            "de": "Zuletzt Lippenstift. Welche Farbe?"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Hangi renk?",
+        "de": "Welche Farbe?",
+        "wann": "Beim Nagellack-Aussuchen – frag Pasha (oder Inaya)."
+      },
+      "merktipp": {
+        "titel": "Schönheit auf Französisch",
+        "text": "makyaj, ruj, fondöten, manikür, pedikür – in der Kosmetik spricht Türkisch fast Französisch. Wenn ein Wort fehlt: französisch versuchen, türkisch aussprechen!"
+      }
+    },
+    {
+      "woche": 18,
+      "tag": 5,
+      "titel": "Beratung im Salon",
+      "kannZiel": "Kundinnen auf Türkisch beraten",
+      "vokabeln": [
+        {
+          "id": "w18-nasil-bir-model",
+          "tr": "Nasıl bir model istiyorsunuz?",
+          "de": "Was für einen Schnitt möchten Sie?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Hoş geldiniz! Nasıl bir model istiyorsunuz?",
+            "de": "Willkommen! Was für einen Schnitt möchten Sie?"
+          }
+        },
+        {
+          "id": "w18-size-yakisir",
+          "tr": "Size … yakışır.",
+          "de": "… steht Ihnen.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Size kısa saç çok yakışır.",
+            "de": "Kurze Haare stehen Ihnen sehr gut."
+          }
+        },
+        {
+          "id": "w18-tavsiye-etmek",
+          "tr": "tavsiye etmek",
+          "de": "empfehlen",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bu şampuanı tavsiye ederim.",
+            "de": "Dieses Shampoo empfehle ich."
+          }
+        },
+        {
+          "id": "w18-ne-kadar-kisaltayim",
+          "tr": "Ne kadar kısaltayım?",
+          "de": "Wie viel soll ich kürzen?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ne kadar kısaltayım? Beş santim mi?",
+            "de": "Wie viel soll ich kürzen? Fünf Zentimeter?"
+          }
+        },
+        {
+          "id": "w18-boyle-mi",
+          "tr": "Böyle mi?",
+          "de": "So?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Böyle mi, daha kısa mı?",
+            "de": "So, oder kürzer?"
+          }
+        },
+        {
+          "id": "w18-begendiniz-mi",
+          "tr": "Beğendiniz mi?",
+          "de": "Gefällt es Ihnen?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "İşte bitti. Beğendiniz mi?",
+            "de": "So, fertig. Gefällt es Ihnen?"
+          }
+        },
+        {
+          "id": "w18-ayna",
+          "tr": "ayna",
+          "de": "Spiegel",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Aynaya bakın, arkadan da göstereyim.",
+            "de": "Schauen Sie in den Spiegel, ich zeige es Ihnen auch von hinten."
+          }
+        },
+        {
+          "id": "w18-sampuan",
+          "tr": "şampuan",
+          "de": "Shampoo",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Önce saçınızı yıkayalım.",
+            "de": "Waschen wir zuerst Ihre Haare."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Soll ich …? = -(y)ayım / -(y)eyim",
+        "erklaerung": [
+          "„Soll ich …?“: Stamm + -ayım/-eyim: keseyim mi? (soll ich schneiden?), kısaltayım mı?",
+          "Für „sollen wir“: -alım/-elim: Saçınızı yıkayalım. (Lassen Sie uns Ihre Haare waschen.)",
+          "Das ist die typische Salon-Sprache: freundlich, einladend, Schritt für Schritt."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Verb",
+            "soll ich?",
+            "lass uns"
+          ],
+          "zeilen": [
+            [
+              "kesmek",
+              "keseyim mi?",
+              "keselim"
+            ],
+            [
+              "kısaltmak",
+              "kısaltayım mı?",
+              "kısaltalım"
+            ],
+            [
+              "yıkamak",
+              "yıkayayım mı?",
+              "yıkayalım"
+            ],
+            [
+              "boyamak",
+              "boyayayım mı?",
+              "boyayalım"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Ne kadar kısaltayım?",
+            "de": "Wie viel soll ich kürzen?"
+          },
+          {
+            "tr": "Önce saçınızı yıkayalım.",
+            "de": "Waschen wir zuerst Ihre Haare."
+          },
+          {
+            "tr": "Fön çekeyim mi?",
+            "de": "Soll ich föhnen?"
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Sherin im türkischen Salon (als Aushilfe)",
+        "zeilen": [
+          {
+            "sprecher": "Sherin",
+            "tr": "Hoş geldiniz! Nasıl bir model istiyorsunuz?",
+            "de": "Willkommen! Was für einen Schnitt möchten Sie?"
+          },
+          {
+            "sprecher": "Kundin",
+            "tr": "Değişiklik istiyorum ama çok kısa değil.",
+            "de": "Ich möchte eine Veränderung, aber nicht zu kurz."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Omuz hizasında bir kesim size çok yakışır. Ne dersiniz?",
+            "de": "Ein schulterlanger Schnitt würde Ihnen super stehen. Was meinen Sie?"
+          },
+          {
+            "sprecher": "Kundin",
+            "tr": "Olur! Ne kadar kısaltacaksınız?",
+            "de": "Gut! Wie viel schneiden Sie ab?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Yaklaşık on santim. Önce saçınızı yıkayalım.",
+            "de": "Etwa zehn Zentimeter. Waschen wir zuerst Ihre Haare."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "… İşte bitti! Aynaya bakın. Beğendiniz mi?",
+            "de": "… So, fertig! Schauen Sie in den Spiegel. Gefällt es Ihnen?"
+          },
+          {
+            "sprecher": "Kundin",
+            "tr": "Çok beğendim! Ellerinize sağlık!",
+            "de": "Sehr! Vielen Dank für Ihre tolle Arbeit!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w18-boyle-mi",
+            "w18-begendiniz-mi",
+            "w18-ayna",
+            "w18-sampuan"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-nasil-bir-model"
+        },
+        {
+          "art": "luecke",
+          "satz": "Ne kadar kısalt___ mı?",
+          "loesung": "ayım",
+          "optionen": [
+            "ayım",
+            "alım",
+            "ıyorum"
+          ],
+          "de": "Wie viel soll ich kürzen?"
+        },
+        {
+          "art": "luecke",
+          "satz": "Önce saçınızı yıka___.",
+          "loesung": "yalım",
+          "optionen": [
+            "yalım",
+            "yayım",
+            "dım"
+          ],
+          "de": "Waschen wir zuerst Ihre Haare."
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w18-size-yakisir"
+        },
+        {
+          "art": "satzbau",
+          "tr": "İşte bitti. Beğendiniz mi?",
+          "de": "So, fertig. Gefällt es Ihnen?"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w18-tavsiye-etmek"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-ne-kadar-kisaltayim"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w18-ayna"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Kompletter Salonbesuch: Pasha ist der Kunde. Du begrüßt, berätst, wäschst (pantomimisch), schneidest, föhnst und fragst am Ende „Beğendiniz mi?“ – alles auf Türkisch und mit siz.",
+        "mustersaetze": [
+          {
+            "tr": "Nasıl bir model istiyorsunuz?",
+            "de": "Was für einen Schnitt möchten Sie?"
+          },
+          {
+            "tr": "Size kısa saç çok yakışır.",
+            "de": "Kurze Haare stehen Ihnen sehr gut."
+          },
+          {
+            "tr": "Beğendiniz mi?",
+            "de": "Gefällt es Ihnen?"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Beğendin mi?",
+        "de": "Gefällt es dir?",
+        "wann": "Wenn du heute etwas gekocht, gebastelt oder gestylt hast."
+      },
+      "merktipp": {
+        "titel": "Ellerinize sağlık",
+        "text": "„Ellerinize sağlık“ (Gesundheit Ihren Händen) sagt man, wenn jemand mit den Händen etwas Schönes gemacht hat – Essen, Frisur, Handarbeit. Als Friseurin wirst du es oft hören!"
+      }
+    },
+    {
+      "woche": 18,
+      "tag": 6,
+      "titel": "Festigungstag: Zeit für mich",
+      "kannZiel": "über Schönheit, Pflege und Selbstfürsorge sprechen",
+      "vokabeln": [
+        {
+          "id": "w18-sihhatler-olsun",
+          "tr": "Sıhhatler olsun!",
+          "de": "Wohl bekomm's! (nach Friseur/Bad)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Saçını mı kestirdin? Sıhhatler olsun!",
+            "de": "Warst du beim Friseur? Steht dir gut – wohl bekomm's!"
+          }
+        },
+        {
+          "id": "w18-cok-yakisti",
+          "tr": "Çok yakıştı!",
+          "de": "Steht dir super!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Yeni saçın çok yakıştı!",
+            "de": "Deine neue Frisur steht dir super!"
+          }
+        },
+        {
+          "id": "w18-kendine-vakit-ayir",
+          "tr": "Kendine vakit ayır.",
+          "de": "Nimm dir Zeit für dich.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Inaya'ya ben bakarım, sen kendine vakit ayır.",
+            "de": "Ich kümmere mich um Inaya, nimm du dir Zeit für dich."
+          }
+        },
+        {
+          "id": "w18-bakimli",
+          "tr": "bakımlı",
+          "de": "gepflegt",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Elif her zaman çok bakımlı.",
+            "de": "Elif ist immer sehr gepflegt."
+          }
+        },
+        {
+          "id": "w18-kendimi-iyi-hissediyorum",
+          "tr": "Kendimi iyi hissediyorum.",
+          "de": "Ich fühle mich gut.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Yeni saçımla kendimi çok iyi hissediyorum.",
+            "de": "Mit meiner neuen Frisur fühle ich mich richtig gut."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Besitz + Kasus: saçımı (Objekt), yüzüme (wohin), cildimde (wo).",
+          "Machen lassen: kestirmek, boyatmak, yaptırmak. Soll ich?: keseyim mi? Lass uns: yıkayalım."
+        ],
+        "tabelle": {
+          "kopf": [
+            "",
+            "Beispiel"
+          ],
+          "zeilen": [
+            [
+              "Objekt",
+              "Saçımı kestirdim."
+            ],
+            [
+              "wohin",
+              "Yüzüme krem sürdüm."
+            ],
+            [
+              "lassen",
+              "Ojemi yaptırdım."
+            ],
+            [
+              "soll ich?",
+              "Fön çekeyim mi?"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Saçımı kestirdim, kaşlarımı aldırdım.",
+            "de": "Ich hab mir die Haare schneiden und die Brauen zupfen lassen."
+          },
+          {
+            "tr": "Sıhhatler olsun!",
+            "de": "Wohl bekomm's!"
+          },
+          {
+            "tr": "Kendimi çok iyi hissediyorum.",
+            "de": "Ich fühle mich richtig gut."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein Nachmittag nur für Sherin",
+        "zeilen": [
+          {
+            "sprecher": "Pasha",
+            "tr": "Bugün Inaya'ya ben bakıyorum. Sen kendine vakit ayır.",
+            "de": "Heute kümmere ich mich um Inaya. Nimm du dir Zeit für dich."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Gerçekten mi? O zaman kuaföre gidiyorum!",
+            "de": "Wirklich? Dann gehe ich zum Friseur!"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "… Vay! Saçını mı kestirdin? Sıhhatler olsun!",
+            "de": "… Wow! Warst du beim Friseur? Wohl bekomm's!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Teşekkürler! Uçlarını aldırdım, biraz da röfle yaptırdım.",
+            "de": "Danke! Ich hab die Spitzen schneiden und ein paar Strähnchen machen lassen."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Çok yakıştı! Ojen de yeni mi?",
+            "de": "Steht dir super! Ist dein Nagellack auch neu?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Evet! Manikür de yaptırdım. Kendimi çok iyi hissediyorum.",
+            "de": "Ja! Maniküre hab ich auch machen lassen. Ich fühle mich richtig gut."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Bunu her ay yapmalısın.",
+            "de": "Das solltest du jeden Monat machen."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bence de! Söz mü?",
+            "de": "Finde ich auch! Versprochen?"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w18-sihhatler-olsun",
+            "w18-cok-yakisti",
+            "w18-bakimli",
+            "w18-kendine-vakit-ayir"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-kendimi-iyi-hissediyorum"
+        },
+        {
+          "art": "luecke",
+          "satz": "Uçlarını al___.",
+          "loesung": "dırdım",
+          "optionen": [
+            "dırdım",
+            "dım",
+            "acağım"
+          ],
+          "de": "Ich hab die Spitzen schneiden lassen."
+        },
+        {
+          "art": "satzbau",
+          "tr": "Yeni saçın çok yakıştı!",
+          "de": "Deine neue Frisur steht dir super!"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w18-sihhatler-olsun"
+        },
+        {
+          "art": "luecke",
+          "satz": "Yüz___ krem sürdüm.",
+          "loesung": "üme",
+          "optionen": [
+            "üme",
+            "ümü",
+            "üm"
+          ],
+          "de": "Ich habe Creme aufs Gesicht aufgetragen."
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w18-boyamak"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w18-cok-yakisti"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w18-oje"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Inaya'ya ben bakarım, sen kendine vakit ayır.",
+          "de": "Ich kümmere mich um Inaya, nimm du dir Zeit für dich."
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag – und ein Geschenk: Pasha übernimmt heute zwei Stunden Inaya, damit du Zeit für dich hast. Danach erzählst du ihm auf Türkisch, was du gemacht hast – und er sagt „Sıhhatler olsun!“.",
+        "mustersaetze": [
+          {
+            "tr": "Bugün kendime vakit ayırdım.",
+            "de": "Heute habe ich mir Zeit für mich genommen."
+          },
+          {
+            "tr": "Yüz maskesi yaptım, ojemi sürdüm.",
+            "de": "Ich habe eine Gesichtsmaske gemacht und meine Nägel lackiert."
+          },
+          {
+            "tr": "Kendimi çok iyi hissediyorum.",
+            "de": "Ich fühle mich richtig gut."
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Sıhhatler olsun!",
+        "de": "Wohl bekomm's!",
+        "wann": "Wenn Pasha vom Friseur oder aus der Dusche kommt."
+      },
+      "merktipp": {
+        "titel": "Sıhhatler olsun",
+        "text": "Nach dem Friseur, der Rasur oder einem Bad wünscht man auf Türkisch „Sıhhatler olsun“ (Gesundheit sei mit dir). Die Antwort: „Teşekkürler“ oder „Sağ ol“."
+      }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      {
+        "situation": "Berate Pasha als Kunde: Schnitt, Farbe, Pflege – auf Türkisch mit siz.",
+        "hilfe": {
+          "tr": "Nasıl bir model istiyorsunuz? Size … yakışır. Bu kremi tavsiye ederim.",
+          "de": "Was für einen Schnitt möchten Sie? … steht Ihnen. Diese Creme empfehle ich."
+        }
+      },
+      {
+        "situation": "Erzähl von deiner Pflegeroutine morgens und abends.",
+        "hilfe": {
+          "tr": "Sabahları yüzümü yıkarım, nemlendirici sürerim …",
+          "de": "Morgens wasche ich mein Gesicht, trage Feuchtigkeitscreme auf …"
+        }
+      },
+      {
+        "situation": "Erzähl, was du zuletzt beim Friseur oder in der Kosmetik machen lassen hast.",
+        "hilfe": {
+          "tr": "Saçımı kestirdim, kaşlarımı aldırdım.",
+          "de": "Ich habe mir die Haare schneiden und die Brauen zupfen lassen."
+        }
+      }
+    ]
+  }
+}
