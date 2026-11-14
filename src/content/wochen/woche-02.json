@@ -7,15 +7,97 @@
       "titel": "Familie & Mehrzahl",
       "kannZiel": "Familienmitglieder benennen und die Mehrzahl bilden",
       "vokabeln": [
-        { "id": "w02-aile", "tr": "aile", "de": "Familie", "typ": "wort", "beispiel": { "tr": "Biz küçük bir aileyiz.", "de": "Wir sind eine kleine Familie." } },
-        { "id": "w02-anne", "tr": "anne", "de": "Mutter / Mama", "typ": "wort", "beispiel": { "tr": "Anne, neredesin?", "de": "Mama, wo bist du?" } },
-        { "id": "w02-baba", "tr": "baba", "de": "Vater / Papa", "typ": "wort", "beispiel": { "tr": "Inaya, baba nerede?", "de": "Inaya, wo ist Papa?" } },
-        { "id": "w02-kiz", "tr": "kız", "de": "Mädchen / Tochter", "typ": "wort", "beispiel": { "tr": "Inaya küçük bir kız.", "de": "Inaya ist ein kleines Mädchen." } },
-        { "id": "w02-ogul", "tr": "oğul", "de": "Sohn", "typ": "wort", "beispiel": { "tr": "Oğlu mu var, kızı mı?", "de": "Hat sie einen Sohn oder eine Tochter?" }, "merktipp": "oğul verliert mit Endung sein u: oğul → oğlu (sein Sohn), oğlum (mein Sohn)." },
-        { "id": "w02-kardes", "tr": "kardeş", "de": "Geschwister (Bruder / Schwester)", "typ": "wort", "beispiel": { "tr": "Onlar kardeş.", "de": "Die beiden sind Geschwister." } },
-        { "id": "w02-bebek", "tr": "bebek", "de": "Baby", "typ": "wort", "beispiel": { "tr": "Bebek uyuyor.", "de": "Das Baby schläft." } },
-        { "id": "w02-cocuk", "tr": "çocuk", "de": "Kind", "typ": "wort", "beispiel": { "tr": "Çocuklar çok mutlu.", "de": "Die Kinder sind sehr glücklich." } },
-        { "id": "w02-kopek", "tr": "köpek", "de": "Hund", "typ": "wort", "beispiel": { "tr": "Amani büyük bir köpek.", "de": "Amani ist ein großer Hund." } }
+        {
+          "id": "w02-aile",
+          "tr": "aile",
+          "de": "Familie",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Biz küçük bir aileyiz.",
+            "de": "Wir sind eine kleine Familie."
+          }
+        },
+        {
+          "id": "w02-anne",
+          "tr": "anne",
+          "de": "Mutter / Mama",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Anne, neredesin?",
+            "de": "Mama, wo bist du?"
+          }
+        },
+        {
+          "id": "w02-baba",
+          "tr": "baba",
+          "de": "Vater / Papa",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Inaya, baba nerede?",
+            "de": "Inaya, wo ist Papa?"
+          }
+        },
+        {
+          "id": "w02-kiz",
+          "tr": "kız",
+          "de": "Mädchen / Tochter",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Inaya küçük bir kız.",
+            "de": "Inaya ist ein kleines Mädchen."
+          }
+        },
+        {
+          "id": "w02-ogul",
+          "tr": "oğul",
+          "de": "Sohn",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Oğlu mu var, kızı mı?",
+            "de": "Hat sie einen Sohn oder eine Tochter?"
+          },
+          "merktipp": "oğul verliert mit Endung sein u: oğul → oğlu (sein Sohn), oğlum (mein Sohn)."
+        },
+        {
+          "id": "w02-kardes",
+          "tr": "kardeş",
+          "de": "Geschwister (Bruder / Schwester)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Onlar kardeş.",
+            "de": "Die beiden sind Geschwister."
+          }
+        },
+        {
+          "id": "w02-bebek",
+          "tr": "bebek",
+          "de": "Baby",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bebek uyuyor.",
+            "de": "Das Baby schläft."
+          }
+        },
+        {
+          "id": "w02-cocuk",
+          "tr": "çocuk",
+          "de": "Kind",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Çocuklar çok mutlu.",
+            "de": "Die Kinder sind sehr glücklich."
+          }
+        },
+        {
+          "id": "w02-kopek",
+          "tr": "köpek",
+          "de": "Hund",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Amani büyük bir köpek.",
+            "de": "Amani ist ein großer Hund."
+          }
+        }
       ],
       "grammatik": {
         "titel": "Mehrzahl: -lar / -ler",
@@ -25,56 +107,186 @@
           "Nach Zahlen bleibt es bei der Einzahl: iki çocuk (zwei Kinder) – nicht „iki çocuklar“."
         ],
         "tabelle": {
-          "kopf": ["Einzahl", "Mehrzahl"],
+          "kopf": [
+            "Einzahl",
+            "Mehrzahl"
+          ],
           "zeilen": [
-            ["anne", "anneler"],
-            ["kız", "kızlar"],
-            ["çocuk", "çocuklar"],
-            ["köpek", "köpekler"],
-            ["bebek", "bebekler"],
-            ["kardeş", "kardeşler"]
+            [
+              "anne",
+              "anneler"
+            ],
+            [
+              "kız",
+              "kızlar"
+            ],
+            [
+              "çocuk",
+              "çocuklar"
+            ],
+            [
+              "köpek",
+              "köpekler"
+            ],
+            [
+              "bebek",
+              "bebekler"
+            ],
+            [
+              "kardeş",
+              "kardeşler"
+            ]
           ]
         },
         "beispiele": [
-          { "tr": "Çocuklar çok mutlu.", "de": "Die Kinder sind sehr glücklich." },
-          { "tr": "Köpekler orada.", "de": "Die Hunde sind dort." },
-          { "tr": "İki çocuk, bir köpek.", "de": "Zwei Kinder, ein Hund." }
+          {
+            "tr": "Çocuklar çok mutlu.",
+            "de": "Die Kinder sind sehr glücklich."
+          },
+          {
+            "tr": "Köpekler orada.",
+            "de": "Die Hunde sind dort."
+          },
+          {
+            "tr": "İki çocuk, bir köpek.",
+            "de": "Zwei Kinder, ein Hund."
+          }
         ]
       },
       "dialog": {
         "titel": "Auf dem Spielplatz",
         "zeilen": [
-          { "sprecher": "Elif", "tr": "Merhaba Sherin!", "de": "Hallo Sherin!" },
-          { "sprecher": "Sherin", "tr": "Merhaba Elif! Bak, bu Inaya.", "de": "Hallo Elif! Schau, das ist Inaya." },
-          { "sprecher": "Elif", "tr": "Ay, çok tatlı bir bebek!", "de": "Oh, was für ein süßes Baby!" },
-          { "sprecher": "Sherin", "tr": "Teşekkürler! Çocukların nerede?", "de": "Danke! Wo sind deine Kinder?" },
-          { "sprecher": "Elif", "tr": "Orada. Bak, köpekler de orada!", "de": "Da drüben. Schau, die Hunde sind auch da!" },
-          { "sprecher": "Sherin", "tr": "Amani, gel! Köpekler çok büyük!", "de": "Amani, komm! Die Hunde sind sehr groß!" }
+          {
+            "sprecher": "Elif",
+            "tr": "Merhaba Sherin!",
+            "de": "Hallo Sherin!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Merhaba Elif! Bak, bu Inaya.",
+            "de": "Hallo Elif! Schau, das ist Inaya."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Ay, çok tatlı bir bebek!",
+            "de": "Oh, was für ein süßes Baby!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Teşekkürler! Çocukların nerede?",
+            "de": "Danke! Wo sind deine Kinder?"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Orada. Bak, köpekler de orada!",
+            "de": "Da drüben. Schau, die Hunde sind auch da!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Amani, gel! Köpekler çok büyük!",
+            "de": "Amani, komm! Die Hunde sind sehr groß!"
+          }
         ]
       },
       "uebungen": [
-        { "art": "auswahl_de_tr", "vokabel": "w02-aile" },
-        { "art": "zuordnen", "vokabeln": ["w02-anne", "w02-baba", "w02-kiz", "w02-ogul"] },
-        { "art": "luecke", "satz": "Çocuk___ çok mutlu.", "loesung": "lar", "optionen": ["lar", "ler"], "de": "Die Kinder sind sehr glücklich.", "hinweis": "çocuk – letzter Vokal u" },
-        { "art": "hoeren", "vokabel": "w02-bebek" },
-        { "art": "luecke", "satz": "Köpek___ orada.", "loesung": "ler", "optionen": ["lar", "ler"], "de": "Die Hunde sind dort.", "hinweis": "köpek – letzter Vokal e" },
-        { "art": "auswahl_tr_de", "vokabel": "w02-kardes" },
-        { "art": "tippen", "vokabel": "w02-anne" },
-        { "art": "satzbau", "tr": "Amani büyük bir köpek.", "de": "Amani ist ein großer Hund." },
-        { "art": "luecke", "satz": "İki ___ var.", "loesung": "çocuk", "optionen": ["çocuk", "çocuklar"], "de": "Es gibt zwei Kinder.", "hinweis": "Nach Zahlen: Einzahl!" },
-        { "art": "hoeren", "vokabel": "w02-cocuk" },
-        { "art": "tippen", "vokabel": "w02-kiz" }
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w02-aile"
+        },
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w02-anne",
+            "w02-baba",
+            "w02-kiz",
+            "w02-ogul"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Çocuk___ çok mutlu.",
+          "loesung": "lar",
+          "optionen": [
+            "lar",
+            "ler"
+          ],
+          "de": "Die Kinder sind sehr glücklich.",
+          "hinweis": "çocuk – letzter Vokal u"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-bebek"
+        },
+        {
+          "art": "luecke",
+          "satz": "Köpek___ orada.",
+          "loesung": "ler",
+          "optionen": [
+            "lar",
+            "ler"
+          ],
+          "de": "Die Hunde sind dort.",
+          "hinweis": "köpek – letzter Vokal e"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w02-kardes"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-anne"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Amani büyük bir köpek.",
+          "de": "Amani ist ein großer Hund."
+        },
+        {
+          "art": "luecke",
+          "satz": "İki ___ var.",
+          "loesung": "çocuk",
+          "optionen": [
+            "çocuk",
+            "çocuklar"
+          ],
+          "de": "Es gibt zwei Kinder.",
+          "hinweis": "Nach Zahlen: Einzahl!"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-cocuk"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-kiz"
+        }
       ],
       "sprechauftrag": {
         "aufgabe": "Zeig Inaya Bilder (Buch oder Handy) und benenne alles auf Türkisch: anne, baba, bebek, köpek, çocuklar. Pasha prüft, ob die Mehrzahl stimmt.",
         "mustersaetze": [
-          { "tr": "Bak Inaya, bu bir köpek!", "de": "Schau Inaya, das ist ein Hund!" },
-          { "tr": "Bunlar çocuklar.", "de": "Das sind Kinder." },
-          { "tr": "Bu anne, bu da baba.", "de": "Das ist die Mama und das der Papa." }
+          {
+            "tr": "Bak Inaya, bu bir köpek!",
+            "de": "Schau Inaya, das ist ein Hund!"
+          },
+          {
+            "tr": "Bunlar çocuklar.",
+            "de": "Das sind Kinder."
+          },
+          {
+            "tr": "Bu anne, bu da baba.",
+            "de": "Das ist die Mama und das der Papa."
+          }
         ]
       },
-      "alltagssatz": { "tr": "Inaya, baba nerede?", "de": "Inaya, wo ist Papa?", "wann": "Wenn Pasha nach Hause kommt – Inaya zeigt bestimmt auf ihn." },
-      "merktipp": { "titel": "Zahl = keine Mehrzahl", "text": "Im Türkischen zeigt die Zahl schon, dass es mehrere sind – also kein -lar: üç köpek, beş çocuk. Doppelt gemoppelt ist überflüssig." }
+      "alltagssatz": {
+        "tr": "Inaya, baba nerede?",
+        "de": "Inaya, wo ist Papa?",
+        "wann": "Wenn Pasha nach Hause kommt – Inaya zeigt bestimmt auf ihn."
+      },
+      "merktipp": {
+        "titel": "Zahl = keine Mehrzahl",
+        "text": "Im Türkischen zeigt die Zahl schon, dass es mehrere sind – also kein -lar: üç köpek, beş çocuk. Doppelt gemoppelt ist überflüssig."
+      }
     },
     {
       "woche": 2,
@@ -82,15 +294,100 @@
       "titel": "Mein & dein",
       "kannZiel": "sagen, wem etwas gehört – mein Mann, deine Tochter",
       "vokabeln": [
-        { "id": "w02-benim", "tr": "benim", "de": "mein(e)", "typ": "wort", "beispiel": { "tr": "Bu benim çayım!", "de": "Das ist mein Tee!" } },
-        { "id": "w02-senin", "tr": "senin", "de": "dein(e)", "typ": "wort", "beispiel": { "tr": "Bu senin kahven.", "de": "Das ist dein Kaffee." } },
-        { "id": "w02-es", "tr": "eş", "de": "Ehepartner (Mann / Frau)", "typ": "wort", "beispiel": { "tr": "Bu benim eşim, Pasha.", "de": "Das ist mein Mann, Pasha." } },
-        { "id": "w02-babaanne", "tr": "babaanne", "de": "Oma (Mutter des Vaters)", "typ": "wort", "beispiel": { "tr": "Babanın annesi: babaanne.", "de": "Die Mutter des Vaters: babaanne." }, "merktipp": "babaanne = baba + anne: Papas Mama. Für Inaya ist Pashas Mama die babaanne." },
-        { "id": "w02-anneanne", "tr": "anneanne", "de": "Oma (Mutter der Mutter)", "typ": "wort", "beispiel": { "tr": "Annenin annesi: anneanne.", "de": "Die Mutter der Mutter: anneanne." }, "merktipp": "anneanne = anne + anne: Mamas Mama. Logisch, oder?" },
-        { "id": "w02-dede", "tr": "dede", "de": "Opa", "typ": "wort", "beispiel": { "tr": "Dede ve torun çok mutlu.", "de": "Opa und Enkelkind sind sehr glücklich." } },
-        { "id": "w02-torun", "tr": "torun", "de": "Enkel / Enkelin", "typ": "wort", "beispiel": { "tr": "Inaya, babaannesinin torunu.", "de": "Inaya ist die Enkelin ihrer Oma." } },
-        { "id": "w02-arkadas", "tr": "arkadaş", "de": "Freund / Freundin", "typ": "wort", "beispiel": { "tr": "Elif benim arkadaşım.", "de": "Elif ist meine Freundin." } },
-        { "id": "w02-fotograf", "tr": "fotoğraf", "de": "Foto", "typ": "wort", "beispiel": { "tr": "Bu fotoğraf çok güzel.", "de": "Dieses Foto ist sehr schön." }, "merktipp": "Klingt wie „Fotograf“ – heißt aber einfach „Foto“." }
+        {
+          "id": "w02-benim",
+          "tr": "benim",
+          "de": "mein(e)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bu benim çayım!",
+            "de": "Das ist mein Tee!"
+          }
+        },
+        {
+          "id": "w02-senin",
+          "tr": "senin",
+          "de": "dein(e)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bu senin kahven.",
+            "de": "Das ist dein Kaffee."
+          }
+        },
+        {
+          "id": "w02-es",
+          "tr": "eş",
+          "de": "Ehepartner (Mann / Frau)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bu benim eşim, Pasha.",
+            "de": "Das ist mein Mann, Pasha."
+          }
+        },
+        {
+          "id": "w02-babaanne",
+          "tr": "babaanne",
+          "de": "Oma (Mutter des Vaters)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Babanın annesi: babaanne.",
+            "de": "Die Mutter des Vaters: babaanne."
+          },
+          "merktipp": "babaanne = baba + anne: Papas Mama. Für Inaya ist Pashas Mama die babaanne."
+        },
+        {
+          "id": "w02-anneanne",
+          "tr": "anneanne",
+          "de": "Oma (Mutter der Mutter)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Annenin annesi: anneanne.",
+            "de": "Die Mutter der Mutter: anneanne."
+          },
+          "merktipp": "anneanne = anne + anne: Mamas Mama. Logisch, oder?"
+        },
+        {
+          "id": "w02-dede",
+          "tr": "dede",
+          "de": "Opa",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Dede ve torun çok mutlu.",
+            "de": "Opa und Enkelkind sind sehr glücklich."
+          }
+        },
+        {
+          "id": "w02-torun",
+          "tr": "torun",
+          "de": "Enkel / Enkelin",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Inaya, babaannesinin torunu.",
+            "de": "Inaya ist die Enkelin ihrer Oma.",
+            "pruefen": true
+          }
+        },
+        {
+          "id": "w02-arkadas",
+          "tr": "arkadaş",
+          "de": "Freund / Freundin",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Elif benim arkadaşım.",
+            "de": "Elif ist meine Freundin."
+          }
+        },
+        {
+          "id": "w02-fotograf",
+          "tr": "fotoğraf",
+          "de": "Foto",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bu fotoğraf çok güzel.",
+            "de": "Dieses Foto ist sehr schön."
+          },
+          "merktipp": "Klingt wie „Fotograf“ – heißt aber einfach „Foto“."
+        }
       ],
       "grammatik": {
         "titel": "mein = -(ı)m, dein = -(ı)n",
@@ -101,56 +398,198 @@
           "Endet ein Wort auf k und es kommt ein Vokal dazu, wird k zu ğ: çocuk → çocuğum, köpek → köpeğim."
         ],
         "tabelle": {
-          "kopf": ["", "mein", "dein"],
+          "kopf": [
+            "",
+            "mein",
+            "dein"
+          ],
           "zeilen": [
-            ["anne", "annem", "annen"],
-            ["çay", "çayım", "çayın"],
-            ["kız", "kızım", "kızın"],
-            ["eş", "eşim", "eşin"],
-            ["çocuk", "çocuğum", "çocuğun"]
+            [
+              "anne",
+              "annem",
+              "annen"
+            ],
+            [
+              "çay",
+              "çayım",
+              "çayın"
+            ],
+            [
+              "kız",
+              "kızım",
+              "kızın"
+            ],
+            [
+              "eş",
+              "eşim",
+              "eşin"
+            ],
+            [
+              "çocuk",
+              "çocuğum",
+              "çocuğun"
+            ]
           ]
         },
         "beispiele": [
-          { "tr": "Bu benim eşim.", "de": "Das ist mein Mann." },
-          { "tr": "Bu senin kızın mı?", "de": "Ist das deine Tochter?" },
-          { "tr": "Elif benim arkadaşım.", "de": "Elif ist meine Freundin." }
+          {
+            "tr": "Bu benim eşim.",
+            "de": "Das ist mein Mann."
+          },
+          {
+            "tr": "Bu senin kızın mı?",
+            "de": "Ist das deine Tochter?"
+          },
+          {
+            "tr": "Elif benim arkadaşım.",
+            "de": "Elif ist meine Freundin."
+          }
         ]
       },
       "dialog": {
         "titel": "Fotos auf dem Handy",
         "zeilen": [
-          { "sprecher": "Elif", "tr": "Bu fotoğraf çok güzel! Bu kim?", "de": "Das Foto ist so schön! Wer ist das?" },
-          { "sprecher": "Sherin", "tr": "Bu benim eşim, Pasha.", "de": "Das ist mein Mann, Pasha." },
-          { "sprecher": "Elif", "tr": "Bu da senin kızın mı?", "de": "Und ist das deine Tochter?" },
-          { "sprecher": "Sherin", "tr": "Evet, kızım Inaya.", "de": "Ja, meine Tochter Inaya." },
-          { "sprecher": "Elif", "tr": "Ya bu?", "de": "Und wer ist das?" },
-          { "sprecher": "Sherin", "tr": "Bu Inaya'nın babaannesi.", "de": "Das ist Inayas Oma – Pashas Mama." },
-          { "sprecher": "Elif", "tr": "Çok tatlı bir aile!", "de": "So eine süße Familie!" }
+          {
+            "sprecher": "Elif",
+            "tr": "Bu fotoğraf çok güzel! Bu kim?",
+            "de": "Das Foto ist so schön! Wer ist das?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bu benim eşim, Pasha.",
+            "de": "Das ist mein Mann, Pasha."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Bu da senin kızın mı?",
+            "de": "Und ist das deine Tochter?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Evet, kızım Inaya.",
+            "de": "Ja, meine Tochter Inaya."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Ya bu?",
+            "de": "Und wer ist das?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bu Inaya'nın babaannesi.",
+            "de": "Das ist Inayas Oma – Pashas Mama."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Çok tatlı bir aile!",
+            "de": "So eine süße Familie!"
+          }
         ]
       },
       "uebungen": [
-        { "art": "auswahl_de_tr", "vokabel": "w02-es" },
-        { "art": "luecke", "satz": "Bu benim kız___.", "loesung": "ım", "optionen": ["ım", "im", "um", "üm"], "de": "Das ist meine Tochter.", "hinweis": "kız – letzter Vokal ı" },
-        { "art": "zuordnen", "vokabeln": ["w02-babaanne", "w02-anneanne", "w02-dede", "w02-torun"] },
-        { "art": "hoeren", "vokabel": "w02-arkadas" },
-        { "art": "luecke", "satz": "Bu senin anne___ mi?", "loesung": "n", "optionen": ["n", "in", "m"], "de": "Ist das deine Mutter?", "hinweis": "anne endet auf Vokal" },
-        { "art": "satzbau", "tr": "Bu benim eşim, Pasha.", "de": "Das ist mein Mann, Pasha." },
-        { "art": "auswahl_tr_de", "vokabel": "w02-senin" },
-        { "art": "luecke", "satz": "Elif benim arkadaş___.", "loesung": "ım", "optionen": ["ım", "im", "m"], "de": "Elif ist meine Freundin.", "hinweis": "arkadaş – letzter Vokal a" },
-        { "art": "tippen", "vokabel": "w02-dede" },
-        { "art": "hoeren", "vokabel": "w02-fotograf" },
-        { "art": "satzbau", "tr": "Bu senin kızın mı?", "de": "Ist das deine Tochter?" }
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w02-es"
+        },
+        {
+          "art": "luecke",
+          "satz": "Bu benim kız___.",
+          "loesung": "ım",
+          "optionen": [
+            "ım",
+            "im",
+            "um",
+            "üm"
+          ],
+          "de": "Das ist meine Tochter.",
+          "hinweis": "kız – letzter Vokal ı"
+        },
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w02-babaanne",
+            "w02-anneanne",
+            "w02-dede",
+            "w02-torun"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-arkadas"
+        },
+        {
+          "art": "luecke",
+          "satz": "Bu senin anne___ mi?",
+          "loesung": "n",
+          "optionen": [
+            "n",
+            "in",
+            "m"
+          ],
+          "de": "Ist das deine Mutter?",
+          "hinweis": "anne endet auf Vokal"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bu benim eşim, Pasha.",
+          "de": "Das ist mein Mann, Pasha."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w02-senin"
+        },
+        {
+          "art": "luecke",
+          "satz": "Elif benim arkadaş___.",
+          "loesung": "ım",
+          "optionen": [
+            "ım",
+            "im",
+            "m"
+          ],
+          "de": "Elif ist meine Freundin.",
+          "hinweis": "arkadaş – letzter Vokal a"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-dede"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-fotograf"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bu senin kızın mı?",
+          "de": "Ist das deine Tochter?"
+        }
       ],
       "sprechauftrag": {
         "aufgabe": "Scrollt zusammen durch Familienfotos. Du zeigst und sagst: „Bu benim …“ – Pasha fragt nach: „Bu senin … mı?“ Benutze: eşim, kızım, arkadaşım, babaanne.",
         "mustersaetze": [
-          { "tr": "Bu benim eşim.", "de": "Das ist mein Mann." },
-          { "tr": "Bu Inaya'nın babaannesi.", "de": "Das ist Inayas Oma." },
-          { "tr": "Bu senin annen mi?", "de": "Ist das deine Mutter?" }
+          {
+            "tr": "Bu benim eşim.",
+            "de": "Das ist mein Mann."
+          },
+          {
+            "tr": "Bu Inaya'nın babaannesi.",
+            "de": "Das ist Inayas Oma."
+          },
+          {
+            "tr": "Bu senin annen mi?",
+            "de": "Ist das deine Mutter?"
+          }
         ]
       },
-      "alltagssatz": { "tr": "Bu benim çayım!", "de": "Das ist mein Tee!", "wann": "Wenn Pasha (oder Inaya) heute nach deinem Glas greift." },
-      "merktipp": { "titel": "Omas mit Bauplan", "text": "babaanne = baba + anne (Papas Mama), anneanne = anne + anne (Mamas Mama). Das Türkische sagt dir gleich, von welcher Seite die Oma kommt." }
+      "alltagssatz": {
+        "tr": "Bu benim çayım!",
+        "de": "Das ist mein Tee!",
+        "wann": "Wenn Pasha (oder Inaya) heute nach deinem Glas greift."
+      },
+      "merktipp": {
+        "titel": "Omas mit Bauplan",
+        "text": "babaanne = baba + anne (Papas Mama), anneanne = anne + anne (Mamas Mama). Das Türkische sagt dir gleich, von welcher Seite die Oma kommt."
+      }
     },
     {
       "woche": 2,
@@ -158,14 +597,87 @@
       "titel": "Haben: var & yok",
       "kannZiel": "sagen, was du hast und was fehlt",
       "vokabeln": [
-        { "id": "w02-var", "tr": "var", "de": "es gibt / ist da", "typ": "wort", "beispiel": { "tr": "Evde çay var.", "de": "Zu Hause ist Tee da." } },
-        { "id": "w02-yok", "tr": "yok", "de": "es gibt nicht / ist nicht da", "typ": "wort", "beispiel": { "tr": "Süt yok!", "de": "Es ist keine Milch da!" } },
-        { "id": "w02-bir-kizim-var", "tr": "Bir kızım var.", "de": "Ich habe eine Tochter.", "typ": "chunk", "beispiel": { "tr": "Bir kızım var. Onun adı Inaya.", "de": "Ich habe eine Tochter. Sie heißt Inaya." } },
-        { "id": "w02-bir-kopegimiz-var", "tr": "Bir köpeğimiz var.", "de": "Wir haben einen Hund.", "typ": "chunk", "beispiel": { "tr": "Bir köpeğimiz var. Adı Amani.", "de": "Wir haben einen Hund. Sie heißt Amani." } },
-        { "id": "w02-kardesin-var-mi", "tr": "Kardeşin var mı?", "de": "Hast du Geschwister?", "typ": "chunk", "beispiel": { "tr": "Pasha, kardeşin var mı?", "de": "Pasha, hast du Geschwister?" } },
-        { "id": "w02-zamanim-yok", "tr": "Zamanım yok.", "de": "Ich habe keine Zeit.", "typ": "chunk", "beispiel": { "tr": "Bugün zamanım yok.", "de": "Heute habe ich keine Zeit." } },
-        { "id": "w02-sorun-yok", "tr": "Sorun yok.", "de": "Kein Problem.", "typ": "chunk", "beispiel": { "tr": "Sorun yok, tamam!", "de": "Kein Problem, alles gut!" } },
-        { "id": "w02-ev", "tr": "ev", "de": "Haus / Zuhause", "typ": "wort", "beispiel": { "tr": "Bu bizim evimiz.", "de": "Das ist unser Zuhause." }, "merktipp": "ev = Haus → „Eva ist zu Hause.“" }
+        {
+          "id": "w02-var",
+          "tr": "var",
+          "de": "es gibt / ist da",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Evde çay var.",
+            "de": "Zu Hause ist Tee da."
+          }
+        },
+        {
+          "id": "w02-yok",
+          "tr": "yok",
+          "de": "es gibt nicht / ist nicht da",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Süt yok!",
+            "de": "Es ist keine Milch da!"
+          }
+        },
+        {
+          "id": "w02-bir-kizim-var",
+          "tr": "Bir kızım var.",
+          "de": "Ich habe eine Tochter.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bir kızım var. Onun adı Inaya.",
+            "de": "Ich habe eine Tochter. Sie heißt Inaya."
+          }
+        },
+        {
+          "id": "w02-bir-kopegimiz-var",
+          "tr": "Bir köpeğimiz var.",
+          "de": "Wir haben einen Hund.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bir köpeğimiz var. Adı Amani.",
+            "de": "Wir haben einen Hund. Sie heißt Amani."
+          }
+        },
+        {
+          "id": "w02-kardesin-var-mi",
+          "tr": "Kardeşin var mı?",
+          "de": "Hast du Geschwister?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Pasha, kardeşin var mı?",
+            "de": "Pasha, hast du Geschwister?"
+          }
+        },
+        {
+          "id": "w02-zamanim-yok",
+          "tr": "Zamanım yok.",
+          "de": "Ich habe keine Zeit.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bugün zamanım yok.",
+            "de": "Heute habe ich keine Zeit."
+          }
+        },
+        {
+          "id": "w02-sorun-yok",
+          "tr": "Sorun yok.",
+          "de": "Kein Problem.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Sorun yok, tamam!",
+            "de": "Kein Problem, alles gut!"
+          }
+        },
+        {
+          "id": "w02-ev",
+          "tr": "ev",
+          "de": "Haus / Zuhause",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bu bizim evimiz.",
+            "de": "Das ist unser Zuhause."
+          },
+          "merktipp": "ev = Haus → „Eva ist zu Hause.“"
+        }
       ],
       "grammatik": {
         "titel": "Haben ohne „haben“",
@@ -177,54 +689,177 @@
           "unser = -(ı)mız / -(i)miz: köpek → köpeğimiz (unser Hund), ev → evimiz."
         ],
         "tabelle": {
-          "kopf": ["", "haben", "nicht haben"],
+          "kopf": [
+            "",
+            "haben",
+            "nicht haben"
+          ],
           "zeilen": [
-            ["ich", "zamanım var", "zamanım yok"],
-            ["du", "zamanın var", "zamanın yok"],
-            ["wir", "köpeğimiz var", "köpeğimiz yok"]
+            [
+              "ich",
+              "zamanım var",
+              "zamanım yok"
+            ],
+            [
+              "du",
+              "zamanın var",
+              "zamanın yok"
+            ],
+            [
+              "wir",
+              "köpeğimiz var",
+              "köpeğimiz yok"
+            ]
           ]
         },
         "beispiele": [
-          { "tr": "Bir kızım var.", "de": "Ich habe eine Tochter." },
-          { "tr": "Zamanın var mı? – Yok.", "de": "Hast du Zeit? – Nein." },
-          { "tr": "Evde süt yok.", "de": "Zu Hause ist keine Milch." }
+          {
+            "tr": "Bir kızım var.",
+            "de": "Ich habe eine Tochter."
+          },
+          {
+            "tr": "Zamanın var mı? – Yok.",
+            "de": "Hast du Zeit? – Nein."
+          },
+          {
+            "tr": "Evde süt yok.",
+            "de": "Zu Hause ist keine Milch."
+          }
         ]
       },
       "dialog": {
         "titel": "Einkaufsliste per Telefon",
         "zeilen": [
-          { "sprecher": "Pasha", "tr": "Evde süt var mı?", "de": "Haben wir Milch zu Hause?" },
-          { "sprecher": "Sherin", "tr": "Hayır, süt yok.", "de": "Nein, keine Milch." },
-          { "sprecher": "Pasha", "tr": "Ekmek var mı?", "de": "Ist Brot da?" },
-          { "sprecher": "Sherin", "tr": "Ekmek var. Ama Inaya'nın bezi yok!", "de": "Brot ist da. Aber Inaya hat keine Windeln mehr!" },
-          { "sprecher": "Pasha", "tr": "Tamam, sorun yok. Ben alırım.", "de": "Okay, kein Problem. Ich hol welche." },
-          { "sprecher": "Sherin", "tr": "Amani'nin maması da yok!", "de": "Und Amanis Futter ist auch alle!" },
-          { "sprecher": "Pasha", "tr": "Tamam, onu da alırım.", "de": "Okay, das hol ich auch." }
+          {
+            "sprecher": "Pasha",
+            "tr": "Evde süt var mı?",
+            "de": "Haben wir Milch zu Hause?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Hayır, süt yok.",
+            "de": "Nein, keine Milch."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Ekmek var mı?",
+            "de": "Ist Brot da?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Ekmek var. Ama Inaya'nın bezi yok!",
+            "de": "Brot ist da. Aber Inaya hat keine Windeln mehr!"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Tamam, sorun yok. Ben alırım.",
+            "de": "Okay, kein Problem. Ich hol welche."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Amani'nin maması da yok!",
+            "de": "Und Amanis Futter ist auch alle!"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Tamam, onu da alırım.",
+            "de": "Okay, das hol ich auch."
+          }
         ]
       },
       "uebungen": [
-        { "art": "auswahl_tr_de", "vokabel": "w02-var" },
-        { "art": "auswahl_tr_de", "vokabel": "w02-yok" },
-        { "art": "hoeren", "vokabel": "w02-bir-kizim-var" },
-        { "art": "satzbau", "tr": "Bir köpeğimiz var.", "de": "Wir haben einen Hund." },
-        { "art": "luecke", "satz": "Bugün zaman___ yok.", "loesung": "ım", "optionen": ["ım", "ın", "imiz"], "de": "Heute habe ich keine Zeit." },
-        { "art": "auswahl_de_tr", "vokabel": "w02-sorun-yok" },
-        { "art": "luecke", "satz": "Evde süt ___ mı?", "loesung": "var", "optionen": ["var", "yok", "değil"], "de": "Ist zu Hause Milch da?" },
-        { "art": "hoeren", "vokabel": "w02-kardesin-var-mi" },
-        { "art": "tippen", "vokabel": "w02-ev" },
-        { "art": "satzbau", "tr": "Bir kızım var. Onun adı Inaya.", "de": "Ich habe eine Tochter. Sie heißt Inaya." },
-        { "art": "zuordnen", "vokabeln": ["w02-var", "w02-yok", "w02-ev", "w02-zamanim-yok"] }
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w02-var"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w02-yok"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-bir-kizim-var"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bir köpeğimiz var.",
+          "de": "Wir haben einen Hund."
+        },
+        {
+          "art": "luecke",
+          "satz": "Bugün zaman___ yok.",
+          "loesung": "ım",
+          "optionen": [
+            "ım",
+            "ın",
+            "imiz"
+          ],
+          "de": "Heute habe ich keine Zeit."
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w02-sorun-yok"
+        },
+        {
+          "art": "luecke",
+          "satz": "Evde süt ___ mı?",
+          "loesung": "var",
+          "optionen": [
+            "var",
+            "yok",
+            "değil"
+          ],
+          "de": "Ist zu Hause Milch da?"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-kardesin-var-mi"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-ev"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bir kızım var. Onun adı Inaya.",
+          "de": "Ich habe eine Tochter. Sie heißt Inaya."
+        },
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w02-var",
+            "w02-yok",
+            "w02-ev",
+            "w02-zamanim-yok"
+          ]
+        }
       ],
       "sprechauftrag": {
         "aufgabe": "Macht zusammen die Einkaufsliste – auf Türkisch. Öffne den Kühlschrank und sag, was da ist und was fehlt. Pasha fragt: „… var mı?“",
         "mustersaetze": [
-          { "tr": "Süt yok. Ekmek var.", "de": "Keine Milch. Brot ist da." },
-          { "tr": "Peynir var mı?", "de": "Ist Käse da?" },
-          { "tr": "Sorun yok!", "de": "Kein Problem!" }
+          {
+            "tr": "Süt yok. Ekmek var.",
+            "de": "Keine Milch. Brot ist da."
+          },
+          {
+            "tr": "Peynir var mı?",
+            "de": "Ist Käse da?"
+          },
+          {
+            "tr": "Sorun yok!",
+            "de": "Kein Problem!"
+          }
         ]
       },
-      "alltagssatz": { "tr": "Sorun yok!", "de": "Kein Problem!", "wann": "Wenn heute etwas schiefgeht – ein Becher fällt um, Amani bellt. Locker bleiben auf Türkisch." },
-      "merktipp": { "titel": "var & yok überall", "text": "var und yok sind zwei der wichtigsten Wörter im Türkischen. Mit ihnen kannst du sagen, was es gibt, was fehlt und was du hast – ganz ohne Verb." }
+      "alltagssatz": {
+        "tr": "Sorun yok!",
+        "de": "Kein Problem!",
+        "wann": "Wenn heute etwas schiefgeht – ein Becher fällt um, Amani bellt. Locker bleiben auf Türkisch."
+      },
+      "merktipp": {
+        "titel": "var & yok überall",
+        "text": "var und yok sind zwei der wichtigsten Wörter im Türkischen. Mit ihnen kannst du sagen, was es gibt, was fehlt und was du hast – ganz ohne Verb."
+      }
     },
     {
       "woche": 2,
@@ -232,16 +867,110 @@
       "titel": "Zahlen bis 100",
       "kannZiel": "Zahlen bis hundert verstehen und sagen",
       "vokabeln": [
-        { "id": "w02-yirmi", "tr": "yirmi", "de": "zwanzig", "typ": "wort", "beispiel": { "tr": "Yirmi bir, yirmi iki …", "de": "Einundzwanzig, zweiundzwanzig …" } },
-        { "id": "w02-otuz", "tr": "otuz", "de": "dreißig", "typ": "wort", "beispiel": { "tr": "Otuz derece! Çok sıcak.", "de": "30 Grad! Sehr heiß." } },
-        { "id": "w02-kirk", "tr": "kırk", "de": "vierzig", "typ": "wort", "beispiel": { "tr": "Kırk euro.", "de": "Vierzig Euro." } },
-        { "id": "w02-elli", "tr": "elli", "de": "fünfzig", "typ": "wort", "beispiel": { "tr": "Elli kilometre.", "de": "Fünfzig Kilometer." } },
-        { "id": "w02-altmis", "tr": "altmış", "de": "sechzig", "typ": "wort", "beispiel": { "tr": "Bir saatte altmış dakika var.", "de": "Eine Stunde hat sechzig Minuten." }, "merktipp": "altmış steckt altı (6) drin – sechzig." },
-        { "id": "w02-yetmis", "tr": "yetmiş", "de": "siebzig", "typ": "wort", "beispiel": { "tr": "Yetmiş beş.", "de": "Fünfundsiebzig." }, "merktipp": "yetmiş steckt yedi (7) drin – siebzig." },
-        { "id": "w02-seksen", "tr": "seksen", "de": "achtzig", "typ": "wort", "beispiel": { "tr": "Seksen sekiz.", "de": "Achtundachtzig." }, "merktipp": "seksen kommt von sekiz (8) – achtzig." },
-        { "id": "w02-doksan", "tr": "doksan", "de": "neunzig", "typ": "wort", "beispiel": { "tr": "Doksan dokuz.", "de": "Neunundneunzig." }, "merktipp": "doksan kommt von dokuz (9) – neunzig." },
-        { "id": "w02-yuz", "tr": "yüz", "de": "hundert", "typ": "wort", "beispiel": { "tr": "Yüz euro çok para!", "de": "Hundert Euro sind viel Geld!" } },
-        { "id": "w02-kac", "tr": "kaç?", "de": "wie viele? / wie viel?", "typ": "wort", "beispiel": { "tr": "Bu kaç euro?", "de": "Wie viel Euro kostet das?" } }
+        {
+          "id": "w02-yirmi",
+          "tr": "yirmi",
+          "de": "zwanzig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Yirmi bir, yirmi iki …",
+            "de": "Einundzwanzig, zweiundzwanzig …"
+          }
+        },
+        {
+          "id": "w02-otuz",
+          "tr": "otuz",
+          "de": "dreißig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Otuz derece! Çok sıcak.",
+            "de": "30 Grad! Sehr heiß."
+          }
+        },
+        {
+          "id": "w02-kirk",
+          "tr": "kırk",
+          "de": "vierzig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Kırk euro.",
+            "de": "Vierzig Euro."
+          }
+        },
+        {
+          "id": "w02-elli",
+          "tr": "elli",
+          "de": "fünfzig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Elli kilometre.",
+            "de": "Fünfzig Kilometer."
+          }
+        },
+        {
+          "id": "w02-altmis",
+          "tr": "altmış",
+          "de": "sechzig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bir saatte altmış dakika var.",
+            "de": "Eine Stunde hat sechzig Minuten."
+          },
+          "merktipp": "altmış steckt altı (6) drin – sechzig."
+        },
+        {
+          "id": "w02-yetmis",
+          "tr": "yetmiş",
+          "de": "siebzig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Yetmiş beş.",
+            "de": "Fünfundsiebzig."
+          },
+          "merktipp": "yetmiş steckt yedi (7) drin – siebzig."
+        },
+        {
+          "id": "w02-seksen",
+          "tr": "seksen",
+          "de": "achtzig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Seksen sekiz.",
+            "de": "Achtundachtzig."
+          },
+          "merktipp": "seksen kommt von sekiz (8) – achtzig."
+        },
+        {
+          "id": "w02-doksan",
+          "tr": "doksan",
+          "de": "neunzig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Doksan dokuz.",
+            "de": "Neunundneunzig."
+          },
+          "merktipp": "doksan kommt von dokuz (9) – neunzig."
+        },
+        {
+          "id": "w02-yuz",
+          "tr": "yüz",
+          "de": "hundert",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Yüz euro çok para!",
+            "de": "Hundert Euro sind viel Geld!"
+          }
+        },
+        {
+          "id": "w02-kac",
+          "tr": "kaç?",
+          "de": "wie viele? / wie viel?",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bu kaç euro?",
+            "de": "Wie viel Euro kostet das?"
+          }
+        }
       ],
       "grammatik": {
         "titel": "Zehner + Einer",
@@ -252,56 +981,185 @@
           "Ab 60 hört man die Einer im Zehner: altı → altmış, yedi → yetmiş, sekiz → seksen, dokuz → doksan."
         ],
         "tabelle": {
-          "kopf": ["Zahl", "Türkisch"],
+          "kopf": [
+            "Zahl",
+            "Türkisch"
+          ],
           "zeilen": [
-            ["12", "on iki"],
-            ["21", "yirmi bir"],
-            ["35", "otuz beş"],
-            ["48", "kırk sekiz"],
-            ["67", "altmış yedi"],
-            ["99", "doksan dokuz"]
+            [
+              "12",
+              "on iki"
+            ],
+            [
+              "21",
+              "yirmi bir"
+            ],
+            [
+              "35",
+              "otuz beş"
+            ],
+            [
+              "48",
+              "kırk sekiz"
+            ],
+            [
+              "67",
+              "altmış yedi"
+            ],
+            [
+              "99",
+              "doksan dokuz"
+            ]
           ]
         },
         "beispiele": [
-          { "tr": "Kırk beş euro.", "de": "45 Euro." },
-          { "tr": "Bu kaç euro?", "de": "Wie viel Euro kostet das?" },
-          { "tr": "Yetmiş iki.", "de": "Zweiundsiebzig." }
+          {
+            "tr": "Kırk beş euro.",
+            "de": "45 Euro."
+          },
+          {
+            "tr": "Bu kaç euro?",
+            "de": "Wie viel Euro kostet das?"
+          },
+          {
+            "tr": "Yetmiş iki.",
+            "de": "Zweiundsiebzig."
+          }
         ]
       },
       "dialog": {
         "titel": "Amanis Futter ist teuer",
         "zeilen": [
-          { "sprecher": "Sherin", "tr": "Bu mama kaç euro?", "de": "Wie viel kostet dieses Futter?" },
-          { "sprecher": "Pasha", "tr": "Kırk beş euro.", "de": "45 Euro." },
-          { "sprecher": "Sherin", "tr": "Kırk beş mi? Çok pahalı!", "de": "45? Ganz schön teuer!" },
-          { "sprecher": "Pasha", "tr": "Ama yirmi kilo.", "de": "Aber es sind 20 Kilo." },
-          { "sprecher": "Sherin", "tr": "Tamam. Amani çok yiyor!", "de": "Stimmt. Amani frisst ja auch viel!" },
-          { "sprecher": "Pasha", "tr": "Evet, Amani her zaman aç!", "de": "Ja, Amani hat immer Hunger!" }
+          {
+            "sprecher": "Sherin",
+            "tr": "Bu mama kaç euro?",
+            "de": "Wie viel kostet dieses Futter?"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Kırk beş euro.",
+            "de": "45 Euro."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Kırk beş mi? Çok pahalı!",
+            "de": "45? Ganz schön teuer!"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Ama yirmi kilo.",
+            "de": "Aber es sind 20 Kilo."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Tamam. Amani çok yiyor!",
+            "de": "Stimmt. Amani frisst ja auch viel!"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Evet, Amani her zaman aç!",
+            "de": "Ja, Amani hat immer Hunger!"
+          }
         ]
       },
       "uebungen": [
-        { "art": "zuordnen", "vokabeln": ["w02-yirmi", "w02-otuz", "w02-kirk", "w02-elli", "w02-yuz"] },
-        { "art": "hoeren", "vokabel": "w02-altmis" },
-        { "art": "zuordnen", "vokabeln": ["w02-altmis", "w02-yetmis", "w02-seksen", "w02-doksan"] },
-        { "art": "auswahl_de_tr", "vokabel": "w02-seksen" },
-        { "art": "satzbau", "tr": "Bu mama kaç euro?", "de": "Wie viel kostet dieses Futter?" },
-        { "art": "luecke", "satz": "35 = otuz ___", "loesung": "beş", "optionen": ["beş", "üç", "elli"], "de": "fünfunddreißig" },
-        { "art": "hoeren", "vokabel": "w02-doksan" },
-        { "art": "tippen", "vokabel": "w02-yuz" },
-        { "art": "luecke", "satz": "72 = ___ iki", "loesung": "yetmiş", "optionen": ["yetmiş", "yedi", "altmış"], "de": "zweiundsiebzig" },
-        { "art": "auswahl_tr_de", "vokabel": "w02-kirk" },
-        { "art": "tippen", "vokabel": "w02-elli" }
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w02-yirmi",
+            "w02-otuz",
+            "w02-kirk",
+            "w02-elli",
+            "w02-yuz"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-altmis"
+        },
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w02-altmis",
+            "w02-yetmis",
+            "w02-seksen",
+            "w02-doksan"
+          ]
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w02-seksen"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bu mama kaç euro?",
+          "de": "Wie viel kostet dieses Futter?"
+        },
+        {
+          "art": "luecke",
+          "satz": "35 = otuz ___",
+          "loesung": "beş",
+          "optionen": [
+            "beş",
+            "üç",
+            "elli"
+          ],
+          "de": "fünfunddreißig"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-doksan"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-yuz"
+        },
+        {
+          "art": "luecke",
+          "satz": "72 = ___ iki",
+          "loesung": "yetmiş",
+          "optionen": [
+            "yetmiş",
+            "yedi",
+            "altmış"
+          ],
+          "de": "zweiundsiebzig"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w02-kirk"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-elli"
+        }
       ],
       "sprechauftrag": {
         "aufgabe": "Preisraten: Pasha nennt Preise von Dingen im Haus auf Türkisch (Kinderwagen, Amanis Futter, Kaffee) – du schreibst die Zahl auf. Dann tauscht ihr.",
         "mustersaetze": [
-          { "tr": "Bu kaç euro?", "de": "Wie viel kostet das?" },
-          { "tr": "Otuz beş euro.", "de": "35 Euro." },
-          { "tr": "Çok pahalı!", "de": "Sehr teuer!" }
+          {
+            "tr": "Bu kaç euro?",
+            "de": "Wie viel kostet das?"
+          },
+          {
+            "tr": "Otuz beş euro.",
+            "de": "35 Euro."
+          },
+          {
+            "tr": "Çok pahalı!",
+            "de": "Sehr teuer!"
+          }
         ]
       },
-      "alltagssatz": { "tr": "Bu kaç euro?", "de": "Wie viel kostet das?", "wann": "Beim nächsten Online-Shopping: Frag Pasha nach dem Preis." },
-      "merktipp": { "titel": "Zehner verraten die Einer", "text": "altmış ← altı, yetmiş ← yedi, seksen ← sekiz, doksan ← dokuz. Wenn du 6–9 kannst, hast du 60–90 schon halb im Kopf." }
+      "alltagssatz": {
+        "tr": "Bu kaç euro?",
+        "de": "Wie viel kostet das?",
+        "wann": "Beim nächsten Online-Shopping: Frag Pasha nach dem Preis."
+      },
+      "merktipp": {
+        "titel": "Zehner verraten die Einer",
+        "text": "altmış ← altı, yetmiş ← yedi, seksen ← sekiz, doksan ← dokuz. Wenn du 6–9 kannst, hast du 60–90 schon halb im Kopf."
+      }
     },
     {
       "woche": 2,
@@ -309,15 +1167,97 @@
       "titel": "Wie alt?",
       "kannZiel": "nach dem Alter fragen und es sagen",
       "vokabeln": [
-        { "id": "w02-yas", "tr": "yaş", "de": "Alter / Lebensjahr", "typ": "wort", "beispiel": { "tr": "Yaş sadece bir sayı!", "de": "Alter ist nur eine Zahl!" } },
-        { "id": "w02-kac-yasindasin", "tr": "Kaç yaşındasın?", "de": "Wie alt bist du?", "typ": "chunk", "beispiel": { "tr": "Elif, kaç yaşındasın?", "de": "Elif, wie alt bist du?" } },
-        { "id": "w02-yasinda", "tr": "… yaşında", "de": "… Jahre alt (er / sie)", "typ": "chunk", "beispiel": { "tr": "Inaya bir yaşında.", "de": "Inaya ist ein Jahr alt." } },
-        { "id": "w02-buyuk", "tr": "büyük", "de": "groß / älter", "typ": "wort", "beispiel": { "tr": "Amani çok büyük bir köpek.", "de": "Amani ist ein sehr großer Hund." } },
-        { "id": "w02-kucuk", "tr": "küçük", "de": "klein / jünger", "typ": "wort", "beispiel": { "tr": "Inaya daha çok küçük.", "de": "Inaya ist noch sehr klein." } },
-        { "id": "w02-genc", "tr": "genç", "de": "jung", "typ": "wort", "beispiel": { "tr": "Sen çok gençsin!", "de": "Du bist so jung!" } },
-        { "id": "w02-ay", "tr": "ay", "de": "Monat (auch: Mond)", "typ": "wort", "beispiel": { "tr": "Bir yılda on iki ay var.", "de": "Ein Jahr hat zwölf Monate." } },
-        { "id": "w02-yil", "tr": "yıl", "de": "Jahr", "typ": "wort", "beispiel": { "tr": "Mutlu yıllar!", "de": "Frohes neues Jahr!" } },
-        { "id": "w02-dogum-gunu", "tr": "doğum günü", "de": "Geburtstag", "typ": "chunk", "beispiel": { "tr": "Doğum günün kutlu olsun!", "de": "Alles Gute zum Geburtstag!" }, "merktipp": "doğum = Geburt, gün = Tag – gün kennst du schon aus Günaydın!" }
+        {
+          "id": "w02-yas",
+          "tr": "yaş",
+          "de": "Alter / Lebensjahr",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Yaş sadece bir sayı!",
+            "de": "Alter ist nur eine Zahl!"
+          }
+        },
+        {
+          "id": "w02-kac-yasindasin",
+          "tr": "Kaç yaşındasın?",
+          "de": "Wie alt bist du?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Elif, kaç yaşındasın?",
+            "de": "Elif, wie alt bist du?"
+          }
+        },
+        {
+          "id": "w02-yasinda",
+          "tr": "… yaşında",
+          "de": "… Jahre alt (er / sie)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Inaya bir yaşında.",
+            "de": "Inaya ist ein Jahr alt."
+          }
+        },
+        {
+          "id": "w02-buyuk",
+          "tr": "büyük",
+          "de": "groß / älter",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Amani çok büyük bir köpek.",
+            "de": "Amani ist ein sehr großer Hund."
+          }
+        },
+        {
+          "id": "w02-kucuk",
+          "tr": "küçük",
+          "de": "klein / jünger",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Inaya daha çok küçük.",
+            "de": "Inaya ist noch sehr klein."
+          }
+        },
+        {
+          "id": "w02-genc",
+          "tr": "genç",
+          "de": "jung",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Sen çok gençsin!",
+            "de": "Du bist so jung!"
+          }
+        },
+        {
+          "id": "w02-ay",
+          "tr": "ay",
+          "de": "Monat (auch: Mond)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bir yılda on iki ay var.",
+            "de": "Ein Jahr hat zwölf Monate."
+          }
+        },
+        {
+          "id": "w02-yil",
+          "tr": "yıl",
+          "de": "Jahr",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Mutlu yıllar!",
+            "de": "Frohes neues Jahr!"
+          }
+        },
+        {
+          "id": "w02-dogum-gunu",
+          "tr": "doğum günü",
+          "de": "Geburtstag",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Doğum günün kutlu olsun!",
+            "de": "Alles Gute zum Geburtstag!"
+          },
+          "merktipp": "doğum = Geburt, gün = Tag – gün kennst du schon aus Günaydın!"
+        }
       ],
       "grammatik": {
         "titel": "Alter: Zahl + yaşında",
@@ -328,55 +1268,170 @@
           "Bei Babys oft in Monaten: on aylık = zehn Monate alt."
         ],
         "tabelle": {
-          "kopf": ["", "Alter"],
+          "kopf": [
+            "",
+            "Alter"
+          ],
           "zeilen": [
-            ["ich bin …", "… yaşındayım"],
-            ["du bist …", "… yaşındasın"],
-            ["er/sie ist …", "… yaşında"],
-            ["Wie alt bist du?", "Kaç yaşındasın?"]
+            [
+              "ich bin …",
+              "… yaşındayım"
+            ],
+            [
+              "du bist …",
+              "… yaşındasın"
+            ],
+            [
+              "er/sie ist …",
+              "… yaşında"
+            ],
+            [
+              "Wie alt bist du?",
+              "Kaç yaşındasın?"
+            ]
           ]
         },
         "beispiele": [
-          { "tr": "Inaya bir yaşında.", "de": "Inaya ist ein Jahr alt." },
-          { "tr": "Kaç yaşındasın?", "de": "Wie alt bist du?" },
-          { "tr": "Oğlum dört yaşında.", "de": "Mein Sohn ist vier." }
+          {
+            "tr": "Inaya bir yaşında.",
+            "de": "Inaya ist ein Jahr alt."
+          },
+          {
+            "tr": "Kaç yaşındasın?",
+            "de": "Wie alt bist du?"
+          },
+          {
+            "tr": "Oğlum dört yaşında.",
+            "de": "Mein Sohn ist vier."
+          }
         ]
       },
       "dialog": {
         "titel": "Wieder auf dem Spielplatz",
         "zeilen": [
-          { "sprecher": "Elif", "tr": "Inaya kaç yaşında?", "de": "Wie alt ist Inaya?" },
-          { "sprecher": "Sherin", "tr": "Bir yaşında.", "de": "Ein Jahr." },
-          { "sprecher": "Elif", "tr": "Maşallah, çok büyük!", "de": "Maşallah, schon so groß!" },
-          { "sprecher": "Sherin", "tr": "Senin oğlun kaç yaşında?", "de": "Wie alt ist dein Sohn?" },
-          { "sprecher": "Elif", "tr": "Dört yaşında. Yarın doğum günü!", "de": "Vier. Morgen hat er Geburtstag!" },
-          { "sprecher": "Sherin", "tr": "Gerçekten mi? Doğum günü kutlu olsun!", "de": "Wirklich? Alles Gute zum Geburtstag!" },
-          { "sprecher": "Elif", "tr": "Teşekkürler!", "de": "Danke!" }
+          {
+            "sprecher": "Elif",
+            "tr": "Inaya kaç yaşında?",
+            "de": "Wie alt ist Inaya?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bir yaşında.",
+            "de": "Ein Jahr."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Maşallah, çok büyük!",
+            "de": "Maşallah, schon so groß!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Senin oğlun kaç yaşında?",
+            "de": "Wie alt ist dein Sohn?"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Dört yaşında. Yarın doğum günü!",
+            "de": "Vier. Morgen hat er Geburtstag!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Gerçekten mi? Doğum günü kutlu olsun!",
+            "de": "Wirklich? Alles Gute zum Geburtstag!"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Teşekkürler!",
+            "de": "Danke!"
+          }
         ]
       },
       "uebungen": [
-        { "art": "auswahl_de_tr", "vokabel": "w02-kac-yasindasin" },
-        { "art": "hoeren", "vokabel": "w02-yasinda" },
-        { "art": "zuordnen", "vokabeln": ["w02-buyuk", "w02-kucuk", "w02-genc", "w02-yas"] },
-        { "art": "luecke", "satz": "Kaç yaşında___?", "loesung": "sın", "optionen": ["sın", "sin", "yım"], "de": "Wie alt bist du?" },
-        { "art": "satzbau", "tr": "Inaya bir yaşında.", "de": "Inaya ist ein Jahr alt." },
-        { "art": "auswahl_tr_de", "vokabel": "w02-ay" },
-        { "art": "hoeren", "vokabel": "w02-dogum-gunu" },
-        { "art": "tippen", "vokabel": "w02-yil" },
-        { "art": "satzbau", "tr": "Senin oğlun kaç yaşında?", "de": "Wie alt ist dein Sohn?" },
-        { "art": "auswahl_de_tr", "vokabel": "w02-kucuk" },
-        { "art": "tippen", "vokabel": "w02-genc" }
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w02-kac-yasindasin"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-yasinda"
+        },
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w02-buyuk",
+            "w02-kucuk",
+            "w02-genc",
+            "w02-yas"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Kaç yaşında___?",
+          "loesung": "sın",
+          "optionen": [
+            "sın",
+            "sin",
+            "yım"
+          ],
+          "de": "Wie alt bist du?"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Inaya bir yaşında.",
+          "de": "Inaya ist ein Jahr alt."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w02-ay"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-dogum-gunu"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-yil"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Senin oğlun kaç yaşında?",
+          "de": "Wie alt ist dein Sohn?"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w02-kucuk"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-genc"
+        }
       ],
       "sprechauftrag": {
         "aufgabe": "Frag Pasha nach dem Alter von fünf Menschen aus seiner Familie („Annen kaç yaşında?“). Er antwortet auf Türkisch – du rechnest mit und sagst die Zahl zurück.",
         "mustersaetze": [
-          { "tr": "Annen kaç yaşında?", "de": "Wie alt ist deine Mutter?" },
-          { "tr": "Inaya bir yaşında.", "de": "Inaya ist ein Jahr alt." },
-          { "tr": "Gerçekten mi? Çok genç!", "de": "Wirklich? So jung!" }
+          {
+            "tr": "Annen kaç yaşında?",
+            "de": "Wie alt ist deine Mutter?"
+          },
+          {
+            "tr": "Inaya bir yaşında.",
+            "de": "Inaya ist ein Jahr alt."
+          },
+          {
+            "tr": "Gerçekten mi? Çok genç!",
+            "de": "Wirklich? So jung!"
+          }
         ]
       },
-      "alltagssatz": { "tr": "Maşallah!", "de": "Toll! (Lob, besonders für Kinder)", "wann": "Wenn Inaya heute etwas Neues schafft – oder jemand ein Kinderfoto zeigt." },
-      "merktipp": { "titel": "Maşallah!", "text": "Wenn man ein Kind lobt („so groß, so hübsch“), sagt man auf Türkisch oft „Maşallah“ dazu. Es soll das Kind vor dem bösen Blick schützen – deshalb hört man es in Pashas Familie bestimmt oft." }
+      "alltagssatz": {
+        "tr": "Maşallah!",
+        "de": "Toll! (Lob, besonders für Kinder)",
+        "wann": "Wenn Inaya heute etwas Neues schafft – oder jemand ein Kinderfoto zeigt."
+      },
+      "merktipp": {
+        "titel": "Maşallah!",
+        "text": "Wenn man ein Kind lobt („so groß, so hübsch“), sagt man auf Türkisch oft „Maşallah“ dazu. Es soll das Kind vor dem bösen Blick schützen – deshalb hört man es in Pashas Familie bestimmt oft."
+      }
     },
     {
       "woche": 2,
@@ -384,11 +1439,56 @@
       "titel": "Festigungstag: Familien-Anruf",
       "kannZiel": "deine Familie in einem Stück vorstellen",
       "vokabeln": [
-        { "id": "w02-seni-seviyorum", "tr": "Seni seviyorum.", "de": "Ich liebe dich. / Hab dich lieb.", "typ": "chunk", "beispiel": { "tr": "Seni seviyorum, Inaya!", "de": "Hab dich lieb, Inaya!" } },
-        { "id": "w02-canim", "tr": "canım", "de": "mein Schatz / Liebes", "typ": "wort", "beispiel": { "tr": "Günaydın canım!", "de": "Guten Morgen, Schatz!" } },
-        { "id": "w02-birlikte", "tr": "birlikte", "de": "zusammen", "typ": "wort", "beispiel": { "tr": "Birlikte çay içelim.", "de": "Lass uns zusammen Tee trinken." } },
-        { "id": "w02-hepimiz", "tr": "hepimiz", "de": "wir alle", "typ": "wort", "beispiel": { "tr": "Hepimiz buradayız!", "de": "Wir sind alle da!" } },
-        { "id": "w02-aferin", "tr": "Aferin!", "de": "Gut gemacht! / Bravo!", "typ": "chunk", "beispiel": { "tr": "Aferin sana, Inaya!", "de": "Gut gemacht, Inaya!" } }
+        {
+          "id": "w02-seni-seviyorum",
+          "tr": "Seni seviyorum.",
+          "de": "Ich liebe dich. / Hab dich lieb.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Seni seviyorum, Inaya!",
+            "de": "Hab dich lieb, Inaya!"
+          }
+        },
+        {
+          "id": "w02-canim",
+          "tr": "canım",
+          "de": "mein Schatz / Liebes",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Günaydın canım!",
+            "de": "Guten Morgen, Schatz!"
+          }
+        },
+        {
+          "id": "w02-birlikte",
+          "tr": "birlikte",
+          "de": "zusammen",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Birlikte çay içelim.",
+            "de": "Lass uns zusammen Tee trinken."
+          }
+        },
+        {
+          "id": "w02-hepimiz",
+          "tr": "hepimiz",
+          "de": "wir alle",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Hepimiz buradayız!",
+            "de": "Wir sind alle da!"
+          }
+        },
+        {
+          "id": "w02-aferin",
+          "tr": "Aferin!",
+          "de": "Gut gemacht! / Bravo!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Aferin sana, Inaya!",
+            "de": "Gut gemacht, Inaya!"
+          }
+        }
       ],
       "grammatik": {
         "titel": "Die Woche auf einen Blick",
@@ -397,74 +1497,219 @@
           "Mehrzahl -lar/-ler, Besitz -(ı)m/-(ı)n/-(ı)mız, haben mit var/yok, Alter mit yaşında."
         ],
         "tabelle": {
-          "kopf": ["Baustein", "Beispiel"],
+          "kopf": [
+            "Baustein",
+            "Beispiel"
+          ],
           "zeilen": [
-            ["Mehrzahl", "çocuklar, köpekler"],
-            ["mein / dein", "eşim, kızın"],
-            ["unser", "köpeğimiz, evimiz"],
-            ["haben", "bir kızım var"],
-            ["Alter", "bir yaşında"]
+            [
+              "Mehrzahl",
+              "çocuklar, köpekler"
+            ],
+            [
+              "mein / dein",
+              "eşim, kızın"
+            ],
+            [
+              "unser",
+              "köpeğimiz, evimiz"
+            ],
+            [
+              "haben",
+              "bir kızım var"
+            ],
+            [
+              "Alter",
+              "bir yaşında"
+            ]
           ]
         },
         "beispiele": [
-          { "tr": "Benim küçük bir ailem var.", "de": "Ich habe eine kleine Familie." },
-          { "tr": "Eşim Türk, ben Almanım.", "de": "Mein Mann ist Türke, ich bin Deutsche." },
-          { "tr": "Bir kızımız ve bir köpeğimiz var.", "de": "Wir haben eine Tochter und einen Hund." }
+          {
+            "tr": "Benim küçük bir ailem var.",
+            "de": "Ich habe eine kleine Familie."
+          },
+          {
+            "tr": "Eşim Türk, ben Almanım.",
+            "de": "Mein Mann ist Türke, ich bin Deutsche."
+          },
+          {
+            "tr": "Bir kızımız ve bir köpeğimiz var.",
+            "de": "Wir haben eine Tochter und einen Hund."
+          }
         ]
       },
       "dialog": {
         "titel": "Videoanruf: Wie geht's euch?",
         "zeilen": [
-          { "sprecher": "Pashas Mama", "tr": "Merhaba canım! Nasılsınız?", "de": "Hallo, Liebes! Wie geht's euch?" },
-          { "sprecher": "Sherin", "tr": "İyiyiz, teşekkürler! Hepimiz buradayız.", "de": "Gut, danke! Wir sind alle da." },
-          { "sprecher": "Pashas Mama", "tr": "Torunum nerede?", "de": "Wo ist meine Enkelin?" },
-          { "sprecher": "Sherin", "tr": "Inaya burada! Bak Inaya, babaannen!", "de": "Inaya ist hier! Schau Inaya, deine Oma!" },
-          { "sprecher": "Pashas Mama", "tr": "Maşallah, çok büyük! Amani nasıl?", "de": "Maşallah, so groß! Und wie geht's Amani?" },
-          { "sprecher": "Sherin", "tr": "Amani de iyi. Ama her zaman aç!", "de": "Amani geht's auch gut. Aber sie hat immer Hunger!" },
-          { "sprecher": "Pashas Mama", "tr": "Pasha nerede?", "de": "Wo ist Pasha?" },
-          { "sprecher": "Pasha", "tr": "Buradayım anne! Seni seviyorum!", "de": "Ich bin hier, Mama! Hab dich lieb!" },
-          { "sprecher": "Pashas Mama", "tr": "Ben de sizi seviyorum. Hepinizi!", "de": "Ich euch auch. Euch alle!" }
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Merhaba canım! Nasılsınız?",
+            "de": "Hallo, Liebes! Wie geht's euch?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "İyiyiz, teşekkürler! Hepimiz buradayız.",
+            "de": "Gut, danke! Wir sind alle da."
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Torunum nerede?",
+            "de": "Wo ist meine Enkelin?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Inaya burada! Bak Inaya, babaannen!",
+            "de": "Inaya ist hier! Schau Inaya, deine Oma!"
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Maşallah, çok büyük! Amani nasıl?",
+            "de": "Maşallah, so groß! Und wie geht's Amani?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Amani de iyi. Ama her zaman aç!",
+            "de": "Amani geht's auch gut. Aber sie hat immer Hunger!"
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Pasha nerede?",
+            "de": "Wo ist Pasha?"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Buradayım anne! Seni seviyorum!",
+            "de": "Ich bin hier, Mama! Hab dich lieb!"
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Ben de sizi seviyorum. Hepinizi!",
+            "de": "Ich euch auch. Euch alle!"
+          }
         ]
       },
       "uebungen": [
-        { "art": "auswahl_tr_de", "vokabel": "w02-canim" },
-        { "art": "hoeren", "vokabel": "w02-seni-seviyorum" },
-        { "art": "zuordnen", "vokabeln": ["w02-birlikte", "w02-hepimiz", "w02-aferin", "w02-canim"] },
-        { "art": "satzbau", "tr": "Bir kızımız ve bir köpeğimiz var.", "de": "Wir haben eine Tochter und einen Hund." },
-        { "art": "luecke", "satz": "Eş___ Türk, ben Almanım.", "loesung": "im", "optionen": ["im", "in", "imiz"], "de": "Mein Mann ist Türke, ich bin Deutsche." },
-        { "art": "auswahl_de_tr", "vokabel": "w02-babaanne" },
-        { "art": "hoeren", "vokabel": "w02-bir-kopegimiz-var" },
-        { "art": "luecke", "satz": "Inaya bir ___.", "loesung": "yaşında", "optionen": ["yaşında", "yaşındayım", "yaş"], "de": "Inaya ist ein Jahr alt." },
-        { "art": "tippen", "vokabel": "w02-aferin" },
-        { "art": "satzbau", "tr": "Hepimiz buradayız!", "de": "Wir sind alle da!" },
-        { "art": "auswahl_de_tr", "vokabel": "w02-kardesin-var-mi" },
-        { "art": "tippen", "vokabel": "w02-cocuk" }
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w02-canim"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-seni-seviyorum"
+        },
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w02-birlikte",
+            "w02-hepimiz",
+            "w02-aferin",
+            "w02-canim"
+          ]
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bir kızımız ve bir köpeğimiz var.",
+          "de": "Wir haben eine Tochter und einen Hund."
+        },
+        {
+          "art": "luecke",
+          "satz": "Eş___ Türk, ben Almanım.",
+          "loesung": "im",
+          "optionen": [
+            "im",
+            "in",
+            "imiz"
+          ],
+          "de": "Mein Mann ist Türke, ich bin Deutsche."
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w02-babaanne"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w02-bir-kopegimiz-var"
+        },
+        {
+          "art": "luecke",
+          "satz": "Inaya bir ___.",
+          "loesung": "yaşında",
+          "optionen": [
+            "yaşında",
+            "yaşındayım",
+            "yaş"
+          ],
+          "de": "Inaya ist ein Jahr alt."
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-aferin"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Hepimiz buradayız!",
+          "de": "Wir sind alle da!"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w02-kardesin-var-mi"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w02-cocuk"
+        }
       ],
       "sprechauftrag": {
         "aufgabe": "Großer Samstag: Stell Pasha deine Familie vor, als wäre er ein Fremder – ohne Zettel. Wer gehört dazu, wie alt ist Inaya, wer ist Amani? Pasha stellt danach zwei Fragen mit „var mı?“.",
         "mustersaetze": [
-          { "tr": "Benim bir kızım var. Onun adı Inaya, bir yaşında.", "de": "Ich habe eine Tochter. Sie heißt Inaya und ist ein Jahr alt." },
-          { "tr": "Bir köpeğimiz var. Adı Amani.", "de": "Wir haben einen Hund. Sie heißt Amani." },
-          { "tr": "Eşim Türk, ben Almanım.", "de": "Mein Mann ist Türke, ich bin Deutsche." }
+          {
+            "tr": "Benim bir kızım var. Onun adı Inaya, bir yaşında.",
+            "de": "Ich habe eine Tochter. Sie heißt Inaya und ist ein Jahr alt."
+          },
+          {
+            "tr": "Bir köpeğimiz var. Adı Amani.",
+            "de": "Wir haben einen Hund. Sie heißt Amani."
+          },
+          {
+            "tr": "Eşim Türk, ben Almanım.",
+            "de": "Mein Mann ist Türke, ich bin Deutsche."
+          }
         ]
       },
-      "alltagssatz": { "tr": "Seni seviyorum.", "de": "Ich hab dich lieb.", "wann": "Heute Abend zu Inaya beim Zubettbringen – und zu Pasha." },
-      "merktipp": { "titel": "canım – das Allzweck-Kosewort", "text": "canım (wörtlich „meine Seele“) sagen auf Türkisch alle zu allen, die sie mögen: Mütter zu Kindern, Freundinnen untereinander, Pashas Mama zu dir. Benutz es ruhig oft!" }
+      "alltagssatz": {
+        "tr": "Seni seviyorum.",
+        "de": "Ich hab dich lieb.",
+        "wann": "Heute Abend zu Inaya beim Zubettbringen – und zu Pasha."
+      },
+      "merktipp": {
+        "titel": "canım – das Allzweck-Kosewort",
+        "text": "canım (wörtlich „meine Seele“) sagen auf Türkisch alle zu allen, die sie mögen: Mütter zu Kindern, Freundinnen untereinander, Pashas Mama zu dir. Benutz es ruhig oft!"
+      }
     }
   ],
   "sonntag": {
     "sprechChallenge": [
       {
         "situation": "Stell deine kleine Familie vor: Pasha, Inaya und Amani – mit Alter.",
-        "hilfe": { "tr": "Bu benim eşim. Bir kızım var, bir yaşında. Bir köpeğimiz var.", "de": "Das ist mein Mann. Ich habe eine Tochter, sie ist eins. Wir haben einen Hund." }
+        "hilfe": {
+          "tr": "Bu benim eşim. Bir kızım var, bir yaşında. Bir köpeğimiz var.",
+          "de": "Das ist mein Mann. Ich habe eine Tochter, sie ist eins. Wir haben einen Hund."
+        }
       },
       {
         "situation": "Frag Pasha nach seiner Familie: Hat er Geschwister? Wie alt ist seine Mama?",
-        "hilfe": { "tr": "Kardeşin var mı? Annen kaç yaşında?", "de": "Hast du Geschwister? Wie alt ist deine Mutter?" }
+        "hilfe": {
+          "tr": "Kardeşin var mı? Annen kaç yaşında?",
+          "de": "Hast du Geschwister? Wie alt ist deine Mutter?"
+        }
       },
       {
         "situation": "Zählt gemeinsam in Zehnerschritten bis hundert – abwechselnd.",
-        "hilfe": { "tr": "on, yirmi, otuz, kırk, elli, altmış, yetmiş, seksen, doksan, yüz", "de": "10 bis 100" }
+        "hilfe": {
+          "tr": "on, yirmi, otuz, kırk, elli, altmış, yetmiş, seksen, doksan, yüz",
+          "de": "10 bis 100"
+        }
       }
     ]
   }
