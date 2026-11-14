@@ -1,0 +1,443 @@
+{
+  "woche": 23,
+  "lektionen": [
+    {
+      "woche": 23,
+      "tag": 1,
+      "titel": "Während …: -ken",
+      "kannZiel": "sagen, was gleichzeitig passiert",
+      "vokabeln": [
+        { "id": "w23-yemek-yaparken", "tr": "yemek yaparken", "de": "während ich koche / beim Kochen", "typ": "chunk", "beispiel": { "tr": "Yemek yaparken müzik dinlerim.", "de": "Beim Kochen höre ich Musik." } },
+        { "id": "w23-inaya-uyurken", "tr": "Inaya uyurken", "de": "während Inaya schläft", "typ": "chunk", "beispiel": { "tr": "Inaya uyurken Türkçe çalışıyorum.", "de": "Während Inaya schläft, lerne ich Türkisch." } },
+        { "id": "w23-araba-surerken", "tr": "araba sürerken", "de": "beim Autofahren", "typ": "chunk", "beispiel": { "tr": "Araba sürerken telefona bakma!", "de": "Schau beim Autofahren nicht aufs Handy!" } },
+        { "id": "w23-yururken", "tr": "yürürken", "de": "beim Gehen / unterwegs", "typ": "chunk", "beispiel": { "tr": "Amani'yle yürürken podcast dinliyorum.", "de": "Beim Spazieren mit Amani höre ich Podcasts." } },
+        { "id": "w23-eve-giderken", "tr": "eve giderken", "de": "auf dem Heimweg", "typ": "chunk", "beispiel": { "tr": "Eve giderken ekmek alır mısın?", "de": "Kaufst du auf dem Heimweg Brot?" } },
+        { "id": "w23-telefonla-konusurken", "tr": "telefonla konuşurken", "de": "beim Telefonieren", "typ": "chunk", "beispiel": { "tr": "Telefonla konuşurken Inaya ağlamaya başladı.", "de": "Beim Telefonieren fing Inaya an zu weinen." } },
+        { "id": "w23-ayni-anda", "tr": "aynı anda", "de": "gleichzeitig", "typ": "chunk", "beispiel": { "tr": "Aynı anda iki şey yapamam!", "de": "Ich kann nicht zwei Dinge gleichzeitig machen!" } },
+        { "id": "w23-bu-arada", "tr": "bu arada", "de": "übrigens / währenddessen", "typ": "chunk", "beispiel": { "tr": "Bu arada, annen aradı.", "de": "Übrigens, deine Mama hat angerufen." } },
+        { "id": "w23-o-sirada", "tr": "o sırada", "de": "in dem Moment / gerade da", "typ": "chunk", "beispiel": { "tr": "O sırada kapı çaldı.", "de": "In dem Moment klingelte es an der Tür." } }
+      ],
+      "grammatik": {
+        "titel": "während = Aorist + -ken",
+        "erklaerung": [
+          "„während / beim“: Aorist-Stamm + -ken: yapar-ken (beim Machen), uyur-ken (während … schläft).",
+          "-ken ändert sich nie (keine Vokalharmonie!).",
+          "Der Hauptsatz kann jede Zeit haben: Yemek yaparken müzik dinlerim / dinledim / dinleyeceğim.",
+          "Verneint: -mazken: o uyumazken (während sie nicht schläft)."
+        ],
+        "tabelle": {
+          "kopf": ["Verb", "während …"],
+          "zeilen": [
+            ["yapmak", "yaparken"],
+            ["uyumak", "uyurken"],
+            ["gitmek", "giderken"],
+            ["konuşmak", "konuşurken"],
+            ["gelmek", "gelirken"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Inaya uyurken Türkçe çalışıyorum.", "de": "Während Inaya schläft, lerne ich Türkisch." },
+          { "tr": "Eve giderken ekmek alır mısın?", "de": "Kaufst du auf dem Heimweg Brot?" },
+          { "tr": "Yemek yaparken müzik dinlerim.", "de": "Beim Kochen höre ich Musik." }
+        ]
+      },
+      "dialog": {
+        "titel": "Multitasking",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Alo canım, eve giderken bir şey alayım mı?", "de": "Hallo Schatz, soll ich auf dem Heimweg etwas mitbringen?" },
+          { "sprecher": "Sherin", "tr": "Evet, süt ve ekmek. Bu arada, annen aradı.", "de": "Ja, Milch und Brot. Übrigens, deine Mama hat angerufen." },
+          { "sprecher": "Pasha", "tr": "Ne dedi?", "de": "Was hat sie gesagt?" },
+          { "sprecher": "Sherin", "tr": "Bilmiyorum, telefonla konuşurken Inaya ağlamaya başladı.", "de": "Weiß nicht, beim Telefonieren fing Inaya an zu weinen." },
+          { "sprecher": "Pasha", "tr": "Aynı anda yemek de mi yapıyordun?", "de": "Und gleichzeitig hast du auch noch gekocht?" },
+          { "sprecher": "Sherin", "tr": "Evet! O sırada Amani de kapıya havlıyordu. Çabuk gel!", "de": "Ja! Und genau in dem Moment hat Amani die Tür angebellt. Komm schnell!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w23-yemek-yaparken", "w23-araba-surerken", "w23-yururken", "w23-eve-giderken"] },
+        { "art": "luecke", "satz": "Inaya uyur___ Türkçe çalışıyorum.", "loesung": "ken", "optionen": ["ken", "kan", "sa"], "de": "Während Inaya schläft, lerne ich Türkisch." },
+        { "art": "luecke", "satz": "Eve gider___ ekmek alır mısın?", "loesung": "ken", "optionen": ["ken", "se", "di"], "de": "Kaufst du auf dem Heimweg Brot?" },
+        { "art": "hoeren", "vokabel": "w23-bu-arada" },
+        { "art": "auswahl_de_tr", "vokabel": "w23-ayni-anda" },
+        { "art": "satzbau", "tr": "Araba sürerken telefona bakma!", "de": "Schau beim Autofahren nicht aufs Handy!" },
+        { "art": "auswahl_tr_de", "vokabel": "w23-o-sirada" },
+        { "art": "hoeren", "vokabel": "w23-telefonla-konusurken" },
+        { "art": "tippen", "vokabel": "w23-bu-arada" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha auf Türkisch fünf Dinge, die du gleichzeitig machst (beim Kochen, beim Stillen/Füttern, beim Spazierengehen …) – jeweils mit -ken.",
+        "mustersaetze": [
+          { "tr": "Yemek yaparken Inaya'yla konuşuyorum.", "de": "Beim Kochen rede ich mit Inaya." },
+          { "tr": "Amani'yle yürürken Türkçe dinliyorum.", "de": "Beim Gassi höre ich Türkisch." },
+          { "tr": "Inaya uyurken dinleniyorum.", "de": "Während Inaya schläft, ruhe ich mich aus." }
+        ]
+      },
+      "alltagssatz": { "tr": "Eve giderken … alır mısın?", "de": "Kaufst du auf dem Heimweg … ?", "wann": "Beim nächsten Anruf, wenn Pasha auf dem Heimweg ist." },
+      "merktipp": { "titel": "-ken ist faul", "text": "-ken macht bei der Vokalharmonie nicht mit – es bleibt immer -ken. Endlich ein Stein, bei dem du nicht überlegen musst!" }
+    },
+    {
+      "woche": 23,
+      "tag": 2,
+      "titel": "Nachdem …: -dıktan sonra",
+      "kannZiel": "Abläufe mit „nachdem“ verbinden",
+      "vokabeln": [
+        { "id": "w23-kahvalti-yaptiktan-sonra", "tr": "kahvaltı yaptıktan sonra", "de": "nachdem wir gefrühstückt haben", "typ": "chunk", "beispiel": { "tr": "Kahvaltı yaptıktan sonra parka gidelim.", "de": "Nachdem wir gefrühstückt haben, gehen wir in den Park." } },
+        { "id": "w23-inaya-uyuduktan-sonra", "tr": "Inaya uyuduktan sonra", "de": "nachdem Inaya eingeschlafen ist", "typ": "chunk", "beispiel": { "tr": "Inaya uyuduktan sonra film izleyelim.", "de": "Wenn Inaya schläft, lass uns einen Film schauen." } },
+        { "id": "w23-eve-dondukten-sonra", "tr": "eve döndükten sonra", "de": "nachdem ich heimgekommen bin", "typ": "chunk", "beispiel": { "tr": "Eve döndükten sonra seni ararım.", "de": "Wenn ich zu Hause bin, ruf ich dich an." } },
+        { "id": "w23-dus-aldiktan-sonra", "tr": "duş aldıktan sonra", "de": "nach dem Duschen", "typ": "chunk", "beispiel": { "tr": "Duş aldıktan sonra kendimi çok iyi hissediyorum.", "de": "Nach dem Duschen fühle ich mich richtig gut." } },
+        { "id": "w23-yemek-yedikten-sonra", "tr": "yemek yedikten sonra", "de": "nach dem Essen", "typ": "chunk", "beispiel": { "tr": "Yemek yedikten sonra çay içeriz.", "de": "Nach dem Essen trinken wir Tee." } },
+        { "id": "w23-ardindan", "tr": "ardından", "de": "danach / anschließend", "typ": "wort", "beispiel": { "tr": "Önce bez, ardından mama.", "de": "Erst die Windel, danach der Brei." } },
+        { "id": "w23-bitirmek", "tr": "bitirmek", "de": "beenden / fertig machen", "typ": "wort", "beispiel": { "tr": "Dersi bitirdikten sonra yürüyüşe çıkıyorum.", "de": "Nach der Lektion gehe ich spazieren." } },
+        { "id": "w23-bittikten-sonra", "tr": "bittikten sonra", "de": "nachdem es vorbei ist", "typ": "chunk", "beispiel": { "tr": "Film bittikten sonra hemen uyudum.", "de": "Nach dem Film bin ich sofort eingeschlafen." } },
+        { "id": "w23-hemen-ardindan", "tr": "hemen ardından", "de": "gleich danach", "typ": "chunk", "beispiel": { "tr": "Pasha geldi, hemen ardından annesi aradı.", "de": "Pasha kam, und gleich danach rief seine Mama an." } }
+      ],
+      "grammatik": {
+        "titel": "nachdem = -dıktan sonra",
+        "erklaerung": [
+          "„nachdem“: Stamm + -dık/-tık (4-fach) + -tan/-ten + sonra: yap-tık-tan sonra.",
+          "Keine Person nötig – wer es macht, zeigt der Satz: Kahvaltı yaptıktan sonra çıktık.",
+          "Fıstıkçı Şahap gilt: yaptıktan (p → t), içtikten (ç → t), gittikten."
+        ],
+        "tabelle": {
+          "kopf": ["Verb", "nachdem …"],
+          "zeilen": [
+            ["yapmak", "yaptıktan sonra"],
+            ["uyumak", "uyuduktan sonra"],
+            ["dönmek", "döndükten sonra"],
+            ["yemek", "yedikten sonra"],
+            ["içmek", "içtikten sonra"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kahvaltı yaptıktan sonra parka gidelim.", "de": "Nachdem wir gefrühstückt haben, gehen wir in den Park." },
+          { "tr": "Eve döndükten sonra seni ararım.", "de": "Wenn ich zu Hause bin, ruf ich dich an." },
+          { "tr": "Çay içtikten sonra çıkalım.", "de": "Lass uns gehen, nachdem wir Tee getrunken haben." }
+        ]
+      },
+      "dialog": {
+        "titel": "Der Abendplan",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bu akşam ne yapalım?", "de": "Was machen wir heute Abend?" },
+          { "sprecher": "Sherin", "tr": "Yemek yedikten sonra Inaya'yı yıkayalım.", "de": "Nach dem Essen baden wir Inaya." },
+          { "sprecher": "Pasha", "tr": "Tamam. Ardından masal okurum.", "de": "Okay. Danach lese ich ein Märchen vor." },
+          { "sprecher": "Sherin", "tr": "Inaya uyuduktan sonra da bir film izleyelim mi?", "de": "Und wenn Inaya schläft, schauen wir einen Film?" },
+          { "sprecher": "Pasha", "tr": "Olur! Ama film bittikten sonra hemen yatıyorum.", "de": "Gern! Aber nach dem Film gehe ich sofort ins Bett." },
+          { "sprecher": "Sherin", "tr": "Ben de! Film bitmeden uyumazsak …", "de": "Ich auch! Falls wir nicht schon vorher einschlafen …" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w23-kahvalti-yaptiktan-sonra", "w23-yemek-yedikten-sonra", "w23-dus-aldiktan-sonra", "w23-eve-dondukten-sonra"] },
+        { "art": "luecke", "satz": "Kahvaltı yap___ sonra parka gidelim.", "loesung": "tıktan", "optionen": ["tıktan", "dıktan", "arken"], "de": "Nachdem wir gefrühstückt haben, gehen wir in den Park." },
+        { "art": "luecke", "satz": "Inaya uyu___ sonra film izleyelim.", "loesung": "duktan", "optionen": ["duktan", "dıktan", "rken"], "de": "Wenn Inaya schläft, lass uns einen Film schauen." },
+        { "art": "hoeren", "vokabel": "w23-ardindan" },
+        { "art": "auswahl_de_tr", "vokabel": "w23-bittikten-sonra" },
+        { "art": "satzbau", "tr": "Eve döndükten sonra seni ararım.", "de": "Wenn ich zu Hause bin, ruf ich dich an." },
+        { "art": "auswahl_tr_de", "vokabel": "w23-bitirmek" },
+        { "art": "hoeren", "vokabel": "w23-hemen-ardindan" },
+        { "art": "tippen", "vokabel": "w23-ardindan" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha euren Abendablauf als Kette: Jeder Schritt beginnt mit „… -dıktan sonra“. Mindestens fünf Glieder – vom Abendessen bis ins Bett.",
+        "mustersaetze": [
+          { "tr": "Yemek yedikten sonra Inaya'yı yıkarız.", "de": "Nach dem Essen baden wir Inaya." },
+          { "tr": "Banyo yaptıktan sonra süt içer.", "de": "Nach dem Baden trinkt sie Milch." },
+          { "tr": "Süt içtikten sonra uyur.", "de": "Nach der Milch schläft sie." }
+        ]
+      },
+      "alltagssatz": { "tr": "Inaya uyuduktan sonra …", "de": "Wenn Inaya schläft …", "wann": "Beim Planen des Abends mit Pasha." },
+      "merktipp": { "titel": "Erst -dık, dann -tan", "text": "yap-tık-tan sonra: Erst der Vergangenheits-Stein -dık (getan), dann -tan (von) und sonra (danach). Wörtlich: „vom Getan-Haben danach“." }
+    },
+    {
+      "woche": 23,
+      "tag": 3,
+      "titel": "Bevor … / ohne …: -madan",
+      "kannZiel": "„bevor“ und „ohne zu“ ausdrücken",
+      "vokabeln": [
+        { "id": "w23-yatmadan-once", "tr": "yatmadan önce", "de": "vor dem Schlafengehen", "typ": "chunk", "beispiel": { "tr": "Yatmadan önce dişlerini fırçala!", "de": "Putz dir vor dem Schlafen die Zähne!" } },
+        { "id": "w23-cikmadan-once", "tr": "evden çıkmadan önce", "de": "bevor wir aus dem Haus gehen", "typ": "chunk", "beispiel": { "tr": "Evden çıkmadan önce her şeyi kontrol et.", "de": "Bevor wir rausgehen, prüf alles." } },
+        { "id": "w23-yemeden-once", "tr": "yemeden önce", "de": "vor dem Essen", "typ": "chunk", "beispiel": { "tr": "Yemeden önce ellerimizi yıkarız.", "de": "Vor dem Essen waschen wir uns die Hände." } },
+        { "id": "w23-unutmadan-once", "tr": "unutmadan önce", "de": "bevor ich's vergesse", "typ": "chunk", "beispiel": { "tr": "Unutmadan önce söyleyeyim: yarın Elif geliyor.", "de": "Bevor ich's vergesse: Morgen kommt Elif." } },
+        { "id": "w23-kahvalti-yapmadan", "tr": "kahvaltı yapmadan", "de": "ohne zu frühstücken", "typ": "chunk", "beispiel": { "tr": "Pasha kahvaltı yapmadan çıktı.", "de": "Pasha ist ohne Frühstück los." } },
+        { "id": "w23-dusunmeden", "tr": "düşünmeden", "de": "ohne nachzudenken", "typ": "wort", "beispiel": { "tr": "Düşünmeden evet dedim.", "de": "Ich habe ohne nachzudenken ja gesagt." } },
+        { "id": "w23-sormadan", "tr": "sormadan", "de": "ohne zu fragen", "typ": "wort", "beispiel": { "tr": "Amani sormadan kanepeye çıktı!", "de": "Amani ist ohne zu fragen aufs Sofa!" } },
+        { "id": "w23-haber-vermeden", "tr": "haber vermeden", "de": "ohne Bescheid zu sagen", "typ": "chunk", "beispiel": { "tr": "Haber vermeden gelme, lütfen.", "de": "Komm bitte nicht ohne Bescheid zu sagen." } },
+        { "id": "w23-kontrol-etmek", "tr": "kontrol etmek", "de": "kontrollieren / prüfen", "typ": "chunk", "beispiel": { "tr": "Ocağı kontrol ettin mi?", "de": "Hast du den Herd kontrolliert?" } }
+      ],
+      "grammatik": {
+        "titel": "bevor / ohne = -madan / -meden",
+        "erklaerung": [
+          "„ohne zu …“: Stamm + -madan/-meden: sormadan (ohne zu fragen), düşünmeden.",
+          "„bevor …“: dasselbe + önce: yatmadan önce (bevor man ins Bett geht).",
+          "Auch an Nomen nur mit -dan önce: yemekten önce (vor dem Essen) – kennst du aus Woche 8."
+        ],
+        "tabelle": {
+          "kopf": ["Verb", "ohne zu …", "bevor …"],
+          "zeilen": [
+            ["yatmak", "yatmadan", "yatmadan önce"],
+            ["yemek", "yemeden", "yemeden önce"],
+            ["çıkmak", "çıkmadan", "çıkmadan önce"],
+            ["sormak", "sormadan", "sormadan önce"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Yatmadan önce dişlerini fırçala!", "de": "Putz dir vor dem Schlafen die Zähne!" },
+          { "tr": "Pasha kahvaltı yapmadan çıktı.", "de": "Pasha ist ohne Frühstück los." },
+          { "tr": "Unutmadan önce söyleyeyim …", "de": "Bevor ich's vergesse …" }
+        ]
+      },
+      "dialog": {
+        "titel": "Checkliste vor dem Ausflug",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Evden çıkmadan önce kontrol edelim: bez var mı?", "de": "Bevor wir losgehen, lass uns prüfen: Sind Windeln dabei?" },
+          { "sprecher": "Pasha", "tr": "Var. Mama, su, yedek kıyafet … hepsi çantada.", "de": "Ja. Brei, Wasser, Wechselkleidung … alles in der Tasche." },
+          { "sprecher": "Sherin", "tr": "Ocağı kapattın mı? Geçen sefer kontrol etmeden çıktık!", "de": "Hast du den Herd ausgemacht? Letztes Mal sind wir ohne zu prüfen los!" },
+          { "sprecher": "Pasha", "tr": "Kapattım. Unutmadan önce: annem bizi akşam yemeğe çağırdı.", "de": "Ja. Bevor ich's vergesse: Meine Mama hat uns zum Abendessen eingeladen." },
+          { "sprecher": "Sherin", "tr": "Bana sormadan kabul ettin mi?", "de": "Hast du ohne mich zu fragen zugesagt?" },
+          { "sprecher": "Pasha", "tr": "Düşünmeden evet dedim … Kızdın mı?", "de": "Ich hab ohne nachzudenken ja gesagt … Bist du sauer?" },
+          { "sprecher": "Sherin", "tr": "Hayır! Annenin yemekleri harika. Hadi, çıkalım!", "de": "Nein! Deine Mama kocht super. Los, lass uns gehen!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w23-yatmadan-once", "w23-yemeden-once", "w23-sormadan", "w23-dusunmeden"] },
+        { "art": "luecke", "satz": "Yat___ önce dişlerini fırçala!", "loesung": "madan", "optionen": ["madan", "tıktan", "arken"], "de": "Putz dir vor dem Schlafen die Zähne!" },
+        { "art": "luecke", "satz": "Pasha kahvaltı yap___ çıktı.", "loesung": "madan", "optionen": ["madan", "arken", "tıktan sonra"], "de": "Pasha ist ohne Frühstück los." },
+        { "art": "hoeren", "vokabel": "w23-unutmadan-once" },
+        { "art": "auswahl_de_tr", "vokabel": "w23-haber-vermeden" },
+        { "art": "satzbau", "tr": "Evden çıkmadan önce her şeyi kontrol et.", "de": "Bevor wir rausgehen, prüf alles." },
+        { "art": "auswahl_tr_de", "vokabel": "w23-kontrol-etmek" },
+        { "art": "hoeren", "vokabel": "w23-cikmadan-once" },
+        { "art": "tippen", "vokabel": "w23-sormadan" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Macht zusammen eine Checkliste auf Türkisch: Was müsst ihr tun, bevor ihr mit Inaya das Haus verlasst / in den Urlaub fahrt / ins Bett geht? Jeder Punkt mit -madan önce.",
+        "mustersaetze": [
+          { "tr": "Evden çıkmadan önce bezleri kontrol et.", "de": "Bevor wir gehen, check die Windeln." },
+          { "tr": "Yatmadan önce kapıyı kilitle.", "de": "Schließ vor dem Schlafen die Tür ab." },
+          { "tr": "Tatile gitmeden önce Amani'yi …", "de": "Bevor wir in den Urlaub fahren, Amani …" }
+        ]
+      },
+      "alltagssatz": { "tr": "Unutmadan önce söyleyeyim …", "de": "Bevor ich's vergesse …", "wann": "Wenn dir heute etwas Wichtiges für Pasha einfällt." },
+      "merktipp": { "titel": "Ein Stein, zwei Bedeutungen", "text": "-madan = ohne zu. -madan önce = bevor. Logisch: „Ohne geschlafen zu haben, vorher“ = bevor man schläft." }
+    },
+    {
+      "woche": 23,
+      "tag": 4,
+      "titel": "Was du gesagt hast: -dığı",
+      "kannZiel": "häufige Satzbausteine mit -dığı verwenden",
+      "vokabeln": [
+        { "id": "w23-ne-dedigini-anlamadim", "tr": "Ne dediğini anlamadım.", "de": "Ich habe nicht verstanden, was du gesagt hast.", "typ": "chunk", "beispiel": { "tr": "Pardon, ne dediğini anlamadım.", "de": "Sorry, ich habe nicht verstanden, was du gesagt hast." } },
+        { "id": "w23-bildigim-kadariyla", "tr": "Bildiğim kadarıyla …", "de": "Soweit ich weiß …", "typ": "chunk", "beispiel": { "tr": "Bildiğim kadarıyla market pazar günü kapalı.", "de": "Soweit ich weiß, ist der Supermarkt sonntags zu." } },
+        { "id": "w23-dedigim-gibi", "tr": "Dediğim gibi …", "de": "Wie ich (schon) sagte …", "typ": "chunk", "beispiel": { "tr": "Dediğim gibi, yarın gelemiyorum.", "de": "Wie gesagt, morgen kann ich nicht." } },
+        { "id": "w23-sevdigim-yemek", "tr": "en sevdiğim yemek", "de": "mein Lieblingsessen", "typ": "chunk", "beispiel": { "tr": "En sevdiğim yemek mantı.", "de": "Mein Lieblingsessen ist Mantı." } },
+        { "id": "w23-anladigim-kadariyla", "tr": "Anladığım kadarıyla …", "de": "Soweit ich verstanden habe …", "typ": "chunk", "beispiel": { "tr": "Anladığım kadarıyla toplantı iptal oldu.", "de": "Soweit ich verstanden habe, ist das Treffen abgesagt." } },
+        { "id": "w23-ne-demek-istedigini", "tr": "Ne demek istediğini anlıyorum.", "de": "Ich verstehe, was du meinst.", "typ": "chunk", "beispiel": { "tr": "Evet, ne demek istediğini anlıyorum.", "de": "Ja, ich verstehe, was du meinst." } },
+        { "id": "w23-gordugum-en-guzel", "tr": "gördüğüm en güzel …", "de": "das Schönste …, das ich je gesehen habe", "typ": "chunk", "beispiel": { "tr": "Bu, gördüğüm en güzel manzara!", "de": "Das ist die schönste Aussicht, die ich je gesehen habe!" } },
+        { "id": "w23-tanidigim", "tr": "tanıdığım …", "de": "… den/die ich kenne", "typ": "chunk", "beispiel": { "tr": "Tanıdığım en sabırlı insan Pasha.", "de": "Der geduldigste Mensch, den ich kenne, ist Pasha." } },
+        { "id": "w23-istedigin-zaman", "tr": "istediğin zaman", "de": "wann immer du willst", "typ": "chunk", "beispiel": { "tr": "İstediğin zaman gel.", "de": "Komm, wann immer du willst." } }
+      ],
+      "grammatik": {
+        "titel": "-dığı: „das, was …“ (als Bausteine)",
+        "erklaerung": [
+          "-dık/-dığ + Besitz-Endung macht aus einem Satz ein Ding: de-diğ-in = das, was du gesagt hast.",
+          "Die Person steckt in der Besitz-Endung: dediğim (was ich sagte), dediğin (was du sagtest), dediği (was er sagte).",
+          "Diese Form ist anspruchsvoll – lern zuerst die Bausteine dieser Lektion auswendig. Sie machen dein Türkisch sofort natürlicher."
+        ],
+        "tabelle": {
+          "kopf": ["", "sagen", "wissen"],
+          "zeilen": [
+            ["ich", "dediğim", "bildiğim"],
+            ["du", "dediğin", "bildiğin"],
+            ["er/sie", "dediği", "bildiği"],
+            ["wir", "dediğimiz", "bildiğimiz"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Pardon, ne dediğini anlamadım.", "de": "Sorry, ich habe nicht verstanden, was du gesagt hast." },
+          { "tr": "Bildiğim kadarıyla market pazar günü kapalı.", "de": "Soweit ich weiß, ist der Supermarkt sonntags zu." },
+          { "tr": "İstediğin zaman gel.", "de": "Komm, wann immer du willst." }
+        ]
+      },
+      "dialog": {
+        "titel": "Missverständnis am Telefon",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Kızım, cumartesi … (hızlı konuşuyor) …", "de": "Liebes, am Samstag … (spricht schnell) …" },
+          { "sprecher": "Sherin", "tr": "Pardon anne, ne dediğinizi anlamadım. Yavaş söyler misiniz?", "de": "Entschuldigung, Mama, ich habe nicht verstanden, was Sie gesagt haben. Können Sie es langsam sagen?" },
+          { "sprecher": "Pashas Mama", "tr": "Cumartesi akşam size geliyoruz, dedim.", "de": "Ich sagte: Samstagabend kommen wir zu euch." },
+          { "sprecher": "Sherin", "tr": "Ah, anladım! Ama bildiğim kadarıyla Pasha cumartesi çalışıyor.", "de": "Ah, verstanden! Aber soweit ich weiß, arbeitet Pasha am Samstag." },
+          { "sprecher": "Pashas Mama", "tr": "Olsun, biz sizi görmeye geliyoruz. Ne istersin, ne getireyim?", "de": "Macht nichts, wir kommen euch besuchen. Was möchtest du, was soll ich mitbringen?" },
+          { "sprecher": "Sherin", "tr": "Sizin mantınız, en sevdiğim yemek!", "de": "Ihre Mantı, mein Lieblingsessen!" },
+          { "sprecher": "Pashas Mama", "tr": "Tamam kızım. İstediğin zaman yaparım!", "de": "Gut, Liebes. Mache ich dir, wann immer du willst!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w23-ne-dedigini-anlamadim", "w23-bildigim-kadariyla", "w23-dedigim-gibi", "w23-istedigin-zaman"] },
+        { "art": "hoeren", "vokabel": "w23-ne-demek-istedigini" },
+        { "art": "auswahl_de_tr", "vokabel": "w23-anladigim-kadariyla" },
+        { "art": "luecke", "satz": "Ne de___ anlamadım.", "loesung": "diğini", "optionen": ["diğini", "dim", "diğim"], "de": "Ich habe nicht verstanden, was du gesagt hast." },
+        { "art": "satzbau", "tr": "Bildiğim kadarıyla market pazar günü kapalı.", "de": "Soweit ich weiß, ist der Supermarkt sonntags zu." },
+        { "art": "auswahl_tr_de", "vokabel": "w23-sevdigim-yemek" },
+        { "art": "hoeren", "vokabel": "w23-gordugum-en-guzel" },
+        { "art": "satzbau", "tr": "İstediğin zaman gel.", "de": "Komm, wann immer du willst." },
+        { "art": "tippen", "vokabel": "w23-tanidigim" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Benutze heute im Gespräch mit Pasha jeden der neun Bausteine mindestens einmal. Er führt eine Strichliste – und erfindet absichtlich undeutliche Sätze, damit du „Ne dediğini anlamadım“ brauchst.",
+        "mustersaetze": [
+          { "tr": "Ne dediğini anlamadım.", "de": "Ich habe nicht verstanden, was du gesagt hast." },
+          { "tr": "Dediğim gibi …", "de": "Wie gesagt …" },
+          { "tr": "Tanıdığım en … insan sensin.", "de": "Du bist der …ste Mensch, den ich kenne." }
+        ]
+      },
+      "alltagssatz": { "tr": "Ne demek istediğini anlıyorum.", "de": "Ich verstehe, was du meinst.", "wann": "In jedem Gespräch, in dem Pasha dir etwas Wichtiges erklärt." },
+      "merktipp": { "titel": "Dein Woche-0-Satz, erwachsen", "text": "In Woche 0 hast du „Anlamadım“ gelernt. Jetzt sagst du „Ne dediğini anlamadım“ – derselbe Gedanke, aber auf B1-Niveau. Was für ein Weg!" }
+    },
+    {
+      "woche": 23,
+      "tag": 5,
+      "titel": "Als, weil, obwohl, um zu",
+      "kannZiel": "Sätze mit Zeit, Grund, Gegensatz und Zweck verbinden",
+      "vokabeln": [
+        { "id": "w23-eve-gelince", "tr": "eve gelince", "de": "als / sobald ich heimkam", "typ": "chunk", "beispiel": { "tr": "Eve gelince Inaya bana koştu.", "de": "Als ich heimkam, lief Inaya zu mir." } },
+        { "id": "w23-duyunca", "tr": "duyunca", "de": "als ich (es) hörte", "typ": "chunk", "beispiel": { "tr": "Haberi duyunca çok sevindim.", "de": "Als ich die Nachricht hörte, habe ich mich sehr gefreut." } },
+        { "id": "w23-gorunce", "tr": "görünce", "de": "als ich (es) sah", "typ": "chunk", "beispiel": { "tr": "Amani kediyi görünce koştu.", "de": "Als Amani die Katze sah, rannte sie los." } },
+        { "id": "w23-geldigin-zaman", "tr": "geldiğin zaman", "de": "wenn / als du kommst", "typ": "chunk", "beispiel": { "tr": "Geldiğin zaman beraber çay içeriz.", "de": "Wenn du kommst, trinken wir zusammen Tee." } },
+        { "id": "w23-dugu-icin", "tr": "geç kaldığım için", "de": "weil ich spät dran war", "typ": "chunk", "beispiel": { "tr": "Geç kaldığım için özür dilerim.", "de": "Entschuldige, dass ich spät dran bin." } },
+        { "id": "w23-ragmen", "tr": "-e rağmen", "de": "trotz / obwohl", "typ": "chunk", "beispiel": { "tr": "Yorgun olmama rağmen Türkçe çalıştım.", "de": "Obwohl ich müde war, habe ich Türkisch gelernt." } },
+        { "id": "w23-bunun-yerine", "tr": "bunun yerine", "de": "stattdessen", "typ": "chunk", "beispiel": { "tr": "Dışarı çıkmadık, bunun yerine evde oynadık.", "de": "Wir sind nicht rausgegangen, stattdessen haben wir zu Hause gespielt." } },
+        { "id": "w23-mek-icin", "tr": "… -mek için", "de": "um zu …", "typ": "chunk", "beispiel": { "tr": "Pasha'nın ailesiyle konuşmak için Türkçe öğreniyorum.", "de": "Ich lerne Türkisch, um mit Pashas Familie zu sprechen." } }
+      ],
+      "grammatik": {
+        "titel": "Verbinder im Überblick",
+        "erklaerung": [
+          "als / sobald: -ınca/-ince: gelince, görünce, duyunca.",
+          "weil: -dığı için (oder einfach çünkü): geç kaldığım için.",
+          "obwohl: -masına rağmen / Nomen + -e rağmen: yağmura rağmen (trotz Regen).",
+          "um zu: Infinitiv + için: öğrenmek için."
+        ],
+        "tabelle": {
+          "kopf": ["Bedeutung", "Form", "Beispiel"],
+          "zeilen": [
+            ["während", "-ken", "yaparken"],
+            ["nachdem", "-dıktan sonra", "yaptıktan sonra"],
+            ["bevor", "-madan önce", "yapmadan önce"],
+            ["als/sobald", "-ınca", "yapınca"],
+            ["um zu", "-mak için", "yapmak için"],
+            ["obwohl", "-e rağmen", "yağmura rağmen"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Eve gelince Inaya bana koştu.", "de": "Als ich heimkam, lief Inaya zu mir." },
+          { "tr": "Yağmura rağmen parka gittik.", "de": "Trotz Regen sind wir in den Park gegangen." },
+          { "tr": "Pasha'nın ailesiyle konuşmak için Türkçe öğreniyorum.", "de": "Ich lerne Türkisch, um mit Pashas Familie zu sprechen." }
+        ]
+      },
+      "dialog": {
+        "titel": "Warum lernst du Türkisch?",
+        "zeilen": [
+          { "sprecher": "Bekannte", "tr": "Neden Türkçe öğreniyorsun?", "de": "Warum lernst du Türkisch?" },
+          { "sprecher": "Sherin", "tr": "Eşimin ailesiyle konuşmak için. Ve kızım iki dilli büyüdüğü için.", "de": "Um mit der Familie meines Mannes zu sprechen. Und weil meine Tochter zweisprachig aufwächst." },
+          { "sprecher": "Bekannte", "tr": "Zor değil mi? Bebekle zaman bulmak …", "de": "Ist das nicht schwer? Mit Baby Zeit zu finden …" },
+          { "sprecher": "Sherin", "tr": "Zor! Ama yorgun olmama rağmen her gün çalışıyorum. Inaya uyurken.", "de": "Schwer! Aber obwohl ich müde bin, lerne ich jeden Tag. Während Inaya schläft." },
+          { "sprecher": "Bekannte", "tr": "Vay! Kayınvalideniz ne diyor?", "de": "Wow! Was sagt Ihre Schwiegermutter?" },
+          { "sprecher": "Sherin", "tr": "Benim Türkçe konuştuğumu duyunca çok sevindi!", "de": "Als sie gehört hat, dass ich Türkisch spreche, hat sie sich riesig gefreut!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w23-eve-gelince", "w23-duyunca", "w23-gorunce", "w23-bunun-yerine"] },
+        { "art": "luecke", "satz": "Haberi duy___ çok sevindim.", "loesung": "unca", "optionen": ["unca", "arken", "madan"], "de": "Als ich die Nachricht hörte, habe ich mich sehr gefreut." },
+        { "art": "luecke", "satz": "Türkçe öğren___ için çalışıyorum.", "loesung": "mek", "optionen": ["mek", "ince", "diğim"], "de": "Ich übe fleißig, um Türkisch zu lernen." },
+        { "art": "hoeren", "vokabel": "w23-ragmen" },
+        { "art": "auswahl_de_tr", "vokabel": "w23-mek-icin" },
+        { "art": "satzbau", "tr": "Yağmura rağmen parka gittik.", "de": "Trotz Regen sind wir in den Park gegangen." },
+        { "art": "auswahl_tr_de", "vokabel": "w23-dugu-icin" },
+        { "art": "hoeren", "vokabel": "w23-geldigin-zaman" },
+        { "art": "tippen", "vokabel": "w23-gorunce" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha auf Türkisch, warum du Türkisch lernst und wie dein Weg war – mit mindestens fünf verschiedenen Verbindern (-ken, -dıktan sonra, -madan önce, -ınca, için, rağmen).",
+        "mustersaetze": [
+          { "tr": "… konuşmak için Türkçe öğreniyorum.", "de": "Ich lerne Türkisch, um … zu sprechen." },
+          { "tr": "Yorgun olmama rağmen her gün çalıştım.", "de": "Obwohl ich müde war, habe ich jeden Tag gelernt." },
+          { "tr": "Annen benim Türkçe konuştuğumu duyunca çok sevindi.", "de": "Als deine Mama mich Türkisch sprechen hörte, hat sie sich sehr gefreut." }
+        ]
+      },
+      "alltagssatz": { "tr": "Geç kaldığım için özür dilerim.", "de": "Entschuldige, dass ich spät dran bin.", "wann": "Beim nächsten verspäteten Treffen – höflich und fließend." },
+      "merktipp": { "titel": "Vom Lego zum Bausatz", "text": "Mit diesen Verbindern baust du aus kurzen Sätzen lange, elegante Sätze. Das ist genau der Schritt von A2 zu B1." }
+    },
+    {
+      "woche": 23,
+      "tag": 6,
+      "titel": "Festigungstag: Der rote Faden",
+      "kannZiel": "längere Erzählungen flüssig verbinden",
+      "vokabeln": [
+        { "id": "w23-sozun-kisasi", "tr": "Sözün kısası …", "de": "Lange Rede, kurzer Sinn …", "typ": "chunk", "beispiel": { "tr": "Sözün kısası, harika bir gündü!", "de": "Lange Rede, kurzer Sinn: Es war ein toller Tag!" } },
+        { "id": "w23-ne-diyordum", "tr": "Ne diyordum?", "de": "Was wollte ich sagen?", "typ": "chunk", "beispiel": { "tr": "Ay, Inaya ağladı … Ne diyordum?", "de": "Oh, Inaya hat geweint … Was wollte ich sagen?" } },
+        { "id": "w23-konuyu-degistirme", "tr": "Konuyu değiştirme!", "de": "Lenk nicht ab!", "typ": "chunk", "beispiel": { "tr": "Bulaşıkları kim yıkayacak? Konuyu değiştirme!", "de": "Wer spült? Lenk nicht ab!" } },
+        { "id": "w23-aklima-geldi", "tr": "Aklıma geldi.", "de": "Mir fällt (gerade) ein …", "typ": "chunk", "beispiel": { "tr": "Aklıma geldi, yarın doktor var!", "de": "Mir fällt gerade ein, morgen ist Arzt!" } },
+        { "id": "w23-bir-de-su-var", "tr": "Bir de şu var:", "de": "Und außerdem noch:", "typ": "chunk", "beispiel": { "tr": "Bir de şu var: Amani'nin maması bitti.", "de": "Und außerdem noch: Amanis Futter ist alle." } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "-ken (während), -dıktan sonra (nachdem), -madan önce (bevor), -madan (ohne), -ınca (als), -mak için (um zu).",
+          "Bausteine mit -dığı: ne dediğini, bildiğim kadarıyla, dediğim gibi, istediğin zaman."
+        ],
+        "tabelle": {
+          "kopf": ["Verbinder", "Beispiel"],
+          "zeilen": [
+            ["-ken", "Inaya uyurken çalışırım."],
+            ["-dıktan sonra", "Yedikten sonra çay içeriz."],
+            ["-madan önce", "Yatmadan önce masal okuruz."],
+            ["-ınca", "Eve gelince ararım."],
+            ["-mak için", "Konuşmak için öğreniyorum."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Sözün kısası, harika bir gündü!", "de": "Lange Rede, kurzer Sinn: Es war ein toller Tag!" },
+          { "tr": "Aklıma geldi, yarın doktor var!", "de": "Mir fällt gerade ein, morgen ist Arzt!" },
+          { "tr": "Ne diyordum?", "de": "Was wollte ich sagen?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein Tag in einem Atemzug",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Günün nasıl geçti?", "de": "Wie war dein Tag?" },
+          { "sprecher": "Sherin", "tr": "Kahvaltı yaptıktan sonra Elif geldi. Biz sohbet ederken Inaya Amani'nin mamasını yedi!", "de": "Nach dem Frühstück kam Elif. Während wir plauderten, hat Inaya Amanis Futter gegessen!" },
+          { "sprecher": "Pasha", "tr": "Yok artık! Sonra?", "de": "Nicht dein Ernst! Und dann?" },
+          { "sprecher": "Sherin", "tr": "Doktoru arayınca 'sorun değil' dedi. Rahatladım.", "de": "Als ich den Arzt anrief, sagte er, das sei kein Problem. Ich war erleichtert." },
+          { "sprecher": "Sherin", "tr": "Ne diyordum? … Ha! Bir de şu var: annen cumartesi geliyor.", "de": "Was wollte ich sagen? … Ah! Und außerdem: Deine Mama kommt am Samstag." },
+          { "sprecher": "Pasha", "tr": "Bildiğim kadarıyla pazar geliyordu …", "de": "Soweit ich weiß, wollte sie Sonntag kommen …" },
+          { "sprecher": "Sherin", "tr": "Dediğim gibi, cumartesi! Sözün kısası: çok yoğun bir gündü.", "de": "Wie gesagt: Samstag! Lange Rede, kurzer Sinn: Es war ein sehr voller Tag." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w23-sozun-kisasi", "w23-ne-diyordum", "w23-aklima-geldi", "w23-bir-de-su-var"] },
+        { "art": "hoeren", "vokabel": "w23-konuyu-degistirme" },
+        { "art": "luecke", "satz": "Biz sohbet eder___ Inaya mamayı yedi.", "loesung": "ken", "optionen": ["ken", "ince", "meden"], "de": "Während wir plauderten, aß Inaya den Brei." },
+        { "art": "luecke", "satz": "Doktoru ara___ 'sorun değil' dedi.", "loesung": "yınca", "optionen": ["yınca", "rken", "madan"], "de": "Als ich den Arzt anrief, sagte er, kein Problem." },
+        { "art": "satzbau", "tr": "Sözün kısası, harika bir gündü!", "de": "Lange Rede, kurzer Sinn: Es war ein toller Tag!" },
+        { "art": "auswahl_de_tr", "vokabel": "w23-bildigim-kadariyla" },
+        { "art": "hoeren", "vokabel": "w23-yatmadan-once" },
+        { "art": "auswahl_tr_de", "vokabel": "w23-aklima-geldi" },
+        { "art": "tippen", "vokabel": "w23-bunun-yerine" },
+        { "art": "satzbau", "tr": "Kahvaltı yaptıktan sonra Elif geldi.", "de": "Nach dem Frühstück kam Elif." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Erzähl Pasha deine Woche in einem durchgehenden Fluss – mindestens 2 Minuten, jeder Satz mit einem Verbinder verknüpft. Wenn du den Faden verlierst: „Ne diyordum?“ – und weiter!",
+        "mustersaetze": [
+          { "tr": "Pazartesi kahvaltı yaptıktan sonra …", "de": "Am Montag nach dem Frühstück …" },
+          { "tr": "… -ken … O sırada …", "de": "Während … In dem Moment …" },
+          { "tr": "Sözün kısası …", "de": "Lange Rede, kurzer Sinn …" }
+        ]
+      },
+      "alltagssatz": { "tr": "Aklıma geldi …", "de": "Mir fällt gerade ein …", "wann": "Immer, wenn dir mitten im Gespräch etwas einfällt." },
+      "merktipp": { "titel": "Fluss statt Stakkato", "text": "A1 spricht in kurzen Sätzen. B1 verbindet. Wenn du heute zwei Minuten am Stück erzählst, ohne neu anzusetzen, hast du die B1-Schwelle berührt." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Erzähl deinen gestrigen Tag mit -ken, -dıktan sonra und -madan önce.", "hilfe": { "tr": "Kahvaltı yaptıktan sonra … Inaya uyurken … Yatmadan önce …", "de": "Nach dem Frühstück … Während Inaya schlief … Vor dem Schlafen …" } },
+      { "situation": "Sag Pasha, warum du Türkisch lernst – mit için und rağmen.", "hilfe": { "tr": "… konuşmak için öğreniyorum. Yorgun olmama rağmen …", "de": "Ich lerne, um … zu sprechen. Obwohl ich müde bin …" } },
+      { "situation": "Benutze drei -dığı-Bausteine in einem kurzen Gespräch.", "hilfe": { "tr": "Ne dediğini anlamadım. Bildiğim kadarıyla … Dediğim gibi …", "de": "Ich hab nicht verstanden, was du sagtest. Soweit ich weiß … Wie gesagt …" } }
+    ]
+  }
+}
