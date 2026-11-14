@@ -1,0 +1,1559 @@
+{
+  "woche": 21,
+  "lektionen": [
+    {
+      "woche": 21,
+      "tag": 1,
+      "titel": "Hoş geldiniz! – Gäste empfangen",
+      "kannZiel": "Gäste herzlich empfangen",
+      "vokabeln": [
+        {
+          "id": "w21-hos-geldiniz",
+          "tr": "Hoş geldiniz!",
+          "de": "Herzlich willkommen!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Hoş geldiniz, buyurun!",
+            "de": "Herzlich willkommen, kommen Sie rein!"
+          }
+        },
+        {
+          "id": "w21-hos-bulduk",
+          "tr": "Hoş bulduk!",
+          "de": "Schön, hier zu sein! (Antwort)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Hoş geldiniz! – Hoş bulduk!",
+            "de": "Willkommen! – Schön, hier zu sein!"
+          }
+        },
+        {
+          "id": "w21-buyurun-iceri",
+          "tr": "Buyurun içeri!",
+          "de": "Kommen Sie herein!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Kapıda durmayın, buyurun içeri!",
+            "de": "Bleiben Sie nicht an der Tür, kommen Sie rein!"
+          }
+        },
+        {
+          "id": "w21-terlik",
+          "tr": "terlik",
+          "de": "Hausschuhe",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Terlik ister misiniz?",
+            "de": "Möchten Sie Hausschuhe?"
+          }
+        },
+        {
+          "id": "w21-rahatiniza-bakin",
+          "tr": "Rahatınıza bakın.",
+          "de": "Machen Sie es sich bequem.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Oturun, rahatınıza bakın.",
+            "de": "Setzen Sie sich, machen Sie es sich bequem."
+          }
+        },
+        {
+          "id": "w21-zahmet-oldu",
+          "tr": "Size zahmet oldu.",
+          "de": "Sie haben sich so viel Mühe gemacht.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ay, size çok zahmet oldu!",
+            "de": "Oh, Sie haben sich so viel Mühe gemacht!"
+          }
+        },
+        {
+          "id": "w21-ne-zahmeti",
+          "tr": "Ne zahmeti!",
+          "de": "Ach, keine Mühe!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ne zahmeti, ne demek!",
+            "de": "Ach, keine Mühe, bitte!"
+          }
+        },
+        {
+          "id": "w21-misafirperver",
+          "tr": "misafirperver",
+          "de": "gastfreundlich",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Türkler çok misafirperverdir.",
+            "de": "Türken sind sehr gastfreundlich."
+          }
+        },
+        {
+          "id": "w21-ikram-etmek",
+          "tr": "ikram etmek",
+          "de": "anbieten / bewirten",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Misafire önce çay ikram ederiz.",
+            "de": "Gästen bieten wir zuerst Tee an."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Formeln mit Antwort",
+        "erklaerung": [
+          "Türkische Höflichkeit läuft in Paaren: Wer etwas sagt, bekommt eine feste Antwort.",
+          "Hoş geldin(iz)! → Hoş bulduk! (wörtlich: Gut gekommen! → Gut vorgefunden!)",
+          "Zu einer Person sen: Hoş geldin! Zu mehreren oder höflich: Hoş geldiniz!"
+        ],
+        "tabelle": {
+          "kopf": [
+            "Gastgeber",
+            "Gast"
+          ],
+          "zeilen": [
+            [
+              "Hoş geldiniz!",
+              "Hoş bulduk!"
+            ],
+            [
+              "Buyurun içeri!",
+              "Teşekkürler."
+            ],
+            [
+              "Rahatınıza bakın.",
+              "Sağ olun."
+            ],
+            [
+              "(Gast:) Size zahmet oldu.",
+              "Ne zahmeti!"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Hoş geldiniz! – Hoş bulduk!",
+            "de": "Willkommen! – Schön, hier zu sein!"
+          },
+          {
+            "tr": "Oturun, rahatınıza bakın.",
+            "de": "Setzen Sie sich, machen Sie es sich bequem."
+          },
+          {
+            "tr": "Misafire önce çay ikram ederiz.",
+            "de": "Gästen bieten wir zuerst Tee an."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Pashas Mama kommt zu Besuch",
+        "zeilen": [
+          {
+            "sprecher": "Sherin",
+            "tr": "Hoş geldiniz! Buyurun içeri!",
+            "de": "Herzlich willkommen! Kommt rein!"
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Hoş bulduk kızım! Torunum nerede?",
+            "de": "Schön, hier zu sein, Liebes! Wo ist meine Enkelin?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Salonda, Pasha'yla. Terlik ister misiniz?",
+            "de": "Im Wohnzimmer, mit Pasha. Möchtet ihr Hausschuhe?"
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Sağ ol. Ay, ev ne kadar temiz! Sana çok zahmet oldu.",
+            "de": "Danke. Oh, wie sauber die Wohnung ist! Du hast dir so viel Mühe gemacht."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Ne zahmeti! Oturun, rahatınıza bakın. Çay demleniyor.",
+            "de": "Ach, keine Mühe! Setzt euch, macht es euch bequem. Der Tee zieht schon."
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Maşallah, tam bir Türk ev sahibi oldun!",
+            "de": "Maşallah, du bist eine richtige türkische Gastgeberin geworden!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w21-hos-geldiniz",
+            "w21-hos-bulduk",
+            "w21-zahmet-oldu",
+            "w21-ne-zahmeti"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-buyurun-iceri"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-rahatiniza-bakin"
+        },
+        {
+          "art": "luecke",
+          "satz": "Hoş geldiniz! – Hoş ___!",
+          "loesung": "bulduk",
+          "optionen": [
+            "bulduk",
+            "geldik",
+            "olsun"
+          ],
+          "de": "Willkommen! – Schön, hier zu sein!"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Oturun, rahatınıza bakın.",
+          "de": "Setzen Sie sich, machen Sie es sich bequem."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w21-misafirperver"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-terlik"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-ikram-etmek"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w21-terlik"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Begrüßungs-Theater: Pasha klingelt viermal als verschiedene Gäste (seine Mama, Elif, ein Kollege, die Nachbarin). Du empfängst jeden passend – mit sen oder siz.",
+        "mustersaetze": [
+          {
+            "tr": "Hoş geldin! / Hoş geldiniz!",
+            "de": "Willkommen! (du / Sie)"
+          },
+          {
+            "tr": "Buyurun içeri, rahatınıza bakın.",
+            "de": "Kommen Sie rein, machen Sie es sich bequem."
+          },
+          {
+            "tr": "Ne zahmeti!",
+            "de": "Ach, keine Mühe!"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Hoş geldin!",
+        "de": "Willkommen (zu Hause)!",
+        "wann": "Heute, wenn Pasha nach Hause kommt – er muss mit „Hoş bulduk!“ antworten."
+      },
+      "merktipp": {
+        "titel": "Hoş geldin auch zu Hause",
+        "text": "Türkische Familien sagen „Hoş geldin“ auch, wenn jemand einfach von der Arbeit heimkommt. Die Antwort „Hoş bulduk“ kommt automatisch – probier's aus!"
+      }
+    },
+    {
+      "woche": 21,
+      "tag": 2,
+      "titel": "Teekultur",
+      "kannZiel": "Tee servieren wie eine türkische Gastgeberin",
+      "vokabeln": [
+        {
+          "id": "w21-caydanlik",
+          "tr": "çaydanlık",
+          "de": "Teekanne (doppelstöckig)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Çaydanlığı ocağa koydum.",
+            "de": "Ich habe die Teekanne auf den Herd gestellt."
+          }
+        },
+        {
+          "id": "w21-demlemek",
+          "tr": "demlemek",
+          "de": "(Tee) ziehen lassen",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Çay on beş dakika demlenmeli.",
+            "de": "Der Tee muss fünfzehn Minuten ziehen."
+          }
+        },
+        {
+          "id": "w21-demli",
+          "tr": "demli",
+          "de": "stark (Tee)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bazı insanlar çayı çok demli içer.",
+            "de": "Manche trinken den Tee sehr stark."
+          }
+        },
+        {
+          "id": "w21-acik",
+          "tr": "açık",
+          "de": "hell / schwach (Tee)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Benimki açık olsun, lütfen.",
+            "de": "Meiner bitte schwach."
+          }
+        },
+        {
+          "id": "w21-ince-belli-bardak",
+          "tr": "ince belli bardak",
+          "de": "Tulpenglas",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Çay ince belli bardakta daha güzel.",
+            "de": "Tee schmeckt im Tulpenglas besser."
+          }
+        },
+        {
+          "id": "w21-tazeleyeyim-mi",
+          "tr": "Çayınızı tazeleyeyim mi?",
+          "de": "Darf ich Ihnen nachschenken?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bardağınız boş, çayınızı tazeleyeyim mi?",
+            "de": "Ihr Glas ist leer, darf ich nachschenken?"
+          }
+        },
+        {
+          "id": "w21-kesme-seker",
+          "tr": "kesme şeker",
+          "de": "Würfelzucker",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Kaç kesme şeker?",
+            "de": "Wie viele Stück Zucker?"
+          }
+        },
+        {
+          "id": "w21-bir-cay-daha",
+          "tr": "Bir çay daha?",
+          "de": "Noch einen Tee?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bir çay daha içer misin?",
+            "de": "Trinkst du noch einen Tee?"
+          }
+        },
+        {
+          "id": "w21-yeter-sag-olun",
+          "tr": "Yeter, sağ olun.",
+          "de": "Genug, danke.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Üç bardak içtim, yeter, sağ olun!",
+            "de": "Ich hab drei Gläser getrunken, genug, danke!"
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Angebote & Wünsche",
+        "erklaerung": [
+          "Anbieten mit Aorist: Bir çay daha içer misiniz? Mit „soll ich“: Tazeleyeyim mi?",
+          "Wunsch mit -sın (es soll sein): Benimki açık olsun. (Meiner soll hell sein.)",
+          "Höflich ablehnen: Yeter, sağ olun. – oder den Löffel quer aufs Glas legen."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Gastgeberin",
+            "Gast"
+          ],
+          "zeilen": [
+            [
+              "Demli mi, açık mı?",
+              "Açık olsun, lütfen."
+            ],
+            [
+              "Kaç şeker?",
+              "Bir tane, lütfen. / Şekersiz."
+            ],
+            [
+              "Çayınızı tazeleyeyim mi?",
+              "Lütfen. / Yeter, sağ olun."
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Demli mi, açık mı?",
+            "de": "Stark oder schwach?"
+          },
+          {
+            "tr": "Benimki açık olsun, lütfen.",
+            "de": "Meiner bitte schwach."
+          },
+          {
+            "tr": "Çayınızı tazeleyeyim mi?",
+            "de": "Darf ich nachschenken?"
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Sherin serviert Tee",
+        "zeilen": [
+          {
+            "sprecher": "Sherin",
+            "tr": "Çay hazır! Demli mi, açık mı?",
+            "de": "Tee ist fertig! Stark oder schwach?"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Demli olsun canım. Şekersiz.",
+            "de": "Stark, bitte, Schatz. Ohne Zucker."
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Benimki açık olsun. Bir kesme şeker.",
+            "de": "Meiner bitte schwach. Ein Stück Zucker."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Buyurun. … Çayınızı tazeleyeyim mi?",
+            "de": "Bitte schön. … Darf ich nachschenken?"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Lütfen! Çok güzel demlemişsin.",
+            "de": "Gern! Du hast den Tee sehr gut aufgebrüht."
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Ben üç bardak içtim. Yeter, sağ ol kızım.",
+            "de": "Ich hatte drei Gläser. Genug, danke, Liebes."
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w21-caydanlik",
+            "w21-demli",
+            "w21-acik",
+            "w21-kesme-seker"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-tazeleyeyim-mi"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-yeter-sag-olun"
+        },
+        {
+          "art": "luecke",
+          "satz": "Benimki açık ___, lütfen.",
+          "loesung": "olsun",
+          "optionen": [
+            "olsun",
+            "oldu",
+            "olacak"
+          ],
+          "de": "Meiner bitte schwach."
+        },
+        {
+          "art": "satzbau",
+          "tr": "Demli mi, açık mı?",
+          "de": "Stark oder schwach?"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w21-ince-belli-bardak"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-demlemek"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-bir-cay-daha"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w21-demli"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Kocht heute zusammen echten türkischen Tee im Çaydanlık (oder zwei Kannen). Du servierst Pasha wie einem Gast – mit allen Fragen auf Türkisch, Nachschenken inklusive.",
+        "mustersaetze": [
+          {
+            "tr": "Demli mi, açık mı?",
+            "de": "Stark oder schwach?"
+          },
+          {
+            "tr": "Kaç şeker?",
+            "de": "Wie viel Zucker?"
+          },
+          {
+            "tr": "Çayınızı tazeleyeyim mi?",
+            "de": "Darf ich nachschenken?"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Demli mi, açık mı?",
+        "de": "Stark oder schwach?",
+        "wann": "Bei jedem Tee, den du heute einschenkst."
+      },
+      "merktipp": {
+        "titel": "Der Löffel-Trick",
+        "text": "Wer keinen Tee mehr möchte, legt den kleinen Löffel quer über das Glas. Dann weiß jede Gastgeberin: genug. Ohne ein Wort – sehr praktisch!"
+      }
+    },
+    {
+      "woche": 21,
+      "tag": 3,
+      "titel": "Zu Tisch!",
+      "kannZiel": "beim Essen als Gast und Gastgeberin die richtigen Worte finden",
+      "vokabeln": [
+        {
+          "id": "w21-ellerinize-saglik",
+          "tr": "Ellerinize sağlık!",
+          "de": "Danke fürs Kochen! (wörtl. Gesundheit Ihren Händen)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Çok lezzetliydi, ellerinize sağlık!",
+            "de": "Es war köstlich, vielen Dank fürs Kochen!"
+          }
+        },
+        {
+          "id": "w21-sofraya-buyurun",
+          "tr": "Sofraya buyurun!",
+          "de": "Zu Tisch, bitte!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Yemek hazır, sofraya buyurun!",
+            "de": "Das Essen ist fertig, zu Tisch, bitte!"
+          }
+        },
+        {
+          "id": "w21-sofra",
+          "tr": "sofra",
+          "de": "gedeckter Tisch / Tafel",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Ne güzel bir sofra!",
+            "de": "Was für ein schön gedeckter Tisch!"
+          }
+        },
+        {
+          "id": "w21-tarif",
+          "tr": "tarif",
+          "de": "Rezept",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bu tarif babaanneden.",
+            "de": "Dieses Rezept ist von Oma."
+          }
+        },
+        {
+          "id": "w21-tarifini-alabilir-miyim",
+          "tr": "Tarifini alabilir miyim?",
+          "de": "Kann ich das Rezept haben?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Çok güzel olmuş! Tarifini alabilir miyim?",
+            "de": "Das ist so gut geworden! Kann ich das Rezept haben?"
+          }
+        },
+        {
+          "id": "w21-kusura-bakmayin",
+          "tr": "Kusura bakmayın.",
+          "de": "Entschuldigen Sie bitte. / Nehmen Sie's nicht übel.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Kusura bakmayın, biraz geç kaldık.",
+            "de": "Entschuldigen Sie, wir sind etwas spät."
+          }
+        },
+        {
+          "id": "w21-bereket-versin",
+          "tr": "Bereket versin.",
+          "de": "Danke vielmals (wörtl. Segen möge kommen)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Hesabı ödediniz mi? Bereket versin!",
+            "de": "Sie haben bezahlt? Herzlichen Dank!"
+          }
+        },
+        {
+          "id": "w21-afiyet-seker-olsun",
+          "tr": "Afiyet şeker olsun!",
+          "de": "Guten Appetit! (verspielt)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Inaya, afiyet şeker olsun!",
+            "de": "Inaya, guten Appetit, Süße!"
+          }
+        },
+        {
+          "id": "w21-sagliginiza",
+          "tr": "Sağlığınıza!",
+          "de": "Zum Wohl! / Auf Ihre Gesundheit!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ayranlar geldi, sağlığınıza!",
+            "de": "Der Ayran ist da, zum Wohl!"
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Tisch-Formeln in Paaren",
+        "erklaerung": [
+          "Vor dem Essen: Afiyet olsun! Nach dem Essen (zur Köchin): Ellerinize sağlık! – Antwort: Afiyet olsun!",
+          "Zu einer Person: Eline sağlık! Höflich/mehrere: Ellerinize sağlık!",
+          "Kusura bakmayın entschuldigt kleine Ungeschicklichkeiten – Antwort: Estağfurullah! / Ne demek!"
+        ],
+        "tabelle": {
+          "kopf": [
+            "Situation",
+            "Formel",
+            "Antwort"
+          ],
+          "zeilen": [
+            [
+              "Essen ist fertig",
+              "Sofraya buyurun!",
+              "Teşekkürler!"
+            ],
+            [
+              "vor dem Essen",
+              "Afiyet olsun!",
+              "Teşekkürler!"
+            ],
+            [
+              "nach dem Essen",
+              "Ellerinize sağlık!",
+              "Afiyet olsun!"
+            ],
+            [
+              "kleiner Fehler",
+              "Kusura bakmayın.",
+              "Ne demek!"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Çok lezzetliydi, ellerinize sağlık!",
+            "de": "Es war köstlich, vielen Dank fürs Kochen!"
+          },
+          {
+            "tr": "Afiyet olsun!",
+            "de": "Lasst es euch schmecken! (auch als Antwort)"
+          },
+          {
+            "tr": "Kusura bakmayın, biraz geç kaldık.",
+            "de": "Entschuldigen Sie, wir sind etwas spät."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Bei Pashas Mama zum Essen",
+        "zeilen": [
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Yemek hazır, sofraya buyurun!",
+            "de": "Das Essen ist fertig, zu Tisch!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Ne güzel bir sofra! Size çok zahmet oldu.",
+            "de": "Was für ein schöner Tisch! Ihr habt euch so viel Mühe gemacht."
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Ne zahmeti kızım. Afiyet olsun!",
+            "de": "Ach was, Liebes. Lasst es euch schmecken!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bu dolma çok lezzetli! Tarifini alabilir miyim?",
+            "de": "Diese Dolma sind köstlich! Kann ich das Rezept haben?"
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Tabii! Gel, beraber yapalım bir gün.",
+            "de": "Natürlich! Komm, wir machen sie mal zusammen."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Çok isterim! Ellerinize sağlık, her şey harikaydı.",
+            "de": "Sehr gern! Vielen Dank fürs Kochen, alles war wunderbar."
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Afiyet olsun kızım!",
+            "de": "Hat's dir geschmeckt, freut mich, Liebes!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w21-ellerinize-saglik",
+            "w21-sofraya-buyurun",
+            "w21-kusura-bakmayin",
+            "w21-bereket-versin"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-tarifini-alabilir-miyim"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-ellerinize-saglik"
+        },
+        {
+          "art": "luecke",
+          "satz": "Ellerinize sağlık! – Afiyet ___!",
+          "loesung": "olsun",
+          "optionen": [
+            "olsun",
+            "oldu",
+            "bulduk"
+          ],
+          "de": "Danke fürs Kochen! – Freut mich, dass es geschmeckt hat!"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Yemek hazır, sofraya buyurun!",
+          "de": "Das Essen ist fertig, zu Tisch, bitte!"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w21-sofra"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-sagliginiza"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-afiyet-seker-olsun"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w21-tarif"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Heute Abend ganz offiziell: Wer kocht, sagt „Sofraya buyurun!“ und „Afiyet olsun!“. Wer isst, sagt am Ende „Eline sağlık!“. Und jeder fragt einmal nach einem Rezept.",
+        "mustersaetze": [
+          {
+            "tr": "Sofraya buyurun!",
+            "de": "Zu Tisch!"
+          },
+          {
+            "tr": "Eline sağlık, çok lezzetliydi!",
+            "de": "Danke fürs Kochen, es war köstlich!"
+          },
+          {
+            "tr": "Tarifini alabilir miyim?",
+            "de": "Kann ich das Rezept haben?"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Eline sağlık!",
+        "de": "Danke fürs Kochen!",
+        "wann": "Nach jedem Essen, das Pasha kocht – ab heute für immer."
+      },
+      "merktipp": {
+        "titel": "Das wichtigste Kompliment",
+        "text": "„Eline sağlık“ ist DAS Kompliment in türkischen Familien. Wenn du es nach jedem Essen bei Pashas Mama sagst, hast du ihr Herz gewonnen."
+      }
+    },
+    {
+      "woche": 21,
+      "tag": 4,
+      "titel": "Alltagsformeln",
+      "kannZiel": "die wichtigsten Alltags-Wünsche passend einsetzen",
+      "vokabeln": [
+        {
+          "id": "w21-kolay-gelsin",
+          "tr": "Kolay gelsin!",
+          "de": "Frohes Schaffen! (zu Arbeitenden)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Merhaba, kolay gelsin!",
+            "de": "Hallo, frohes Schaffen!"
+          }
+        },
+        {
+          "id": "w21-hayirli-olsun",
+          "tr": "Hayırlı olsun!",
+          "de": "Herzlichen Glückwunsch! (zu etwas Neuem)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Yeni eviniz hayırlı olsun!",
+            "de": "Alles Gute zur neuen Wohnung!"
+          }
+        },
+        {
+          "id": "w21-gule-gule-kullan",
+          "tr": "Güle güle kullan!",
+          "de": "Viel Freude damit! (Neuanschaffung)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Yeni araban mı? Güle güle kullan!",
+            "de": "Ein neues Auto? Viel Freude damit!"
+          }
+        },
+        {
+          "id": "w21-gule-gule",
+          "tr": "Güle güle!",
+          "de": "Tschüss! (sagt, wer bleibt)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Hoşça kal! – Güle güle!",
+            "de": "Mach's gut! – Tschüss!"
+          }
+        },
+        {
+          "id": "w21-gozun-aydin",
+          "tr": "Gözün aydın!",
+          "de": "Wie schön für dich! (bei freudiger Nachricht)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Oğlun geliyor mu? Gözün aydın!",
+            "de": "Dein Sohn kommt zu Besuch? Wie schön für dich!"
+          }
+        },
+        {
+          "id": "w21-iyi-uykular",
+          "tr": "İyi uykular!",
+          "de": "Schlaf gut!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "İyi geceler, iyi uykular!",
+            "de": "Gute Nacht, schlaf gut!"
+          }
+        },
+        {
+          "id": "w21-allah-rahatlik-versin",
+          "tr": "Allah rahatlık versin.",
+          "de": "Gute Nacht (herzlich, traditionell)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Hadi, Allah rahatlık versin.",
+            "de": "Na dann, gute Nacht."
+          }
+        },
+        {
+          "id": "w21-sag-ol",
+          "tr": "Sağ ol!",
+          "de": "Danke! (locker)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Kolay gelsin! – Sağ ol!",
+            "de": "Frohes Schaffen! – Danke!"
+          }
+        },
+        {
+          "id": "w21-hayirdir",
+          "tr": "Hayırdır?",
+          "de": "Was ist los? (hoffentlich nichts Schlimmes)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bu saatte telefon mu? Hayırdır?",
+            "de": "Ein Anruf um diese Zeit? Was ist los?"
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Wünsche mit -sın: olsun, gelsin, versin",
+        "erklaerung": [
+          "Viele Formeln enden auf -sın/-sin/-sun/-sün: „es möge …“: kolay gelsin (es möge leicht fallen), hayırlı olsun (es möge Segen bringen).",
+          "Diese Form (3. Person Wunsch) brauchst du sonst selten – lern die Formeln als Blöcke.",
+          "Die Antwort ist fast immer „Sağ ol(un)!“ oder „Teşekkürler!“."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Situation",
+            "Formel"
+          ],
+          "zeilen": [
+            [
+              "jemand arbeitet",
+              "Kolay gelsin!"
+            ],
+            [
+              "etwas Neues (Job, Wohnung)",
+              "Hayırlı olsun!"
+            ],
+            [
+              "neue Sache (Auto, Kleid)",
+              "Güle güle kullan!"
+            ],
+            [
+              "jemand Liebes kommt",
+              "Gözün aydın!"
+            ],
+            [
+              "krank",
+              "Geçmiş olsun!"
+            ],
+            [
+              "Essen",
+              "Afiyet olsun!"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Merhaba, kolay gelsin!",
+            "de": "Hallo, frohes Schaffen!"
+          },
+          {
+            "tr": "Yeni işin hayırlı olsun!",
+            "de": "Alles Gute für deinen neuen Job!"
+          },
+          {
+            "tr": "Yeni elbise mi? Güle güle giy!",
+            "de": "Ein neues Kleid? Trag es mit Freude!"
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein Tag voller Formeln",
+        "zeilen": [
+          {
+            "sprecher": "Sherin",
+            "tr": "Merhaba Elif, kolay gelsin!",
+            "de": "Hallo Elif, frohes Schaffen!"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Sağ ol! Biliyor musun, yeni bir iş buldum.",
+            "de": "Danke! Weißt du was, ich habe einen neuen Job gefunden."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Gerçekten mi? Hayırlı olsun!",
+            "de": "Echt? Herzlichen Glückwunsch!"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Teşekkürler! Bir de yeni araba aldık.",
+            "de": "Danke! Und wir haben ein neues Auto gekauft."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Vay! Güle güle kullanın!",
+            "de": "Wow! Viel Freude damit!"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Sağ ol canım. Hadi, ben gidiyorum. Hoşça kal!",
+            "de": "Danke, Liebes. So, ich gehe. Mach's gut!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Güle güle!",
+            "de": "Tschüss!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w21-kolay-gelsin",
+            "w21-hayirli-olsun",
+            "w21-gule-gule-kullan",
+            "w21-gozun-aydin"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-iyi-uykular"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-kolay-gelsin"
+        },
+        {
+          "art": "luecke",
+          "satz": "Hoşça kal! – Güle ___!",
+          "loesung": "güle",
+          "optionen": [
+            "güle",
+            "kal",
+            "gelsin"
+          ],
+          "de": "Mach's gut! – Tschüss!"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Yeni işin hayırlı olsun!",
+          "de": "Alles Gute für deinen neuen Job!"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w21-hayirdir"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-sag-ol"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-gule-gule-kullan"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w21-sag-ol"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Formel-Quiz: Pasha beschreibt zehn Situationen auf Türkisch („Komşu bahçede çalışıyor“, „Elif yeni ev aldı“ …). Du antwortest blitzschnell mit der passenden Formel.",
+        "mustersaetze": [
+          {
+            "tr": "Kolay gelsin!",
+            "de": "Frohes Schaffen!"
+          },
+          {
+            "tr": "Hayırlı olsun!",
+            "de": "Herzlichen Glückwunsch!"
+          },
+          {
+            "tr": "Güle güle kullan!",
+            "de": "Viel Freude damit!"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Kolay gelsin!",
+        "de": "Frohes Schaffen!",
+        "wann": "Zu Pasha, wenn er arbeitet – oder zu jedem, der gerade etwas tut."
+      },
+      "merktipp": {
+        "titel": "Für jede Lage ein Satz",
+        "text": "Türkisch hat für fast jede Lebenslage eine feste Formel. Wer sie benutzt, wirkt sofort warm und „von hier“. Kolay gelsin ist der einfachste Einstieg."
+      }
+    },
+    {
+      "woche": 21,
+      "tag": 5,
+      "titel": "Ernste Momente",
+      "kannZiel": "in traurigen Situationen die richtigen Worte finden",
+      "vokabeln": [
+        {
+          "id": "w21-basin-sag-olsun",
+          "tr": "Başın sağ olsun.",
+          "de": "Mein Beileid.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Duydum, çok üzüldüm. Başın sağ olsun.",
+            "de": "Ich hab's gehört, es tut mir so leid. Mein Beileid."
+          }
+        },
+        {
+          "id": "w21-dostlar-sag-olsun",
+          "tr": "Dostlar sağ olsun.",
+          "de": "Danke (Antwort auf Beileid)",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Başın sağ olsun. – Dostlar sağ olsun.",
+            "de": "Mein Beileid. – Danke."
+          }
+        },
+        {
+          "id": "w21-allah-rahmet-eylesin",
+          "tr": "Allah rahmet eylesin.",
+          "de": "Gott sei ihm/ihr gnädig.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Babaannen çok iyi bir insandı. Allah rahmet eylesin.",
+            "de": "Deine Oma war ein sehr guter Mensch. Gott sei ihr gnädig."
+          }
+        },
+        {
+          "id": "w21-sabirlar-dilerim",
+          "tr": "Sabırlar dilerim.",
+          "de": "Ich wünsche dir viel Kraft.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Zor bir dönem, sabırlar dilerim.",
+            "de": "Eine schwere Zeit, ich wünsche dir viel Kraft."
+          }
+        },
+        {
+          "id": "w21-cenaze",
+          "tr": "cenaze",
+          "de": "Beerdigung",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Cenaze ne zaman?",
+            "de": "Wann ist die Beerdigung?"
+          }
+        },
+        {
+          "id": "w21-taziye",
+          "tr": "taziye",
+          "de": "Beileid / Kondolenz(besuch)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Akşam taziyeye gideceğiz.",
+            "de": "Heute Abend machen wir einen Kondolenzbesuch."
+          }
+        },
+        {
+          "id": "w21-allah-korusun",
+          "tr": "Allah korusun!",
+          "de": "Gott bewahre!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Kaza mı? Allah korusun!",
+            "de": "Ein Unfall? Gott bewahre!"
+          }
+        },
+        {
+          "id": "w21-allah-kavustursun",
+          "tr": "Allah kavuştursun.",
+          "de": "Möget ihr euch bald wiedersehen.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Oğlun uzakta mı? Allah kavuştursun.",
+            "de": "Dein Sohn ist weit weg? Möget ihr euch bald wiedersehen."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Formeln für schwere Zeiten",
+        "erklaerung": [
+          "Bei Trauer sagt man fast immer: Başın sağ olsun (zu einer Person) / Başınız sağ olsun (höflich).",
+          "Die Antwort ist: Dostlar sağ olsun. (Mögen die Freunde gesund bleiben.)",
+          "Viele Formeln enthalten „Allah“ – sie werden von fast allen Türken benutzt, auch im Alltag, wie im Deutschen „Gott sei Dank“."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Situation",
+            "Formel",
+            "Antwort"
+          ],
+          "zeilen": [
+            [
+              "Todesfall",
+              "Başın sağ olsun.",
+              "Dostlar sağ olsun."
+            ],
+            [
+              "über die/den Verstorbene(n)",
+              "Allah rahmet eylesin.",
+              "Amin."
+            ],
+            [
+              "schwere Zeit",
+              "Sabırlar dilerim.",
+              "Sağ ol."
+            ],
+            [
+              "Schreckensnachricht",
+              "Allah korusun!",
+              "—"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Çok üzüldüm. Başın sağ olsun.",
+            "de": "Es tut mir so leid. Mein Beileid."
+          },
+          {
+            "tr": "Dostlar sağ olsun.",
+            "de": "Danke."
+          },
+          {
+            "tr": "Bir şeye ihtiyacın olursa ben buradayım.",
+            "de": "Wenn du etwas brauchst, bin ich da."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Elifs Oma ist gestorben",
+        "zeilen": [
+          {
+            "sprecher": "Elif",
+            "tr": "Sherin … babaannem dün vefat etti.",
+            "de": "Sherin … meine Oma ist gestern gestorben."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Ah, çok üzüldüm. Başın sağ olsun.",
+            "de": "Oh, es tut mir so leid. Mein Beileid."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Dostlar sağ olsun.",
+            "de": "Danke dir."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Allah rahmet eylesin. Cenaze ne zaman?",
+            "de": "Gott sei ihr gnädig. Wann ist die Beerdigung?"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Yarın, Türkiye'de. Bu gece uçuyorum.",
+            "de": "Morgen, in der Türkei. Ich fliege heute Nacht."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Sabırlar dilerim. Oğluna ben bakabilirim, merak etme.",
+            "de": "Ich wünsche dir viel Kraft. Ich kann auf deinen Sohn aufpassen, keine Sorge."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Çok teşekkür ederim. Sen gerçek bir dostsun.",
+            "de": "Vielen Dank. Du bist eine wahre Freundin."
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w21-basin-sag-olsun",
+            "w21-dostlar-sag-olsun",
+            "w21-sabirlar-dilerim",
+            "w21-allah-korusun"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-allah-rahmet-eylesin"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-basin-sag-olsun"
+        },
+        {
+          "art": "luecke",
+          "satz": "Başın sağ olsun. – Dostlar sağ ___.",
+          "loesung": "olsun",
+          "optionen": [
+            "olsun",
+            "ol",
+            "bulduk"
+          ],
+          "de": "Mein Beileid. – Danke."
+        },
+        {
+          "art": "satzbau",
+          "tr": "Çok üzüldüm. Başın sağ olsun.",
+          "de": "Es tut mir so leid. Mein Beileid."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w21-taziye"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-allah-kavustursun"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-cenaze"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w21-cenaze"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Ein ernstes, aber wichtiges Thema: Lass dir von Pasha erklären, wie in seiner Familie Trauer und Kondolenzbesuche ablaufen. Übt die Formeln leise und ruhig – damit du im Ernstfall die richtigen Worte hast.",
+        "mustersaetze": [
+          {
+            "tr": "Başınız sağ olsun.",
+            "de": "Mein herzliches Beileid. (höflich)"
+          },
+          {
+            "tr": "Allah rahmet eylesin.",
+            "de": "Gott sei ihm/ihr gnädig."
+          },
+          {
+            "tr": "Bir şeye ihtiyacınız olursa söyleyin.",
+            "de": "Wenn Sie etwas brauchen, sagen Sie es."
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Sabırlar dilerim.",
+        "de": "Ich wünsche dir viel Kraft.",
+        "wann": "Wenn es jemandem in deinem Umfeld schlecht geht."
+      },
+      "merktipp": {
+        "titel": "Wenig Worte genügen",
+        "text": "In der Trauer reicht „Başın sağ olsun“ völlig. Niemand erwartet lange Sätze – deine Anwesenheit und diese Formel bedeuten Pashas Familie sehr viel."
+      }
+    },
+    {
+      "woche": 21,
+      "tag": 6,
+      "titel": "Festigungstag: Gast & Gastgeberin",
+      "kannZiel": "einen ganzen Besuch höflich gestalten – vom Empfang bis zum Abschied",
+      "vokabeln": [
+        {
+          "id": "w21-yine-bekleriz",
+          "tr": "Yine bekleriz!",
+          "de": "Kommt bald wieder!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Çok güzeldi, yine bekleriz!",
+            "de": "Es war so schön, kommt bald wieder!"
+          }
+        },
+        {
+          "id": "w21-kapimiz-acik",
+          "tr": "Kapımız her zaman açık.",
+          "de": "Unsere Tür steht immer offen.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ne zaman isterseniz gelin, kapımız her zaman açık.",
+            "de": "Kommt, wann immer ihr wollt, unsere Tür steht immer offen."
+          }
+        },
+        {
+          "id": "w21-bir-dahaki-sefere",
+          "tr": "bir dahaki sefere",
+          "de": "nächstes Mal",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bir dahaki sefere siz bize gelin!",
+            "de": "Nächstes Mal kommt ihr zu uns!"
+          }
+        },
+        {
+          "id": "w21-zahmet-etmeyin",
+          "tr": "Zahmet etmeyin.",
+          "de": "Machen Sie sich keine Mühe.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Lütfen zahmet etmeyin, çay yeter.",
+            "de": "Bitte machen Sie sich keine Mühe, Tee reicht."
+          }
+        },
+        {
+          "id": "w21-hepinize-tesekkurler",
+          "tr": "Hepinize teşekkürler.",
+          "de": "Danke euch allen.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Her şey için hepinize teşekkürler.",
+            "de": "Danke euch allen für alles."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Ankunft: Hoş geldiniz! – Hoş bulduk! Tee: Demli mi, açık mı? Essen: Afiyet olsun – Ellerinize sağlık.",
+          "Abschied: Hoşça kalın! – Güle güle! Yine bekleriz!"
+        ],
+        "tabelle": {
+          "kopf": [
+            "Moment",
+            "Gastgeber",
+            "Gast"
+          ],
+          "zeilen": [
+            [
+              "Ankunft",
+              "Hoş geldiniz!",
+              "Hoş bulduk!"
+            ],
+            [
+              "Tee",
+              "Çay ister misiniz?",
+              "Zahmet etmeyin."
+            ],
+            [
+              "Essen",
+              "Afiyet olsun!",
+              "Ellerinize sağlık!"
+            ],
+            [
+              "Abschied",
+              "Güle güle, yine bekleriz!",
+              "Hoşça kalın, her şey için teşekkürler!"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Çok güzeldi, yine bekleriz!",
+            "de": "Es war so schön, kommt bald wieder!"
+          },
+          {
+            "tr": "Bir dahaki sefere siz bize gelin!",
+            "de": "Nächstes Mal kommt ihr zu uns!"
+          },
+          {
+            "tr": "Lütfen zahmet etmeyin.",
+            "de": "Bitte machen Sie sich keine Mühe."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Der Abschied",
+        "zeilen": [
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Hadi, biz kalkalım artık. Geç oldu.",
+            "de": "So, wir brechen jetzt auf. Es ist spät geworden."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bu kadar erken mi? Bir çay daha için!",
+            "de": "Schon so früh? Trinkt noch einen Tee!"
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Yok kızım, zahmet etme. Çok güzel bir akşamdı.",
+            "de": "Nein, Liebes, mach dir keine Mühe. Es war ein wunderschöner Abend."
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Ellerine sağlık, yemekler harikaydı.",
+            "de": "Danke fürs Kochen, das Essen war großartig."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Afiyet olsun! Bir dahaki sefere yine bekleriz.",
+            "de": "Freut mich! Nächstes Mal erwarten wir euch wieder."
+          },
+          {
+            "sprecher": "Pashas Mama",
+            "tr": "Bir dahaki sefere siz bize gelin! Hoşça kalın.",
+            "de": "Nächstes Mal kommt ihr zu uns! Macht's gut."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Güle güle! Varınca haber verin!",
+            "de": "Tschüss! Meldet euch, wenn ihr da seid!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w21-yine-bekleriz",
+            "w21-kapimiz-acik",
+            "w21-zahmet-etmeyin",
+            "w21-hepinize-tesekkurler"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-bir-dahaki-sefere"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bir dahaki sefere siz bize gelin!",
+          "de": "Nächstes Mal kommt ihr zu uns!"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-hos-bulduk"
+        },
+        {
+          "art": "luecke",
+          "satz": "Hoşça kalın! – Güle güle, yine bekle___!",
+          "loesung": "riz",
+          "optionen": [
+            "riz",
+            "rim",
+            "yoruz"
+          ],
+          "de": "Macht's gut! – Tschüss, kommt bald wieder!"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w21-ellerinize-saglik"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w21-kolay-gelsin"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w21-yine-bekleriz"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w21-sofra"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Çok güzeldi, yine bekleriz!",
+          "de": "Es war so schön, kommt bald wieder!"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Spielt einen kompletten Besuch durch – Klingeln, Begrüßung, Tee, Essen, Komplimente, Abschied. Erst bist du Gastgeberin, dann Gast. Jede Formel muss einmal vorkommen!",
+        "mustersaetze": [
+          {
+            "tr": "Hoş geldiniz! – Hoş bulduk!",
+            "de": "Willkommen! – Schön, hier zu sein!"
+          },
+          {
+            "tr": "Ellerinize sağlık! – Afiyet olsun!",
+            "de": "Danke fürs Kochen! – Gern geschehen!"
+          },
+          {
+            "tr": "Güle güle, yine bekleriz!",
+            "de": "Tschüss, kommt bald wieder!"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Yine bekleriz!",
+        "de": "Kommt bald wieder!",
+        "wann": "Beim nächsten Abschied von Besuch – auch bei Elif."
+      },
+      "merktipp": {
+        "titel": "Gast ist Gottes Gast",
+        "text": "In der Türkei gilt ein Gast als Segen für das Haus. Darum wird so viel angeboten, so oft nachgeschenkt und so herzlich verabschiedet."
+      }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      {
+        "situation": "Empfange Pasha als Gast – von der Tür bis zum ersten Tee.",
+        "hilfe": {
+          "tr": "Hoş geldiniz! Buyurun içeri. Çay ister misiniz? Demli mi, açık mı?",
+          "de": "Willkommen! Kommen Sie rein. Möchten Sie Tee? Stark oder schwach?"
+        }
+      },
+      {
+        "situation": "Pasha nennt fünf Situationen – antworte jeweils mit der passenden Formel.",
+        "hilfe": {
+          "tr": "Kolay gelsin! Hayırlı olsun! Geçmiş olsun! Güle güle kullan! Başın sağ olsun.",
+          "de": "Frohes Schaffen! Glückwunsch! Gute Besserung! Viel Freude damit! Mein Beileid."
+        }
+      },
+      {
+        "situation": "Bedank dich als Gast nach dem Essen und verabschiede dich.",
+        "hilfe": {
+          "tr": "Ellerinize sağlık! Her şey için teşekkürler. Hoşça kalın!",
+          "de": "Danke fürs Kochen! Danke für alles. Macht's gut!"
+        }
+      }
+    ]
+  }
+}
