@@ -1,0 +1,468 @@
+{
+  "woche": 4,
+  "lektionen": [
+    {
+      "woche": 4,
+      "tag": 1,
+      "titel": "Was machst du gerade?",
+      "kannZiel": "sagen, was du und andere gerade tun",
+      "vokabeln": [
+        { "id": "w04-kalkmak", "tr": "kalkmak", "de": "aufstehen", "typ": "wort", "beispiel": { "tr": "Inaya erken kalkıyor.", "de": "Inaya steht früh auf." } },
+        { "id": "w04-uyumak", "tr": "uyumak", "de": "schlafen", "typ": "wort", "beispiel": { "tr": "Inaya uyuyor. Sessiz!", "de": "Inaya schläft. Leise!" } },
+        { "id": "w04-yemek", "tr": "yemek", "de": "essen / das Essen", "typ": "wort", "beispiel": { "tr": "Amani mamasını yiyor.", "de": "Amani frisst ihr Futter." }, "merktipp": "yemek heißt auch „das Essen“: Yemek hazır! = Das Essen ist fertig!" },
+        { "id": "w04-icmek", "tr": "içmek", "de": "trinken", "typ": "wort", "beispiel": { "tr": "Çay içiyorum.", "de": "Ich trinke Tee." }, "merktipp": "Verb am Ende – wie im deutschen Nebensatz: „…, weil ich Tee trinke“ → Çay içiyorum." },
+        { "id": "w04-oynamak", "tr": "oynamak", "de": "spielen", "typ": "wort", "beispiel": { "tr": "Inaya salonda oynuyor.", "de": "Inaya spielt im Wohnzimmer." } },
+        { "id": "w04-gitmek", "tr": "gitmek", "de": "gehen / fahren", "typ": "wort", "beispiel": { "tr": "Markete gidiyorum.", "de": "Ich gehe zum Supermarkt." } },
+        { "id": "w04-gelmek", "tr": "gelmek", "de": "kommen", "typ": "wort", "beispiel": { "tr": "Geliyorum!", "de": "Ich komme!" } },
+        { "id": "w04-yapmak", "tr": "yapmak", "de": "machen", "typ": "wort", "beispiel": { "tr": "Ne yapıyorsun?", "de": "Was machst du?" } },
+        { "id": "w04-simdi", "tr": "şimdi", "de": "jetzt", "typ": "wort", "beispiel": { "tr": "Şimdi ne yapıyoruz?", "de": "Was machen wir jetzt?" } }
+      ],
+      "grammatik": {
+        "titel": "Präsens: -(ı)yor",
+        "erklaerung": [
+          "Verben enden in der Grundform auf -mak/-mek. Weg damit – übrig bleibt der Stamm: iç-mek → iç.",
+          "Dann kommt -ıyor/-iyor/-uyor/-üyor (4-fach) und die Person: iç + iyor + um = içiyorum (ich trinke).",
+          "-yor selbst ändert sich nie – nur der Vokal davor passt sich an.",
+          "Endet der Stamm auf Vokal, kommt direkt -yor: uyu → uyuyor."
+        ],
+        "tabelle": {
+          "kopf": ["", "içmek", "uyumak", "gelmek"],
+          "zeilen": [
+            ["ich", "içiyorum", "uyuyorum", "geliyorum"],
+            ["du", "içiyorsun", "uyuyorsun", "geliyorsun"],
+            ["er/sie", "içiyor", "uyuyor", "geliyor"],
+            ["wir", "içiyoruz", "uyuyoruz", "geliyoruz"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Çay içiyorum.", "de": "Ich trinke Tee." },
+          { "tr": "Inaya uyuyor.", "de": "Inaya schläft." },
+          { "tr": "Ne yapıyorsun?", "de": "Was machst du?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Anruf am Nachmittag",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Alo, canım! Ne yapıyorsun?", "de": "Hallo, Schatz! Was machst du gerade?" },
+          { "sprecher": "Sherin", "tr": "Çay içiyorum.", "de": "Ich trinke Tee." },
+          { "sprecher": "Pasha", "tr": "Inaya ne yapıyor?", "de": "Was macht Inaya?" },
+          { "sprecher": "Sherin", "tr": "Inaya uyuyor. Amani de uyuyor.", "de": "Inaya schläft. Amani auch." },
+          { "sprecher": "Pasha", "tr": "Süper! Ben de eve geliyorum.", "de": "Super! Ich komme jetzt auch nach Hause." },
+          { "sprecher": "Sherin", "tr": "Tamam, görüşürüz!", "de": "Okay, bis gleich!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w04-uyumak", "w04-icmek", "w04-oynamak", "w04-gelmek"] },
+        { "art": "luecke", "satz": "Çay iç___.", "loesung": "iyorum", "optionen": ["iyorum", "ıyorum", "uyorum"], "de": "Ich trinke Tee.", "hinweis": "iç – Vokal i" },
+        { "art": "auswahl_de_tr", "vokabel": "w04-yapmak" },
+        { "art": "hoeren", "vokabel": "w04-kalkmak" },
+        { "art": "luecke", "satz": "Inaya uyu___.", "loesung": "yor", "optionen": ["yor", "uyor", "iyor"], "de": "Inaya schläft.", "hinweis": "Stamm endet auf Vokal" },
+        { "art": "satzbau", "tr": "Ne yapıyorsun?", "de": "Was machst du?" },
+        { "art": "auswahl_tr_de", "vokabel": "w04-gitmek" },
+        { "art": "luecke", "satz": "Ben de eve gel___.", "loesung": "iyorum", "optionen": ["iyorum", "iyorsun", "iyor"], "de": "Ich komme auch nach Hause." },
+        { "art": "tippen", "vokabel": "w04-simdi" },
+        { "art": "hoeren", "vokabel": "w04-yemek" },
+        { "art": "satzbau", "tr": "Inaya salonda oynuyor.", "de": "Inaya spielt im Wohnzimmer." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Pasha ruft aus einem anderen Raum: „Ne yapıyorsun?“ – du antwortest dreimal im Laufe des Abends, was du gerade machst. Und einmal sagst du, was Inaya und Amani tun.",
+        "mustersaetze": [
+          { "tr": "Çay içiyorum.", "de": "Ich trinke Tee." },
+          { "tr": "Inaya oynuyor.", "de": "Inaya spielt." },
+          { "tr": "Amani uyuyor.", "de": "Amani schläft." }
+        ]
+      },
+      "alltagssatz": { "tr": "Ne yapıyorsun?", "de": "Was machst du?", "wann": "Wenn Pasha heute anruft oder ins Zimmer kommt." },
+      "merktipp": { "titel": "Das Verb kommt zum Schluss", "text": "Türkisch stellt das Verb ans Ende – wie der deutsche Nebensatz: „…, weil ich Tee trinke.“ → Çay içiyorum. Du kennst die Stellung also schon!" }
+    },
+    {
+      "woche": 4,
+      "tag": 2,
+      "titel": "Mein Morgen",
+      "kannZiel": "deine Morgenroutine beschreiben",
+      "vokabeln": [
+        { "id": "w04-uyanmak", "tr": "uyanmak", "de": "aufwachen", "typ": "wort", "beispiel": { "tr": "Inaya saat altıda uyanıyor.", "de": "Inaya wacht um sechs auf." } },
+        { "id": "w04-kahvalti", "tr": "kahvaltı", "de": "Frühstück", "typ": "wort", "beispiel": { "tr": "Kahvaltı hazır!", "de": "Frühstück ist fertig!" } },
+        { "id": "w04-giyinmek", "tr": "giyinmek", "de": "sich anziehen", "typ": "wort", "beispiel": { "tr": "Hızlıca giyiniyorum.", "de": "Ich ziehe mich schnell an." } },
+        { "id": "w04-dus-almak", "tr": "duş almak", "de": "duschen", "typ": "chunk", "beispiel": { "tr": "Pasha duş alıyor.", "de": "Pasha duscht." } },
+        { "id": "w04-dislerimi-fircaliyorum", "tr": "Dişlerimi fırçalıyorum.", "de": "Ich putze mir die Zähne.", "typ": "chunk", "beispiel": { "tr": "Önce dişlerimi fırçalıyorum.", "de": "Zuerst putze ich mir die Zähne." } },
+        { "id": "w04-bez-degistirmek", "tr": "bez değiştirmek", "de": "Windel wechseln", "typ": "chunk", "beispiel": { "tr": "Pasha bez değiştiriyor.", "de": "Pasha wechselt die Windel." } },
+        { "id": "w04-erken", "tr": "erken", "de": "früh", "typ": "wort", "beispiel": { "tr": "Çok erken kalkıyoruz.", "de": "Wir stehen sehr früh auf." } },
+        { "id": "w04-gec", "tr": "geç", "de": "spät", "typ": "wort", "beispiel": { "tr": "Geç kalıyorum!", "de": "Ich bin zu spät dran!" } },
+        { "id": "w04-sabah", "tr": "sabah", "de": "Morgen / morgens", "typ": "wort", "beispiel": { "tr": "Her sabah çay içiyorum.", "de": "Jeden Morgen trinke ich Tee." } }
+      ],
+      "grammatik": {
+        "titel": "Stämme auf a/e & „zuerst … dann“",
+        "erklaerung": [
+          "Endet der Stamm auf a oder e, wird daraus ı/i/u/ü + yor: fırçala → fırçalıyor, oyna → oynuyor, değiştir → değiştiriyor.",
+          "önce = zuerst, sonra = dann: Önce kahvaltı, sonra duş.",
+          "Viele Tätigkeiten sind „Nomen + Verb“: kahvaltı yapmak (frühstücken), duş almak (duschen)."
+        ],
+        "tabelle": {
+          "kopf": ["Grundform", "ich …"],
+          "zeilen": [
+            ["uyanmak", "uyanıyorum"],
+            ["giyinmek", "giyiniyorum"],
+            ["fırçalamak", "fırçalıyorum"],
+            ["kahvaltı yapmak", "kahvaltı yapıyorum"],
+            ["duş almak", "duş alıyorum"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Önce kahvaltı yapıyoruz, sonra giyiniyoruz.", "de": "Zuerst frühstücken wir, dann ziehen wir uns an." },
+          { "tr": "Inaya saat altıda uyanıyor.", "de": "Inaya wacht um sechs auf." },
+          { "tr": "Geç kalıyorum!", "de": "Ich bin spät dran!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Sechs Uhr morgens",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Günaydın … Saat kaç?", "de": "Guten Morgen … Wie spät ist es?" },
+          { "sprecher": "Sherin", "tr": "Saat altı. Inaya uyanıyor.", "de": "Sechs. Inaya wacht auf." },
+          { "sprecher": "Pasha", "tr": "Çok erken!", "de": "Viel zu früh!" },
+          { "sprecher": "Sherin", "tr": "Ben bez değiştiriyorum. Sen kahvaltı hazırlıyor musun?", "de": "Ich wechsle die Windel. Machst du Frühstück?" },
+          { "sprecher": "Pasha", "tr": "Tamam. Önce duş alıyorum, sonra kahvaltı hazırlıyorum.", "de": "Okay. Erst dusche ich, dann mache ich Frühstück." },
+          { "sprecher": "Sherin", "tr": "Hızlı ol! Inaya aç!", "de": "Mach schnell! Inaya hat Hunger!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_de_tr", "vokabel": "w04-kahvalti" },
+        { "art": "hoeren", "vokabel": "w04-uyanmak" },
+        { "art": "zuordnen", "vokabeln": ["w04-erken", "w04-gec", "w04-sabah", "w04-giyinmek"] },
+        { "art": "luecke", "satz": "Dişlerimi fırçal___.", "loesung": "ıyorum", "optionen": ["ıyorum", "iyorum", "ayorum"], "de": "Ich putze mir die Zähne.", "hinweis": "a am Stammende wird zu ı" },
+        { "art": "satzbau", "tr": "Önce duş alıyorum, sonra kahvaltı yapıyorum.", "de": "Zuerst dusche ich, dann frühstücke ich." },
+        { "art": "auswahl_tr_de", "vokabel": "w04-bez-degistirmek" },
+        { "art": "hoeren", "vokabel": "w04-dus-almak" },
+        { "art": "luecke", "satz": "Inaya saat altıda uyan___.", "loesung": "ıyor", "optionen": ["ıyor", "iyor", "yor"], "de": "Inaya wacht um sechs auf." },
+        { "art": "tippen", "vokabel": "w04-erken" },
+        { "art": "auswahl_de_tr", "vokabel": "w04-dislerimi-fircaliyorum" },
+        { "art": "satzbau", "tr": "Geç kalıyorum!", "de": "Ich bin spät dran!", "extra": ["erken"] }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Morgen früh – oder jetzt als Probe: Kommentiere eure Morgenroutine live auf Türkisch, Satz für Satz. Pasha macht mit und sagt, was er gerade tut.",
+        "mustersaetze": [
+          { "tr": "Inaya uyanıyor.", "de": "Inaya wacht auf." },
+          { "tr": "Ben bez değiştiriyorum.", "de": "Ich wechsle die Windel." },
+          { "tr": "Önce kahvaltı, sonra duş.", "de": "Erst Frühstück, dann duschen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Kahvaltı hazır!", "de": "Frühstück ist fertig!", "wann": "Morgen früh, wenn du den Tisch gedeckt hast – laut rufen." },
+      "merktipp": { "titel": "Türkisches Frühstück", "text": "kahvaltı kommt von kahve (Kaffee) + altı (unter): ursprünglich „das, was man vor dem Kaffee isst“. Darum gehört zum türkischen Frühstück erst Tee – und der Kaffee danach." }
+    },
+    {
+      "woche": 4,
+      "tag": 3,
+      "titel": "Die Wochentage",
+      "kannZiel": "Wochentage nennen und sagen, was wann passiert",
+      "vokabeln": [
+        { "id": "w04-pazartesi", "tr": "Pazartesi", "de": "Montag", "typ": "wort", "beispiel": { "tr": "Pazartesi yeni bir ders var.", "de": "Am Montag gibt es eine neue Lektion." }, "merktipp": "Pazar = Sonntag, ertesi = der Tag danach → Pazartesi = Montag." },
+        { "id": "w04-sali", "tr": "Salı", "de": "Dienstag", "typ": "wort", "beispiel": { "tr": "Bugün Salı.", "de": "Heute ist Dienstag." } },
+        { "id": "w04-carsamba", "tr": "Çarşamba", "de": "Mittwoch", "typ": "wort", "beispiel": { "tr": "Çarşamba haftanın ortası.", "de": "Mittwoch ist die Mitte der Woche." } },
+        { "id": "w04-persembe", "tr": "Perşembe", "de": "Donnerstag", "typ": "wort", "beispiel": { "tr": "Perşembe akşamı ne yapıyorsun?", "de": "Was machst du am Donnerstagabend?" } },
+        { "id": "w04-cuma", "tr": "Cuma", "de": "Freitag", "typ": "wort", "beispiel": { "tr": "Yaşasın, bugün Cuma!", "de": "Juhu, heute ist Freitag!" } },
+        { "id": "w04-cumartesi", "tr": "Cumartesi", "de": "Samstag", "typ": "wort", "beispiel": { "tr": "Cumartesi kahvaltısı çok uzun!", "de": "Das Samstagsfrühstück dauert ewig!" }, "merktipp": "Cuma + ertesi = der Tag nach Freitag → Samstag." },
+        { "id": "w04-pazar", "tr": "Pazar", "de": "Sonntag", "typ": "wort", "beispiel": { "tr": "Pazar günü test var!", "de": "Am Sonntag ist Test!" } },
+        { "id": "w04-bugun", "tr": "bugün", "de": "heute", "typ": "wort", "beispiel": { "tr": "Bugün ne yapıyoruz?", "de": "Was machen wir heute?" } },
+        { "id": "w04-yarin", "tr": "yarın", "de": "morgen", "typ": "wort", "beispiel": { "tr": "Yarın görüşürüz.", "de": "Wir sehen uns morgen." } },
+        { "id": "w04-hafta-sonu", "tr": "hafta sonu", "de": "Wochenende", "typ": "chunk", "beispiel": { "tr": "Hafta sonu evdeyiz.", "de": "Am Wochenende sind wir zu Hause." } }
+      ],
+      "grammatik": {
+        "titel": "Am Montag = Pazartesi (günü)",
+        "erklaerung": [
+          "Für „am Montag“ reicht der Name, oft mit günü (Tag): Pazartesi günü.",
+          "Wochentage schreibt man groß.",
+          "Zwei Tage sind „der Tag danach“: Pazartesi (nach Pazar), Cumartesi (nach Cuma).",
+          "hafta = Woche, hafta sonu = Wochenende („Ende der Woche“)."
+        ],
+        "tabelle": {
+          "kopf": ["Tag", "Türkisch"],
+          "zeilen": [
+            ["Montag", "Pazartesi"],
+            ["Dienstag", "Salı"],
+            ["Mittwoch", "Çarşamba"],
+            ["Donnerstag", "Perşembe"],
+            ["Freitag", "Cuma"],
+            ["Samstag", "Cumartesi"],
+            ["Sonntag", "Pazar"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bugün Çarşamba.", "de": "Heute ist Mittwoch." },
+          { "tr": "Cuma günü ne yapıyorsun?", "de": "Was machst du am Freitag?" },
+          { "tr": "Hafta sonu evdeyiz.", "de": "Am Wochenende sind wir zu Hause." }
+        ]
+      },
+      "dialog": {
+        "titel": "Die Woche planen",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bugün günlerden ne?", "de": "Welcher Tag ist heute?" },
+          { "sprecher": "Sherin", "tr": "Bugün Çarşamba.", "de": "Heute ist Mittwoch." },
+          { "sprecher": "Pasha", "tr": "Cuma günü annemler geliyor.", "de": "Am Freitag kommen meine Eltern." },
+          { "sprecher": "Sherin", "tr": "Cuma mı? Cumartesi değil mi?", "de": "Freitag? Nicht Samstag?" },
+          { "sprecher": "Pasha", "tr": "Hayır, Cuma. Hafta sonu burada kalıyorlar.", "de": "Nein, Freitag. Übers Wochenende bleiben sie hier." },
+          { "sprecher": "Sherin", "tr": "Tamam! Perşembe günü market alışverişi yapıyoruz.", "de": "Okay! Dann gehen wir am Donnerstag einkaufen." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w04-pazartesi", "w04-sali", "w04-carsamba", "w04-persembe"] },
+        { "art": "zuordnen", "vokabeln": ["w04-cuma", "w04-cumartesi", "w04-pazar", "w04-hafta-sonu"] },
+        { "art": "hoeren", "vokabel": "w04-persembe" },
+        { "art": "auswahl_de_tr", "vokabel": "w04-cumartesi" },
+        { "art": "luecke", "satz": "Pazar + ertesi = ___", "loesung": "Pazartesi", "optionen": ["Pazartesi", "Cumartesi", "Salı"], "de": "der Tag nach Sonntag = Montag" },
+        { "art": "auswahl_tr_de", "vokabel": "w04-yarin" },
+        { "art": "satzbau", "tr": "Hafta sonu evdeyiz.", "de": "Am Wochenende sind wir zu Hause." },
+        { "art": "tippen", "vokabel": "w04-bugun" },
+        { "art": "hoeren", "vokabel": "w04-carsamba" },
+        { "art": "satzbau", "tr": "Cuma günü ne yapıyorsun?", "de": "Was machst du am Freitag?" },
+        { "art": "tippen", "vokabel": "w04-cuma" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Geht zusammen eure kommende Woche durch – auf Türkisch. Für jeden Tag ein Satz: Was passiert? (Einkaufen, Arzt, Besuch, Spielplatz …)",
+        "mustersaetze": [
+          { "tr": "Pazartesi günü markete gidiyoruz.", "de": "Am Montag gehen wir zum Supermarkt." },
+          { "tr": "Cuma günü annemler geliyor.", "de": "Am Freitag kommen meine Eltern." },
+          { "tr": "Hafta sonu evdeyiz.", "de": "Am Wochenende sind wir zu Hause." }
+        ]
+      },
+      "alltagssatz": { "tr": "Bugün günlerden ne?", "de": "Welcher Tag ist heute?", "wann": "Gleich morgens – das fragen Türken wirklich so." },
+      "merktipp": { "titel": "Pazar ist auch der Markt", "text": "pazar heißt Sonntag – und auch „Markt“. Früher war Sonntag Markttag. Pazartesi ist dann einfach der Tag nach dem Markt." }
+    },
+    {
+      "woche": 4,
+      "tag": 4,
+      "titel": "Um wie viel Uhr?",
+      "kannZiel": "volle Uhrzeiten sagen und fragen, wann etwas ist",
+      "vokabeln": [
+        { "id": "w04-saat-kacta", "tr": "Saat kaçta?", "de": "Um wie viel Uhr?", "typ": "chunk", "beispiel": { "tr": "Kahvaltı saat kaçta?", "de": "Um wie viel Uhr ist Frühstück?" } },
+        { "id": "w04-saat-sekizde", "tr": "saat sekizde", "de": "um acht Uhr", "typ": "chunk", "beispiel": { "tr": "Saat sekizde kahvaltı yapıyoruz.", "de": "Um acht Uhr frühstücken wir." } },
+        { "id": "w04-oglen", "tr": "öğlen", "de": "mittags", "typ": "wort", "beispiel": { "tr": "Inaya öğlen uyuyor.", "de": "Inaya schläft mittags." } },
+        { "id": "w04-aksam", "tr": "akşam", "de": "Abend / abends", "typ": "wort", "beispiel": { "tr": "Akşam Pasha yemek yapıyor.", "de": "Abends kocht Pasha." } },
+        { "id": "w04-gece", "tr": "gece", "de": "Nacht / nachts", "typ": "wort", "beispiel": { "tr": "Gece Inaya uyanıyor.", "de": "Nachts wacht Inaya auf." } },
+        { "id": "w04-ogle-yemegi", "tr": "öğle yemeği", "de": "Mittagessen", "typ": "chunk", "beispiel": { "tr": "Öğle yemeği saat on ikide.", "de": "Mittagessen ist um zwölf." } },
+        { "id": "w04-aksam-yemegi", "tr": "akşam yemeği", "de": "Abendessen", "typ": "chunk", "beispiel": { "tr": "Akşam yemeği hazır!", "de": "Das Abendessen ist fertig!" } },
+        { "id": "w04-yatmak", "tr": "yatmak", "de": "ins Bett gehen", "typ": "wort", "beispiel": { "tr": "Inaya saat yedide yatıyor.", "de": "Inaya geht um sieben ins Bett." } },
+        { "id": "w04-calismak", "tr": "çalışmak", "de": "arbeiten / lernen", "typ": "wort", "beispiel": { "tr": "Pasha bugün çalışıyor.", "de": "Pasha arbeitet heute." } }
+      ],
+      "grammatik": {
+        "titel": "Um … Uhr = saat … -de",
+        "erklaerung": [
+          "Saat kaç? = Wie spät ist es? – Saat kaçta? = Um wie viel Uhr?",
+          "„Um … Uhr“: saat + Zahl + Lokativ (-de/-da/-te/-ta).",
+          "Fıstıkçı Şahap gilt auch hier: üç → üçte, dört → dörtte, beş → beşte.",
+          "Endet die Zahl auf Vokal, einfach -de/-da: iki → ikide, altı → altıda."
+        ],
+        "tabelle": {
+          "kopf": ["Uhrzeit", "um …"],
+          "zeilen": [
+            ["1", "saat birde"],
+            ["2", "saat ikide"],
+            ["3", "saat üçte"],
+            ["4", "saat dörtte"],
+            ["5", "saat beşte"],
+            ["6", "saat altıda"],
+            ["7", "saat yedide"],
+            ["8", "saat sekizde"],
+            ["9", "saat dokuzda"],
+            ["10", "saat onda"],
+            ["12", "saat on ikide"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Inaya saat yedide yatıyor.", "de": "Inaya geht um sieben ins Bett." },
+          { "tr": "Öğle yemeği saat on ikide.", "de": "Mittagessen ist um zwölf." },
+          { "tr": "Saat üçte parka gidiyoruz.", "de": "Um drei gehen wir in den Park." }
+        ]
+      },
+      "dialog": {
+        "titel": "Der Plan für morgen",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Yarın saat kaçta kalkıyoruz?", "de": "Um wie viel Uhr stehen wir morgen auf?" },
+          { "sprecher": "Sherin", "tr": "Inaya saat altıda uyanıyor. Yani biz de!", "de": "Inaya wacht um sechs auf. Also wir auch!" },
+          { "sprecher": "Pasha", "tr": "Of … Kahvaltı saat kaçta?", "de": "Uff … Und wann gibt's Frühstück?" },
+          { "sprecher": "Sherin", "tr": "Saat yedide. Sonra sen çalışıyorsun.", "de": "Um sieben. Danach arbeitest du." },
+          { "sprecher": "Pasha", "tr": "Evet. Akşam saat altıda eve geliyorum.", "de": "Ja. Abends um sechs komme ich nach Hause." },
+          { "sprecher": "Sherin", "tr": "Tamam. Akşam yemeği saat yedide!", "de": "Okay. Abendessen um sieben!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_tr_de", "vokabel": "w04-saat-kacta" },
+        { "art": "luecke", "satz": "Saat üç___ parka gidiyoruz.", "loesung": "te", "optionen": ["te", "de", "ta"], "de": "Um drei gehen wir in den Park.", "hinweis": "üç endet auf ç (hart)" },
+        { "art": "zuordnen", "vokabeln": ["w04-oglen", "w04-aksam", "w04-gece", "w04-sabah"] },
+        { "art": "hoeren", "vokabel": "w04-saat-sekizde" },
+        { "art": "luecke", "satz": "Inaya saat altı___ uyanıyor.", "loesung": "da", "optionen": ["da", "de", "ta"], "de": "Inaya wacht um sechs auf." },
+        { "art": "auswahl_de_tr", "vokabel": "w04-aksam-yemegi" },
+        { "art": "satzbau", "tr": "Inaya saat yedide yatıyor.", "de": "Inaya geht um sieben ins Bett." },
+        { "art": "hoeren", "vokabel": "w04-calismak" },
+        { "art": "luecke", "satz": "Akşam saat beş___ eve geliyorum.", "loesung": "te", "optionen": ["te", "de", "ta"], "de": "Abends um fünf komme ich nach Hause." },
+        { "art": "tippen", "vokabel": "w04-gece" },
+        { "art": "auswahl_de_tr", "vokabel": "w04-ogle-yemegi" },
+        { "art": "tippen", "vokabel": "w04-yatmak" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Plant zusammen den morgigen Tag mit Uhrzeiten – auf Türkisch. Pasha fragt immer „Saat kaçta?“, du antwortest. Mindestens fünf Uhrzeiten.",
+        "mustersaetze": [
+          { "tr": "Saat kaçta kalkıyoruz?", "de": "Um wie viel Uhr stehen wir auf?" },
+          { "tr": "Saat yedide kahvaltı yapıyoruz.", "de": "Um sieben frühstücken wir." },
+          { "tr": "Inaya saat yedide yatıyor.", "de": "Inaya geht um sieben ins Bett." }
+        ]
+      },
+      "alltagssatz": { "tr": "Akşam yemeği hazır!", "de": "Das Abendessen ist fertig!", "wann": "Heute Abend, wenn das Essen auf dem Tisch steht." },
+      "merktipp": { "titel": "Wann vs. wie spät", "text": "Saat kaç? fragt nach der Uhrzeit jetzt. Saat kaçta? (mit -ta) fragt nach dem Zeitpunkt. Die kleine Endung -ta macht aus „wie spät“ ein „wann“." }
+    },
+    {
+      "woche": 4,
+      "tag": 5,
+      "titel": "Mein ganzer Tag",
+      "kannZiel": "deinen Tagesablauf zusammenhängend erzählen",
+      "vokabeln": [
+        { "id": "w04-her-gun", "tr": "her gün", "de": "jeden Tag", "typ": "chunk", "beispiel": { "tr": "Her gün Türkçe öğreniyorum.", "de": "Ich lerne jeden Tag Türkisch." } },
+        { "id": "w04-once", "tr": "önce", "de": "zuerst", "typ": "wort", "beispiel": { "tr": "Önce kahvaltı, sonra park.", "de": "Erst Frühstück, dann Park." } },
+        { "id": "w04-sonra", "tr": "sonra", "de": "dann / danach", "typ": "wort", "beispiel": { "tr": "Sonra ne yapıyoruz?", "de": "Was machen wir danach?" } },
+        { "id": "w04-genellikle", "tr": "genellikle", "de": "normalerweise", "typ": "wort", "beispiel": { "tr": "Genellikle saat dokuzda yatıyorum.", "de": "Normalerweise gehe ich um neun ins Bett." } },
+        { "id": "w04-yuruyuse-cikmak", "tr": "yürüyüşe çıkmak", "de": "spazieren gehen", "typ": "chunk", "beispiel": { "tr": "Amani ile yürüyüşe çıkıyorum.", "de": "Ich gehe mit Amani spazieren." } },
+        { "id": "w04-park", "tr": "park", "de": "Park / Spielplatz", "typ": "wort", "beispiel": { "tr": "Inaya parkı çok seviyor.", "de": "Inaya liebt den Spielplatz." } },
+        { "id": "w04-alisveris", "tr": "alışveriş", "de": "Einkauf / Einkaufen", "typ": "wort", "beispiel": { "tr": "Bugün alışveriş yapıyorum.", "de": "Heute gehe ich einkaufen." } },
+        { "id": "w04-dinlenmek", "tr": "dinlenmek", "de": "sich ausruhen", "typ": "wort", "beispiel": { "tr": "Inaya uyuyor, ben dinleniyorum.", "de": "Inaya schläft, ich ruhe mich aus." } },
+        { "id": "w04-yemek-yapmak", "tr": "yemek yapmak", "de": "kochen", "typ": "chunk", "beispiel": { "tr": "Pasha çok güzel yemek yapıyor.", "de": "Pasha kocht richtig gut." } }
+      ],
+      "grammatik": {
+        "titel": "Erzählen: Zeit – Ort – Rest – Verb",
+        "erklaerung": [
+          "Die Reihenfolge im Satz: Zeit – Ort – Rest – Verb. Sabah saat yedide mutfakta kahvaltı yapıyoruz.",
+          "önce …, sonra … verbindet Schritte zu einer Geschichte.",
+          "-yor geht auch für Gewohnheiten: Her gün parka gidiyoruz. (Später lernst du dafür eine eigene Form.)"
+        ],
+        "beispiele": [
+          { "tr": "Sabah saat yedide kahvaltı yapıyoruz.", "de": "Morgens um sieben frühstücken wir." },
+          { "tr": "Önce parka gidiyoruz, sonra alışveriş yapıyoruz.", "de": "Erst gehen wir in den Park, dann einkaufen." },
+          { "tr": "Her gün Amani ile yürüyüşe çıkıyorum.", "de": "Jeden Tag gehe ich mit Amani spazieren." }
+        ]
+      },
+      "dialog": {
+        "titel": "Wie sieht dein Tag aus?",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Sherin, günün nasıl geçiyor?", "de": "Sherin, wie sieht dein Tag so aus?" },
+          { "sprecher": "Sherin", "tr": "Sabah saat altıda kalkıyoruz.", "de": "Morgens stehen wir um sechs auf." },
+          { "sprecher": "Sherin", "tr": "Önce kahvaltı yapıyoruz, sonra Amani ile yürüyüşe çıkıyorum.", "de": "Erst frühstücken wir, dann gehe ich mit Amani spazieren." },
+          { "sprecher": "Pashas Mama", "tr": "Inaya ne yapıyor?", "de": "Und was macht Inaya?" },
+          { "sprecher": "Sherin", "tr": "Inaya öğlen uyuyor. Ben de biraz dinleniyorum.", "de": "Inaya schläft mittags. Dann ruhe ich mich ein bisschen aus." },
+          { "sprecher": "Pashas Mama", "tr": "Ya akşam?", "de": "Und abends?" },
+          { "sprecher": "Sherin", "tr": "Akşam Pasha yemek yapıyor. Saat yedide Inaya yatıyor.", "de": "Abends kocht Pasha. Um sieben geht Inaya ins Bett." },
+          { "sprecher": "Pashas Mama", "tr": "Maşallah, çok güzel!", "de": "Wie schön!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w04-once", "w04-sonra", "w04-her-gun", "w04-genellikle"] },
+        { "art": "auswahl_de_tr", "vokabel": "w04-yuruyuse-cikmak" },
+        { "art": "hoeren", "vokabel": "w04-dinlenmek" },
+        { "art": "satzbau", "tr": "Önce kahvaltı, sonra park.", "de": "Erst Frühstück, dann Park." },
+        { "art": "auswahl_tr_de", "vokabel": "w04-alisveris" },
+        { "art": "luecke", "satz": "Inaya uyuyor, ben dinlen___.", "loesung": "iyorum", "optionen": ["iyorum", "ıyorum", "iyor"], "de": "Inaya schläft, ich ruhe mich aus." },
+        { "art": "hoeren", "vokabel": "w04-yemek-yapmak" },
+        { "art": "satzbau", "tr": "Sabah saat yedide kahvaltı yapıyoruz.", "de": "Morgens um sieben frühstücken wir." },
+        { "art": "tippen", "vokabel": "w04-park" },
+        { "art": "luecke", "satz": "Her gün park___ gidiyoruz.", "loesung": "a", "optionen": ["a", "ta", "e"], "de": "Jeden Tag gehen wir in den Park.", "hinweis": "wohin? = -a/-e (kommt nächste Woche genauer)" },
+        { "art": "tippen", "vokabel": "w04-sonra" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha deinen ganz normalen Tag in einem Stück – von morgens bis abends, mit mindestens drei Uhrzeiten und önce/sonra. Er darf nicht unterbrechen, nur am Ende eine Frage stellen.",
+        "mustersaetze": [
+          { "tr": "Sabah saat altıda kalkıyoruz.", "de": "Morgens stehen wir um sechs auf." },
+          { "tr": "Önce kahvaltı yapıyoruz, sonra parka gidiyoruz.", "de": "Erst frühstücken wir, dann gehen wir in den Park." },
+          { "tr": "Akşam saat yedide Inaya yatıyor.", "de": "Abends um sieben geht Inaya ins Bett." }
+        ]
+      },
+      "alltagssatz": { "tr": "Inaya uyuyor, ben dinleniyorum.", "de": "Inaya schläft, ich ruhe mich aus.", "wann": "Beim nächsten Mittagsschlaf – sag es Pasha per Sprachnachricht." },
+      "merktipp": { "titel": "Abends zwei Minuten", "text": "Fass jeden Abend in zwei Minuten laut deinen Tag auf Türkisch zusammen – auch nur mit önce, sonra und drei Verben. Das ist dein tägliches Sprechtraining." }
+    },
+    {
+      "woche": 4,
+      "tag": 6,
+      "titel": "Festigungstag: Unser Samstag",
+      "kannZiel": "einen ganzen Tag planen und darüber sprechen",
+      "vokabeln": [
+        { "id": "w04-hafta-ici", "tr": "hafta içi", "de": "unter der Woche", "typ": "chunk", "beispiel": { "tr": "Hafta içi çok yoğunuz.", "de": "Unter der Woche haben wir viel zu tun." } },
+        { "id": "w04-yorucu", "tr": "yorucu", "de": "anstrengend", "typ": "wort", "beispiel": { "tr": "Bugün çok yorucu bir gün.", "de": "Heute ist ein sehr anstrengender Tag." } },
+        { "id": "w04-ne-guzel", "tr": "Ne güzel!", "de": "Wie schön!", "typ": "chunk", "beispiel": { "tr": "Güneş var! Ne güzel!", "de": "Die Sonne scheint! Wie schön!" } },
+        { "id": "w04-hadi", "tr": "Hadi!", "de": "Los! / Komm!", "typ": "chunk", "beispiel": { "tr": "Hadi, parka gidiyoruz!", "de": "Los, wir gehen in den Park!" } },
+        { "id": "w04-rahat", "tr": "rahat", "de": "gemütlich / bequem", "typ": "wort", "beispiel": { "tr": "Bu kanepe çok rahat.", "de": "Dieses Sofa ist sehr bequem." } }
+      ],
+      "grammatik": {
+        "titel": "Zwei Ausreißer: gidiyor & yiyor",
+        "erklaerung": [
+          "gitmek: Das t wird weich → gidiyorum (ich gehe).",
+          "yemek: e wird zu i → yiyorum (ich esse). Genauso demek → diyor (er sagt).",
+          "Sonst ist -yor herrlich regelmäßig – du kannst jetzt jedes Verb in die Gegenwart setzen."
+        ],
+        "tabelle": {
+          "kopf": ["", "gitmek", "yemek"],
+          "zeilen": [
+            ["ich", "gidiyorum", "yiyorum"],
+            ["du", "gidiyorsun", "yiyorsun"],
+            ["er/sie", "gidiyor", "yiyor"],
+            ["wir", "gidiyoruz", "yiyoruz"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Hadi, parka gidiyoruz!", "de": "Los, wir gehen in den Park!" },
+          { "tr": "Akşam ne yiyoruz?", "de": "Was essen wir heute Abend?" },
+          { "tr": "Amani çok yiyor.", "de": "Amani frisst viel." }
+        ]
+      },
+      "dialog": {
+        "titel": "Endlich Samstag",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Günaydın canım! Bugün Cumartesi.", "de": "Guten Morgen, Schatz! Heute ist Samstag." },
+          { "sprecher": "Sherin", "tr": "Ne güzel! Hafta içi çok yorucu.", "de": "Wie schön! Unter der Woche ist es so anstrengend." },
+          { "sprecher": "Pasha", "tr": "Bugün ne yapıyoruz?", "de": "Was machen wir heute?" },
+          { "sprecher": "Sherin", "tr": "Önce rahat bir kahvaltı yapıyoruz.", "de": "Zuerst frühstücken wir gemütlich." },
+          { "sprecher": "Pasha", "tr": "Sonra?", "de": "Und dann?" },
+          { "sprecher": "Sherin", "tr": "Sonra parka gidiyoruz. İkisi de parkı çok seviyor.", "de": "Dann gehen wir in den Park. Die beiden lieben den Park." },
+          { "sprecher": "Pasha", "tr": "Akşam ne yiyoruz?", "de": "Und was essen wir heute Abend?" },
+          { "sprecher": "Sherin", "tr": "Sen yemek yapıyorsun, değil mi?", "de": "Du kochst, oder?" },
+          { "sprecher": "Pasha", "tr": "Tamam, tamam. Hadi, kalkıyoruz!", "de": "Ja, ja. Los, wir stehen auf!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_tr_de", "vokabel": "w04-hafta-ici" },
+        { "art": "hoeren", "vokabel": "w04-ne-guzel" },
+        { "art": "zuordnen", "vokabeln": ["w04-yorucu", "w04-rahat", "w04-hadi", "w04-ne-guzel"] },
+        { "art": "luecke", "satz": "Hadi, parka gid___!", "loesung": "iyoruz", "optionen": ["iyoruz", "iyorum", "ıyoruz"], "de": "Los, wir gehen in den Park!" },
+        { "art": "satzbau", "tr": "Akşam ne yiyoruz?", "de": "Was essen wir heute Abend?" },
+        { "art": "auswahl_de_tr", "vokabel": "w04-cumartesi" },
+        { "art": "luecke", "satz": "Sen yemek yap___, değil mi?", "loesung": "ıyorsun", "optionen": ["ıyorsun", "ıyorum", "iyorsun"], "de": "Du kochst, oder?" },
+        { "art": "hoeren", "vokabel": "w04-saat-kacta" },
+        { "art": "tippen", "vokabel": "w04-rahat" },
+        { "art": "satzbau", "tr": "Önce rahat bir kahvaltı yapıyoruz.", "de": "Zuerst frühstücken wir gemütlich." },
+        { "art": "auswahl_de_tr", "vokabel": "w04-uyumak" },
+        { "art": "tippen", "vokabel": "w04-hadi" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Plant euren heutigen Tag komplett auf Türkisch – mit Uhrzeiten, önce/sonra und wer was macht. Danach erzählst du Pasha den Plan noch einmal in einem Stück.",
+        "mustersaetze": [
+          { "tr": "Önce rahat bir kahvaltı yapıyoruz.", "de": "Zuerst frühstücken wir gemütlich." },
+          { "tr": "Saat üçte parka gidiyoruz.", "de": "Um drei gehen wir in den Park." },
+          { "tr": "Akşam sen yemek yapıyorsun!", "de": "Abends kochst du!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Hadi, parka gidiyoruz!", "de": "Los, wir gehen in den Park!", "wann": "Wenn ihr heute rausgeht – Inaya und Amani verstehen das schnell." },
+      "merktipp": { "titel": "Eine Form für fast alles", "text": "Mit -yor kannst du jetzt jedes Verb benutzen: was gerade passiert, was du heute vorhast und was ihr regelmäßig macht. Das ist ein Riesenschritt!" }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      {
+        "situation": "Erzähl Pasha deinen typischen Tag mit drei Uhrzeiten.",
+        "hilfe": { "tr": "Saat altıda kalkıyoruz. Saat yedide kahvaltı yapıyoruz. Saat yedide Inaya yatıyor.", "de": "Um sechs stehen wir auf. Um sieben frühstücken wir. Um sieben geht Inaya ins Bett." }
+      },
+      {
+        "situation": "Pasha fragt „Ne yapıyorsun?“ – antworte mit dem, was du gerade tust, und was Inaya tut.",
+        "hilfe": { "tr": "Çay içiyorum. Inaya oynuyor.", "de": "Ich trinke Tee. Inaya spielt." }
+      },
+      {
+        "situation": "Sag alle Wochentage auf – und was ihr am Wochenende macht.",
+        "hilfe": { "tr": "Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi, Pazar. Hafta sonu parka gidiyoruz.", "de": "Montag bis Sonntag. Am Wochenende gehen wir in den Park." }
+      }
+    ]
+  }
+}
