@@ -1,0 +1,420 @@
+{
+  "woche": 19,
+  "lektionen": [
+    {
+      "woche": 19,
+      "tag": 1,
+      "titel": "Die Schwiegerfamilie",
+      "kannZiel": "die angeheiratete Familie richtig benennen",
+      "vokabeln": [
+        { "id": "w19-kayinvalide", "tr": "kayınvalide", "de": "Schwiegermutter", "typ": "wort", "beispiel": { "tr": "Kayınvalidem çok güzel yemek yapar.", "de": "Meine Schwiegermutter kocht sehr gut." } },
+        { "id": "w19-kaynana", "tr": "kaynana", "de": "Schwiegermutter (umgangssprachlich)", "typ": "wort", "beispiel": { "tr": "Kaynana fıkraları çok meşhurdur.", "de": "Schwiegermutter-Witze sind sehr bekannt." } },
+        { "id": "w19-kayinpeder", "tr": "kayınpeder", "de": "Schwiegervater", "typ": "wort", "beispiel": { "tr": "Kayınpeder, eşimin babası demek.", "de": "Kayınpeder bedeutet: der Vater meines Mannes." } },
+        { "id": "w19-gorumce", "tr": "görümce", "de": "Schwester des Ehemanns", "typ": "wort", "beispiel": { "tr": "Görümcen var mı?", "de": "Hat dein Mann eine Schwester?" } },
+        { "id": "w19-kayinbirader", "tr": "kayınbirader", "de": "Bruder des Ehepartners", "typ": "wort", "beispiel": { "tr": "Kayınbiraderim İstanbul'da mı yaşıyor?", "de": "Lebt mein Schwager in Istanbul?" } },
+        { "id": "w19-elti", "tr": "elti", "de": "Frau des Schwagers", "typ": "wort", "beispiel": { "tr": "Eltiler bazen çok iyi arkadaş olur.", "de": "Schwägerinnen werden manchmal sehr gute Freundinnen." } },
+        { "id": "w19-gelin", "tr": "gelin", "de": "Schwiegertochter / Braut", "typ": "wort", "beispiel": { "tr": "Ben bu ailenin Alman geliniyim.", "de": "Ich bin die deutsche Schwiegertochter dieser Familie." } },
+        { "id": "w19-damat", "tr": "damat", "de": "Schwiegersohn / Bräutigam", "typ": "wort", "beispiel": { "tr": "Pasha annemlerin damadı.", "de": "Pasha ist der Schwiegersohn meiner Eltern." } },
+        { "id": "w19-eniste", "tr": "enişte", "de": "Schwager (Mann der Schwester/Tante)", "typ": "wort", "beispiel": { "tr": "Elif'in eniştesi çok komik.", "de": "Elifs Schwager ist sehr lustig." } }
+      ],
+      "grammatik": {
+        "titel": "Genitiv-Ketten: eşimin annesi",
+        "erklaerung": [
+          "Türkisch hat für fast jede Verwandtschaft ein eigenes Wort – Deutsch sagt nur „Schwager“, Türkisch unterscheidet genau.",
+          "Wenn dir ein Wort fehlt, bau eine Kette: eşimin annesi (die Mutter meines Mannes) = kayınvalidem.",
+          "Besitz-Endung wie immer: kayınvalidem (meine), görümcen (deine), eltisi (seine/ihre)."
+        ],
+        "tabelle": {
+          "kopf": ["Kette", "ein Wort"],
+          "zeilen": [
+            ["eşimin annesi", "kayınvalidem"],
+            ["eşimin babası", "kayınpederim"],
+            ["eşimin kız kardeşi", "görümcem"],
+            ["eşimin erkek kardeşi", "kayınbiraderim"],
+            ["kayınbiraderimin eşi", "eltim"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Eşimin annesi = kayınvalidem.", "de": "Die Mutter meines Mannes = meine Schwiegermutter." },
+          { "tr": "Ben bu ailenin Alman geliniyim.", "de": "Ich bin die deutsche Schwiegertochter dieser Familie." },
+          { "tr": "Görümcen var mı?", "de": "Hat dein Mann eine Schwester?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Elif fragt nach",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Pasha'nın ailesi kalabalık mı?", "de": "Ist Pashas Familie groß?" },
+          { "sprecher": "Sherin", "tr": "Evet! Ama bazı kelimeleri karıştırıyorum.", "de": "Ja! Aber manche Wörter bringe ich durcheinander." },
+          { "sprecher": "Elif", "tr": "Mesela? Eşinin kız kardeşi?", "de": "Zum Beispiel? Die Schwester deines Mannes?" },
+          { "sprecher": "Sherin", "tr": "Görümce! Bunu biliyorum.", "de": "Görümce! Das weiß ich." },
+          { "sprecher": "Elif", "tr": "Ya eşinin erkek kardeşinin karısı?", "de": "Und die Frau vom Bruder deines Mannes?" },
+          { "sprecher": "Sherin", "tr": "Hmm … elti! Doğru mu söyledim?", "de": "Hmm … elti! Hab ich's richtig gesagt?" },
+          { "sprecher": "Elif", "tr": "Aferin! Türk geline dönüşüyorsun!", "de": "Bravo! Du wirst eine richtige türkische Schwiegertochter!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w19-kayinvalide", "w19-kayinpeder", "w19-gorumce", "w19-kayinbirader"] },
+        { "art": "zuordnen", "vokabeln": ["w19-elti", "w19-gelin", "w19-damat", "w19-eniste"] },
+        { "art": "luecke", "satz": "Eşimin anne___ = kayınvalidem.", "loesung": "si", "optionen": ["si", "m", "yi"], "de": "Die Mutter meines Mannes = meine Schwiegermutter." },
+        { "art": "hoeren", "vokabel": "w19-kaynana" },
+        { "art": "auswahl_de_tr", "vokabel": "w19-gorumce" },
+        { "art": "satzbau", "tr": "Ben bu ailenin Alman geliniyim.", "de": "Ich bin die deutsche Schwiegertochter dieser Familie." },
+        { "art": "auswahl_tr_de", "vokabel": "w19-elti" },
+        { "art": "hoeren", "vokabel": "w19-damat" },
+        { "art": "tippen", "vokabel": "w19-gelin" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Zeichnet zusammen Pashas Stammbaum auf ein Blatt. Pasha nennt jede Person, du sagst auf Türkisch, wer sie für dich ist (kayınvalidem, görümcem …). Er korrigiert.",
+        "mustersaetze": [
+          { "tr": "O benim kayınvalidem.", "de": "Sie ist meine Schwiegermutter." },
+          { "tr": "Senin kız kardeşin benim görümcem.", "de": "Deine Schwester ist meine Schwägerin (görümce)." },
+          { "tr": "Doğru mu söyledim?", "de": "Hab ich's richtig gesagt?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Ben bu ailenin Alman geliniyim.", "de": "Ich bin die deutsche Schwiegertochter dieser Familie.", "wann": "Beim nächsten Familienbesuch – mit einem Lächeln." },
+      "merktipp": { "titel": "Präziser als Deutsch", "text": "Deutsch: „Schwägerin“ für drei verschiedene Personen. Türkisch: görümce, elti, yenge – jede hat ihr eigenes Wort. Mal dir den Stammbaum, dann sitzt es." }
+    },
+    {
+      "woche": 19,
+      "tag": 2,
+      "titel": "Onkel, Tanten, Cousins",
+      "kannZiel": "Onkel und Tanten richtig benennen – aus Inayas Sicht",
+      "vokabeln": [
+        { "id": "w19-amca", "tr": "amca", "de": "Onkel (Bruder des Vaters)", "typ": "wort", "beispiel": { "tr": "Babanın erkek kardeşi senin amcandır.", "de": "Der Bruder deines Vaters ist dein Onkel (amca)." } },
+        { "id": "w19-hala", "tr": "hala", "de": "Tante (Schwester des Vaters)", "typ": "wort", "beispiel": { "tr": "Babanın kız kardeşi senin halandır.", "de": "Die Schwester deines Vaters ist deine Tante (hala)." } },
+        { "id": "w19-dayi", "tr": "dayı", "de": "Onkel (Bruder der Mutter)", "typ": "wort", "beispiel": { "tr": "Benim erkek kardeşim Inaya'nın dayısı olur.", "de": "Mein Bruder wäre Inayas Onkel (dayı)." } },
+        { "id": "w19-teyze", "tr": "teyze", "de": "Tante (Schwester der Mutter)", "typ": "wort", "beispiel": { "tr": "Benim kız kardeşim Inaya'nın teyzesi olur.", "de": "Meine Schwester wäre Inayas Tante (teyze)." } },
+        { "id": "w19-yenge", "tr": "yenge", "de": "Tante (angeheiratet) / Schwägerin", "typ": "wort", "beispiel": { "tr": "Amcanın karısı senin yengen.", "de": "Die Frau deines Onkels ist deine yenge." } },
+        { "id": "w19-kuzen", "tr": "kuzen", "de": "Cousin / Cousine", "typ": "wort", "beispiel": { "tr": "Inaya'nın kaç kuzeni var?", "de": "Wie viele Cousins hat Inaya?" } },
+        { "id": "w19-yegen", "tr": "yeğen", "de": "Neffe / Nichte", "typ": "wort", "beispiel": { "tr": "Kardeşimin kızı benim yeğenim.", "de": "Die Tochter meiner Schwester / meines Bruders ist meine Nichte." } },
+        { "id": "w19-buyukanne", "tr": "büyükanne", "de": "Großmutter (neutral)", "typ": "wort", "beispiel": { "tr": "Büyükanneler torunlarını şımartır.", "de": "Großmütter verwöhnen ihre Enkel." } },
+        { "id": "w19-buyukbaba", "tr": "büyükbaba", "de": "Großvater (neutral)", "typ": "wort", "beispiel": { "tr": "Elif'in büyükbabası ona hep masal anlatırdı.", "de": "Elifs Großvater hat ihr immer Märchen erzählt." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Besitz in der 3. Person",
+        "erklaerung": [
+          "Aus Inayas Sicht: babasının erkek kardeşi = amcası, annesinin kız kardeşi = teyzesi.",
+          "Merkregel: Vaterseite = amca & hala, Mutterseite = dayı & teyze.",
+          "teyze und amca sagt man auch höflich zu älteren Fremden: Teyze, buyurun oturun! (Setzen Sie sich, Tante!)"
+        ],
+        "tabelle": {
+          "kopf": ["", "Vaterseite", "Mutterseite"],
+          "zeilen": [
+            ["Onkel", "amca", "dayı"],
+            ["Tante", "hala", "teyze"],
+            ["Oma", "babaanne", "anneanne"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Babanın kız kardeşi senin halan.", "de": "Die Schwester deines Vaters ist deine Tante (hala)." },
+          { "tr": "Teyze, buyurun oturun!", "de": "Bitte setzen Sie sich! (zu einer älteren Dame)" },
+          { "tr": "Inaya'nın kaç kuzeni var?", "de": "Wie viele Cousins hat Inaya?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Im Bus",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Teyze, buyurun oturun.", "de": "Bitte setzen Sie sich (zu einer älteren Dame)." },
+          { "sprecher": "Ältere Dame", "tr": "Sağ ol kızım! Ne tatlı bebek. Türk müsün?", "de": "Danke, Kind! Was für ein süßes Baby. Bist du Türkin?" },
+          { "sprecher": "Sherin", "tr": "Hayır, Almanım. Ama eşim Türk.", "de": "Nein, Deutsche. Aber mein Mann ist Türke." },
+          { "sprecher": "Ältere Dame", "tr": "Maşallah, ne güzel Türkçe konuşuyorsun!", "de": "Maşallah, wie schön du Türkisch sprichst!" },
+          { "sprecher": "Sherin", "tr": "Teşekkürler! Öğreniyorum. Kızım da iki dil öğreniyor.", "de": "Danke! Ich lerne noch. Meine Tochter lernt auch zwei Sprachen." },
+          { "sprecher": "Ältere Dame", "tr": "Ben de burada torunlarımla yaşıyorum. Allah bağışlasın kızını!", "de": "Ich lebe hier mit meinen Enkeln. Gott schütze deine Tochter!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w19-amca", "w19-hala", "w19-dayi", "w19-teyze"] },
+        { "art": "zuordnen", "vokabeln": ["w19-yenge", "w19-kuzen", "w19-yegen", "w19-buyukanne"] },
+        { "art": "luecke", "satz": "Babanın kız kardeşi senin hala___.", "loesung": "n", "optionen": ["n", "sı", "m"], "de": "Die Schwester deines Vaters ist deine Tante." },
+        { "art": "hoeren", "vokabel": "w19-dayi" },
+        { "art": "auswahl_de_tr", "vokabel": "w19-teyze" },
+        { "art": "satzbau", "tr": "Teyze, buyurun oturun!", "de": "Bitte setzen Sie sich! (zu einer älteren Dame)" },
+        { "art": "auswahl_tr_de", "vokabel": "w19-amca" },
+        { "art": "hoeren", "vokabel": "w19-kuzen" },
+        { "art": "tippen", "vokabel": "w19-hala" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Familienquiz: Pasha fragt „Inaya'nın … kim?“ (Wer ist Inayas amca/hala/teyze/dayı?) und du antwortest mit den echten Namen aus eurer Familie – oder „yok“.",
+        "mustersaetze": [
+          { "tr": "Inaya'nın amcası kim?", "de": "Wer ist Inayas Onkel (Vaterseite)?" },
+          { "tr": "… Inaya'nın halası.", "de": "… ist Inayas Tante (Vaterseite)." },
+          { "tr": "Inaya'nın dayısı yok.", "de": "Inaya hat keinen Onkel mütterlicherseits." }
+        ]
+      },
+      "alltagssatz": { "tr": "Teyze, buyurun oturun!", "de": "Bitte setzen Sie sich!", "wann": "Wenn du im Bus oder Wartezimmer einer älteren Dame deinen Platz anbietest." },
+      "merktipp": { "titel": "Vater links, Mutter rechts", "text": "Vaterseite: amca & hala (beide mit a). Mutterseite: dayı & teyze (beide mit y). Ein kleiner Trick, der hilft." }
+    },
+    {
+      "woche": 19,
+      "tag": 3,
+      "titel": "Müssen: -malı / -meli",
+      "kannZiel": "sagen, was jemand tun muss oder sollte",
+      "vokabeln": [
+        { "id": "w19-kural", "tr": "kural", "de": "Regel", "typ": "wort", "beispiel": { "tr": "Bizim evde bir kural var: yemekte telefon yok!", "de": "Bei uns gibt es eine Regel: kein Handy beim Essen!" } },
+        { "id": "w19-uslu", "tr": "uslu", "de": "brav", "typ": "wort", "beispiel": { "tr": "Uslu durmalısın.", "de": "Du musst brav sein." } },
+        { "id": "w19-yaramaz", "tr": "yaramaz", "de": "frech / unartig", "typ": "wort", "beispiel": { "tr": "Amani bugün çok yaramaz!", "de": "Amani ist heute sehr unartig!" } },
+        { "id": "w19-soz-dinlemek", "tr": "söz dinlemek", "de": "gehorchen", "typ": "chunk", "beispiel": { "tr": "Annenin sözünü dinlemelisin.", "de": "Du musst auf deine Mama hören." } },
+        { "id": "w19-paylasmak", "tr": "paylaşmak", "de": "teilen", "typ": "wort", "beispiel": { "tr": "Oyuncaklarını paylaşmalısın.", "de": "Du musst deine Spielsachen teilen." } },
+        { "id": "w19-sabirli", "tr": "sabırlı", "de": "geduldig", "typ": "wort", "beispiel": { "tr": "Bebeklerle çok sabırlı olmalıyız.", "de": "Mit Babys müssen wir sehr geduldig sein." } },
+        { "id": "w19-dikkatli", "tr": "dikkatli", "de": "vorsichtig", "typ": "wort", "beispiel": { "tr": "Merdivende dikkatli olmalısın.", "de": "Auf der Treppe musst du vorsichtig sein." } },
+        { "id": "w19-sorumluluk", "tr": "sorumluluk", "de": "Verantwortung", "typ": "wort", "beispiel": { "tr": "Köpek büyük bir sorumluluk.", "de": "Ein Hund ist eine große Verantwortung." } },
+        { "id": "w19-yatmalisin", "tr": "Yatmalısın.", "de": "Du musst ins Bett.", "typ": "chunk", "beispiel": { "tr": "Saat sekiz, artık yatmalısın.", "de": "Es ist acht, jetzt musst du ins Bett." } }
+      ],
+      "grammatik": {
+        "titel": "müssen / sollen = -malı / -meli",
+        "erklaerung": [
+          "„müssen / sollten“ ist ein Stein am Verb: -malı/-meli + Person: gitmeliyim (ich muss gehen).",
+          "Verneint: -mamalı/-memeli: dokunmamalısın (du darfst nicht anfassen / solltest nicht).",
+          "lazım kennst du schon: Gitmem lazım. -malı klingt etwas stärker, wie ein Rat oder eine Pflicht."
+        ],
+        "tabelle": {
+          "kopf": ["", "gitmek", "olmak"],
+          "zeilen": [
+            ["ich", "gitmeliyim", "olmalıyım"],
+            ["du", "gitmelisin", "olmalısın"],
+            ["er/sie", "gitmeli", "olmalı"],
+            ["wir", "gitmeliyiz", "olmalıyız"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Saat sekiz, artık yatmalısın.", "de": "Es ist acht, jetzt musst du ins Bett." },
+          { "tr": "Bebeklerle sabırlı olmalıyız.", "de": "Mit Babys müssen wir geduldig sein." },
+          { "tr": "Prize dokunmamalısın!", "de": "Du darfst die Steckdose nicht anfassen!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Hausregeln",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Inaya büyüyor. Bazı kurallar koymalıyız.", "de": "Inaya wird größer. Wir sollten ein paar Regeln aufstellen." },
+          { "sprecher": "Sherin", "tr": "Haklısın. Mesela yemekte telefon yok!", "de": "Stimmt. Zum Beispiel: kein Handy beim Essen!" },
+          { "sprecher": "Pasha", "tr": "Bu kural bana mı? Ben de uymalıyım yani?", "de": "Gilt die Regel für mich? Ich muss mich also auch dran halten?" },
+          { "sprecher": "Sherin", "tr": "Tabii! Örnek olmalıyız.", "de": "Klar! Wir müssen Vorbild sein." },
+          { "sprecher": "Pasha", "tr": "Peki. Amani için de bir kural: kanepeye çıkmamalı!", "de": "Okay. Und eine Regel für Amani: Sie darf nicht aufs Sofa!" },
+          { "sprecher": "Sherin", "tr": "Bunu on kere denedik … Amani hiç söz dinlemez!", "de": "Das haben wir zehnmal versucht … Amani hört einfach nicht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w19-uslu", "w19-yaramaz", "w19-sabirli", "w19-dikkatli"] },
+        { "art": "luecke", "satz": "Artık yat___.", "loesung": "malısın", "optionen": ["malısın", "malıyım", "ıyorsun"], "de": "Jetzt musst du ins Bett." },
+        { "art": "luecke", "satz": "Prize dokun___!", "loesung": "mamalısın", "optionen": ["mamalısın", "malısın", "ma"], "de": "Du darfst die Steckdose nicht anfassen!" },
+        { "art": "hoeren", "vokabel": "w19-soz-dinlemek" },
+        { "art": "auswahl_de_tr", "vokabel": "w19-paylasmak" },
+        { "art": "satzbau", "tr": "Bebeklerle sabırlı olmalıyız.", "de": "Mit Babys müssen wir geduldig sein." },
+        { "art": "auswahl_tr_de", "vokabel": "w19-kural" },
+        { "art": "hoeren", "vokabel": "w19-sorumluluk" },
+        { "art": "luecke", "satz": "Merdivende dikkatli ol___.", "loesung": "malısın", "optionen": ["malısın", "malıyız", "mak"], "de": "Auf der Treppe musst du vorsichtig sein." },
+        { "art": "tippen", "vokabel": "w19-uslu" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Stellt zusammen fünf Familienregeln auf Türkisch auf (für euch, für Inaya, für Amani) – mit -malı / -mamalı. Schreibt sie auf und hängt sie an den Kühlschrank.",
+        "mustersaetze": [
+          { "tr": "Yemekte telefona bakmamalıyız.", "de": "Beim Essen sollten wir nicht aufs Handy schauen." },
+          { "tr": "Her akşam Türkçe konuşmalıyız.", "de": "Jeden Abend sollten wir Türkisch sprechen." },
+          { "tr": "Amani kanepeye çıkmamalı!", "de": "Amani darf nicht aufs Sofa!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Artık yatmalısın.", "de": "Jetzt musst du ins Bett.", "wann": "Heute Abend zu Inaya – und vielleicht auch zu Pasha." },
+      "merktipp": { "titel": "-malı = moralische Pflicht", "text": "-malı klingt nach „das gehört sich so“: Büyüklere saygı göstermelisin. (Älteren muss man Respekt zeigen.) Für reine Notwendigkeit reicht lazım." }
+    },
+    {
+      "woche": 19,
+      "tag": 4,
+      "titel": "Mit Inaya sprechen",
+      "kannZiel": "mit Kleinkindern liebevoll auf Türkisch sprechen",
+      "vokabeln": [
+        { "id": "w19-ce-e", "tr": "Ce-e!", "de": "Kuckuck! (Versteckspiel)", "typ": "chunk", "beispiel": { "tr": "Inaya nerede? … Ce-e!", "de": "Wo ist Inaya? … Kuckuck!" } },
+        { "id": "w19-kuzum", "tr": "kuzum", "de": "mein Lämmchen (Kosewort)", "typ": "wort", "beispiel": { "tr": "Gel kuzum, uyku saati.", "de": "Komm, mein Lämmchen, Schlafenszeit." } },
+        { "id": "w19-hadi-bakalim", "tr": "Hadi bakalım!", "de": "Na komm! / Auf geht's!", "typ": "chunk", "beispiel": { "tr": "Hadi bakalım, banyoya!", "de": "Auf geht's, ins Bad!" } },
+        { "id": "w19-kim-geldi", "tr": "Kim geldi?", "de": "Wer ist denn da?", "typ": "chunk", "beispiel": { "tr": "Bak, kim geldi? Baban geldi!", "de": "Schau, wer ist da? Papa ist da!" } },
+        { "id": "w19-cici", "tr": "cici", "de": "schön / hübsch (Kindersprache)", "typ": "wort", "beispiel": { "tr": "Ne cici elbise!", "de": "Was für ein hübsches Kleid!" } },
+        { "id": "w19-mama", "tr": "mama", "de": "Essen / Brei (Kindersprache)", "typ": "wort", "beispiel": { "tr": "Mama zamanı! Aç mısın?", "de": "Essenszeit! Hast du Hunger?" } },
+        { "id": "w19-atta", "tr": "atta", "de": "rausgehen (Kindersprache)", "typ": "wort", "beispiel": { "tr": "Atta gidelim mi?", "de": "Gehen wir raus?" } },
+        { "id": "w19-uykucu", "tr": "uykucu", "de": "Schlafmütze", "typ": "wort", "beispiel": { "tr": "Günaydın uykucu!", "de": "Guten Morgen, Schlafmütze!" } },
+        { "id": "w19-minik", "tr": "minik", "de": "winzig / klein", "typ": "wort", "beispiel": { "tr": "Minik ellerine bak!", "de": "Schau dir die winzigen Hände an!" } }
+      ],
+      "grammatik": {
+        "titel": "Kinder-Sprache: einfach & liebevoll",
+        "erklaerung": [
+          "Mit Kleinkindern spricht man kurz, wiederholend und mit vielen Koseworten: kuzum, canım, bebeğim, tatlım.",
+          "Typisch ist „wir“ statt „du“: Hadi uyuyalım! (Komm, wir schlafen!) – auch wenn nur das Kind schläft.",
+          "Kindersprache-Wörter: mama (Essen), atta (raus), cici (schön), dede (Opa), ham ham (essen)."
+        ],
+        "beispiele": [
+          { "tr": "Hadi bakalım, mama yiyelim!", "de": "Na komm, wir essen!" },
+          { "tr": "Bak, kim geldi? Baban geldi!", "de": "Schau, wer ist da? Papa ist da!" },
+          { "tr": "Gel kuzum, uyku saati.", "de": "Komm, mein Lämmchen, Schlafenszeit." }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein Morgen mit Inaya",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Günaydın uykucu! Uyandın mı?", "de": "Guten Morgen, Schlafmütze! Bist du wach?" },
+          { "sprecher": "Sherin", "tr": "Hadi bakalım, önce bez, sonra mama!", "de": "Na komm, erst Windel, dann Frühstück!" },
+          { "sprecher": "Pasha", "tr": "Inaya nerede? Inaya yok! … Ce-e!", "de": "Wo ist Inaya? Inaya ist weg! … Kuckuck!" },
+          { "sprecher": "Sherin", "tr": "Bak nasıl gülüyor! Kuzum benim.", "de": "Schau, wie sie lacht! Mein Lämmchen." },
+          { "sprecher": "Pasha", "tr": "Mamadan sonra atta gidelim mi?", "de": "Gehen wir nach dem Essen raus?" },
+          { "sprecher": "Sherin", "tr": "Tabii! Cici montunu giyelim.", "de": "Klar! Ziehen wir deine hübsche Jacke an." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w19-kuzum", "w19-cici", "w19-mama", "w19-atta"] },
+        { "art": "hoeren", "vokabel": "w19-ce-e" },
+        { "art": "auswahl_de_tr", "vokabel": "w19-hadi-bakalim" },
+        { "art": "luecke", "satz": "Hadi bakalım, mama yi___!", "loesung": "yelim", "optionen": ["yelim", "yorum", "yeceğim"], "de": "Na komm, wir essen!" },
+        { "art": "satzbau", "tr": "Bak, kim geldi? Baban geldi!", "de": "Schau, wer ist da? Papa ist da!" },
+        { "art": "auswahl_tr_de", "vokabel": "w19-uykucu" },
+        { "art": "hoeren", "vokabel": "w19-minik" },
+        { "art": "satzbau", "tr": "Gel kuzum, uyku saati.", "de": "Komm, mein Lämmchen, Schlafenszeit." },
+        { "art": "tippen", "vokabel": "w19-kuzum" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Heute ist Inaya-Türkisch-Tag: Sprich in allen Routinen (Aufwachen, Wickeln, Essen, Rausgehen, Baden, Schlafen) mindestens einen Satz Türkisch mit ihr. Pasha zählt mit.",
+        "mustersaetze": [
+          { "tr": "Günaydın uykucu!", "de": "Guten Morgen, Schlafmütze!" },
+          { "tr": "Hadi bakalım, atta!", "de": "Na komm, raus!" },
+          { "tr": "Gel kuzum, uyku saati.", "de": "Komm, Lämmchen, Schlafenszeit." }
+        ]
+      },
+      "alltagssatz": { "tr": "Ce-e!", "de": "Kuckuck!", "wann": "Beim nächsten Versteckspiel mit Inaya – sie wird es lieben." },
+      "merktipp": { "titel": "Du bist Vorbild", "text": "Wenn Inaya dich Türkisch sprechen hört, lernt sie: Beide Sprachen gehören zu Mama und Papa. Schon ein paar türkische Sätze am Tag machen einen Unterschied." }
+    },
+    {
+      "woche": 19,
+      "tag": 5,
+      "titel": "Zwei Sprachen, zwei Kulturen",
+      "kannZiel": "über Erziehung, Sprachen und Werte sprechen",
+      "vokabeln": [
+        { "id": "w19-buyutmek", "tr": "büyütmek", "de": "großziehen", "typ": "wort", "beispiel": { "tr": "Inaya'yı iki dille büyütüyoruz.", "de": "Wir ziehen Inaya zweisprachig groß." } },
+        { "id": "w19-iki-dilli", "tr": "iki dilli", "de": "zweisprachig", "typ": "chunk", "beispiel": { "tr": "İki dilli çocuklar çok şanslı.", "de": "Zweisprachige Kinder haben großes Glück." } },
+        { "id": "w19-anadil", "tr": "anadil", "de": "Muttersprache", "typ": "wort", "beispiel": { "tr": "Pasha'nın anadili Türkçe, benimki Almanca.", "de": "Pashas Muttersprache ist Türkisch, meine Deutsch." } },
+        { "id": "w19-kultur", "tr": "kültür", "de": "Kultur", "typ": "wort", "beispiel": { "tr": "İki kültürü de tanımalı.", "de": "Sie soll beide Kulturen kennenlernen." } },
+        { "id": "w19-saygi", "tr": "saygı", "de": "Respekt", "typ": "wort", "beispiel": { "tr": "Türk kültüründe büyüklere saygı çok önemli.", "de": "In der türkischen Kultur ist Respekt vor Älteren sehr wichtig." } },
+        { "id": "w19-buyukler", "tr": "büyükler", "de": "die Älteren", "typ": "wort", "beispiel": { "tr": "Büyüklerin elini öperiz.", "de": "Wir küssen den Älteren die Hand." } },
+        { "id": "w19-el-opmek", "tr": "el öpmek", "de": "Handkuss (Respekt vor Älteren)", "typ": "chunk", "beispiel": { "tr": "Bayramda büyüklerin elini öpecek.", "de": "An Bayram wird sie den Älteren die Hand küssen." } },
+        { "id": "w19-ornek-olmak", "tr": "örnek olmak", "de": "Vorbild sein", "typ": "chunk", "beispiel": { "tr": "Çocuklara örnek olmalıyız.", "de": "Wir müssen den Kindern ein Vorbild sein." } },
+        { "id": "w19-sabir", "tr": "sabır", "de": "Geduld", "typ": "wort", "beispiel": { "tr": "Annelik çok sabır ister.", "de": "Muttersein braucht viel Geduld." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Meinung + müssen",
+        "erklaerung": [
+          "Meinung + Pflicht: Bence Inaya iki dili de öğrenmeli. (Ich finde, Inaya sollte beide Sprachen lernen.)",
+          "Gründe mit çünkü, Folgen mit bu yüzden.",
+          "-la/-le: iki dille büyütmek (mit zwei Sprachen großziehen)."
+        ],
+        "beispiele": [
+          { "tr": "Bence Inaya iki dili de öğrenmeli.", "de": "Ich finde, Inaya sollte beide Sprachen lernen." },
+          { "tr": "Pasha'nın anadili Türkçe, benimki Almanca.", "de": "Pashas Muttersprache ist Türkisch, meine Deutsch." },
+          { "tr": "Çocuklara örnek olmalıyız.", "de": "Wir müssen den Kindern ein Vorbild sein." }
+        ]
+      },
+      "dialog": {
+        "titel": "Gespräch mit der Schwiegermama",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Inaya Türkçe öğrenecek mi?", "de": "Wird Inaya Türkisch lernen?" },
+          { "sprecher": "Sherin", "tr": "Tabii! Onu iki dille büyütüyoruz. Pasha onunla hep Türkçe konuşuyor.", "de": "Natürlich! Wir ziehen sie zweisprachig groß. Pasha spricht immer Türkisch mit ihr." },
+          { "sprecher": "Pashas Mama", "tr": "Çok güzel. Ya sen?", "de": "Sehr schön. Und du?" },
+          { "sprecher": "Sherin", "tr": "Ben Almanca konuşuyorum ama artık biraz Türkçe de. Örnek olmalıyım.", "de": "Ich spreche Deutsch, aber inzwischen auch etwas Türkisch. Ich muss ja Vorbild sein." },
+          { "sprecher": "Pashas Mama", "tr": "Bence iki kültürü de tanımalı. Bayramda gelsinler, büyüklerin elini öpsün.", "de": "Ich finde, sie sollte beide Kulturen kennen. Kommt zu Bayram, dann küsst sie den Älteren die Hand." },
+          { "sprecher": "Sherin", "tr": "Katılıyorum! Ben de Alman Noel'ini göstereceğim.", "de": "Stimme zu! Und ich zeige ihr das deutsche Weihnachten." },
+          { "sprecher": "Pashas Mama", "tr": "Ne güzel. İki kat bayram!", "de": "Wie schön. Doppelt Feste!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w19-anadil", "w19-kultur", "w19-saygi", "w19-sabir"] },
+        { "art": "hoeren", "vokabel": "w19-iki-dilli" },
+        { "art": "auswahl_de_tr", "vokabel": "w19-el-opmek" },
+        { "art": "luecke", "satz": "Bence Inaya iki dili de öğren___.", "loesung": "meli", "optionen": ["meli", "malı", "meliyim"], "de": "Ich finde, Inaya sollte beide Sprachen lernen." },
+        { "art": "satzbau", "tr": "Inaya'yı iki dille büyütüyoruz.", "de": "Wir ziehen Inaya zweisprachig groß." },
+        { "art": "auswahl_tr_de", "vokabel": "w19-buyukler" },
+        { "art": "hoeren", "vokabel": "w19-ornek-olmak" },
+        { "art": "satzbau", "tr": "Çocuklara örnek olmalıyız.", "de": "Wir müssen den Kindern ein Vorbild sein." },
+        { "art": "tippen", "vokabel": "w19-saygi" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Sprecht auf Türkisch darüber, was Inaya von beiden Kulturen mitbekommen soll: Sprachen, Feste, Essen, Werte. Jeder nennt drei Dinge mit bence + -meli.",
+        "mustersaetze": [
+          { "tr": "Bence Inaya Türkçe ninnileri bilmeli.", "de": "Ich finde, Inaya sollte türkische Schlaflieder kennen." },
+          { "tr": "Alman Noel'ini de tanımalı.", "de": "Sie sollte auch das deutsche Weihnachten kennen." },
+          { "tr": "Büyüklere saygı göstermeli.", "de": "Sie sollte Älteren Respekt zeigen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Inaya'yı iki dille büyütüyoruz.", "de": "Wir ziehen Inaya zweisprachig groß.", "wann": "Wenn dich jemand (Kita, Arzt, Familie) nach Inayas Sprachen fragt." },
+      "merktipp": { "titel": "El öpmek", "text": "Beim Bayram küssen Kinder (und Jüngere) den Älteren die Hand und führen sie kurz an die Stirn. Dafür bekommen Kinder oft Süßigkeiten oder etwas Geld – Inaya wird es lieben." }
+    },
+    {
+      "woche": 19,
+      "tag": 6,
+      "titel": "Festigungstag: Großfamilie",
+      "kannZiel": "über die ganze Familie sprechen – mit Herz",
+      "vokabeln": [
+        { "id": "w19-allah-bagislasin", "tr": "Allah bağışlasın!", "de": "Gott schütze ihn/sie! (beim Kinderlob)", "typ": "chunk", "beispiel": { "tr": "Ne güzel bir kız, Allah bağışlasın!", "de": "Was für ein hübsches Mädchen, Gott schütze sie!" } },
+        { "id": "w19-gozum-gibi-bakarim", "tr": "Gözüm gibi bakarım.", "de": "Ich passe auf wie auf meinen Augapfel.", "typ": "chunk", "beispiel": { "tr": "Merak etme, Inaya'ya gözüm gibi bakarım.", "de": "Keine Sorge, ich passe auf Inaya auf wie auf meinen Augapfel." } },
+        { "id": "w19-aile-her-seydir", "tr": "Aile her şeydir.", "de": "Familie ist alles.", "typ": "chunk", "beispiel": { "tr": "Bizim için aile her şeydir.", "de": "Für uns ist Familie alles." } },
+        { "id": "w19-torun-sevgisi", "tr": "Torun sevgisi başka.", "de": "Enkelliebe ist etwas Besonderes.", "typ": "chunk", "beispiel": { "tr": "Babaanneler hep söyler: torun sevgisi başka!", "de": "Omas sagen immer: Enkelliebe ist etwas Besonderes!" } },
+        { "id": "w19-hepimiz-bir-aileyiz", "tr": "Hepimiz bir aileyiz.", "de": "Wir sind alle eine Familie.", "typ": "chunk", "beispiel": { "tr": "Almanlar, Türkler … hepimiz bir aileyiz.", "de": "Deutsche, Türken … wir sind alle eine Familie." } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Verwandtschaft: Vaterseite amca/hala, Mutterseite dayı/teyze, angeheiratet kayınvalide, görümce, elti, yenge.",
+          "Müssen: -malı/-meli, verneint -mamalı. Kinder-Sprache: kurz, liebevoll, mit „wir“."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["Vaterseite", "Inaya'nın amcası, halası"],
+            ["Mutterseite", "Inaya'nın dayısı, teyzesi"],
+            ["angeheiratet", "kayınvalidem, görümcem"],
+            ["müssen", "Sabırlı olmalıyız."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bizim için aile her şeydir.", "de": "Für uns ist Familie alles." },
+          { "tr": "Inaya'ya gözüm gibi bakarım.", "de": "Ich passe auf Inaya auf wie auf meinen Augapfel." },
+          { "tr": "Torun sevgisi başka!", "de": "Enkelliebe ist etwas Besonderes!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Oma passt auf",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Bu akşam Inaya'ya ben bakayım. Siz dışarı çıkın!", "de": "Heute Abend passe ich auf Inaya auf. Geht ihr mal aus!" },
+          { "sprecher": "Sherin", "tr": "Gerçekten mi? Ama o gece çok uyanıyor.", "de": "Wirklich? Aber sie wacht nachts oft auf." },
+          { "sprecher": "Pashas Mama", "tr": "Merak etme kızım, gözüm gibi bakarım.", "de": "Keine Sorge, Liebes, ich passe auf sie auf wie auf meinen Augapfel." },
+          { "sprecher": "Sherin", "tr": "Saat sekizde yatmalı. Önce banyo, sonra süt.", "de": "Um acht muss sie ins Bett. Erst Bad, dann Milch." },
+          { "sprecher": "Pashas Mama", "tr": "Ben de çocuk büyüttüm kızım! Torun sevgisi başka.", "de": "Ich habe selbst Kinder großgezogen, Liebes! Enkelliebe ist etwas Besonderes." },
+          { "sprecher": "Sherin", "tr": "Haklısınız. Çok teşekkür ederim, anne.", "de": "Sie haben recht. Vielen Dank, Mama." },
+          { "sprecher": "Pashas Mama", "tr": "Ne teşekkürü? Hepimiz bir aileyiz!", "de": "Wofür denn danken? Wir sind doch alle eine Familie!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w19-allah-bagislasin", "w19-gozum-gibi-bakarim", "w19-aile-her-seydir", "w19-hepimiz-bir-aileyiz"] },
+        { "art": "hoeren", "vokabel": "w19-torun-sevgisi" },
+        { "art": "luecke", "satz": "Saat sekizde yat___.", "loesung": "malı", "optionen": ["malı", "meli", "malıyım"], "de": "Um acht muss sie ins Bett." },
+        { "art": "satzbau", "tr": "Bizim için aile her şeydir.", "de": "Für uns ist Familie alles." },
+        { "art": "auswahl_de_tr", "vokabel": "w19-teyze" },
+        { "art": "auswahl_de_tr", "vokabel": "w19-kayinvalide" },
+        { "art": "hoeren", "vokabel": "w19-hala" },
+        { "art": "auswahl_tr_de", "vokabel": "w19-gozum-gibi-bakarim" },
+        { "art": "tippen", "vokabel": "w19-amca" },
+        { "art": "satzbau", "tr": "Inaya'ya gözüm gibi bakarım.", "de": "Ich passe auf Inaya auf wie auf meinen Augapfel." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Erzähl Pasha (wie einer neuen Freundin) von seiner ganzen Familie – mit den richtigen türkischen Wörtern. Dann erzählst du von deiner eigenen Familie und was Inaya von ihr bekommt.",
+        "mustersaetze": [
+          { "tr": "Kayınvalidem çok sıcak bir insan.", "de": "Meine Schwiegermutter ist ein sehr warmherziger Mensch." },
+          { "tr": "Inaya'nın babaannesi çok tatlı.", "de": "Inayas Oma (väterlicherseits) ist so lieb." },
+          { "tr": "Bizim için aile her şeydir.", "de": "Für uns ist Familie alles." }
+        ]
+      },
+      "alltagssatz": { "tr": "Hepimiz bir aileyiz.", "de": "Wir sind alle eine Familie.", "wann": "Beim nächsten Familienessen – ein Satz, der Herzen öffnet." },
+      "merktipp": { "titel": "Allah bağışlasın & Maşallah", "text": "Wenn jemand ein Kind lobt, hörst du oft „Maşallah“ oder „Allah bağışlasın“ – beides schützt das Kind symbolisch. Als Antwort sagst du einfach „Teşekkürler“ oder „Sağ ol“." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Erklär Inayas Verwandtschaft auf Türkisch: Wer ist amca, hala, dayı, teyze?", "hilfe": { "tr": "Babasının erkek kardeşi amcası, annesinin kız kardeşi teyzesi.", "de": "Der Bruder ihres Vaters ist amca, die Schwester ihrer Mutter teyze." } },
+      { "situation": "Stellt drei Familienregeln mit -malı auf.", "hilfe": { "tr": "Yemekte telefon kullanmamalıyız. Her akşam masal okumalıyız.", "de": "Beim Essen keine Handys. Jeden Abend ein Märchen vorlesen." } },
+      { "situation": "Sprich zwei Minuten nur Türkisch mit Inaya – Spiel, Essen oder Anziehen.", "hilfe": { "tr": "Hadi bakalım! Ce-e! Aferin kuzum!", "de": "Na komm! Kuckuck! Gut gemacht, mein Lämmchen!" } }
+    ]
+  }
+}
