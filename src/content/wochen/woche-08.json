@@ -1,0 +1,442 @@
+{
+  "woche": 8,
+  "lektionen": [
+    {
+      "woche": 8,
+      "tag": 1,
+      "titel": "Gestern: -dı",
+      "kannZiel": "sagen, was du gestern gemacht hast",
+      "vokabeln": [
+        { "id": "w08-dun", "tr": "dün", "de": "gestern", "typ": "wort", "beispiel": { "tr": "Dün parka gittik.", "de": "Gestern waren wir im Park." } },
+        { "id": "w08-dun-aksam", "tr": "dün akşam", "de": "gestern Abend", "typ": "chunk", "beispiel": { "tr": "Dün akşam erken yattım.", "de": "Gestern Abend bin ich früh ins Bett gegangen." } },
+        { "id": "w08-bu-sabah", "tr": "bu sabah", "de": "heute Morgen", "typ": "chunk", "beispiel": { "tr": "Bu sabah Inaya erken uyandı.", "de": "Heute Morgen ist Inaya früh aufgewacht." } },
+        { "id": "w08-gecen-hafta", "tr": "geçen hafta", "de": "letzte Woche", "typ": "chunk", "beispiel": { "tr": "Geçen hafta doktora gittik.", "de": "Letzte Woche waren wir beim Arzt." } },
+        { "id": "w08-evvelsi-gun", "tr": "evvelsi gün", "de": "vorgestern", "typ": "chunk", "beispiel": { "tr": "Evvelsi gün Elif geldi.", "de": "Vorgestern war Elif da." } },
+        { "id": "w08-az-once", "tr": "az önce", "de": "gerade eben", "typ": "chunk", "beispiel": { "tr": "Inaya az önce uyudu.", "de": "Inaya ist gerade eingeschlafen." } },
+        { "id": "w08-ne-yaptin", "tr": "Ne yaptın?", "de": "Was hast du gemacht?", "typ": "chunk", "beispiel": { "tr": "Bugün ne yaptın?", "de": "Was hast du heute gemacht?" } },
+        { "id": "w08-nasildi", "tr": "Nasıldı?", "de": "Wie war's?", "typ": "chunk", "beispiel": { "tr": "Park nasıldı?", "de": "Wie war's im Park?" } }
+      ],
+      "grammatik": {
+        "titel": "Vergangenheit: -dı / -di / -du / -dü",
+        "erklaerung": [
+          "Vergangenheit = Stamm + -dı (4-fach) + kurze Person: gel + di + m = geldim (ich bin gekommen).",
+          "Die Personen sind hier kürzer: -m (ich), -n (du), – (er/sie), -k (wir).",
+          "Ein Satz im Präteritum deckt im Deutschen beides ab: „ich kam“ und „ich bin gekommen“."
+        ],
+        "tabelle": {
+          "kopf": ["", "gelmek", "uyumak", "almak"],
+          "zeilen": [
+            ["ich", "geldim", "uyudum", "aldım"],
+            ["du", "geldin", "uyudun", "aldın"],
+            ["er/sie", "geldi", "uyudu", "aldı"],
+            ["wir", "geldik", "uyuduk", "aldık"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Dün markete gittim.", "de": "Gestern war ich im Supermarkt." },
+          { "tr": "Inaya az önce uyudu.", "de": "Inaya ist gerade eingeschlafen." },
+          { "tr": "Bugün ne yaptın?", "de": "Was hast du heute gemacht?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Feierabend",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Merhaba canım! Bugün ne yaptın?", "de": "Hallo Schatz! Was hast du heute gemacht?" },
+          { "sprecher": "Sherin", "tr": "Sabah parka gittik.", "de": "Morgens waren wir im Park." },
+          { "sprecher": "Pasha", "tr": "Nasıldı?", "de": "Wie war's?" },
+          { "sprecher": "Sherin", "tr": "Çok güzeldi! Inaya çok güldü.", "de": "Sehr schön! Inaya hat viel gelacht." },
+          { "sprecher": "Pasha", "tr": "Şimdi nerede?", "de": "Wo ist sie jetzt?" },
+          { "sprecher": "Sherin", "tr": "Az önce uyudu. Sessiz!", "de": "Gerade eingeschlafen. Leise!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w08-dun", "w08-bu-sabah", "w08-gecen-hafta", "w08-az-once"] },
+        { "art": "luecke", "satz": "Dün markete git___.", "loesung": "tim", "optionen": ["tim", "dim", "tın"], "de": "Gestern war ich im Supermarkt." },
+        { "art": "luecke", "satz": "Inaya az önce uyu___.", "loesung": "du", "optionen": ["du", "dı", "dum"], "de": "Inaya ist gerade eingeschlafen." },
+        { "art": "auswahl_de_tr", "vokabel": "w08-ne-yaptin" },
+        { "art": "hoeren", "vokabel": "w08-nasildi" },
+        { "art": "satzbau", "tr": "Dün akşam erken yattım.", "de": "Gestern Abend bin ich früh ins Bett gegangen." },
+        { "art": "auswahl_tr_de", "vokabel": "w08-evvelsi-gun" },
+        { "art": "luecke", "satz": "Sabah parka git___.", "loesung": "tik", "optionen": ["tik", "tim", "dik"], "de": "Morgens waren wir im Park.", "hinweis": "wir → -k" },
+        { "art": "tippen", "vokabel": "w08-dun" },
+        { "art": "hoeren", "vokabel": "w08-dun-aksam" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Wenn Pasha heute nach Hause kommt, fragt er „Bugün ne yaptın?“. Erzähl ihm drei Dinge, die du und Inaya heute gemacht habt – in der Vergangenheit.",
+        "mustersaetze": [
+          { "tr": "Sabah kahvaltı yaptık.", "de": "Morgens haben wir gefrühstückt." },
+          { "tr": "Sonra parka gittik.", "de": "Dann sind wir in den Park gegangen." },
+          { "tr": "Inaya öğlen uyudu.", "de": "Inaya hat mittags geschlafen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Bugün ne yaptın?", "de": "Was hast du heute gemacht?", "wann": "Heute Abend zu Pasha – und dann gut zuhören." },
+      "merktipp": { "titel": "Das d-Signal", "text": "Hörst du am Verbende ein -dı/-di/-du/-dü (oder -tı/-ti), ist es vorbei: geldi, gitti, yaptı. Das d ist dein Vergangenheits-Signal." }
+    },
+    {
+      "woche": 8,
+      "tag": 2,
+      "titel": "Haushalt erledigt: -tı",
+      "kannZiel": "sagen, was im Haushalt schon erledigt ist",
+      "vokabeln": [
+        { "id": "w08-temizlemek", "tr": "temizlemek", "de": "putzen / sauber machen", "typ": "wort", "beispiel": { "tr": "Mutfağı temizledim.", "de": "Ich habe die Küche geputzt." } },
+        { "id": "w08-yikamak", "tr": "yıkamak", "de": "waschen", "typ": "wort", "beispiel": { "tr": "Amani'yi yıkadık.", "de": "Wir haben Amani gewaschen." } },
+        { "id": "w08-camasir", "tr": "çamaşır", "de": "Wäsche", "typ": "wort", "beispiel": { "tr": "Çamaşır yıkadım.", "de": "Ich habe Wäsche gewaschen." } },
+        { "id": "w08-bulasik", "tr": "bulaşık", "de": "Abwasch / Geschirr", "typ": "wort", "beispiel": { "tr": "Bulaşıkları kim yıkadı?", "de": "Wer hat abgewaschen?" } },
+        { "id": "w08-utu-yapmak", "tr": "ütü yapmak", "de": "bügeln", "typ": "chunk", "beispiel": { "tr": "Pasha ütü yaptı!", "de": "Pasha hat gebügelt!" } },
+        { "id": "w08-pisirmek", "tr": "pişirmek", "de": "kochen / backen", "typ": "wort", "beispiel": { "tr": "Kek pişirdim.", "de": "Ich habe Kuchen gebacken." } },
+        { "id": "w08-hazirlamak", "tr": "hazırlamak", "de": "vorbereiten / zubereiten", "typ": "wort", "beispiel": { "tr": "Inaya'nın mamasını hazırladım.", "de": "Ich habe Inayas Brei vorbereitet." } },
+        { "id": "w08-toplamak", "tr": "toplamak", "de": "aufräumen / einsammeln", "typ": "wort", "beispiel": { "tr": "Oyuncakları topladım.", "de": "Ich habe die Spielsachen aufgeräumt." } },
+        { "id": "w08-supurmek", "tr": "süpürmek", "de": "saugen / fegen", "typ": "wort", "beispiel": { "tr": "Salonu süpürdüm.", "de": "Ich habe das Wohnzimmer gesaugt." } }
+      ],
+      "grammatik": {
+        "titel": "Fıstıkçı Şahap: -dı wird -tı",
+        "erklaerung": [
+          "Nach harten Konsonanten (ç, f, h, k, p, s, ş, t) wird d zu t: yap → yaptım, iç → içtim, git → gittim.",
+          "gitmek ist doppelt besonders: Im Präsens gidiyorum, in der Vergangenheit gittim.",
+          "Bei langen Verben einfach anhängen: temizle → temizledim, hazırla → hazırladım."
+        ],
+        "tabelle": {
+          "kopf": ["Grundform", "ich habe …"],
+          "zeilen": [
+            ["yapmak", "yaptım"],
+            ["içmek", "içtim"],
+            ["gitmek", "gittim"],
+            ["yıkamak", "yıkadım"],
+            ["süpürmek", "süpürdüm"],
+            ["temizlemek", "temizledim"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bulaşıkları yıkadım.", "de": "Ich habe abgewaschen." },
+          { "tr": "Kahve içtin mi?", "de": "Hast du Kaffee getrunken?" },
+          { "tr": "Pasha ütü yaptı!", "de": "Pasha hat gebügelt!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Wer hat was gemacht?",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Vay! Ev çok temiz!", "de": "Wow! Die Wohnung ist so sauber!" },
+          { "sprecher": "Sherin", "tr": "Evet. Salonu süpürdüm, mutfağı temizledim.", "de": "Ja. Ich hab das Wohnzimmer gesaugt und die Küche geputzt." },
+          { "sprecher": "Pasha", "tr": "Çamaşırları da yıkadın mı?", "de": "Hast du auch die Wäsche gewaschen?" },
+          { "sprecher": "Sherin", "tr": "Evet. Ama ütü yapmadım. O senin işin!", "de": "Ja. Aber gebügelt hab ich nicht. Das ist dein Job!" },
+          { "sprecher": "Pasha", "tr": "Tamam, tamam. Bulaşıkları ben yıkıyorum.", "de": "Okay, okay. Ich mache den Abwasch." },
+          { "sprecher": "Sherin", "tr": "Süper! Ben de çay hazırlıyorum.", "de": "Super! Und ich mache Tee." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w08-temizlemek", "w08-yikamak", "w08-pisirmek", "w08-supurmek"] },
+        { "art": "luecke", "satz": "Kahve iç___.", "loesung": "tim", "optionen": ["tim", "dim", "tım"], "de": "Ich habe Kaffee getrunken.", "hinweis": "ç ist hart → t" },
+        { "art": "luecke", "satz": "Mutfağı temizle___.", "loesung": "dim", "optionen": ["dim", "tim", "dım"], "de": "Ich habe die Küche geputzt." },
+        { "art": "hoeren", "vokabel": "w08-camasir" },
+        { "art": "auswahl_de_tr", "vokabel": "w08-bulasik" },
+        { "art": "satzbau", "tr": "Oyuncakları topladım.", "de": "Ich habe die Spielsachen aufgeräumt." },
+        { "art": "auswahl_tr_de", "vokabel": "w08-utu-yapmak" },
+        { "art": "luecke", "satz": "Pasha ütü yap___!", "loesung": "tı", "optionen": ["tı", "dı", "ti"], "de": "Pasha hat gebügelt!" },
+        { "art": "hoeren", "vokabel": "w08-hazirlamak" },
+        { "art": "tippen", "vokabel": "w08-toplamak" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Macht heute Abend eine „Erledigt-Liste“ auf Türkisch: Jeder sagt drei Dinge, die er heute im Haushalt gemacht hat. Wer mehr hat, bekommt den Tee gemacht.",
+        "mustersaetze": [
+          { "tr": "Ben çamaşır yıkadım.", "de": "Ich habe Wäsche gewaschen." },
+          { "tr": "Sen bulaşık yıkadın mı?", "de": "Hast du abgewaschen?" },
+          { "tr": "Oyuncakları topladım.", "de": "Ich habe die Spielsachen aufgeräumt." }
+        ]
+      },
+      "alltagssatz": { "tr": "Bulaşıkları kim yıkadı?", "de": "Wer hat abgewaschen?", "wann": "Heute Abend – mit einem Lächeln Richtung Pasha." },
+      "merktipp": { "titel": "Gleiche Regel, neuer Ort", "text": "Fıstıkçı Şahap kennst du schon von -da/-ta. Jetzt gilt sie auch für -dı/-tı. Eine Regel, viele Einsätze." }
+    },
+    {
+      "woche": 8,
+      "tag": 3,
+      "titel": "Inayas Fortschritte",
+      "kannZiel": "erzählen, was Inaya Neues gemacht hat",
+      "vokabeln": [
+        { "id": "w08-emeklemek", "tr": "emeklemek", "de": "krabbeln", "typ": "wort", "beispiel": { "tr": "Inaya mutfağa kadar emekledi.", "de": "Inaya ist bis in die Küche gekrabbelt." } },
+        { "id": "w08-yurumek", "tr": "yürümek", "de": "laufen / gehen", "typ": "wort", "beispiel": { "tr": "Inaya elimi tutup yürüdü.", "de": "Inaya ist an meiner Hand gelaufen." } },
+        { "id": "w08-dusmek", "tr": "düşmek", "de": "hinfallen", "typ": "wort", "beispiel": { "tr": "Düştü ama ağlamadı.", "de": "Sie ist hingefallen, hat aber nicht geweint." } },
+        { "id": "w08-ilk-defa", "tr": "ilk defa", "de": "zum ersten Mal", "typ": "chunk", "beispiel": { "tr": "İlk defa kar gördü.", "de": "Sie hat zum ersten Mal Schnee gesehen." } },
+        { "id": "w08-adim", "tr": "adım", "de": "Schritt", "typ": "wort", "beispiel": { "tr": "Üç adım attı!", "de": "Sie hat drei Schritte gemacht!" } },
+        { "id": "w08-soylemek", "tr": "söylemek", "de": "sagen", "typ": "wort", "beispiel": { "tr": "Ne söyledi?", "de": "Was hat sie gesagt?" } },
+        { "id": "w08-kelime", "tr": "kelime", "de": "Wort", "typ": "wort", "beispiel": { "tr": "Yeni bir kelime öğrendi.", "de": "Sie hat ein neues Wort gelernt." } },
+        { "id": "w08-dedi", "tr": "… dedi.", "de": "… hat sie/er gesagt.", "typ": "chunk", "beispiel": { "tr": "Inaya „baba“ dedi!", "de": "Inaya hat „Papa“ gesagt!" } },
+        { "id": "w08-buyumek", "tr": "büyümek", "de": "wachsen / groß werden", "typ": "wort", "beispiel": { "tr": "Inaya çok büyüdü!", "de": "Inaya ist so groß geworden!" } }
+      ],
+      "grammatik": {
+        "titel": "Vergangenheit verneint: -madı",
+        "erklaerung": [
+          "Nicht + Vergangenheit: Stamm + -ma/-me + -dı: ağla + ma + dı = ağlamadı (hat nicht geweint).",
+          "Du kennst das schon aus Woche 0: anlamadım (ich habe nicht verstanden).",
+          "demek (sagen) ist besonders: dedi (hat gesagt), dedim (ich habe gesagt)."
+        ],
+        "tabelle": {
+          "kopf": ["ja", "nein"],
+          "zeilen": [
+            ["ağladı", "ağlamadı"],
+            ["uyudu", "uyumadı"],
+            ["yedi", "yemedi"],
+            ["düştü", "düşmedi"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Düştü ama ağlamadı.", "de": "Sie ist hingefallen, hat aber nicht geweint." },
+          { "tr": "Bugün öğlen uyumadı.", "de": "Heute hat sie mittags nicht geschlafen." },
+          { "tr": "Inaya çok büyüdü!", "de": "Inaya ist so groß geworden!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Große Neuigkeiten",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha! Inaya bugün iki adım attı!", "de": "Pasha! Inaya hat heute zwei Schritte gemacht!" },
+          { "sprecher": "Pasha", "tr": "Gerçekten mi? Ben görmedim!", "de": "Echt? Das hab ich nicht gesehen!" },
+          { "sprecher": "Sherin", "tr": "Sonra düştü ama ağlamadı.", "de": "Dann ist sie hingefallen, hat aber nicht geweint." },
+          { "sprecher": "Pasha", "tr": "Aferin kızıma! Çok büyüdü.", "de": "Bravo, meine Tochter! Sie ist so groß geworden." },
+          { "sprecher": "Sherin", "tr": "Ve „Amani“ dedi! Yani … „Ani“ dedi.", "de": "Und sie hat „Amani“ gesagt! Also … „Ani“." },
+          { "sprecher": "Pasha", "tr": "Bu da sayılır!", "de": "Das zählt auch!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w08-emeklemek", "w08-yurumek", "w08-dusmek", "w08-buyumek"] },
+        { "art": "luecke", "satz": "Düştü ama ağla___.", "loesung": "madı", "optionen": ["madı", "dı", "medi"], "de": "Sie ist hingefallen, hat aber nicht geweint." },
+        { "art": "auswahl_de_tr", "vokabel": "w08-ilk-defa" },
+        { "art": "hoeren", "vokabel": "w08-dedi" },
+        { "art": "satzbau", "tr": "Inaya çok büyüdü!", "de": "Inaya ist so groß geworden!" },
+        { "art": "auswahl_tr_de", "vokabel": "w08-kelime" },
+        { "art": "luecke", "satz": "Bugün öğlen uyu___.", "loesung": "madı", "optionen": ["madı", "mudu", "du"], "de": "Heute hat sie mittags nicht geschlafen." },
+        { "art": "hoeren", "vokabel": "w08-adim" },
+        { "art": "tippen", "vokabel": "w08-soylemek" },
+        { "art": "satzbau", "tr": "İlk defa kar gördü.", "de": "Sie hat zum ersten Mal Schnee gesehen." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha auf Türkisch, was Inaya heute gemacht hat – und was nicht (nicht geschlafen, nicht gegessen …). Benutze: -dı und -madı, ilk defa, dedi.",
+        "mustersaetze": [
+          { "tr": "Inaya bugün çok oynadı.", "de": "Inaya hat heute viel gespielt." },
+          { "tr": "Öğlen uyumadı.", "de": "Mittags hat sie nicht geschlafen." },
+          { "tr": "İlk defa … dedi!", "de": "Zum ersten Mal hat sie … gesagt!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Inaya çok büyüdü!", "de": "Inaya ist so groß geworden!", "wann": "Beim nächsten Anruf mit Pashas Mama – sie wird es lieben." },
+      "merktipp": { "titel": "Babysprache auf Türkisch", "text": "Türkische Kleinkinder sagen oft zuerst „anne“, „baba“, „mama“ (Essen!) und „dede“. Hör genau hin, was Inaya schon auf Türkisch kann." }
+    },
+    {
+      "woche": 8,
+      "tag": 4,
+      "titel": "Unterwegs gewesen",
+      "kannZiel": "von einem Treffen oder Ausflug erzählen",
+      "vokabeln": [
+        { "id": "w08-bulusmak", "tr": "buluşmak", "de": "sich treffen", "typ": "wort", "beispiel": { "tr": "Elif'le kafede buluştuk.", "de": "Ich habe mich mit Elif im Café getroffen." } },
+        { "id": "w08-kafe", "tr": "kafe", "de": "Café", "typ": "wort", "beispiel": { "tr": "Yeni bir kafe açıldı.", "de": "Ein neues Café hat aufgemacht." } },
+        { "id": "w08-sohbet-etmek", "tr": "sohbet etmek", "de": "plaudern / sich unterhalten", "typ": "chunk", "beispiel": { "tr": "İki saat sohbet ettik.", "de": "Wir haben zwei Stunden geplaudert." } },
+        { "id": "w08-eglenmek", "tr": "eğlenmek", "de": "Spaß haben", "typ": "wort", "beispiel": { "tr": "Çok eğlendik!", "de": "Wir hatten viel Spaß!" } },
+        { "id": "w08-film", "tr": "film", "de": "Film", "typ": "wort", "beispiel": { "tr": "Dün akşam film izledik.", "de": "Gestern Abend haben wir einen Film geschaut." } },
+        { "id": "w08-izlemek", "tr": "izlemek", "de": "anschauen (Film, Serie)", "typ": "wort", "beispiel": { "tr": "Ne izledin?", "de": "Was hast du geschaut?" } },
+        { "id": "w08-sinema", "tr": "sinema", "de": "Kino", "typ": "wort", "beispiel": { "tr": "En son ne zaman sinemaya gittik?", "de": "Wann waren wir zuletzt im Kino?" } },
+        { "id": "w08-yorulmak", "tr": "yorulmak", "de": "müde werden", "typ": "wort", "beispiel": { "tr": "Çok yoruldum.", "de": "Ich bin richtig müde (geworden)." } },
+        { "id": "w08-guzeldi", "tr": "… güzeldi.", "de": "… war schön.", "typ": "chunk", "beispiel": { "tr": "Kafe çok güzeldi.", "de": "Das Café war sehr schön." } }
+      ],
+      "grammatik": {
+        "titel": "„war“: -dı auch bei Adjektiven",
+        "erklaerung": [
+          "Auch „war“ ist eine Endung: güzel + di = güzeldi (war schön), yorgun + du = yorgundu (war müde).",
+          "Fragen in der Vergangenheit: Endung -dı + mi: Eğlendin mi? = Hattest du Spaß?",
+          "Antwort einfach mit dem Verb: Eğlendim! / Eğlenmedim."
+        ],
+        "tabelle": {
+          "kopf": ["jetzt", "früher"],
+          "zeilen": [
+            ["güzel", "güzeldi"],
+            ["yorgunum", "yorgundum"],
+            ["evdeyim", "evdeydim"],
+            ["Nasıl?", "Nasıldı?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kafe çok güzeldi.", "de": "Das Café war sehr schön." },
+          { "tr": "Eğlendin mi?", "de": "Hattest du Spaß?" },
+          { "tr": "Film nasıldı?", "de": "Wie war der Film?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Mädelsnachmittag",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Elif'le buluştunuz mu?", "de": "Habt ihr euch getroffen, du und Elif?" },
+          { "sprecher": "Sherin", "tr": "Evet, yeni kafede buluştuk.", "de": "Ja, im neuen Café." },
+          { "sprecher": "Pasha", "tr": "Nasıldı?", "de": "Wie war's?" },
+          { "sprecher": "Sherin", "tr": "Çok güzeldi! İki saat sohbet ettik.", "de": "Sehr schön! Wir haben zwei Stunden geplaudert." },
+          { "sprecher": "Pasha", "tr": "Türkçe mi konuştunuz?", "de": "Habt ihr Türkisch gesprochen?" },
+          { "sprecher": "Sherin", "tr": "Biraz! Elif çok yavaş konuştu.", "de": "Ein bisschen! Elif hat ganz langsam gesprochen." },
+          { "sprecher": "Pasha", "tr": "Aferin! Eğlendin mi?", "de": "Bravo! Hattest du Spaß?" },
+          { "sprecher": "Sherin", "tr": "Çok eğlendim. Ama şimdi çok yoruldum.", "de": "Riesenspaß. Aber jetzt bin ich total müde." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w08-bulusmak", "w08-sohbet-etmek", "w08-eglenmek", "w08-izlemek"] },
+        { "art": "luecke", "satz": "Kafe çok güzel___.", "loesung": "di", "optionen": ["di", "dı", "ti"], "de": "Das Café war sehr schön." },
+        { "art": "hoeren", "vokabel": "w08-sinema" },
+        { "art": "auswahl_de_tr", "vokabel": "w08-yorulmak" },
+        { "art": "satzbau", "tr": "Dün akşam film izledik.", "de": "Gestern Abend haben wir einen Film geschaut." },
+        { "art": "luecke", "satz": "Eğlendin ___?", "loesung": "mi", "optionen": ["mi", "mı", "mu"], "de": "Hattest du Spaß?" },
+        { "art": "auswahl_tr_de", "vokabel": "w08-guzeldi" },
+        { "art": "hoeren", "vokabel": "w08-kafe" },
+        { "art": "tippen", "vokabel": "w08-film" },
+        { "art": "satzbau", "tr": "İki saat sohbet ettik.", "de": "Wir haben zwei Stunden geplaudert." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha vom letzten Mal, als du mit jemandem unterwegs warst (Freundin, Mama, Spielgruppe): wo, mit wem, was ihr gemacht habt und wie es war.",
+        "mustersaetze": [
+          { "tr": "Geçen hafta arkadaşımla buluştum.", "de": "Letzte Woche habe ich meine Freundin getroffen." },
+          { "tr": "Kafede sohbet ettik.", "de": "Wir haben im Café geplaudert." },
+          { "tr": "Çok güzeldi!", "de": "Es war sehr schön!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Nasıldı?", "de": "Wie war's?", "wann": "Wenn Pasha heute von irgendwo zurückkommt." },
+      "merktipp": { "titel": "„war“ ohne war", "text": "Deutsch braucht „war“ als eigenes Wort. Türkisch hängt einfach -dı an: güzeldi, yorgundum, evdeydik. Lego, wie immer." }
+    },
+    {
+      "woche": 8,
+      "tag": 5,
+      "titel": "Der ganze Tag",
+      "kannZiel": "einen vergangenen Tag der Reihe nach erzählen",
+      "vokabeln": [
+        { "id": "w08-kahvaltidan-sonra", "tr": "kahvaltıdan sonra", "de": "nach dem Frühstück", "typ": "chunk", "beispiel": { "tr": "Kahvaltıdan sonra parka gittik.", "de": "Nach dem Frühstück sind wir in den Park gegangen." } },
+        { "id": "w08-yemekten-once", "tr": "yemekten önce", "de": "vor dem Essen", "typ": "chunk", "beispiel": { "tr": "Yemekten önce ellerimizi yıkadık.", "de": "Vor dem Essen haben wir die Hände gewaschen." } },
+        { "id": "w08-sonunda", "tr": "sonunda", "de": "endlich / schließlich", "typ": "wort", "beispiel": { "tr": "Sonunda Inaya uyudu!", "de": "Endlich ist Inaya eingeschlafen!" } },
+        { "id": "w08-butun-gun", "tr": "bütün gün", "de": "den ganzen Tag", "typ": "chunk", "beispiel": { "tr": "Bütün gün yağmur yağdı.", "de": "Es hat den ganzen Tag geregnet." } },
+        { "id": "w08-butun-gece", "tr": "bütün gece", "de": "die ganze Nacht", "typ": "chunk", "beispiel": { "tr": "Inaya bütün gece uyudu!", "de": "Inaya hat die ganze Nacht geschlafen!" } },
+        { "id": "w08-her-sey", "tr": "her şey", "de": "alles", "typ": "chunk", "beispiel": { "tr": "Her şey yolunda.", "de": "Alles in Ordnung." } },
+        { "id": "w08-yine", "tr": "yine", "de": "wieder", "typ": "wort", "beispiel": { "tr": "Amani yine kanepede!", "de": "Amani ist schon wieder auf dem Sofa!" } },
+        { "id": "w08-bir-de", "tr": "bir de", "de": "und außerdem / ach ja", "typ": "chunk", "beispiel": { "tr": "Bir de Elif aradı.", "de": "Ach ja, und Elif hat angerufen." } }
+      ],
+      "grammatik": {
+        "titel": "vor & nach: -dan önce / -dan sonra",
+        "erklaerung": [
+          "„nach dem …“: Nomen + -dan/-den + sonra: kahvaltıdan sonra (nach dem Frühstück).",
+          "„vor dem …“: Nomen + -dan/-den + önce: yemekten önce (vor dem Essen).",
+          "Mit önce, sonra, sonunda erzählst du einen ganzen Tag wie eine Geschichte."
+        ],
+        "tabelle": {
+          "kopf": ["", "nach …", "vor …"],
+          "zeilen": [
+            ["kahvaltı", "kahvaltıdan sonra", "kahvaltıdan önce"],
+            ["yemek", "yemekten sonra", "yemekten önce"],
+            ["iş", "işten sonra", "işten önce"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kahvaltıdan sonra parka gittik.", "de": "Nach dem Frühstück sind wir in den Park gegangen." },
+          { "tr": "İşten sonra markete gittim.", "de": "Nach der Arbeit war ich im Supermarkt." },
+          { "tr": "Sonunda Inaya uyudu!", "de": "Endlich ist Inaya eingeschlafen!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Bericht an Pasha",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Günün nasıl geçti?", "de": "Wie war dein Tag?" },
+          { "sprecher": "Sherin", "tr": "Kahvaltıdan sonra parka gittik. Ama yağmur yağdı.", "de": "Nach dem Frühstück waren wir im Park. Aber es hat geregnet." },
+          { "sprecher": "Sherin", "tr": "Eve döndük, Inaya ıslaktı, Amani ıslaktı …", "de": "Wir sind heim, Inaya war nass, Amani war nass …" },
+          { "sprecher": "Pasha", "tr": "Ve sen?", "de": "Und du?" },
+          { "sprecher": "Sherin", "tr": "Ben de! Sonra öğle yemeği yaptım. Sonunda Inaya uyudu.", "de": "Ich auch! Dann hab ich Mittagessen gemacht. Endlich ist Inaya eingeschlafen." },
+          { "sprecher": "Sherin", "tr": "Bir de annen aradı. Her şey yolunda.", "de": "Ach ja, und deine Mama hat angerufen. Alles in Ordnung." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w08-sonunda", "w08-yine", "w08-her-sey", "w08-bir-de"] },
+        { "art": "auswahl_de_tr", "vokabel": "w08-kahvaltidan-sonra" },
+        { "art": "luecke", "satz": "Yemek___ önce ellerimizi yıkadık.", "loesung": "ten", "optionen": ["ten", "den", "te"], "de": "Vor dem Essen haben wir die Hände gewaschen.", "hinweis": "yemek endet auf k (hart)" },
+        { "art": "hoeren", "vokabel": "w08-butun-gece" },
+        { "art": "satzbau", "tr": "Kahvaltıdan sonra parka gittik.", "de": "Nach dem Frühstück sind wir in den Park gegangen." },
+        { "art": "auswahl_tr_de", "vokabel": "w08-butun-gun" },
+        { "art": "luecke", "satz": "İş___ sonra markete gittim.", "loesung": "ten", "optionen": ["ten", "te", "den"], "de": "Nach der Arbeit war ich im Supermarkt." },
+        { "art": "hoeren", "vokabel": "w08-yemekten-once" },
+        { "art": "tippen", "vokabel": "w08-yine" },
+        { "art": "satzbau", "tr": "Sonunda Inaya uyudu!", "de": "Endlich ist Inaya eingeschlafen!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha deinen heutigen Tag in einem Stück – von morgens bis jetzt, mit kahvaltıdan sonra, önce, sonra, sonunda. Mindestens sechs Sätze in der Vergangenheit.",
+        "mustersaetze": [
+          { "tr": "Sabah saat altıda kalktık.", "de": "Morgens sind wir um sechs aufgestanden." },
+          { "tr": "Kahvaltıdan sonra parka gittik.", "de": "Nach dem Frühstück sind wir in den Park gegangen." },
+          { "tr": "Sonunda Inaya uyudu.", "de": "Endlich ist Inaya eingeschlafen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Günün nasıl geçti?", "de": "Wie war dein Tag?", "wann": "Heute Abend zu Pasha – das ist DIE Abendfrage auf Türkisch." },
+      "merktipp": { "titel": "Dein Abendritual", "text": "„Günün nasıl geçti?“ – und dann zwei Minuten auf Türkisch erzählen. Ab heute habt ihr dafür die Vergangenheit. Jeden Abend ein kleines bisschen." }
+    },
+    {
+      "woche": 8,
+      "tag": 6,
+      "titel": "Festigungstag: Was ist passiert?",
+      "kannZiel": "von kleinen Ereignissen erzählen und nachfragen",
+      "vokabeln": [
+        { "id": "w08-ne-oldu", "tr": "Ne oldu?", "de": "Was ist passiert?", "typ": "chunk", "beispiel": { "tr": "Inaya neden ağlıyor? Ne oldu?", "de": "Warum weint Inaya? Was ist passiert?" } },
+        { "id": "w08-unuttum", "tr": "Unuttum.", "de": "Ich habe es vergessen.", "typ": "chunk", "beispiel": { "tr": "Pardon, unuttum!", "de": "Sorry, hab ich vergessen!" } },
+        { "id": "w08-hatirladim", "tr": "Hatırladım!", "de": "Jetzt fällt's mir ein!", "typ": "chunk", "beispiel": { "tr": "Hah, hatırladım!", "de": "Ah, jetzt weiß ich's wieder!" } },
+        { "id": "w08-bitti", "tr": "Bitti!", "de": "Fertig! / Alle!", "typ": "chunk", "beispiel": { "tr": "Süt bitti!", "de": "Die Milch ist alle!" } },
+        { "id": "w08-basardim", "tr": "Başardım!", "de": "Ich hab's geschafft!", "typ": "chunk", "beispiel": { "tr": "Başardım! Bütün dersi bitirdim!", "de": "Geschafft! Ich hab die ganze Lektion fertig!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Vergangenheit: -dı/-tı + -m, -n, –, -k. Verneint: -madı. Frage: -dı mı?",
+          "„war“: güzeldi, evdeydim. Zeitangaben: dün, geçen hafta, az önce."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["ja", "gittim"],
+            ["nein", "gitmedim"],
+            ["Frage", "gittin mi?"],
+            ["war", "güzeldi"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Ne oldu? – Inaya düştü.", "de": "Was ist passiert? – Inaya ist hingefallen." },
+          { "tr": "Sütü unuttum!", "de": "Ich hab die Milch vergessen!" },
+          { "tr": "Dün evdeydik.", "de": "Gestern waren wir zu Hause." }
+        ]
+      },
+      "dialog": {
+        "titel": "Kleine Katastrophen",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Ne oldu? Neden mutfak bu kadar dağınık?", "de": "Was ist passiert? Warum ist die Küche so chaotisch?" },
+          { "sprecher": "Sherin", "tr": "Inaya yoğurdu yere döktü.", "de": "Inaya hat den Joghurt auf den Boden gekippt." },
+          { "sprecher": "Pasha", "tr": "Amani ne yaptı?", "de": "Und was hat Amani gemacht?" },
+          { "sprecher": "Sherin", "tr": "Amani yoğurdu yedi. Ama kanepede de yoğurt var!", "de": "Amani hat den Joghurt gefressen. Aber auf dem Sofa ist auch Joghurt!" },
+          { "sprecher": "Pasha", "tr": "Peki, süt aldın mı?", "de": "Und, hast du Milch gekauft?" },
+          { "sprecher": "Sherin", "tr": "Ay, unuttum! Süt bitti mi?", "de": "Oh, vergessen! Ist die Milch alle?" },
+          { "sprecher": "Pasha", "tr": "Bitti. Ama sorun yok, ben alırım.", "de": "Ja, alle. Aber kein Problem, ich hol welche." },
+          { "sprecher": "Sherin", "tr": "Teşekkürler! Hah, hatırladım: Bir de bez lazım!", "de": "Danke! Ah, jetzt fällt's mir ein: Wir brauchen auch Windeln!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w08-ne-oldu", "w08-unuttum", "w08-hatirladim", "w08-bitti"] },
+        { "art": "hoeren", "vokabel": "w08-basardim" },
+        { "art": "luecke", "satz": "Süt al___ mı?", "loesung": "dın", "optionen": ["dın", "dim", "tın"], "de": "Hast du Milch gekauft?" },
+        { "art": "satzbau", "tr": "Ne oldu? Inaya düştü.", "de": "Was ist passiert? Inaya ist hingefallen." },
+        { "art": "auswahl_de_tr", "vokabel": "w08-ne-oldu" },
+        { "art": "luecke", "satz": "Dün evde___.", "loesung": "ydik", "optionen": ["ydik", "dik", "ydim"], "de": "Gestern waren wir zu Hause." },
+        { "art": "hoeren", "vokabel": "w08-gecen-hafta" },
+        { "art": "auswahl_tr_de", "vokabel": "w08-bitti" },
+        { "art": "tippen", "vokabel": "w08-unuttum" },
+        { "art": "satzbau", "tr": "Sütü unuttum!", "de": "Ich hab die Milch vergessen!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Erzähl Pasha die lustigste oder chaotischste Situation dieser Woche – auf Türkisch, in der Vergangenheit. Er fragt mit „Ne oldu? Sonra?“ nach.",
+        "mustersaetze": [
+          { "tr": "Salı günü Inaya … ", "de": "Am Dienstag hat Inaya …" },
+          { "tr": "Sonra Amani …", "de": "Dann hat Amani …" },
+          { "tr": "Çok komikti!", "de": "Es war so lustig!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Ne oldu?", "de": "Was ist passiert?", "wann": "Beim nächsten Geschrei aus dem Wohnzimmer." },
+      "merktipp": { "titel": "Geschafft!", "text": "Du kannst jetzt über Vergangenheit und Gegenwart sprechen. Sag dir ruhig selbst: Başardım! Die erste große Hürde ist genommen." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Erzähl Pasha, was du gestern gemacht hast – fünf Sätze.", "hilfe": { "tr": "Dün sabah … Sonra … Akşam …", "de": "Gestern Morgen … Dann … Abends …" } },
+      { "situation": "Sag, was Inaya diese Woche Neues gemacht hat.", "hilfe": { "tr": "Bu hafta Inaya ilk defa …", "de": "Diese Woche hat Inaya zum ersten Mal …" } },
+      { "situation": "Frag Pasha, wie sein Tag war, und frag zweimal nach.", "hilfe": { "tr": "Günün nasıl geçti? Ne yaptın? Sonra?", "de": "Wie war dein Tag? Was hast du gemacht? Und dann?" } }
+    ]
+  }
+}
