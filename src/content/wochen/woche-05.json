@@ -1,0 +1,448 @@
+{
+  "woche": 5,
+  "lektionen": [
+    {
+      "woche": 5,
+      "tag": 1,
+      "titel": "Nicht: -mıyor",
+      "kannZiel": "sagen, was du nicht tust, verstehst oder weißt",
+      "vokabeln": [
+        { "id": "w05-anlamak", "tr": "anlamak", "de": "verstehen", "typ": "wort", "beispiel": { "tr": "Anlamıyorum.", "de": "Ich verstehe das nicht." } },
+        { "id": "w05-bilmek", "tr": "bilmek", "de": "wissen / kennen", "typ": "wort", "beispiel": { "tr": "Bilmiyorum.", "de": "Ich weiß es nicht." } },
+        { "id": "w05-sevmek", "tr": "sevmek", "de": "mögen / lieben", "typ": "wort", "beispiel": { "tr": "Inaya ıspanağı sevmiyor.", "de": "Inaya mag keinen Spinat." } },
+        { "id": "w05-istemek", "tr": "istemek", "de": "wollen / möchten", "typ": "wort", "beispiel": { "tr": "Çay istiyor musun?", "de": "Möchtest du Tee?" } },
+        { "id": "w05-beklemek", "tr": "beklemek", "de": "warten / erwarten", "typ": "wort", "beispiel": { "tr": "Seni bekliyorum.", "de": "Ich warte auf dich." } },
+        { "id": "w05-dinlemek", "tr": "dinlemek", "de": "zuhören / hören (Musik)", "typ": "wort", "beispiel": { "tr": "Inaya müzik dinliyor.", "de": "Inaya hört Musik." } },
+        { "id": "w05-bakmak", "tr": "bakmak", "de": "schauen", "typ": "wort", "beispiel": { "tr": "Bana bak!", "de": "Schau mich an!" } },
+        { "id": "w05-hic", "tr": "hiç", "de": "gar nicht / überhaupt nicht", "typ": "wort", "beispiel": { "tr": "Hiç anlamıyorum!", "de": "Ich verstehe gar nichts!" } },
+        { "id": "w05-artik", "tr": "artık", "de": "nicht mehr / jetzt (endlich)", "typ": "wort", "beispiel": { "tr": "Inaya artık emzik istemiyor.", "de": "Inaya will keinen Schnuller mehr." } }
+      ],
+      "grammatik": {
+        "titel": "Verneinung: -mı- vor -yor",
+        "erklaerung": [
+          "„Nicht“ ist beim Verb ein Lego-Stein: -mı/-mi/-mu/-mü direkt vor -yor.",
+          "anla + mı + yor + um = anlamıyorum (ich verstehe nicht).",
+          "Den Stein kennst du schon aus Woche 0: anlamadım (nicht verstanden).",
+          "hiç verstärkt: Hiç bilmiyorum. = Ich habe keine Ahnung."
+        ],
+        "tabelle": {
+          "kopf": ["Grundform", "ich … nicht"],
+          "zeilen": [
+            ["anlamak", "anlamıyorum"],
+            ["bilmek", "bilmiyorum"],
+            ["uyumak", "uyumuyorum"],
+            ["görmek", "görmüyorum"],
+            ["istemek", "istemiyorum"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bilmiyorum.", "de": "Ich weiß es nicht." },
+          { "tr": "Inaya uyumuyor.", "de": "Inaya schläft nicht." },
+          { "tr": "Hiç anlamıyorum!", "de": "Ich verstehe gar nichts!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Telefonat mit Schwiegermama",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, annen ne diyor? Hiç anlamıyorum!", "de": "Pasha, was sagt deine Mutter? Ich verstehe gar nichts!" },
+          { "sprecher": "Pasha", "tr": "Bizi pazar günü bekliyor.", "de": "Sie erwartet uns am Sonntag." },
+          { "sprecher": "Sherin", "tr": "Bu pazar mı? Bilmiyorum … Inaya hasta.", "de": "Diesen Sonntag? Ich weiß nicht … Inaya ist krank." },
+          { "sprecher": "Pasha", "tr": "Tamam, sorun yok. Annem anlıyor.", "de": "Okay, kein Problem. Mama versteht das." },
+          { "sprecher": "Sherin", "tr": "Annen kızmıyor mu?", "de": "Ist deine Mutter nicht sauer?" },
+          { "sprecher": "Pasha", "tr": "Hayır, kızmıyor. Geçmiş olsun diyor.", "de": "Nein. Sie sagt „Gute Besserung“." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w05-anlamak", "w05-bilmek", "w05-sevmek", "w05-istemek"] },
+        { "art": "luecke", "satz": "Anla___rum.", "loesung": "mıyo", "optionen": ["mıyo", "miyo", "ıyo"], "de": "Ich verstehe das nicht." },
+        { "art": "luecke", "satz": "Bil___rum.", "loesung": "miyo", "optionen": ["miyo", "mıyo", "iyo"], "de": "Ich weiß es nicht." },
+        { "art": "hoeren", "vokabel": "w05-beklemek" },
+        { "art": "auswahl_tr_de", "vokabel": "w05-artik" },
+        { "art": "satzbau", "tr": "Hiç anlamıyorum!", "de": "Ich verstehe gar nichts!" },
+        { "art": "auswahl_de_tr", "vokabel": "w05-bakmak" },
+        { "art": "luecke", "satz": "Inaya uyu___r.", "loesung": "muyo", "optionen": ["muyo", "mıyo", "miyo"], "de": "Inaya schläft nicht." },
+        { "art": "tippen", "vokabel": "w05-hic" },
+        { "art": "hoeren", "vokabel": "w05-dinlemek" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Spielt „Stimmt nicht!“: Pasha behauptet Dinge über dich („Kahve seviyorsun.“). Du antwortest mit Evet oder verneinst mit -mıyor. Danach tauscht ihr.",
+        "mustersaetze": [
+          { "tr": "Hayır, kahve sevmiyorum.", "de": "Nein, ich mag keinen Kaffee." },
+          { "tr": "Bilmiyorum.", "de": "Ich weiß es nicht." },
+          { "tr": "Anlamıyorum, tekrar eder misin?", "de": "Ich verstehe nicht, kannst du das wiederholen?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Bilmiyorum.", "de": "Ich weiß es nicht.", "wann": "Wenn Pasha heute fragt, wo etwas ist – ehrlich auf Türkisch." },
+      "merktipp": { "titel": "Ein Stein für „nicht“", "text": "-ma-/-me- steckt in allem, was „nicht“ ist: anla-ma-dım, anla-mı-yorum, bil-mi-yorum. Wenn du „ma/mi“ im Verb hörst, hör genau hin: Da sagt jemand Nein." }
+    },
+    {
+      "woche": 5,
+      "tag": 2,
+      "titel": "Fragen: -yor mu?",
+      "kannZiel": "nachfragen, was jemand gerade tut",
+      "vokabeln": [
+        { "id": "w05-aramak", "tr": "aramak", "de": "anrufen / suchen", "typ": "wort", "beispiel": { "tr": "Annem arıyor!", "de": "Meine Mama ruft an!" } },
+        { "id": "w05-mesaj", "tr": "mesaj", "de": "Nachricht", "typ": "wort", "beispiel": { "tr": "Pasha'dan mesaj var.", "de": "Es gibt eine Nachricht von Pasha." } },
+        { "id": "w05-cevap-vermek", "tr": "cevap vermek", "de": "antworten", "typ": "chunk", "beispiel": { "tr": "Neden cevap vermiyorsun?", "de": "Warum antwortest du nicht?" } },
+        { "id": "w05-duymak", "tr": "duymak", "de": "hören (wahrnehmen)", "typ": "wort", "beispiel": { "tr": "Beni duyuyor musun?", "de": "Hörst du mich?" } },
+        { "id": "w05-gormek", "tr": "görmek", "de": "sehen", "typ": "wort", "beispiel": { "tr": "Amani'yi görüyor musun?", "de": "Siehst du Amani?" } },
+        { "id": "w05-aglamak", "tr": "ağlamak", "de": "weinen", "typ": "wort", "beispiel": { "tr": "Inaya ağlıyor mu?", "de": "Weint Inaya?" } },
+        { "id": "w05-gulmek", "tr": "gülmek", "de": "lachen", "typ": "wort", "beispiel": { "tr": "Inaya gülüyor!", "de": "Inaya lacht!" } },
+        { "id": "w05-hala", "tr": "hâlâ", "de": "immer noch", "typ": "wort", "beispiel": { "tr": "Hâlâ uyuyor mu?", "de": "Schläft sie immer noch?" } },
+        { "id": "w05-henuz", "tr": "henüz", "de": "noch nicht / gerade erst", "typ": "wort", "beispiel": { "tr": "Henüz bilmiyorum.", "de": "Ich weiß es noch nicht." } }
+      ],
+      "grammatik": {
+        "titel": "Frage: -yor + mu + Person",
+        "erklaerung": [
+          "Fragen mit -yor: Das Verb bleibt, dahinter kommt mu (immer mu, weil -yor ein o hat).",
+          "Die Person hängt an mu: Geliyor musun? = Kommst du?",
+          "Für er/sie nur mu: Inaya uyuyor mu? = Schläft Inaya?"
+        ],
+        "tabelle": {
+          "kopf": ["", "Frage"],
+          "zeilen": [
+            ["ich", "anlıyor muyum?"],
+            ["du", "anlıyor musun?"],
+            ["er/sie", "anlıyor mu?"],
+            ["wir", "anlıyor muyuz?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Beni duyuyor musun?", "de": "Hörst du mich?" },
+          { "tr": "Inaya hâlâ uyuyor mu?", "de": "Schläft Inaya immer noch?" },
+          { "tr": "Anlıyor musun?", "de": "Verstehst du?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Anruf aus dem Büro",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Alo? Pasha, beni duyuyor musun?", "de": "Hallo? Pasha, hörst du mich?" },
+          { "sprecher": "Pasha", "tr": "Evet, duyuyorum. Inaya ağlıyor mu?", "de": "Ja, ich höre dich. Weint Inaya?" },
+          { "sprecher": "Sherin", "tr": "Evet, ağlıyor. Galiba diş çıkarıyor.", "de": "Ja. Ich glaube, sie zahnt." },
+          { "sprecher": "Pasha", "tr": "Eve geliyorum. Bir şey istiyor musun?", "de": "Ich komme nach Hause. Brauchst du etwas?" },
+          { "sprecher": "Sherin", "tr": "Evet! Çikolata!", "de": "Ja! Schokolade!" },
+          { "sprecher": "Pasha", "tr": "Tamam. Inaya hâlâ ağlıyor mu?", "de": "Okay. Weint Inaya immer noch?" },
+          { "sprecher": "Sherin", "tr": "Hayır, artık gülüyor!", "de": "Nein, jetzt lacht sie!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w05-aglamak", "w05-gulmek", "w05-duymak", "w05-gormek"] },
+        { "art": "luecke", "satz": "Beni duyuyor ___?", "loesung": "musun", "optionen": ["musun", "misin", "mısın"], "de": "Hörst du mich?", "hinweis": "Nach -yor immer mu" },
+        { "art": "auswahl_de_tr", "vokabel": "w05-hala" },
+        { "art": "hoeren", "vokabel": "w05-aramak" },
+        { "art": "satzbau", "tr": "Inaya hâlâ uyuyor mu?", "de": "Schläft Inaya immer noch?" },
+        { "art": "auswahl_tr_de", "vokabel": "w05-henuz" },
+        { "art": "luecke", "satz": "Neden cevap ver___sun?", "loesung": "miyor", "optionen": ["miyor", "iyor", "mıyor"], "de": "Warum antwortest du nicht?" },
+        { "art": "hoeren", "vokabel": "w05-mesaj" },
+        { "art": "tippen", "vokabel": "w05-gormek" },
+        { "art": "auswahl_de_tr", "vokabel": "w05-cevap-vermek" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Ruft euch gegenseitig an (oder sprecht durch die Tür): Stellt euch abwechselnd fünf Fragen mit „… mu?“ – was macht Inaya, was macht Amani, was machst du?",
+        "mustersaetze": [
+          { "tr": "Inaya uyuyor mu?", "de": "Schläft Inaya?" },
+          { "tr": "Beni duyuyor musun?", "de": "Hörst du mich?" },
+          { "tr": "Amani'yi görüyor musun?", "de": "Siehst du Amani?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Beni duyuyor musun?", "de": "Hörst du mich?", "wann": "Wenn Pasha heute wieder mit Kopfhörern im Ohr dasitzt." },
+      "merktipp": { "titel": "Immer „mu“ nach -yor", "text": "Bei -yor-Fragen musst du nicht über Vokalharmonie nachdenken: Nach -yor kommt immer mu. Geliyor mu, biliyor mu, anlıyor mu." }
+    },
+    {
+      "woche": 5,
+      "tag": 3,
+      "titel": "Wohin? Dativ -a / -e",
+      "kannZiel": "sagen, wohin du gehst",
+      "vokabeln": [
+        { "id": "w05-market", "tr": "market", "de": "Supermarkt", "typ": "wort", "beispiel": { "tr": "Markete gidiyor musun?", "de": "Gehst du zum Supermarkt?" } },
+        { "id": "w05-eczane", "tr": "eczane", "de": "Apotheke", "typ": "wort", "beispiel": { "tr": "Eczaneye gidiyorum.", "de": "Ich gehe zur Apotheke." } },
+        { "id": "w05-doktor", "tr": "doktor", "de": "Arzt / Ärztin", "typ": "wort", "beispiel": { "tr": "Yarın doktora gidiyoruz.", "de": "Morgen gehen wir zum Arzt." } },
+        { "id": "w05-is", "tr": "iş", "de": "Arbeit", "typ": "wort", "beispiel": { "tr": "Pasha işe gidiyor.", "de": "Pasha geht zur Arbeit." } },
+        { "id": "w05-sehir-merkezi", "tr": "şehir merkezi", "de": "Innenstadt", "typ": "chunk", "beispiel": { "tr": "Cumartesi şehir merkezine gidiyoruz.", "de": "Am Samstag fahren wir in die Innenstadt." } },
+        { "id": "w05-kres", "tr": "kreş", "de": "Kita / Krippe", "typ": "wort", "beispiel": { "tr": "Kreş saat sekizde açılıyor.", "de": "Die Kita macht um acht auf." } },
+        { "id": "w05-nereye", "tr": "nereye?", "de": "wohin?", "typ": "wort", "beispiel": { "tr": "Nereye gidiyorsun?", "de": "Wohin gehst du?" } },
+        { "id": "w05-oraya", "tr": "oraya", "de": "dorthin", "typ": "wort", "beispiel": { "tr": "Ben de oraya gidiyorum!", "de": "Da gehe ich auch hin!" } },
+        { "id": "w05-buraya", "tr": "buraya", "de": "hierher", "typ": "wort", "beispiel": { "tr": "Buraya gel, Amani!", "de": "Komm her, Amani!" } }
+      ],
+      "grammatik": {
+        "titel": "Dativ = wohin?",
+        "erklaerung": [
+          "Dativ heißt hier einfach: wohin? Die Endung ist -a oder -e (2-fach).",
+          "ev → eve (nach Hause), park → parka, iş → işe.",
+          "Nach Vokal kommt ein y dazwischen: eczane → eczaneye, Inaya → Inaya'ya.",
+          "Fürwörter: buraya (hierher), oraya (dorthin), nereye? (wohin?)"
+        ],
+        "tabelle": {
+          "kopf": ["Ort", "wohin?"],
+          "zeilen": [
+            ["ev", "eve"],
+            ["iş", "işe"],
+            ["park", "parka"],
+            ["doktor", "doktora"],
+            ["eczane", "eczaneye"],
+            ["Garbsen", "Garbsen'e"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Nereye gidiyorsun?", "de": "Wohin gehst du?" },
+          { "tr": "Eczaneye gidiyorum.", "de": "Ich gehe zur Apotheke." },
+          { "tr": "Pasha işe gidiyor.", "de": "Pasha geht zur Arbeit." }
+        ]
+      },
+      "dialog": {
+        "titel": "Wer geht wohin?",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Nereye gidiyorsun?", "de": "Wohin gehst du?" },
+          { "sprecher": "Sherin", "tr": "Eczaneye. Inaya için ilaç alıyorum.", "de": "Zur Apotheke. Ich hole Medizin für Inaya." },
+          { "sprecher": "Pasha", "tr": "Sonra markete gidiyor musun?", "de": "Gehst du danach zum Supermarkt?" },
+          { "sprecher": "Sherin", "tr": "Evet. Sen de gel!", "de": "Ja. Komm doch mit!" },
+          { "sprecher": "Pasha", "tr": "Hayır, ben işe gidiyorum.", "de": "Nein, ich gehe zur Arbeit." },
+          { "sprecher": "Sherin", "tr": "Tamam. Akşam görüşürüz!", "de": "Okay. Bis heute Abend!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w05-market", "w05-eczane", "w05-doktor", "w05-kres"] },
+        { "art": "luecke", "satz": "Eczane___ gidiyorum.", "loesung": "ye", "optionen": ["ye", "e", "ya"], "de": "Ich gehe zur Apotheke.", "hinweis": "eczane endet auf Vokal" },
+        { "art": "luecke", "satz": "Pasha iş___ gidiyor.", "loesung": "e", "optionen": ["e", "a", "te"], "de": "Pasha geht zur Arbeit." },
+        { "art": "auswahl_de_tr", "vokabel": "w05-nereye" },
+        { "art": "hoeren", "vokabel": "w05-sehir-merkezi" },
+        { "art": "luecke", "satz": "Yarın doktor___ gidiyoruz.", "loesung": "a", "optionen": ["a", "e", "ya"], "de": "Morgen gehen wir zum Arzt." },
+        { "art": "satzbau", "tr": "Ben de oraya gidiyorum!", "de": "Da gehe ich auch hin!" },
+        { "art": "auswahl_tr_de", "vokabel": "w05-buraya" },
+        { "art": "tippen", "vokabel": "w05-is" },
+        { "art": "hoeren", "vokabel": "w05-market" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzählt euch eure Wege für morgen: Wer geht wohin? Pasha fragt immer „Nereye?“ – du antwortest mit -a/-e.",
+        "mustersaetze": [
+          { "tr": "Yarın markete gidiyorum.", "de": "Morgen gehe ich zum Supermarkt." },
+          { "tr": "Sonra Inaya ile parka gidiyoruz.", "de": "Danach gehen Inaya und ich auf den Spielplatz." },
+          { "tr": "Sen nereye gidiyorsun?", "de": "Wohin gehst du?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Nereye gidiyorsun?", "de": "Wohin gehst du?", "wann": "Wenn Pasha heute die Jacke anzieht." },
+      "merktipp": { "titel": "Wohin = -a/-e", "text": "Wo? → -da/-de. Wohin? → -a/-e. Merk dir das Paar: evde (zu Hause) – eve (nach Hause)." }
+    },
+    {
+      "woche": 5,
+      "tag": 4,
+      "titel": "Woher? Ablativ -dan / -den",
+      "kannZiel": "sagen, woher du kommst und wie weit etwas ist",
+      "vokabeln": [
+        { "id": "w05-nereden", "tr": "nereden?", "de": "woher?", "typ": "wort", "beispiel": { "tr": "Nereden geliyorsun?", "de": "Woher kommst du gerade?" } },
+        { "id": "w05-oradan", "tr": "oradan", "de": "von dort", "typ": "wort", "beispiel": { "tr": "Oradan otobüs var mı?", "de": "Fährt von dort ein Bus?" } },
+        { "id": "w05-buradan", "tr": "buradan", "de": "von hier", "typ": "wort", "beispiel": { "tr": "Buradan Hannover'e otobüs var.", "de": "Von hier fährt ein Bus nach Hannover." } },
+        { "id": "w05-okul", "tr": "okul", "de": "Schule", "typ": "wort", "beispiel": { "tr": "Çocuklar okuldan geliyor.", "de": "Die Kinder kommen aus der Schule." } },
+        { "id": "w05-donmek", "tr": "dönmek", "de": "zurückkommen", "typ": "wort", "beispiel": { "tr": "Pasha saat altıda işten dönüyor.", "de": "Pasha kommt um sechs von der Arbeit zurück." } },
+        { "id": "w05-cikmak", "tr": "çıkmak", "de": "rausgehen / verlassen", "typ": "wort", "beispiel": { "tr": "Evden çıkıyorum.", "de": "Ich gehe aus dem Haus." } },
+        { "id": "w05-uzak", "tr": "uzak", "de": "weit (weg)", "typ": "wort", "beispiel": { "tr": "Hannover uzak değil.", "de": "Hannover ist nicht weit." } },
+        { "id": "w05-yakin", "tr": "yakın", "de": "nah", "typ": "wort", "beispiel": { "tr": "Market çok yakın.", "de": "Der Supermarkt ist ganz nah." } }
+      ],
+      "grammatik": {
+        "titel": "Ablativ = woher? / von",
+        "erklaerung": [
+          "Ablativ heißt: woher? / von … weg. Die Endung ist -dan oder -den.",
+          "Fıstıkçı Şahap gilt wieder: nach harten Konsonanten -tan/-ten: işten, parktan.",
+          "Bei Namen mit Apostroph: Garbsen'den, Hannover'den.",
+          "Jetzt hast du alle drei Orts-Endungen: evde (wo), eve (wohin), evden (woher)."
+        ],
+        "tabelle": {
+          "kopf": ["wo?", "wohin?", "woher?"],
+          "zeilen": [
+            ["evde", "eve", "evden"],
+            ["işte", "işe", "işten"],
+            ["okulda", "okula", "okuldan"],
+            ["Garbsen'de", "Garbsen'e", "Garbsen'den"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "İşten geliyorum.", "de": "Ich komme von der Arbeit." },
+          { "tr": "Evden çıkıyorum.", "de": "Ich gehe aus dem Haus." },
+          { "tr": "Market buradan uzak mı?", "de": "Ist der Supermarkt weit von hier?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Wo warst du so lange?",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Nereden geliyorsun? Saat yedi!", "de": "Wo kommst du her? Es ist sieben!" },
+          { "sprecher": "Pasha", "tr": "İşten geliyorum. Sonra marketten.", "de": "Von der Arbeit. Und dann vom Supermarkt." },
+          { "sprecher": "Sherin", "tr": "Marketten mi? Çikolata var mı?", "de": "Vom Supermarkt? Gibt's Schokolade?" },
+          { "sprecher": "Pasha", "tr": "Var! Ve Amani'nin maması.", "de": "Ja! Und Amanis Futter." },
+          { "sprecher": "Sherin", "tr": "Süper. Market buradan uzak mı?", "de": "Super. Ist der Supermarkt weit von hier?" },
+          { "sprecher": "Pasha", "tr": "Hayır, çok yakın. Beş dakika.", "de": "Nein, ganz nah. Fünf Minuten." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w05-uzak", "w05-yakin", "w05-donmek", "w05-cikmak"] },
+        { "art": "luecke", "satz": "İş___ geliyorum.", "loesung": "ten", "optionen": ["ten", "den", "tan"], "de": "Ich komme von der Arbeit.", "hinweis": "iş endet auf ş (hart)" },
+        { "art": "luecke", "satz": "Çocuklar okul___ geliyor.", "loesung": "dan", "optionen": ["dan", "den", "tan"], "de": "Die Kinder kommen aus der Schule." },
+        { "art": "auswahl_de_tr", "vokabel": "w05-nereden" },
+        { "art": "hoeren", "vokabel": "w05-buradan" },
+        { "art": "satzbau", "tr": "Evden çıkıyorum.", "de": "Ich gehe aus dem Haus." },
+        { "art": "luecke", "satz": "Pasha saat altıda iş___ dönüyor.", "loesung": "ten", "optionen": ["ten", "te", "e"], "de": "Pasha kommt um sechs von der Arbeit zurück." },
+        { "art": "auswahl_tr_de", "vokabel": "w05-oradan" },
+        { "art": "tippen", "vokabel": "w05-okul" },
+        { "art": "satzbau", "tr": "Market buradan uzak mı?", "de": "Ist der Supermarkt weit von hier?" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Wenn Pasha heute nach Hause kommt, fragst du: „Nereden geliyorsun?“ Er antwortet mit -dan/-den. Danach erzählst du, wo du heute überall warst und woher du kamst.",
+        "mustersaetze": [
+          { "tr": "Nereden geliyorsun?", "de": "Wo kommst du her?" },
+          { "tr": "Parktan geliyoruz.", "de": "Wir kommen vom Spielplatz." },
+          { "tr": "Eczane buradan çok yakın.", "de": "Die Apotheke ist ganz nah von hier." }
+        ]
+      },
+      "alltagssatz": { "tr": "Nereden geliyorsun?", "de": "Wo kommst du her?", "wann": "Wenn Pasha heute zur Tür reinkommt." },
+      "merktipp": { "titel": "Das Orts-Trio", "text": "evde – eve – evden: wo, wohin, woher. Drei Lego-Steine, ein Wort. Sag das Trio dreimal laut, dann sitzt es." }
+    },
+    {
+      "woche": 5,
+      "tag": 5,
+      "titel": "Unterwegs",
+      "kannZiel": "sagen, wo du bist und wann du kommst",
+      "vokabeln": [
+        { "id": "w05-yolda", "tr": "yolda", "de": "unterwegs", "typ": "wort", "beispiel": { "tr": "Yoldayım!", "de": "Ich bin unterwegs!" } },
+        { "id": "w05-birazdan", "tr": "birazdan", "de": "gleich", "typ": "wort", "beispiel": { "tr": "Birazdan geliyorum.", "de": "Ich komme gleich." } },
+        { "id": "w05-hemen", "tr": "hemen", "de": "sofort", "typ": "wort", "beispiel": { "tr": "Hemen geliyorum!", "de": "Ich komme sofort!" } },
+        { "id": "w05-otobus", "tr": "otobüs", "de": "Bus", "typ": "wort", "beispiel": { "tr": "Otobüs geliyor!", "de": "Der Bus kommt!" } },
+        { "id": "w05-araba", "tr": "araba", "de": "Auto", "typ": "wort", "beispiel": { "tr": "Araba nerede?", "de": "Wo steht das Auto?" } },
+        { "id": "w05-yuruyerek", "tr": "yürüyerek", "de": "zu Fuß", "typ": "wort", "beispiel": { "tr": "Parka yürüyerek gidiyoruz.", "de": "Wir gehen zu Fuß zum Spielplatz." } },
+        { "id": "w05-hannovere-gidiyorum", "tr": "Hannover'e gidiyorum.", "de": "Ich fahre nach Hannover.", "typ": "chunk", "beispiel": { "tr": "Yarın Hannover'e gidiyorum.", "de": "Morgen fahre ich nach Hannover." } },
+        { "id": "w05-ne-zaman", "tr": "ne zaman?", "de": "wann?", "typ": "chunk", "beispiel": { "tr": "Ne zaman geliyorsun?", "de": "Wann kommst du?" } }
+      ],
+      "grammatik": {
+        "titel": "gelmek & gitmek",
+        "erklaerung": [
+          "gelmek = kommen (zu dem, der spricht). gitmek = gehen/fahren (weg vom Sprecher).",
+          "Beide brauchen oft -a/-e (wohin) oder -dan/-den (woher).",
+          "„unterwegs sein“: yolda + Personen-Endung: Yoldayım. = Ich bin unterwegs."
+        ],
+        "tabelle": {
+          "kopf": ["Frage", "Antwort"],
+          "zeilen": [
+            ["Nereye gidiyorsun?", "Eve gidiyorum."],
+            ["Nereden geliyorsun?", "İşten geliyorum."],
+            ["Ne zaman geliyorsun?", "Birazdan geliyorum."],
+            ["Neredesin?", "Yoldayım."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Ne zaman geliyorsun?", "de": "Wann kommst du?" },
+          { "tr": "Yarın Hannover'e gidiyorum.", "de": "Morgen fahre ich nach Hannover." },
+          { "tr": "Birazdan geliyorum.", "de": "Ich komme gleich." }
+        ]
+      },
+      "dialog": {
+        "titel": "Im Bus nach Hause",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Alo, neredesin?", "de": "Hallo, wo bist du?" },
+          { "sprecher": "Sherin", "tr": "Yoldayım. Otobüsteyim.", "de": "Unterwegs. Ich sitze im Bus." },
+          { "sprecher": "Pasha", "tr": "Ne zaman geliyorsun?", "de": "Wann bist du da?" },
+          { "sprecher": "Sherin", "tr": "Birazdan. On dakika.", "de": "Gleich. Zehn Minuten." },
+          { "sprecher": "Pasha", "tr": "Inaya seni bekliyor.", "de": "Inaya wartet auf dich." },
+          { "sprecher": "Sherin", "tr": "Ben de onu çok özledim!", "de": "Ich hab sie so vermisst!" },
+          { "sprecher": "Pasha", "tr": "Tamam, durağa geliyoruz!", "de": "Okay, wir kommen zur Haltestelle!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w05-yolda", "w05-birazdan", "w05-hemen", "w05-ne-zaman"] },
+        { "art": "hoeren", "vokabel": "w05-otobus" },
+        { "art": "auswahl_de_tr", "vokabel": "w05-yuruyerek" },
+        { "art": "luecke", "satz": "Yolda___!", "loesung": "yım", "optionen": ["yım", "ım", "yim"], "de": "Ich bin unterwegs!" },
+        { "art": "satzbau", "tr": "Ne zaman geliyorsun?", "de": "Wann kommst du?" },
+        { "art": "auswahl_tr_de", "vokabel": "w05-hannovere-gidiyorum" },
+        { "art": "luecke", "satz": "Yarın Hannover'___ gidiyorum.", "loesung": "e", "optionen": ["e", "a", "de"], "de": "Morgen fahre ich nach Hannover.", "hinweis": "Hannover – letzter Vokal e" },
+        { "art": "tippen", "vokabel": "w05-araba" },
+        { "art": "satzbau", "tr": "Birazdan geliyorum.", "de": "Ich komme gleich." },
+        { "art": "hoeren", "vokabel": "w05-hemen" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Schick Pasha heute eine Sprachnachricht auf Türkisch, wenn du unterwegs bist: wo du bist, wohin du gehst, wann du kommst. Er antwortet auch per Sprachnachricht.",
+        "mustersaetze": [
+          { "tr": "Yoldayım. Markete gidiyorum.", "de": "Ich bin unterwegs. Ich gehe zum Supermarkt." },
+          { "tr": "Birazdan eve geliyorum.", "de": "Ich komme gleich nach Hause." },
+          { "tr": "Bir şey istiyor musun?", "de": "Brauchst du etwas?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Yoldayım!", "de": "Ich bin unterwegs!", "wann": "Per Sprachnachricht an Pasha – das nächste Mal, wenn du rausgehst." },
+      "merktipp": { "titel": "otobüs, şoför, asansör", "text": "Viele Verkehrs-Wörter klingen französisch und damit vertraut: otobüs (Bus), şoför (Fahrer), asansör (Aufzug). Einfach „türkisch“ aussprechen." }
+    },
+    {
+      "woche": 5,
+      "tag": 6,
+      "titel": "Festigungstag: Ausflug in die Stadt",
+      "kannZiel": "einen kleinen Ausflug organisieren",
+      "vokabeln": [
+        { "id": "w05-bekle", "tr": "Bekle!", "de": "Warte!", "typ": "chunk", "beispiel": { "tr": "Bekle, geliyorum!", "de": "Warte, ich komme!" } },
+        { "id": "w05-acele-et", "tr": "Acele et!", "de": "Beeil dich!", "typ": "chunk", "beispiel": { "tr": "Acele et, otobüs geliyor!", "de": "Beeil dich, der Bus kommt!" } },
+        { "id": "w05-geliyor-musun", "tr": "Geliyor musun?", "de": "Kommst du (mit)?", "typ": "chunk", "beispiel": { "tr": "Parka gidiyoruz. Geliyor musun?", "de": "Wir gehen zum Spielplatz. Kommst du mit?" } },
+        { "id": "w05-gorusmek-uzere", "tr": "Görüşmek üzere!", "de": "Bis bald!", "typ": "chunk", "beispiel": { "tr": "Görüşmek üzere, Elif!", "de": "Bis bald, Elif!" } },
+        { "id": "w05-kapiyi-kapat", "tr": "Kapıyı kapat!", "de": "Mach die Tür zu!", "typ": "chunk", "beispiel": { "tr": "Kapıyı kapat, Amani çıkıyor!", "de": "Mach die Tür zu, Amani haut ab!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Verneinung -mı-yor, Frage -yor mu, wohin -a/-e, woher -dan/-den.",
+          "Mit diesen vier Steinen kannst du über alle Wege des Tages sprechen."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["nicht", "gelmiyorum"],
+            ["Frage", "geliyor musun?"],
+            ["wohin", "parka gidiyoruz"],
+            ["woher", "işten geliyor"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Parka gidiyoruz. Geliyor musun?", "de": "Wir gehen zum Spielplatz. Kommst du mit?" },
+          { "tr": "Hayır, gelmiyorum. Yorgunum.", "de": "Nein, ich komme nicht mit. Ich bin müde." },
+          { "tr": "Pasha işten geliyor.", "de": "Pasha kommt von der Arbeit." }
+        ]
+      },
+      "dialog": {
+        "titel": "Los geht's!",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, acele et! Otobüs geliyor!", "de": "Pasha, beeil dich! Der Bus kommt!" },
+          { "sprecher": "Pasha", "tr": "Bekle! Inaya'nın çantası nerede?", "de": "Warte! Wo ist Inayas Tasche?" },
+          { "sprecher": "Sherin", "tr": "Kapının yanında. Amani, sen evde kalıyorsun.", "de": "Neben der Tür. Amani, du bleibst zu Hause." },
+          { "sprecher": "Pasha", "tr": "Kapıyı kapat! Amani çıkıyor!", "de": "Mach die Tür zu! Amani haut ab!" },
+          { "sprecher": "Sherin", "tr": "Tamam, kapattım!", "de": "Okay, ist zu!" },
+          { "sprecher": "Pasha", "tr": "Nereye gidiyoruz? Şehir merkezine mi?", "de": "Wohin fahren wir? In die Innenstadt?" },
+          { "sprecher": "Sherin", "tr": "Evet, önce Hannover'e, sonra parka.", "de": "Ja, erst nach Hannover, dann in den Park." },
+          { "sprecher": "Pasha", "tr": "Süper. Hadi!", "de": "Super. Los!" },
+          { "sprecher": "Sherin", "tr": "Görüşmek üzere, Amani!", "de": "Bis bald, Amani!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w05-bekle", "w05-acele-et", "w05-kapiyi-kapat", "w05-gorusmek-uzere"] },
+        { "art": "hoeren", "vokabel": "w05-geliyor-musun" },
+        { "art": "satzbau", "tr": "Parka gidiyoruz. Geliyor musun?", "de": "Wir gehen zum Spielplatz. Kommst du mit?" },
+        { "art": "luecke", "satz": "Hayır, gel___rum.", "loesung": "miyo", "optionen": ["miyo", "iyo", "mıyo"], "de": "Nein, ich komme nicht." },
+        { "art": "auswahl_de_tr", "vokabel": "w05-nereden" },
+        { "art": "luecke", "satz": "Önce Hannover'___, sonra parka.", "loesung": "e", "optionen": ["e", "de", "den"], "de": "Erst nach Hannover, dann in den Park." },
+        { "art": "hoeren", "vokabel": "w05-yolda" },
+        { "art": "auswahl_de_tr", "vokabel": "w05-acele-et" },
+        { "art": "tippen", "vokabel": "w05-bekle" },
+        { "art": "satzbau", "tr": "Pasha işten geliyor.", "de": "Pasha kommt von der Arbeit." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Plant laut auf Türkisch einen Ausflug (Park, Stadt, Oma). Wohin geht ihr, wie kommt ihr hin, wann kommt ihr zurück, wer bleibt zu Hause?",
+        "mustersaetze": [
+          { "tr": "Önce parka, sonra markete gidiyoruz.", "de": "Erst gehen wir in den Park, dann zum Supermarkt." },
+          { "tr": "Amani evde kalıyor.", "de": "Amani bleibt zu Hause." },
+          { "tr": "Saat beşte eve dönüyoruz.", "de": "Um fünf kommen wir zurück." }
+        ]
+      },
+      "alltagssatz": { "tr": "Acele et!", "de": "Beeil dich!", "wann": "Beim nächsten Rausgehen – ganz sicher braucht Pasha länger." },
+      "merktipp": { "titel": "Befehle sind kurz", "text": "Bekle! Gel! Bak! Die Befehlsform ist einfach der Verbstamm ohne -mak/-mek. Kürzer geht's nicht." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Sag Pasha drei Dinge, die du NICHT magst oder nicht weißt.", "hilfe": { "tr": "Kahve sevmiyorum. Bilmiyorum. Anlamıyorum.", "de": "Ich mag keinen Kaffee. Ich weiß nicht. Ich verstehe nicht." } },
+      { "situation": "Erzähl, wohin ihr diese Woche gegangen seid und woher ihr gekommen seid – im Präsens erzählt.", "hilfe": { "tr": "Pazartesi eczaneye gidiyoruz. Parktan eve dönüyoruz.", "de": "Montag gehen wir zur Apotheke. Vom Park gehen wir nach Hause." } },
+      { "situation": "Pasha ruft an: Wo bist du, wann kommst du?", "hilfe": { "tr": "Yoldayım. Birazdan geliyorum.", "de": "Ich bin unterwegs. Ich komme gleich." } }
+    ]
+  }
+}
