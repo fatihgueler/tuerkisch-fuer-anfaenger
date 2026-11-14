@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { lehrplan, PHASEN } from "@/content/lehrplan";
 import { datumFuer, datumLesbar, heuteISO, positionFuer } from "@/lib/datum";
@@ -16,6 +16,27 @@ export function PlanReise({ vorhanden }: { vorhanden: number[] }) {
   const reduziert = useReducedMotion();
   const [aktuell, setAktuell] = useState<number | null>(null);
   useEffect(() => setAktuell(positionFuer(heuteISO()).woche), []);
+  const listeRef = useRef<HTMLOListElement>(null);
+  const hierRef = useRef<HTMLSpanElement>(null);
+  const [linie, setLinie] = useState(0);
+  useLayoutEffect(() => {
+    if (aktuell === null || !hierRef.current || !listeRef.current) return;
+    const messen = () => {
+      const a = listeRef.current!.getBoundingClientRect();
+      const b = hierRef.current!.getBoundingClientRect();
+      setLinie(Math.max(0, b.top + b.height / 2 - a.top - 16));
+    };
+    messen();
+    window.addEventListener("resize", messen);
+    if (aktuell > 1) {
+      const t = setTimeout(() => hierRef.current?.scrollIntoView({ block: "center", behavior: reduziert ? "auto" : "smooth" }), 500);
+      return () => {
+        clearTimeout(t);
+        window.removeEventListener("resize", messen);
+      };
+    }
+    return () => window.removeEventListener("resize", messen);
+  }, [aktuell, reduziert]);
   const stempel = (w: number) => geladen && (sonntag[w]?.prozent ?? 0) >= 80;
   const anzahl = lehrplan.filter((s) => stempel(s.woche)).length;
 
@@ -46,8 +67,16 @@ export function PlanReise({ vorhanden }: { vorhanden: number[] }) {
           <p className="mt-2 text-sm text-muted-foreground">Ein Stempel (Mühür) gibt&apos;s ab 80 % im Sonntagstest.</p>
         </section>
 
-        <ol className="relative mt-6 pb-4">
+        <ol ref={listeRef} className="relative mt-6 pb-4">
           <span aria-hidden="true" className="absolute top-4 bottom-4 left-[1.375rem] w-0.5 border-l-2 border-dashed border-primary/40" />
+          {/* Geschaffte Strecke */}
+          <motion.span
+            aria-hidden="true"
+            className="absolute top-4 left-[1.3125rem] w-1 origin-top rounded-full bg-gradient-to-b from-primary to-safran"
+            initial={false}
+            animate={{ height: linie }}
+            transition={reduziert ? { duration: 0 } : { duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
+          />
           {lehrplan.map((s, i) => {
             const neuePhase = i === 0 || lehrplan[i - 1].phase !== s.phase;
             const ist = aktuell === s.woche;
@@ -69,8 +98,9 @@ export function PlanReise({ vorhanden }: { vorhanden: number[] }) {
                   className="relative flex gap-3 py-1.5"
                 >
                   <span
+                    ref={ist ? hierRef : undefined}
                     className={cn(
-                      "z-10 flex size-11 shrink-0 items-center justify-center rounded-full border-2 font-serif text-lg font-semibold",
+                      "relative z-10 flex size-11 shrink-0 items-center justify-center rounded-full border-2 font-serif text-lg font-semibold",
                       stempel(s.woche)
                         ? "border-accent bg-rose-soft text-accent"
                         : ist
@@ -80,6 +110,14 @@ export function PlanReise({ vorhanden }: { vorhanden: number[] }) {
                             : "border-border bg-card"
                     )}
                   >
+                    {ist && !reduziert && (
+                      <motion.span
+                        aria-hidden="true"
+                        className="absolute inset-0 rounded-full border-2 border-safran"
+                        animate={{ scale: [1, 1.6], opacity: [0.7, 0] }}
+                        transition={{ duration: 1.8, repeat: Infinity, ease: "easeOut" }}
+                      />
+                    )}
                     {s.woche}
                   </span>
                   <div className={cn("relative min-w-0 flex-1 rounded-xl p-3", verlinkt && "transition-colors hover:bg-muted", ist ? "bg-safran-soft ring-2 ring-safran" : "bg-card ring-1 ring-border")}>

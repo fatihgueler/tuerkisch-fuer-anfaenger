@@ -1,6 +1,7 @@
 import { Ear, MessageCircleHeart, Moon, StickyNote, Sprout } from "lucide-react";
 import { alleWochen } from "@/content";
 import { SeitenKopf, Seite } from "@/components/seiten-kopf";
+import { EndungsMaschine } from "@/components/endungs-maschine";
 
 const LERNTIPPS = [
   {
@@ -36,7 +37,8 @@ export default async function TippsSeite() {
     <>
       <SeitenKopf titel="Tipps" unter="Merkhilfen & Lerntricks" />
       <Seite>
-        <section aria-labelledby="lerntipps" className="mt-5">
+        <EndungsMaschine />
+        <section aria-labelledby="lerntipps" className="mt-8">
           <h2 id="lerntipps" className="mb-3 text-xl font-semibold">
             So bleibt&apos;s hängen
           </h2>

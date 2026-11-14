@@ -1,11 +1,12 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { Check, Headphones, RotateCcw, X } from "lucide-react";
 import type { Uebung, Vokabel } from "@/content/schema";
 import { pruefe, sonderzeichenMarkieren, type Ergebnis } from "@/lib/check";
 import { sprich } from "@/lib/speech";
+import { fuehlen } from "@/lib/haptik";
 import { AudioKnopf } from "@/components/audio";
 import { SonderzeichenLeiste } from "@/components/sonderzeichen";
 import { Button } from "@/components/ui/button";
@@ -67,8 +68,10 @@ export function UebungsRahmen({
   onWeiter: (a: Antwort) => void;
 }) {
   const [antwort, setAntwort] = useState<Antwort | null>(null);
+  const reduziert = useReducedMotion();
   const onAntwort = (a: Antwort) => {
     setAntwort(a);
+    fuehlen(a.ergebnis === "falsch" ? "falsch" : "richtig");
     if (a.audio && a.ergebnis !== "richtig") sprich(a.audio);
   };
   const props = { gesperrt: !!antwort, onAntwort };
@@ -109,9 +112,15 @@ export function UebungsRahmen({
       <AnimatePresence>
         {antwort && (
           <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.2 }}
+            initial={{ opacity: 0, y: reduziert ? 0 : 24 }}
+            animate={
+              reduziert
+                ? { opacity: 1, y: 0 }
+                : antwort.ergebnis === "falsch"
+                  ? { opacity: 1, y: 0, x: [0, -7, 7, -4, 4, 0] }
+                  : { opacity: 1, y: 0, scale: [0.97, 1.02, 1] }
+            }
+            transition={{ duration: 0.4, ease: "easeOut" }}
             className={cn(
               "sticky bottom-3 z-10 rounded-2xl border-2 p-4 shadow-lg",
               antwort.ergebnis === "richtig" && "border-primary bg-secondary",
@@ -137,7 +146,15 @@ function Rueckmeldung({ antwort }: { antwort: Antwort }) {
       <p className="flex items-center gap-2 text-lg font-semibold">
         {ergebnis === "richtig" ? (
           <>
-            <Check className="text-primary" aria-hidden="true" /> Doğru! Richtig.
+            <motion.span
+              initial={{ scale: 0, rotate: -45 }}
+              animate={{ scale: 1, rotate: 0 }}
+              transition={{ type: "spring", stiffness: 500, damping: 15, delay: 0.1 }}
+              className="flex size-8 items-center justify-center rounded-full bg-primary text-primary-foreground"
+            >
+              <Check className="size-5" aria-hidden="true" />
+            </motion.span>
+            Doğru! Richtig.
           </>
         ) : ergebnis === "fast" ? (
           <>Fast richtig – achte auf die Sonderzeichen</>
