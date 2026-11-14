@@ -5,6 +5,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { z } from "zod";
 import type { Ergebnis } from "@/lib/check";
+import type { Uebung } from "@/content/schema";
 import { bewerte, neueKarte, type Karte } from "@/lib/leitner";
 import { heuteISO } from "@/lib/datum";
 
@@ -30,6 +31,13 @@ export type SonntagsErgebnis = {
   sprech: boolean[];
 };
 
+export type SonntagsFrage = { uebung: Uebung; quelle?: string; text: string };
+export type SonntagsEntwurf = {
+  fragen: SonntagsFrage[];
+  index: number;
+  ergebnisse: { ergebnis: Ergebnis; frage: string; loesung: string; eingabe: string; quelle?: string }[];
+};
+
 export type Aktivitaet = "lektion" | "kurz" | "sonntag";
 
 export type Einstellungen = { theme: "system" | "hell" | "dunkel"; tempo: number };
@@ -42,6 +50,7 @@ type Daten = {
   aktiveTage: Record<string, Aktivitaet>;
   einstellungen: Einstellungen;
   hinweise: { iosHomescreen?: boolean; backupAm?: string };
+  sonntagEntwurf: Record<string, SonntagsEntwurf>;
 };
 
 type Aktionen = {
@@ -53,9 +62,10 @@ type Aktionen = {
   sonntagSpeichern: (woche: number, e: SonntagsErgebnis, falscheIds: string[], richtigeIds: string[]) => void;
   sonntagSprech: (woche: number, i: number, wert: boolean) => void;
   tagAktiv: (a: Aktivitaet) => void;
+  entwurfSetzen: (woche: number, e: SonntagsEntwurf | null) => void;
   einstellungSetzen: (e: Partial<Einstellungen>) => void;
   hinweisSetzen: (h: Partial<Daten["hinweise"]>) => void;
-  allesErsetzen: (d: Daten) => void;
+  allesErsetzen: (d: Omit<Daten, "sonntagEntwurf">) => void;
 };
 
 export type Fortschritt = Daten & Aktionen;
@@ -68,6 +78,7 @@ const leer: Daten = {
   aktiveTage: {},
   einstellungen: { theme: "system", tempo: 0.9 },
   hinweise: {},
+  sonntagEntwurf: {},
 };
 
 export const leererStand = (): LektionsStand => ({ schritt: 0, erledigt: [], wortIndex: 0, uebungIndex: 0, uebungRichtig: 0, warmupIndex: 0 });
@@ -132,10 +143,17 @@ export const useFortschritt = create<Fortschritt>()(
           sprech[i] = wert;
           return { sonntag: { ...s.sonntag, [woche]: { ...e, sprech } } };
         }),
+      entwurfSetzen: (woche, e) =>
+        set((s) => {
+          const neu = { ...s.sonntagEntwurf };
+          if (e) neu[woche] = e;
+          else delete neu[woche];
+          return { sonntagEntwurf: neu };
+        }),
       tagAktiv: (a) => set((s) => ({ aktiveTage: mitAktivitaet(s.aktiveTage, heuteISO(), a) })),
       einstellungSetzen: (e) => set((s) => ({ einstellungen: { ...s.einstellungen, ...e } })),
       hinweisSetzen: (h) => set((s) => ({ hinweise: { ...s.hinweise, ...h } })),
-      allesErsetzen: (d) => set(() => ({ ...leer, ...d })),
+      allesErsetzen: (d) => set(() => ({ ...leer, ...d, sonntagEntwurf: {} })),
     }),
     {
       name: SPEICHER_KEY,
@@ -149,6 +167,7 @@ export const useFortschritt = create<Fortschritt>()(
         aktiveTage: s.aktiveTage,
         einstellungen: s.einstellungen,
         hinweise: s.hinweise,
+        sonntagEntwurf: s.sonntagEntwurf,
       }),
       // Spätere Versionen: hier alte Stände umbauen (if (version < 2) …)
       migrate: (alt) => ({ ...leer, ...(alt as Partial<Daten>) }),
@@ -208,6 +227,7 @@ export const BackupSchema = z.object({
     hinweise: z.object({ iosHomescreen: z.boolean().optional(), backupAm: z.string().optional() }),
   }),
 });
+// Laufende Sonntagstests werden nicht gesichert.
 
 export function backupErstellen(s: Fortschritt) {
   return {
