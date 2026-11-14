@@ -1,0 +1,422 @@
+{
+  "woche": 7,
+  "lektionen": [
+    {
+      "woche": 7,
+      "tag": 1,
+      "titel": "Wie ist das Wetter?",
+      "kannZiel": "das Wetter beschreiben",
+      "vokabeln": [
+        { "id": "w07-hava-nasil", "tr": "Hava nasıl?", "de": "Wie ist das Wetter?", "typ": "chunk", "beispiel": { "tr": "Bugün hava nasıl?", "de": "Wie ist das Wetter heute?" } },
+        { "id": "w07-soguk", "tr": "soğuk", "de": "kalt", "typ": "wort", "beispiel": { "tr": "Hava çok soğuk.", "de": "Es ist sehr kalt." } },
+        { "id": "w07-serin", "tr": "serin", "de": "kühl", "typ": "wort", "beispiel": { "tr": "Akşam hava serin.", "de": "Abends ist es kühl." } },
+        { "id": "w07-gunesli", "tr": "güneşli", "de": "sonnig", "typ": "wort", "beispiel": { "tr": "Bugün güneşli!", "de": "Heute ist es sonnig!" } },
+        { "id": "w07-bulutlu", "tr": "bulutlu", "de": "bewölkt", "typ": "wort", "beispiel": { "tr": "Hava biraz bulutlu.", "de": "Es ist etwas bewölkt." } },
+        { "id": "w07-yagmur", "tr": "yağmur", "de": "Regen", "typ": "wort", "beispiel": { "tr": "Yağmur yağıyor.", "de": "Es regnet." } },
+        { "id": "w07-kar", "tr": "kar", "de": "Schnee", "typ": "wort", "beispiel": { "tr": "Kar yağıyor! Inaya, bak!", "de": "Es schneit! Inaya, schau!" } },
+        { "id": "w07-ruzgar", "tr": "rüzgâr", "de": "Wind", "typ": "wort", "beispiel": { "tr": "Bugün çok rüzgâr var.", "de": "Heute ist es sehr windig." } },
+        { "id": "w07-semsiye", "tr": "şemsiye", "de": "Regenschirm", "typ": "wort", "beispiel": { "tr": "Şemsiyeni unutma!", "de": "Vergiss deinen Regenschirm nicht!" } }
+      ],
+      "grammatik": {
+        "titel": "Hava + Adjektiv",
+        "erklaerung": [
+          "Wetter beschreibst du mit hava (Wetter/Luft) + Adjektiv: Hava soğuk. = Es ist kalt.",
+          "Regen und Schnee „fallen“: Yağmur yağıyor. (Es regnet.) Kar yağıyor. (Es schneit.)",
+          "-lı/-li/-lu/-lü macht aus Nomen Wetter-Adjektive: güneş → güneşli, bulut → bulutlu."
+        ],
+        "beispiele": [
+          { "tr": "Hava çok soğuk.", "de": "Es ist sehr kalt." },
+          { "tr": "Yağmur yağıyor.", "de": "Es regnet." },
+          { "tr": "Bugün güneşli.", "de": "Heute ist es sonnig." }
+        ]
+      },
+      "dialog": {
+        "titel": "Blick aus dem Fenster",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Günaydın! Hava nasıl?", "de": "Guten Morgen! Wie ist das Wetter?" },
+          { "sprecher": "Sherin", "tr": "Çok soğuk. Ve yağmur yağıyor.", "de": "Sehr kalt. Und es regnet." },
+          { "sprecher": "Pasha", "tr": "Yine mi? Almanya'da hep yağmur!", "de": "Schon wieder? In Deutschland regnet es immer!" },
+          { "sprecher": "Sherin", "tr": "Ama öğleden sonra güneşli.", "de": "Aber am Nachmittag wird es sonnig." },
+          { "sprecher": "Pasha", "tr": "Tamam, o zaman öğleden sonra parka gidiyoruz.", "de": "Gut, dann gehen wir am Nachmittag in den Park." },
+          { "sprecher": "Sherin", "tr": "Şemsiyeyi unutma!", "de": "Vergiss den Regenschirm nicht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w07-soguk", "w07-serin", "w07-gunesli", "w07-bulutlu"] },
+        { "art": "auswahl_de_tr", "vokabel": "w07-hava-nasil" },
+        { "art": "hoeren", "vokabel": "w07-yagmur" },
+        { "art": "satzbau", "tr": "Kar yağıyor! Inaya, bak!", "de": "Es schneit! Inaya, schau!" },
+        { "art": "luecke", "satz": "Bugün güneş___.", "loesung": "li", "optionen": ["li", "lı", "lu"], "de": "Heute ist es sonnig." },
+        { "art": "auswahl_tr_de", "vokabel": "w07-ruzgar" },
+        { "art": "hoeren", "vokabel": "w07-semsiye" },
+        { "art": "tippen", "vokabel": "w07-kar" },
+        { "art": "satzbau", "tr": "Hava çok soğuk.", "de": "Es ist sehr kalt." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Macht ab heute jeden Morgen einen Wetterbericht auf Türkisch am Fenster: Pasha fragt „Hava nasıl?“, du antwortest mit zwei Sätzen.",
+        "mustersaetze": [
+          { "tr": "Hava soğuk ve bulutlu.", "de": "Es ist kalt und bewölkt." },
+          { "tr": "Yağmur yağıyor.", "de": "Es regnet." },
+          { "tr": "Şemsiyeyi unutma!", "de": "Vergiss den Regenschirm nicht!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Hava çok soğuk!", "de": "Es ist so kalt!", "wann": "Beim nächsten Gassi mit Amani – im November garantiert." },
+      "merktipp": { "titel": "Regen fällt", "text": "Im Türkischen „fällt“ das Wetter: yağmur yağıyor (Regen fällt), kar yağıyor (Schnee fällt). yağmur und yağmak gehören zusammen – das Wort sagt es schon." }
+    },
+    {
+      "woche": 7,
+      "tag": 2,
+      "titel": "Warm anziehen",
+      "kannZiel": "Kleidung benennen und sagen, was jemand anziehen soll",
+      "vokabeln": [
+        { "id": "w07-mont", "tr": "mont", "de": "Jacke", "typ": "wort", "beispiel": { "tr": "Montunu giy!", "de": "Zieh deine Jacke an!" } },
+        { "id": "w07-kazak", "tr": "kazak", "de": "Pullover", "typ": "wort", "beispiel": { "tr": "Bu kazak çok sıcak.", "de": "Dieser Pullover ist sehr warm." } },
+        { "id": "w07-pantolon", "tr": "pantolon", "de": "Hose", "typ": "wort", "beispiel": { "tr": "Inaya'nın pantolonu ıslak.", "de": "Inayas Hose ist nass." }, "merktipp": "pantolon kommt aus dem Französischen (pantalon) – klingt wie „Pantalons“." },
+        { "id": "w07-bere", "tr": "bere", "de": "Mütze", "typ": "wort", "beispiel": { "tr": "Inaya'ya bereyi giydir.", "de": "Zieh Inaya die Mütze auf." } },
+        { "id": "w07-eldiven", "tr": "eldiven", "de": "Handschuhe", "typ": "wort", "beispiel": { "tr": "Eldivenlerim nerede?", "de": "Wo sind meine Handschuhe?" } },
+        { "id": "w07-atki", "tr": "atkı", "de": "Schal", "typ": "wort", "beispiel": { "tr": "Atkını al, hava soğuk.", "de": "Nimm deinen Schal, es ist kalt." } },
+        { "id": "w07-corap", "tr": "çorap", "de": "Socke(n)", "typ": "wort", "beispiel": { "tr": "Inaya çorabını çıkarıyor!", "de": "Inaya zieht ihre Socke aus!" } },
+        { "id": "w07-elbise", "tr": "elbise", "de": "Kleid", "typ": "wort", "beispiel": { "tr": "Bu elbise çok güzel.", "de": "Dieses Kleid ist sehr schön." } },
+        { "id": "w07-giymek", "tr": "giymek", "de": "anziehen / tragen", "typ": "wort", "beispiel": { "tr": "Ne giyiyorsun?", "de": "Was ziehst du an?" } }
+      ],
+      "grammatik": {
+        "titel": "Deine Jacke anziehen: -(n)ı",
+        "erklaerung": [
+          "„Deine Jacke anziehen“: Besitz-Endung + Akkusativ: mont → montun → montunu giy.",
+          "giy! = Zieh an! (Befehl = Verbstamm). çıkar! = Zieh aus!",
+          "Für Kinder: giydirmek = jemandem etwas anziehen. Inaya'ya bereyi giydiriyorum."
+        ],
+        "tabelle": {
+          "kopf": ["Ding", "deinen/deine … (anziehen)"],
+          "zeilen": [
+            ["mont", "montunu"],
+            ["kazak", "kazağını"],
+            ["atkı", "atkını"],
+            ["bere", "bereni"],
+            ["çorap", "çorabını"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Montunu giy!", "de": "Zieh deine Jacke an!" },
+          { "tr": "Atkını al, hava soğuk.", "de": "Nimm deinen Schal, es ist kalt." },
+          { "tr": "Inaya'ya bereyi giydiriyorum.", "de": "Ich ziehe Inaya die Mütze auf." }
+        ]
+      },
+      "dialog": {
+        "titel": "Bevor es rausgeht",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, Inaya'ya bereyi giydirir misin?", "de": "Pasha, ziehst du Inaya die Mütze auf?" },
+          { "sprecher": "Pasha", "tr": "Tamam. Eldivenleri nerede?", "de": "Okay. Wo sind ihre Handschuhe?" },
+          { "sprecher": "Sherin", "tr": "Montunun cebinde.", "de": "In ihrer Jackentasche." },
+          { "sprecher": "Pasha", "tr": "Inaya, çorabını çıkarma!", "de": "Inaya, zieh deine Socke nicht aus!" },
+          { "sprecher": "Sherin", "tr": "Sen de montunu giy! Hava çok soğuk.", "de": "Und zieh du deine Jacke an! Es ist sehr kalt." },
+          { "sprecher": "Pasha", "tr": "Ama ben üşümüyorum!", "de": "Aber mir ist nicht kalt!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w07-mont", "w07-kazak", "w07-pantolon", "w07-elbise"] },
+        { "art": "zuordnen", "vokabeln": ["w07-bere", "w07-eldiven", "w07-atki", "w07-corap"] },
+        { "art": "luecke", "satz": "Mont___ giy!", "loesung": "unu", "optionen": ["unu", "u", "un"], "de": "Zieh deine Jacke an!" },
+        { "art": "hoeren", "vokabel": "w07-giymek" },
+        { "art": "luecke", "satz": "Atkı___ al, hava soğuk.", "loesung": "nı", "optionen": ["nı", "yı", "ı"], "de": "Nimm deinen Schal, es ist kalt." },
+        { "art": "auswahl_de_tr", "vokabel": "w07-eldiven" },
+        { "art": "satzbau", "tr": "Ne giyiyorsun?", "de": "Was ziehst du an?" },
+        { "art": "tippen", "vokabel": "w07-mont" },
+        { "art": "hoeren", "vokabel": "w07-corap" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Beim nächsten Anziehen von Inaya: Kommentiere jedes Teil auf Türkisch, Pasha reicht dir die Sachen nur auf türkischen Zuruf.",
+        "mustersaetze": [
+          { "tr": "Bereyi verir misin?", "de": "Gibst du mir die Mütze?" },
+          { "tr": "Inaya, montunu giyiyoruz.", "de": "Inaya, wir ziehen deine Jacke an." },
+          { "tr": "Eldivenler nerede?", "de": "Wo sind die Handschuhe?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Montunu giy!", "de": "Zieh deine Jacke an!", "wann": "Zu Pasha, wenn er wieder ohne Jacke rausgehen will." },
+      "merktipp": { "titel": "Kleider aus Frankreich", "text": "pantolon, kazak, bere – einiges kommt dir bekannt vor. bere klingt wie „Barett“ (eine Mütze) – so bleibt es hängen." }
+    },
+    {
+      "woche": 7,
+      "tag": 3,
+      "titel": "Farben",
+      "kannZiel": "Farben benennen und beschreiben, was jemand trägt",
+      "vokabeln": [
+        { "id": "w07-renk", "tr": "renk", "de": "Farbe", "typ": "wort", "beispiel": { "tr": "Ne renk?", "de": "Welche Farbe?" } },
+        { "id": "w07-kirmizi", "tr": "kırmızı", "de": "rot", "typ": "wort", "beispiel": { "tr": "Inaya'nın kırmızı bir montu var.", "de": "Inaya hat eine rote Jacke." } },
+        { "id": "w07-mavi", "tr": "mavi", "de": "blau", "typ": "wort", "beispiel": { "tr": "Gökyüzü mavi.", "de": "Der Himmel ist blau." } },
+        { "id": "w07-yesil", "tr": "yeşil", "de": "grün", "typ": "wort", "beispiel": { "tr": "Bahçe çok yeşil.", "de": "Der Garten ist sehr grün." } },
+        { "id": "w07-sari", "tr": "sarı", "de": "gelb", "typ": "wort", "beispiel": { "tr": "Sarı top nerede?", "de": "Wo ist der gelbe Ball?" } },
+        { "id": "w07-siyah", "tr": "siyah", "de": "schwarz", "typ": "wort", "beispiel": { "tr": "Pasha'nın montu siyah.", "de": "Pashas Jacke ist schwarz." } },
+        { "id": "w07-beyaz", "tr": "beyaz", "de": "weiß", "typ": "wort", "beispiel": { "tr": "Kar bembeyaz!", "de": "Der Schnee ist schneeweiß!" } },
+        { "id": "w07-pembe", "tr": "pembe", "de": "rosa", "typ": "wort", "beispiel": { "tr": "Pembe elbise çok tatlı.", "de": "Das rosa Kleid ist so süß." } },
+        { "id": "w07-kahverengi", "tr": "kahverengi", "de": "braun", "typ": "wort", "beispiel": { "tr": "Amani kahverengi mi?", "de": "Ist Amani braun?" }, "merktipp": "kahve + renk = „Kaffeefarbe“ → braun." },
+        { "id": "w07-gri", "tr": "gri", "de": "grau", "typ": "wort", "beispiel": { "tr": "Hava gri ve soğuk.", "de": "Es ist grau und kalt." } }
+      ],
+      "grammatik": {
+        "titel": "Farben sind Adjektive",
+        "erklaerung": [
+          "Farben stehen vor dem Nomen: kırmızı mont (rote Jacke), mavi kazak.",
+          "„eine rote Jacke“: kırmızı bir mont.",
+          "Frage: Ne renk? = Welche Farbe? – Antwort: Mavi."
+        ],
+        "beispiele": [
+          { "tr": "Inaya'nın kırmızı bir montu var.", "de": "Inaya hat eine rote Jacke." },
+          { "tr": "Pasha'nın montu ne renk?", "de": "Welche Farbe hat Pashas Jacke?" },
+          { "tr": "Mavi kazağı giyiyorum.", "de": "Ich ziehe den blauen Pullover an." }
+        ]
+      },
+      "dialog": {
+        "titel": "Was ziehen wir an?",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Inaya bugün ne giyiyor?", "de": "Was zieht Inaya heute an?" },
+          { "sprecher": "Pasha", "tr": "Pembe elbise mi, mavi pantolon mu?", "de": "Das rosa Kleid oder die blaue Hose?" },
+          { "sprecher": "Sherin", "tr": "Hava soğuk. Mavi pantolon ve kırmızı kazak.", "de": "Es ist kalt. Die blaue Hose und der rote Pulli." },
+          { "sprecher": "Pasha", "tr": "Kırmızı ve mavi mi? Hmm …", "de": "Rot und blau? Hmm …" },
+          { "sprecher": "Sherin", "tr": "Sen kuaför değilsin, ben kuaförüm!", "de": "Du bist nicht der Friseur, ich bin's!" },
+          { "sprecher": "Pasha", "tr": "Tamam, tamam. Sen bilirsin!", "de": "Okay, okay. Du weißt es am besten!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w07-kirmizi", "w07-mavi", "w07-yesil", "w07-sari", "w07-siyah"] },
+        { "art": "zuordnen", "vokabeln": ["w07-beyaz", "w07-pembe", "w07-kahverengi", "w07-gri"] },
+        { "art": "hoeren", "vokabel": "w07-renk" },
+        { "art": "auswahl_de_tr", "vokabel": "w07-kahverengi" },
+        { "art": "satzbau", "tr": "Inaya'nın kırmızı bir montu var.", "de": "Inaya hat eine rote Jacke." },
+        { "art": "auswahl_tr_de", "vokabel": "w07-yesil" },
+        { "art": "tippen", "vokabel": "w07-mavi" },
+        { "art": "hoeren", "vokabel": "w07-pembe" },
+        { "art": "satzbau", "tr": "Pasha'nın montu ne renk?", "de": "Welche Farbe hat Pashas Jacke?" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "„Ich sehe was, was du nicht siehst“ auf Türkisch: Ben bir şey görüyorum, rengi … Pasha rät auf Türkisch. Mindestens fünf Runden.",
+        "mustersaetze": [
+          { "tr": "Bir şey görüyorum, rengi kırmızı.", "de": "Ich sehe etwas, das ist rot." },
+          { "tr": "Inaya'nın topu mu?", "de": "Inayas Ball?" },
+          { "tr": "Evet! / Hayır, değil.", "de": "Ja! / Nein, ist es nicht." }
+        ]
+      },
+      "alltagssatz": { "tr": "Ne renk?", "de": "Welche Farbe?", "wann": "Beim Spielen mit Inaya – zeig auf Bauklötze und benenne die Farben." },
+      "merktipp": { "titel": "Farben verdoppeln", "text": "Zum Verstärken verdoppelt man die erste Silbe mit m/p/s: bembeyaz (schneeweiß), kıpkırmızı (knallrot), masmavi (strahlend blau). Klingt lustig und ist ganz normal." }
+    },
+    {
+      "woche": 7,
+      "tag": 4,
+      "titel": "Eigenschaften & Gegensätze",
+      "kannZiel": "Dinge mit Adjektiven beschreiben",
+      "vokabeln": [
+        { "id": "w07-uzun", "tr": "uzun", "de": "lang / groß (Person)", "typ": "wort", "beispiel": { "tr": "Saçın çok uzun.", "de": "Deine Haare sind sehr lang." } },
+        { "id": "w07-kisa", "tr": "kısa", "de": "kurz / klein (Person)", "typ": "wort", "beispiel": { "tr": "Kısa saç sana yakışıyor.", "de": "Kurze Haare stehen dir." } },
+        { "id": "w07-yeni", "tr": "yeni", "de": "neu", "typ": "wort", "beispiel": { "tr": "Bu mont yeni mi?", "de": "Ist die Jacke neu?" } },
+        { "id": "w07-eski", "tr": "eski", "de": "alt (Dinge)", "typ": "wort", "beispiel": { "tr": "Bu kazak çok eski.", "de": "Der Pullover ist sehr alt." } },
+        { "id": "w07-guzel", "tr": "güzel", "de": "schön", "typ": "wort", "beispiel": { "tr": "Ne güzel bir elbise!", "de": "Was für ein schönes Kleid!" } },
+        { "id": "w07-genis", "tr": "geniş", "de": "weit / breit", "typ": "wort", "beispiel": { "tr": "Bu pantolon biraz geniş.", "de": "Die Hose ist etwas weit." } },
+        { "id": "w07-dar", "tr": "dar", "de": "eng", "typ": "wort", "beispiel": { "tr": "Ayakkabı çok dar.", "de": "Der Schuh ist zu eng." } },
+        { "id": "w07-kalin", "tr": "kalın", "de": "dick (Stoff) / warm", "typ": "wort", "beispiel": { "tr": "Kalın bir kazak giy.", "de": "Zieh einen dicken Pulli an." } },
+        { "id": "w07-ince", "tr": "ince", "de": "dünn", "typ": "wort", "beispiel": { "tr": "Bu mont çok ince.", "de": "Die Jacke ist zu dünn." } }
+      ],
+      "grammatik": {
+        "titel": "çok, biraz, hiç + Adjektiv",
+        "erklaerung": [
+          "çok = sehr / zu, biraz = etwas, hiç … değil = gar nicht.",
+          "Bu mont çok ince. = Diese Jacke ist zu dünn.",
+          "Gegensatzpaare lernt man am besten zusammen: uzun – kısa, yeni – eski, geniş – dar, kalın – ince."
+        ],
+        "tabelle": {
+          "kopf": ["", "Gegenteil"],
+          "zeilen": [
+            ["uzun (lang)", "kısa (kurz)"],
+            ["yeni (neu)", "eski (alt)"],
+            ["geniş (weit)", "dar (eng)"],
+            ["kalın (dick)", "ince (dünn)"],
+            ["büyük (groß)", "küçük (klein)"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bu pantolon biraz geniş.", "de": "Die Hose ist etwas weit." },
+          { "tr": "Mont hiç kalın değil.", "de": "Die Jacke ist gar nicht dick." },
+          { "tr": "Ne güzel bir elbise!", "de": "Was für ein schönes Kleid!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Shopping für Inaya",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Inaya'nın montu artık çok dar.", "de": "Inayas Jacke ist ihr inzwischen zu eng." },
+          { "sprecher": "Pasha", "tr": "Yeni bir mont mu alıyoruz?", "de": "Kaufen wir eine neue?" },
+          { "sprecher": "Sherin", "tr": "Evet. Bak, bu çok güzel!", "de": "Ja. Schau, die ist sehr schön!" },
+          { "sprecher": "Pasha", "tr": "Ama biraz ince değil mi?", "de": "Aber ist die nicht etwas dünn?" },
+          { "sprecher": "Sherin", "tr": "Haklısın. Bu daha kalın.", "de": "Du hast recht. Diese ist dicker." },
+          { "sprecher": "Pasha", "tr": "Ve kırmızı! Süper.", "de": "Und rot! Super." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w07-uzun", "w07-kisa", "w07-yeni", "w07-eski"] },
+        { "art": "zuordnen", "vokabeln": ["w07-genis", "w07-dar", "w07-kalin", "w07-ince"] },
+        { "art": "hoeren", "vokabel": "w07-guzel" },
+        { "art": "satzbau", "tr": "Bu pantolon biraz geniş.", "de": "Die Hose ist etwas weit." },
+        { "art": "auswahl_de_tr", "vokabel": "w07-dar" },
+        { "art": "luecke", "satz": "Mont hiç kalın ___.", "loesung": "değil", "optionen": ["değil", "yok", "var"], "de": "Die Jacke ist gar nicht dick." },
+        { "art": "auswahl_tr_de", "vokabel": "w07-uzun" },
+        { "art": "tippen", "vokabel": "w07-yeni" },
+        { "art": "satzbau", "tr": "Ne güzel bir elbise!", "de": "Was für ein schönes Kleid!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Geht gemeinsam an deinen Kleiderschrank. Nimm fünf Teile raus und beschreib jedes mit Farbe und einer Eigenschaft. Pasha fragt nach: „Yeni mi? Rahat mı?“",
+        "mustersaetze": [
+          { "tr": "Bu kazak mavi ve çok kalın.", "de": "Dieser Pulli ist blau und sehr dick." },
+          { "tr": "Bu pantolon biraz dar.", "de": "Diese Hose ist etwas eng." },
+          { "tr": "Bu elbise yeni!", "de": "Dieses Kleid ist neu!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Ne güzel!", "de": "Wie schön!", "wann": "Wenn Pasha oder Inaya heute etwas Neues anhat." },
+      "merktipp": { "titel": "Haare: uzun & kısa", "text": "Als Friseurin brauchst du uzun und kısa ständig: uzun saç (lange Haare), kısa saç (kurze Haare). Saç kommt in Woche 18 ganz groß – hier schon mal zum Aufwärmen." }
+    },
+    {
+      "woche": 7,
+      "tag": 5,
+      "titel": "Vergleichen: daha & en",
+      "kannZiel": "Dinge vergleichen und sagen, was dir am besten gefällt",
+      "vokabeln": [
+        { "id": "w07-daha", "tr": "daha", "de": "mehr / -er (Vergleich)", "typ": "wort", "beispiel": { "tr": "Bu daha güzel.", "de": "Das ist schöner." } },
+        { "id": "w07-en", "tr": "en", "de": "am …-sten", "typ": "wort", "beispiel": { "tr": "En güzel mevsim ilkbahar.", "de": "Die schönste Jahreszeit ist der Frühling." } },
+        { "id": "w07-kis", "tr": "kış", "de": "Winter", "typ": "wort", "beispiel": { "tr": "Kış çok uzun.", "de": "Der Winter ist sehr lang." } },
+        { "id": "w07-yaz", "tr": "yaz", "de": "Sommer", "typ": "wort", "beispiel": { "tr": "Yazın hava çok sıcak.", "de": "Im Sommer ist es sehr heiß." } },
+        { "id": "w07-sonbahar", "tr": "sonbahar", "de": "Herbst", "typ": "wort", "beispiel": { "tr": "Sonbaharda çok yağmur yağıyor.", "de": "Im Herbst regnet es viel." } },
+        { "id": "w07-ilkbahar", "tr": "ilkbahar", "de": "Frühling", "typ": "wort", "beispiel": { "tr": "İlkbaharda hava ılık.", "de": "Im Frühling ist es mild." }, "merktipp": "ilk = erst, son = letzt: ilkbahar (erster Frühling) und sonbahar (letzter Frühling = Herbst)." },
+        { "id": "w07-ilik", "tr": "ılık", "de": "lauwarm / mild", "typ": "wort", "beispiel": { "tr": "Inaya'nın sütü ılık olsun.", "de": "Inayas Milch soll lauwarm sein." } },
+        { "id": "w07-en-sevdigim", "tr": "en sevdiğim …", "de": "mein liebste(r/s) …", "typ": "chunk", "beispiel": { "tr": "En sevdiğim renk mavi.", "de": "Meine Lieblingsfarbe ist Blau." } },
+        { "id": "w07-ayni", "tr": "aynı", "de": "gleich / derselbe", "typ": "wort", "beispiel": { "tr": "Aynı montu giyiyoruz!", "de": "Wir tragen dieselbe Jacke!" } }
+      ],
+      "grammatik": {
+        "titel": "Vergleich: daha & en",
+        "erklaerung": [
+          "Komparativ: daha + Adjektiv: daha büyük (größer), daha soğuk (kälter).",
+          "Mit wem? Ablativ -dan/-den: Amani benden daha ağır. = Amani ist schwerer als ich.",
+          "Superlativ: en + Adjektiv: en güzel (am schönsten).",
+          "Jahreszeiten mit „im“: kışın (im Winter), yazın (im Sommer), ilkbaharda, sonbaharda."
+        ],
+        "tabelle": {
+          "kopf": ["", "Türkisch"],
+          "zeilen": [
+            ["kalt", "soğuk"],
+            ["kälter", "daha soğuk"],
+            ["am kältesten", "en soğuk"],
+            ["kälter als gestern", "dünden daha soğuk"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bugün dünden daha soğuk.", "de": "Heute ist es kälter als gestern." },
+          { "tr": "Amani benden daha ağır!", "de": "Amani ist schwerer als ich!" },
+          { "tr": "En sevdiğim mevsim yaz.", "de": "Meine liebste Jahreszeit ist der Sommer." }
+        ]
+      },
+      "dialog": {
+        "titel": "Sommer oder Winter?",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "En sevdiğin mevsim hangisi?", "de": "Welche Jahreszeit magst du am liebsten?" },
+          { "sprecher": "Sherin", "tr": "Yaz! Kış çok soğuk ve uzun.", "de": "Sommer! Der Winter ist so kalt und lang." },
+          { "sprecher": "Pasha", "tr": "Türkiye'de yaz daha sıcak.", "de": "In der Türkei ist der Sommer wärmer." },
+          { "sprecher": "Sherin", "tr": "Biliyorum. Bazen çok sıcak!", "de": "Ich weiß. Manchmal zu heiß!" },
+          { "sprecher": "Pasha", "tr": "Ben en çok ilkbaharı seviyorum.", "de": "Ich mag den Frühling am meisten." },
+          { "sprecher": "Sherin", "tr": "İlkbahar da güzel. Hava ılık, her yer yeşil.", "de": "Der Frühling ist auch schön. Mild, und alles ist grün." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w07-kis", "w07-yaz", "w07-sonbahar", "w07-ilkbahar"] },
+        { "art": "auswahl_de_tr", "vokabel": "w07-daha" },
+        { "art": "luecke", "satz": "Bugün dün___ daha soğuk.", "loesung": "den", "optionen": ["den", "de", "e"], "de": "Heute ist es kälter als gestern." },
+        { "art": "hoeren", "vokabel": "w07-en-sevdigim" },
+        { "art": "satzbau", "tr": "En sevdiğim renk mavi.", "de": "Meine Lieblingsfarbe ist Blau." },
+        { "art": "auswahl_tr_de", "vokabel": "w07-ayni" },
+        { "art": "luecke", "satz": "___ güzel mevsim ilkbahar.", "loesung": "En", "optionen": ["En", "Daha", "Çok"], "de": "Die schönste Jahreszeit ist der Frühling." },
+        { "art": "hoeren", "vokabel": "w07-ilik" },
+        { "art": "tippen", "vokabel": "w07-yaz" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Vergleicht euch gegenseitig auf Türkisch – mit Augenzwinkern: Wer ist größer, wer schläft länger, wer kocht besser? Und: Was ist eure Lieblingsfarbe, Lieblingsjahreszeit?",
+        "mustersaetze": [
+          { "tr": "Sen benden daha uzunsun.", "de": "Du bist größer als ich." },
+          { "tr": "Ben senden daha güzel yemek yapıyorum!", "de": "Ich koche besser als du!" },
+          { "tr": "En sevdiğim mevsim yaz.", "de": "Meine liebste Jahreszeit ist der Sommer." }
+        ]
+      },
+      "alltagssatz": { "tr": "Bugün dünden daha soğuk.", "de": "Heute ist es kälter als gestern.", "wann": "Beim Morgen-Wetterbericht am Fenster." },
+      "merktipp": { "titel": "ilk & son", "text": "ilk = der erste, son = der letzte. ilkbahar ist der „erste Frühling“, sonbahar der „letzte“ – also Herbst. Mit dem Paar ilk/son kannst du dir noch viel mehr merken." }
+    },
+    {
+      "woche": 7,
+      "tag": 6,
+      "titel": "Festigungstag: Wetter und Garderobe",
+      "kannZiel": "Wetter und Kleidung in einem Gespräch verbinden",
+      "vokabeln": [
+        { "id": "w07-hava-durumu", "tr": "hava durumu", "de": "Wetterbericht", "typ": "chunk", "beispiel": { "tr": "Hava durumu ne diyor?", "de": "Was sagt der Wetterbericht?" } },
+        { "id": "w07-usuyorum", "tr": "Üşüyorum.", "de": "Mir ist kalt.", "typ": "chunk", "beispiel": { "tr": "Kapıyı kapat, üşüyorum!", "de": "Mach die Tür zu, mir ist kalt!" } },
+        { "id": "w07-sana-yakisiyor", "tr": "Sana çok yakışıyor!", "de": "Das steht dir sehr gut!", "typ": "chunk", "beispiel": { "tr": "Bu renk sana çok yakışıyor!", "de": "Die Farbe steht dir sehr gut!" } },
+        { "id": "w07-disarisi", "tr": "dışarısı", "de": "draußen", "typ": "wort", "beispiel": { "tr": "Dışarısı çok soğuk.", "de": "Draußen ist es sehr kalt." } },
+        { "id": "w07-islak", "tr": "ıslak", "de": "nass", "typ": "wort", "beispiel": { "tr": "Amani ıslak! Dikkat!", "de": "Amani ist nass! Vorsicht!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Adjektiv vor dem Nomen, çok/biraz davor, daha/en zum Vergleichen.",
+          "Wetter: Hava + Adjektiv, Yağmur/Kar yağıyor."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["Wetter", "Hava soğuk ve bulutlu."],
+            ["Kleidung", "Kalın montunu giy."],
+            ["Farbe", "Kırmızı bere"],
+            ["Vergleich", "Bugün dünden daha soğuk."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Dışarısı çok soğuk, kalın montunu giy.", "de": "Draußen ist es sehr kalt, zieh deine dicke Jacke an." },
+          { "tr": "Bu renk sana çok yakışıyor!", "de": "Die Farbe steht dir sehr gut!" },
+          { "tr": "Üşüyorum.", "de": "Mir ist kalt." }
+        ]
+      },
+      "dialog": {
+        "titel": "Spaziergang im Regen",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Hava durumu ne diyor?", "de": "Was sagt der Wetterbericht?" },
+          { "sprecher": "Pasha", "tr": "Öğleden sonra yağmur yağıyor.", "de": "Am Nachmittag regnet es." },
+          { "sprecher": "Sherin", "tr": "O zaman şimdi gidiyoruz! Inaya'nın kırmızı montu nerede?", "de": "Dann gehen wir jetzt! Wo ist Inayas rote Jacke?" },
+          { "sprecher": "Pasha", "tr": "Burada. Bere de burada.", "de": "Hier. Die Mütze auch." },
+          { "sprecher": "Sherin", "tr": "Ay, bere ona çok yakışıyor!", "de": "Ach, die Mütze steht ihr so gut!" },
+          { "sprecher": "Pasha", "tr": "Hadi, dışarısı soğuk ama güneşli.", "de": "Los, draußen ist es kalt, aber sonnig." },
+          { "sprecher": "Sherin", "tr": "Brr, üşüyorum! Atkımı unuttum!", "de": "Brr, mir ist kalt! Ich hab meinen Schal vergessen!" },
+          { "sprecher": "Pasha", "tr": "Al, benim atkım. Sana daha çok yakışıyor.", "de": "Hier, mein Schal. Der steht dir sowieso besser." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w07-hava-durumu", "w07-usuyorum", "w07-disarisi", "w07-islak"] },
+        { "art": "hoeren", "vokabel": "w07-sana-yakisiyor" },
+        { "art": "satzbau", "tr": "Dışarısı çok soğuk.", "de": "Draußen ist es sehr kalt." },
+        { "art": "auswahl_de_tr", "vokabel": "w07-usuyorum" },
+        { "art": "luecke", "satz": "Kalın mont___ giy.", "loesung": "unu", "optionen": ["unu", "un", "u"], "de": "Zieh deine dicke Jacke an." },
+        { "art": "hoeren", "vokabel": "w07-kirmizi" },
+        { "art": "auswahl_tr_de", "vokabel": "w07-islak" },
+        { "art": "satzbau", "tr": "Bu renk sana çok yakışıyor!", "de": "Die Farbe steht dir sehr gut!" },
+        { "art": "tippen", "vokabel": "w07-soguk" },
+        { "art": "auswahl_de_tr", "vokabel": "w07-en" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Plant laut auf Türkisch, was alle drei (du, Pasha, Inaya) heute anziehen – passend zum Wetter. Mit Farben und mindestens einem Vergleich.",
+        "mustersaetze": [
+          { "tr": "Hava soğuk, kalın montlarımızı giyiyoruz.", "de": "Es ist kalt, wir ziehen unsere dicken Jacken an." },
+          { "tr": "Inaya kırmızı bereyi giyiyor.", "de": "Inaya trägt die rote Mütze." },
+          { "tr": "Bu mont daha sıcak.", "de": "Diese Jacke ist wärmer." }
+        ]
+      },
+      "alltagssatz": { "tr": "Sana çok yakışıyor!", "de": "Das steht dir sehr gut!", "wann": "Heute an Pasha – oder an Inaya in ihrem Lieblingsoutfit." },
+      "merktipp": { "titel": "Üşümek ≠ soğuk", "text": "Hava soğuk = Das Wetter ist kalt. Üşüyorum = Ich friere / mir ist kalt. Für dein eigenes Gefühl nimm immer üşümek." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Mach den Wetterbericht für heute und morgen.", "hilfe": { "tr": "Bugün hava soğuk ve bulutlu. Yarın yağmur yağıyor.", "de": "Heute ist es kalt und bewölkt. Morgen regnet es." } },
+      { "situation": "Beschreib, was du gerade anhast – mit Farben.", "hilfe": { "tr": "Mavi bir pantolon ve beyaz bir kazak giyiyorum.", "de": "Ich trage eine blaue Hose und einen weißen Pulli." } },
+      { "situation": "Vergleiche zwei Dinge in eurer Wohnung.", "hilfe": { "tr": "Salon mutfaktan daha büyük.", "de": "Das Wohnzimmer ist größer als die Küche." } }
+    ]
+  }
+}
