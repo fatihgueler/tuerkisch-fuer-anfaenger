@@ -56,7 +56,7 @@ export const LektionSchema = z.object({
     titel: nichtLeer,
     erklaerung: z.array(nichtLeer).min(1).max(5),
     tabelle: z
-      .object({ kopf: z.array(nichtLeer), zeilen: z.array(z.array(z.string())) })
+      .object({ kopf: z.array(z.string()), zeilen: z.array(z.array(z.string())) })
       .optional(),
     beispiele: z.array(SatzSchema).min(1).max(4),
   }),

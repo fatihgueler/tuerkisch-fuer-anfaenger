@@ -1,0 +1,584 @@
+{
+  "woche": 1,
+  "lektionen": [
+    {
+      "woche": 1,
+      "tag": 1,
+      "titel": "Ich, du, er, sie",
+      "kannZiel": "dich mit Namen vorstellen und nach dem Namen fragen",
+      "vokabeln": [
+        { "id": "w01-ben", "tr": "ben", "de": "ich", "typ": "wort", "beispiel": { "tr": "Ben Sherin.", "de": "Ich bin Sherin." } },
+        { "id": "w01-sen", "tr": "sen", "de": "du", "typ": "wort", "beispiel": { "tr": "Sen nasılsın?", "de": "Wie geht's dir?" } },
+        {
+          "id": "w01-o",
+          "tr": "o",
+          "de": "er / sie / es",
+          "typ": "wort",
+          "beispiel": { "tr": "O kim?", "de": "Wer ist das?" },
+          "merktipp": "Kein Streit um er oder sie: o heißt beides – und auch „es“. Praktisch!"
+        },
+        { "id": "w01-benim-adim", "tr": "Benim adım …", "de": "Ich heiße … / Mein Name ist …", "typ": "chunk", "beispiel": { "tr": "Benim adım Sherin.", "de": "Ich heiße Sherin." } },
+        { "id": "w01-senin-adin-ne", "tr": "Senin adın ne?", "de": "Wie heißt du?", "typ": "chunk", "beispiel": { "tr": "Merhaba! Senin adın ne?", "de": "Hallo! Wie heißt du?" } },
+        { "id": "w01-memnun-oldum", "tr": "Memnun oldum.", "de": "Freut mich.", "typ": "chunk", "beispiel": { "tr": "Ben Sherin. Memnun oldum.", "de": "Ich bin Sherin. Freut mich." } },
+        { "id": "w01-ben-de", "tr": "ben de", "de": "ich auch", "typ": "chunk", "beispiel": { "tr": "Ben de memnun oldum.", "de": "Freut mich auch." } },
+        { "id": "w01-kim", "tr": "kim?", "de": "wer?", "typ": "wort", "beispiel": { "tr": "Bu kim?", "de": "Wer ist das?" } },
+        { "id": "w01-bu", "tr": "bu", "de": "das (hier) / dies", "typ": "wort", "beispiel": { "tr": "Bu Inaya.", "de": "Das ist Inaya." } }
+      ],
+      "grammatik": {
+        "titel": "Personalpronomen – wer?",
+        "erklaerung": [
+          "Türkisch hat sechs Personalpronomen (Fürwörter für Personen).",
+          "o heißt „er“, „sie“ und „es“ – es gibt kein grammatisches Geschlecht.",
+          "siz ist „ihr“ und gleichzeitig das höfliche „Sie“. Das brauchst du erst später.",
+          "Pronomen lässt man oft weg, weil die Endung schon zeigt, wer gemeint ist – das kommt morgen."
+        ],
+        "tabelle": {
+          "kopf": ["Türkisch", "Deutsch"],
+          "zeilen": [
+            ["ben", "ich"],
+            ["sen", "du"],
+            ["o", "er / sie / es"],
+            ["biz", "wir"],
+            ["siz", "ihr / Sie"],
+            ["onlar", "sie (Mehrzahl)"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Ben Sherin.", "de": "Ich bin Sherin." },
+          { "tr": "Bu Pasha.", "de": "Das ist Pasha." },
+          { "tr": "O kim?", "de": "Wer ist das?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Wie damals: das erste Kennenlernen",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Merhaba! Benim adım Pasha. Senin adın ne?", "de": "Hallo! Ich heiße Pasha. Wie heißt du?" },
+          { "sprecher": "Sherin", "tr": "Merhaba! Benim adım Sherin.", "de": "Hallo! Ich heiße Sherin." },
+          { "sprecher": "Pasha", "tr": "Memnun oldum.", "de": "Freut mich." },
+          { "sprecher": "Sherin", "tr": "Ben de memnun oldum.", "de": "Freut mich auch." },
+          { "sprecher": "Pasha", "tr": "Bu kim?", "de": "Und wer ist das?" },
+          { "sprecher": "Sherin", "tr": "Bu Inaya. Bu da Amani.", "de": "Das ist Inaya. Und das ist Amani." }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_de_tr", "vokabel": "w01-ben" },
+        { "art": "auswahl_tr_de", "vokabel": "w01-o" },
+        { "art": "hoeren", "vokabel": "w01-senin-adin-ne" },
+        { "art": "zuordnen", "vokabeln": ["w01-ben", "w01-sen", "w01-o", "w01-kim"] },
+        { "art": "satzbau", "tr": "Benim adım Sherin.", "de": "Ich heiße Sherin." },
+        { "art": "tippen", "vokabel": "w01-bu" },
+        { "art": "hoeren", "vokabel": "w01-memnun-oldum" },
+        {
+          "art": "luecke",
+          "satz": "Ben ___ memnun oldum.",
+          "loesung": "de",
+          "optionen": ["de", "bu", "kim"],
+          "de": "Freut mich auch."
+        },
+        { "art": "auswahl_de_tr", "vokabel": "w01-senin-adin-ne" },
+        { "art": "satzbau", "tr": "Bu kim?", "de": "Wer ist das?", "extra": ["ben"] },
+        { "art": "tippen", "vokabel": "w01-kim" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Spielt euer erstes Kennenlernen nach – auf Türkisch! Pasha fragt nach deinem Namen, du stellst dich vor. Dann zeigt er auf Inaya und Amani und fragt „Bu kim?“.",
+        "mustersaetze": [
+          { "tr": "Benim adım Sherin. Senin adın ne?", "de": "Ich heiße Sherin. Wie heißt du?" },
+          { "tr": "Ben de memnun oldum.", "de": "Freut mich auch." },
+          { "tr": "Bu Inaya. Bu da Amani.", "de": "Das ist Inaya. Und das ist Amani." }
+        ]
+      },
+      "alltagssatz": { "tr": "Bu kim?", "de": "Wer ist das?", "wann": "Zeig Pasha ein Foto aus seiner Familie und frag ihn." },
+      "merktipp": {
+        "titel": "Pronomen sind optional",
+        "text": "Im Türkischen darf man ben, sen, o meistens weglassen – die Endung verrät, wer gemeint ist. Mit Pronomen klingt es betont: „BEN Sherin“ = „ICH bin Sherin“."
+      }
+    },
+    {
+      "woche": 1,
+      "tag": 2,
+      "titel": "Ich bin müde – „sein“ als Lego-Stein",
+      "kannZiel": "sagen, wie es dir geht und wer du bist",
+      "vokabeln": [
+        {
+          "id": "w01-cok",
+          "tr": "çok",
+          "de": "sehr / viel",
+          "typ": "wort",
+          "beispiel": { "tr": "Çok yorgunum.", "de": "Ich bin total müde." },
+          "merktipp": "çok klingt wie „Schock“ – so viel!"
+        },
+        { "id": "w01-yorgun", "tr": "yorgun", "de": "müde", "typ": "wort", "beispiel": { "tr": "Pasha yorgun.", "de": "Pasha ist müde." } },
+        { "id": "w01-mutlu", "tr": "mutlu", "de": "glücklich", "typ": "wort", "beispiel": { "tr": "Çok mutluyum.", "de": "Ich bin sehr glücklich." } },
+        { "id": "w01-ac", "tr": "aç", "de": "hungrig", "typ": "wort", "beispiel": { "tr": "Inaya aç.", "de": "Inaya hat Hunger." } },
+        {
+          "id": "w01-evli",
+          "tr": "evli",
+          "de": "verheiratet",
+          "typ": "wort",
+          "beispiel": { "tr": "Ben evliyim.", "de": "Ich bin verheiratet." },
+          "merktipp": "evli kommt von ev (Haus): Wer verheiratet ist, hat ein gemeinsames Haus."
+        },
+        { "id": "w01-alman", "tr": "Alman", "de": "Deutsche / Deutscher", "typ": "wort", "beispiel": { "tr": "Ben Almanım.", "de": "Ich bin Deutsche." } },
+        { "id": "w01-turk", "tr": "Türk", "de": "Türke / Türkin", "typ": "wort", "beispiel": { "tr": "Pasha Türk.", "de": "Pasha ist Türke." } },
+        {
+          "id": "w01-kuafor",
+          "tr": "kuaför",
+          "de": "Friseurin / Friseur",
+          "typ": "wort",
+          "beispiel": { "tr": "Ben kuaförüm.", "de": "Ich bin Friseurin." },
+          "merktipp": "Klingt wie „Coiffeur“ – das Wort kommt aus dem Französischen."
+        }
+      ],
+      "grammatik": {
+        "titel": "„sein“ ist eine Endung",
+        "erklaerung": [
+          "„sein“ ist im Türkischen kein eigenes Wort, sondern ein Lego-Stein, den du ans Wort klickst: yorgun + um = yorgunum (ich bin müde).",
+          "Den Vokal der Endung bestimmt der letzte Vokal im Wort (Vokalharmonie): a/ı → ı, e/i → i, o/u → u, ö/ü → ü.",
+          "Endet das Wort auf einen Vokal, kommt ein y dazwischen: evli → evliyim.",
+          "Bei „er/sie“ (o) braucht man im Gespräch meistens gar keine Endung: Pasha yorgun.",
+          "Die Endung ist unbetont – betont wird die Silbe davor: yorGUNum."
+        ],
+        "tabelle": {
+          "kopf": ["", "a / ı", "e / i", "o / u", "ö / ü"],
+          "zeilen": [
+            ["ich bin", "Almanım", "evliyim", "yorgunum", "kuaförüm"],
+            ["du bist", "Almansın", "evlisin", "yorgunsun", "kuaförsün"],
+            ["er/sie ist", "Alman", "evli", "yorgun", "kuaför"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Çok yorgunum.", "de": "Ich bin total müde." },
+          { "tr": "Ben Almanım, Pasha Türk.", "de": "Ich bin Deutsche, Pasha ist Türke." },
+          { "tr": "Ben kuaförüm.", "de": "Ich bin Friseurin." }
+        ]
+      },
+      "dialog": {
+        "titel": "Abends auf dem Sofa",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "İyi akşamlar, Sherin. Nasılsın?", "de": "Guten Abend, Sherin. Wie geht's dir?" },
+          { "sprecher": "Sherin", "tr": "Çok yorgunum. Sen?", "de": "Ich bin total müde. Und du?" },
+          { "sprecher": "Pasha", "tr": "Ben de yorgunum. Ama mutluyum.", "de": "Ich bin auch müde. Aber glücklich." },
+          { "sprecher": "Sherin", "tr": "Inaya da mutlu. Bak!", "de": "Inaya ist auch glücklich. Schau!" },
+          { "sprecher": "Pasha", "tr": "Ama Amani aç.", "de": "Aber Amani hat Hunger." },
+          { "sprecher": "Sherin", "tr": "Amani her zaman aç!", "de": "Amani hat immer Hunger!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_tr_de", "vokabel": "w01-yorgun" },
+        {
+          "art": "luecke",
+          "satz": "Çok yorgun___.",
+          "loesung": "um",
+          "optionen": ["um", "ım", "im", "üm"],
+          "de": "Ich bin total müde.",
+          "hinweis": "Letzter Vokal im Wort: u"
+        },
+        { "art": "auswahl_de_tr", "vokabel": "w01-mutlu" },
+        {
+          "art": "luecke",
+          "satz": "Ben kuaför___.",
+          "loesung": "üm",
+          "optionen": ["üm", "um", "im", "ım"],
+          "de": "Ich bin Friseurin.",
+          "hinweis": "Letzter Vokal im Wort: ö"
+        },
+        { "art": "hoeren", "vokabel": "w01-ac" },
+        { "art": "zuordnen", "vokabeln": ["w01-cok", "w01-yorgun", "w01-mutlu", "w01-evli"] },
+        {
+          "art": "luecke",
+          "satz": "Sen Alman___.",
+          "loesung": "sın",
+          "optionen": ["sın", "sin", "sun", "sün"],
+          "de": "Du bist Deutsche.",
+          "hinweis": "Letzter Vokal im Wort: a"
+        },
+        { "art": "satzbau", "tr": "Ben Almanım, Pasha Türk.", "de": "Ich bin Deutsche, Pasha ist Türke." },
+        { "art": "tippen", "vokabel": "w01-cok" },
+        {
+          "art": "luecke",
+          "satz": "Ben evli___.",
+          "loesung": "yim",
+          "optionen": ["yim", "im", "yım"],
+          "de": "Ich bin verheiratet.",
+          "hinweis": "evli endet auf einen Vokal → y dazwischen"
+        },
+        { "art": "hoeren", "vokabel": "w01-kuafor" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Sag Pasha heute Abend drei Sätze darüber, wie du dich fühlst und wer du bist. Benutze: yorgun, mutlu, aç, çok. Pasha antwortet mit „Ben de …“ oder sagt, wie es ihm geht.",
+        "mustersaetze": [
+          { "tr": "Çok yorgunum.", "de": "Ich bin total müde." },
+          { "tr": "Ama mutluyum.", "de": "Aber ich bin glücklich." },
+          { "tr": "Ben kuaförüm!", "de": "Ich bin Friseurin!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Açım!", "de": "Ich habe Hunger!", "wann": "Kurz vor dem Abendessen – sag es laut in Richtung Küche." },
+      "merktipp": {
+        "titel": "Endungen sind Lego-Steine",
+        "text": "Du baust Wörter wie mit Lego: yorgun + um, Alman + ım, kuaför + üm. Der Stein passt sich farblich an – das ist die Vokalharmonie."
+      }
+    },
+    {
+      "woche": 1,
+      "tag": 3,
+      "titel": "Woher? Wo? – Garbsen'de oturuyorum",
+      "kannZiel": "sagen, woher du kommst, wo du wohnst und welche Sprachen du sprichst",
+      "vokabeln": [
+        { "id": "w01-nerelisin", "tr": "Nerelisin?", "de": "Woher kommst du?", "typ": "chunk", "beispiel": { "tr": "Merhaba! Nerelisin?", "de": "Hallo! Woher kommst du?" } },
+        { "id": "w01-almanyaliyim", "tr": "Almanyalıyım.", "de": "Ich komme aus Deutschland.", "typ": "chunk", "beispiel": { "tr": "Ben Almanyalıyım, Pasha Türk.", "de": "Ich komme aus Deutschland, Pasha ist Türke." } },
+        { "id": "w01-nerede-oturuyorsun", "tr": "Nerede oturuyorsun?", "de": "Wo wohnst du?", "typ": "chunk", "beispiel": { "tr": "Sherin, nerede oturuyorsun?", "de": "Sherin, wo wohnst du?" } },
+        { "id": "w01-garbsende-oturuyorum", "tr": "Garbsen'de oturuyorum.", "de": "Ich wohne in Garbsen.", "typ": "chunk", "beispiel": { "tr": "Garbsen'de oturuyorum, Hannover'in yanında.", "de": "Ich wohne in Garbsen, bei Hannover." } },
+        { "id": "w01-nerede", "tr": "nerede?", "de": "wo?", "typ": "wort", "beispiel": { "tr": "Amani nerede?", "de": "Wo ist Amani?" } },
+        { "id": "w01-almanca", "tr": "Almanca", "de": "Deutsch (Sprache)", "typ": "wort", "beispiel": { "tr": "Ben Almanca konuşuyorum.", "de": "Ich spreche Deutsch." } },
+        { "id": "w01-turkce", "tr": "Türkçe", "de": "Türkisch (Sprache)", "typ": "wort", "beispiel": { "tr": "Türkçe öğreniyorum.", "de": "Ich lerne Türkisch." } },
+        { "id": "w01-biraz", "tr": "biraz", "de": "ein bisschen", "typ": "wort", "beispiel": { "tr": "Biraz Türkçe konuşuyorum.", "de": "Ich spreche ein bisschen Türkisch." } }
+      ],
+      "grammatik": {
+        "titel": "Chunks zuerst: wohnen, kommen, sprechen",
+        "erklaerung": [
+          "Lern „Garbsen'de oturuyorum“ erst einmal als festen Block – die Bauteile kommen in Woche 3 und 4.",
+          "-de heißt hier „in“: Garbsen'de = in Garbsen. Bei Namen trennt ein Apostroph die Endung ab.",
+          "-ca/-çe macht aus einem Volk die Sprache: Alman → Almanca (Deutsch), Türk → Türkçe (Türkisch).",
+          "-lı/-li heißt „von dort“: Almanya (Deutschland) → Almanyalı (aus Deutschland)."
+        ],
+        "beispiele": [
+          { "tr": "Garbsen'de oturuyorum.", "de": "Ich wohne in Garbsen." },
+          { "tr": "Biraz Türkçe konuşuyorum.", "de": "Ich spreche ein bisschen Türkisch." },
+          { "tr": "Almanyalıyım.", "de": "Ich komme aus Deutschland." }
+        ]
+      },
+      "dialog": {
+        "titel": "Neue Nachbarin im Treppenhaus",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Merhaba! Ben Elif. Senin adın ne?", "de": "Hallo! Ich bin Elif. Wie heißt du?" },
+          { "sprecher": "Sherin", "tr": "Merhaba! Benim adım Sherin. Memnun oldum.", "de": "Hallo! Ich heiße Sherin. Freut mich." },
+          { "sprecher": "Elif", "tr": "Ben de memnun oldum. Nerelisin?", "de": "Freut mich auch. Woher kommst du?" },
+          { "sprecher": "Sherin", "tr": "Almanyalıyım. Burada, Garbsen'de oturuyorum.", "de": "Aus Deutschland. Ich wohne hier in Garbsen." },
+          { "sprecher": "Elif", "tr": "Türkçe konuşuyor musun?", "de": "Sprichst du Türkisch?" },
+          { "sprecher": "Sherin", "tr": "Biraz. Türkçe öğreniyorum.", "de": "Ein bisschen. Ich lerne Türkisch." },
+          { "sprecher": "Elif", "tr": "Çok iyi!", "de": "Sehr gut!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_tr_de", "vokabel": "w01-nerelisin" },
+        { "art": "hoeren", "vokabel": "w01-garbsende-oturuyorum" },
+        { "art": "auswahl_de_tr", "vokabel": "w01-almanca" },
+        { "art": "satzbau", "tr": "Biraz Türkçe konuşuyorum.", "de": "Ich spreche ein bisschen Türkisch." },
+        { "art": "tippen", "vokabel": "w01-nerede" },
+        {
+          "art": "luecke",
+          "satz": "Garbsen'___ oturuyorum.",
+          "loesung": "de",
+          "optionen": ["de", "da", "di"],
+          "de": "Ich wohne in Garbsen.",
+          "hinweis": "Garbsen – letzter Vokal e"
+        },
+        { "art": "zuordnen", "vokabeln": ["w01-almanca", "w01-turkce", "w01-biraz", "w01-nerede"] },
+        { "art": "auswahl_de_tr", "vokabel": "w01-nerede-oturuyorsun" },
+        { "art": "hoeren", "vokabel": "w01-almanyaliyim" },
+        { "art": "satzbau", "tr": "Türkçe öğreniyorum.", "de": "Ich lerne Türkisch." },
+        { "art": "tippen", "vokabel": "w01-biraz" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Stell dich Pasha vor, als würdet ihr euch nicht kennen: Name, woher du kommst, wo du wohnst und welche Sprachen du sprichst. Pasha fragt nach – du antwortest.",
+        "mustersaetze": [
+          { "tr": "Benim adım Sherin. Almanyalıyım.", "de": "Ich heiße Sherin. Ich komme aus Deutschland." },
+          { "tr": "Garbsen'de oturuyorum.", "de": "Ich wohne in Garbsen." },
+          { "tr": "Almanca konuşuyorum. Biraz Türkçe konuşuyorum.", "de": "Ich spreche Deutsch. Ein bisschen Türkisch spreche ich auch." }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Biraz Türkçe konuşuyorum.",
+        "de": "Ich spreche ein bisschen Türkisch.",
+        "wann": "Wenn heute jemand Türkisch mit dir spricht – auch am Telefon mit Pashas Familie."
+      },
+      "merktipp": {
+        "titel": "Ein Stein für alle Sprachen",
+        "text": "-ca/-çe macht aus einem Volk die Sprache: Alman-ca, Türk-çe, İngiliz-ce (Englisch). Ein Lego-Stein für alle Sprachen."
+      }
+    },
+    {
+      "woche": 1,
+      "tag": 4,
+      "titel": "Fragen mit mi",
+      "kannZiel": "Ja/Nein-Fragen stellen und mit „nicht“ antworten",
+      "vokabeln": [
+        { "id": "w01-mi", "tr": "mi? (mı, mu, mü)", "de": "Fragewort für Ja/Nein-Fragen", "typ": "wort", "beispiel": { "tr": "Yorgun musun?", "de": "Bist du müde?" } },
+        { "id": "w01-degil", "tr": "değil", "de": "nicht (bei „sein“)", "typ": "wort", "beispiel": { "tr": "Yorgun değilim.", "de": "Ich bin nicht müde." } },
+        { "id": "w01-ac-misin", "tr": "Aç mısın?", "de": "Hast du Hunger?", "typ": "chunk", "beispiel": { "tr": "Pasha, aç mısın?", "de": "Pasha, hast du Hunger?" } },
+        { "id": "w01-hazir", "tr": "hazır", "de": "fertig / bereit", "typ": "wort", "beispiel": { "tr": "Hazır mısın?", "de": "Bist du fertig?" } },
+        { "id": "w01-uykulu", "tr": "uykulu", "de": "schläfrig", "typ": "wort", "beispiel": { "tr": "Inaya çok uykulu.", "de": "Inaya ist sehr schläfrig." } },
+        { "id": "w01-sicak", "tr": "sıcak", "de": "heiß / warm", "typ": "wort", "beispiel": { "tr": "Çay sıcak mı?", "de": "Ist der Tee heiß?" } },
+        { "id": "w01-tamam", "tr": "tamam", "de": "okay / in Ordnung", "typ": "wort", "beispiel": { "tr": "Tamam, teşekkürler.", "de": "Okay, danke." } },
+        { "id": "w01-tabii", "tr": "tabii", "de": "klar / natürlich", "typ": "wort", "beispiel": { "tr": "Mutlu musun? – Tabii!", "de": "Bist du glücklich? – Na klar!" } },
+        { "id": "w01-gercekten-mi", "tr": "Gerçekten mi?", "de": "Wirklich?", "typ": "chunk", "beispiel": { "tr": "Gerçekten mi? Çok iyi!", "de": "Wirklich? Super!" } }
+      ],
+      "grammatik": {
+        "titel": "mi – das gesprochene Fragezeichen",
+        "erklaerung": [
+          "Ja/Nein-Fragen bildest du mit dem kleinen Wort mi. Es steht hinter dem Wort, nach dem du fragst.",
+          "mi folgt der Vokalharmonie: mı, mi, mu, mü.",
+          "Die Personalendung hängt dann an mi: Yorgun musun? = Bist du müde?",
+          "Verneinung bei „sein“: değil + Endung. Yorgun değilim. = Ich bin nicht müde."
+        ],
+        "tabelle": {
+          "kopf": ["letzter Vokal", "Frage", "Beispiel"],
+          "zeilen": [
+            ["a / ı", "mı", "Aç mısın?"],
+            ["e / i", "mi", "Evli misin?"],
+            ["o / u", "mu", "Yorgun musun?"],
+            ["ö / ü", "mü", "Kuaför müsün?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Aç mısın?", "de": "Hast du Hunger?" },
+          { "tr": "Hazır mısın?", "de": "Bist du fertig?" },
+          { "tr": "Hayır, yorgun değilim.", "de": "Nein, ich bin nicht müde." }
+        ]
+      },
+      "dialog": {
+        "titel": "Gleich geht's los",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, hazır mısın?", "de": "Pasha, bist du fertig?" },
+          { "sprecher": "Pasha", "tr": "Hayır, hazır değilim. Bir dakika!", "de": "Nein, noch nicht. Eine Minute!" },
+          { "sprecher": "Sherin", "tr": "Inaya uykulu mu?", "de": "Ist Inaya müde?" },
+          { "sprecher": "Pasha", "tr": "Evet, çok uykulu.", "de": "Ja, sehr." },
+          { "sprecher": "Sherin", "tr": "Aç mı?", "de": "Hat sie Hunger?" },
+          { "sprecher": "Pasha", "tr": "Hayır, aç değil.", "de": "Nein, sie hat keinen Hunger." },
+          { "sprecher": "Sherin", "tr": "Tamam. Ben hazırım!", "de": "Okay. Ich bin fertig!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_de_tr", "vokabel": "w01-ac-misin" },
+        {
+          "art": "luecke",
+          "satz": "Yorgun ___?",
+          "loesung": "musun",
+          "optionen": ["musun", "mısın", "misin", "müsün"],
+          "de": "Bist du müde?",
+          "hinweis": "yorgun – letzter Vokal u"
+        },
+        { "art": "auswahl_tr_de", "vokabel": "w01-degil" },
+        { "art": "hoeren", "vokabel": "w01-hazir" },
+        {
+          "art": "luecke",
+          "satz": "Evli ___?",
+          "loesung": "misin",
+          "optionen": ["misin", "mısın", "musun"],
+          "de": "Bist du verheiratet?",
+          "hinweis": "evli – letzter Vokal i"
+        },
+        { "art": "satzbau", "tr": "Hayır, yorgun değilim.", "de": "Nein, ich bin nicht müde." },
+        { "art": "zuordnen", "vokabeln": ["w01-tamam", "w01-tabii", "w01-sicak", "w01-uykulu"] },
+        { "art": "hoeren", "vokabel": "w01-gercekten-mi" },
+        { "art": "satzbau", "tr": "Çay sıcak mı?", "de": "Ist der Tee heiß?" },
+        { "art": "tippen", "vokabel": "w01-tamam" },
+        { "art": "auswahl_tr_de", "vokabel": "w01-hazir" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Stell Pasha fünf Ja/Nein-Fragen – er darf nur mit „Evet“ oder „Hayır, … değilim“ antworten. Danach tauscht ihr die Rollen.",
+        "mustersaetze": [
+          { "tr": "Yorgun musun?", "de": "Bist du müde?" },
+          { "tr": "Aç mısın?", "de": "Hast du Hunger?" },
+          { "tr": "Hayır, yorgun değilim.", "de": "Nein, ich bin nicht müde." }
+        ]
+      },
+      "alltagssatz": { "tr": "Hazır mısın?", "de": "Bist du fertig?", "wann": "Bevor ihr heute aus dem Haus geht – zum Gassi mit Amani oder zum Einkaufen." },
+      "merktipp": {
+        "titel": "mi statt Stimme heben",
+        "text": "Im Deutschen hebst du am Satzende die Stimme. Im Türkischen übernimmt mi diese Arbeit – du setzt es direkt hinter das Wort, nach dem du fragst."
+      }
+    },
+    {
+      "woche": 1,
+      "tag": 5,
+      "titel": "Zahlen 1–10",
+      "kannZiel": "bis zehn zählen und nach der Uhrzeit fragen",
+      "vokabeln": [
+        { "id": "w01-bir", "tr": "bir", "de": "eins", "typ": "wort", "beispiel": { "tr": "Bir çay, lütfen.", "de": "Einen Tee, bitte." } },
+        { "id": "w01-iki", "tr": "iki", "de": "zwei", "typ": "wort", "beispiel": { "tr": "İki kahve, lütfen.", "de": "Zwei Kaffee, bitte." } },
+        { "id": "w01-uc", "tr": "üç", "de": "drei", "typ": "wort", "beispiel": { "tr": "Üç dakika!", "de": "Drei Minuten!" } },
+        { "id": "w01-dort", "tr": "dört", "de": "vier", "typ": "wort", "beispiel": { "tr": "Dört ayak, bir kuyruk: Amani!", "de": "Vier Beine, ein Schwanz: Amani!" } },
+        { "id": "w01-bes", "tr": "beş", "de": "fünf", "typ": "wort", "beispiel": { "tr": "Beş dakika, lütfen!", "de": "Fünf Minuten, bitte!" } },
+        { "id": "w01-alti", "tr": "altı", "de": "sechs", "typ": "wort", "beispiel": { "tr": "Saat altı.", "de": "Es ist sechs Uhr." } },
+        { "id": "w01-yedi", "tr": "yedi", "de": "sieben", "typ": "wort", "beispiel": { "tr": "Haftada yedi gün.", "de": "Sieben Tage die Woche." } },
+        {
+          "id": "w01-sekiz",
+          "tr": "sekiz",
+          "de": "acht",
+          "typ": "wort",
+          "beispiel": { "tr": "Sekiz saat uyku – bir rüya!", "de": "Acht Stunden Schlaf – ein Traum!" },
+          "merktipp": "Achtung, Falle: sekiz klingt nach „sechs“, ist aber acht! Sechs heißt altı."
+        },
+        { "id": "w01-dokuz", "tr": "dokuz", "de": "neun", "typ": "wort", "beispiel": { "tr": "Dokuz mu, on mu?", "de": "Neun oder zehn?" } },
+        { "id": "w01-on", "tr": "on", "de": "zehn", "typ": "wort", "beispiel": { "tr": "On dakika mola!", "de": "Zehn Minuten Pause!" } }
+      ],
+      "grammatik": {
+        "titel": "Zahl + Einzahl",
+        "erklaerung": [
+          "Nach einer Zahl bleibt das Nomen in der Einzahl: iki kahve (zwei Kaffee), üç dakika (drei Minuten).",
+          "Kaç? heißt „wie viele?“ – auch danach steht die Einzahl: Kaç dakika? (Wie viele Minuten?)",
+          "Uhrzeit fragen: Saat kaç? – Antwort: Saat altı. (Es ist sechs.)"
+        ],
+        "beispiele": [
+          { "tr": "İki çay, lütfen.", "de": "Zwei Tee, bitte." },
+          { "tr": "Kaç dakika?", "de": "Wie viele Minuten?" },
+          { "tr": "Saat kaç? – Saat yedi.", "de": "Wie spät ist es? – Sieben Uhr." }
+        ]
+      },
+      "dialog": {
+        "titel": "Zählen mit Inaya",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Inaya, bak: bir, iki, üç, dört, beş!", "de": "Inaya, schau: eins, zwei, drei, vier, fünf!" },
+          { "sprecher": "Pasha", "tr": "Beş parmak! Bravo!", "de": "Fünf Finger! Bravo!" },
+          { "sprecher": "Sherin", "tr": "Saat kaç?", "de": "Wie spät ist es?" },
+          { "sprecher": "Pasha", "tr": "Saat yedi.", "de": "Sieben Uhr." },
+          { "sprecher": "Sherin", "tr": "Kahve?", "de": "Kaffee?" },
+          { "sprecher": "Pasha", "tr": "Evet, lütfen! İki kahve.", "de": "Ja, bitte! Zwei Kaffee." },
+          { "sprecher": "Sherin", "tr": "Tamam. Beş dakika!", "de": "Okay. Fünf Minuten!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w01-bir", "w01-iki", "w01-uc", "w01-dort", "w01-bes"] },
+        { "art": "hoeren", "vokabel": "w01-sekiz" },
+        { "art": "auswahl_de_tr", "vokabel": "w01-alti" },
+        { "art": "zuordnen", "vokabeln": ["w01-alti", "w01-yedi", "w01-sekiz", "w01-dokuz", "w01-on"] },
+        { "art": "tippen", "vokabel": "w01-uc" },
+        { "art": "hoeren", "vokabel": "w01-yedi" },
+        {
+          "art": "luecke",
+          "satz": "Saat ___? – Saat yedi.",
+          "loesung": "kaç",
+          "optionen": ["kaç", "kim", "nerede"],
+          "de": "Wie spät ist es? – Sieben Uhr."
+        },
+        { "art": "satzbau", "tr": "İki kahve, lütfen.", "de": "Zwei Kaffee, bitte." },
+        { "art": "auswahl_tr_de", "vokabel": "w01-dokuz" },
+        { "art": "tippen", "vokabel": "w01-bes" },
+        { "art": "hoeren", "vokabel": "w01-on" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Zählt heute mit Inaya auf Türkisch bis zehn – beim Anziehen, auf der Treppe oder mit Bauklötzen. Danach fragt Pasha dich drei Uhrzeiten ab („Saat kaç?“) und zeigt dabei Finger.",
+        "mustersaetze": [
+          { "tr": "Bir, iki, üç, dört, beş …", "de": "Eins, zwei, drei, vier, fünf …" },
+          { "tr": "Saat kaç?", "de": "Wie spät ist es?" },
+          { "tr": "Saat sekiz.", "de": "Es ist acht Uhr." }
+        ]
+      },
+      "alltagssatz": { "tr": "Saat kaç?", "de": "Wie spät ist es?", "wann": "Heute einmal, statt aufs Handy zu schauen: Frag Pasha." },
+      "merktipp": {
+        "titel": "Zähl alles",
+        "text": "Stufen, Socken, Bauklötze, Amanis Leckerlis: Zähl heute alles auf Türkisch. Inaya liebt Wiederholung – und dein Gedächtnis auch."
+      }
+    },
+    {
+      "woche": 1,
+      "tag": 6,
+      "titel": "Festigungstag: Videoanruf mit der Familie",
+      "kannZiel": "dich in einem Stück vorstellen und ein kurzes Telefonat führen",
+      "vokabeln": [
+        { "id": "w01-selam", "tr": "Selam!", "de": "Hi! / Hallo!", "typ": "chunk", "beispiel": { "tr": "Selam Pasha!", "de": "Hi Pasha!" } },
+        { "id": "w01-ne-haber", "tr": "Ne haber?", "de": "Was gibt's Neues? / Wie läuft's?", "typ": "chunk", "beispiel": { "tr": "Selam! Ne haber?", "de": "Hi! Wie läuft's?" } },
+        { "id": "w01-gorusuruz", "tr": "Görüşürüz!", "de": "Bis bald! / Wir sehen uns!", "typ": "chunk", "beispiel": { "tr": "Tamam, görüşürüz!", "de": "Okay, bis bald!" } },
+        {
+          "id": "w01-hosca-kal",
+          "tr": "Hoşça kal!",
+          "de": "Mach's gut! (sagt, wer geht)",
+          "typ": "chunk",
+          "beispiel": { "tr": "Hoşça kal, Amani!", "de": "Mach's gut, Amani!" }
+        },
+        { "id": "w01-iyi-geceler", "tr": "İyi geceler!", "de": "Gute Nacht!", "typ": "chunk", "beispiel": { "tr": "İyi geceler, Inaya!", "de": "Gute Nacht, Inaya!" } }
+      ],
+      "grammatik": {
+        "titel": "Die ganze Woche in einer Tabelle",
+        "erklaerung": [
+          "Heute kommt keine neue Regel – nur die Woche auf einen Blick.",
+          "Der Lego-Stein für die Person wandert: ans Wort (yorgunum), an değil (değilim) oder an mi (muyum?)."
+        ],
+        "tabelle": {
+          "kopf": ["", "ja", "nein", "Frage"],
+          "zeilen": [
+            ["ich", "yorgunum", "yorgun değilim", "yorgun muyum?"],
+            ["du", "yorgunsun", "yorgun değilsin", "yorgun musun?"],
+            ["er/sie", "yorgun", "yorgun değil", "yorgun mu?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Yorgun değilim, mutluyum!", "de": "Ich bin nicht müde, ich bin glücklich!" },
+          { "tr": "Pasha hazır mı?", "de": "Ist Pasha fertig?" },
+          { "tr": "Ben Almanım, Garbsen'de oturuyorum.", "de": "Ich bin Deutsche und wohne in Garbsen." }
+        ]
+      },
+      "dialog": {
+        "titel": "Videoanruf mit Pashas Mama",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Selam anne! Ne haber?", "de": "Hi Mama! Wie läuft's?" },
+          { "sprecher": "Pashas Mama", "tr": "İyiyim oğlum. Sherin nerede?", "de": "Mir geht's gut, mein Sohn. Wo ist Sherin?" },
+          { "sprecher": "Sherin", "tr": "Merhaba! İyi akşamlar!", "de": "Hallo! Guten Abend!" },
+          { "sprecher": "Pashas Mama", "tr": "Merhaba kızım! Nasılsın?", "de": "Hallo, meine Liebe! Wie geht's dir?" },
+          { "sprecher": "Sherin", "tr": "İyiyim, teşekkür ederim. Biraz yorgunum.", "de": "Gut, danke. Ein bisschen müde." },
+          { "sprecher": "Pashas Mama", "tr": "Türkçe mi konuşuyorsun? Aferin!", "de": "Du sprichst ja Türkisch! Bravo!" },
+          { "sprecher": "Sherin", "tr": "Biraz. Türkçe öğreniyorum.", "de": "Ein bisschen. Ich lerne Türkisch." },
+          { "sprecher": "Pashas Mama", "tr": "Çok güzel! İyi geceler, görüşürüz!", "de": "Wie schön! Gute Nacht, bis bald!" },
+          { "sprecher": "Pasha", "tr": "Hoşça kal, anne!", "de": "Mach's gut, Mama!" },
+          { "sprecher": "Sherin", "tr": "İyi geceler!", "de": "Gute Nacht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_tr_de", "vokabel": "w01-ne-haber" },
+        { "art": "hoeren", "vokabel": "w01-gorusuruz" },
+        { "art": "zuordnen", "vokabeln": ["w01-selam", "w01-hosca-kal", "w01-iyi-geceler", "w00-gunaydin"] },
+        { "art": "satzbau", "tr": "Benim adım Sherin, Garbsen'de oturuyorum.", "de": "Ich heiße Sherin und wohne in Garbsen." },
+        {
+          "art": "luecke",
+          "satz": "Hayır, hazır ___.",
+          "loesung": "değilim",
+          "optionen": ["değilim", "değil", "mıyım"],
+          "de": "Nein, ich bin nicht fertig."
+        },
+        { "art": "auswahl_de_tr", "vokabel": "w01-memnun-oldum" },
+        { "art": "hoeren", "vokabel": "w01-nerede-oturuyorsun" },
+        {
+          "art": "luecke",
+          "satz": "Mutlu ___? – Evet, çok mutluyum!",
+          "loesung": "musun",
+          "optionen": ["musun", "misin", "mısın"],
+          "de": "Bist du glücklich? – Ja, sehr!"
+        },
+        { "art": "tippen", "vokabel": "w01-selam" },
+        { "art": "satzbau", "tr": "İyi geceler, görüşürüz!", "de": "Gute Nacht, bis bald!" },
+        { "art": "auswahl_de_tr", "vokabel": "w01-hosca-kal" },
+        { "art": "tippen", "vokabel": "w01-turkce" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Stell dich Pasha in einem Stück vor – ohne Zettel. Name, woher, wo du wohnst, was du von Beruf bist, wie es dir geht, wer Inaya und Amani sind. Danach stellt Pasha dir drei Ja/Nein-Fragen.",
+        "mustersaetze": [
+          { "tr": "Benim adım Sherin. Almanyalıyım.", "de": "Ich heiße Sherin. Ich komme aus Deutschland." },
+          { "tr": "Garbsen'de oturuyorum. Ben kuaförüm.", "de": "Ich wohne in Garbsen. Ich bin Friseurin." },
+          { "tr": "Bu Inaya, bu da Amani.", "de": "Das ist Inaya, und das ist Amani." }
+        ]
+      },
+      "alltagssatz": { "tr": "İyi geceler!", "de": "Gute Nacht!", "wann": "Heute Abend, wenn du Inaya ins Bett bringst – und später zu Pasha." },
+      "merktipp": {
+        "titel": "Hoşça kal oder Güle güle?",
+        "text": "Wer geht, sagt „Hoşça kal!“ (bleib schön). Wer bleibt, antwortet „Güle güle!“ – wörtlich „lachend, lachend“: Geh mit einem Lächeln."
+      }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      {
+        "situation": "Stell dich vor, als würdest du eine Verwandte von Pasha zum ersten Mal am Telefon sprechen.",
+        "hilfe": { "tr": "Merhaba! Benim adım Sherin. Garbsen'de oturuyorum.", "de": "Hallo! Ich heiße Sherin. Ich wohne in Garbsen." }
+      },
+      {
+        "situation": "Frag Pasha drei Ja/Nein-Fragen: Ist er müde? Hat er Hunger? Ist er fertig?",
+        "hilfe": { "tr": "Yorgun musun? Aç mısın? Hazır mısın?", "de": "Bist du müde? Hast du Hunger? Bist du fertig?" }
+      },
+      {
+        "situation": "Zähl mit Inaya von eins bis zehn – und dann rückwärts.",
+        "hilfe": { "tr": "bir, iki, üç, dört, beş, altı, yedi, sekiz, dokuz, on", "de": "eins bis zehn" }
+      }
+    ]
+  }
+}

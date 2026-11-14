@@ -1,0 +1,194 @@
+{
+  "woche": 0,
+  "lektionen": [
+    {
+      "woche": 0,
+      "tag": 6,
+      "titel": "Hallo Türkisch",
+      "kannZiel": "begrüßen, danken und um Wiederholung bitten",
+      "vokabeln": [
+        {
+          "id": "w00-merhaba",
+          "tr": "Merhaba!",
+          "de": "Hallo!",
+          "typ": "chunk",
+          "beispiel": { "tr": "Merhaba, Pasha!", "de": "Hallo, Pasha!" }
+        },
+        {
+          "id": "w00-gunaydin",
+          "tr": "Günaydın!",
+          "de": "Guten Morgen!",
+          "typ": "chunk",
+          "beispiel": { "tr": "Günaydın, Inaya!", "de": "Guten Morgen, Inaya!" },
+          "merktipp": "gün = Tag, aydın = hell. Günaydın heißt also eigentlich „Der Tag ist hell!“ – ein schöner Morgengruß."
+        },
+        {
+          "id": "w00-iyi-aksamlar",
+          "tr": "İyi akşamlar!",
+          "de": "Guten Abend!",
+          "typ": "chunk",
+          "beispiel": { "tr": "İyi akşamlar, Pasha!", "de": "Guten Abend, Pasha!" }
+        },
+        {
+          "id": "w00-tesekkur-ederim",
+          "tr": "Teşekkür ederim.",
+          "de": "Danke (schön).",
+          "typ": "chunk",
+          "beispiel": { "tr": "Çay için teşekkür ederim.", "de": "Danke für den Tee." }
+        },
+        {
+          "id": "w00-evet",
+          "tr": "evet",
+          "de": "ja",
+          "typ": "wort",
+          "beispiel": { "tr": "Evet, anladım.", "de": "Ja, ich habe verstanden." }
+        },
+        {
+          "id": "w00-hayir",
+          "tr": "hayır",
+          "de": "nein",
+          "typ": "wort",
+          "beispiel": { "tr": "Hayır, teşekkür ederim.", "de": "Nein, danke." }
+        },
+        {
+          "id": "w00-nasilsin",
+          "tr": "Nasılsın?",
+          "de": "Wie geht's dir?",
+          "typ": "chunk",
+          "beispiel": { "tr": "Merhaba Pasha, nasılsın?", "de": "Hallo Pasha, wie geht's dir?" }
+        },
+        {
+          "id": "w00-iyiyim",
+          "tr": "İyiyim.",
+          "de": "Mir geht's gut.",
+          "typ": "chunk",
+          "beispiel": { "tr": "İyiyim, teşekkür ederim. Sen nasılsın?", "de": "Mir geht's gut, danke. Und dir?" }
+        },
+        {
+          "id": "w00-anlamadim",
+          "tr": "Anlamadım.",
+          "de": "Das habe ich nicht verstanden.",
+          "typ": "chunk",
+          "beispiel": { "tr": "Pardon, anlamadım.", "de": "Entschuldigung, das habe ich nicht verstanden." },
+          "merktipp": "Lego-Stein -ma- = „nicht“: anladım = verstanden, anla-ma-dım = nicht verstanden."
+        },
+        {
+          "id": "w00-tekrar-eder-misin",
+          "tr": "Tekrar eder misin?",
+          "de": "Kannst du das wiederholen?",
+          "typ": "chunk",
+          "beispiel": { "tr": "Anlamadım. Tekrar eder misin?", "de": "Hab ich nicht verstanden. Kannst du das wiederholen?" }
+        },
+        {
+          "id": "w00-yavas-konusur-musun",
+          "tr": "Yavaş konuşur musun?",
+          "de": "Kannst du langsam sprechen?",
+          "typ": "chunk",
+          "beispiel": { "tr": "Biraz daha yavaş konuşur musun?", "de": "Kannst du etwas langsamer sprechen?" }
+        }
+      ],
+      "grammatik": {
+        "titel": "Aussprache: ein Buchstabe, ein Klang",
+        "erklaerung": [
+          "Türkisch spricht man fast genau so, wie man es schreibt – jeder Buchstabe klingt immer gleich.",
+          "Anders als im Deutschen: c = dsch, ç = tsch, ş = sch, v = w, y = j, z = weiches s, j = wie in „Journal“.",
+          "ğ („weiches g“) spricht man nicht – es dehnt nur den Vokal davor: dağ (Berg) klingt wie „daa“.",
+          "ı ohne Punkt ist ein dumpfes i – wie das e in „bitte“, aber mit breiten Lippen. i mit Punkt ist ein normales i, auch groß: İ.",
+          "Betont wird meist die letzte Silbe: çoCUK (Kind), ekMEK (Brot)."
+        ],
+        "tabelle": {
+          "kopf": ["Buchstabe", "klingt wie", "Beispiel"],
+          "zeilen": [
+            ["c", "dsch (Dschungel)", "cam – Glas"],
+            ["ç", "tsch (Tschüss)", "çay – Tee"],
+            ["ş", "sch (Schule)", "şeker – Zucker"],
+            ["ğ", "dehnt den Vokal", "dağ – Berg („daa“)"],
+            ["ı", "dumpfes i", "kız – Mädchen"],
+            ["j", "wie in „Journal“", "plaj – Strand"],
+            ["v", "w", "ev – Haus"],
+            ["y", "j", "yok – gibt es nicht"],
+            ["z", "weiches s (Sonne)", "deniz – Meer"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "çay", "de": "Tee" },
+          { "tr": "şeker", "de": "Zucker" },
+          { "tr": "dağ", "de": "Berg (sprich: daa)" }
+        ]
+      },
+      "dialog": {
+        "titel": "Samstagmorgen in der Küche",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Günaydın, Sherin!", "de": "Guten Morgen, Sherin!" },
+          { "sprecher": "Sherin", "tr": "Günaydın! Nasılsın?", "de": "Guten Morgen! Wie geht's dir?" },
+          { "sprecher": "Pasha", "tr": "İyiyim, teşekkür ederim. Sen nasılsın?", "de": "Gut, danke. Und dir?" },
+          { "sprecher": "Sherin", "tr": "Ben de iyiyim.", "de": "Mir geht's auch gut." },
+          { "sprecher": "Pasha", "tr": "Bugün annemler geliyor.", "de": "Heute kommen meine Eltern." },
+          { "sprecher": "Sherin", "tr": "Anlamadım. Yavaş konuşur musun?", "de": "Hab ich nicht verstanden. Kannst du langsam sprechen?" },
+          { "sprecher": "Pasha", "tr": "Tabii. Bugün … annemler … geliyor.", "de": "Klar. Heute … kommen … meine Eltern." },
+          { "sprecher": "Sherin", "tr": "Ah, evet! Teşekkür ederim.", "de": "Ah, ja! Danke." }
+        ]
+      },
+      "uebungen": [
+        { "art": "auswahl_de_tr", "vokabel": "w00-gunaydin" },
+        { "art": "auswahl_tr_de", "vokabel": "w00-tesekkur-ederim" },
+        { "art": "hoeren", "vokabel": "w00-nasilsin" },
+        { "art": "zuordnen", "vokabeln": ["w00-merhaba", "w00-evet", "w00-hayir", "w00-iyiyim"] },
+        { "art": "tippen", "vokabel": "w00-evet" },
+        {
+          "art": "luecke",
+          "satz": "Anla___. Tekrar eder misin?",
+          "loesung": "madım",
+          "optionen": ["madım", "dım"],
+          "de": "Das habe ich nicht verstanden. Kannst du das wiederholen?",
+          "hinweis": "-ma- heißt „nicht“."
+        },
+        { "art": "satzbau", "tr": "Tekrar eder misin?", "de": "Kannst du das wiederholen?" },
+        { "art": "hoeren", "vokabel": "w00-anlamadim" },
+        { "art": "satzbau", "tr": "İyiyim, teşekkür ederim.", "de": "Mir geht's gut, danke." },
+        {
+          "art": "luecke",
+          "satz": "İyi ___, Pasha!",
+          "loesung": "akşamlar",
+          "optionen": ["akşamlar", "merhaba", "evet"],
+          "de": "Guten Abend, Pasha!"
+        },
+        { "art": "auswahl_de_tr", "vokabel": "w00-yavas-konusur-musun" },
+        { "art": "tippen", "vokabel": "w00-merhaba" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Begrüß Pasha heute Abend auf Türkisch und frag, wie es ihm geht. Dann soll er dir einen Satz schnell auf Türkisch sagen – du bittest um Wiederholung, bis du ihn nachsprechen kannst.",
+        "mustersaetze": [
+          { "tr": "İyi akşamlar, Pasha! Nasılsın?", "de": "Guten Abend, Pasha! Wie geht's dir?" },
+          { "tr": "Anlamadım. Tekrar eder misin?", "de": "Hab ich nicht verstanden. Kannst du das wiederholen?" },
+          { "tr": "Yavaş konuşur musun?", "de": "Kannst du langsam sprechen?" }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Teşekkür ederim!",
+        "de": "Danke schön!",
+        "wann": "Jedes Mal, wenn Pasha dir heute etwas reicht – Tee, Inayas Schnuller oder die Fernbedienung."
+      },
+      "merktipp": {
+        "titel": "Vorlesen kannst du schon",
+        "text": "Türkisch ist eine Lautschrift: Was du liest, sprichst du. Sobald c, ç und ş sitzen, kannst du jedes Wort vorlesen – auch eins, das du noch nie gesehen hast."
+      }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      {
+        "situation": "Begrüß Pasha morgens auf Türkisch und frag, wie es ihm geht.",
+        "hilfe": { "tr": "Günaydın! Nasılsın?", "de": "Guten Morgen! Wie geht's dir?" }
+      },
+      {
+        "situation": "Pasha sagt dir einen schnellen Satz. Bitte ihn um Wiederholung – langsam.",
+        "hilfe": { "tr": "Tekrar eder misin? Yavaş konuşur musun?", "de": "Kannst du das wiederholen? Kannst du langsam sprechen?" }
+      },
+      {
+        "situation": "Bedank dich auf Türkisch bei Pasha – für irgendetwas, das er heute für dich tut.",
+        "hilfe": { "tr": "Teşekkür ederim!", "de": "Danke schön!" }
+      }
+    ]
+  }
+}
