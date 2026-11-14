@@ -1,0 +1,424 @@
+{
+  "woche": 24,
+  "lektionen": [
+    {
+      "woche": 24,
+      "tag": 1,
+      "titel": "Bei der Bank",
+      "kannZiel": "einfache Bankangelegenheiten erledigen",
+      "vokabeln": [
+        { "id": "w24-banka-hesabi", "tr": "banka hesabı", "de": "Bankkonto", "typ": "chunk", "beispiel": { "tr": "Inaya için bir banka hesabı açmak istiyoruz.", "de": "Wir möchten ein Bankkonto für Inaya eröffnen." } },
+        { "id": "w24-hesap-acmak", "tr": "hesap açmak", "de": "ein Konto eröffnen", "typ": "chunk", "beispiel": { "tr": "Hesap açmak için ne lazım?", "de": "Was braucht man, um ein Konto zu eröffnen?" } },
+        { "id": "w24-havale", "tr": "havale", "de": "Überweisung", "typ": "wort", "beispiel": { "tr": "Kirayı havale ettin mi?", "de": "Hast du die Miete überwiesen?" } },
+        { "id": "w24-para-cekmek", "tr": "para çekmek", "de": "Geld abheben", "typ": "chunk", "beispiel": { "tr": "ATM'den para çekmem lazım.", "de": "Ich muss am Automaten Geld abheben." } },
+        { "id": "w24-atm", "tr": "ATM", "de": "Geldautomat", "typ": "wort", "beispiel": { "tr": "En yakın ATM nerede?", "de": "Wo ist der nächste Geldautomat?" } },
+        { "id": "w24-sifre", "tr": "şifre", "de": "PIN / Passwort", "typ": "wort", "beispiel": { "tr": "Şifremi unuttum!", "de": "Ich habe meine PIN vergessen!" } },
+        { "id": "w24-kimlik", "tr": "kimlik", "de": "Ausweis", "typ": "wort", "beispiel": { "tr": "Kimliğinizi görebilir miyim?", "de": "Darf ich Ihren Ausweis sehen?" } },
+        { "id": "w24-imza", "tr": "imza", "de": "Unterschrift", "typ": "wort", "beispiel": { "tr": "Buraya imzanızı alabilir miyim?", "de": "Darf ich hier Ihre Unterschrift haben?" } },
+        { "id": "w24-imzalamak", "tr": "imzalamak", "de": "unterschreiben", "typ": "wort", "beispiel": { "tr": "Lütfen burayı imzalayın.", "de": "Bitte unterschreiben Sie hier." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: siz & -mak için",
+        "erklaerung": [
+          "Bei Ämtern und Banken immer siz: Kimliğinizi görebilir miyim?",
+          "Zweck mit -mak için: Hesap açmak için ne lazım? (Was braucht man, um …?)",
+          "Höfliche Bitten des Personals hörst du oft im -ın-Imperativ: imzalayın, bekleyin, oturun."
+        ],
+        "beispiele": [
+          { "tr": "Hesap açmak için ne lazım?", "de": "Was braucht man, um ein Konto zu eröffnen?" },
+          { "tr": "Kimliğinizi görebilir miyim?", "de": "Darf ich Ihren Ausweis sehen?" },
+          { "tr": "Lütfen burayı imzalayın.", "de": "Bitte unterschreiben Sie hier." }
+        ]
+      },
+      "dialog": {
+        "titel": "Konto für Inaya",
+        "zeilen": [
+          { "sprecher": "Bankangestellter", "tr": "Buyurun, nasıl yardımcı olabilirim?", "de": "Bitte, wie kann ich helfen?" },
+          { "sprecher": "Sherin", "tr": "Kızım için bir hesap açmak istiyorum.", "de": "Ich möchte ein Konto für meine Tochter eröffnen." },
+          { "sprecher": "Bankangestellter", "tr": "Tabii. Kimliğinizi ve doğum belgesini alabilir miyim?", "de": "Gern. Darf ich Ihren Ausweis und die Geburtsurkunde haben?" },
+          { "sprecher": "Sherin", "tr": "Buyurun. Havale için kart da alabilir miyiz?", "de": "Bitte. Können wir auch eine Karte für Überweisungen bekommen?" },
+          { "sprecher": "Bankangestellter", "tr": "Elbette. Şifre posta ile gelecek. Lütfen burayı imzalayın.", "de": "Selbstverständlich. Die PIN kommt per Post. Bitte unterschreiben Sie hier." },
+          { "sprecher": "Sherin", "tr": "Tamam. Teşekkür ederim, iyi günler!", "de": "In Ordnung. Vielen Dank, schönen Tag!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w24-havale", "w24-sifre", "w24-kimlik", "w24-imza"] },
+        { "art": "hoeren", "vokabel": "w24-hesap-acmak" },
+        { "art": "auswahl_de_tr", "vokabel": "w24-para-cekmek" },
+        { "art": "luecke", "satz": "Lütfen burayı imzala___.", "loesung": "yın", "optionen": ["yın", "yın mı", "dım"], "de": "Bitte unterschreiben Sie hier." },
+        { "art": "satzbau", "tr": "Hesap açmak için ne lazım?", "de": "Was braucht man, um ein Konto zu eröffnen?" },
+        { "art": "auswahl_tr_de", "vokabel": "w24-atm" },
+        { "art": "hoeren", "vokabel": "w24-banka-hesabi" },
+        { "art": "luecke", "satz": "Kimliğ___ görebilir miyim?", "loesung": "inizi", "optionen": ["inizi", "imi", "iniz"], "de": "Darf ich Ihren Ausweis sehen?" },
+        { "art": "tippen", "vokabel": "w24-imza" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Rollenspiel Bank: Pasha ist der Bankangestellte. Du willst ein Konto eröffnen, eine Überweisung machen und hast deine PIN vergessen. Alles mit siz.",
+        "mustersaetze": [
+          { "tr": "Hesap açmak istiyorum.", "de": "Ich möchte ein Konto eröffnen." },
+          { "tr": "Şifremi unuttum. Ne yapmalıyım?", "de": "Ich habe meine PIN vergessen. Was soll ich tun?" },
+          { "tr": "Nereye imza atayım?", "de": "Wo soll ich unterschreiben?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Şifremi unuttum!", "de": "Ich habe mein Passwort vergessen!", "wann": "Beim nächsten vergessenen Passwort – das passiert garantiert." },
+      "merktipp": { "titel": "Behördensprache = siz", "text": "Bei Bank, Post und Amt redet jeder mit siz. Wenn du dich unsicher fühlst, nimm immer siz – damit kannst du nie unhöflich sein." }
+    },
+    {
+      "woche": 24,
+      "tag": 2,
+      "titel": "Post & Pakete",
+      "kannZiel": "Pakete verschicken und abholen",
+      "vokabeln": [
+        { "id": "w24-postane", "tr": "postane", "de": "Postamt", "typ": "wort", "beispiel": { "tr": "Postane saat kaçta kapanıyor?", "de": "Um wie viel Uhr macht die Post zu?" } },
+        { "id": "w24-paket", "tr": "paket", "de": "Paket", "typ": "wort", "beispiel": { "tr": "Türkiye'ye bir paket göndermek istiyorum.", "de": "Ich möchte ein Paket in die Türkei schicken." } },
+        { "id": "w24-kargo", "tr": "kargo", "de": "Paketdienst / Sendung", "typ": "wort", "beispiel": { "tr": "Kargom gelmedi.", "de": "Meine Sendung ist nicht angekommen." } },
+        { "id": "w24-mektup", "tr": "mektup", "de": "Brief", "typ": "wort", "beispiel": { "tr": "Babaanneye mektup yazalım.", "de": "Lass uns Oma einen Brief schreiben." } },
+        { "id": "w24-zarf", "tr": "zarf", "de": "Umschlag", "typ": "wort", "beispiel": { "tr": "Bir zarf ve pul lazım.", "de": "Ich brauche einen Umschlag und eine Briefmarke." } },
+        { "id": "w24-pul", "tr": "pul", "de": "Briefmarke", "typ": "wort", "beispiel": { "tr": "Türkiye'ye mektup için kaç euroluk pul lazım?", "de": "Wie viel Porto brauche ich für einen Brief in die Türkei?" } },
+        { "id": "w24-adres", "tr": "adres", "de": "Adresse", "typ": "wort", "beispiel": { "tr": "Adresinizi yazar mısınız?", "de": "Würden Sie Ihre Adresse aufschreiben?" } },
+        { "id": "w24-gondermek", "tr": "göndermek", "de": "schicken", "typ": "wort", "beispiel": { "tr": "Fotoğrafları sana gönderdim.", "de": "Ich habe dir die Fotos geschickt." } },
+        { "id": "w24-teslim-almak", "tr": "teslim almak", "de": "abholen / in Empfang nehmen", "typ": "chunk", "beispiel": { "tr": "Paketi komşudan teslim aldım.", "de": "Ich habe das Paket beim Nachbarn abgeholt." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Dativ & Akkusativ zusammen",
+        "erklaerung": [
+          "Wem/wohin: Dativ (Türkiye'ye, sana). Was (bestimmt): Akkusativ (paketi, mektubu).",
+          "Paketi Türkiye'ye gönderiyorum. = Ich schicke das Paket in die Türkei.",
+          "Konsonantenwechsel nicht vergessen: mektup → mektubu, paket → paketi (einsilbig-ähnlich, bleibt)."
+        ],
+        "beispiele": [
+          { "tr": "Paketi Türkiye'ye gönderiyorum.", "de": "Ich schicke das Paket in die Türkei." },
+          { "tr": "Mektubu babaanneye yazdık.", "de": "Wir haben den Brief an Oma geschrieben." },
+          { "tr": "Paketi komşudan teslim aldım.", "de": "Ich habe das Paket beim Nachbarn abgeholt." }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein Paket für Oma",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Merhaba, bu paketi Türkiye'ye göndermek istiyorum.", "de": "Hallo, ich möchte dieses Paket in die Türkei schicken." },
+          { "sprecher": "Postangestellte", "tr": "İçinde ne var?", "de": "Was ist drin?" },
+          { "sprecher": "Sherin", "tr": "Fotoğraflar ve Inaya'nın bir resmi. Babaannesi için.", "de": "Fotos und ein Bild, das Inaya gemalt hat. Für ihre Oma." },
+          { "sprecher": "Postangestellte", "tr": "Ne güzel! Adresi buraya yazar mısınız?", "de": "Wie schön! Würden Sie die Adresse hier aufschreiben?" },
+          { "sprecher": "Sherin", "tr": "Tabii. Ne zaman varır?", "de": "Klar. Wann kommt es an?" },
+          { "sprecher": "Postangestellte", "tr": "Yaklaşık bir hafta sonra. Toplam on yedi euro.", "de": "In etwa einer Woche. Zusammen siebzehn Euro." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w24-paket", "w24-mektup", "w24-zarf", "w24-pul"] },
+        { "art": "hoeren", "vokabel": "w24-postane" },
+        { "art": "auswahl_de_tr", "vokabel": "w24-teslim-almak" },
+        { "art": "luecke", "satz": "Paket___ Türkiye'ye gönderiyorum.", "loesung": "i", "optionen": ["i", "e", "de"], "de": "Ich schicke das Paket in die Türkei." },
+        { "art": "satzbau", "tr": "Adresinizi yazar mısınız?", "de": "Würden Sie Ihre Adresse aufschreiben?" },
+        { "art": "auswahl_tr_de", "vokabel": "w24-kargo" },
+        { "art": "hoeren", "vokabel": "w24-gondermek" },
+        { "art": "luecke", "satz": "Mektu___ babaanneye yazdık.", "loesung": "bu", "optionen": ["bu", "pu", "ba"], "de": "Wir haben den Brief an Oma geschrieben.", "hinweis": "p → b" },
+        { "art": "tippen", "vokabel": "w24-adres" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Packt (echt oder gespielt) ein Päckchen für Pashas Familie. Spielt dann die Post: Du verschickst es, fragst nach Preis und Dauer, Pasha ist am Schalter.",
+        "mustersaetze": [
+          { "tr": "Bu paketi Türkiye'ye göndermek istiyorum.", "de": "Ich möchte dieses Paket in die Türkei schicken." },
+          { "tr": "Ne zaman varır?", "de": "Wann kommt es an?" },
+          { "tr": "Ne kadar?", "de": "Wie viel kostet das?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Fotoğrafları sana gönderdim.", "de": "Ich habe dir die Fotos geschickt.", "wann": "Beim nächsten Foto von Inaya an Pashas Familie." },
+      "merktipp": { "titel": "kargo = Paket-Alltag", "text": "In der Türkei sagt man für Pakete fast immer kargo: „Kargon geldi mi?“ – Ist dein Paket angekommen? Ein Wort aus dem Seehandel, heute für jede Bestellung." }
+    },
+    {
+      "woche": 24,
+      "tag": 3,
+      "titel": "Verträge & Formulare",
+      "kannZiel": "Formulare und Verträge besprechen",
+      "vokabeln": [
+        { "id": "w24-sozlesme", "tr": "sözleşme", "de": "Vertrag", "typ": "wort", "beispiel": { "tr": "Sözleşmeyi okumadan imzalama!", "de": "Unterschreib den Vertrag nicht, ohne ihn zu lesen!" } },
+        { "id": "w24-form-doldurmak", "tr": "form doldurmak", "de": "ein Formular ausfüllen", "typ": "chunk", "beispiel": { "tr": "Bu formu doldurmama yardım eder misin?", "de": "Hilfst du mir, dieses Formular auszufüllen?" } },
+        { "id": "w24-belge", "tr": "belge", "de": "Dokument / Nachweis", "typ": "wort", "beispiel": { "tr": "Hangi belgeler lazım?", "de": "Welche Dokumente braucht man?" } },
+        { "id": "w24-basvuru", "tr": "başvuru", "de": "Antrag / Bewerbung", "typ": "wort", "beispiel": { "tr": "Kreş başvurusu yaptık.", "de": "Wir haben den Kita-Antrag gestellt." } },
+        { "id": "w24-fotokopi", "tr": "fotokopi", "de": "Kopie", "typ": "wort", "beispiel": { "tr": "Kimliğin fotokopisi lazım.", "de": "Man braucht eine Kopie vom Ausweis." } },
+        { "id": "w24-kira", "tr": "kira", "de": "Miete", "typ": "wort", "beispiel": { "tr": "Kira her ay başında ödenir.", "de": "Die Miete wird jeden Monatsanfang bezahlt." } },
+        { "id": "w24-fatura", "tr": "fatura", "de": "Rechnung (Strom, Handy …)", "typ": "wort", "beispiel": { "tr": "Elektrik faturası geldi.", "de": "Die Stromrechnung ist gekommen." } },
+        { "id": "w24-son-tarih", "tr": "son tarih", "de": "Frist / Stichtag", "typ": "chunk", "beispiel": { "tr": "Son tarih ne zaman?", "de": "Wann ist die Frist?" } },
+        { "id": "w24-nereye-imza-atayim", "tr": "Nereye imza atayım?", "de": "Wo soll ich unterschreiben?", "typ": "chunk", "beispiel": { "tr": "Tamam, nereye imza atayım?", "de": "Okay, wo soll ich unterschreiben?" } }
+      ],
+      "grammatik": {
+        "titel": "Passiv-Bausteine: -ılır / -ilir",
+        "erklaerung": [
+          "In Formularen und Regeln steht oft das Passiv: ödenir (wird bezahlt), doldurulur (wird ausgefüllt).",
+          "Bildung: Stamm + -ıl/-il/-ul/-ül (oder -n nach Vokal) + Zeit: öde-n-ir, doldur-ul-ur.",
+          "Du musst es nicht aktiv bilden – aber erkennen: „Form doldurulmalı“ = Das Formular muss ausgefüllt werden."
+        ],
+        "tabelle": {
+          "kopf": ["aktiv", "passiv"],
+          "zeilen": [
+            ["ödemek (zahlen)", "ödenir (wird gezahlt)"],
+            ["doldurmak (ausfüllen)", "doldurulur (wird ausgefüllt)"],
+            ["imzalamak (unterschreiben)", "imzalanır (wird unterschrieben)"],
+            ["göndermek (schicken)", "gönderilir (wird geschickt)"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kira her ay başında ödenir.", "de": "Die Miete wird jeden Monatsanfang bezahlt." },
+          { "tr": "Form iki nüsha doldurulmalı.", "de": "Das Formular muss doppelt ausgefüllt werden." },
+          { "tr": "Hangi belgeler lazım?", "de": "Welche Dokumente braucht man?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Der Kita-Antrag",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, kreş başvurusu için bu formu doldurmamız lazım.", "de": "Pasha, für den Kita-Antrag müssen wir dieses Formular ausfüllen." },
+          { "sprecher": "Pasha", "tr": "Hangi belgeler lazım?", "de": "Welche Dokumente braucht man?" },
+          { "sprecher": "Sherin", "tr": "Doğum belgesi, kimliklerimizin fotokopisi ve iş belgesi.", "de": "Geburtsurkunde, Kopien unserer Ausweise und ein Arbeitsnachweis." },
+          { "sprecher": "Pasha", "tr": "Son tarih ne zaman?", "de": "Wann ist die Frist?" },
+          { "sprecher": "Sherin", "tr": "Ayın on beşi. Form iki nüsha doldurulmalı.", "de": "Der Fünfzehnte. Das Formular muss doppelt ausgefüllt werden." },
+          { "sprecher": "Pasha", "tr": "Tamam. Nereye imza atayım?", "de": "Okay. Wo soll ich unterschreiben?" },
+          { "sprecher": "Sherin", "tr": "Buraya … ve buraya. Bürokrasi her yerde aynı!", "de": "Hier … und hier. Bürokratie ist überall gleich!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w24-sozlesme", "w24-belge", "w24-basvuru", "w24-fatura"] },
+        { "art": "hoeren", "vokabel": "w24-form-doldurmak" },
+        { "art": "auswahl_de_tr", "vokabel": "w24-son-tarih" },
+        { "art": "luecke", "satz": "Kira her ay başında öde___.", "loesung": "nir", "optionen": ["nir", "rim", "dim"], "de": "Die Miete wird jeden Monatsanfang bezahlt." },
+        { "art": "satzbau", "tr": "Hangi belgeler lazım?", "de": "Welche Dokumente braucht man?" },
+        { "art": "auswahl_tr_de", "vokabel": "w24-kira" },
+        { "art": "hoeren", "vokabel": "w24-nereye-imza-atayim" },
+        { "art": "satzbau", "tr": "Sözleşmeyi okumadan imzalama!", "de": "Unterschreib den Vertrag nicht, ohne ihn zu lesen!" },
+        { "art": "tippen", "vokabel": "w24-fatura" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Nehmt ein echtes Formular oder einen Brief aus eurem Ordner und besprecht ihn auf Türkisch: Was ist das, welche Unterlagen braucht ihr, bis wann, wer unterschreibt?",
+        "mustersaetze": [
+          { "tr": "Bu bir … sözleşmesi.", "de": "Das ist ein …-Vertrag." },
+          { "tr": "Son tarih ne zaman?", "de": "Wann ist die Frist?" },
+          { "tr": "Nereye imza atayım?", "de": "Wo soll ich unterschreiben?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Bu formu doldurmama yardım eder misin?", "de": "Hilfst du mir, dieses Formular auszufüllen?", "wann": "Beim nächsten Papierkram – und davon gibt's mit Kind reichlich." },
+      "merktipp": { "titel": "Passiv erkennen reicht", "text": "Das Passiv brauchst du vor allem zum Verstehen von Schildern und Formularen: „Sigara içilmez“ (Rauchen verboten), „Kapı kapalı tutulmalı“ (Tür geschlossen halten)." }
+    },
+    {
+      "woche": 24,
+      "tag": 4,
+      "titel": "Reklamation",
+      "kannZiel": "sich höflich beschweren und etwas umtauschen",
+      "vokabeln": [
+        { "id": "w24-bir-sorunum-var", "tr": "Bir sorunum var.", "de": "Ich habe ein Problem.", "typ": "chunk", "beispiel": { "tr": "Merhaba, bu ürünle ilgili bir sorunum var.", "de": "Hallo, ich habe ein Problem mit diesem Produkt." } },
+        { "id": "w24-sikayet-etmek", "tr": "şikâyet etmek", "de": "sich beschweren", "typ": "chunk", "beispiel": { "tr": "Şikâyet etmek istemiyorum ama …", "de": "Ich möchte mich nicht beschweren, aber …" } },
+        { "id": "w24-iade-etmek", "tr": "iade etmek", "de": "zurückgeben", "typ": "chunk", "beispiel": { "tr": "Bu ayakkabıları iade etmek istiyorum.", "de": "Ich möchte diese Schuhe zurückgeben." } },
+        { "id": "w24-para-iadesi", "tr": "para iadesi", "de": "Geld zurück / Rückerstattung", "typ": "chunk", "beispiel": { "tr": "Para iadesi mümkün mü?", "de": "Kann ich das Geld zurückbekommen?" } },
+        { "id": "w24-garanti", "tr": "garanti", "de": "Garantie", "typ": "wort", "beispiel": { "tr": "Hâlâ garantisi var.", "de": "Es hat noch Garantie." } },
+        { "id": "w24-calismiyor", "tr": "Çalışmıyor.", "de": "Es funktioniert nicht.", "typ": "chunk", "beispiel": { "tr": "Yeni fön makinesi çalışmıyor.", "de": "Der neue Föhn funktioniert nicht." } },
+        { "id": "w24-kusurlu", "tr": "kusurlu", "de": "fehlerhaft / defekt", "typ": "wort", "beispiel": { "tr": "Ürün kusurlu geldi.", "de": "Das Produkt kam defekt an." } },
+        { "id": "w24-yirtik", "tr": "yırtık", "de": "gerissen / kaputt (Stoff)", "typ": "wort", "beispiel": { "tr": "Paketi açtım, elbise yırtıktı.", "de": "Ich habe das Paket geöffnet, das Kleid war gerissen." } },
+        { "id": "w24-mudur", "tr": "müdür", "de": "Leiter / Geschäftsführer", "typ": "wort", "beispiel": { "tr": "Müdürle konuşabilir miyim?", "de": "Kann ich mit dem Leiter sprechen?" } }
+      ],
+      "grammatik": {
+        "titel": "Höflich, aber bestimmt",
+        "erklaerung": [
+          "Einstieg: Bir sorunum var. / Kusura bakmayın ama …",
+          "Problem beschreiben mit -dı/-mış: Dün aldım, bugün çalışmıyor.",
+          "Wunsch klar formulieren: … iade etmek / değiştirmek istiyorum. Para iadesi mümkün mü?"
+        ],
+        "tabelle": {
+          "kopf": ["Schritt", "Satz"],
+          "zeilen": [
+            ["Einstieg", "Merhaba, bir sorunum var."],
+            ["Problem", "Bu fön makinesini dün aldım, çalışmıyor."],
+            ["Beleg", "Fişim burada."],
+            ["Wunsch", "Değiştirmek ya da iade etmek istiyorum."],
+            ["Eskalation", "Müdürle konuşabilir miyim?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bu fön makinesini dün aldım, çalışmıyor.", "de": "Ich habe diesen Föhn gestern gekauft, er funktioniert nicht." },
+          { "tr": "Para iadesi mümkün mü?", "de": "Kann ich das Geld zurückbekommen?" },
+          { "tr": "Müdürle konuşabilir miyim?", "de": "Kann ich mit dem Leiter sprechen?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Der kaputte Föhn",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Merhaba, bir sorunum var. Bu fön makinesini geçen hafta aldım.", "de": "Hallo, ich habe ein Problem. Diesen Föhn habe ich letzte Woche gekauft." },
+          { "sprecher": "Verkäufer", "tr": "Ne oldu?", "de": "Was ist passiert?" },
+          { "sprecher": "Sherin", "tr": "Çalışmıyor. Hiç ısınmıyor. Ben kuaförüm, bunu anlarım!", "de": "Er funktioniert nicht. Er wird gar nicht warm. Ich bin Friseurin, ich kenne mich aus!" },
+          { "sprecher": "Verkäufer", "tr": "Fişiniz var mı?", "de": "Haben Sie den Kassenbon?" },
+          { "sprecher": "Sherin", "tr": "Evet, buyurun. Değiştirmek ya da iade etmek istiyorum.", "de": "Ja, bitte. Ich möchte ihn umtauschen oder zurückgeben." },
+          { "sprecher": "Verkäufer", "tr": "Garantisi var, hemen yenisiyle değiştiririz.", "de": "Er hat Garantie, wir tauschen ihn sofort gegen einen neuen um." },
+          { "sprecher": "Sherin", "tr": "Harika, çok teşekkür ederim!", "de": "Super, vielen Dank!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w24-iade-etmek", "w24-garanti", "w24-kusurlu", "w24-mudur"] },
+        { "art": "hoeren", "vokabel": "w24-bir-sorunum-var" },
+        { "art": "auswahl_de_tr", "vokabel": "w24-calismiyor" },
+        { "art": "luecke", "satz": "Bu ayakkabıları iade et___ istiyorum.", "loesung": "mek", "optionen": ["mek", "tim", "eceğim"], "de": "Ich möchte diese Schuhe zurückgeben." },
+        { "art": "satzbau", "tr": "Para iadesi mümkün mü?", "de": "Kann ich das Geld zurückbekommen?" },
+        { "art": "auswahl_tr_de", "vokabel": "w24-yirtik" },
+        { "art": "hoeren", "vokabel": "w24-sikayet-etmek" },
+        { "art": "satzbau", "tr": "Müdürle konuşabilir miyim?", "de": "Kann ich mit dem Leiter sprechen?" },
+        { "art": "tippen", "vokabel": "w24-garanti" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Reklamations-Training: Pasha ist ein eher unfreundlicher Verkäufer. Du willst ein kaputtes Produkt umtauschen – bleib höflich, aber hartnäckig, bis du dein Geld oder Ersatz bekommst.",
+        "mustersaetze": [
+          { "tr": "Bir sorunum var.", "de": "Ich habe ein Problem." },
+          { "tr": "Fişim burada. İade etmek istiyorum.", "de": "Hier ist mein Bon. Ich möchte es zurückgeben." },
+          { "tr": "Müdürle konuşabilir miyim?", "de": "Kann ich mit dem Leiter sprechen?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Bir sorunum var.", "de": "Ich habe ein Problem.", "wann": "Der Einstieg für jede Beschwerde – freundlich und klar." },
+      "merktipp": { "titel": "Deine Expertise nutzen", "text": "„Ben kuaförüm, bunu anlarım!“ – deine Berufserfahrung ist auch auf Türkisch ein starkes Argument. Und anlamak (verstehen) heißt hier „sich auskennen“." }
+    },
+    {
+      "woche": 24,
+      "tag": 5,
+      "titel": "Hab ich gehört: -mış",
+      "kannZiel": "Gehörtes weitererzählen",
+      "vokabeln": [
+        { "id": "w24-tasinmak", "tr": "taşınmak", "de": "umziehen", "typ": "wort", "beispiel": { "tr": "Komşumuz taşınmış.", "de": "Unser Nachbar ist (anscheinend) umgezogen." } },
+        { "id": "w24-diyor-ki", "tr": "… diyor ki …", "de": "… sagt, dass …", "typ": "chunk", "beispiel": { "tr": "Annen diyor ki pazar gelecekler.", "de": "Deine Mama sagt, sie kommen Sonntag." } },
+        { "id": "w24-duydum-ki", "tr": "Duydum ki …", "de": "Ich habe gehört, dass …", "typ": "chunk", "beispiel": { "tr": "Duydum ki yeni bir kafe açılmış.", "de": "Ich habe gehört, dass ein neues Café aufgemacht hat." } },
+        { "id": "w24-dedikodu", "tr": "dedikodu", "de": "Klatsch / Tratsch", "typ": "wort", "beispiel": { "tr": "Dedikodu yapmayalım ama …", "de": "Lass uns nicht tratschen, aber …" } },
+        { "id": "w24-haber", "tr": "haber", "de": "Nachricht / Neuigkeit", "typ": "wort", "beispiel": { "tr": "Güzel bir haberim var!", "de": "Ich habe eine schöne Neuigkeit!" } },
+        { "id": "w24-hasta-olmus", "tr": "Hasta olmuş.", "de": "Er/Sie ist wohl krank geworden.", "typ": "chunk", "beispiel": { "tr": "Elif gelmedi, hasta olmuş.", "de": "Elif ist nicht gekommen, sie ist wohl krank." } },
+        { "id": "w24-dogum-yapmis", "tr": "Doğum yapmış.", "de": "Sie hat (wie ich höre) entbunden.", "typ": "chunk", "beispiel": { "tr": "Kuzenin doğum yapmış! Kız mı, erkek mi?", "de": "Deine Cousine hat entbunden! Mädchen oder Junge?" } },
+        { "id": "w24-nisanlanmis", "tr": "Nişanlanmış.", "de": "Er/Sie hat sich (anscheinend) verlobt.", "typ": "chunk", "beispiel": { "tr": "Elif'in kardeşi nişanlanmış!", "de": "Elifs Schwester hat sich verlobt!" } },
+        { "id": "w24-oyle-mi", "tr": "Öyle mi?", "de": "Ach ja? / Wirklich?", "typ": "chunk", "beispiel": { "tr": "Öyle mi? Hiç bilmiyordum!", "de": "Ach ja? Wusste ich gar nicht!" } }
+      ],
+      "grammatik": {
+        "titel": "-mış: hab ich gehört / anscheinend",
+        "erklaerung": [
+          "-dı = selbst erlebt: Elif geldi. (Ich hab's gesehen.) -mış = gehört oder gemerkt: Elif gelmiş. (Wie ich höre/sehe, ist Elif gekommen.)",
+          "-mış/-miş/-muş/-müş (4-fach) + Person: gelmişim, gelmişsin, gelmiş.",
+          "Auch für Überraschungen: Ne kadar büyümüş! (Wie groß sie geworden ist!) – kennst du schon!",
+          "Weitergeben: … diyor ki … / Duydum ki …"
+        ],
+        "tabelle": {
+          "kopf": ["selbst erlebt (-dı)", "gehört / entdeckt (-mış)"],
+          "zeilen": [
+            ["Elif geldi.", "Elif gelmiş."],
+            ["Hasta oldu.", "Hasta olmuş."],
+            ["Kafe açıldı.", "Kafe açılmış."],
+            ["Büyüdü.", "Ne kadar büyümüş!"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Elif gelmedi, hasta olmuş.", "de": "Elif ist nicht gekommen, sie ist wohl krank." },
+          { "tr": "Duydum ki yeni bir kafe açılmış.", "de": "Ich habe gehört, dass ein neues Café aufgemacht hat." },
+          { "tr": "Annen diyor ki pazar gelecekler.", "de": "Deine Mama sagt, sie kommen Sonntag." }
+        ]
+      },
+      "dialog": {
+        "titel": "Neuigkeiten aus der Nachbarschaft",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Biliyor musun, Elif'in kardeşi nişanlanmış!", "de": "Weißt du was, Elifs Schwester hat sich verlobt!" },
+          { "sprecher": "Pasha", "tr": "Öyle mi? Kim söyledi?", "de": "Ach ja? Wer hat das erzählt?" },
+          { "sprecher": "Sherin", "tr": "Elif. Diyor ki düğün yazın olacak.", "de": "Elif. Sie sagt, die Hochzeit ist im Sommer." },
+          { "sprecher": "Pasha", "tr": "Bir de duydum ki üst kattaki komşu taşınmış.", "de": "Und ich habe gehört, dass der Nachbar von oben umgezogen ist." },
+          { "sprecher": "Sherin", "tr": "Gerçekten mi? Hiç fark etmedim!", "de": "Echt? Hab ich gar nicht gemerkt!" },
+          { "sprecher": "Pasha", "tr": "Dedikodu yapmayalım ama … yeni komşular Türkmüş!", "de": "Lass uns nicht tratschen, aber … die neuen Nachbarn sollen Türken sein!" },
+          { "sprecher": "Sherin", "tr": "Süper! Türkçe pratik yapabilirim o zaman!", "de": "Super! Dann kann ich Türkisch üben!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w24-tasinmak", "w24-dedikodu", "w24-haber", "w24-oyle-mi"] },
+        { "art": "hoeren", "vokabel": "w24-duydum-ki" },
+        { "art": "auswahl_de_tr", "vokabel": "w24-hasta-olmus" },
+        { "art": "luecke", "satz": "Elif gelmedi, hasta ol___.", "loesung": "muş", "optionen": ["muş", "du", "acak"], "de": "Elif ist nicht gekommen, sie ist wohl krank." },
+        { "art": "luecke", "satz": "Yeni bir kafe açıl___.", "loesung": "mış", "optionen": ["mış", "miş", "dı"], "de": "Ein neues Café hat (wie ich höre) aufgemacht." },
+        { "art": "satzbau", "tr": "Annen diyor ki pazar gelecekler.", "de": "Deine Mama sagt, sie kommen Sonntag." },
+        { "art": "auswahl_tr_de", "vokabel": "w24-nisanlanmis" },
+        { "art": "hoeren", "vokabel": "w24-diyor-ki" },
+        { "art": "auswahl_de_tr", "vokabel": "w24-dogum-yapmis" },
+        { "art": "tippen", "vokabel": "w24-haber" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Nachrichten-Runde: Erzähl Pasha fünf Neuigkeiten, die du von anderen gehört hast (Familie, Nachbarn, Freundinnen, Nachrichten) – mit -mış und „… diyor ki“.",
+        "mustersaetze": [
+          { "tr": "Duydum ki … taşınmış.", "de": "Ich habe gehört, dass … umgezogen ist." },
+          { "tr": "Elif diyor ki …", "de": "Elif sagt, dass …" },
+          { "tr": "Öyle mi? Hiç bilmiyordum!", "de": "Ach ja? Wusste ich gar nicht!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Öyle mi?", "de": "Ach ja? / Wirklich?", "wann": "Bei jeder Neuigkeit, die Pasha dir heute erzählt." },
+      "merktipp": { "titel": "-mış = „sagt man“", "text": "Türkisch unterscheidet grammatisch, ob du etwas selbst erlebt oder nur gehört hast. „Hasta olmuş“ heißt: Ich war nicht dabei, aber so ist es mir erzählt worden. Praktisch – und ehrlich!" }
+    },
+    {
+      "woche": 24,
+      "tag": 6,
+      "titel": "Festigungstag: Erledigungs-Marathon",
+      "kannZiel": "einen Tag voller Erledigungen auf Türkisch meistern",
+      "vokabeln": [
+        { "id": "w24-burokrasi", "tr": "bürokrasi", "de": "Bürokratie", "typ": "wort", "beispiel": { "tr": "Almanya'da bürokrasi çok!", "de": "In Deutschland gibt's viel Bürokratie!" } },
+        { "id": "w24-sira-numarasi", "tr": "sıra numarası", "de": "Wartenummer", "typ": "chunk", "beispiel": { "tr": "Sıra numaranızı alın, lütfen.", "de": "Bitte ziehen Sie eine Wartenummer." } },
+        { "id": "w24-bir-dakikanizi-alabilir-miyim", "tr": "Bir dakikanızı alabilir miyim?", "de": "Haben Sie kurz einen Moment?", "typ": "chunk", "beispiel": { "tr": "Pardon, bir dakikanızı alabilir miyim?", "de": "Entschuldigung, haben Sie kurz einen Moment?" } },
+        { "id": "w24-isimi-hallettim", "tr": "İşimi hallettim.", "de": "Ich hab's erledigt.", "typ": "chunk", "beispiel": { "tr": "Bankada işimi hallettim.", "de": "Bei der Bank hab ich alles erledigt." } },
+        { "id": "w24-kafam-karisti", "tr": "Kafam karıştı.", "de": "Ich bin verwirrt.", "typ": "chunk", "beispiel": { "tr": "Bu kadar formdan kafam karıştı!", "de": "Bei so vielen Formularen bin ich ganz verwirrt!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Amtssprache: siz, -mak istiyorum, -abilir miyim?, Passiv erkennen (ödenir, doldurulur).",
+          "Gehörtes: -mış, … diyor ki, duydum ki. Beschwerde: Bir sorunum var … iade etmek istiyorum."
+        ],
+        "tabelle": {
+          "kopf": ["Ort", "Schlüsselsatz"],
+          "zeilen": [
+            ["Bank", "Hesap açmak istiyorum."],
+            ["Post", "Bu paketi göndermek istiyorum."],
+            ["Amt", "Hangi belgeler lazım?"],
+            ["Laden", "Bir sorunum var, iade etmek istiyorum."],
+            ["Neuigkeit", "Duydum ki …"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Bankada işimi hallettim.", "de": "Bei der Bank hab ich alles erledigt." },
+          { "tr": "Sıra numaranızı alın, lütfen.", "de": "Bitte ziehen Sie eine Wartenummer." },
+          { "tr": "Bu kadar formdan kafam karıştı!", "de": "Bei so vielen Formularen bin ich ganz verwirrt!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Abends: Was hast du heute erledigt?",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bugün neler yaptın?", "de": "Was hast du heute alles gemacht?" },
+          { "sprecher": "Sherin", "tr": "Her şeyi! Önce bankaya gittim, işimi hallettim.", "de": "Alles! Zuerst war ich bei der Bank und hab alles erledigt." },
+          { "sprecher": "Sherin", "tr": "Sonra postaneye gittim, annene paketi gönderdim.", "de": "Dann war ich bei der Post und hab deiner Mama das Paket geschickt." },
+          { "sprecher": "Pasha", "tr": "Harika! Fön makinesi?", "de": "Super! Und der Föhn?" },
+          { "sprecher": "Sherin", "tr": "Değiştirdiler. Bir de duydum ki postanede yeni bir müdür varmış, çok kibarmış.", "de": "Umgetauscht. Und ich habe gehört, bei der Post gibt es einen neuen Leiter, er soll sehr nett sein." },
+          { "sprecher": "Pasha", "tr": "Bütün bunları Türkçe mi anlattın? Aferin sana!", "de": "Das alles hast du auf Türkisch erzählt? Bravo!" },
+          { "sprecher": "Sherin", "tr": "Evet! Ama şimdi kafam karıştı, çay lazım.", "de": "Ja! Aber jetzt bin ich ganz durcheinander, ich brauche Tee." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w24-burokrasi", "w24-sira-numarasi", "w24-isimi-hallettim", "w24-kafam-karisti"] },
+        { "art": "hoeren", "vokabel": "w24-bir-dakikanizi-alabilir-miyim" },
+        { "art": "satzbau", "tr": "Bankada işimi hallettim.", "de": "Bei der Bank hab ich alles erledigt." },
+        { "art": "luecke", "satz": "Yeni müdür çok kibar___.", "loesung": "mış", "optionen": ["mış", "dı", "acak"], "de": "Der neue Leiter soll sehr nett sein." },
+        { "art": "auswahl_de_tr", "vokabel": "w24-iade-etmek" },
+        { "art": "hoeren", "vokabel": "w24-sozlesme" },
+        { "art": "luecke", "satz": "Annene paket___ gönderdim.", "loesung": "i", "optionen": ["i", "e", "ten"], "de": "Ich habe deiner Mama das Paket geschickt." },
+        { "art": "auswahl_tr_de", "vokabel": "w24-kafam-karisti" },
+        { "art": "tippen", "vokabel": "w24-kimlik" },
+        { "art": "satzbau", "tr": "Bu kadar formdan kafam karıştı!", "de": "Bei so vielen Formularen bin ich ganz verwirrt!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Erzähl Pasha von deinen letzten Erledigungen (Bank, Post, Ämter, Läden) wie im Dialog oben – mit -dı für Selbst-Erlebtes und -mış für Gehörtes. Mindestens 2 Minuten.",
+        "mustersaetze": [
+          { "tr": "Önce … gittim, işimi hallettim.", "de": "Zuerst war ich bei … und hab alles erledigt." },
+          { "tr": "Duydum ki …", "de": "Ich habe gehört, dass …" },
+          { "tr": "Kafam karıştı, çay lazım!", "de": "Ich bin durcheinander, ich brauche Tee!" }
+        ]
+      },
+      "alltagssatz": { "tr": "İşimi hallettim!", "de": "Ich hab's erledigt!", "wann": "Nach jeder erledigten Aufgabe heute – mit Stolz." },
+      "merktipp": { "titel": "Bürokratie auf Türkisch", "text": "Wenn du Bank, Post und Formulare auf Türkisch schaffst, schaffst du alles. Das ist echtes A2+ – mehr, als viele nach Jahren können." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Spielt eine Reklamation: Du gibst ein kaputtes Gerät zurück.", "hilfe": { "tr": "Bir sorunum var. Bunu dün aldım, çalışmıyor. İade etmek istiyorum.", "de": "Ich habe ein Problem. Das habe ich gestern gekauft, es funktioniert nicht. Ich möchte es zurückgeben." } },
+      { "situation": "Erzähl drei Neuigkeiten, die du gehört hast – mit -mış.", "hilfe": { "tr": "Duydum ki … taşınmış. … diyor ki … Elif hasta olmuş.", "de": "Ich habe gehört, … ist umgezogen. … sagt … Elif ist wohl krank." } },
+      { "situation": "Frag am (gespielten) Bankschalter, was du für ein Konto brauchst.", "hilfe": { "tr": "Hesap açmak için hangi belgeler lazım?", "de": "Welche Dokumente brauche ich für ein Konto?" } }
+    ]
+  }
+}
