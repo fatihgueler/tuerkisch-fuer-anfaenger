@@ -1,0 +1,443 @@
+{
+  "woche": 26,
+  "lektionen": [
+    {
+      "woche": 26,
+      "tag": 1,
+      "titel": "Rückblick Phase 1: Ich, Familie, Zuhause",
+      "kannZiel": "dich und dein Zuhause frei und ausführlich vorstellen",
+      "vokabeln": [
+        { "id": "w26-kendimi-tanitayim", "tr": "Kendimi tanıtayım.", "de": "Darf ich mich vorstellen?", "typ": "chunk", "beispiel": { "tr": "Merhaba, kendimi tanıtayım: Ben Sherin.", "de": "Hallo, darf ich mich vorstellen: Ich bin Sherin." } },
+        { "id": "w26-aslen", "tr": "aslen", "de": "ursprünglich / von Herkunft", "typ": "wort", "beispiel": { "tr": "Pasha'nın ailesi aslen nereli?", "de": "Woher stammt Pashas Familie ursprünglich?" } },
+        { "id": "w26-mahalle", "tr": "mahalle", "de": "Viertel / Nachbarschaft", "typ": "wort", "beispiel": { "tr": "Mahallemiz sakin ve yeşil.", "de": "Unser Viertel ist ruhig und grün." } },
+        { "id": "w26-komsuluk", "tr": "komşuluk", "de": "Nachbarschaft (Beziehung)", "typ": "wort", "beispiel": { "tr": "Elif'le komşuluğumuz çok güzel.", "de": "Mit Elif haben wir eine sehr schöne Nachbarschaft." } },
+        { "id": "w26-gunluk", "tr": "günlük", "de": "täglich / Alltags-", "typ": "wort", "beispiel": { "tr": "Günlük hayatımda Türkçe konuşuyorum.", "de": "In meinem Alltag spreche ich Türkisch." } },
+        { "id": "w26-rutin", "tr": "rutin", "de": "Routine", "typ": "wort", "beispiel": { "tr": "Sabah rutinimiz hep aynı.", "de": "Unsere Morgenroutine ist immer gleich." } },
+        { "id": "w26-alisveris-merkezi", "tr": "alışveriş merkezi", "de": "Einkaufszentrum", "typ": "chunk", "beispiel": { "tr": "Hafta sonu alışveriş merkezine gittik.", "de": "Am Wochenende waren wir im Einkaufszentrum." } },
+        { "id": "w26-calisan-anne", "tr": "çalışan anne", "de": "berufstätige Mutter", "typ": "chunk", "beispiel": { "tr": "Elif çalışan bir anne.", "de": "Elif ist eine berufstätige Mutter." } }
+      ],
+      "grammatik": {
+        "titel": "Phase 1 auf einen Blick",
+        "erklaerung": [
+          "„sein“ als Endung (yorgunum), Fragen mit mi, Mehrzahl -lar, Besitz -(ı)m, var/yok.",
+          "Orte: -da (wo), -a (wohin), -dan (woher). Präsens -yor. Akkusativ für bestimmte Dinge.",
+          "Das alles benutzt du inzwischen ganz automatisch – schau, wie weit du gekommen bist!"
+        ],
+        "tabelle": {
+          "kopf": ["Woche", "Baustein", "Beispiel"],
+          "zeilen": [
+            ["1", "sein / mi", "Yorgun musun?"],
+            ["2", "Besitz / var", "Bir kızım var."],
+            ["3", "Lokativ", "Amani bahçede."],
+            ["4", "-yor", "Çay içiyorum."],
+            ["5", "Dativ / Ablativ", "İşten eve geliyorum."],
+            ["6", "Akkusativ / siz", "Ekmeği uzatır mısınız?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kendimi tanıtayım: Ben Sherin, Garbsen'de oturuyorum.", "de": "Darf ich mich vorstellen: Ich bin Sherin, ich wohne in Garbsen." },
+          { "tr": "Mahallemiz sakin ve yeşil.", "de": "Unser Viertel ist ruhig und grün." },
+          { "tr": "Günlük hayatımda Türkçe konuşuyorum.", "de": "In meinem Alltag spreche ich Türkisch." }
+        ]
+      },
+      "dialog": {
+        "titel": "Neue Nachbarn (die türkischen!)",
+        "zeilen": [
+          { "sprecher": "Neue Nachbarin", "tr": "Merhaba! Biz yeni taşındık, üst kattayız.", "de": "Hallo! Wir sind gerade eingezogen, wir wohnen oben." },
+          { "sprecher": "Sherin", "tr": "Hoş geldiniz! Kendimi tanıtayım: Ben Sherin. Bu kızım Inaya, bu da köpeğimiz Amani.", "de": "Willkommen! Darf ich mich vorstellen: Ich bin Sherin. Das ist meine Tochter Inaya und das unser Hund Amani." },
+          { "sprecher": "Neue Nachbarin", "tr": "Ne güzel Türkçe konuşuyorsunuz! Türk müsünüz?", "de": "Sie sprechen aber schön Türkisch! Sind Sie Türkin?" },
+          { "sprecher": "Sherin", "tr": "Hayır, eşim Türk. Altı aydır Türkçe öğreniyorum.", "de": "Nein, mein Mann ist Türke. Ich lerne seit sechs Monaten Türkisch." },
+          { "sprecher": "Neue Nachbarin", "tr": "Maşallah! Mahalle nasıl?", "de": "Maşallah! Wie ist die Gegend?" },
+          { "sprecher": "Sherin", "tr": "Çok sakin ve yeşil. Market yakın, park da köşede. Bir şey lazım olursa kapımız her zaman açık!", "de": "Sehr ruhig und grün. Der Supermarkt ist nah, und der Park ist an der Ecke. Wenn Sie etwas brauchen – unsere Tür steht immer offen!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w26-mahalle", "w26-komsuluk", "w26-gunluk", "w26-rutin"] },
+        { "art": "hoeren", "vokabel": "w26-kendimi-tanitayim" },
+        { "art": "auswahl_de_tr", "vokabel": "w02-bir-kizim-var" },
+        { "art": "luecke", "satz": "Amani bahçe___.", "loesung": "de", "optionen": ["de", "e", "den"], "de": "Amani ist im Garten." },
+        { "art": "auswahl_tr_de", "vokabel": "w03-buzdolabi" },
+        { "art": "luecke", "satz": "İş___ eve geliyorum.", "loesung": "ten", "optionen": ["ten", "te", "e"], "de": "Ich komme von der Arbeit nach Hause." },
+        { "art": "hoeren", "vokabel": "w06-alabilir-miyim" },
+        { "art": "satzbau", "tr": "Kendimi tanıtayım: Ben Sherin.", "de": "Darf ich mich vorstellen: Ich bin Sherin." },
+        { "art": "zuordnen", "vokabeln": ["w01-yorgun", "w02-anne", "w04-icmek", "w05-yolda"] },
+        { "art": "tippen", "vokabel": "w26-mahalle" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Stell dich Pasha vor, als wäre er eine neue Nachbarin – ausführlich: wer du bist, deine Familie, eure Wohnung, euer Viertel, dein Alltag. Mindestens 3 Minuten. Erinnerst du dich an Woche 1? Da waren es drei Sätze!",
+        "mustersaetze": [
+          { "tr": "Kendimi tanıtayım …", "de": "Darf ich mich vorstellen …" },
+          { "tr": "Mahallemiz …", "de": "Unser Viertel …" },
+          { "tr": "Günlük hayatımda …", "de": "In meinem Alltag …" }
+        ]
+      },
+      "alltagssatz": { "tr": "Kendimi tanıtayım.", "de": "Darf ich mich vorstellen?", "wann": "Bei der nächsten neuen Begegnung mit Türkischsprachigen." },
+      "merktipp": { "titel": "Von 3 Sätzen zu 3 Minuten", "text": "In Woche 1 war „Benim adım Sherin. Garbsen'de oturuyorum.“ eine Leistung. Heute erzählst du drei Minuten frei. Das ist der Beweis: Es hat funktioniert." }
+    },
+    {
+      "woche": 26,
+      "tag": 2,
+      "titel": "Rückblick Phase 2: Gestern, heute, morgen",
+      "kannZiel": "frei zwischen Vergangenheit, Gegenwart und Zukunft wechseln",
+      "vokabeln": [
+        { "id": "w26-gecmis", "tr": "geçmiş", "de": "Vergangenheit", "typ": "wort", "beispiel": { "tr": "Geçmişte hiç Türkçe bilmiyordum.", "de": "In der Vergangenheit konnte ich kein Türkisch." } },
+        { "id": "w26-simdi", "tr": "şimdiki zaman", "de": "Gegenwart", "typ": "chunk", "beispiel": { "tr": "Şimdiki zamanda yaşamak önemli.", "de": "Im Jetzt zu leben ist wichtig." } },
+        { "id": "w26-gelecek", "tr": "gelecek", "de": "Zukunft", "typ": "wort", "beispiel": { "tr": "Gelecek çok güzel görünüyor.", "de": "Die Zukunft sieht sehr schön aus." } },
+        { "id": "w26-yolculuk", "tr": "yolculuk", "de": "Reise", "typ": "wort", "beispiel": { "tr": "Bu altı ay güzel bir yolculuktu.", "de": "Diese sechs Monate waren eine schöne Reise." } },
+        { "id": "w26-saglik", "tr": "sağlık", "de": "Gesundheit", "typ": "wort", "beispiel": { "tr": "En önemlisi sağlık.", "de": "Das Wichtigste ist die Gesundheit." } },
+        { "id": "w26-macera", "tr": "macera", "de": "Abenteuer", "typ": "wort", "beispiel": { "tr": "Bebekle her gün bir macera!", "de": "Mit Baby ist jeder Tag ein Abenteuer!" } },
+        { "id": "w26-tecrube", "tr": "tecrübe", "de": "Erfahrung", "typ": "wort", "beispiel": { "tr": "Bu çok güzel bir tecrübeydi.", "de": "Das war eine sehr schöne Erfahrung." } },
+        { "id": "w26-degisim", "tr": "değişim", "de": "Veränderung", "typ": "wort", "beispiel": { "tr": "Altı ayda büyük bir değişim oldu.", "de": "In sechs Monaten gab es eine große Veränderung." } }
+      ],
+      "grammatik": {
+        "titel": "Phase 2 auf einen Blick",
+        "erklaerung": [
+          "Adjektive & Vergleich (daha, en), Vergangenheit -dı, „war“ (-ydı), Gesundheit (ağrıyor, lazım), mit (-la), Befehle, Zukunft (-acak).",
+          "Ein Satz mit allen drei Zeiten: Dün hastaydım, bugün iyiyim, yarın parka gideceğiz."
+        ],
+        "tabelle": {
+          "kopf": ["Woche", "Baustein", "Beispiel"],
+          "zeilen": [
+            ["7", "Vergleich", "Bugün dünden daha soğuk."],
+            ["8–9", "Vergangenheit", "Dün parka gittik, çok güzeldi."],
+            ["10", "Gesundheit", "Başım ağrıyor, ilaç lazım."],
+            ["11", "mit / Befehl", "Otobüsle git, sağa dön!"],
+            ["12", "Zukunft", "Yazın denize gideceğiz."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Dün hastaydım, bugün iyiyim, yarın parka gideceğiz.", "de": "Gestern war ich krank, heute geht's mir gut, morgen gehen wir in den Park." },
+          { "tr": "Bu altı ay güzel bir yolculuktu.", "de": "Diese sechs Monate waren eine schöne Reise." },
+          { "tr": "Bebekle her gün bir macera!", "de": "Mit Baby ist jeder Tag ein Abenteuer!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein ganz normaler Tag – in drei Zeiten",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Dün nasıldı?", "de": "Wie war gestern?" },
+          { "sprecher": "Sherin", "tr": "Yorucuydu! Inaya hastaydı, doktora gittik. Ateşi vardı.", "de": "Anstrengend! Inaya war krank, wir waren beim Arzt. Sie hatte Fieber." },
+          { "sprecher": "Pasha", "tr": "Bugün nasıl?", "de": "Und heute?" },
+          { "sprecher": "Sherin", "tr": "Bugün çok daha iyi. Şu an Amani'yle oynuyor.", "de": "Heute viel besser. Gerade spielt sie mit Amani." },
+          { "sprecher": "Pasha", "tr": "Yarın ne yapacağız?", "de": "Was machen wir morgen?" },
+          { "sprecher": "Sherin", "tr": "Hava güzel olursa otobüsle şehre gideriz. Yağmur yağarsa evde kalırız.", "de": "Wenn das Wetter schön ist, fahren wir mit dem Bus in die Stadt. Wenn es regnet, bleiben wir zu Hause." },
+          { "sprecher": "Pasha", "tr": "Bütün zamanları kullandın! Aferin!", "de": "Du hast alle Zeiten benutzt! Bravo!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w26-gecmis", "w26-gelecek", "w26-yolculuk", "w26-degisim"] },
+        { "art": "hoeren", "vokabel": "w26-macera" },
+        { "art": "luecke", "satz": "Dün hasta___, bugün iyiyim.", "loesung": "ydım", "optionen": ["ydım", "yım", "yacağım"], "de": "Gestern war ich krank, heute geht's mir gut." },
+        { "art": "luecke", "satz": "Yarın parka gid___.", "loesung": "eceğiz", "optionen": ["eceğiz", "iyoruz", "dik"], "de": "Morgen gehen wir in den Park." },
+        { "art": "auswahl_de_tr", "vokabel": "w10-gecmis-olsun" },
+        { "art": "auswahl_tr_de", "vokabel": "w07-daha" },
+        { "art": "hoeren", "vokabel": "w08-nasildi" },
+        { "art": "satzbau", "tr": "Bu altı ay güzel bir yolculuktu.", "de": "Diese sechs Monate waren eine schöne Reise." },
+        { "art": "zuordnen", "vokabeln": ["w07-soguk", "w10-bas", "w11-saga-don", "w12-insallah"] },
+        { "art": "tippen", "vokabel": "w26-saglik" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Drei-Zeiten-Challenge: Erzähl Pasha von gestern, heute und morgen – ohne Pause, mindestens 2 Minuten. Pasha stoppt dich nur, wenn du in der falschen Zeit landest.",
+        "mustersaetze": [
+          { "tr": "Dün … -dı.", "de": "Gestern …" },
+          { "tr": "Bugün / Şu an … -yor.", "de": "Heute / Gerade …" },
+          { "tr": "Yarın … -acak.", "de": "Morgen …" }
+        ]
+      },
+      "alltagssatz": { "tr": "Bu altı ay güzel bir yolculuktu.", "de": "Diese sechs Monate waren eine schöne Reise.", "wann": "Wenn dich jemand fragt, wie das Türkischlernen war." },
+      "merktipp": { "titel": "Zeiten sind Werkzeuge", "text": "Du musst nicht mehr nachdenken, welche Zeit du brauchst – du fühlst es. Das ist der Moment, in dem eine Sprache dir gehört." }
+    },
+    {
+      "woche": 26,
+      "tag": 3,
+      "titel": "Rückblick Phase 3: Gefühle, Gewohnheiten, Familie",
+      "kannZiel": "über dich als Mensch erzählen – Gefühle, Talente, Familie",
+      "vokabeln": [
+        { "id": "w26-yetenekli", "tr": "yetenekli", "de": "talentiert", "typ": "wort", "beispiel": { "tr": "Elif çok yetenekli bir aşçı.", "de": "Elif ist eine sehr talentierte Köchin." } },
+        { "id": "w26-duygular", "tr": "duygular", "de": "Gefühle", "typ": "wort", "beispiel": { "tr": "Duygularımı Türkçe anlatabiliyorum.", "de": "Ich kann meine Gefühle auf Türkisch ausdrücken." } },
+        { "id": "w26-aliskanliklarim", "tr": "alışkanlıklarım", "de": "meine Gewohnheiten", "typ": "chunk", "beispiel": { "tr": "Yeni alışkanlıklarım var: her akşam Türkçe!", "de": "Ich habe neue Gewohnheiten: jeden Abend Türkisch!" } },
+        { "id": "w26-oz-bakim", "tr": "öz bakım", "de": "Selbstfürsorge", "typ": "chunk", "beispiel": { "tr": "Öz bakım anneler için çok önemli.", "de": "Selbstfürsorge ist für Mütter sehr wichtig." } },
+        { "id": "w26-aile-baglari", "tr": "aile bağları", "de": "Familienbande", "typ": "chunk", "beispiel": { "tr": "Türkçe aile bağlarımızı güçlendirdi.", "de": "Türkisch hat unsere Familienbande gestärkt." } },
+        { "id": "w26-ozguven", "tr": "özgüven", "de": "Selbstvertrauen", "typ": "wort", "beispiel": { "tr": "Artık daha çok özgüvenim var.", "de": "Jetzt habe ich mehr Selbstvertrauen." } },
+        { "id": "w26-cesaret", "tr": "cesaret", "de": "Mut", "typ": "wort", "beispiel": { "tr": "Konuşmak için cesaret lazım.", "de": "Zum Sprechen braucht man Mut." } },
+        { "id": "w26-takvimim", "tr": "takvimim", "de": "mein Kalender", "typ": "chunk", "beispiel": { "tr": "Takvimim her zaman dolu!", "de": "Mein Kalender ist immer voll!" } }
+      ],
+      "grammatik": {
+        "titel": "Phase 3 auf einen Blick",
+        "erklaerung": [
+          "Wollen/können (-mak istiyorum, -ebiliyorum, -emiyorum), Gefühle & Meinung (bence, çünkü), Aorist (Gewohnheiten, Bitten).",
+          "Uhrzeit & Termine, Besitz + Kasus (saçımı, yüzüme), machen lassen (kestirmek), müssen (-malı)."
+        ],
+        "tabelle": {
+          "kopf": ["Woche", "Baustein", "Beispiel"],
+          "zeilen": [
+            ["14", "können", "Türkçe konuşabiliyorum."],
+            ["15", "Meinung", "Bence … çünkü …"],
+            ["16", "Aorist", "Her sabah çay içerim."],
+            ["17", "Uhrzeit", "Saat üçü çeyrek geçe."],
+            ["18", "lassen", "Saçımı kestirdim."],
+            ["19", "müssen", "Sabırlı olmalıyız."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Duygularımı Türkçe anlatabiliyorum.", "de": "Ich kann meine Gefühle auf Türkisch ausdrücken." },
+          { "tr": "Artık daha çok özgüvenim var.", "de": "Jetzt habe ich mehr Selbstvertrauen." },
+          { "tr": "Konuşmak için cesaret lazım.", "de": "Zum Sprechen braucht man Mut." }
+        ]
+      },
+      "dialog": {
+        "titel": "Was hat sich verändert?",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Kızım, Türkçe öğrenmek seni değiştirdi mi?", "de": "Liebes, hat das Türkischlernen dich verändert?" },
+          { "sprecher": "Sherin", "tr": "Evet! Artık daha çok özgüvenim var. Başta konuşmaya cesaretim yoktu.", "de": "Ja! Ich habe jetzt mehr Selbstvertrauen. Am Anfang hatte ich keinen Mut zu sprechen." },
+          { "sprecher": "Pashas Mama", "tr": "Şimdi duygularını da anlatabiliyorsun.", "de": "Jetzt kannst du sogar deine Gefühle ausdrücken." },
+          { "sprecher": "Sherin", "tr": "Aynen. Ve bence aile bağlarımız güçlendi. Sizinle rahatça konuşabiliyorum.", "de": "Genau. Und ich finde, unsere Familienbande sind stärker geworden. Ich kann mich entspannt mit Ihnen unterhalten." },
+          { "sprecher": "Pashas Mama", "tr": "Seninle gurur duyuyorum kızım.", "de": "Ich bin stolz auf dich, Liebes." },
+          { "sprecher": "Sherin", "tr": "Ben de! Her akşam çalışmak yeni alışkanlığım oldu.", "de": "Ich auch! Jeden Abend zu lernen ist meine neue Gewohnheit geworden." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w26-ozguven", "w26-cesaret", "w26-duygular", "w26-oz-bakim"] },
+        { "art": "hoeren", "vokabel": "w26-aile-baglari" },
+        { "art": "luecke", "satz": "Türkçe konuş___.", "loesung": "abiliyorum", "optionen": ["abiliyorum", "amıyorum", "malıyım"], "de": "Ich kann Türkisch sprechen." },
+        { "art": "auswahl_de_tr", "vokabel": "w15-bence" },
+        { "art": "auswahl_tr_de", "vokabel": "w16-her-zaman" },
+        { "art": "luecke", "satz": "Saçımı kes___.", "loesung": "tirdim", "optionen": ["tirdim", "tim", "eceğim"], "de": "Ich habe mir die Haare schneiden lassen." },
+        { "art": "hoeren", "vokabel": "w18-sihhatler-olsun" },
+        { "art": "zuordnen", "vokabeln": ["w19-kayinvalide", "w19-amca", "w19-teyze", "w19-gelin"] },
+        { "art": "satzbau", "tr": "Artık daha çok özgüvenim var.", "de": "Jetzt habe ich mehr Selbstvertrauen." },
+        { "art": "tippen", "vokabel": "w26-cesaret" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Ehrliches Gespräch mit Pasha: Was hat sich in den sechs Monaten verändert – bei dir, bei euch, in der Familie? Was war am schwersten? Worauf bist du stolz? Mit bence, çünkü und Gefühlen.",
+        "mustersaetze": [
+          { "tr": "Başta … ama şimdi …", "de": "Am Anfang … aber jetzt …" },
+          { "tr": "En zor şey … oldu, çünkü …", "de": "Das Schwerste war …, weil …" },
+          { "tr": "Artık daha çok özgüvenim var.", "de": "Jetzt habe ich mehr Selbstvertrauen." }
+        ]
+      },
+      "alltagssatz": { "tr": "Konuşmak için cesaret lazım.", "de": "Zum Sprechen braucht man Mut.", "wann": "Wenn jemand anderes eine Sprache lernt – gib deine Erfahrung weiter." },
+      "merktipp": { "titel": "Mut war der Schlüssel", "text": "Grammatik kann man üben – Mut zum Sprechen muss man finden. Du hast ihn gefunden. Das ist das Wertvollste, was du aus diesen sechs Monaten mitnimmst." }
+    },
+    {
+      "woche": 26,
+      "tag": 4,
+      "titel": "Rückblick Phase 4: frei und natürlich",
+      "kannZiel": "dich höflich, verbunden und natürlich ausdrücken",
+      "vokabeln": [
+        { "id": "w26-nezaket", "tr": "nezaket", "de": "Höflichkeit", "typ": "wort", "beispiel": { "tr": "Türk kültüründe nezaket çok önemli.", "de": "In der türkischen Kultur ist Höflichkeit sehr wichtig." } },
+        { "id": "w26-kendini-ifade-etmek", "tr": "kendini ifade etmek", "de": "sich ausdrücken", "typ": "chunk", "beispiel": { "tr": "Artık kendimi Türkçe ifade edebiliyorum.", "de": "Jetzt kann ich mich auf Türkisch ausdrücken." } },
+        { "id": "w26-akicilik", "tr": "akıcılık", "de": "Flüssigkeit (beim Sprechen)", "typ": "wort", "beispiel": { "tr": "Akıcılık pratikle gelir.", "de": "Flüssigkeit kommt mit Übung." } },
+        { "id": "w26-dogal", "tr": "doğal", "de": "natürlich", "typ": "wort", "beispiel": { "tr": "Çok doğal konuşuyorsun!", "de": "Du sprichst ganz natürlich!" } },
+        { "id": "w26-pratik-yapmak", "tr": "pratik yapmak", "de": "üben", "typ": "chunk", "beispiel": { "tr": "Her gün pratik yapmaya devam edeceğim.", "de": "Ich werde weiter jeden Tag üben." } },
+        { "id": "w26-konusma", "tr": "konuşma", "de": "Gespräch / Rede", "typ": "wort", "beispiel": { "tr": "On dakikalık bir konuşma yapacağım.", "de": "Ich werde ein Zehn-Minuten-Gespräch führen." } },
+        { "id": "w26-dinleyici", "tr": "dinleyici", "de": "Zuhörer(in)", "typ": "wort", "beispiel": { "tr": "Pasha en iyi dinleyici.", "de": "Pasha ist der beste Zuhörer." } },
+        { "id": "w26-anlasilir", "tr": "anlaşılır", "de": "verständlich", "typ": "wort", "beispiel": { "tr": "Türkçen çok anlaşılır.", "de": "Dein Türkisch ist sehr verständlich." } }
+      ],
+      "grammatik": {
+        "titel": "Phase 4 auf einen Blick",
+        "erklaerung": [
+          "Höflichkeitsformeln, wenn-Sätze (-sa), keşke, Ratschläge, Verbinder (-ken, -dıktan sonra, -madan önce), -dığı-Bausteine, -mış, Füllwörter.",
+          "Mit diesen Werkzeugen klingt dein Türkisch nicht mehr nach Lehrbuch, sondern nach dir."
+        ],
+        "tabelle": {
+          "kopf": ["Woche", "Baustein", "Beispiel"],
+          "zeilen": [
+            ["21", "Formeln", "Ellerinize sağlık!"],
+            ["22", "wenn / keşke", "Zamanın varsa … / Keşke …"],
+            ["23", "Verbinder", "Inaya uyurken çalışırım."],
+            ["24", "-mış", "Duydum ki taşınmış."],
+            ["25", "natürlich", "Yani, aslında …"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Artık kendimi Türkçe ifade edebiliyorum.", "de": "Jetzt kann ich mich auf Türkisch ausdrücken." },
+          { "tr": "Akıcılık pratikle gelir.", "de": "Flüssigkeit kommt mit Übung." },
+          { "tr": "Türkçen çok anlaşılır.", "de": "Dein Türkisch ist sehr verständlich." }
+        ]
+      },
+      "dialog": {
+        "titel": "Generalprobe",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Cumartesi on dakikalık konuşmamızı yapacağız. Hazır mısın?", "de": "Samstag führen wir unser Zehn-Minuten-Gespräch. Bist du bereit?" },
+          { "sprecher": "Sherin", "tr": "Şey … aslında biraz heyecanlıyım. Ya kelimeleri unutursam?", "de": "Äh … eigentlich bin ich etwas aufgeregt. Was, wenn ich die Wörter vergesse?" },
+          { "sprecher": "Pasha", "tr": "Unutursan 'nasıl desem' dersin, sonra devam edersin. Hani öğrendin ya!", "de": "Dann sagst du 'nasıl desem' und machst weiter. Du hast es doch gelernt!" },
+          { "sprecher": "Sherin", "tr": "Haklısın. Kendimi ifade edebiliyorum, mükemmel olmasa da.", "de": "Du hast recht. Ich kann mich ausdrücken, auch wenn es nicht perfekt ist." },
+          { "sprecher": "Pasha", "tr": "Mükemmel olmak zorunda değil. Türkçen çok doğal ve anlaşılır.", "de": "Es muss nicht perfekt sein. Dein Türkisch ist ganz natürlich und verständlich." },
+          { "sprecher": "Sherin", "tr": "Teşekkürler canım. Sen de en iyi dinleyicisin!", "de": "Danke, Schatz. Und du bist der beste Zuhörer!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w26-nezaket", "w26-akicilik", "w26-dogal", "w26-anlasilir"] },
+        { "art": "hoeren", "vokabel": "w26-kendini-ifade-etmek" },
+        { "art": "auswahl_de_tr", "vokabel": "w21-ellerinize-saglik" },
+        { "art": "luecke", "satz": "Zamanın var___ bir çay içelim.", "loesung": "sa", "optionen": ["sa", "dı", "ken"], "de": "Wenn du Zeit hast, lass uns einen Tee trinken." },
+        { "art": "luecke", "satz": "Inaya uyur___ çalışırım.", "loesung": "ken", "optionen": ["ken", "sa", "madan"], "de": "Während Inaya schläft, lerne ich." },
+        { "art": "auswahl_tr_de", "vokabel": "w24-duydum-ki" },
+        { "art": "hoeren", "vokabel": "w25-aslinda" },
+        { "art": "zuordnen", "vokabeln": ["w22-keske", "w23-bildigim-kadariyla", "w25-neyse", "w21-kolay-gelsin"] },
+        { "art": "satzbau", "tr": "Akıcılık pratikle gelir.", "de": "Flüssigkeit kommt mit Übung." },
+        { "art": "tippen", "vokabel": "w26-dogal" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Generalprobe: Führt ein 5-Minuten-Gespräch über ein beliebiges Thema. Danach sagt Pasha dir zwei Dinge, die richtig gut waren, und eines zum Üben. Samstag kommen die vollen 10 Minuten!",
+        "mustersaetze": [
+          { "tr": "Nasıl desem …", "de": "Wie soll ich sagen …" },
+          { "tr": "Bildiğim kadarıyla …", "de": "Soweit ich weiß …" },
+          { "tr": "Mükemmel olmasa da kendimi ifade edebiliyorum.", "de": "Auch wenn es nicht perfekt ist, kann ich mich ausdrücken." }
+        ]
+      },
+      "alltagssatz": { "tr": "Akıcılık pratikle gelir.", "de": "Flüssigkeit kommt mit Übung.", "wann": "Als Motto für die Zeit nach diesem Kurs." },
+      "merktipp": { "titel": "Perfekt ist kein Ziel", "text": "Muttersprachler machen auch Fehler, stocken, suchen Wörter. Dein Ziel war nie Perfektion – sondern Verbindung. Und die hast du." }
+    },
+    {
+      "woche": 26,
+      "tag": 5,
+      "titel": "Bereit für den Abschlusstest",
+      "kannZiel": "selbstbewusst in den Abschlusstest gehen",
+      "vokabeln": [
+        { "id": "w26-sinav", "tr": "sınav", "de": "Prüfung / Test", "typ": "wort", "beispiel": { "tr": "Pazar günü son sınav var.", "de": "Am Sonntag ist der Abschlusstest." } },
+        { "id": "w26-sinava-haziriz", "tr": "Sınava hazırım.", "de": "Ich bin bereit für die Prüfung.", "typ": "chunk", "beispiel": { "tr": "Biraz heyecanlıyım ama sınava hazırım!", "de": "Ich bin etwas aufgeregt, aber bereit für den Test!" } },
+        { "id": "w26-basari", "tr": "başarı", "de": "Erfolg", "typ": "wort", "beispiel": { "tr": "Bu senin başarın!", "de": "Das ist dein Erfolg!" } },
+        { "id": "w26-basarilar", "tr": "Başarılar!", "de": "Viel Erfolg!", "typ": "chunk", "beispiel": { "tr": "Yarın sınavın var mı? Başarılar!", "de": "Hast du morgen eine Prüfung? Viel Erfolg!" } },
+        { "id": "w26-tebrikler", "tr": "Tebrikler!", "de": "Glückwunsch!", "typ": "chunk", "beispiel": { "tr": "Tebrikler, sınavı geçtin!", "de": "Glückwunsch, du hast den Test bestanden!" } },
+        { "id": "w26-sertifika", "tr": "sertifika", "de": "Urkunde / Zertifikat", "typ": "wort", "beispiel": { "tr": "Sertifikamı duvara asacağım!", "de": "Meine Urkunde hänge ich an die Wand!" } },
+        { "id": "w26-hak-etmek", "tr": "hak etmek", "de": "verdienen", "typ": "chunk", "beispiel": { "tr": "Bunu gerçekten hak ettin.", "de": "Das hast du dir wirklich verdient." } },
+        { "id": "w26-sonuc", "tr": "sonuç", "de": "Ergebnis", "typ": "wort", "beispiel": { "tr": "Sonuç ne olursa olsun, gurur duyuyorum.", "de": "Egal wie das Ergebnis ist, ich bin stolz." } }
+      ],
+      "grammatik": {
+        "titel": "Dein Werkzeugkasten",
+        "erklaerung": [
+          "Im Abschlusstest kommen Wörter und Sätze aus allen 26 Wochen – und deine Fehlerkiste.",
+          "Wenn du unsicher bist: Lies den Satz laut, hör auf die Vokalharmonie, denk an Fıstıkçı Şahap.",
+          "Und vergiss nicht: Sonuç ne olursa olsun – egal wie das Ergebnis ist, du sprichst Türkisch."
+        ],
+        "tabelle": {
+          "kopf": ["Trick", "Hilfe"],
+          "zeilen": [
+            ["Vokal?", "letzter Vokal im Wort entscheidet"],
+            ["d oder t?", "Fıstıkçı Şahap: ç f h k p s ş t → t"],
+            ["k oder ğ?", "Vokal kommt dazu → ğ"],
+            ["Wort fehlt?", "Şey … nasıl desem …"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Biraz heyecanlıyım ama sınava hazırım!", "de": "Ich bin etwas aufgeregt, aber bereit für den Test!" },
+          { "tr": "Sonuç ne olursa olsun, gurur duyuyorum.", "de": "Egal wie das Ergebnis ist, ich bin stolz." },
+          { "tr": "Bunu gerçekten hak ettin.", "de": "Das hast du dir wirklich verdient." }
+        ]
+      },
+      "dialog": {
+        "titel": "Der Abend vor dem Finale",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Yarın büyük gün! Heyecanlı mısın?", "de": "Morgen ist der große Tag! Bist du aufgeregt?" },
+          { "sprecher": "Sherin", "tr": "Biraz. Ama sınava hazırım. Altı ay boyunca her gün çalıştım.", "de": "Ein bisschen. Aber ich bin bereit. Sechs Monate habe ich jeden Tag gelernt." },
+          { "sprecher": "Pasha", "tr": "Biliyorum. Annem de aradı, sana başarılar diliyor.", "de": "Ich weiß. Mama hat auch angerufen, sie wünscht dir viel Erfolg." },
+          { "sprecher": "Sherin", "tr": "Ne tatlı! Sonuç ne olursa olsun, kendimle gurur duyuyorum.", "de": "Wie lieb! Egal wie das Ergebnis ist, ich bin stolz auf mich." },
+          { "sprecher": "Pasha", "tr": "Ben de seninle. Bunu gerçekten hak ettin.", "de": "Ich auch auf dich. Das hast du dir wirklich verdient." },
+          { "sprecher": "Sherin", "tr": "Hadi, erken yatalım. Yarın sertifika günü!", "de": "Komm, lass uns früh ins Bett gehen. Morgen ist Urkunden-Tag!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w26-sinav", "w26-basari", "w26-sertifika", "w26-sonuc"] },
+        { "art": "hoeren", "vokabel": "w26-basarilar" },
+        { "art": "auswahl_de_tr", "vokabel": "w26-tebrikler" },
+        { "art": "luecke", "satz": "Mutfak___ çay var.", "loesung": "ta", "optionen": ["ta", "da", "te"], "de": "In der Küche gibt es Tee.", "hinweis": "Fıstıkçı Şahap!" },
+        { "art": "luecke", "satz": "Inaya'nın emzi___ nerede?", "loesung": "ği", "optionen": ["ği", "ki", "gi"], "de": "Wo ist Inayas Schnuller?" },
+        { "art": "auswahl_tr_de", "vokabel": "w26-hak-etmek" },
+        { "art": "hoeren", "vokabel": "w00-tesekkur-ederim" },
+        { "art": "satzbau", "tr": "Biraz heyecanlıyım ama sınava hazırım!", "de": "Ich bin etwas aufgeregt, aber bereit für den Test!" },
+        { "art": "zuordnen", "vokabeln": ["w00-merhaba", "w00-gunaydin", "w00-anlamadim", "w00-tekrar-eder-misin"] },
+        { "art": "tippen", "vokabel": "w26-sinav" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Kleine Erinnerungsreise: Geht zusammen durch den Plan in der App (26 Stationen) und sagt zu jeder Phase auf Türkisch einen Satz, den du damals gelernt hast und heute im Alltag benutzt.",
+        "mustersaetze": [
+          { "tr": "Woche 0'da 'Anlamadım' öğrendim.", "de": "In Woche 0 habe ich 'Anlamadım' gelernt." },
+          { "tr": "Şimdi 'Ne dediğini anlamadım' diyorum!", "de": "Jetzt sage ich 'Ne dediğini anlamadım'!" },
+          { "tr": "Sınava hazırım!", "de": "Ich bin bereit für den Test!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Başarılar!", "de": "Viel Erfolg!", "wann": "Für jeden, der etwas Großes vorhat – auch für dich selbst morgen." },
+      "merktipp": { "titel": "Erinnerst du dich?", "text": "Die letzten Zuordnen-Paare sind aus Woche 0: Merhaba, Günaydın, Anlamadım, Tekrar eder misin? Damals waren sie neu. Heute sind sie selbstverständlich. Das ist dein Weg." }
+    },
+    {
+      "woche": 26,
+      "tag": 6,
+      "titel": "Sherin Türkçe konuşuyor!",
+      "kannZiel": "10 Minuten frei mit Pasha sprechen",
+      "vokabeln": [
+        { "id": "w26-sherin-turkce-konusuyor", "tr": "Sherin Türkçe konuşuyor!", "de": "Sherin spricht Türkisch!", "typ": "chunk", "beispiel": { "tr": "Herkes duysun: Sherin Türkçe konuşuyor!", "de": "Alle sollen es hören: Sherin spricht Türkisch!" } },
+        { "id": "w26-alti-ay-once", "tr": "Altı ay önce …", "de": "Vor sechs Monaten …", "typ": "chunk", "beispiel": { "tr": "Altı ay önce sadece 'merhaba' diyebiliyordum.", "de": "Vor sechs Monaten konnte ich nur 'merhaba' sagen." } },
+        { "id": "w26-ogretmenim", "tr": "Her şey için teşekkürler, öğretmenim.", "de": "Danke für alles, mein Lehrer.", "typ": "chunk", "beispiel": { "tr": "Pasha, her şey için teşekkürler, öğretmenim!", "de": "Pasha, danke für alles, mein Lehrer!" } },
+        { "id": "w26-devam-edecegim", "tr": "Devam edeceğim.", "de": "Ich mache weiter.", "typ": "chunk", "beispiel": { "tr": "Bu bir son değil. Devam edeceğim!", "de": "Das ist kein Ende. Ich mache weiter!" } },
+        { "id": "w26-turkce-benim-de-dilim", "tr": "Türkçe artık benim de dilim.", "de": "Türkisch ist jetzt auch meine Sprache.", "typ": "chunk", "beispiel": { "tr": "Türkçe artık benim de dilim, Inaya'nın da.", "de": "Türkisch ist jetzt auch meine Sprache – und Inayas." } }
+      ],
+      "grammatik": {
+        "titel": "Alles, was du kannst",
+        "erklaerung": [
+          "26 Wochen, hunderte Wörter, alle wichtigen Zeiten und Fälle, Höflichkeit, Gefühle, Geschichten.",
+          "Heute brauchst du keine neue Regel. Heute sprichst du einfach – zehn Minuten, frei, mit Pasha.",
+          "Was auch passiert: Damlaya damlaya göl oldu."
+        ],
+        "tabelle": {
+          "kopf": ["vorher", "jetzt"],
+          "zeilen": [
+            ["Merhaba.", "Merhaba! Kendimi tanıtayım …"],
+            ["Anlamadım.", "Pardon, ne dediğini anlamadım."],
+            ["Çay.", "Çayınızı tazeleyeyim mi?"],
+            ["Yorgunum.", "Yorgun olmama rağmen her gün çalıştım."],
+            ["Teşekkür ederim.", "Her şey için teşekkürler, öğretmenim."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Altı ay önce sadece 'merhaba' diyebiliyordum.", "de": "Vor sechs Monaten konnte ich nur 'merhaba' sagen." },
+          { "tr": "Türkçe artık benim de dilim.", "de": "Türkisch ist jetzt auch meine Sprache." },
+          { "tr": "Sherin Türkçe konuşuyor!", "de": "Sherin spricht Türkisch!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Das große Finale",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Hazır mısın? On dakika, sadece Türkçe.", "de": "Bereit? Zehn Minuten, nur Türkisch." },
+          { "sprecher": "Sherin", "tr": "Hazırım! Altı ay önce sadece 'merhaba' diyebiliyordum. Şimdi …", "de": "Bereit! Vor sechs Monaten konnte ich nur 'merhaba' sagen. Und jetzt …" },
+          { "sprecher": "Pasha", "tr": "Şimdi?", "de": "Und jetzt?" },
+          { "sprecher": "Sherin", "tr": "Şimdi seninle, annenle, Elif'le, herkesle konuşabiliyorum. Hata yapsam da.", "de": "Jetzt kann ich mit dir, deiner Mama, Elif, mit allen sprechen. Auch wenn ich Fehler mache." },
+          { "sprecher": "Pasha", "tr": "Seninle çok gurur duyuyorum, canım.", "de": "Ich bin so stolz auf dich, Schatz." },
+          { "sprecher": "Sherin", "tr": "Her şey için teşekkürler, öğretmenim. Sen olmasan yapamazdım.", "de": "Danke für alles, mein Lehrer. Ohne dich hätte ich es nicht geschafft." },
+          { "sprecher": "Pasha", "tr": "Peki, şimdi ne olacak?", "de": "Und was jetzt?" },
+          { "sprecher": "Sherin", "tr": "Devam edeceğim! Türkçe artık benim de dilim. Ve Inaya'nın da.", "de": "Ich mache weiter! Türkisch ist jetzt auch meine Sprache. Und Inayas." },
+          { "sprecher": "Pasha", "tr": "Herkes duysun: Sherin Türkçe konuşuyor!", "de": "Alle sollen es hören: Sherin spricht Türkisch!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w26-sherin-turkce-konusuyor", "w26-devam-edecegim", "w26-turkce-benim-de-dilim", "w26-ogretmenim"] },
+        { "art": "hoeren", "vokabel": "w26-alti-ay-once" },
+        { "art": "satzbau", "tr": "Türkçe artık benim de dilim.", "de": "Türkisch ist jetzt auch meine Sprache." },
+        { "art": "luecke", "satz": "Altı ay önce sadece 'merhaba' diyebiliyor___.", "loesung": "dum", "optionen": ["dum", "um", "acağım"], "de": "Vor sechs Monaten konnte ich nur 'merhaba' sagen." },
+        { "art": "auswahl_de_tr", "vokabel": "w26-sherin-turkce-konusuyor" },
+        { "art": "hoeren", "vokabel": "w13-aferin-bana" },
+        { "art": "auswahl_tr_de", "vokabel": "w26-devam-edecegim" },
+        { "art": "zuordnen", "vokabeln": ["w02-seni-seviyorum", "w15-cok-sevindim", "w22-iyi-ki", "w25-damlaya-damlaya"] },
+        { "art": "tippen", "vokabel": "w00-merhaba" },
+        { "art": "satzbau", "tr": "Sherin Türkçe konuşuyor!", "de": "Sherin spricht Türkisch!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Das Finale: 10 Minuten freies Gespräch mit Pasha – nur Türkisch, Timer an. Themen: dein Leben, die letzten sechs Monate, Inaya, eure Pläne. Danach druckt oder schreibt Pasha dir die Urkunde: „Sherin Türkçe konuşuyor!“ – und ihr feiert. Am besten mit Tee.",
+        "mustersaetze": [
+          { "tr": "Altı ay önce … Şimdi …", "de": "Vor sechs Monaten … Jetzt …" },
+          { "tr": "Her şey için teşekkürler, öğretmenim.", "de": "Danke für alles, mein Lehrer." },
+          { "tr": "Devam edeceğim!", "de": "Ich mache weiter!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Sherin Türkçe konuşuyor!", "de": "Sherin spricht Türkisch!", "wann": "Heute. Und ab jetzt jeden Tag." },
+      "merktipp": { "titel": "Tebrikler, Sherin!", "text": "Du hast es geschafft. 26 Wochen, ein Kleinkind, ein großer Hund, unzählige kurze Nächte – und trotzdem jeden Tag ein bisschen Türkisch. Damlaya damlaya göl oldu. Sherin Türkçe konuşuyor!" }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Das große 10-Minuten-Gespräch mit Pasha – nur Türkisch, mit Timer.", "hilfe": { "tr": "Kendimi tanıtayım … Altı ay önce … Şimdi … İleride …", "de": "Darf ich mich vorstellen … Vor sechs Monaten … Jetzt … Später …" } },
+      { "situation": "Ruf Pashas Mama an und erzähl ihr auf Türkisch, dass du den Kurs geschafft hast.", "hilfe": { "tr": "Anne, müjde! Kursu bitirdim. Artık Türkçe konuşuyorum!", "de": "Mama, gute Nachrichten! Ich habe den Kurs geschafft. Jetzt spreche ich Türkisch!" } },
+      { "situation": "Sag Pasha, was als Nächstes kommt – deine Türkisch-Pläne nach dem Kurs.", "hilfe": { "tr": "Devam edeceğim. Her gün biraz Türkçe, damlaya damlaya göl olur!", "de": "Ich mache weiter. Jeden Tag ein bisschen Türkisch – steter Tropfen füllt den See!" } }
+    ]
+  }
+}
