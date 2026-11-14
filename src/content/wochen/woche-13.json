@@ -1,0 +1,449 @@
+{
+  "woche": 13,
+  "lektionen": [
+    {
+      "woche": 13,
+      "tag": 1,
+      "titel": "Gespräche beginnen",
+      "kannZiel": "ein lockeres Gespräch beginnen und am Laufen halten",
+      "vokabeln": [
+        { "id": "w13-nasil-gidiyor", "tr": "Nasıl gidiyor?", "de": "Wie läuft's?", "typ": "chunk", "beispiel": { "tr": "Selam Elif! Nasıl gidiyor?", "de": "Hi Elif! Wie läuft's?" } },
+        { "id": "w13-ne-var-ne-yok", "tr": "Ne var ne yok?", "de": "Was gibt's Neues?", "typ": "chunk", "beispiel": { "tr": "Merhaba! Ne var ne yok?", "de": "Hallo! Was gibt's Neues?" } },
+        { "id": "w13-fena-degil", "tr": "Fena değil.", "de": "Nicht schlecht.", "typ": "chunk", "beispiel": { "tr": "Fena değil, sen nasılsın?", "de": "Nicht schlecht, und dir?" } },
+        { "id": "w13-idare-eder", "tr": "İdare eder.", "de": "Es geht so.", "typ": "chunk", "beispiel": { "tr": "İdare eder, biraz yorgunum.", "de": "Es geht so, ich bin etwas müde." } },
+        { "id": "w13-uzun-zaman-oldu", "tr": "Uzun zaman oldu!", "de": "Lange nicht gesehen!", "typ": "chunk", "beispiel": { "tr": "Ay, uzun zaman oldu! Nasılsın?", "de": "Oh, lange nicht gesehen! Wie geht's?" } },
+        { "id": "w13-seni-gormek-guzel", "tr": "Seni görmek ne güzel!", "de": "Schön, dich zu sehen!", "typ": "chunk", "beispiel": { "tr": "Seni görmek ne güzel, gel otur!", "de": "Schön, dich zu sehen, komm, setz dich!" } },
+        { "id": "w13-valla", "tr": "valla", "de": "ehrlich / wirklich", "typ": "wort", "beispiel": { "tr": "Valla çok yorgunum.", "de": "Ehrlich, ich bin total müde." } },
+        { "id": "w13-asil-sen", "tr": "Asıl sen nasılsın?", "de": "Und wie geht's DIR eigentlich?", "typ": "chunk", "beispiel": { "tr": "Beni boş ver, asıl sen nasılsın?", "de": "Vergiss mich, wie geht's eigentlich dir?" } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: drei Zeiten",
+        "erklaerung": [
+          "Diese Woche keine neue Grammatik – du sammelst Sicherheit.",
+          "Für ein Alltagsgespräch reichen drei Zeiten: -dı (gestern), -yor (jetzt), -acak (morgen).",
+          "Dazu var/yok, die Orts-Endungen und Fragen mit mi – das alles kannst du schon."
+        ],
+        "tabelle": {
+          "kopf": ["", "gestern", "jetzt", "morgen"],
+          "zeilen": [
+            ["ich", "gittim", "gidiyorum", "gideceğim"],
+            ["du", "gittin", "gidiyorsun", "gideceksin"],
+            ["wir", "gittik", "gidiyoruz", "gideceğiz"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Dün çok yoruldum, bugün dinleniyorum, yarın parka gideceğiz.", "de": "Gestern war ich k.o., heute ruhe ich mich aus, morgen gehen wir in den Park." },
+          { "tr": "Ne var ne yok?", "de": "Was gibt's Neues?" },
+          { "tr": "Fena değil, sen nasılsın?", "de": "Nicht schlecht, und dir?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Zufällig im Supermarkt",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Sherin! Uzun zaman oldu!", "de": "Sherin! Lange nicht gesehen!" },
+          { "sprecher": "Sherin", "tr": "Elif! Seni görmek ne güzel! Ne var ne yok?", "de": "Elif! Schön, dich zu sehen! Was gibt's Neues?" },
+          { "sprecher": "Elif", "tr": "İdare eder. Oğlum hastaydı, şimdi iyi.", "de": "Es geht so. Mein Sohn war krank, jetzt geht's ihm gut." },
+          { "sprecher": "Sherin", "tr": "Geçmiş olsun! Inaya da geçen hafta hastaydı.", "de": "Gute Besserung! Inaya war letzte Woche auch krank." },
+          { "sprecher": "Elif", "tr": "Valla bu kış herkes hasta. Asıl sen nasılsın?", "de": "Ehrlich, diesen Winter sind alle krank. Und wie geht's dir eigentlich?" },
+          { "sprecher": "Sherin", "tr": "Fena değil. Biraz yorgunum ama Türkçe çalışıyorum!", "de": "Nicht schlecht. Ein bisschen müde, aber ich lerne Türkisch!" },
+          { "sprecher": "Elif", "tr": "Belli oluyor! Çok güzel konuşuyorsun.", "de": "Das merkt man! Du sprichst richtig gut." },
+          { "sprecher": "Sherin", "tr": "Teşekkürler! Cumartesi bize gelir misin?", "de": "Danke! Kommst du Samstag zu uns?" },
+          { "sprecher": "Elif", "tr": "Olur! Görüşürüz!", "de": "Gern! Bis dann!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w13-nasil-gidiyor", "w13-fena-degil", "w13-idare-eder", "w13-uzun-zaman-oldu"] },
+        { "art": "hoeren", "vokabel": "w13-ne-var-ne-yok" },
+        { "art": "auswahl_de_tr", "vokabel": "w13-seni-gormek-guzel" },
+        { "art": "luecke", "satz": "Dün çok yoruldum, bugün dinlen___.", "loesung": "iyorum", "optionen": ["iyorum", "dim", "eceğim"], "de": "Gestern war ich k.o., heute ruhe ich mich aus." },
+        { "art": "auswahl_tr_de", "vokabel": "w08-ne-yaptin" },
+        { "art": "hoeren", "vokabel": "w09-hafta-sonun-nasil-gecti" },
+        { "art": "satzbau", "tr": "Fena değil, sen nasılsın?", "de": "Nicht schlecht, und dir?" },
+        { "art": "auswahl_de_tr", "vokabel": "w05-yolda" },
+        { "art": "luecke", "satz": "Yarın parka gid___.", "loesung": "eceğiz", "optionen": ["eceğiz", "iyoruz", "dik"], "de": "Morgen gehen wir in den Park." },
+        { "art": "tippen", "vokabel": "w13-valla" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Drei-Minuten-Gespräch: Stellt euch einen Wecker auf 3 Minuten. Pasha ist eine Bekannte, die du zufällig triffst. Ihr redet über euren Alltag – nur auf Türkisch, ohne Pause.",
+        "mustersaetze": [
+          { "tr": "Uzun zaman oldu! Ne var ne yok?", "de": "Lange nicht gesehen! Was gibt's Neues?" },
+          { "tr": "İdare eder. Sen nasılsın?", "de": "Es geht so. Und dir?" },
+          { "tr": "Geçen hafta … Bu hafta … Gelecek hafta …", "de": "Letzte Woche … Diese Woche … Nächste Woche …" }
+        ]
+      },
+      "alltagssatz": { "tr": "Ne var ne yok?", "de": "Was gibt's Neues?", "wann": "Wenn Pasha heute nach Hause kommt – statt „Wie war's?“." },
+      "merktipp": { "titel": "Ne var ne yok – wörtlich", "text": "„Was gibt es, was gibt es nicht?“ – so fragt man auf Türkisch nach Neuigkeiten. var und yok begleiten dich wirklich überall." }
+    },
+    {
+      "woche": 13,
+      "tag": 2,
+      "titel": "Reagieren wie ein Profi",
+      "kannZiel": "im Gespräch passend reagieren",
+      "vokabeln": [
+        { "id": "w13-aynen", "tr": "Aynen!", "de": "Genau!", "typ": "chunk", "beispiel": { "tr": "Aynen, ben de öyle düşünüyorum.", "de": "Genau, das denke ich auch." } },
+        { "id": "w13-haklisin", "tr": "Haklısın.", "de": "Du hast recht.", "typ": "chunk", "beispiel": { "tr": "Haklısın, çok geç oldu.", "de": "Du hast recht, es ist spät geworden." } },
+        { "id": "w13-bilmem", "tr": "Bilmem.", "de": "Weiß nicht.", "typ": "chunk", "beispiel": { "tr": "Bilmem, sen ne dersin?", "de": "Weiß nicht, was meinst du?" } },
+        { "id": "w13-olabilir", "tr": "Olabilir.", "de": "Kann sein.", "typ": "chunk", "beispiel": { "tr": "Olabilir, belki yarın yağmur yağar.", "de": "Kann sein, vielleicht regnet es morgen." } },
+        { "id": "w13-tabii-ki", "tr": "Tabii ki!", "de": "Na klar!", "typ": "chunk", "beispiel": { "tr": "Tabii ki geliyoruz!", "de": "Na klar kommen wir!" } },
+        { "id": "w13-hic-sanmiyorum", "tr": "Hiç sanmıyorum.", "de": "Glaub ich kaum.", "typ": "chunk", "beispiel": { "tr": "Amani diyete mi başlayacak? Hiç sanmıyorum!", "de": "Amani macht Diät? Glaub ich kaum!" } },
+        { "id": "w13-dogru", "tr": "Doğru.", "de": "Stimmt.", "typ": "chunk", "beispiel": { "tr": "Doğru, unuttum!", "de": "Stimmt, hab ich vergessen!" } },
+        { "id": "w13-yok-artik", "tr": "Yok artık!", "de": "Nicht dein Ernst! / Echt jetzt?!", "typ": "chunk", "beispiel": { "tr": "Yok artık! Inaya yine mi kaçtı?", "de": "Echt jetzt?! Ist Inaya schon wieder abgehauen?" } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Fragen & Antworten",
+        "erklaerung": [
+          "Ja/Nein-Frage: mi (4-fach) – geliyor musun?, gittin mi?, gelecek misin?",
+          "Fragewort: kein mi – Ne yaptın? Nereye gidiyorsun?",
+          "Kurze Reaktionen halten das Gespräch am Laufen, auch wenn du nicht alles verstehst."
+        ],
+        "tabelle": {
+          "kopf": ["Zeit", "Frage"],
+          "zeilen": [
+            ["jetzt", "Geliyor musun?"],
+            ["gestern", "Geldin mi?"],
+            ["morgen", "Gelecek misin?"],
+            ["sein", "Yorgun musun?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Haklısın, çok geç oldu.", "de": "Du hast recht, es ist spät geworden." },
+          { "tr": "Yarın gelecek misin? – Tabii ki!", "de": "Kommst du morgen? – Na klar!" },
+          { "tr": "Bilmem, sen ne dersin?", "de": "Weiß nicht, was meinst du?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Abendgespräch auf dem Sofa",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bu kış çok uzun, değil mi?", "de": "Dieser Winter ist so lang, oder?" },
+          { "sprecher": "Sherin", "tr": "Aynen! Her gün gri ve soğuk.", "de": "Genau! Jeden Tag grau und kalt." },
+          { "sprecher": "Pasha", "tr": "Martta hava güzel olacak.", "de": "Im März wird das Wetter schön." },
+          { "sprecher": "Sherin", "tr": "Olabilir. Ama Almanya'da … hiç sanmıyorum!", "de": "Kann sein. Aber in Deutschland … glaub ich kaum!" },
+          { "sprecher": "Pasha", "tr": "Haklısın. O zaman Türkiye'ye gidelim!", "de": "Du hast recht. Dann lass uns in die Türkei fahren!" },
+          { "sprecher": "Sherin", "tr": "Tabii ki! Yarın mı?", "de": "Na klar! Morgen?" },
+          { "sprecher": "Pasha", "tr": "Yok artık! Önce tatil izni lazım.", "de": "Jetzt aber! Erst brauche ich Urlaub." },
+          { "sprecher": "Sherin", "tr": "Doğru. O zaman çay içelim.", "de": "Stimmt. Dann lass uns Tee trinken." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w13-aynen", "w13-haklisin", "w13-dogru", "w13-olabilir"] },
+        { "art": "hoeren", "vokabel": "w13-yok-artik" },
+        { "art": "auswahl_de_tr", "vokabel": "w13-hic-sanmiyorum" },
+        { "art": "luecke", "satz": "Yarın gelecek ___?", "loesung": "misin", "optionen": ["misin", "musun", "mi"], "de": "Kommst du morgen?" },
+        { "art": "auswahl_tr_de", "vokabel": "w12-gorecegiz" },
+        { "art": "hoeren", "vokabel": "w09-ciddi-misin" },
+        { "art": "satzbau", "tr": "Haklısın, çok geç oldu.", "de": "Du hast recht, es ist spät geworden." },
+        { "art": "auswahl_de_tr", "vokabel": "w13-tabii-ki" },
+        { "art": "luecke", "satz": "Dün Elif'le buluştun ___?", "loesung": "mu", "optionen": ["mu", "mi", "musun"], "de": "Hast du dich gestern mit Elif getroffen?" },
+        { "art": "tippen", "vokabel": "w13-bilmem" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Pasha stellt zehn Behauptungen auf Türkisch auf (wahr, falsch, verrückt). Du reagierst jedes Mal mit einem passenden Chunk: Aynen! Haklısın. Olabilir. Hiç sanmıyorum. Yok artık!",
+        "mustersaetze": [
+          { "tr": "Aynen!", "de": "Genau!" },
+          { "tr": "Hiç sanmıyorum.", "de": "Glaub ich kaum." },
+          { "tr": "Yok artık!", "de": "Echt jetzt?!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Haklısın.", "de": "Du hast recht.", "wann": "Heute einmal ganz bewusst zu Pasha. Er wird sich freuen." },
+      "merktipp": { "titel": "Reaktionen = Flüssigkeit", "text": "Muttersprachler klingen flüssig, weil sie ständig kurz reagieren. Mit fünf Reaktions-Chunks wirkst du sofort sicherer – und gewinnst Zeit zum Nachdenken." }
+    },
+    {
+      "woche": 13,
+      "tag": 3,
+      "titel": "Wenn ein Wort fehlt",
+      "kannZiel": "Lücken überbrücken und nach Wörtern fragen",
+      "vokabeln": [
+        { "id": "w13-nasil-desem", "tr": "Nasıl desem …", "de": "Wie soll ich sagen …", "typ": "chunk", "beispiel": { "tr": "Nasıl desem … biraz karışık.", "de": "Wie soll ich sagen … etwas kompliziert." } },
+        { "id": "w13-bir-dakika-dusuneyim", "tr": "Bir dakika, düşüneyim.", "de": "Moment, lass mich überlegen.", "typ": "chunk", "beispiel": { "tr": "Bir dakika, düşüneyim … Evet!", "de": "Moment, lass mich überlegen … Ja!" } },
+        { "id": "w13-turkcesi-ne", "tr": "Türkçesi ne?", "de": "Wie heißt das auf Türkisch?", "typ": "chunk", "beispiel": { "tr": "„Staubsauger“ … Türkçesi ne?", "de": "„Staubsauger“ … wie heißt das auf Türkisch?" } },
+        { "id": "w13-ne-demek", "tr": "… ne demek?", "de": "Was heißt …?", "typ": "chunk", "beispiel": { "tr": "„Kolay gelsin“ ne demek?", "de": "Was heißt „Kolay gelsin“?" } },
+        { "id": "w13-nasil-denir", "tr": "Nasıl denir?", "de": "Wie sagt man?", "typ": "chunk", "beispiel": { "tr": "Türkçe nasıl denir?", "de": "Wie sagt man das auf Türkisch?" } },
+        { "id": "w13-kelimeyi-unuttum", "tr": "Kelimeyi unuttum.", "de": "Mir fällt das Wort nicht ein.", "typ": "chunk", "beispiel": { "tr": "Ay, kelimeyi unuttum! Şu şey …", "de": "Oh, mir fällt das Wort nicht ein! Dieses Ding …" } },
+        { "id": "w13-dogru-mu-soyledim", "tr": "Doğru mu söyledim?", "de": "Hab ich das richtig gesagt?", "typ": "chunk", "beispiel": { "tr": "„Kayınvalide“ … doğru mu söyledim?", "de": "„Kayınvalide“ … hab ich das richtig gesagt?" } },
+        { "id": "w13-beni-duzelt", "tr": "Beni düzelt!", "de": "Korrigier mich!", "typ": "chunk", "beispiel": { "tr": "Hata yaparsam beni düzelt, lütfen.", "de": "Wenn ich Fehler mache, korrigier mich bitte." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Orts-Endungen",
+        "erklaerung": [
+          "Wo? -da/-de · Wohin? -a/-e · Woher? -dan/-den · Mit? -la/-le.",
+          "Wenn dir ein Wort fehlt: umschreiben! „Das Ding für den Boden“ – yer için şey.",
+          "Fragen nach Wörtern sind kein Versagen, sondern die beste Lernstrategie."
+        ],
+        "tabelle": {
+          "kopf": ["", "ev", "park", "Inaya"],
+          "zeilen": [
+            ["wo?", "evde", "parkta", "Inaya'da"],
+            ["wohin?", "eve", "parka", "Inaya'ya"],
+            ["woher?", "evden", "parktan", "Inaya'dan"],
+            ["mit", "evle", "parkla", "Inaya'yla"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "„Kolay gelsin“ ne demek?", "de": "Was heißt „Kolay gelsin“?" },
+          { "tr": "Bir dakika, düşüneyim.", "de": "Moment, lass mich überlegen." },
+          { "tr": "Hata yaparsam beni düzelt.", "de": "Wenn ich Fehler mache, korrigier mich." }
+        ]
+      },
+      "dialog": {
+        "titel": "Das fehlende Wort",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Pasha, dün … nasıl desem … şey aldım.", "de": "Pasha, gestern hab ich … wie soll ich sagen … so ein Ding gekauft." },
+          { "sprecher": "Pasha", "tr": "Ne aldın?", "de": "Was hast du gekauft?" },
+          { "sprecher": "Sherin", "tr": "Kelimeyi unuttum! Yeri temizliyor, ses yapıyor …", "de": "Mir fällt das Wort nicht ein! Es macht den Boden sauber, es macht Lärm …" },
+          { "sprecher": "Pasha", "tr": "Elektrik süpürgesi mi?", "de": "Einen Staubsauger?" },
+          { "sprecher": "Sherin", "tr": "Evet! Elektrik süpürgesi. Doğru mu söyledim?", "de": "Ja! Elektrik süpürgesi. Hab ich's richtig gesagt?" },
+          { "sprecher": "Pasha", "tr": "Mükemmel. Ama neden yeni süpürge aldın?", "de": "Perfekt. Aber warum hast du einen neuen gekauft?" },
+          { "sprecher": "Sherin", "tr": "Bir dakika, düşüneyim … Amani'nin tüyleri yüzünden!", "de": "Moment, lass mich überlegen … Wegen Amanis Haaren!" },
+          { "sprecher": "Pasha", "tr": "Haklısın, çok iyi fikir!", "de": "Du hast recht, sehr gute Idee!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w13-nasil-desem", "w13-turkcesi-ne", "w13-kelimeyi-unuttum", "w13-beni-duzelt"] },
+        { "art": "hoeren", "vokabel": "w13-bir-dakika-dusuneyim" },
+        { "art": "auswahl_de_tr", "vokabel": "w13-ne-demek" },
+        { "art": "luecke", "satz": "Parktan geliyorum, şimdi ev___ gidiyorum.", "loesung": "e", "optionen": ["e", "de", "den"], "de": "Ich komme vom Park, jetzt gehe ich nach Hause." },
+        { "art": "luecke", "satz": "Inaya'___ parka gittik.", "loesung": "yla", "optionen": ["yla", "ya", "da"], "de": "Mit Inaya waren wir im Park." },
+        { "art": "auswahl_tr_de", "vokabel": "w13-dogru-mu-soyledim" },
+        { "art": "hoeren", "vokabel": "w11-affedersiniz" },
+        { "art": "satzbau", "tr": "Türkçe nasıl denir?", "de": "Wie sagt man das auf Türkisch?" },
+        { "art": "auswahl_de_tr", "vokabel": "w08-supurmek" },
+        { "art": "tippen", "vokabel": "w13-nasil-denir" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Tabu-Spiel: Beschreib Pasha fünf Dinge im Haus auf Türkisch, ohne das Wort zu sagen. Er rät. Bei Wörtern, die dir fehlen, fragst du „Türkçesi ne?“.",
+        "mustersaetze": [
+          { "tr": "Mutfakta, soğuk, süt içinde …", "de": "In der Küche, kalt, Milch drin …" },
+          { "tr": "Nasıl desem …", "de": "Wie soll ich sagen …" },
+          { "tr": "Türkçesi ne?", "de": "Wie heißt das auf Türkisch?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Beni düzelt, lütfen!", "de": "Korrigier mich bitte!", "wann": "Sag es Pasha ganz offiziell – damit er sich traut." },
+      "merktipp": { "titel": "Umschreiben ist Können", "text": "Profis kennen nicht alle Wörter – sie umschreiben. „Yeri temizliyor, ses yapıyor“ war genial: Pasha hat sofort verstanden." }
+    },
+    {
+      "woche": 13,
+      "tag": 4,
+      "titel": "Am Telefon",
+      "kannZiel": "ein Telefonat oder einen Videoanruf auf Türkisch führen",
+      "vokabeln": [
+        { "id": "w13-musait-misin", "tr": "Müsait misin?", "de": "Passt es dir gerade?", "typ": "chunk", "beispiel": { "tr": "Alo, müsait misin?", "de": "Hallo, passt es gerade?" } },
+        { "id": "w13-sonra-ararim", "tr": "Sonra ararım.", "de": "Ich ruf später an.", "typ": "chunk", "beispiel": { "tr": "Şimdi olmaz, sonra ararım.", "de": "Jetzt geht's nicht, ich ruf später an." } },
+        { "id": "w13-mesgulum", "tr": "Meşgulüm.", "de": "Ich bin beschäftigt.", "typ": "chunk", "beispiel": { "tr": "Şu an biraz meşgulüm.", "de": "Gerade bin ich etwas beschäftigt." } },
+        { "id": "w13-kapatmam-lazim", "tr": "Kapatmam lazım.", "de": "Ich muss auflegen.", "typ": "chunk", "beispiel": { "tr": "Inaya ağlıyor, kapatmam lazım.", "de": "Inaya weint, ich muss auflegen." } },
+        { "id": "w13-sesin-gelmiyor", "tr": "Sesin gelmiyor.", "de": "Ich höre dich nicht.", "typ": "chunk", "beispiel": { "tr": "Alo? Sesin gelmiyor!", "de": "Hallo? Ich hör dich nicht!" } },
+        { "id": "w13-cekmiyor", "tr": "Telefon çekmiyor.", "de": "Kein Empfang.", "typ": "chunk", "beispiel": { "tr": "Burada telefon çekmiyor.", "de": "Hier gibt's keinen Empfang." } },
+        { "id": "w13-mesaj-atarim", "tr": "Mesaj atarım.", "de": "Ich schreib dir.", "typ": "chunk", "beispiel": { "tr": "Varınca mesaj atarım.", "de": "Wenn ich da bin, schreib ich dir." } },
+        { "id": "w13-goruntulu-arama", "tr": "görüntülü arama", "de": "Videoanruf", "typ": "chunk", "beispiel": { "tr": "Akşam annene görüntülü arama yapalım.", "de": "Lass uns heute Abend deine Mama per Video anrufen." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Besitz & brauchen",
+        "erklaerung": [
+          "Besitz-Endungen: -(ı)m mein, -(ı)n dein, -(s)ı sein/ihr, -(ı)mız unser.",
+          "Brauchen/müssen: … lazım – Kapatmam lazım. (Ich muss auflegen, wörtlich: Mein Auflegen ist nötig.)",
+          "Sesin gelmiyor = „Deine Stimme kommt nicht an“."
+        ],
+        "tabelle": {
+          "kopf": ["", "ses (Stimme)", "telefon"],
+          "zeilen": [
+            ["mein", "sesim", "telefonum"],
+            ["dein", "sesin", "telefonun"],
+            ["sein/ihr", "sesi", "telefonu"],
+            ["unser", "sesimiz", "telefonumuz"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Alo, müsait misin?", "de": "Hallo, passt es gerade?" },
+          { "tr": "Inaya ağlıyor, kapatmam lazım.", "de": "Inaya weint, ich muss auflegen." },
+          { "tr": "Telefonum nerede?", "de": "Wo ist mein Handy?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Videoanruf mit Oma",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Alo, anne? Müsait misiniz?", "de": "Hallo, Mama? Passt es gerade?" },
+          { "sprecher": "Pashas Mama", "tr": "Kızım, tabii! Ama sesin gelmiyor.", "de": "Liebes, natürlich! Aber ich hör dich nicht." },
+          { "sprecher": "Sherin", "tr": "Şimdi? Şimdi duyuyor musunuz?", "de": "Jetzt? Hören Sie mich jetzt?" },
+          { "sprecher": "Pashas Mama", "tr": "Evet, şimdi iyi. Inaya nerede?", "de": "Ja, jetzt ist gut. Wo ist Inaya?" },
+          { "sprecher": "Sherin", "tr": "Burada! Inaya, bak, babaannen!", "de": "Hier! Inaya, schau, deine Oma!" },
+          { "sprecher": "Pashas Mama", "tr": "Kuzum benim! Ne kadar büyümüş!", "de": "Mein Lämmchen! Wie groß sie geworden ist!" },
+          { "sprecher": "Sherin", "tr": "Ay, ağlamaya başladı. Uykusu var. Kapatmam lazım.", "de": "Oh, sie fängt an zu weinen. Sie ist müde. Ich muss auflegen." },
+          { "sprecher": "Pashas Mama", "tr": "Tamam kızım, sonra ararız. Öpüyorum!", "de": "Okay, Liebes, wir telefonieren später. Küsschen!" },
+          { "sprecher": "Sherin", "tr": "Biz de öpüyoruz! Hoşça kalın!", "de": "Küsschen zurück! Macht's gut!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w13-musait-misin", "w13-mesgulum", "w13-kapatmam-lazim", "w13-sesin-gelmiyor"] },
+        { "art": "hoeren", "vokabel": "w13-goruntulu-arama" },
+        { "art": "auswahl_de_tr", "vokabel": "w13-sonra-ararim" },
+        { "art": "luecke", "satz": "Telefon___ nerede?", "loesung": "um", "optionen": ["um", "un", "u"], "de": "Wo ist mein Handy?" },
+        { "art": "auswahl_tr_de", "vokabel": "w13-cekmiyor" },
+        { "art": "hoeren", "vokabel": "w05-duymak" },
+        { "art": "satzbau", "tr": "Inaya ağlıyor, kapatmam lazım.", "de": "Inaya weint, ich muss auflegen." },
+        { "art": "auswahl_de_tr", "vokabel": "w05-aramak" },
+        { "art": "luecke", "satz": "Bana yeni bir telefon ___.", "loesung": "lazım", "optionen": ["lazım", "var", "yok"], "de": "Ich brauche ein neues Handy." },
+        { "art": "tippen", "vokabel": "w13-mesgulum" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Ruf Pasha heute wirklich an (oder er dich) und führt das ganze Telefonat auf Türkisch: Begrüßung, „Müsait misin?“, kurzer Austausch, ein Grund zum Auflegen.",
+        "mustersaetze": [
+          { "tr": "Alo, müsait misin?", "de": "Hallo, passt es gerade?" },
+          { "tr": "Ne yapıyorsun?", "de": "Was machst du gerade?" },
+          { "tr": "Kapatmam lazım, sonra ararım.", "de": "Ich muss auflegen, ich ruf später an." }
+        ]
+      },
+      "alltagssatz": { "tr": "Müsait misin?", "de": "Passt es dir gerade?", "wann": "Beim nächsten Anruf bei Pasha – als allererster Satz." },
+      "merktipp": { "titel": "Öpüyorum!", "text": "Familientelefonate enden oft mit „Öpüyorum!“ (Ich küsse dich) – unter Verwandten ganz normal. Antwort: „Ben de öpüyorum!“ oder „Biz de öpüyoruz!“." }
+    },
+    {
+      "woche": 13,
+      "tag": 5,
+      "titel": "Eine Geschichte erzählen",
+      "kannZiel": "eine kurze Geschichte zusammenhängend erzählen und verstehen",
+      "vokabeln": [
+        { "id": "w13-hikaye", "tr": "hikâye", "de": "Geschichte", "typ": "wort", "beispiel": { "tr": "Sana komik bir hikâye anlatacağım.", "de": "Ich erzähl dir eine lustige Geschichte." } },
+        { "id": "w13-anlatmak", "tr": "anlatmak", "de": "erzählen / erklären", "typ": "wort", "beispiel": { "tr": "Anlat, ne oldu?", "de": "Erzähl, was ist passiert?" } },
+        { "id": "w13-dinle", "tr": "Dinle!", "de": "Hör zu!", "typ": "chunk", "beispiel": { "tr": "Dinle, çok komik!", "de": "Hör zu, das ist so lustig!" } },
+        { "id": "w13-ilk-once", "tr": "ilk önce", "de": "zuallererst", "typ": "chunk", "beispiel": { "tr": "İlk önce Amani kaçtı.", "de": "Zuallererst ist Amani abgehauen." } },
+        { "id": "w13-ondan-sonra", "tr": "ondan sonra", "de": "danach", "typ": "chunk", "beispiel": { "tr": "Ondan sonra yağmur başladı.", "de": "Danach fing es an zu regnen." } },
+        { "id": "w13-en-sonunda", "tr": "en sonunda", "de": "ganz am Ende", "typ": "chunk", "beispiel": { "tr": "En sonunda herkes güldü.", "de": "Ganz am Ende haben alle gelacht." } },
+        { "id": "w13-kisacasi", "tr": "kısacası", "de": "kurz gesagt", "typ": "wort", "beispiel": { "tr": "Kısacası, çok yorucu bir gündü.", "de": "Kurz gesagt, es war ein sehr anstrengender Tag." } },
+        { "id": "w13-birden", "tr": "birden", "de": "plötzlich", "typ": "wort", "beispiel": { "tr": "Birden kapı açıldı.", "de": "Plötzlich ging die Tür auf." } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Vergangenheit erzählen",
+        "erklaerung": [
+          "Geschichten erzählt man mit -dı: gittik, gördük, güldük.",
+          "Struktur geben die Verbindungswörter: ilk önce → ondan sonra → birden → en sonunda.",
+          "„war“: -dı auch an Adjektiven: komikti, yorucuydu."
+        ],
+        "tabelle": {
+          "kopf": ["Schritt", "Wort"],
+          "zeilen": [
+            ["Anfang", "ilk önce"],
+            ["weiter", "ondan sonra"],
+            ["Überraschung", "birden"],
+            ["Ende", "en sonunda"],
+            ["Fazit", "kısacası"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "İlk önce Amani kaçtı.", "de": "Zuallererst ist Amani abgehauen." },
+          { "tr": "Birden kapı açıldı.", "de": "Plötzlich ging die Tür auf." },
+          { "tr": "Kısacası, çok komikti!", "de": "Kurz gesagt, es war sehr lustig!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Amani und der Briefträger",
+        "zeilen": [
+          { "sprecher": "Sherin", "tr": "Dinle, bugün çok komik bir şey oldu!", "de": "Hör zu, heute ist was total Lustiges passiert!" },
+          { "sprecher": "Pasha", "tr": "Anlat!", "de": "Erzähl!" },
+          { "sprecher": "Sherin", "tr": "İlk önce postacı geldi. Kapıyı açtım.", "de": "Zuerst kam der Briefträger. Ich hab die Tür aufgemacht." },
+          { "sprecher": "Sherin", "tr": "Birden Amani dışarı koştu!", "de": "Plötzlich ist Amani rausgerannt!" },
+          { "sprecher": "Pasha", "tr": "Yok artık! Sonra ne oldu?", "de": "Nicht dein Ernst! Und dann?" },
+          { "sprecher": "Sherin", "tr": "Ondan sonra postacının arkasından koştu. Postacı çok korktu!", "de": "Danach ist sie dem Briefträger hinterhergelaufen. Der hatte richtig Angst!" },
+          { "sprecher": "Pasha", "tr": "Amani'nin tek istediği oyun oynamak …", "de": "Dabei will Amani doch nur spielen …" },
+          { "sprecher": "Sherin", "tr": "Aynen! En sonunda postacı da güldü. Kısacası, çok heyecanlı bir sabahtı.", "de": "Genau! Am Ende hat der Briefträger auch gelacht. Kurz gesagt: ein sehr aufregender Morgen." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w13-ilk-once", "w13-ondan-sonra", "w13-en-sonunda", "w13-birden"] },
+        { "art": "hoeren", "vokabel": "w13-kisacasi" },
+        { "art": "auswahl_de_tr", "vokabel": "w13-anlatmak" },
+        { "art": "luecke", "satz": "Birden Amani dışarı koş___!", "loesung": "tu", "optionen": ["tu", "du", "tı"], "de": "Plötzlich ist Amani rausgerannt!" },
+        { "art": "satzbau", "tr": "Kısacası, çok komikti!", "de": "Kurz gesagt, es war sehr lustig!" },
+        { "art": "auswahl_tr_de", "vokabel": "w13-hikaye" },
+        { "art": "hoeren", "vokabel": "w09-sonra-ne-oldu" },
+        { "art": "luecke", "satz": "Postacı çok kork___!", "loesung": "tu", "optionen": ["tu", "du", "tı"], "de": "Der Briefträger hatte richtig Angst!" },
+        { "art": "auswahl_de_tr", "vokabel": "w08-ne-oldu" },
+        { "art": "tippen", "vokabel": "w13-dinle" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzähl Pasha eine echte kleine Geschichte aus deinem Leben (Kindheit, Friseurausbildung, erste Begegnung mit Amani …) – mit ilk önce, ondan sonra, birden, en sonunda. Mindestens 2 Minuten.",
+        "mustersaetze": [
+          { "tr": "Dinle, sana bir hikâye anlatacağım.", "de": "Hör zu, ich erzähl dir eine Geschichte." },
+          { "tr": "İlk önce … Ondan sonra … Birden …", "de": "Zuerst … Danach … Plötzlich …" },
+          { "tr": "En sonunda … Kısacası, çok güzeldi.", "de": "Am Ende … Kurz gesagt, es war schön." }
+        ]
+      },
+      "alltagssatz": { "tr": "Dinle, ne oldu biliyor musun?", "de": "Hör mal, weißt du, was passiert ist?", "wann": "Der perfekte Einstieg für jede Erzählung heute Abend." },
+      "merktipp": { "titel": "Gerüst statt Perfektion", "text": "Mit ilk önce – ondan sonra – birden – en sonunda hat jede Geschichte ein Gerüst. Auch wenn mal eine Endung wackelt: Die Geschichte kommt an." }
+    },
+    {
+      "woche": 13,
+      "tag": 6,
+      "titel": "Festigungstag: Halbzeit!",
+      "kannZiel": "drei Minuten frei über deinen Alltag sprechen",
+      "vokabeln": [
+        { "id": "w13-aferin-bana", "tr": "Aferin bana!", "de": "Gut gemacht, ich!", "typ": "chunk", "beispiel": { "tr": "Üç dakika Türkçe konuştum. Aferin bana!", "de": "Drei Minuten Türkisch gesprochen. Gut gemacht, ich!" } },
+        { "id": "w13-yavas-yavas", "tr": "yavaş yavaş", "de": "nach und nach / Schritt für Schritt", "typ": "chunk", "beispiel": { "tr": "Yavaş yavaş öğreniyorum.", "de": "Ich lerne Schritt für Schritt." } },
+        { "id": "w13-az-kaldi", "tr": "Az kaldı!", "de": "Fast geschafft!", "typ": "chunk", "beispiel": { "tr": "Az kaldı, devam!", "de": "Fast geschafft, weiter!" } },
+        { "id": "w13-devam", "tr": "Devam!", "de": "Weiter so!", "typ": "chunk", "beispiel": { "tr": "Çok iyi, devam!", "de": "Sehr gut, weiter so!" } },
+        { "id": "w13-pes-etmek-yok", "tr": "Pes etmek yok!", "de": "Aufgeben gilt nicht!", "typ": "chunk", "beispiel": { "tr": "Zor ama pes etmek yok!", "de": "Schwer, aber aufgeben gilt nicht!" } }
+      ],
+      "grammatik": {
+        "titel": "Halbzeit: alles, was du kannst",
+        "erklaerung": [
+          "Zeiten: -dı, -yor, -acak. Fälle: -da, -a, -dan, -ı, -la, -ın. Besitz: -m, -n, -sı, -mız.",
+          "Dazu var/yok, lazım, mi-Fragen, Befehle und Vergleiche – das ist solides A1-Niveau!"
+        ],
+        "tabelle": {
+          "kopf": ["Thema", "Beispiel"],
+          "zeilen": [
+            ["vorstellen", "Benim adım Sherin, Garbsen'de oturuyorum."],
+            ["Familie", "Bir kızım ve bir köpeğimiz var."],
+            ["Alltag", "Her gün parka gidiyoruz."],
+            ["gestern", "Dün Elif'le buluştum."],
+            ["morgen", "Yarın doktora gideceğiz."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Yavaş yavaş öğreniyorum.", "de": "Ich lerne Schritt für Schritt." },
+          { "tr": "Az kaldı, pes etmek yok!", "de": "Fast geschafft, aufgeben gilt nicht!" },
+          { "tr": "Aferin bana!", "de": "Gut gemacht, ich!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Drei Monate Türkisch",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Biliyor musun? Üç aydır Türkçe öğreniyorsun.", "de": "Weißt du was? Du lernst seit drei Monaten Türkisch." },
+          { "sprecher": "Sherin", "tr": "Gerçekten mi? Zaman çok hızlı geçti!", "de": "Echt? Die Zeit ist so schnell vergangen!" },
+          { "sprecher": "Pasha", "tr": "Ve artık benimle Türkçe konuşuyorsun.", "de": "Und jetzt sprichst du mit mir Türkisch." },
+          { "sprecher": "Sherin", "tr": "Yavaş yavaş. Hâlâ çok hata yapıyorum.", "de": "Nach und nach. Ich mache immer noch viele Fehler." },
+          { "sprecher": "Pasha", "tr": "Olsun! Annem de çok şaşırdı.", "de": "Macht nichts! Meine Mama war auch total überrascht." },
+          { "sprecher": "Sherin", "tr": "Mayısta daha iyi konuşacağım. Pes etmek yok!", "de": "Im Mai werde ich besser sprechen. Aufgeben gilt nicht!" },
+          { "sprecher": "Pasha", "tr": "Aynen! Az kaldı. Devam!", "de": "Genau! Bald geschafft. Weiter so!" },
+          { "sprecher": "Sherin", "tr": "Aferin bana! Ve aferin sana – sen çok iyi bir öğretmensin.", "de": "Gut gemacht, ich! Und du – du bist ein super Lehrer." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w13-aferin-bana", "w13-yavas-yavas", "w13-az-kaldi", "w13-pes-etmek-yok"] },
+        { "art": "hoeren", "vokabel": "w13-devam" },
+        { "art": "satzbau", "tr": "Yavaş yavaş öğreniyorum.", "de": "Ich lerne Schritt für Schritt." },
+        { "art": "luecke", "satz": "Bir kızım ve bir köpeğimiz ___.", "loesung": "var", "optionen": ["var", "yok", "lazım"], "de": "Ich habe eine Tochter und wir haben einen Hund." },
+        { "art": "auswahl_de_tr", "vokabel": "w02-seni-seviyorum" },
+        { "art": "luecke", "satz": "Dün Elif'le buluş___.", "loesung": "tum", "optionen": ["tum", "dum", "tım"], "de": "Gestern habe ich mich mit Elif getroffen." },
+        { "art": "hoeren", "vokabel": "w12-insallah" },
+        { "art": "auswahl_tr_de", "vokabel": "w06-afiyet-olsun" },
+        { "art": "auswahl_de_tr", "vokabel": "w10-gecmis-olsun" },
+        { "art": "satzbau", "tr": "Mayısta daha iyi konuşacağım.", "de": "Im Mai werde ich besser sprechen." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Die große Halbzeit-Prüfung: Stellt einen Timer auf 3 Minuten. Du erzählst Pasha frei über deinen Alltag – wer du bist, deine Familie, was du gestern gemacht hast und was du morgen vorhast. Pasha unterbricht nur mit Nachfragen.",
+        "mustersaetze": [
+          { "tr": "Benim adım Sherin. Garbsen'de oturuyorum.", "de": "Ich heiße Sherin. Ich wohne in Garbsen." },
+          { "tr": "Dün … Bugün … Yarın …", "de": "Gestern … Heute … Morgen …" },
+          { "tr": "Aferin bana!", "de": "Gut gemacht, ich!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Aferin bana!", "de": "Gut gemacht, ich!", "wann": "Nach den drei Minuten – du hast es dir verdient." },
+      "merktipp": { "titel": "Halbzeit", "text": "Du bist bei Woche 13 von 26. In drei Monaten bist du von „Merhaba“ zu echten Gesprächen gekommen. Die zweite Hälfte wird leichter – das Fundament steht." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Drei Minuten freies Gespräch über deinen Alltag – mit Timer.", "hilfe": { "tr": "Benim adım … Her gün … Dün … Yarın …", "de": "Ich heiße … Jeden Tag … Gestern … Morgen …" } },
+      { "situation": "Erzähl eine kurze lustige Geschichte mit ilk önce, birden, en sonunda.", "hilfe": { "tr": "İlk önce … Birden … En sonunda …", "de": "Zuerst … Plötzlich … Am Ende …" } },
+      { "situation": "Führt ein gespieltes Telefonat mit Pashas Mama – von „Müsait misiniz?“ bis „Öpüyorum!“.", "hilfe": { "tr": "Müsait misiniz? … Kapatmam lazım. Öpüyorum!", "de": "Passt es gerade? … Ich muss auflegen. Küsschen!" } }
+    ]
+  }
+}
