@@ -1,0 +1,1554 @@
+{
+  "woche": 15,
+  "lektionen": [
+    {
+      "woche": 15,
+      "tag": 1,
+      "titel": "Wie fühlst du dich?",
+      "kannZiel": "Gefühle benennen",
+      "vokabeln": [
+        {
+          "id": "w15-uzgun",
+          "tr": "üzgün",
+          "de": "traurig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Neden üzgünsün?",
+            "de": "Warum bist du traurig?"
+          }
+        },
+        {
+          "id": "w15-sinirli",
+          "tr": "sinirli",
+          "de": "wütend / gereizt",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bugün biraz sinirliyim.",
+            "de": "Heute bin ich etwas gereizt."
+          }
+        },
+        {
+          "id": "w15-endiseli",
+          "tr": "endişeli",
+          "de": "besorgt",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Inaya hasta, çok endişeliyim.",
+            "de": "Inaya ist krank, ich bin sehr besorgt."
+          }
+        },
+        {
+          "id": "w15-saskin",
+          "tr": "şaşkın",
+          "de": "überrascht / verdutzt",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Pasha çok şaşkındı.",
+            "de": "Pasha war total verdutzt."
+          }
+        },
+        {
+          "id": "w15-gururlu",
+          "tr": "gururlu",
+          "de": "stolz",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Seninle gurur duyuyorum.",
+            "de": "Ich bin stolz auf dich."
+          }
+        },
+        {
+          "id": "w15-kiskanc",
+          "tr": "kıskanç",
+          "de": "eifersüchtig",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Amani biraz kıskanç, Inaya'yı kıskanıyor.",
+            "de": "Amani ist ein bisschen eifersüchtig, sie ist eifersüchtig auf Inaya."
+          }
+        },
+        {
+          "id": "w15-canim-sikkin",
+          "tr": "Canım sıkkın.",
+          "de": "Ich bin bedrückt / genervt.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bugün canım biraz sıkkın.",
+            "de": "Heute bin ich etwas bedrückt."
+          }
+        },
+        {
+          "id": "w15-rahatladim",
+          "tr": "Rahatladım.",
+          "de": "Ich bin erleichtert.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ateşi düştü, çok rahatladım.",
+            "de": "Das Fieber ist runter, ich bin so erleichtert."
+          }
+        },
+        {
+          "id": "w15-korkuyorum",
+          "tr": "Korkuyorum.",
+          "de": "Ich habe Angst.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Köpeklerden korkuyor musun?",
+            "de": "Hast du Angst vor Hunden?"
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Gefühle mit „sein“",
+        "erklaerung": [
+          "Gefühle sind meist Adjektive + „sein“-Endung: üzgünüm, sinirlisin, endişeliyiz.",
+          "„war“: üzgündüm, sinirliydi. Frage: Üzgün müsün?",
+          "Angst vor etwas: -dan/-den korkmak: Köpeklerden korkuyor. (Hat Angst vor Hunden.)"
+        ],
+        "tabelle": {
+          "kopf": [
+            "",
+            "jetzt",
+            "vorhin"
+          ],
+          "zeilen": [
+            [
+              "ich",
+              "üzgünüm",
+              "üzgündüm"
+            ],
+            [
+              "du",
+              "üzgünsün",
+              "üzgündün"
+            ],
+            [
+              "er/sie",
+              "üzgün",
+              "üzgündü"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Neden üzgünsün?",
+            "de": "Warum bist du traurig?"
+          },
+          {
+            "tr": "Dün çok sinirliydim, özür dilerim.",
+            "de": "Gestern war ich sehr gereizt, tut mir leid."
+          },
+          {
+            "tr": "Seninle gurur duyuyorum.",
+            "de": "Ich bin stolz auf dich."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Ein schwerer Tag",
+        "zeilen": [
+          {
+            "sprecher": "Pasha",
+            "tr": "Ne oldu canım? Üzgün görünüyorsun.",
+            "de": "Was ist los, Schatz? Du siehst traurig aus."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Canım biraz sıkkın. Inaya bütün gün ağladı.",
+            "de": "Ich bin etwas bedrückt. Inaya hat den ganzen Tag geweint."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Hasta mı? Endişeli misin?",
+            "de": "Ist sie krank? Machst du dir Sorgen?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Biraz. Ama ateşi yok. Galiba sadece diş.",
+            "de": "Ein bisschen. Aber sie hat kein Fieber. Wahrscheinlich nur ein Zahn."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Tamam, rahatladım. Bu akşam ben ona bakarım.",
+            "de": "Okay, da bin ich erleichtert. Heute Abend kümmere ich mich um sie."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Teşekkürler. Seninle gurur duyuyorum, biliyor musun?",
+            "de": "Danke. Ich bin stolz auf dich, weißt du das?"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w15-uzgun",
+            "w15-sinirli",
+            "w15-endiseli",
+            "w15-gururlu"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Neden üzgün___?",
+          "loesung": "sün",
+          "optionen": [
+            "sün",
+            "sin",
+            "sun"
+          ],
+          "de": "Warum bist du traurig?"
+        },
+        {
+          "art": "luecke",
+          "satz": "Dün çok sinirli___.",
+          "loesung": "ydim",
+          "optionen": [
+            "ydim",
+            "dim",
+            "yim"
+          ],
+          "de": "Gestern war ich sehr gereizt."
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-rahatladim"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w15-canim-sikkin"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Köpeklerden korkuyor musun?",
+          "de": "Hast du Angst vor Hunden?"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w15-kiskanc"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-saskin"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w15-uzgun"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w01-mutlu"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Gefühls-Barometer: Fragt euch heute dreimal (morgens, mittags, abends) auf Türkisch, wie ihr euch fühlt – und antwortet mit einem Gefühl und einem kurzen Grund.",
+        "mustersaetze": [
+          {
+            "tr": "Nasıl hissediyorsun?",
+            "de": "Wie fühlst du dich?"
+          },
+          {
+            "tr": "Biraz yorgunum ama mutluyum.",
+            "de": "Ich bin etwas müde, aber glücklich."
+          },
+          {
+            "tr": "Canım sıkkın.",
+            "de": "Ich bin bedrückt."
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Seninle gurur duyuyorum.",
+        "de": "Ich bin stolz auf dich.",
+        "wann": "Zu Inaya, wenn sie etwas Neues schafft – oder zu Pasha."
+      },
+      "merktipp": {
+        "titel": "can – die Seele",
+        "text": "can (Seele/Leben) steckt in vielen Gefühlen: Canım sıkkın (meine Seele ist eng = ich bin bedrückt), Canım istiyor (ich hab Lust), canım (mein Schatz)."
+      }
+    },
+    {
+      "woche": 15,
+      "tag": 2,
+      "titel": "Weil … : çünkü",
+      "kannZiel": "Gründe nennen",
+      "vokabeln": [
+        {
+          "id": "w15-cunku",
+          "tr": "çünkü",
+          "de": "weil / denn",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Yorgunum çünkü Inaya gece uyanıyor.",
+            "de": "Ich bin müde, weil Inaya nachts aufwacht."
+          }
+        },
+        {
+          "id": "w15-bu-yuzden",
+          "tr": "bu yüzden",
+          "de": "deshalb",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Hava soğuk, bu yüzden evdeyiz.",
+            "de": "Es ist kalt, deshalb sind wir zu Hause."
+          }
+        },
+        {
+          "id": "w15-yine-de",
+          "tr": "yine de",
+          "de": "trotzdem",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Yorgunum ama yine de çalışıyorum.",
+            "de": "Ich bin müde, aber ich lerne trotzdem."
+          }
+        },
+        {
+          "id": "w15-hem-hem-de",
+          "tr": "hem … hem de …",
+          "de": "sowohl … als auch …",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Hem yorgunum hem de açım.",
+            "de": "Ich bin müde und hungrig zugleich."
+          }
+        },
+        {
+          "id": "w15-ne-ne-de",
+          "tr": "ne … ne de …",
+          "de": "weder … noch …",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ne çay var ne de kahve!",
+            "de": "Es gibt weder Tee noch Kaffee!"
+          }
+        },
+        {
+          "id": "w15-sebep",
+          "tr": "sebep",
+          "de": "Grund",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Sebebi ne?",
+            "de": "Was ist der Grund?"
+          }
+        },
+        {
+          "id": "w15-ayrica",
+          "tr": "ayrıca",
+          "de": "außerdem",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Ayrıca yarın doktor var.",
+            "de": "Außerdem ist morgen Arzt."
+          }
+        },
+        {
+          "id": "w15-mesela",
+          "tr": "mesela",
+          "de": "zum Beispiel",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Mesela yarın parka gidebiliriz.",
+            "de": "Zum Beispiel könnten wir morgen in den Park gehen."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "çünkü & bu yüzden",
+        "erklaerung": [
+          "çünkü verbindet zwei ganze Sätze – das Verb bleibt in beiden am Ende: Evdeyim çünkü hastayım.",
+          "Andersrum mit bu yüzden (deshalb): Hastayım, bu yüzden evdeyim.",
+          "Kurze Antwort auf „Neden?“: Çünkü … – genau wie im Deutschen „Weil …“."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Grund → Folge",
+            "Folge ← Grund"
+          ],
+          "zeilen": [
+            [
+              "Hava soğuk, bu yüzden evdeyiz.",
+              "Evdeyiz çünkü hava soğuk."
+            ],
+            [
+              "Açım, bu yüzden yemek yapıyorum.",
+              "Yemek yapıyorum çünkü açım."
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Neden gelmedin? – Çünkü Inaya hastaydı.",
+            "de": "Warum bist du nicht gekommen? – Weil Inaya krank war."
+          },
+          {
+            "tr": "Yorgunum ama yine de çalışıyorum.",
+            "de": "Ich bin müde, aber ich lerne trotzdem."
+          },
+          {
+            "tr": "Ne çay var ne de kahve!",
+            "de": "Es gibt weder Tee noch Kaffee!"
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Absage an Elif",
+        "zeilen": [
+          {
+            "sprecher": "Elif",
+            "tr": "Cumartesi neden gelmedin?",
+            "de": "Warum bist du am Samstag nicht gekommen?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Özür dilerim, çünkü Inaya hastaydı.",
+            "de": "Tut mir leid, weil Inaya krank war."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Geçmiş olsun! Şimdi nasıl?",
+            "de": "Gute Besserung! Wie geht's ihr jetzt?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "İyi. Ama ben hem yorgunum hem de hastalandım.",
+            "de": "Gut. Aber ich bin müde und jetzt auch krank geworden."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Ay, o zaman bu hafta dinlen. Ayrıca bir şey lazım mı?",
+            "de": "Oh, dann ruh dich diese Woche aus. Brauchst du außerdem was?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Yok, teşekkürler. Ama yine de gelecek hafta buluşalım!",
+            "de": "Nein, danke. Aber lass uns trotzdem nächste Woche treffen!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w15-cunku",
+            "w15-bu-yuzden",
+            "w15-yine-de",
+            "w15-ayrica"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Evdeyiz ___ hava soğuk.",
+          "loesung": "çünkü",
+          "optionen": [
+            "çünkü",
+            "bu yüzden",
+            "yine de"
+          ],
+          "de": "Wir sind zu Hause, weil es kalt ist."
+        },
+        {
+          "art": "luecke",
+          "satz": "Hava soğuk, ___ evdeyiz.",
+          "loesung": "bu yüzden",
+          "optionen": [
+            "bu yüzden",
+            "çünkü",
+            "ama"
+          ],
+          "de": "Es ist kalt, deshalb sind wir zu Hause."
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-hem-hem-de"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w15-ne-ne-de"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Yorgunum ama yine de çalışıyorum.",
+          "de": "Ich bin müde, aber ich lerne trotzdem."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w15-sebep"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-mesela"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w15-cunku"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "„Warum?“-Spiel: Pasha fragt zehnmal „Neden?“ zu deinem Alltag (Warum bist du müde? Warum lernst du Türkisch? …). Du antwortest immer mit çünkü.",
+        "mustersaetze": [
+          {
+            "tr": "Neden Türkçe öğreniyorsun? – Çünkü seni ve aileni anlamak istiyorum.",
+            "de": "Warum lernst du Türkisch? – Weil ich dich und deine Familie verstehen will."
+          },
+          {
+            "tr": "Yorgunum çünkü …",
+            "de": "Ich bin müde, weil …"
+          },
+          {
+            "tr": "… bu yüzden …",
+            "de": "… deshalb …"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Çünkü seni anlamak istiyorum.",
+        "de": "Weil ich dich verstehen will.",
+        "wann": "Wenn jemand aus Pashas Familie fragt, warum du Türkisch lernst."
+      },
+      "merktipp": {
+        "titel": "Weil – ohne Wortsalat",
+        "text": "Im Deutschen wirft „weil“ das Verb ans Ende. Im Türkischen steht das Verb sowieso immer am Ende – çünkü ändert gar nichts. Einfacher geht's nicht."
+      }
+    },
+    {
+      "woche": 15,
+      "tag": 3,
+      "titel": "Meiner Meinung nach: bence",
+      "kannZiel": "deine Meinung sagen und nach Meinungen fragen",
+      "vokabeln": [
+        {
+          "id": "w15-bence",
+          "tr": "bence",
+          "de": "meiner Meinung nach",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bence bu fikir çok iyi.",
+            "de": "Ich finde die Idee sehr gut."
+          }
+        },
+        {
+          "id": "w15-sence",
+          "tr": "sence",
+          "de": "deiner Meinung nach",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Sence hangisi daha güzel?",
+            "de": "Welches findest du schöner?"
+          }
+        },
+        {
+          "id": "w15-bana-gore",
+          "tr": "bana göre",
+          "de": "für mich / aus meiner Sicht",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bana göre çok pahalı.",
+            "de": "Für mich ist das zu teuer."
+          }
+        },
+        {
+          "id": "w15-katiliyorum",
+          "tr": "Katılıyorum.",
+          "de": "Ich stimme zu.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Sana katılıyorum.",
+            "de": "Da stimme ich dir zu."
+          }
+        },
+        {
+          "id": "w15-katilmiyorum",
+          "tr": "Katılmıyorum.",
+          "de": "Ich sehe das anders.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Üzgünüm, katılmıyorum.",
+            "de": "Tut mir leid, das sehe ich anders."
+          }
+        },
+        {
+          "id": "w15-fikir",
+          "tr": "fikir",
+          "de": "Idee / Meinung",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Senin fikrin ne?",
+            "de": "Was meinst du dazu?"
+          }
+        },
+        {
+          "id": "w15-dusunmek",
+          "tr": "düşünmek",
+          "de": "denken / nachdenken",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Bunu düşünmem lazım.",
+            "de": "Darüber muss ich nachdenken."
+          }
+        },
+        {
+          "id": "w15-ne-dusunuyorsun",
+          "tr": "Ne düşünüyorsun?",
+          "de": "Was denkst du?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bu konuda ne düşünüyorsun?",
+            "de": "Was denkst du darüber?"
+          }
+        },
+        {
+          "id": "w15-bence-de",
+          "tr": "Bence de.",
+          "de": "Finde ich auch.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Çok güzel bir gün! – Bence de.",
+            "de": "Was für ein schöner Tag! – Finde ich auch."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Meinung: bence, sence, bana göre",
+        "erklaerung": [
+          "bence = ben + ce (meiner Meinung nach), sence = deiner Meinung nach?",
+          "Meinung + Grund: Bence … çünkü …",
+          "fikir verliert sein i: fikir → fikrim (meine Meinung), fikrin (deine)."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Fürwort",
+            "Meinung"
+          ],
+          "zeilen": [
+            [
+              "ben",
+              "bence"
+            ],
+            [
+              "sen",
+              "sence"
+            ],
+            [
+              "o",
+              "ona göre"
+            ],
+            [
+              "biz",
+              "bizce"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Bence bu fikir çok iyi.",
+            "de": "Ich finde die Idee sehr gut."
+          },
+          {
+            "tr": "Sence hangisi daha güzel?",
+            "de": "Welches findest du schöner?"
+          },
+          {
+            "tr": "Bence Inaya'ya Türkçe konuşmalıyız, çünkü iki dil çok önemli.",
+            "de": "Ich finde, wir sollten mit Inaya Türkisch sprechen, weil zwei Sprachen sehr wichtig sind."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Welche Sprache für Inaya?",
+        "zeilen": [
+          {
+            "sprecher": "Pasha",
+            "tr": "Sence Inaya'yla hangi dilde konuşmalıyız?",
+            "de": "Was meinst du, in welcher Sprache sollten wir mit Inaya sprechen?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bence ikisi de. Sen Türkçe, ben Almanca.",
+            "de": "Ich finde: beide. Du Türkisch, ich Deutsch."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Katılıyorum. Ama sen de biraz Türkçe konuş!",
+            "de": "Stimme zu. Aber du sprich auch ein bisschen Türkisch!"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Bence de! Çünkü ben de öğrenmek istiyorum.",
+            "de": "Finde ich auch! Weil ich es ja auch lernen will."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Annem ne düşünüyor biliyor musun?",
+            "de": "Weißt du, was meine Mama denkt?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Ne düşünüyor?",
+            "de": "Was denkt sie?"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Ona göre Inaya üç dil konuşacak: Türkçe, Almanca ve köpekçe!",
+            "de": "Ihrer Meinung nach wird Inaya drei Sprachen sprechen: Türkisch, Deutsch und Hündisch!"
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w15-bence",
+            "w15-sence",
+            "w15-katiliyorum",
+            "w15-katilmiyorum"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-ne-dusunuyorsun"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w15-bence-de"
+        },
+        {
+          "art": "luecke",
+          "satz": "Senin fikr___ ne?",
+          "loesung": "in",
+          "optionen": [
+            "in",
+            "im",
+            "i"
+          ],
+          "de": "Was meinst du dazu?"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bence bu fikir çok iyi.",
+          "de": "Ich finde die Idee sehr gut."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w15-bana-gore"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-dusunmek"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Sence hangisi daha güzel?",
+          "de": "Welches findest du schöner?"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w15-bence"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Kleine Debatte: Pasha nennt fünf Themen (Inayas Kita, Urlaub am Meer oder in den Bergen, das beste Essen …). Ihr sagt beide eure Meinung mit bence + çünkü und reagiert mit katılıyorum / katılmıyorum.",
+        "mustersaetze": [
+          {
+            "tr": "Bence deniz daha güzel, çünkü Inaya kumda oynayabilir.",
+            "de": "Ich finde das Meer schöner, weil Inaya im Sand spielen kann."
+          },
+          {
+            "tr": "Katılmıyorum. Bence dağ daha sakin.",
+            "de": "Sehe ich anders. Ich finde die Berge ruhiger."
+          },
+          {
+            "tr": "Sence?",
+            "de": "Und was meinst du?"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Sence?",
+        "de": "Was meinst du?",
+        "wann": "Bei jeder kleinen Entscheidung heute – Essen, Kleidung, Plan."
+      },
+      "merktipp": {
+        "titel": "-ce = nach Meinung von",
+        "text": "bence, sence, bizce – der Stein -ce macht aus „ich“ ein „meiner Meinung nach“. Eine Silbe statt drei Wörter!"
+      }
+    },
+    {
+      "woche": 15,
+      "tag": 4,
+      "titel": "Ich mag es, zu … : -mayı sevmek",
+      "kannZiel": "sagen, was du gern und ungern tust",
+      "vokabeln": [
+        {
+          "id": "w15-nefret-etmek",
+          "tr": "nefret etmek",
+          "de": "hassen",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ütü yapmaktan nefret ediyorum!",
+            "de": "Ich hasse Bügeln!"
+          }
+        },
+        {
+          "id": "w15-bayilmak",
+          "tr": "bayılmak",
+          "de": "total lieben (wörtl. umfallen)",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Türk kahvesine bayılıyorum!",
+            "de": "Ich liebe türkischen Kaffee!"
+          }
+        },
+        {
+          "id": "w15-hoslanmak",
+          "tr": "hoşlanmak",
+          "de": "mögen",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Yürüyüş yapmaktan hoşlanıyorum.",
+            "de": "Ich gehe gern spazieren."
+          }
+        },
+        {
+          "id": "w15-tercih-etmek",
+          "tr": "tercih etmek",
+          "de": "bevorzugen",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Çayı kahveye tercih ederim.",
+            "de": "Ich ziehe Tee dem Kaffee vor."
+          }
+        },
+        {
+          "id": "w15-ilgilenmek",
+          "tr": "ilgilenmek",
+          "de": "sich interessieren / sich kümmern",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Kozmetikle çok ilgileniyorum.",
+            "de": "Ich interessiere mich sehr für Kosmetik."
+          }
+        },
+        {
+          "id": "w15-sikilmak",
+          "tr": "sıkılmak",
+          "de": "sich langweilen",
+          "typ": "wort",
+          "beispiel": {
+            "tr": "Evde sıkıldım!",
+            "de": "Mir ist zu Hause langweilig!"
+          }
+        },
+        {
+          "id": "w15-keyif-almak",
+          "tr": "keyif almak",
+          "de": "genießen",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Sabah çayından çok keyif alıyorum.",
+            "de": "Ich genieße meinen Morgentee sehr."
+          }
+        },
+        {
+          "id": "w15-en-cok",
+          "tr": "en çok",
+          "de": "am meisten / am liebsten",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "En çok ne yapmayı seviyorsun?",
+            "de": "Was machst du am liebsten?"
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Tun als Ding: -ma + -yı",
+        "erklaerung": [
+          "„Ich mag schwimmen“: Stamm + -ma/-me (= das Tun) + Akkusativ -yı/-yi: yüzmeyi seviyorum.",
+          "Verneint: yemek yapmayı sevmiyorum (ich koche nicht gern).",
+          "nefret etmek und hoşlanmak wollen -mak + tan: ütü yapmaktan nefret ediyorum.",
+          "bayılmak will -a/-e: kahveye bayılıyorum (ich liebe Kaffee)."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Verb",
+            "ich mag …"
+          ],
+          "zeilen": [
+            [
+              "yüzmek",
+              "yüzmeyi seviyorum"
+            ],
+            [
+              "okumak",
+              "okumayı seviyorum"
+            ],
+            [
+              "yemek yapmak",
+              "yemek yapmayı seviyorum"
+            ],
+            [
+              "dans etmek",
+              "dans etmeyi seviyorum"
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Yemek yapmayı seviyor musun?",
+            "de": "Kochst du gern?"
+          },
+          {
+            "tr": "Ütü yapmaktan nefret ediyorum!",
+            "de": "Ich hasse Bügeln!"
+          },
+          {
+            "tr": "Türk kahvesine bayılıyorum!",
+            "de": "Ich liebe türkischen Kaffee!"
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Was magst du – was nicht?",
+        "zeilen": [
+          {
+            "sprecher": "Pasha",
+            "tr": "En çok ne yapmayı seviyorsun?",
+            "de": "Was machst du am liebsten?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Saç kesmeyi! Ve makyaj yapmayı.",
+            "de": "Haare schneiden! Und Make-up machen."
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Peki ne yapmayı sevmiyorsun?",
+            "de": "Und was machst du nicht gern?"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Ütü yapmaktan nefret ediyorum. Sen?",
+            "de": "Ich hasse Bügeln. Und du?"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Ben bulaşık yıkamayı hiç sevmiyorum.",
+            "de": "Ich wasche gar nicht gern ab."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "O zaman bulaşık makinesine bayılıyorsun!",
+            "de": "Dann liebst du ja die Spülmaschine!"
+          },
+          {
+            "sprecher": "Pasha",
+            "tr": "Aynen! En iyi arkadaşım.",
+            "de": "Genau! Mein bester Freund."
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w15-nefret-etmek",
+            "w15-bayilmak",
+            "w15-hoslanmak",
+            "w15-sikilmak"
+          ]
+        },
+        {
+          "art": "luecke",
+          "satz": "Yüz___ seviyorum.",
+          "loesung": "meyi",
+          "optionen": [
+            "meyi",
+            "mek",
+            "mayı"
+          ],
+          "de": "Ich schwimme gern."
+        },
+        {
+          "art": "luecke",
+          "satz": "Ütü yapmak___ nefret ediyorum!",
+          "loesung": "tan",
+          "optionen": [
+            "tan",
+            "ı",
+            "a"
+          ],
+          "de": "Ich hasse Bügeln!"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-keyif-almak"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w15-tercih-etmek"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Yemek yapmayı seviyor musun?",
+          "de": "Kochst du gern?"
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w15-ilgilenmek"
+        },
+        {
+          "art": "luecke",
+          "satz": "Türk kahvesi___ bayılıyorum!",
+          "loesung": "ne",
+          "optionen": [
+            "ne",
+            "ni",
+            "nden"
+          ],
+          "de": "Ich liebe türkischen Kaffee!"
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w15-en-cok"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Liebe-Hass-Liste: Nennt euch abwechselnd je fünf Tätigkeiten, die ihr liebt, mögt oder hasst – auf Türkisch mit -mayı seviyorum / -maktan nefret ediyorum / -a bayılıyorum.",
+        "mustersaetze": [
+          {
+            "tr": "Inaya'yla oynamayı çok seviyorum.",
+            "de": "Ich spiele sehr gern mit Inaya."
+          },
+          {
+            "tr": "Erken kalkmaktan nefret ediyorum.",
+            "de": "Ich hasse frühes Aufstehen."
+          },
+          {
+            "tr": "Baklavaya bayılıyorum!",
+            "de": "Ich liebe Baklava!"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "… bayılıyorum!",
+        "de": "Ich liebe …!",
+        "wann": "Beim nächsten Essen bei Pashas Familie – das freut jede Köchin."
+      },
+      "merktipp": {
+        "titel": "bayılmak = umfallen vor Begeisterung",
+        "text": "bayılmak heißt eigentlich „ohnmächtig werden“. Wer sagt „Baklavaya bayılıyorum“, fällt also fast um vor Liebe zum Baklava. Ein herrlich dramatisches Wort."
+      }
+    },
+    {
+      "woche": 15,
+      "tag": 5,
+      "titel": "Trösten & Mitgefühl",
+      "kannZiel": "andere trösten und Mitgefühl zeigen",
+      "vokabeln": [
+        {
+          "id": "w15-uzulme",
+          "tr": "Üzülme!",
+          "de": "Sei nicht traurig!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Üzülme canım, geçecek.",
+            "de": "Sei nicht traurig, Schatz, das geht vorbei."
+          }
+        },
+        {
+          "id": "w15-sakin-ol",
+          "tr": "Sakin ol!",
+          "de": "Beruhig dich!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Sakin ol, her şey yolunda.",
+            "de": "Beruhig dich, alles ist gut."
+          }
+        },
+        {
+          "id": "w15-anliyorum",
+          "tr": "Seni anlıyorum.",
+          "de": "Ich verstehe dich.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Seni çok iyi anlıyorum.",
+            "de": "Ich verstehe dich sehr gut."
+          }
+        },
+        {
+          "id": "w15-yanindayim",
+          "tr": "Yanındayım.",
+          "de": "Ich bin für dich da.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Merak etme, ben yanındayım.",
+            "de": "Keine Sorge, ich bin für dich da."
+          }
+        },
+        {
+          "id": "w15-her-sey-yoluna-girecek",
+          "tr": "Her şey yoluna girecek.",
+          "de": "Alles wird gut.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Üzülme, her şey yoluna girecek.",
+            "de": "Sei nicht traurig, alles wird gut."
+          }
+        },
+        {
+          "id": "w15-saril-bana",
+          "tr": "Sarıl bana.",
+          "de": "Umarm mich.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Gel, sarıl bana.",
+            "de": "Komm, umarm mich."
+          }
+        },
+        {
+          "id": "w15-moralin-bozuk-mu",
+          "tr": "Moralin bozuk mu?",
+          "de": "Bist du schlecht drauf?",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ne oldu, moralin bozuk mu?",
+            "de": "Was ist los, bist du schlecht drauf?"
+          }
+        },
+        {
+          "id": "w15-aglama",
+          "tr": "Ağlama.",
+          "de": "Weine nicht.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Ağlama bebeğim, annen burada.",
+            "de": "Wein nicht, mein Baby, Mama ist hier."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: Befehle zum Trösten",
+        "erklaerung": [
+          "Tröstende Befehle sind oft verneint: Üzülme! Ağlama! Korkma!",
+          "Zukunft für Hoffnung: geçecek (es geht vorbei), yoluna girecek (es kommt in Ordnung).",
+          "Gegenüber Kindern ganz weich mit Kosewort: Ağlama bebeğim."
+        ],
+        "tabelle": {
+          "kopf": [
+            "Gefühl",
+            "Trost"
+          ],
+          "zeilen": [
+            [
+              "üzgün",
+              "Üzülme!"
+            ],
+            [
+              "korkuyor",
+              "Korkma!"
+            ],
+            [
+              "sinirli",
+              "Sakin ol!"
+            ],
+            [
+              "ağlıyor",
+              "Ağlama, geçecek."
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Üzülme, her şey yoluna girecek.",
+            "de": "Sei nicht traurig, alles wird gut."
+          },
+          {
+            "tr": "Korkma, ben buradayım.",
+            "de": "Hab keine Angst, ich bin hier."
+          },
+          {
+            "tr": "Gel, sarıl bana.",
+            "de": "Komm, umarm mich."
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Elif hat Sorgen",
+        "zeilen": [
+          {
+            "sprecher": "Sherin",
+            "tr": "Moralin bozuk mu? Ne oldu?",
+            "de": "Bist du schlecht drauf? Was ist los?"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Babam hastanede. Çok endişeliyim.",
+            "de": "Mein Vater ist im Krankenhaus. Ich mache mir große Sorgen."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Geçmiş olsun … Seni çok iyi anlıyorum.",
+            "de": "Gute Besserung … Ich verstehe dich so gut."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Doktorlar ciddi değil diyor ama yine de …",
+            "de": "Die Ärzte sagen, es ist nicht ernst, aber trotzdem …"
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Üzülme, her şey yoluna girecek. Yanındayım.",
+            "de": "Sei nicht traurig, alles wird gut. Ich bin für dich da."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Teşekkür ederim canım.",
+            "de": "Danke dir, Schatz."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Gel, sarıl bana.",
+            "de": "Komm, umarm mich."
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w15-uzulme",
+            "w15-sakin-ol",
+            "w15-aglama",
+            "w15-saril-bana"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-her-sey-yoluna-girecek"
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w15-yanindayim"
+        },
+        {
+          "art": "luecke",
+          "satz": "Kork___, ben buradayım.",
+          "loesung": "ma",
+          "optionen": [
+            "ma",
+            "uyorum",
+            "tum"
+          ],
+          "de": "Hab keine Angst, ich bin hier."
+        },
+        {
+          "art": "satzbau",
+          "tr": "Üzülme, her şey yoluna girecek.",
+          "de": "Sei nicht traurig, alles wird gut."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w15-moralin-bozuk-mu"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-anliyorum"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Ağlama bebeğim, annen burada.",
+          "de": "Wein nicht, mein Baby, Mama ist hier."
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w15-aglama"
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Tröste Inaya heute bei jedem Weinen auf Türkisch – und übt mit Pasha ein Gespräch, in dem einer traurig ist und der andere tröstet. Dann tauscht ihr die Rollen.",
+        "mustersaetze": [
+          {
+            "tr": "Ağlama bebeğim, geçecek.",
+            "de": "Wein nicht, mein Baby, das geht vorbei."
+          },
+          {
+            "tr": "Moralin bozuk mu?",
+            "de": "Bist du schlecht drauf?"
+          },
+          {
+            "tr": "Yanındayım.",
+            "de": "Ich bin für dich da."
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Ağlama bebeğim, annen burada.",
+        "de": "Wein nicht, mein Baby, Mama ist hier.",
+        "wann": "Beim nächsten Weinen von Inaya – ganz leise und weich."
+      },
+      "merktipp": {
+        "titel": "Geçecek – es geht vorbei",
+        "text": "Ein einziges Wort, das tröstet: „Geçecek.“ (Es geht vorbei.) Funktioniert bei Zahnschmerzen, schlechten Tagen und Herbstwetter."
+      }
+    },
+    {
+      "woche": 15,
+      "tag": 6,
+      "titel": "Festigungstag: Herz & Kopf",
+      "kannZiel": "Gefühle und Meinungen begründet ausdrücken",
+      "vokabeln": [
+        {
+          "id": "w15-cok-sevindim",
+          "tr": "Çok sevindim!",
+          "de": "Das freut mich sehr!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "İyileştin mi? Çok sevindim!",
+            "de": "Du bist wieder gesund? Das freut mich sehr!"
+          }
+        },
+        {
+          "id": "w15-cok-uzuldum",
+          "tr": "Çok üzüldüm.",
+          "de": "Das tut mir sehr leid.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Bunu duyunca çok üzüldüm.",
+            "de": "Als ich das hörte, war ich sehr traurig."
+          }
+        },
+        {
+          "id": "w15-saka-saka",
+          "tr": "Şaka şaka!",
+          "de": "Nur Spaß!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Yemeğin berbat! Şaka şaka, çok lezzetli!",
+            "de": "Dein Essen ist mies! Nur Spaß, total lecker!"
+          }
+        },
+        {
+          "id": "w15-olsun",
+          "tr": "Olsun.",
+          "de": "Macht nichts.",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Geç kaldın mı? Olsun, önemli değil.",
+            "de": "Du bist zu spät? Macht nichts, nicht wichtig."
+          }
+        },
+        {
+          "id": "w15-bos-ver",
+          "tr": "Boş ver!",
+          "de": "Vergiss es! / Egal!",
+          "typ": "chunk",
+          "beispiel": {
+            "tr": "Boş ver, sorun değil.",
+            "de": "Vergiss es, kein Problem."
+          }
+        }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Gefühl + sein: üzgünüm. Grund: çünkü / bu yüzden. Meinung: bence / sence.",
+          "Gern tun: -mayı seviyorum, -maktan nefret ediyorum, -a bayılıyorum."
+        ],
+        "tabelle": {
+          "kopf": [
+            "",
+            "Beispiel"
+          ],
+          "zeilen": [
+            [
+              "Gefühl",
+              "Çok mutluyum."
+            ],
+            [
+              "Grund",
+              "… çünkü Inaya ilk adımını attı."
+            ],
+            [
+              "Meinung",
+              "Bence bu harika."
+            ],
+            [
+              "Vorliebe",
+              "Dans etmeyi seviyorum."
+            ]
+          ]
+        },
+        "beispiele": [
+          {
+            "tr": "Çok mutluyum çünkü yarın tatildeyiz.",
+            "de": "Ich bin sehr glücklich, weil wir morgen Urlaub haben."
+          },
+          {
+            "tr": "Bence Türkçe çok güzel bir dil.",
+            "de": "Ich finde, Türkisch ist eine sehr schöne Sprache."
+          },
+          {
+            "tr": "Boş ver, olsun!",
+            "de": "Vergiss es, macht nichts!"
+          }
+        ]
+      },
+      "dialog": {
+        "titel": "Gute und schlechte Nachrichten bei Elif",
+        "zeilen": [
+          {
+            "sprecher": "Elif",
+            "tr": "İki haberim var: bir iyi, bir kötü.",
+            "de": "Ich hab zwei Nachrichten: eine gute, eine schlechte."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Önce kötü haber.",
+            "de": "Erst die schlechte."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Babam hâlâ hastanede.",
+            "de": "Mein Vater ist immer noch im Krankenhaus."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Çok üzüldüm. İyi haber ne?",
+            "de": "Das tut mir sehr leid. Und die gute?"
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Yarın eve çıkıyor! Doktorlar çok memnun.",
+            "de": "Morgen darf er nach Hause! Die Ärzte sind sehr zufrieden."
+          },
+          {
+            "sprecher": "Sherin",
+            "tr": "Çok sevindim! Bence hemen annene haber ver.",
+            "de": "Das freut mich so! Ich finde, du sagst sofort deiner Mama Bescheid."
+          },
+          {
+            "sprecher": "Elif",
+            "tr": "Bence de. Ama önce çay! Şaka şaka, hemen arıyorum.",
+            "de": "Finde ich auch. Aber erst Tee! Nur Spaß, ich ruf sofort an."
+          }
+        ]
+      },
+      "uebungen": [
+        {
+          "art": "zuordnen",
+          "vokabeln": [
+            "w15-cok-sevindim",
+            "w15-cok-uzuldum",
+            "w15-olsun",
+            "w15-bos-ver"
+          ]
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-saka-saka"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Çok mutluyum çünkü yarın tatildeyiz.",
+          "de": "Ich bin sehr glücklich, weil wir morgen Urlaub haben."
+        },
+        {
+          "art": "auswahl_de_tr",
+          "vokabel": "w15-cok-sevindim"
+        },
+        {
+          "art": "luecke",
+          "satz": "Dans et___ seviyorum.",
+          "loesung": "meyi",
+          "optionen": [
+            "meyi",
+            "mek",
+            "meden"
+          ],
+          "de": "Ich tanze gern."
+        },
+        {
+          "art": "auswahl_tr_de",
+          "vokabel": "w15-olsun"
+        },
+        {
+          "art": "hoeren",
+          "vokabel": "w15-bence"
+        },
+        {
+          "art": "luecke",
+          "satz": "Hastayım, ___ evdeyim.",
+          "loesung": "bu yüzden",
+          "optionen": [
+            "bu yüzden",
+            "çünkü",
+            "mesela"
+          ],
+          "de": "Ich bin krank, deshalb bin ich zu Hause."
+        },
+        {
+          "art": "tippen",
+          "vokabel": "w15-olsun"
+        },
+        {
+          "art": "satzbau",
+          "tr": "Bence Türkçe çok güzel bir dil.",
+          "de": "Ich finde, Türkisch ist eine sehr schöne Sprache."
+        }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Erzähl Pasha von der schönsten und der schwierigsten Situation dieser Woche – wie du dich gefühlt hast und warum. Pasha reagiert passend (Çok sevindim! / Çok üzüldüm.) und sagt seine Meinung.",
+        "mustersaetze": [
+          {
+            "tr": "Bu hafta çok mutluydum çünkü …",
+            "de": "Diese Woche war ich sehr glücklich, weil …"
+          },
+          {
+            "tr": "Ama biraz üzgündüm çünkü …",
+            "de": "Aber ich war ein bisschen traurig, weil …"
+          },
+          {
+            "tr": "Sence?",
+            "de": "Was meinst du?"
+          }
+        ]
+      },
+      "alltagssatz": {
+        "tr": "Çok sevindim!",
+        "de": "Das freut mich sehr!",
+        "wann": "Bei jeder guten Nachricht heute – auch bei kleinen."
+      },
+      "merktipp": {
+        "titel": "Gefühle sind Phase 3",
+        "text": "Gefühle und Meinungen sind der Schritt von „Ich kann mich verständigen“ zu „Ich kann mich mitteilen“. Genau das macht Gespräche mit Pashas Familie warm."
+      }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      {
+        "situation": "Erzähl, wie du dich heute fühlst – und warum.",
+        "hilfe": {
+          "tr": "Bugün biraz yorgunum ama mutluyum, çünkü …",
+          "de": "Heute bin ich etwas müde, aber glücklich, weil …"
+        }
+      },
+      {
+        "situation": "Sag Pasha deine Meinung zu einem Thema und begründe sie.",
+        "hilfe": {
+          "tr": "Bence … çünkü … Sence?",
+          "de": "Ich finde …, weil … Und du?"
+        }
+      },
+      {
+        "situation": "Nenne drei Dinge, die du gern tust, und eins, das du hasst.",
+        "hilfe": {
+          "tr": "… seviyorum, … bayılıyorum, …-maktan nefret ediyorum.",
+          "de": "Ich mag …, ich liebe …, ich hasse …"
+        }
+      }
+    ]
+  }
+}
