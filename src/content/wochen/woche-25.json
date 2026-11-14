@@ -1,0 +1,419 @@
+{
+  "woche": 25,
+  "lektionen": [
+    {
+      "woche": 25,
+      "tag": 1,
+      "titel": "Füllwörter: yani, şey, hani …",
+      "kannZiel": "mit Füllwörtern natürlich und flüssig klingen",
+      "vokabeln": [
+        { "id": "w25-yani", "tr": "yani", "de": "also / das heißt", "typ": "wort", "beispiel": { "tr": "Yani, bence iyi bir fikir.", "de": "Also, ich finde, das ist eine gute Idee." } },
+        { "id": "w25-sey", "tr": "şey", "de": "äh / Ding / Dings", "typ": "wort", "beispiel": { "tr": "Şey … nasıl desem …", "de": "Äh … wie soll ich sagen …" } },
+        { "id": "w25-hani", "tr": "hani", "de": "du weißt schon / wo denn", "typ": "wort", "beispiel": { "tr": "Hani geçen hafta gittiğimiz kafe?", "de": "Du weißt schon, das Café, wo wir letzte Woche waren?" } },
+        { "id": "w25-aslinda", "tr": "aslında", "de": "eigentlich", "typ": "wort", "beispiel": { "tr": "Aslında çok yorgunum ama gelirim.", "de": "Eigentlich bin ich sehr müde, aber ich komme." } },
+        { "id": "w25-neyse", "tr": "neyse", "de": "na ja / egal / jedenfalls", "typ": "wort", "beispiel": { "tr": "Neyse, önemli değil.", "de": "Na ja, ist nicht wichtig." } },
+        { "id": "w25-iste", "tr": "işte", "de": "eben / tja / da (siehst du)", "typ": "wort", "beispiel": { "tr": "İşte böyle, hayat!", "de": "Tja, so ist das Leben!" } },
+        { "id": "w25-falan", "tr": "falan", "de": "und so / oder so", "typ": "wort", "beispiel": { "tr": "Ekmek, süt falan aldım.", "de": "Ich hab Brot, Milch und so gekauft." } },
+        { "id": "w25-ya", "tr": "ya", "de": "ach / ja (Betonung)", "typ": "wort", "beispiel": { "tr": "Çok güzel ya!", "de": "Ach, ist das schön!" } },
+        { "id": "w25-bak", "tr": "bak", "de": "schau mal / hör mal", "typ": "wort", "beispiel": { "tr": "Bak, sana bir şey söyleyeceğim.", "de": "Hör mal, ich muss dir was sagen." } }
+      ],
+      "grammatik": {
+        "titel": "Füllwörter = Zeit gewinnen",
+        "erklaerung": [
+          "Muttersprachler füllen Pausen mit kleinen Wörtern: şey (äh), yani (also), neyse (na ja).",
+          "Sie geben Zeit zum Denken und machen Sätze weicher – genau wie im Deutschen „also“, „halt“, „irgendwie“.",
+          "Dosiert benutzen: Ein oder zwei pro Satz klingen natürlich, zehn klingen nervös."
+        ],
+        "tabelle": {
+          "kopf": ["Wort", "wann?"],
+          "zeilen": [
+            ["şey …", "Wort fehlt, Zeit gewinnen"],
+            ["yani", "erklären, zusammenfassen"],
+            ["aslında", "„eigentlich“, Gegensatz"],
+            ["neyse", "Thema abschließen"],
+            ["hani", "an Gemeinsames erinnern"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Şey … nasıl desem … biraz karışık.", "de": "Äh … wie soll ich sagen … ist etwas kompliziert." },
+          { "tr": "Aslında çok yorgunum ama gelirim.", "de": "Eigentlich bin ich sehr müde, aber ich komme." },
+          { "tr": "Neyse, önemli değil.", "de": "Na ja, ist nicht wichtig." }
+        ]
+      },
+      "dialog": {
+        "titel": "Ganz normales Gequatsche",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Hani o yeni kafe var ya, gittin mi?", "de": "Du weißt schon, das neue Café – warst du schon da?" },
+          { "sprecher": "Sherin", "tr": "Şey … aslında gittim ama kapalıydı.", "de": "Äh … eigentlich ja, aber es war zu." },
+          { "sprecher": "Elif", "tr": "Ya, çok yazık! Yani ne zaman açık?", "de": "Ach, wie schade! Also wann hat es auf?" },
+          { "sprecher": "Sherin", "tr": "Bilmiyorum. Cumartesi falan galiba.", "de": "Weiß nicht. Samstag oder so, glaub ich." },
+          { "sprecher": "Elif", "tr": "Neyse, cumartesi beraber gidelim mi?", "de": "Na ja, gehen wir Samstag zusammen hin?" },
+          { "sprecher": "Sherin", "tr": "Olur! İşte böyle, plan hazır.", "de": "Gern! Tja, so einfach – Plan steht." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w25-yani", "w25-sey", "w25-aslinda", "w25-neyse"] },
+        { "art": "zuordnen", "vokabeln": ["w25-hani", "w25-iste", "w25-falan", "w25-bak"] },
+        { "art": "hoeren", "vokabel": "w25-ya" },
+        { "art": "luecke", "satz": "___ çok yorgunum ama gelirim.", "loesung": "Aslında", "optionen": ["Aslında", "Hani", "Falan"], "de": "Eigentlich bin ich sehr müde, aber ich komme." },
+        { "art": "satzbau", "tr": "Neyse, önemli değil.", "de": "Na ja, ist nicht wichtig." },
+        { "art": "auswahl_de_tr", "vokabel": "w25-falan" },
+        { "art": "luecke", "satz": "Ekmek, süt ___ aldım.", "loesung": "falan", "optionen": ["falan", "yani", "aslında"], "de": "Ich hab Brot, Milch und so gekauft." },
+        { "art": "auswahl_tr_de", "vokabel": "w25-hani" },
+        { "art": "tippen", "vokabel": "w25-yani" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Füllwort-Bingo: Unterhaltet euch 5 Minuten über irgendetwas. Jedes Mal, wenn du yani, şey, hani, aslında oder neyse natürlich einbaust, gibt Pasha dir einen Punkt.",
+        "mustersaetze": [
+          { "tr": "Yani, bence …", "de": "Also, ich finde …" },
+          { "tr": "Şey … nasıl desem …", "de": "Äh … wie soll ich sagen …" },
+          { "tr": "Neyse, önemli değil.", "de": "Na ja, egal." }
+        ]
+      },
+      "alltagssatz": { "tr": "Neyse …", "de": "Na ja …", "wann": "Wenn du ein Thema abschließen willst – wie ein echter Profi." },
+      "merktipp": { "titel": "Hör auf die Füllwörter", "text": "Achte beim nächsten Telefonat von Pasha mit seiner Familie auf die Füllwörter. Du wirst staunen, wie oft „yani“ und „şey“ fallen – jetzt verstehst du sie!" }
+    },
+    {
+      "woche": 25,
+      "tag": 2,
+      "titel": "Redewendungen",
+      "kannZiel": "gängige Redewendungen verstehen und benutzen",
+      "vokabeln": [
+        { "id": "w25-gozum-yolda", "tr": "Gözüm yolda.", "de": "Ich warte sehnsüchtig.", "typ": "chunk", "beispiel": { "tr": "Ne zaman geliyorsunuz? Gözüm yolda!", "de": "Wann kommt ihr? Ich warte schon sehnsüchtig!" } },
+        { "id": "w25-kafayi-yemek", "tr": "kafayı yemek", "de": "durchdrehen (umgangsspr.)", "typ": "chunk", "beispiel": { "tr": "Bu bürokrasiyle kafayı yiyeceğim!", "de": "Bei dieser Bürokratie drehe ich noch durch!" } },
+        { "id": "w25-agzi-kulaklarinda", "tr": "ağzı kulaklarında", "de": "grinst über beide Ohren", "typ": "chunk", "beispiel": { "tr": "Pasha'nın ağzı kulaklarında!", "de": "Pasha grinst über beide Ohren!" } },
+        { "id": "w25-cok-ayip", "tr": "Çok ayıp!", "de": "Wie unhöflich! / Schäm dich!", "typ": "chunk", "beispiel": { "tr": "Teşekkür etmedi mi? Çok ayıp!", "de": "Hat er sich nicht bedankt? Wie unhöflich!" } },
+        { "id": "w25-elimden-geleni-yaparim", "tr": "Elimden geleni yaparım.", "de": "Ich tue mein Bestes.", "typ": "chunk", "beispiel": { "tr": "Söz vermiyorum ama elimden geleni yaparım.", "de": "Ich verspreche nichts, aber ich tue mein Bestes." } },
+        { "id": "w25-gozum-tuttu", "tr": "Gözüm tuttu.", "de": "Hat mir auf Anhieb gefallen.", "typ": "chunk", "beispiel": { "tr": "Bu elbise gözümü tuttu.", "de": "Dieses Kleid hat mir sofort gefallen." } },
+        { "id": "w25-ayaginin-tozuyla", "tr": "ayağının tozuyla", "de": "gerade erst angekommen", "typ": "chunk", "beispiel": { "tr": "Ayağının tozuyla bize geldi.", "de": "Kaum angekommen, kam er schon zu uns." } },
+        { "id": "w25-ustune-yok", "tr": "Üstüne yok!", "de": "Unübertroffen! / Das Beste!", "typ": "chunk", "beispiel": { "tr": "Annenin mantısı mı? Üstüne yok!", "de": "Die Mantı deiner Mama? Unübertroffen!" } },
+        { "id": "w25-kulak-vermek", "tr": "kulak vermek", "de": "zuhören / Gehör schenken", "typ": "chunk", "beispiel": { "tr": "Bana bir kulak ver!", "de": "Hör mir mal zu!" } }
+      ],
+      "grammatik": {
+        "titel": "Redewendungen mit Körperteilen",
+        "erklaerung": [
+          "Viele türkische Redewendungen benutzen Körperteile: göz (Auge), kulak (Ohr), ağız (Mund), el (Hand), kafa (Kopf).",
+          "Wörtlich übersetzt klingen sie lustig: „Mein Auge ist auf dem Weg“ = Ich warte sehnsüchtig.",
+          "Lern sie als Bild – dann bleiben sie hängen."
+        ],
+        "tabelle": {
+          "kopf": ["wörtlich", "Bedeutung"],
+          "zeilen": [
+            ["Mein Auge ist auf dem Weg.", "Ich warte sehnsüchtig."],
+            ["Sein Mund ist an den Ohren.", "Er grinst über beide Ohren."],
+            ["Den Kopf essen.", "Durchdrehen."],
+            ["Mein Auge hat es gehalten.", "Hat mir sofort gefallen."]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Gözüm yolda!", "de": "Ich warte sehnsüchtig!" },
+          { "tr": "Elimden geleni yaparım.", "de": "Ich tue mein Bestes." },
+          { "tr": "Annenin mantısı mı? Üstüne yok!", "de": "Die Mantı deiner Mama? Unübertroffen!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Telefonat mit Bildern",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Bayramda geliyorsunuz değil mi? Gözüm yolda!", "de": "Ihr kommt doch zu Bayram, oder? Ich warte schon sehnsüchtig!" },
+          { "sprecher": "Sherin", "tr": "Elimden geleni yapıyorum ama Pasha'nın izni belli değil.", "de": "Ich tue mein Bestes, aber Pashas Urlaub steht noch nicht fest." },
+          { "sprecher": "Pashas Mama", "tr": "Bu işlerle kafayı yiyeceğim!", "de": "Mit diesen Sachen dreh ich noch durch!" },
+          { "sprecher": "Sherin", "tr": "Merak etmeyin. Gelince ilk sizin mantınızı yiyeceğiz – üstüne yok!", "de": "Keine Sorge. Wenn wir kommen, essen wir zuerst Ihre Mantı – unübertroffen!" },
+          { "sprecher": "Pashas Mama", "tr": "Ay, ağzım kulaklarımda şimdi!", "de": "Oh, jetzt grinse ich über beide Ohren!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w25-gozum-yolda", "w25-kafayi-yemek", "w25-agzi-kulaklarinda", "w25-ustune-yok"] },
+        { "art": "hoeren", "vokabel": "w25-elimden-geleni-yaparim" },
+        { "art": "auswahl_de_tr", "vokabel": "w25-gozum-tuttu" },
+        { "art": "luecke", "satz": "Bu elbise göz___ tuttu.", "loesung": "ümü", "optionen": ["ümü", "üm", "üme"], "de": "Dieses Kleid hat mir sofort gefallen." },
+        { "art": "satzbau", "tr": "Söz vermiyorum ama elimden geleni yaparım.", "de": "Ich verspreche nichts, aber ich tue mein Bestes." },
+        { "art": "auswahl_tr_de", "vokabel": "w25-cok-ayip" },
+        { "art": "hoeren", "vokabel": "w25-ayaginin-tozuyla" },
+        { "art": "auswahl_de_tr", "vokabel": "w25-kulak-vermek" },
+        { "art": "tippen", "vokabel": "w25-cok-ayip" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Frag Pasha nach seinen drei liebsten türkischen Redewendungen und lass sie dir erklären. Dann benutze jede der neun Redewendungen dieser Lektion in einem eigenen Satz.",
+        "mustersaetze": [
+          { "tr": "En sevdiğin deyim ne?", "de": "Was ist deine liebste Redewendung?" },
+          { "tr": "Bu ne demek?", "de": "Was bedeutet das?" },
+          { "tr": "Gözüm yolda!", "de": "Ich warte sehnsüchtig!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Üstüne yok!", "de": "Unübertroffen!", "wann": "Beim nächsten richtig guten Essen – Pashas Mama wird strahlen." },
+      "merktipp": { "titel": "Bilder im Kopf", "text": "Stell dir die Redewendung wörtlich vor: ein Mund, der bis zu den Ohren reicht – sofort hast du „über beide Ohren grinsen“. Bilder bleiben viel besser hängen als Regeln." }
+    },
+    {
+      "woche": 25,
+      "tag": 3,
+      "titel": "Sprichwörter",
+      "kannZiel": "bekannte Sprichwörter verstehen und passend zitieren",
+      "vokabeln": [
+        { "id": "w25-damlaya-damlaya", "tr": "Damlaya damlaya göl olur.", "de": "Steter Tropfen füllt den See. (Kleinvieh macht auch Mist.)", "typ": "chunk", "beispiel": { "tr": "Her gün on dakika Türkçe – damlaya damlaya göl olur!", "de": "Jeden Tag zehn Minuten Türkisch – steter Tropfen füllt den See!" } },
+        { "id": "w25-agac-yasken-egilir", "tr": "Ağaç yaşken eğilir.", "de": "Was Hänschen nicht lernt … (Junge Bäume biegt man leicht.)", "typ": "chunk", "beispiel": { "tr": "Inaya iki dili şimdi öğrenmeli, ağaç yaşken eğilir.", "de": "Inaya soll beide Sprachen jetzt lernen – junge Bäume biegt man leicht." } },
+        { "id": "w25-bir-lisan-bir-insan", "tr": "Bir lisan bir insan, iki lisan iki insan.", "de": "Eine Sprache, ein Mensch – zwei Sprachen, zwei Menschen.", "typ": "chunk", "beispiel": { "tr": "Inaya çok şanslı: bir lisan bir insan, iki lisan iki insan!", "de": "Inaya hat Glück: Zwei Sprachen, zwei Welten!" } },
+        { "id": "w25-sabreden-dervis", "tr": "Sabreden derviş muradına ermiş.", "de": "Wer geduldig ist, erreicht sein Ziel.", "typ": "chunk", "beispiel": { "tr": "Altı ay çalıştım … sabreden derviş muradına ermiş!", "de": "Sechs Monate habe ich gelernt … Geduld zahlt sich aus!" } },
+        { "id": "w25-ates-olmayan-yerden", "tr": "Ateş olmayan yerden duman çıkmaz.", "de": "Kein Rauch ohne Feuer.", "typ": "chunk", "beispiel": { "tr": "Herkes bunu söylüyor … ateş olmayan yerden duman çıkmaz.", "de": "Alle sagen das … kein Rauch ohne Feuer." } },
+        { "id": "w25-her-iste-bir-hayir", "tr": "Her işte bir hayır vardır.", "de": "Alles hat sein Gutes.", "typ": "chunk", "beispiel": { "tr": "Otobüsü kaçırdık ama her işte bir hayır vardır.", "de": "Wir haben den Bus verpasst, aber alles hat sein Gutes." } },
+        { "id": "w25-tatli-dil", "tr": "Tatlı dil yılanı deliğinden çıkarır.", "de": "Mit freundlichen Worten erreicht man alles.", "typ": "chunk", "beispiel": { "tr": "Kızma, kibar sor. Tatlı dil yılanı deliğinden çıkarır.", "de": "Sei nicht sauer, frag freundlich. Mit Freundlichkeit erreichst du alles." } },
+        { "id": "w25-bugunun-isini", "tr": "Bugünün işini yarına bırakma.", "de": "Was du heute kannst besorgen …", "typ": "chunk", "beispiel": { "tr": "Hadi, dersini şimdi yap! Bugünün işini yarına bırakma.", "de": "Los, mach die Lektion jetzt! Was du heute kannst besorgen …" } },
+        { "id": "w25-bir-elin-nesi-var", "tr": "Bir elin nesi var, iki elin sesi var.", "de": "Gemeinsam sind wir stark.", "typ": "chunk", "beispiel": { "tr": "Pasha'yla birlikte yapıyoruz – bir elin nesi var, iki elin sesi var!", "de": "Pasha und ich machen es zusammen – gemeinsam sind wir stark!" } }
+      ],
+      "grammatik": {
+        "titel": "Sprichwörter: Aorist & -mış",
+        "erklaerung": [
+          "Sprichwörter stehen oft im Aorist, weil sie allgemein gelten: eğilir, çıkmaz, çıkarır.",
+          "Manche im -mış („man erzählt sich“): muradına ermiş.",
+          "Viele reimen oder klingen rhythmisch: lisan – insan, nesi – sesi. So bleiben sie im Kopf."
+        ],
+        "beispiele": [
+          { "tr": "Damlaya damlaya göl olur.", "de": "Steter Tropfen füllt den See." },
+          { "tr": "Her işte bir hayır vardır.", "de": "Alles hat sein Gutes." },
+          { "tr": "Bir elin nesi var, iki elin sesi var.", "de": "Gemeinsam sind wir stark." }
+        ]
+      },
+      "dialog": {
+        "titel": "Sprichwort-Duell",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Altı aydır her gün Türkçe çalışıyorsun.", "de": "Seit sechs Monaten lernst du jeden Tag Türkisch." },
+          { "sprecher": "Sherin", "tr": "Evet. Damlaya damlaya göl olur!", "de": "Ja. Steter Tropfen füllt den See!" },
+          { "sprecher": "Pasha", "tr": "Vay! Bir atasözü! Sabreden derviş muradına ermiş.", "de": "Wow! Ein Sprichwort! Wer geduldig ist, erreicht sein Ziel." },
+          { "sprecher": "Sherin", "tr": "Ve Inaya için: ağaç yaşken eğilir.", "de": "Und für Inaya: Junge Bäume biegt man leicht." },
+          { "sprecher": "Pasha", "tr": "Bir lisan bir insan, iki lisan iki insan. O yüzden Inaya iki insan!", "de": "Zwei Sprachen, zwei Menschen. Also ist Inaya zwei Menschen!" },
+          { "sprecher": "Sherin", "tr": "Ve ben de yakında! Bir elin nesi var, iki elin sesi var – sen olmasan yapamazdım.", "de": "Und ich bald auch! Gemeinsam sind wir stark – ohne dich hätte ich es nicht geschafft." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w25-damlaya-damlaya", "w25-agac-yasken-egilir", "w25-her-iste-bir-hayir", "w25-bugunun-isini"] },
+        { "art": "hoeren", "vokabel": "w25-bir-lisan-bir-insan" },
+        { "art": "auswahl_de_tr", "vokabel": "w25-ates-olmayan-yerden" },
+        { "art": "luecke", "satz": "Damlaya damlaya göl ___.", "loesung": "olur", "optionen": ["olur", "oldu", "olacak"], "de": "Steter Tropfen füllt den See." },
+        { "art": "auswahl_tr_de", "vokabel": "w25-tatli-dil" },
+        { "art": "hoeren", "vokabel": "w25-sabreden-dervis" },
+        { "art": "luecke", "satz": "Bir elin nesi var, iki elin ___ var.", "loesung": "sesi", "optionen": ["sesi", "nesi", "eli"], "de": "Gemeinsam sind wir stark." },
+        { "art": "auswahl_de_tr", "vokabel": "w25-bir-elin-nesi-var" },
+        { "art": "satzbau", "tr": "Her işte bir hayır vardır.", "de": "Alles hat sein Gutes." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Such dir zwei Lieblings-Sprichwörter aus und benutze sie heute in echten Situationen. Bitte Pasha, dir ein Sprichwort zu verraten, das seine Mama oft sagt – und benutze es beim nächsten Telefonat mit ihr!",
+        "mustersaetze": [
+          { "tr": "Annenin en sevdiği atasözü ne?", "de": "Was ist das Lieblingssprichwort deiner Mama?" },
+          { "tr": "Damlaya damlaya göl olur!", "de": "Steter Tropfen füllt den See!" },
+          { "tr": "Her işte bir hayır vardır.", "de": "Alles hat sein Gutes." }
+        ]
+      },
+      "alltagssatz": { "tr": "Her işte bir hayır vardır.", "de": "Alles hat sein Gutes.", "wann": "Beim nächsten kleinen Missgeschick – entspannt und weise." },
+      "merktipp": { "titel": "Sprichwörter öffnen Herzen", "text": "Ein passendes Sprichwort im richtigen Moment beeindruckt jede türkische Familie mehr als perfekte Grammatik. „Damlaya damlaya göl olur“ ist dein Lern-Motto." }
+    },
+    {
+      "woche": 25,
+      "tag": 4,
+      "titel": "Serien & Social Media",
+      "kannZiel": "über Serien und Social Media plaudern",
+      "vokabeln": [
+        { "id": "w25-bolum", "tr": "bölüm", "de": "Folge / Episode", "typ": "wort", "beispiel": { "tr": "Dün gece üç bölüm izledim!", "de": "Gestern Nacht habe ich drei Folgen geschaut!" } },
+        { "id": "w25-sezon", "tr": "sezon", "de": "Staffel", "typ": "wort", "beispiel": { "tr": "Yeni sezon ne zaman başlıyor?", "de": "Wann fängt die neue Staffel an?" } },
+        { "id": "w25-spoiler-verme", "tr": "Spoiler verme!", "de": "Nicht spoilern!", "typ": "chunk", "beispiel": { "tr": "Dur! Spoiler verme, daha izlemedim!", "de": "Stopp! Nicht spoilern, ich hab's noch nicht gesehen!" } },
+        { "id": "w25-takip-etmek", "tr": "takip etmek", "de": "folgen (Social Media)", "typ": "chunk", "beispiel": { "tr": "Beni Instagram'da takip ediyor musun?", "de": "Folgst du mir auf Instagram?" } },
+        { "id": "w25-begenmek", "tr": "beğenmek", "de": "liken / gefallen", "typ": "wort", "beispiel": { "tr": "Fotoğrafımı beğendin mi?", "de": "Hast du mein Foto geliked?" } },
+        { "id": "w25-yorum", "tr": "yorum", "de": "Kommentar", "typ": "wort", "beispiel": { "tr": "Babaanneler her fotoğrafa yorum yazar!", "de": "Omas kommentieren jedes Foto!" } },
+        { "id": "w25-altyazi", "tr": "altyazı", "de": "Untertitel", "typ": "wort", "beispiel": { "tr": "Türkçe altyazıyla izliyorum.", "de": "Ich schaue mit türkischen Untertiteln." } },
+        { "id": "w25-oyuncu", "tr": "oyuncu", "de": "Schauspieler(in)", "typ": "wort", "beispiel": { "tr": "Bu oyuncu çok yetenekli.", "de": "Dieser Schauspieler ist sehr talentiert." } },
+        { "id": "w25-hangi-diziyi", "tr": "Hangi diziyi izliyorsun?", "de": "Welche Serie schaust du gerade?", "typ": "chunk", "beispiel": { "tr": "Şu sıralar hangi diziyi izliyorsun?", "de": "Welche Serie schaust du zurzeit?" } }
+      ],
+      "grammatik": {
+        "titel": "Wiederholung: alles zusammen im Smalltalk",
+        "erklaerung": [
+          "Smalltalk mischt alle Zeiten: izledim (gestern), izliyorum (gerade), izleyeceğim (bald).",
+          "Meinung: Bence oyuncular çok iyi. Gefühl: Sonuna bayıldım! (Das Ende fand ich toll!)",
+          "Viele Internet-Wörter sind international: Instagram, story, spoiler – Türkisch macht sie mit Endungen passend: Instagram'da."
+        ],
+        "beispiele": [
+          { "tr": "Şu sıralar hangi diziyi izliyorsun?", "de": "Welche Serie schaust du zurzeit?" },
+          { "tr": "Dur! Spoiler verme!", "de": "Stopp! Nicht spoilern!" },
+          { "tr": "Babaanneler her fotoğrafa yorum yazar!", "de": "Omas kommentieren jedes Foto!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Serienabend",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Şu sıralar hangi diziyi izliyorsun?", "de": "Welche Serie schaust du zurzeit?" },
+          { "sprecher": "Sherin", "tr": "Bir Türk dizisi, Türkçe altyazıyla. Dün gece üç bölüm izledim!", "de": "Eine türkische, mit türkischen Untertiteln. Gestern Nacht hab ich drei Folgen geschaut!" },
+          { "sprecher": "Elif", "tr": "Ben onu biliyorum! Sonunda baş karakter …", "de": "Die kenne ich! Am Ende wird die Hauptfigur …" },
+          { "sprecher": "Sherin", "tr": "Dur! Spoiler verme!", "de": "Stopp! Nicht spoilern!" },
+          { "sprecher": "Elif", "tr": "Pardon, pardon! Bu arada, Instagram'da seni takip ettim.", "de": "Sorry, sorry! Übrigens, ich folge dir jetzt auf Instagram." },
+          { "sprecher": "Sherin", "tr": "Süper! Inaya'nın fotoğraflarını beğen ama yorum yazma – babaanne hepsini okuyor!", "de": "Super! Like Inayas Fotos, aber schreib keine Kommentare – Oma liest alles!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w25-bolum", "w25-sezon", "w25-altyazi", "w25-oyuncu"] },
+        { "art": "hoeren", "vokabel": "w25-spoiler-verme" },
+        { "art": "auswahl_de_tr", "vokabel": "w25-takip-etmek" },
+        { "art": "luecke", "satz": "Dün gece üç bölüm izle___!", "loesung": "dim", "optionen": ["dim", "iyorum", "yeceğim"], "de": "Gestern Nacht habe ich drei Folgen geschaut!" },
+        { "art": "satzbau", "tr": "Şu sıralar hangi diziyi izliyorsun?", "de": "Welche Serie schaust du zurzeit?" },
+        { "art": "auswahl_tr_de", "vokabel": "w25-yorum" },
+        { "art": "hoeren", "vokabel": "w25-begenmek" },
+        { "art": "satzbau", "tr": "Türkçe altyazıyla izliyorum.", "de": "Ich schaue mit türkischen Untertiteln." },
+        { "art": "tippen", "vokabel": "w25-yorum" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Serien-Gespräch: Erzähl Pasha von einer Serie oder einem Film, den du magst – worum es geht, wer mitspielt, was dir gefallen hat. Ohne Spoiler! Und schaut zusammen 10 Minuten einer türkischen Serie mit türkischen Untertiteln.",
+        "mustersaetze": [
+          { "tr": "Bu dizide … var.", "de": "In dieser Serie gibt es …" },
+          { "tr": "Bence oyuncular çok iyi.", "de": "Ich finde die Schauspieler sehr gut." },
+          { "tr": "Spoiler vermeyeceğim!", "de": "Ich spoiler nicht!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Spoiler verme!", "de": "Nicht spoilern!", "wann": "Beim nächsten Serienabend mit Pasha." },
+      "merktipp": { "titel": "Die Serienschule", "text": "Türkische Serien sind dein heimlicher Lehrer: echte Dialoge, Gefühle, Redewendungen. Mit türkischen Untertiteln liest und hörst du gleichzeitig – perfekt für die letzten Wochen." }
+    },
+    {
+      "woche": 25,
+      "tag": 5,
+      "titel": "Reagieren wie eine Muttersprachlerin",
+      "kannZiel": "spontan und echt reagieren",
+      "vokabeln": [
+        { "id": "w25-hadi-ya", "tr": "Hadi ya!", "de": "Echt jetzt? / Nee, oder?", "typ": "chunk", "beispiel": { "tr": "Hadi ya! Gerçekten mi?", "de": "Nee, oder? Wirklich?" } },
+        { "id": "w25-vallahi", "tr": "Vallahi!", "de": "Ehrlich! / Ich schwör's!", "typ": "chunk", "beispiel": { "tr": "Vallahi doğru söylüyorum!", "de": "Ehrlich, ich sage die Wahrheit!" } },
+        { "id": "w25-aman", "tr": "Aman!", "de": "Oh je! / Ach du meine Güte!", "typ": "chunk", "beispiel": { "tr": "Aman, süt taştı!", "de": "Oh je, die Milch kocht über!" } },
+        { "id": "w25-of-ya", "tr": "Of ya!", "de": "Uff! / Mensch!", "typ": "chunk", "beispiel": { "tr": "Of ya, yine yağmur!", "de": "Uff, schon wieder Regen!" } },
+        { "id": "w25-ne-diyorsun", "tr": "Ne diyorsun?!", "de": "Was sagst du da?!", "typ": "chunk", "beispiel": { "tr": "Ne diyorsun? Elif hamile mi?", "de": "Was sagst du da? Elif ist schwanger?" } },
+        { "id": "w25-ne-alakasi-var", "tr": "Ne alakası var?", "de": "Was hat das damit zu tun?", "typ": "chunk", "beispiel": { "tr": "Bulaşık mı? Ne alakası var şimdi?", "de": "Der Abwasch? Was hat das jetzt damit zu tun?" } },
+        { "id": "w25-bos-yapma", "tr": "Boş yapma!", "de": "Red keinen Quatsch!", "typ": "chunk", "beispiel": { "tr": "Boş yapma, sen yemek yapamazsın!", "de": "Red keinen Quatsch, du kannst gar nicht kochen!" } },
+        { "id": "w25-inanmiyorum", "tr": "İnanmıyorum!", "de": "Ich glaub's nicht!", "typ": "chunk", "beispiel": { "tr": "İnanmıyorum! Inaya yürüyor!", "de": "Ich glaub's nicht! Inaya läuft!" } },
+        { "id": "w25-cok-komik", "tr": "Çok komik!", "de": "Sehr lustig!", "typ": "chunk", "beispiel": { "tr": "Ha ha, çok komik!", "de": "Haha, sehr lustig!" } }
+      ],
+      "grammatik": {
+        "titel": "Ausrufe & Tonfall",
+        "erklaerung": [
+          "Ausrufe tragen Gefühl – und der Tonfall macht die Bedeutung: „Çok komik!“ kann ehrlich lustig oder ironisch sein.",
+          "Manche sind sehr umgangssprachlich (Boş yapma!, Hadi ya!) – unter Freunden und Familie perfekt, beim Arzt eher nicht.",
+          "Vallahi ist sehr häufig und bedeutet einfach „ehrlich“ – keine große religiöse Bedeutung im Alltag."
+        ],
+        "tabelle": {
+          "kopf": ["Gefühl", "Ausruf"],
+          "zeilen": [
+            ["Überraschung", "Hadi ya! / İnanmıyorum!"],
+            ["Schreck", "Aman!"],
+            ["Genervt", "Of ya!"],
+            ["Beteuerung", "Vallahi!"],
+            ["Unglaube", "Boş yapma!"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Aman, süt taştı!", "de": "Oh je, die Milch kocht über!" },
+          { "tr": "İnanmıyorum! Inaya yürüyor!", "de": "Ich glaub's nicht! Inaya läuft!" },
+          { "tr": "Vallahi doğru söylüyorum!", "de": "Ehrlich, ich sage die Wahrheit!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Große Neuigkeiten",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Sherin, bir haberim var: hamileyim!", "de": "Sherin, ich habe Neuigkeiten: Ich bin schwanger!" },
+          { "sprecher": "Sherin", "tr": "Ne diyorsun?! Hadi ya! İnanmıyorum!", "de": "Was sagst du da?! Echt jetzt? Ich glaub's nicht!" },
+          { "sprecher": "Elif", "tr": "Vallahi! Üç aylık.", "de": "Ehrlich! Dritter Monat." },
+          { "sprecher": "Sherin", "tr": "Çok sevindim! Hayırlı olsun!", "de": "Ich freu mich so! Herzlichen Glückwunsch!" },
+          { "sprecher": "Elif", "tr": "Teşekkürler! Ama of ya, hep midem bulanıyor.", "de": "Danke! Aber uff, mir ist ständig übel." },
+          { "sprecher": "Sherin", "tr": "Aman, biliyorum! Geçecek, söz. Bebek kıyafetleri sende, Inaya'nın hepsi küçük geldi!", "de": "Oh je, kenn ich! Das geht vorbei, versprochen. Und Babysachen kriegst du – Inaya ist aus allem rausgewachsen!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w25-hadi-ya", "w25-vallahi", "w25-aman", "w25-of-ya"] },
+        { "art": "zuordnen", "vokabeln": ["w25-ne-diyorsun", "w25-ne-alakasi-var", "w25-bos-yapma", "w25-inanmiyorum"] },
+        { "art": "hoeren", "vokabel": "w25-cok-komik" },
+        { "art": "auswahl_de_tr", "vokabel": "w25-aman" },
+        { "art": "satzbau", "tr": "İnanmıyorum! Inaya yürüyor!", "de": "Ich glaub's nicht! Inaya läuft!" },
+        { "art": "auswahl_tr_de", "vokabel": "w25-vallahi" },
+        { "art": "luecke", "satz": "Vallahi doğru söylü___!", "loesung": "yorum", "optionen": ["yorum", "düm", "yeceğim"], "de": "Ehrlich, ich sage die Wahrheit!" },
+        { "art": "auswahl_de_tr", "vokabel": "w25-hadi-ya" },
+        { "art": "tippen", "vokabel": "w25-aman" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Reaktions-Spiel: Pasha erzählt zehn kurze, verrückte „Neuigkeiten“ (wahr oder erfunden). Du reagierst jedes Mal blitzschnell mit dem passenden Ausruf – mit Gefühl und Tonfall!",
+        "mustersaetze": [
+          { "tr": "Hadi ya!", "de": "Echt jetzt?" },
+          { "tr": "Boş yapma!", "de": "Red keinen Quatsch!" },
+          { "tr": "İnanmıyorum!", "de": "Ich glaub's nicht!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Hadi ya!", "de": "Echt jetzt?", "wann": "Bei der nächsten überraschenden Nachricht von Pasha." },
+      "merktipp": { "titel": "Tonfall ist alles", "text": "„Hadi ya“ kann begeistert, ungläubig oder genervt klingen – je nach Stimme. Hör genau, wie Pasha es sagt, und mach es nach. Das ist Shadowing auf höchstem Niveau." }
+    },
+    {
+      "woche": 25,
+      "tag": 6,
+      "titel": "Festigungstag: Fast am Ziel",
+      "kannZiel": "natürlich und entspannt plaudern – mit Füllwörtern, Redewendungen und Gefühl",
+      "vokabeln": [
+        { "id": "w25-son-duzluk", "tr": "son düzlük", "de": "die Zielgerade", "typ": "chunk", "beispiel": { "tr": "Son düzlükteyiz, bir hafta kaldı!", "de": "Wir sind auf der Zielgeraden, noch eine Woche!" } },
+        { "id": "w25-turkcem-gelisti", "tr": "Türkçem gelişti.", "de": "Mein Türkisch ist besser geworden.", "typ": "chunk", "beispiel": { "tr": "Altı ayda Türkçem çok gelişti.", "de": "In sechs Monaten hat sich mein Türkisch sehr verbessert." } },
+        { "id": "w25-kendimi-rahat-hissediyorum", "tr": "Kendimi rahat hissediyorum.", "de": "Ich fühle mich wohl / sicher.", "typ": "chunk", "beispiel": { "tr": "Artık Türkçe konuşurken kendimi rahat hissediyorum.", "de": "Jetzt fühle ich mich sicher, wenn ich Türkisch spreche." } },
+        { "id": "w25-kendimle-gurur-duyuyorum", "tr": "Kendimle gurur duyuyorum.", "de": "Ich bin stolz auf mich.", "typ": "chunk", "beispiel": { "tr": "Bunu başardım, kendimle gurur duyuyorum!", "de": "Ich hab's geschafft, ich bin stolz auf mich!" } },
+        { "id": "w25-bir-sonraki-adim", "tr": "bir sonraki adım", "de": "der nächste Schritt", "typ": "chunk", "beispiel": { "tr": "Bir sonraki adım: B1!", "de": "Der nächste Schritt: B1!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Füllwörter: yani, şey, hani, aslında, neyse, işte, falan.",
+          "Redewendungen & Sprichwörter als Bilder, Ausrufe mit Tonfall – das ist der „Muttersprachler-Lack“ auf deinem Türkisch."
+        ],
+        "tabelle": {
+          "kopf": ["Werkzeug", "Beispiel"],
+          "zeilen": [
+            ["Füllwort", "Yani, aslında …"],
+            ["Redewendung", "Gözüm yolda!"],
+            ["Sprichwort", "Damlaya damlaya göl olur."],
+            ["Ausruf", "Hadi ya!"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Altı ayda Türkçem çok gelişti.", "de": "In sechs Monaten hat sich mein Türkisch sehr verbessert." },
+          { "tr": "Son düzlükteyiz!", "de": "Wir sind auf der Zielgeraden!" },
+          { "tr": "Kendimle gurur duyuyorum!", "de": "Ich bin stolz auf mich!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Rückblick am Abend",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Biliyor musun, bir hafta kaldı. Son düzlükteyiz!", "de": "Weißt du was, noch eine Woche. Wir sind auf der Zielgeraden!" },
+          { "sprecher": "Sherin", "tr": "Hadi ya! Zaman nasıl geçti …", "de": "Echt jetzt? Wie die Zeit vergeht …" },
+          { "sprecher": "Pasha", "tr": "Türkçen çok gelişti. Annem bile şaşırıyor.", "de": "Dein Türkisch ist so viel besser geworden. Sogar Mama staunt." },
+          { "sprecher": "Sherin", "tr": "Şey … aslında hâlâ çok hata yapıyorum.", "de": "Na ja … eigentlich mache ich noch viele Fehler." },
+          { "sprecher": "Pasha", "tr": "Boş yapma! Damlaya damlaya göl oldu.", "de": "Red keinen Quatsch! Steter Tropfen hat den See gefüllt." },
+          { "sprecher": "Sherin", "tr": "Haklısın. Yani … kendimle gurur duyuyorum.", "de": "Du hast recht. Also … ich bin stolz auf mich." },
+          { "sprecher": "Pasha", "tr": "Ben de seninle! Bir sonraki adım ne?", "de": "Und ich auf dich! Was ist der nächste Schritt?" },
+          { "sprecher": "Sherin", "tr": "Önce son hafta. Sonra … kim bilir? Belki B1!", "de": "Erst die letzte Woche. Dann … wer weiß? Vielleicht B1!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w25-son-duzluk", "w25-turkcem-gelisti", "w25-kendimi-rahat-hissediyorum", "w25-bir-sonraki-adim"] },
+        { "art": "hoeren", "vokabel": "w25-kendimle-gurur-duyuyorum" },
+        { "art": "satzbau", "tr": "Altı ayda Türkçem çok gelişti.", "de": "In sechs Monaten hat sich mein Türkisch sehr verbessert." },
+        { "art": "auswahl_de_tr", "vokabel": "w25-damlaya-damlaya" },
+        { "art": "luecke", "satz": "Şey … ___ hâlâ çok hata yapıyorum.", "loesung": "aslında", "optionen": ["aslında", "falan", "hani"], "de": "Na ja … eigentlich mache ich noch viele Fehler." },
+        { "art": "hoeren", "vokabel": "w25-gozum-yolda" },
+        { "art": "auswahl_tr_de", "vokabel": "w25-son-duzluk" },
+        { "art": "auswahl_de_tr", "vokabel": "w25-neyse" },
+        { "art": "tippen", "vokabel": "w25-sey" },
+        { "art": "satzbau", "tr": "Kendimle gurur duyuyorum!", "de": "Ich bin stolz auf mich!" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Ein lockeres Gespräch mit Pasha über die letzten sechs Monate – was war schwer, was war lustig, was hat sich verändert. Benutze Füllwörter, mindestens ein Sprichwort und drei Ausrufe. Mindestens 5 Minuten!",
+        "mustersaetze": [
+          { "tr": "Aslında başta çok zordu.", "de": "Eigentlich war es am Anfang sehr schwer." },
+          { "tr": "Damlaya damlaya göl olur!", "de": "Steter Tropfen füllt den See!" },
+          { "tr": "Kendimle gurur duyuyorum.", "de": "Ich bin stolz auf mich." }
+        ]
+      },
+      "alltagssatz": { "tr": "Kendimle gurur duyuyorum!", "de": "Ich bin stolz auf mich!", "wann": "Heute. Laut. Du hast es dir verdient." },
+      "merktipp": { "titel": "Die letzte Woche", "text": "Nächste Woche ist die Abschlusswoche: große Wiederholung, 10 Minuten freies Gespräch mit Pasha und der Abschlusstest. Du bist bereit!" }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Erzähl Pasha etwas Lustiges – mit mindestens fünf Füllwörtern.", "hilfe": { "tr": "Şey … hani … aslında … yani … neyse!", "de": "Äh … du weißt schon … eigentlich … also … na ja!" } },
+      { "situation": "Benutze drei Sprichwörter oder Redewendungen passend im Gespräch.", "hilfe": { "tr": "Damlaya damlaya göl olur. Gözüm yolda! Üstüne yok!", "de": "Steter Tropfen … Ich warte sehnsüchtig! Unübertroffen!" } },
+      { "situation": "Plaudert über eure Lieblingsserie – ohne zu spoilern.", "hilfe": { "tr": "Şu sıralar … izliyorum. Bence … Spoiler vermeyeceğim!", "de": "Zurzeit schaue ich … Ich finde … Ich spoiler nicht!" } }
+    ]
+  }
+}
