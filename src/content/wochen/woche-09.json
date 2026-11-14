@@ -1,0 +1,431 @@
+{
+  "woche": 9,
+  "lektionen": [
+    {
+      "woche": 9,
+      "tag": 1,
+      "titel": "Was habt ihr am Wochenende gemacht?",
+      "kannZiel": "nach dem Wochenende fragen und davon erzählen",
+      "vokabeln": [
+        { "id": "w09-gezmek", "tr": "gezmek", "de": "bummeln / herumfahren", "typ": "wort", "beispiel": { "tr": "Hafta sonu Hannover'de gezdik.", "de": "Am Wochenende sind wir durch Hannover gebummelt." } },
+        { "id": "w09-ziyaret-etmek", "tr": "ziyaret etmek", "de": "besuchen", "typ": "chunk", "beispiel": { "tr": "Pazar günü Elif'i ziyaret ettik.", "de": "Am Sonntag haben wir Elif besucht." } },
+        { "id": "w09-misafir", "tr": "misafir", "de": "Gast / Besuch", "typ": "wort", "beispiel": { "tr": "Cumartesi misafir geldi.", "de": "Am Samstag kam Besuch." } },
+        { "id": "w09-piknik", "tr": "piknik", "de": "Picknick", "typ": "wort", "beispiel": { "tr": "Parkta piknik yaptık.", "de": "Wir haben im Park gepicknickt." } },
+        { "id": "w09-yuzmek", "tr": "yüzmek", "de": "schwimmen", "typ": "wort", "beispiel": { "tr": "Inaya ilk defa yüzdü!", "de": "Inaya war zum ersten Mal schwimmen!" } },
+        { "id": "w09-havuz", "tr": "havuz", "de": "Schwimmbad / Pool", "typ": "wort", "beispiel": { "tr": "Havuza gittiniz mi?", "de": "Wart ihr im Schwimmbad?" } },
+        { "id": "w09-hayvanat-bahcesi", "tr": "hayvanat bahçesi", "de": "Zoo", "typ": "chunk", "beispiel": { "tr": "Hayvanat bahçesinde filleri gördük.", "de": "Im Zoo haben wir die Elefanten gesehen." } },
+        { "id": "w09-oyun-alani", "tr": "oyun alanı", "de": "Spielplatz", "typ": "chunk", "beispiel": { "tr": "Oyun alanı çok kalabalıktı.", "de": "Der Spielplatz war sehr voll." } },
+        { "id": "w09-tatil", "tr": "tatil", "de": "Urlaub / freie Tage", "typ": "wort", "beispiel": { "tr": "Tatil çok kısaydı!", "de": "Der Urlaub war viel zu kurz!" } }
+      ],
+      "grammatik": {
+        "titel": "Fragen in der Vergangenheit",
+        "erklaerung": [
+          "Frage: Verb in der Vergangenheit + mi (eigenes Wort): Gittin mi? = Bist du gegangen?",
+          "Die Person steckt hier schon im Verb, mi kommt nur dahinter: gittin mi, gittiniz mi.",
+          "„Ihr“ (oder höflich „Sie“) in der Vergangenheit: -dınız / -diniz: gittiniz, yaptınız."
+        ],
+        "tabelle": {
+          "kopf": ["", "Frage"],
+          "zeilen": [
+            ["du", "Gittin mi?"],
+            ["er/sie", "Gitti mi?"],
+            ["wir", "Gittik mi?"],
+            ["ihr / Sie", "Gittiniz mi?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Hafta sonu ne yaptınız?", "de": "Was habt ihr am Wochenende gemacht?" },
+          { "tr": "Havuza gittiniz mi?", "de": "Wart ihr im Schwimmbad?" },
+          { "tr": "Inaya yüzdü mü?", "de": "Ist Inaya geschwommen?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Montag auf dem Spielplatz",
+        "zeilen": [
+          { "sprecher": "Elif", "tr": "Günaydın! Hafta sonu ne yaptınız?", "de": "Guten Morgen! Was habt ihr am Wochenende gemacht?" },
+          { "sprecher": "Sherin", "tr": "Cumartesi hayvanat bahçesine gittik.", "de": "Am Samstag waren wir im Zoo." },
+          { "sprecher": "Elif", "tr": "Inaya hayvanları sevdi mi?", "de": "Mochte Inaya die Tiere?" },
+          { "sprecher": "Sherin", "tr": "Çok sevdi! Ama en çok köpekleri.", "de": "Sehr! Aber am liebsten die Hunde." },
+          { "sprecher": "Elif", "tr": "Tabii, evde Amani var!", "de": "Klar, sie hat ja Amani zu Hause!" },
+          { "sprecher": "Sherin", "tr": "Pazar günü de dinlendik. Siz ne yaptınız?", "de": "Und Sonntag haben wir uns ausgeruht. Was habt ihr gemacht?" },
+          { "sprecher": "Elif", "tr": "Biz havuza gittik. Çok eğlendik!", "de": "Wir waren im Schwimmbad. Hat viel Spaß gemacht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w09-gezmek", "w09-ziyaret-etmek", "w09-yuzmek", "w09-piknik"] },
+        { "art": "luecke", "satz": "Hafta sonu ne yap___?", "loesung": "tınız", "optionen": ["tınız", "tın", "tık"], "de": "Was habt ihr am Wochenende gemacht?" },
+        { "art": "hoeren", "vokabel": "w09-hayvanat-bahcesi" },
+        { "art": "auswahl_de_tr", "vokabel": "w09-misafir" },
+        { "art": "satzbau", "tr": "Havuza gittiniz mi?", "de": "Wart ihr im Schwimmbad?" },
+        { "art": "auswahl_tr_de", "vokabel": "w09-tatil" },
+        { "art": "luecke", "satz": "Inaya hayvanları sevdi ___?", "loesung": "mi", "optionen": ["mi", "mı", "mu"], "de": "Mochte Inaya die Tiere?" },
+        { "art": "hoeren", "vokabel": "w09-oyun-alani" },
+        { "art": "tippen", "vokabel": "w09-havuz" },
+        { "art": "satzbau", "tr": "Parkta piknik yaptık.", "de": "Wir haben im Park gepicknickt." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Erzählt euch gegenseitig euer letztes Wochenende auf Türkisch – als wärt ihr Bekannte, die sich montags treffen. Jeder stellt mindestens drei Fragen mit „… mi?“.",
+        "mustersaetze": [
+          { "tr": "Hafta sonu ne yaptın?", "de": "Was hast du am Wochenende gemacht?" },
+          { "tr": "Cumartesi parka gittik.", "de": "Samstag waren wir im Park." },
+          { "tr": "Pazar günü dinlendin mi?", "de": "Hast du dich am Sonntag ausgeruht?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Hafta sonu ne yaptınız?", "de": "Was habt ihr am Wochenende gemacht?", "wann": "Montags – an Elif, die Nachbarn oder beim nächsten Telefonat mit Pashas Familie." },
+      "merktipp": { "titel": "mi steht frei", "text": "Bei -yor-Fragen hing die Person an mu (geliyor musun). In der Vergangenheit ist die Person schon im Verb (geldin) – mi steht einfach nackt dahinter: geldin mi?" }
+    },
+    {
+      "woche": 9,
+      "tag": 2,
+      "titel": "Es gab … / es gab nicht …",
+      "kannZiel": "beschreiben, wie es irgendwo war",
+      "vokabeln": [
+        { "id": "w09-kalabalik", "tr": "kalabalık", "de": "voll / überfüllt", "typ": "wort", "beispiel": { "tr": "Market çok kalabalıktı.", "de": "Der Supermarkt war total voll." } },
+        { "id": "w09-bos", "tr": "boş", "de": "leer / frei", "typ": "wort", "beispiel": { "tr": "Park bomboştu.", "de": "Der Park war ganz leer." } },
+        { "id": "w09-kuyruk", "tr": "kuyruk", "de": "Schlange (anstehen)", "typ": "wort", "beispiel": { "tr": "Kasada uzun bir kuyruk vardı.", "de": "An der Kasse war eine lange Schlange." } },
+        { "id": "w09-yer", "tr": "yer", "de": "Platz / Ort", "typ": "wort", "beispiel": { "tr": "Kafede hiç yer yoktu.", "de": "Im Café war kein Platz frei." } },
+        { "id": "w09-kimse", "tr": "kimse", "de": "niemand", "typ": "wort", "beispiel": { "tr": "Parkta kimse yoktu.", "de": "Im Park war niemand." } },
+        { "id": "w09-insan", "tr": "insan", "de": "Mensch", "typ": "wort", "beispiel": { "tr": "Çok insan vardı.", "de": "Es waren viele Leute da." } },
+        { "id": "w09-trafik", "tr": "trafik", "de": "Verkehr / Stau", "typ": "wort", "beispiel": { "tr": "Yolda çok trafik vardı.", "de": "Unterwegs war viel Verkehr." } },
+        { "id": "w09-park-yeri", "tr": "park yeri", "de": "Parkplatz", "typ": "chunk", "beispiel": { "tr": "Park yeri var mıydı?", "de": "Gab es einen Parkplatz?" } }
+      ],
+      "grammatik": {
+        "titel": "vardı · yoktu · var mıydı?",
+        "erklaerung": [
+          "var und yok bekommen auch -dı: vardı (es gab / war da), yoktu (es gab nicht).",
+          "Frage: var mıydı? / yok muydu?",
+          "Mit Besitz-Endung = „hatte“: Zamanım yoktu. = Ich hatte keine Zeit."
+        ],
+        "tabelle": {
+          "kopf": ["jetzt", "früher"],
+          "zeilen": [
+            ["var", "vardı"],
+            ["yok", "yoktu"],
+            ["var mı?", "var mıydı?"],
+            ["zamanım yok", "zamanım yoktu"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Çok insan vardı.", "de": "Es waren viele Leute da." },
+          { "tr": "Parkta kimse yoktu.", "de": "Im Park war niemand." },
+          { "tr": "Park yeri var mıydı?", "de": "Gab es einen Parkplatz?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Samstagseinkauf",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Market nasıldı?", "de": "Wie war's im Supermarkt?" },
+          { "sprecher": "Sherin", "tr": "Berbattı! Çok kalabalıktı.", "de": "Furchtbar! Total voll." },
+          { "sprecher": "Pasha", "tr": "Kasada kuyruk var mıydı?", "de": "War eine Schlange an der Kasse?" },
+          { "sprecher": "Sherin", "tr": "Evet, uzun bir kuyruk vardı. Ve park yeri yoktu!", "de": "Ja, eine lange. Und es gab keinen Parkplatz!" },
+          { "sprecher": "Pasha", "tr": "Peki, Inaya ne yaptı?", "de": "Und was hat Inaya gemacht?" },
+          { "sprecher": "Sherin", "tr": "Arabada uyudu. Tek iyi haber bu!", "de": "Im Auto geschlafen. Die einzige gute Nachricht!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w09-kalabalik", "w09-bos", "w09-kimse", "w09-insan"] },
+        { "art": "luecke", "satz": "Parkta kimse yok___.", "loesung": "tu", "optionen": ["tu", "du", "tı"], "de": "Im Park war niemand." },
+        { "art": "luecke", "satz": "Çok insan var___.", "loesung": "dı", "optionen": ["dı", "tı", "di"], "de": "Es waren viele Leute da." },
+        { "art": "hoeren", "vokabel": "w09-kuyruk" },
+        { "art": "auswahl_de_tr", "vokabel": "w09-park-yeri" },
+        { "art": "satzbau", "tr": "Park yeri var mıydı?", "de": "Gab es einen Parkplatz?" },
+        { "art": "auswahl_tr_de", "vokabel": "w09-trafik" },
+        { "art": "hoeren", "vokabel": "w09-yer" },
+        { "art": "tippen", "vokabel": "w09-bos" },
+        { "art": "satzbau", "tr": "Kafede hiç yer yoktu.", "de": "Im Café war kein Platz frei." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Beschreib Pasha einen Ort, an dem du diese Woche warst (Supermarkt, Arzt, Spielplatz): Wie viele Leute, gab es eine Schlange, gab es Platz?",
+        "mustersaetze": [
+          { "tr": "Çok kalabalıktı.", "de": "Es war sehr voll." },
+          { "tr": "Kuyruk yoktu.", "de": "Es gab keine Schlange." },
+          { "tr": "Park yeri var mıydı?", "de": "Gab es einen Parkplatz?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Çok kalabalıktı!", "de": "Es war total voll!", "wann": "Nach dem nächsten Einkauf am Samstag." },
+      "merktipp": { "titel": "yok + tu = yoktu", "text": "yok endet auf k (hart) – darum yoktu mit t. var endet weich – vardı mit d. Fıstıkçı Şahap begleitet dich überall hin." }
+    },
+    {
+      "woche": 9,
+      "tag": 3,
+      "titel": "Wo warst du? – evdeydim",
+      "kannZiel": "sagen, wo du warst und wie es war",
+      "vokabeln": [
+        { "id": "w09-neredeydin", "tr": "Neredeydin?", "de": "Wo warst du?", "typ": "chunk", "beispiel": { "tr": "Dün akşam neredeydin?", "de": "Wo warst du gestern Abend?" } },
+        { "id": "w09-annemlerde", "tr": "annemlerde", "de": "bei meinen Eltern", "typ": "chunk", "beispiel": { "tr": "Pazar günü annemlerdeydik.", "de": "Am Sonntag waren wir bei meinen Eltern." } },
+        { "id": "w09-butun-hafta-sonu", "tr": "bütün hafta sonu", "de": "das ganze Wochenende", "typ": "chunk", "beispiel": { "tr": "Bütün hafta sonu evdeydik.", "de": "Wir waren das ganze Wochenende zu Hause." } },
+        { "id": "w09-yogun", "tr": "yoğun", "de": "beschäftigt / voll (Tag)", "typ": "wort", "beispiel": { "tr": "Çok yoğun bir haftaydı.", "de": "Es war eine sehr volle Woche." } },
+        { "id": "w09-bos-zaman", "tr": "boş zaman", "de": "Freizeit", "typ": "chunk", "beispiel": { "tr": "Hiç boş zamanım yoktu.", "de": "Ich hatte gar keine Freizeit." } },
+        { "id": "w09-sakin", "tr": "sakin", "de": "ruhig", "typ": "wort", "beispiel": { "tr": "Hafta sonu çok sakindi.", "de": "Das Wochenende war sehr ruhig." } },
+        { "id": "w09-sikici", "tr": "sıkıcı", "de": "langweilig", "typ": "wort", "beispiel": { "tr": "Film biraz sıkıcıydı.", "de": "Der Film war etwas langweilig." } },
+        { "id": "w09-harika", "tr": "harika", "de": "toll / großartig", "typ": "wort", "beispiel": { "tr": "Harikaydı!", "de": "Es war großartig!" } },
+        { "id": "w09-berbat", "tr": "berbat", "de": "furchtbar / mies", "typ": "wort", "beispiel": { "tr": "Hava berbattı.", "de": "Das Wetter war mies." } }
+      ],
+      "grammatik": {
+        "titel": "„war“ an Orten und Adjektiven",
+        "erklaerung": [
+          "„war“ hängt an alles: evde → evdeydim (ich war zu Hause), harika → harikaydı (es war toll).",
+          "Nach Vokal kommt y: harikaydı, sıkıcıydı, evdeydik.",
+          "„bei jemandem“: -lerde: annemlerde (bei meinen Eltern), Elif'lerde (bei Elif zu Hause)."
+        ],
+        "tabelle": {
+          "kopf": ["", "war …"],
+          "zeilen": [
+            ["ich", "evdeydim"],
+            ["du", "evdeydin"],
+            ["er/sie", "evdeydi"],
+            ["wir", "evdeydik"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Dün akşam neredeydin?", "de": "Wo warst du gestern Abend?" },
+          { "tr": "Bütün hafta sonu evdeydik.", "de": "Wir waren das ganze Wochenende zu Hause." },
+          { "tr": "Harikaydı!", "de": "Es war großartig!" }
+        ]
+      },
+      "dialog": {
+        "titel": "Anruf von Schwiegermama",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Sherin, hafta sonu neredeydiniz? Aradım, cevap yoktu.", "de": "Sherin, wo wart ihr am Wochenende? Ich hab angerufen, keiner ging ran." },
+          { "sprecher": "Sherin", "tr": "Pardon! Cumartesi Elif'lerdeydik.", "de": "Entschuldigung! Samstag waren wir bei Elif." },
+          { "sprecher": "Pashas Mama", "tr": "Nasıldı?", "de": "Wie war's?" },
+          { "sprecher": "Sherin", "tr": "Harikaydı! Çocuklar çok oynadı.", "de": "Toll! Die Kinder haben viel gespielt." },
+          { "sprecher": "Pashas Mama", "tr": "Ya pazar?", "de": "Und Sonntag?" },
+          { "sprecher": "Sherin", "tr": "Pazar çok sakindi. Bütün gün evdeydik.", "de": "Sonntag war ganz ruhig. Wir waren den ganzen Tag zu Hause." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w09-sakin", "w09-sikici", "w09-harika", "w09-berbat"] },
+        { "art": "luecke", "satz": "Dün akşam nerede___?", "loesung": "ydin", "optionen": ["ydin", "din", "ydim"], "de": "Wo warst du gestern Abend?" },
+        { "art": "luecke", "satz": "Harika___!", "loesung": "ydı", "optionen": ["ydı", "dı", "ydi"], "de": "Es war großartig!" },
+        { "art": "hoeren", "vokabel": "w09-annemlerde" },
+        { "art": "auswahl_de_tr", "vokabel": "w09-bos-zaman" },
+        { "art": "satzbau", "tr": "Bütün hafta sonu evdeydik.", "de": "Wir waren das ganze Wochenende zu Hause." },
+        { "art": "auswahl_tr_de", "vokabel": "w09-yogun" },
+        { "art": "hoeren", "vokabel": "w09-neredeydin" },
+        { "art": "tippen", "vokabel": "w09-sakin" },
+        { "art": "satzbau", "tr": "Film biraz sıkıcıydı.", "de": "Der Film war etwas langweilig." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Bewertet zusammen die letzten fünf Tage: Für jeden Tag sagst du, wo du warst und wie es war (harika, sakin, yoğun, berbat …).",
+        "mustersaetze": [
+          { "tr": "Pazartesi evdeydim. Sakindi.", "de": "Montag war ich zu Hause. Es war ruhig." },
+          { "tr": "Salı çok yoğundu.", "de": "Dienstag war sehr voll." },
+          { "tr": "Cuma harikaydı!", "de": "Freitag war toll!" }
+        ]
+      },
+      "alltagssatz": { "tr": "Harikaydı!", "de": "Es war toll!", "wann": "Wenn jemand fragt, wie dein Wochenende war – und es war schön." },
+      "merktipp": { "titel": "annemler – „meine Mama und Co.“", "text": "-ler an einer Person heißt „und Familie“: annemler = meine Eltern, Elif'ler = Elif und Familie. Darum: Elif'lerdeydik = Wir waren bei Elif (zu Hause)." }
+    },
+    {
+      "woche": 9,
+      "tag": 4,
+      "titel": "Nachfragen",
+      "kannZiel": "Interesse zeigen und nachfragen",
+      "vokabeln": [
+        { "id": "w09-kiminle", "tr": "kiminle?", "de": "mit wem?", "typ": "wort", "beispiel": { "tr": "Kiminle gittin?", "de": "Mit wem bist du hingegangen?" } },
+        { "id": "w09-neden", "tr": "neden?", "de": "warum?", "typ": "wort", "beispiel": { "tr": "Neden gelmedin?", "de": "Warum bist du nicht gekommen?" } },
+        { "id": "w09-sonra-ne-oldu", "tr": "Sonra ne oldu?", "de": "Und was ist dann passiert?", "typ": "chunk", "beispiel": { "tr": "Gerçekten mi? Sonra ne oldu?", "de": "Echt? Und dann?" } },
+        { "id": "w09-hic-mi", "tr": "Hiç … mi?", "de": "Hast du jemals …?", "typ": "chunk", "beispiel": { "tr": "Hiç İstanbul'a gittin mi?", "de": "Warst du schon mal in Istanbul?" } },
+        { "id": "w09-daha-once", "tr": "daha önce", "de": "schon mal / vorher", "typ": "chunk", "beispiel": { "tr": "Daha önce buraya hiç gelmedim.", "de": "Ich war vorher noch nie hier." } },
+        { "id": "w09-ciddi-misin", "tr": "Ciddi misin?", "de": "Im Ernst?", "typ": "chunk", "beispiel": { "tr": "Ciddi misin? İnanmıyorum!", "de": "Im Ernst? Ich glaub's nicht!" } },
+        { "id": "w09-vay", "tr": "Vay!", "de": "Wow!", "typ": "chunk", "beispiel": { "tr": "Vay, çok güzel!", "de": "Wow, wie schön!" } },
+        { "id": "w09-saka-yapiyorsun", "tr": "Şaka yapıyorsun!", "de": "Du machst Witze!", "typ": "chunk", "beispiel": { "tr": "Amani bir pizza mı yedi? Şaka yapıyorsun!", "de": "Amani hat eine Pizza gefressen? Du machst Witze!" } }
+      ],
+      "grammatik": {
+        "titel": "Fragewörter im Überblick",
+        "erklaerung": [
+          "Fragewörter stehen meist direkt vor dem Verb: Kiminle gittin? Neden gelmedin?",
+          "Mit Fragewort braucht man kein mi: Ne yaptın? (nicht „Ne yaptın mı?“).",
+          "Hiç … mi? fragt nach „jemals“: Hiç yüzdün mü? = Bist du jemals geschwommen?"
+        ],
+        "tabelle": {
+          "kopf": ["Frage", "Deutsch"],
+          "zeilen": [
+            ["kim?", "wer?"],
+            ["kiminle?", "mit wem?"],
+            ["ne?", "was?"],
+            ["neden? / niye?", "warum?"],
+            ["ne zaman?", "wann?"],
+            ["nerede? / nereye? / nereden?", "wo? / wohin? / woher?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Kiminle gittin?", "de": "Mit wem bist du hingegangen?" },
+          { "tr": "Neden gelmedin?", "de": "Warum bist du nicht gekommen?" },
+          { "tr": "Sonra ne oldu?", "de": "Und was ist dann passiert?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Pasha erzählt",
+        "zeilen": [
+          { "sprecher": "Pasha", "tr": "Bugün işte çok komik bir şey oldu.", "de": "Heute ist bei der Arbeit was total Lustiges passiert." },
+          { "sprecher": "Sherin", "tr": "Ne oldu?", "de": "Was denn?" },
+          { "sprecher": "Pasha", "tr": "Patronum toplantıya köpeğiyle geldi.", "de": "Mein Chef kam mit seinem Hund ins Meeting." },
+          { "sprecher": "Sherin", "tr": "Şaka yapıyorsun! Sonra ne oldu?", "de": "Du machst Witze! Und dann?" },
+          { "sprecher": "Pasha", "tr": "Köpek masanın altında uyudu. Bütün toplantı boyunca!", "de": "Der Hund hat unterm Tisch geschlafen. Das ganze Meeting lang!" },
+          { "sprecher": "Sherin", "tr": "Vay! Amani'yi de götür o zaman!", "de": "Wow! Dann nimm doch Amani auch mit!" }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w09-kiminle", "w09-neden", "w09-ciddi-misin", "w09-vay"] },
+        { "art": "auswahl_de_tr", "vokabel": "w09-sonra-ne-oldu" },
+        { "art": "hoeren", "vokabel": "w09-saka-yapiyorsun" },
+        { "art": "luecke", "satz": "Hiç havuza gittin ___?", "loesung": "mi", "optionen": ["mi", "mı", "misin"], "de": "Warst du schon mal im Schwimmbad?" },
+        { "art": "satzbau", "tr": "Kiminle gittin?", "de": "Mit wem bist du hingegangen?" },
+        { "art": "auswahl_tr_de", "vokabel": "w09-daha-once" },
+        { "art": "hoeren", "vokabel": "w09-hic-mi" },
+        { "art": "satzbau", "tr": "Neden gelmedin?", "de": "Warum bist du nicht gekommen?" },
+        { "art": "tippen", "vokabel": "w09-neden" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Pasha erzählt dir eine Geschichte (wahr oder ausgedacht) auf Türkisch. Deine Aufgabe: ihn mit mindestens fünf Nachfragen am Laufen halten – kim, kiminle, neden, sonra ne oldu …",
+        "mustersaetze": [
+          { "tr": "Gerçekten mi? Sonra ne oldu?", "de": "Echt? Und dann?" },
+          { "tr": "Kiminle?", "de": "Mit wem?" },
+          { "tr": "Neden?", "de": "Warum?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Sonra ne oldu?", "de": "Und was ist dann passiert?", "wann": "Immer, wenn Pasha heute etwas erzählt – so bleibt das Gespräch auf Türkisch." },
+      "merktipp": { "titel": "Zuhören ist auch Sprechen", "text": "Mit „Gerçekten mi? Sonra ne oldu? Vay!“ kannst du ein ganzes Gespräch auf Türkisch führen, ohne viel selbst zu erzählen. Perfekt, wenn Pashas Familie loslegt." }
+    },
+    {
+      "woche": 9,
+      "tag": 5,
+      "titel": "Essen gehen",
+      "kannZiel": "im Restaurant bestellen und bezahlen",
+      "vokabeln": [
+        { "id": "w09-restoran", "tr": "restoran", "de": "Restaurant", "typ": "wort", "beispiel": { "tr": "Cumartesi restorana gittik.", "de": "Am Samstag waren wir im Restaurant." } },
+        { "id": "w09-garson", "tr": "garson", "de": "Kellner / Kellnerin", "typ": "wort", "beispiel": { "tr": "Garson çok kibardı.", "de": "Der Kellner war sehr freundlich." }, "merktipp": "garson kommt vom französischen garçon – den Kellner rief man früher so." },
+        { "id": "w09-menu", "tr": "menü", "de": "Speisekarte", "typ": "wort", "beispiel": { "tr": "Menüyü alabilir miyiz?", "de": "Können wir die Speisekarte haben?" } },
+        { "id": "w09-siparis-vermek", "tr": "sipariş vermek", "de": "bestellen", "typ": "chunk", "beispiel": { "tr": "Sipariş vermek istiyoruz.", "de": "Wir möchten bestellen." } },
+        { "id": "w09-hesap", "tr": "hesap", "de": "Rechnung", "typ": "wort", "beispiel": { "tr": "Hesap çok yüksekti!", "de": "Die Rechnung war ganz schön hoch!" } },
+        { "id": "w09-hesabi-alabilir-miyiz", "tr": "Hesabı alabilir miyiz?", "de": "Können wir zahlen?", "typ": "chunk", "beispiel": { "tr": "Pardon, hesabı alabilir miyiz?", "de": "Entschuldigung, können wir bitte zahlen?" } },
+        { "id": "w09-bahsis", "tr": "bahşiş", "de": "Trinkgeld", "typ": "wort", "beispiel": { "tr": "Bahşiş bıraktın mı?", "de": "Hast du Trinkgeld gegeben?" } },
+        { "id": "w09-rezervasyon", "tr": "rezervasyon", "de": "Reservierung", "typ": "wort", "beispiel": { "tr": "Rezervasyonunuz var mı?", "de": "Haben Sie reserviert?" } }
+      ],
+      "grammatik": {
+        "titel": "„wir“ höflich: -abilir miyiz?",
+        "erklaerung": [
+          "„Können wir … haben?“: … alabilir miyiz? – wie alabilir miyim, nur mit -iz für „wir“.",
+          "„Wir möchten …“: … istiyoruz. Sipariş vermek istiyoruz. = Wir möchten bestellen.",
+          "Im Restaurant immer siz zum Personal – und das Personal siezt euch auch."
+        ],
+        "beispiele": [
+          { "tr": "Menüyü alabilir miyiz?", "de": "Können wir die Speisekarte haben?" },
+          { "tr": "İki çorba ve bir pilav istiyoruz.", "de": "Wir möchten zwei Suppen und einen Reis." },
+          { "tr": "Hesabı alabilir miyiz?", "de": "Können wir zahlen?" }
+        ]
+      },
+      "dialog": {
+        "titel": "Im türkischen Restaurant",
+        "zeilen": [
+          { "sprecher": "Kellner", "tr": "Hoş geldiniz! Rezervasyonunuz var mı?", "de": "Willkommen! Haben Sie reserviert?" },
+          { "sprecher": "Sherin", "tr": "Hayır. Üç kişiyiz, bir de bebek sandalyesi lazım.", "de": "Nein. Wir sind drei, und wir bräuchten einen Kinderstuhl." },
+          { "sprecher": "Kellner", "tr": "Tabii, buyurun. Menü burada.", "de": "Natürlich, bitte. Hier ist die Karte." },
+          { "sprecher": "Sherin", "tr": "Sipariş vermek istiyoruz. İki mercimek çorbası ve bir pide, lütfen.", "de": "Wir möchten bestellen. Zwei Linsensuppen und ein Pide, bitte." },
+          { "sprecher": "Kellner", "tr": "İçecek ne alırsınız?", "de": "Was möchten Sie trinken?" },
+          { "sprecher": "Sherin", "tr": "İki ayran, lütfen.", "de": "Zwei Ayran, bitte." },
+          { "sprecher": "Pasha", "tr": "Aferin! Mükemmel sipariş verdin.", "de": "Bravo! Du hast perfekt bestellt." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w09-restoran", "w09-garson", "w09-menu", "w09-hesap"] },
+        { "art": "auswahl_de_tr", "vokabel": "w09-hesabi-alabilir-miyiz" },
+        { "art": "hoeren", "vokabel": "w09-siparis-vermek" },
+        { "art": "luecke", "satz": "Menüyü alabilir ___?", "loesung": "miyiz", "optionen": ["miyiz", "miyim", "misiniz"], "de": "Können wir die Speisekarte haben?" },
+        { "art": "satzbau", "tr": "Sipariş vermek istiyoruz.", "de": "Wir möchten bestellen." },
+        { "art": "auswahl_tr_de", "vokabel": "w09-bahsis" },
+        { "art": "hoeren", "vokabel": "w09-rezervasyon" },
+        { "art": "satzbau", "tr": "İki çorba ve bir pilav istiyoruz.", "de": "Wir möchten zwei Suppen und einen Reis." },
+        { "art": "tippen", "vokabel": "w09-hesap" }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Restaurant-Rollenspiel am Küchentisch: Pasha ist der Kellner (er siezt dich). Du bestellst für euch drei, fragst nach einem Kinderstuhl und bittest um die Rechnung.",
+        "mustersaetze": [
+          { "tr": "Menüyü alabilir miyiz?", "de": "Können wir die Karte haben?" },
+          { "tr": "Bir mercimek çorbası, lütfen.", "de": "Eine Linsensuppe, bitte." },
+          { "tr": "Hesabı alabilir miyiz?", "de": "Können wir zahlen?" }
+        ]
+      },
+      "alltagssatz": { "tr": "Hesabı alabilir miyiz?", "de": "Können wir zahlen?", "wann": "Beim nächsten Essen gehen – Pasha lässt dich das machen." },
+      "merktipp": { "titel": "Restaurant-Wörter aus Frankreich", "text": "restoran, garson, menü – drei Wörter, die du praktisch schon kanntest. Türkisch hat viele Wörter aus dem Französischen übernommen." }
+    },
+    {
+      "woche": 9,
+      "tag": 6,
+      "titel": "Festigungstag: Wochenend-Bericht",
+      "kannZiel": "ausführlich vom Wochenende erzählen und Fragen beantworten",
+      "vokabeln": [
+        { "id": "w09-hafta-sonun-nasil-gecti", "tr": "Hafta sonun nasıl geçti?", "de": "Wie war dein Wochenende?", "typ": "chunk", "beispiel": { "tr": "Merhaba Elif! Hafta sonun nasıl geçti?", "de": "Hallo Elif! Wie war dein Wochenende?" } },
+        { "id": "w09-iyi-hafta-sonlari", "tr": "İyi hafta sonları!", "de": "Schönes Wochenende!", "typ": "chunk", "beispiel": { "tr": "Görüşürüz, iyi hafta sonları!", "de": "Bis dann, schönes Wochenende!" } },
+        { "id": "w09-keyifli", "tr": "keyifli", "de": "gemütlich / angenehm", "typ": "wort", "beispiel": { "tr": "Çok keyifli bir pazardı.", "de": "Es war ein sehr gemütlicher Sonntag." } },
+        { "id": "w09-maalesef", "tr": "maalesef", "de": "leider", "typ": "wort", "beispiel": { "tr": "Maalesef gelemedik.", "de": "Leider konnten wir nicht kommen." } },
+        { "id": "w09-cok-yazik", "tr": "Çok yazık!", "de": "Wie schade!", "typ": "chunk", "beispiel": { "tr": "Hasta mıydınız? Çok yazık!", "de": "Wart ihr krank? Wie schade!" } }
+      ],
+      "grammatik": {
+        "titel": "Die Woche auf einen Blick",
+        "erklaerung": [
+          "Frage in der Vergangenheit: gittin mi?, gittiniz mi? – var mıydı?",
+          "„war“ an allem: evdeydik, harikaydı, kalabalıktı. Fragewörter vor das Verb."
+        ],
+        "tabelle": {
+          "kopf": ["", "Beispiel"],
+          "zeilen": [
+            ["Frage", "Eğlendiniz mi?"],
+            ["es gab", "Çok insan vardı."],
+            ["war", "Hafta sonu sakindi."],
+            ["Fragewort", "Kiminle gittin?"]
+          ]
+        },
+        "beispiele": [
+          { "tr": "Hafta sonun nasıl geçti?", "de": "Wie war dein Wochenende?" },
+          { "tr": "Çok keyifliydi, teşekkürler!", "de": "Sehr gemütlich, danke!" },
+          { "tr": "Maalesef hasta oldum.", "de": "Leider bin ich krank geworden." }
+        ]
+      },
+      "dialog": {
+        "titel": "Telefonat mit Pashas Mama",
+        "zeilen": [
+          { "sprecher": "Pashas Mama", "tr": "Kızım, hafta sonun nasıl geçti?", "de": "Liebes, wie war dein Wochenende?" },
+          { "sprecher": "Sherin", "tr": "Çok keyifliydi! Cumartesi restorana gittik.", "de": "Sehr gemütlich! Samstag waren wir im Restaurant." },
+          { "sprecher": "Pashas Mama", "tr": "Inaya ne yedi?", "de": "Was hat Inaya gegessen?" },
+          { "sprecher": "Sherin", "tr": "Çorba ve ekmek. Çok sevdi!", "de": "Suppe und Brot. Sie fand es super!" },
+          { "sprecher": "Pashas Mama", "tr": "Pazar günü de parka gittiniz mi?", "de": "Wart ihr am Sonntag auch im Park?" },
+          { "sprecher": "Sherin", "tr": "Maalesef gidemedik. Bütün gün yağmur yağdı.", "de": "Leider nicht. Es hat den ganzen Tag geregnet." },
+          { "sprecher": "Pashas Mama", "tr": "Çok yazık! Ama Türkçen çok güzel olmuş, maşallah!", "de": "Wie schade! Aber dein Türkisch ist richtig gut geworden, maşallah!" },
+          { "sprecher": "Sherin", "tr": "Teşekkür ederim! Her gün çalışıyorum.", "de": "Danke! Ich übe jeden Tag." }
+        ]
+      },
+      "uebungen": [
+        { "art": "zuordnen", "vokabeln": ["w09-keyifli", "w09-maalesef", "w09-cok-yazik", "w09-iyi-hafta-sonlari"] },
+        { "art": "hoeren", "vokabel": "w09-hafta-sonun-nasil-gecti" },
+        { "art": "satzbau", "tr": "Çok keyifli bir pazardı.", "de": "Es war ein sehr gemütlicher Sonntag." },
+        { "art": "luecke", "satz": "Pazar günü parka gittiniz ___?", "loesung": "mi", "optionen": ["mi", "miydi", "misiniz"], "de": "Wart ihr am Sonntag im Park?" },
+        { "art": "auswahl_de_tr", "vokabel": "w09-maalesef" },
+        { "art": "luecke", "satz": "Oyun alanı çok kalabalık___.", "loesung": "tı", "optionen": ["tı", "dı", "ti"], "de": "Der Spielplatz war sehr voll." },
+        { "art": "hoeren", "vokabel": "w09-kiminle" },
+        { "art": "auswahl_tr_de", "vokabel": "w09-harika" },
+        { "art": "tippen", "vokabel": "w09-vay" },
+        { "art": "satzbau", "tr": "Bütün gün yağmur yağdı.", "de": "Es hat den ganzen Tag geregnet." }
+      ],
+      "sprechauftrag": {
+        "aufgabe": "Großer Samstag: Erzähl Pasha – als wäre er seine Mama am Telefon – ausführlich vom letzten Wochenende: wo ihr wart, wie es war, was Inaya gemacht hat. Er fragt mindestens viermal nach.",
+        "mustersaetze": [
+          { "tr": "Cumartesi … gittik. Çok güzeldi.", "de": "Am Samstag waren wir in … Es war sehr schön." },
+          { "tr": "Pazar günü evdeydik.", "de": "Am Sonntag waren wir zu Hause." },
+          { "tr": "Inaya çok eğlendi.", "de": "Inaya hatte viel Spaß." }
+        ]
+      },
+      "alltagssatz": { "tr": "İyi hafta sonları!", "de": "Schönes Wochenende!", "wann": "Freitags – an jeden, dem du begegnest, der Türkisch versteht." },
+      "merktipp": { "titel": "Smalltalk-Formel", "text": "Montag: „Hafta sonun nasıl geçti?“ – Freitag: „İyi hafta sonları!“ Mit diesen zwei Sätzen rahmst du jede Woche auf Türkisch ein." }
+    }
+  ],
+  "sonntag": {
+    "sprechChallenge": [
+      { "situation": "Erzähl von eurem Wochenende – wo ihr wart, wie es war, wer dabei war.", "hilfe": { "tr": "Cumartesi … gittik. Çok kalabalıktı ama harikaydı.", "de": "Samstag waren wir in … Es war sehr voll, aber toll." } },
+      { "situation": "Pasha erzählt etwas – halte ihn mit Nachfragen am Reden.", "hilfe": { "tr": "Gerçekten mi? Kiminle? Sonra ne oldu?", "de": "Echt? Mit wem? Und dann?" } },
+      { "situation": "Bestell für euch drei im (gespielten) Restaurant und bitte um die Rechnung.", "hilfe": { "tr": "Sipariş vermek istiyoruz … Hesabı alabilir miyiz?", "de": "Wir möchten bestellen … Können wir zahlen?" } }
+    ]
+  }
+}
